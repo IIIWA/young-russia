@@ -1,3 +1,20 @@
+// Google Analytics 4 for the published site. Prototype pages use separate assets.
+{
+  const measurementId = 'G-S6ELZTNJ0N';
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+  window.gtag('js', new Date());
+  window.gtag('config', measurementId, {
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false,
+  });
+
+  const googleTag = document.createElement('script');
+  googleTag.async = true;
+  googleTag.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+  document.head.appendChild(googleTag);
+}
+
 const menuButton = document.querySelector('.menu-button');
 const mobileNav = document.querySelector('#mobile-nav');
 if (menuButton && mobileNav) {

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://young-russia.ru/sitemap.xml

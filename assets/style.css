@@ -103,6 +103,7 @@ h3{font-size:1.5rem;font-weight:750}
 .admiral-page .district-photo-hero{background-image:url("hero-admiralteysky.webp");background-position:center 10%}
 .vyborg-page .district-photo-hero{background-image:url("hero-vyborgsky.webp");background-position:center 45%}
 .kalinin-page .district-photo-hero{background-image:url("hero-kalininsky.webp");background-position:center 47%}
+.kirov-page .district-photo-hero{background-image:url("hero-kirovsky.webp");background-position:center 48%}
 .district-photo-hero::before{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(90deg,rgba(13,27,57,.86) 0%,rgba(16,32,64,.70) 47%,rgba(18,37,68,.27) 100%)}
 .district-photo-hero::after{display:none}
 .district-photo-hero .container{position:relative;z-index:1}
@@ -111,10 +112,8 @@ h3{font-size:1.5rem;font-weight:750}
 .district-photo-hero .section-kicker{color:#d6deff}
 .district-photo-hero .subhero-lead{color:#f0f3ff}
 .district-photo-hero .vo-stats{background:rgba(255,255,255,.94);color:var(--ink);box-shadow:0 18px 48px rgba(10,20,45,.22)}
-.district-photo-credit{width:max-content;max-width:100%;margin:27px 0 0 auto;padding:6px 10px;border-radius:6px;background:rgba(12,23,47,.66);color:#fff;font-size:11px;line-height:1.5;text-align:right}
-.district-photo-credit a{text-decoration:underline;text-underline-offset:2px}
 .district-photo-hero a:focus-visible{outline-color:#fff}
-@media(max-width:760px){.district-photo-hero{min-height:0;padding-bottom:24px}.district-photo-hero::before{background:linear-gradient(180deg,rgba(12,25,53,.82),rgba(15,30,57,.67) 65%,rgba(15,30,57,.53))}.district-photo-credit{margin-top:25px;text-align:left}.vo-page .district-photo-hero{background-position:64% center}.admiral-page .district-photo-hero{background-position:72% top}}
+@media(max-width:760px){.district-photo-hero{min-height:0;padding-bottom:24px}.district-photo-hero::before{background:linear-gradient(180deg,rgba(12,25,53,.82),rgba(15,30,57,.67) 65%,rgba(15,30,57,.53))}.vo-page .district-photo-hero{background-position:64% center}.admiral-page .district-photo-hero{background-position:72% top}}
 .district-pill-ready.needs-review{background:#fff0b8;border-color:#e5bc46;color:var(--ink)}
 .district-pill-ready.needs-review:hover{background:#ffe99b;border-color:#b8870c}
 .district-pill-ready.needs-review .district-number,.district-pill-ready.needs-review .district-pill-arrow{color:#7a5200}
@@ -127,4 +126,6 @@ h3{font-size:1.5rem;font-weight:750}
 .island-banner .hero-actions{gap:12px}
 @media(max-width:760px){.vyborg-page .district-photo-hero{background-position:64% center}}
 .kalinin-page .steps-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.kirov-page .steps-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
 @media(max-width:760px){.kalinin-page .district-photo-hero{background-position:66% center}.kalinin-page .steps-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.kirov-page .district-photo-hero{background-position:72% center}.kirov-page .steps-grid{grid-template-columns:1fr}}

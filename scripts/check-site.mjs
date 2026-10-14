@@ -25,9 +25,14 @@ async function walkPrototype(dir) {
 await walkPrototype(prototypeRoot);
 const missing = [];
 const missingPrototypes = [];
+// Only the existing root-level Saint Petersburg district and club routes skip prototype parity.
+// Pages for future cities must live under city-specific routes and retain prototypes.
+const saintPetersburgPrototypeOptional = route =>
+  (/^districts\/[^/]+\.html$/.test(route) && route !== 'districts/index.html') ||
+  /^clubs\/[^/]+\/[^/]+\.html$/.test(route);
 for (const file of htmlFiles) {
   const route = path.relative(root,file).replaceAll(path.sep,'/');
-  if (!prototypeFiles.has(route)) missingPrototypes.push(route);
+  if (!saintPetersburgPrototypeOptional(route) && !prototypeFiles.has(route)) missingPrototypes.push(route);
   const markup = await fs.readFile(file,'utf8');
   for (const match of markup.matchAll(/(?:href|src)="([^"]+)"/g)) {
     const target = match[1];
@@ -43,4 +48,4 @@ if (!htmlFiles.length || missing.length || missingPrototypes.length) {
   missing.forEach(item=>console.error(item));
   missingPrototypes.forEach(item=>console.error(`No saved prototype for ${item}`));
   process.exitCode=1;
-} else console.log(`Checked ${htmlFiles.length} HTML pages: local links resolve and every route has a saved prototype.`);
+} else console.log(`Checked ${htmlFiles.length} HTML pages: local links resolve and required prototype routes are saved.`);

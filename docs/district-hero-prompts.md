@@ -1,0 +1,19 @@
+# Промпты для фонов районов
+
+Изображения созданы встроенным инструментом `imagegen`. PNG-файлы в этой папке являются сохранёнными исходниками; WebP для сайта лежат в `assets/`.
+
+## Василеостровский район
+
+> Use case: photorealistic-natural. Asset type: wide full-width website hero background for the Vasileostrovsky district page of a Saint Petersburg youth-club directory. Create an original, high-quality photorealistic architectural image of the Strelka (Spit) of Vasilyevsky Island in Saint Petersburg. The historic Old Saint Petersburg Stock Exchange (white neoclassical building) and BOTH red Rostral Columns must be clearly recognizable, viewed from across the Neva. Wide horizontal 16:9 composition suitable for a website banner; keep the main architectural ensemble toward the center-right and leave a calm, darker, less detailed area on the left for a white heading. Natural bright overcast or soft golden-hour light, believable stone and water textures, realistic proportions, no dramatic fantasy elements, no people in foreground. No text, logos, watermarks, signs, frames, or collage. This is an illustrative generated image of real architecture, not a claim to be a documentary photograph.
+
+## Адмиралтейский район
+
+> Use case: photorealistic-natural. Asset type: wide full-width website hero background for the Admiralteysky district page of a Saint Petersburg youth-club directory. Create an original, high-quality photorealistic architectural image of central Saint Petersburg, viewed from across the Neva, clearly showing the historic Admiralty building with its distinctive tall gilded spire and the recognizable gold dome of Saint Isaac's Cathedral behind it. Both landmarks should have believable proportions and be identifiable. Wide horizontal 16:9 composition suitable for a website banner; place the main buildings toward the center-right and leave a calm, darker, less detailed area on the left for a white heading. Natural soft evening light, realistic river and stone textures, refined but documentary-like visual mood. No prominent people, text, logos, watermarks, signs, frames, collage, or fantasy architecture. This is an illustrative generated image of real architecture, not a claim to be a documentary photograph.
+
+## Калининский район
+
+> Use case: photorealistic-natural. Asset type: wide website hero background for the Kalininsky district page of a Saint Petersburg youth-club catalog. Create an original photorealistic architectural scene depicting the recognizable Finlyandsky Railway Station (Финляндский вокзал) in Saint Petersburg: long light stone 1960s modernist station facade with vertical glazed bays; its distinctive tall rectangular clock tower with a large clock and slender spire. Show a broad urban square in the foreground and a calm blue-grey Petersburg sky. Wide cinematic 16:9 composition, station and clock tower concentrated in the right half, left half quieter and darker for white UI overlay. Natural late afternoon light, realistic materials, editorial architecture photography, matching the site's existing atmospheric district hero images. No legible signs or text, no logos, no religious domes, no crowds or identifiable people, no added monuments, no watermarks. Architectural form should look plausibly like the real Finlyandsky Station; this is a new generated image, not a copy of any source photograph.
+
+## Кировский район
+
+> Use case: photorealistic-natural. Asset type: wide website district hero. Original realistic architectural visualization of the Narva Triumphal Gate (Нарвские триумфальные ворота) on Stachek Square, Saint Petersburg. Recognizable dark green single triumphal arch, bronze quadriga on top, massive columns. Wide horizontal panorama, entire arch on right half, open calm sky on left for overlaid website text. Soft daylight, restrained natural colors, photorealistic. No text, signs, logos, watermark, invented second arch or crowded street.
