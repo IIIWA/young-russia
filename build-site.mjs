@@ -159,8 +159,8 @@ function footer(base) {
 }
 function page({title, description, base='', active='', body, className=''}) {
   const heroPhoto = districtHeroPhotos[className];
-  const photoPreload = heroPhoto ? `<link rel="preload" as="image" href="${base}assets/${heroPhoto.file}">` : '';
-  const pageBody = heroPhoto ? body.replace('class="subhero vo-subhero"', 'class="subhero vo-subhero district-photo-hero"') : body;
+  const photoPreload = heroPhoto ? `<link rel="preload" as="image" href="${base}assets/${heroPhoto.file}" fetchpriority="high">` : '';
+  const pageBody = heroPhoto ? body.replace('class="subhero vo-subhero"><div class="container"', `class="subhero vo-subhero district-photo-hero"><img class="district-hero-image" src="${base}assets/${heroPhoto.file}" alt="" aria-hidden="true" loading="eager" fetchpriority="high" decoding="async" onload="this.classList.add('is-loaded')"><div class="container"`) : body;
   return `<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#faf8f1"><meta name="description" content="${html(description)}"><title>${html(title)} | ПМК Петербурга</title><link rel="icon" href="${base}assets/favicon.svg" type="image/svg+xml">${photoPreload}<link rel="stylesheet" href="${base}assets/${styleAsset}"><script src="${base}assets/${scriptAsset}" defer></script></head><body class="${className}"><a class="skip-link" href="#main">Перейти к&nbsp;содержимому</a>${header(base, active)}<main id="main">${pageBody}</main>${footer(base)}</body></html>`;
 }
 function clubCard(club, base = '../', featured = false) {

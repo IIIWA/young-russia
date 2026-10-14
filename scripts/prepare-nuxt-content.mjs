@@ -42,7 +42,7 @@ for await (const filename of htmlFiles(legacyDir)) {
     footer: required(markup, /(<footer class="site-footer">[\s\S]*?<\/footer>)/, filename),
     stylesheet: required(markup, /<link rel="stylesheet" href="(?:\.\.\/)*assets\/([^"]+)">/, filename),
     script: required(markup, /<script src="(?:\.\.\/)*assets\/([^"]+)" defer><\/script>/, filename),
-    hero: markup.match(/<link rel="preload" as="image" href="(?:\.\.\/)*assets\/([^"]+)">/)?.[1] ?? null,
+    hero: markup.match(/<link rel="preload" as="image" href="(?:\.\.\/)*assets\/([^"]+)"[^>]*>/)?.[1] ?? null,
   };
   const target = path.join(pagesDir, `${relative}.json`);
   await fs.mkdir(path.dirname(target), { recursive: true });

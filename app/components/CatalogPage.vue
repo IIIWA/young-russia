@@ -27,7 +27,7 @@ useHead(() => ({
   link: [
     { rel: 'icon', href: '/assets/favicon.svg', type: 'image/svg+xml' },
     { rel: 'stylesheet', href: `/assets/${page.value?.stylesheet ?? 'style.css'}` },
-    ...(page.value?.hero ? [{ rel: 'preload', as: 'image', href: `/assets/${page.value.hero}` }] : []),
+    ...(page.value?.hero ? [{ rel: 'preload', as: 'image', href: `/assets/${page.value.hero}`, fetchpriority: 'high' }] : []),
   ],
 }))
 </script>
