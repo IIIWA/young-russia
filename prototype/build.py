@@ -136,7 +136,7 @@ def slug(value: str) -> str:
 def club_topics(club: dict) -> list[str]:
     content = " ".join(club["activities"]).lower()
     rules = {
-        "languages": r"англий|немец|корей|япон|иностранн|язык|лингвист",
+        "languages": r"англий|немец|корей|француз|япон|билингв|иностранн|язык|лингвист",
         "sport": r"спорт|бокс|борьб|самбо|айкидо|дзюдо|джиу|карат|фитнес|йога|теннис|хоккей|атлет|пауэр|бодибилд|футбол|шахмат|бильярд|гребл|парус|лазертаг|туризм|единобор|дартс|офп|самооборон|городош|скалолаз|тхэквондо|армрестлинг|акробат|гимнастик|волейбол|стрельб|кик.бокс|аэробик|рукопаш",
         "dance": r"тан|хореограф|брейк|зумб|чирлидинг|контемп|хиллс|хип-хоп|k-pop|джаз-модерн",
         "creative": r"изо|рисован|живопис|лепк|флорист|арт|дпи|кукл|творч|фотограф|дизайн|вышив|апсайкл|мастерск|граффити|керамик|швейн|роспис|батик|график|декор|акварел|фото|костюм|фелтинг",
@@ -296,7 +296,7 @@ def make_home() -> str:
     topics = section(3, "Выбор направления", "topics",
         '<div class="section-heading"><div><h2>Что тебе интересно?</h2><p>Выбери тему. Пока поиск покажет клубы Василеостровского района.</p></div></div>'
         f'<div class="linked-grid three">{topic_cards}</div>',
-        "Темы собраны по направлениям из PDF. При добавлении районов список тем можно пересмотреть.")
+        "Темы для Василеостровского района обновлены по списку ПМЦ от 12.10.2026. При добавлении районов список тем можно пересмотреть.")
 
     featured = [next(item for item in CLUBS if item["name"] == name) for name in ["Морской", "Аврора", "Витана"]]
     vo = section(4, "Первый район", "vasileostrovsky",
@@ -306,7 +306,7 @@ def make_home() -> str:
         '<div class="stat-box"><strong>31 + 1</strong><span>клубы и пространство</span></div></div>'
         '<div class="mini-heading"><h3>Примеры карточек</h3><span>Кликабельные страницы</span></div>'
         f'<div class="linked-grid three">{"".join(club_card(item, "") for item in featured)}</div>',
-        "Состав района взят из городской базы учреждений. Действующий набор и расписание уточнить.",
+        "Адреса, телефоны и направления обновлены по списку ПМЦ от 12.10.2026. Условия участия, набор и расписание уточнить.",
         "gray-band")
 
     district_cards = "".join(
@@ -400,10 +400,10 @@ def make_vo() -> str:
         '</div>',
         "После подтверждения условий добавить поля на уровне отдельной программы.")
     source = section(5, "Источник сведений", "vo-sources",
-        '<div class="split-block"><div><h2>Основа списка</h2><p>Клубы сведены из открытого PDF и страниц ПМЦ Василеостровского района.</p></div>'
+        '<div class="split-block"><div><h2>Основа списка</h2><p>Адреса, телефоны и направления обновлены по списку ПМЦ Василеостровского района от 12.10.2026. Документ предоставлен для проекта и не размещён на сайте.</p></div>'
         '<div class="source-links"><a href="https://spbdm.ru/baza-uchrezhdeniy/" target="_blank" rel="noopener noreferrer">Городская база ↗</a>'
         '<a href="https://www.pmcvo.ru/" target="_blank" rel="noopener noreferrer">Сайт ПМЦ ВО ↗</a></div></div>',
-        "Сверить контакты и программы перед публичным запуском. Дата загрузки PDF не равна дате проверки каждого клуба.")
+        "Дата документа не означает, что каждая группа открыта для записи. Стоимость, расписание и набор нужно уточнять у ПМЦ.")
     return page("Василеостровский район", "Клубы Василеостровского района", hero + finder + listing + questions + source, base="../", active="vo")
 
 
@@ -649,7 +649,13 @@ def make_club(
         club_type += f' · {organization["name"]}'
     institution_url = club.get("officialUrl") or (organization.get("site", "") if organization else "")
     district_href = f'{base}districts/{district_code}.html'
-    activity_intro = "ПМЦ относит эти направления к бесплатным занятиям для молодёжи. Возраст и набор каждой группы нужно уточнить." if district_code == "kalininsky" else "Направления из открытых материалов по этой площадке."
+    activity_intro = (
+        "ПМЦ относит эти направления к бесплатным занятиям для молодёжи. Возраст и набор каждой группы нужно уточнить."
+        if district_code == "kalininsky" else
+        "Направления указаны в списке ПМЦ от 12.10.2026. Условия участия и действующие группы нужно уточнить."
+        if district_code == "vasileostrovsky" else
+        "Направления из открытых материалов по этой площадке."
+    )
     hero = section(1, "Кратко о площадке", "club-intro",
         breadcrumb([("Главная", f"{base}index.html"), (f"{district_name} район", district_href), (name, None)])
         + f'<div class="club-hero-copy"><p class="eyebrow">{text(club_type)}</p><h1>{text(name)}</h1>'
@@ -659,7 +665,8 @@ def make_club(
         f'<div class="split-block"><div><h2>Чем можно заняться</h2><p>{text(activity_intro)}</p></div>{activities}</div>',
         "Подтвердить, какие группы работают сейчас, возраст, расписание и наличие мест.")
     phone = club.get("phone") or ""
-    phone_html = f'<div class="contact-row"><span>Телефон из открытого источника</span><strong>{text(phone)}</strong></div>' if phone else '<div class="contact-row"><span>Телефон</span><strong>Уточняется</strong></div>'
+    phone_label = "Телефон из списка ПМЦ" if district_code == "vasileostrovsky" else "Телефон из открытого источника"
+    phone_html = f'<div class="contact-row"><span>{phone_label}</span><strong>{text(phone)}</strong></div>' if phone else '<div class="contact-row"><span>Телефон</span><strong>Уточняется</strong></div>'
     email = club.get("email") or ""
     email_html = f'<div class="contact-row"><span>Email из документа</span><strong><a href="mailto:{escape(email)}">{text(email)}</a></strong></div>' if email else ""
     links = []
@@ -682,10 +689,14 @@ def make_club(
         '<div class="info-card"><b>04</b><h3>Запись</h3><p>Как присоединиться.</p></div>'
         '</div>',
         "Сейчас нет подтверждённого расписания и формы записи. Добавить их после сверки.")
+    source_copy = (text("Адрес, телефон и направления обновлены по списку ПМЦ от 12.10.2026. Перед поездкой проверь их у организатора.")
+                   if district_code == "vasileostrovsky" else
+                   "Список направлений и контактов составлен по открытым материалам. Перед поездкой проверь их у организатора.")
+    source_link_label = "Сайт ПМЦ ВО ↗" if district_code == "vasileostrovsky" else "Источник направлений ↗"
     source = section(5, "Основа карточки", "source",
-        '<div class="split-block"><div><h2>Откуда сведения</h2><p>Список направлений и контактов составлен по открытым материалам. Перед поездкой проверь их у организатора.</p></div>'
+        f'<div class="split-block"><div><h2>Откуда сведения</h2><p>{source_copy}</p></div>'
         '<div class="source-links">'
-        f'<a href="{escape(club.get("sourceUrl", "https://spbdm.ru/baza-uchrezhdeniy/"))}" target="_blank" rel="noopener noreferrer">Источник направлений ↗</a>'
+        f'<a href="{escape(club.get("sourceUrl", "https://spbdm.ru/baza-uchrezhdeniy/"))}" target="_blank" rel="noopener noreferrer">{source_link_label}</a>'
         + (f'<a href="{KALININ_SOURCE}" target="_blank" rel="noopener noreferrer">Адрес и телефон ↗</a>' if district_code == "kalininsky" else '')
         + f'<a href="{escape(district_href)}">Все клубы района →</a></div></div>',
         "Добавить дату проверки и подтверждённого ответственного за обновления.")

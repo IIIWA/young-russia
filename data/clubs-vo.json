@@ -2,21 +2,20 @@
   {
     "type": "ПМК",
     "name": "Аврора",
-    "address": "1-я линия В.О., д. 22",
-    "phone": "327-09-95",
+    "address": "1-я линия В.О., д. 22 (вход с пер. Репина, д. 23)",
+    "phone": "328-35-06",
     "officialUrl": "https://www.pmcvo.ru/pmkavrora.html",
     "vkUrl": "",
     "activities": [
       "Хореография",
-      "брейк-данс",
-      "краеведение",
-      "ИЗО",
-      "арт-дизайн",
-      "настольные игры"
+      "Краеведение",
+      "Настольные игры",
+      "Билингва"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
@@ -26,77 +25,92 @@
     "officialUrl": "https://www.pmcvo.ru/pmk-belyi-medved.html",
     "vkUrl": "",
     "activities": [
-      "Пауэрлифтинг",
-      "атлетическая гимнастика"
+      "Атлетическая гимнастика",
+      "Атлетизм",
+      "Пауэрлифтинг"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Виндсерфинг",
     "address": "Морская наб., д. 15",
-    "phone": "355-61-26",
+    "phone": "355-61-26; +7 921 650-24-06",
     "officialUrl": "https://www.pmcvo.ru/pmkvindserfing.html",
     "vkUrl": "",
     "activities": [
-      "Гребля",
-      "атлетическая гимнастика",
-      "парусный спорт"
+      "Народная гребля",
+      "Гребля-индор",
+      "Парусный спорт",
+      "Атлетическая гимнастика"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "Адрес почты в PDF читается неоднозначно"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Витана",
-    "address": "10-я линия В.О., д. 47, лит. А",
+    "address": "10-я линия В.О., д. 47-Б",
     "phone": "+7 921 945-97-89",
     "officialUrl": "https://www.pmcvo.ru/pmkvitana.html",
     "vkUrl": "https://vk.com/vitanavospb",
     "activities": [
-      "Танцы",
-      "фитнес-йога",
-      "чирлидинг",
-      "настольный теннис"
+      "Чир-спорт",
+      "ОФП по чир-спорту",
+      "Соло-латина",
+      "Фитнес",
+      "Фитнес-йога",
+      "Настольный теннис"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Дружба",
     "address": "Большой пр. В.О., д. 56",
-    "phone": "",
+    "phone": "321-46-81; +7 904 607-57-07",
     "officialUrl": "https://www.pmcvo.ru/pmkdrygba.html",
     "vkUrl": "",
     "activities": [
+      "Фитнес",
+      "Йога",
       "Самбо",
-      "фитнес"
+      "Грэпплинг"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "В PDF нет прямого телефона и почты клуба"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Камчатка",
     "address": "Камская ул., д. 14",
-    "phone": "324-73-84",
+    "phone": "+7 962 354-07-88",
     "officialUrl": "https://www.pmcvo.ru/pmkkamchatka.html",
     "vkUrl": "",
     "activities": [
       "Брейк-данс",
-      "бальные и латиноамериканские танцы",
-      "капоэйра",
-      "зумба"
+      "Футворк",
+      "Бальные танцы",
+      "Латиноамериканские танцы",
+      "Капоэйра",
+      "Зумба",
+      "Бачата",
+      "Танцевальная семья"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "Ремонт клуба упомянут в новости администрации о планах на 2026 год"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
@@ -106,45 +120,58 @@
     "officialUrl": "https://www.pmcvo.ru/pmkleningradec.html",
     "vkUrl": "",
     "activities": [
-      "Вокал",
-      "атлетическая гимнастика",
-      "театр",
-      "ОФП"
+      "Театральная студия",
+      "Сценическое искусство",
+      "Бодибилдинг",
+      "Пауэрлифтинг"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "Ремонт клуба упомянут в новости администрации о планах на 2026 год"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Маяк-Олимпикс",
     "address": "Наличная ул., д. 3/21",
-    "phone": "322-88-78",
+    "phone": "+7 905 286-82-16",
     "officialUrl": "https://www.pmcvo.ru/pmk-mayak-olimpics.html",
     "vkUrl": "",
     "activities": [
-      "Инклюзивные студии и секции",
-      "театр"
+      "Занятия для молодёжи с ОВЗ",
+      "Парусный спорт",
+      "Фитнес",
+      "Театральная студия",
+      "ДПИ",
+      "Лепка",
+      "ИЗО",
+      "Вышивка",
+      "Работа с тканью",
+      "Краеведение",
+      "Танцевальная студия",
+      "Спортивная скакалка"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "Перечисленные в списке ПМЦ занятия адресованы молодёжи с ограниченными возможностями здоровья.",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Молния",
     "address": "14-я линия В.О., д. 97",
-    "phone": "327-88-78",
+    "phone": "327-88-78; +7 921 995-40-14",
     "officialUrl": "https://www.pmcvo.ru/pmk-molniya.html",
     "vkUrl": "https://vk.com/club17271635",
     "activities": [
-      "Айкидо",
-      "кикбоксинг",
-      "ОФП"
+      "Кикбоксинг",
+      "ОФП с элементами кикбоксинга",
+      "Бокс"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
@@ -155,12 +182,14 @@
     "vkUrl": "https://vk.com/pmk_morskoy",
     "activities": [
       "Гитара",
-      "разговорный английский и немецкий",
-      "фотография"
+      "Курс «Сам себе кинолог»",
+      "Разговорный клуб: английский, немецкий, японский",
+      "Фотостудия"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
@@ -170,63 +199,71 @@
     "officialUrl": "https://www.pmcvo.ru/pmknadegda.html",
     "vkUrl": "https://vk.com/club92516077",
     "activities": [
-      "Актёрское и ораторское мастерство",
-      "дартс",
-      "вокал",
-      "авторская песня"
+      "Актёрское мастерство",
+      "Ораторское искусство",
+      "Дартс",
+      "Вокал",
+      "Авторская песня",
+      "Укулеле"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "В анонсе 2026 адрес уточнён как д. 29/53"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Отвага",
     "address": "Камская ул., д. 14",
-    "phone": "327-75-79",
+    "phone": "327-75-79; +7 921 995-40-14",
     "officialUrl": "https://www.pmcvo.ru/pmkotvaga.html",
     "vkUrl": "",
     "activities": [
       "Рукопашный бой",
-      "бокс",
-      "самооборона",
-      "ОФП"
+      "Самооборона",
+      "ОФП",
+      "Бокс",
+      "ОФП с элементами бокса"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "В PDF также указаны платные направления; в витрину брать только бесплатные"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Планета",
     "address": "Наличная ул., д. 3/21",
-    "phone": "322-39-76",
+    "phone": "+7 911 901-02-20",
     "officialUrl": "https://www.pmcvo.ru/pmk-planeta.html",
     "vkUrl": "https://vk.com/public195516119",
     "activities": [
-      "Театр",
-      "флористика",
-      "ИЗО",
-      "художественное слово",
-      "танец"
+      "Театральная студия",
+      "Сценическая речь",
+      "Художественное слово",
+      "Сценическое движение",
+      "Флордизайн",
+      "ИЗО"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Пресс-клуб",
-    "address": "17-я линия В.О., д. 18, к. 2",
+    "address": "17-я линия В.О., д. 18",
     "phone": "",
     "officialUrl": "https://www.pmcvo.ru/pmkpressclub.html",
     "vkUrl": "https://vk.com/publicvvo",
     "activities": [
       "Волонтёрство"
     ],
-    "status": "Статус клуба и контакты уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "В PDF указана вакансия и нулевые показатели; сведения о работе и наборе уточнить"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "В списке ПМЦ для заведующего указана вакансия; режим работы и набор уточнить.",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "Молодёжное пространство",
@@ -237,26 +274,33 @@
     "vkUrl": "",
     "activities": [
       "Коворкинг",
-      "мероприятия",
-      "проекты"
+      "Мероприятия",
+      "Тир",
+      "Подкасты",
+      "Видеостудия"
     ],
-    "status": "Сверить программу и контакты",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "В PDF вакансия и нулевые показатели; на сайте ПМЦ есть анонсы мероприятий 2026 года"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "В списке ПМЦ для заведующего указана вакансия; режим работы и набор уточнить.",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Протон",
     "address": "9-я линия В.О., д. 52",
-    "phone": "",
+    "phone": "323-85-46; +7 921 388-91-13",
     "officialUrl": "https://www.pmcvo.ru/pmkproton.html",
     "vkUrl": "",
     "activities": [
-      "Драматический театр"
+      "Актёрское мастерство",
+      "Актёрский вокал",
+      "Перформанс",
+      "Медиа в искусстве"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "В PDF нет прямого телефона и почты клуба"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
@@ -266,11 +310,13 @@
     "officialUrl": "https://www.pmcvo.ru/pmkradyga.html",
     "vkUrl": "",
     "activities": [
-      "Бильярд"
+      "Русский бильярд",
+      "Пул"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
@@ -280,16 +326,17 @@
     "officialUrl": "https://www.pmcvo.ru/pmkrovesnik.html",
     "vkUrl": "",
     "activities": [
-      "ДПИ",
-      "ИЗО",
-      "городошный спорт",
-      "настольный хоккей",
-      "компьютерная грамотность",
-      "ОФП"
+      "ОФП",
+      "Городошный спорт",
+      "Настольный хоккей",
+      "Информатика",
+      "ИЗО («Мир искусства»)",
+      "Разговорный клуб: французский, английский"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "Проверить два адреса и электронную почту"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
@@ -299,27 +346,31 @@
     "officialUrl": "https://www.pmcvo.ru/pmksalut.html",
     "vkUrl": "",
     "activities": [
-      "Живопись",
-      "литература",
-      "театр",
-      "кино",
-      "разговорный клуб"
+      "Живопись (сурдо-студия)",
+      "Английский клуб",
+      "Киноклуб",
+      "Клуб творчества"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "Почта в PDF читается неоднозначно"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Севера",
     "address": "9-я линия В.О., д. 52",
-    "phone": "",
+    "phone": "323-60-52; +7 921 388-91-13",
     "officialUrl": "https://www.pmcvo.ru/pmk-severa.html",
     "vkUrl": "",
-    "activities": [],
-    "status": "Программу и контакты уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "Уточнить программу и контакты"
+    "activities": [
+      "Арт-терапия",
+      "Театр"
+    ],
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
@@ -330,123 +381,137 @@
     "vkUrl": "",
     "activities": [
       "Скаутинг",
-      "Тен-Синг",
-      "молодая семья"
+      "Первая доврачебная помощь"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Спарта",
     "address": "наб. Макарова, д. 34",
-    "phone": "328-55-96",
+    "phone": "328-55-96; +7 911 213-95-38",
     "officialUrl": "https://www.pmcvo.ru/pmksparta.html",
     "vkUrl": "https://vk.com/club12646245",
     "activities": [
       "ОФП",
-      "джаз-модерн",
-      "хай хиллс",
-      "контемпорари"
+      "Джаз-модерн",
+      "Контемпорари",
+      "Хай-хиллс",
+      "Стретчинг",
+      "Хип-хоп"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "Почта в PDF читается неоднозначно"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Факел",
     "address": "Гаванская ул., д. 47, корп. 2",
-    "phone": "",
+    "phone": "355-14-14",
     "officialUrl": "https://www.pmcvo.ru/pmk-fakel.html",
     "vkUrl": "",
     "activities": [
+      "Джиу-джитсу",
       "Дзюдо",
-      "джиу-джитсу",
-      "футбол",
-      "кикбоксинг",
-      "йога",
-      "чирлидинг"
+      "Футбол",
+      "ОФП с элементами футбола",
+      "Кикбоксинг",
+      "ОФП с элементами кикбоксинга",
+      "Йога",
+      "Чирлидинг"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "В PDF нет прямого телефона и почты клуба"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Фонарик",
-    "address": "ул. Шевченко, д. 3, лит. Б",
-    "phone": "322-88-78",
+    "address": "ул. Шевченко, д. 3-Б",
+    "phone": "+7 905 286-82-16",
     "officialUrl": "https://www.pmcvo.ru/pmkfonarik.html",
     "vkUrl": "",
     "activities": [
-      "Инклюзивные студии и секции"
+      "Вышивка",
+      "Театральная студия «Художественное слово»"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Центр творчества",
     "address": "Малый пр. В.О., д. 26",
-    "phone": "327-09-96",
+    "phone": "327-09-95; +7 952 264-47-23",
     "officialUrl": "https://www.pmcvo.ru/pmkcentrtvorchestva.html",
     "vkUrl": "",
-    "activities": [],
-    "status": "Статус клуба уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "В PDF нулевые показатели; уточнить текущую работу"
+    "activities": [
+      "Фотоклуб"
+    ],
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Центр туристской подготовки",
     "address": "Средний пр. В.О., д. 106",
-    "phone": "322-39-76",
+    "phone": "+7 911 901-02-20",
     "officialUrl": "https://www.pmcvo.ru/pmkcenttyr.html",
     "vkUrl": "",
     "activities": [
-      "Эстрадный вокал",
-      "школа гидов",
-      "квесты"
+      "Эстрадный вокал"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Чайка",
     "address": "Кадетская линия, д. 17",
-    "phone": "323-53-51",
+    "phone": "323-53-51; +7 981 732-41-22",
     "officialUrl": "https://www.pmcvo.ru/pmkchayka.html",
     "vkUrl": "https://vk.com/clubchayka",
     "activities": [
       "Эстрадный вокал",
-      "лепка",
+      "Народный вокал",
+      "ДПИ",
       "ИЗО",
-      "китайская живопись",
-      "ДПИ"
+      "Фотостудия",
+      "Гитара",
+      "Фортепиано"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "Почта в PDF читается неоднозначно"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Шахматный",
     "address": "Морская наб., д. 15",
-    "phone": "351-71-78",
+    "phone": "351-71-78; +7 921 970-17-17",
     "officialUrl": "https://www.pmcvo.ru/pmkshahmatnyi.html",
     "vkUrl": "",
     "activities": [
       "Шахматы",
-      "история шахмат"
+      "История шахмат"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
@@ -456,30 +521,31 @@
     "officialUrl": "https://www.pmcvo.ru/pmkshtyrm.html",
     "vkUrl": "",
     "activities": [
-      "ИЗО",
-      "ДПИ",
-      "авторская кукла"
+      "Изобразительное искусство («Ступени творчества»)"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
     "name": "Эллада",
-    "address": "12-я линия В.О., д. 9",
-    "phone": "327-19-71",
+    "address": "12-я линия В.О., д. 9 (вход с 11-й линии, д. 18)",
+    "phone": "327-19-71; +7 921 637-37-86",
     "officialUrl": "https://www.pmcvo.ru/pmk-ellada.html",
     "vkUrl": "",
     "activities": [
       "Бодибилдинг",
-      "пауэрлифтинг",
-      "атлетическая гимнастика",
-      "ОФП"
+      "Пауэрлифтинг",
+      "Атлетическая гимнастика",
+      "ОФП",
+      "Армлифтинг"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": "В PDF также указаны платные занятия; почту нужно уточнить"
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
@@ -489,14 +555,17 @@
     "officialUrl": "https://www.pmcvo.ru/pmkunost.html",
     "vkUrl": "",
     "activities": [
-      "ДПИ",
-      "современный танец",
-      "радиотехника",
-      "компьютерные игры"
+      "Классический танец (боди-балет)",
+      "Стретчинг",
+      "Компьютерные игры",
+      "Радиотехнический кружок",
+      "Вокал",
+      "Вокальный семейный клуб"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   },
   {
     "type": "ПМК",
@@ -506,11 +575,12 @@
     "officialUrl": "https://www.pmcvo.ru/pmkupiter.html",
     "vkUrl": "",
     "activities": [
-      "Хор",
-      "вокал"
+      "Вокал",
+      "Хор"
     ],
-    "status": "Из PDF; уточнить",
-    "sourceUrl": "https://spbdm.ru/upload/iblock/44f/3ko4hw7kb9blqxwska2oybbhnt825g27/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%9E%20%D0%A1%D0%9F%D0%B1.pdf",
-    "note": ""
+    "status": "По списку ПМЦ от 12.10.2026; действующий набор уточнить",
+    "sourceUrl": "https://www.pmcvo.ru/",
+    "note": "",
+    "sourceDate": "12.10.2026"
   }
 ]
