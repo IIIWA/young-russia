@@ -1,0 +1,10 @@
+{
+  "name": "young-russia-pmk",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build-site.mjs",
+    "check": "node scripts/check-site.mjs",
+    "preview": "node scripts/serve.mjs"
+  }
+}

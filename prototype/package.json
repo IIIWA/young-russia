@@ -1,0 +1,8 @@
+{
+  "name": "pmk-wireframe",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
