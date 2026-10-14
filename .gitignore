@@ -1,4 +1,11 @@
 node_modules/
+.nuxt/
+.output/
+.data/
+app/content/
+public/assets/
+public/robots.txt
+public/sitemap.xml
 **/__pycache__/
 *.pyc
 *.log

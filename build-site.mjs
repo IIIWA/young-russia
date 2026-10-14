@@ -4,7 +4,7 @@ import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
-const out = path.join(root, 'dist');
+const out = process.env.SITE_OUTPUT_DIR ? path.resolve(root, process.env.SITE_OUTPUT_DIR) : path.join(root, 'dist');
 const styleHash = createHash('sha256').update(await fs.readFile(path.join(root, 'assets', 'style.css'))).digest('hex').slice(0, 12);
 const scriptHash = createHash('sha256').update(await fs.readFile(path.join(root, 'assets', 'site.js'))).digest('hex').slice(0, 12);
 const styleAsset = `style-${styleHash}.css`;

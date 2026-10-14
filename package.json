@@ -2,9 +2,18 @@
   "name": "young-russia-pmk",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": "^22.22.3 || ^24.15.0 || >=26.0.0"
+  },
   "scripts": {
-    "build": "node build-site.mjs",
+    "prepare:nuxt-content": "node scripts/prepare-nuxt-content.mjs",
+    "dev": "npm run prepare:nuxt-content && nuxt dev",
+    "build": "npm run prepare:nuxt-content && nuxt generate && node scripts/publish-nuxt.mjs",
+    "build:legacy": "node build-site.mjs",
     "check": "node scripts/check-site.mjs",
     "preview": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "nuxt": "^4.6.1"
   }
 }

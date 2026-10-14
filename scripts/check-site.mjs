@@ -2,7 +2,10 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'dist');
+const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const root = process.env.SITE_CHECK_ROOT
+  ? path.resolve(projectRoot, process.env.SITE_CHECK_ROOT)
+  : path.join(projectRoot, 'dist');
 const prototypeRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'prototype', 'site');
 const files = [];
 async function walk(dir) {
@@ -14,6 +17,7 @@ async function walk(dir) {
 }
 await walk(root);
 const htmlFiles = files.filter(file=>file.endsWith('.html'));
+const generatedFallbacks = new Set(['200.html', '404.html']);
 const prototypeFiles = new Set();
 async function walkPrototype(dir) {
   for (const entry of await fs.readdir(dir,{withFileTypes:true})) {
@@ -32,14 +36,16 @@ const saintPetersburgPrototypeOptional = route =>
   /^clubs\/[^/]+\/[^/]+\.html$/.test(route);
 for (const file of htmlFiles) {
   const route = path.relative(root,file).replaceAll(path.sep,'/');
-  if (!saintPetersburgPrototypeOptional(route) && !prototypeFiles.has(route)) missingPrototypes.push(route);
+  if (!generatedFallbacks.has(route) && !saintPetersburgPrototypeOptional(route) && !prototypeFiles.has(route)) missingPrototypes.push(route);
   const markup = await fs.readFile(file,'utf8');
   for (const match of markup.matchAll(/(?:href|src)="([^"]+)"/g)) {
     const target = match[1];
     if (/^(https?:|mailto:|tel:|#)/.test(target)) continue;
     const pathname = decodeURIComponent(target.split(/[?#]/,1)[0]);
     if (!pathname) continue;
-    const resolved = path.resolve(path.dirname(file),pathname);
+    const resolved = pathname.startsWith('/')
+      ? path.resolve(root, pathname.slice(1))
+      : path.resolve(path.dirname(file),pathname);
     if (!resolved.startsWith(root+path.sep) || !files.includes(resolved)) missing.push(`${path.relative(root,file)} -> ${target}`);
   }
 }
