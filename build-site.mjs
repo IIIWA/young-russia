@@ -14,6 +14,8 @@ const rawAdmiralClubs = JSON.parse(await fs.readFile(path.join(root, 'data', 'cl
 const rawVyborgClubs = JSON.parse(await fs.readFile(path.join(root, 'data', 'clubs-vyborgsky.json'), 'utf8'));
 const rawKalininClubs = JSON.parse(await fs.readFile(path.join(root, 'data', 'clubs-kalininsky.json'), 'utf8'));
 const rawKirovClubs = JSON.parse(await fs.readFile(path.join(root, 'data', 'clubs-kirovsky.json'), 'utf8'));
+const rawKolpinoClubs = JSON.parse(await fs.readFile(path.join(root, 'data', 'clubs-kolpinsky.json'), 'utf8'));
+const rawKrasnogvardClubs = JSON.parse(await fs.readFile(path.join(root, 'data', 'clubs-krasnogvardeysky.json'), 'utf8'));
 const admiralOrganizations = {
   admiralteysky: {
     name: 'Центр «Адмиралтейский»',
@@ -72,6 +74,17 @@ const kirovOrganization = {
   site: 'https://pmckir.ru/',
   vk: 'https://vk.com/pmc_kirovskiy',
 };
+const kolpinoSources = {
+  kolpinets: 'https://www.spbdm.ru/upload/iblock/2f5/ta80j84xkf2ix3fqn56aju6z93jzjpfx/%D0%94%D0%9C%20%D0%9A%D0%BE%D0%BB%D0%BF%D0%B8%D0%BD%D0%B5%D1%86.pdf',
+  rovesnik: 'https://www.spbdm.ru/upload/iblock/79f/v3qp6t9gqcaa1susuz350eartp4udj8k/%D0%A0%D0%BE%D0%B2%D0%B5%D1%81%D0%BD%D0%B8%D0%BA.pdf',
+};
+const kolpinoOrganizations = {
+  kolpinets: {name:'Дом молодёжи «Колпинец»',address:'г. Колпино, Заводской пр., д. 10',phone:'246-43-22',email:'mail@dmk.spb.ru',site:'https://kolpinets.ru/'},
+  rovesnik: {name:'МЦ «Ровесник»',address:'г. Колпино, ул. Танкистов, д. 28А',phone:'469-63-50',site:'https://spbgbu-rovesnik.ru/'},
+};
+const krasnogvardSource = 'https://pmcohta.ru/contacts';
+const krasnogvardPdfSource = 'https://www.spbdm.ru/upload/iblock/e06/6xs92c2vtfocx1149b3gfygt7ypl0d2z/%D0%9F%D0%9C%D0%A6%20%D0%9E%D1%85%D1%82%D0%B0.pdf';
+const krasnogvardOrganization = {name:'Молодёжный центр «Охта»',address:'Полюстровский пр., д. 3',phone:'498-84-27',email:'secretar@mcohta.ru',site:'https://pmcohta.ru/'};
 const admiralSource = 'https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/';
 const admiralSourceDate = '18.04.2025';
 const districts = [
@@ -108,7 +121,9 @@ const admiralClubs = rawAdmiralClubs.map(club => ({...club, slug: slugify(club.n
 const vyborgClubs = rawVyborgClubs.map(club => ({...club, slug: slugify(club.name), districtCode:'vyborgsky', organizationInfo: vyborgOrganizations[club.organization], organizationLabel: vyborgOrganizations[club.organization]?.name ?? club.type}));
 const kalininClubs = rawKalininClubs.map(club => ({...club, slug: slugify(club.name), districtCode:'kalininsky', organizationInfo:kalininOrganization, organizationLabel:club.type}));
 const kirovClubs = rawKirovClubs.map(club => ({...club, slug: slugify(club.name), districtCode:'kirovsky', organizationInfo:kirovOrganization, organizationLabel:club.type}));
-const catalogDistricts = new Set(['vasileostrovsky', 'admiralteysky', 'vyborgsky', 'kalininsky', 'kirovsky']);
+const kolpinoClubs = rawKolpinoClubs.map(club => ({...club, slug: slugify(club.name), districtCode:'kolpinsky', organizationInfo:kolpinoOrganizations[club.organization], organizationLabel:kolpinoOrganizations[club.organization].name}));
+const krasnogvardClubs = rawKrasnogvardClubs.map(club => ({...club, slug: slugify(club.name), districtCode:'krasnogvardeysky', organizationInfo:krasnogvardOrganization, organizationLabel:club.type}));
+const catalogDistricts = new Set(['vasileostrovsky', 'admiralteysky', 'vyborgsky', 'kalininsky', 'kirovsky', 'kolpinsky', 'krasnogvardeysky']);
 const districtHeroPhotos = {
   'vo-page': {
     file: 'hero-vasileostrovsky.webp',
@@ -130,6 +145,8 @@ const districtHeroPhotos = {
     file: 'hero-kirovsky.webp',
     place: 'Нарвские триумфальные ворота',
   },
+  'kolpino-page': {file:'hero-kolpinsky.webp',place:'КДЦ «Ижорский» и мост через Ижору'},
+  'krasnogvard-page': {file:'hero-krasnogvardeysky.webp',place:'Большеохтинский мост'},
 };
 
 function tags(club) {
@@ -140,7 +157,7 @@ function tags(club) {
   if (/тан|хореограф|брейк|зумб|чирлидинг|контемп|хиллс|джаз-модерн|джаз-фанк|хип-хоп/.test(line)) result.push('dance');
   if (/изо|рисован|живопис|лепк|флорист|арт|дпи|кукл|творч|вышив|фотограф|дизайн|керамик|мастерск|швейн|роспис|батик|график|декор|акварел|фото|костюм|фелтинг/.test(line)) result.push('creative');
   if (/вокал|хор|гитар|театр|актёр|песн|музык|кино|оратор|звук|барабан|инструментальн|цирков/.test(line)) result.push('stage');
-  if (/волонт|добровол|добро\.центр|скаут|проект|коворкинг|мероприят|подкаст|настольные игры|семь|общени|разговорн|квест|медиа|квн|реконструк/.test(line)) result.push('community');
+  if (/волонт|добровол|добро\.центр|скаут|проект|коворкинг|мероприят|подкаст|настольные игры|семь|общени|разговорн|квест|медиа|квн|реконструк|социальн|психолог|поисковик|книжный клуб|киноклуб/.test(line)) result.push('community');
   return result;
 }
 const topicNames = {all:'Все направления', languages:'Языки',sport:'Спорт',dance:'Танцы',creative:'Творчество',stage:'Сцена и музыка',community:'Общение'};
@@ -184,12 +201,14 @@ const districtTopics = {
   vyborgsky: [...new Set(vyborgClubs.flatMap(tags))].join(' '),
   kalininsky: [...new Set(kalininClubs.flatMap(tags))].join(' '),
   kirovsky: [...new Set(kirovClubs.flatMap(tags))].join(' '),
+  kolpinsky: [...new Set(kolpinoClubs.flatMap(tags))].join(' '),
+  krasnogvardeysky: [...new Set(krasnogvardClubs.flatMap(tags))].join(' '),
 };
 
 const home = page({
   title:'Найди своё занятие',
   description:'Каталог подростково-молодёжных клубов Санкт-Петербурга. Направления, адреса и ссылки на организаторов.',
-  body:`<section class="hero"><div class="container hero-grid"><div class="hero-copy"><div class="kicker"><span class="kicker-dot"></span> Подростково-молодёжные клубы Петербурга</div><h1>Найди своё <em>занятие</em> в&nbsp;Петербурге</h1><p class="hero-lead">Спорт, творчество, языки и&nbsp;общение рядом с&nbsp;домом. Выбери то, что тебе интересно, и&nbsp;узнай, куда прийти.</p><div class="hero-actions"><a class="button button-primary" href="districts/index.html">Выбрать район <span aria-hidden="true">↗</span></a><a class="text-link" href="#directions">Смотреть направления <span aria-hidden="true">↓</span></a></div><div class="hero-facts"><span><b>18</b> районов города</span><span><b>${clubs.length + admiralClubs.length + vyborgClubs.length + kalininClubs.length + kirovClubs.length}</b> площадок в&nbsp;пяти каталогах</span></div></div><div class="hero-photo"><img src="assets/hero-youth.webp" width="1600" height="900" alt="Иллюстрация: молодые люди общаются за игрой в настольный теннис"><div class="photo-sticker"><span class="sticker-spark" aria-hidden="true">✳</span><b>Пробуй новое</b><small>рядом с&nbsp;домом</small></div><span class="photo-caption">Иллюстративное изображение</span></div></div></section>
+  body:`<section class="hero"><div class="container hero-grid"><div class="hero-copy"><div class="kicker"><span class="kicker-dot"></span> Подростково-молодёжные клубы Петербурга</div><h1>Найди своё <em>занятие</em> в&nbsp;Петербурге</h1><p class="hero-lead">Спорт, творчество, языки и&nbsp;общение рядом с&nbsp;домом. Выбери то, что тебе интересно, и&nbsp;узнай, куда прийти.</p><div class="hero-actions"><a class="button button-primary" href="districts/index.html">Выбрать район <span aria-hidden="true">↗</span></a><a class="text-link" href="#directions">Смотреть направления <span aria-hidden="true">↓</span></a></div><div class="hero-facts"><span><b>18</b> районов города</span><span><b>${clubs.length + admiralClubs.length + vyborgClubs.length + kalininClubs.length + kirovClubs.length + kolpinoClubs.length + krasnogvardClubs.length}</b> площадок в&nbsp;семи каталогах</span></div></div><div class="hero-photo"><img src="assets/hero-youth.webp" width="1600" height="900" alt="Иллюстрация: молодые люди общаются за игрой в настольный теннис"><div class="photo-sticker"><span class="sticker-spark" aria-hidden="true">✳</span><b>Пробуй новое</b><small>рядом с&nbsp;домом</small></div><span class="photo-caption">Иллюстративное изображение</span></div></div></section>
   <section class="intro-strip"><div class="container strip-inner"><p><strong>14-35&nbsp;лет</strong><span>Возможности для&nbsp;молодёжи</span></p><p><strong>Бесплатно</strong><span>Направления, указанные в&nbsp;каталоге</span></p><p><strong>Рядом</strong><span>Начни поиск со&nbsp;своего района</span></p></div></section>
   <section class="section directions" id="directions"><div class="container"><div class="section-heading"><div><p class="section-kicker">Выбирай по&nbsp;интересу</p><h2>Чем хочется заняться?</h2></div><p>Выбери направление, чтобы увидеть районы, где в&nbsp;каталоге есть подходящие занятия.</p></div><div class="topic-grid">
   <a class="topic-card topic-languages" href="districts/index.html?topic=languages"><span class="topic-icon" aria-hidden="true">Aa</span><h3>Языки</h3><p>Разговорные клубы и&nbsp;новые знакомства</p><span class="topic-arrow" aria-hidden="true">↗</span></a>
@@ -198,8 +217,8 @@ const home = page({
   <a class="topic-card topic-stage" href="districts/index.html?topic=stage"><span class="topic-icon" aria-hidden="true">♫</span><h3>Сцена и&nbsp;музыка</h3><p>Театр, вокал и&nbsp;гитара</p><span class="topic-arrow" aria-hidden="true">↗</span></a>
   <a class="topic-card topic-community" href="districts/index.html?topic=community"><span class="topic-icon" aria-hidden="true">↗</span><h3>Общение</h3><p>Клубы, проекты и&nbsp;волонтёрство</p><span class="topic-arrow" aria-hidden="true">↗</span></a>
   </div></div></section>
-  <section class="section island-section"><div class="container"><div class="island-banner"><div><p class="section-kicker">Каталоги уже открыты</p><h2>Начни с&nbsp;пяти районов</h2><p>Василеостровский, Адмиралтейский, Выборгский, Калининский и&nbsp;Кировский: ищи площадку по&nbsp;названию, адресу и&nbsp;направлению.</p><div class="hero-actions"><a class="button button-light" href="districts/vasileostrovsky.html">Василеостровский <span aria-hidden="true">↗</span></a><a class="button button-light" href="districts/admiralteysky.html">Адмиралтейский <span aria-hidden="true">↗</span></a><a class="button button-light" href="districts/vyborgsky.html">Выборгский <span aria-hidden="true">↗</span></a><a class="button button-light" href="districts/kalininsky.html">Калининский <span aria-hidden="true">↗</span></a><a class="button button-light" href="districts/kirovsky.html">Кировский <span aria-hidden="true">↗</span></a></div></div><div class="island-mark" aria-hidden="true"><span>ПМК</span><i></i><i></i><i></i></div></div><div class="featured-head"><h3>Куда можно заглянуть</h3><span>Примеры из&nbsp;каталогов</span></div><div class="featured-grid">${featured.map(club=>clubCard(club,'',true)).join('')}</div></div></section>
-  <section class="section districts-section" id="districts"><div class="container"><div class="section-heading"><div><p class="section-kicker">Клубы рядом</p><h2>Выбери свой район</h2></div><p>Страница есть для&nbsp;каждого района Петербурга. Каталоги Василеостровского, Адмиралтейского, Выборгского, Калининского и&nbsp;Кировского районов уже открыты.</p></div><div class="district-home-grid">${districts.map((district,index)=>`<a class="district-pill${catalogDistricts.has(district[1])?' district-pill-ready':''}${district[1]==='vyborgsky'?' needs-review':''}" href="${districtLink(district)}"${district[1]==='vyborgsky'?` title="${html(vyborgReviewTooltip)}"`:''}><span class="district-number">${String(index+1).padStart(2,'0')}</span><span>${text(district[0])}</span>${district[1]==='vyborgsky'?'<span class="district-pill-review">Данные уточняются</span>':''}<span class="district-pill-arrow" aria-hidden="true">↗</span></a>`).join('')}</div><a class="all-districts-link" href="districts/index.html">Открыть список районов <span aria-hidden="true">→</span></a></div></section>
+  <section class="section island-section"><div class="container"><div class="island-banner"><div><p class="section-kicker">Каталоги уже открыты</p><h2>Начни с&nbsp;семи районов</h2><p>Уже открыты каталоги семи районов. Ищи площадку по&nbsp;названию, адресу и&nbsp;направлению.</p><div class="hero-actions"><a class="button button-light" href="districts/vasileostrovsky.html">Василеостровский <span aria-hidden="true">↗</span></a><a class="button button-light" href="districts/admiralteysky.html">Адмиралтейский <span aria-hidden="true">↗</span></a><a class="button button-light" href="districts/vyborgsky.html">Выборгский <span aria-hidden="true">↗</span></a><a class="button button-light" href="districts/kalininsky.html">Калининский <span aria-hidden="true">↗</span></a><a class="button button-light" href="districts/kirovsky.html">Кировский <span aria-hidden="true">↗</span></a><a class="button button-light" href="districts/kolpinsky.html">Колпинский <span aria-hidden="true">↗</span></a><a class="button button-light" href="districts/krasnogvardeysky.html">Красногвардейский <span aria-hidden="true">↗</span></a></div></div><div class="island-mark" aria-hidden="true"><span>ПМК</span><i></i><i></i><i></i></div></div><div class="featured-head"><h3>Куда можно заглянуть</h3><span>Примеры из&nbsp;каталогов</span></div><div class="featured-grid">${featured.map(club=>clubCard(club,'',true)).join('')}</div></div></section>
+  <section class="section districts-section" id="districts"><div class="container"><div class="section-heading"><div><p class="section-kicker">Клубы рядом</p><h2>Выбери свой район</h2></div><p>Страница есть для&nbsp;каждого района Петербурга. Каталоги семи районов уже открыты, включая Колпинский и&nbsp;Красногвардейский.</p></div><div class="district-home-grid">${districts.map((district,index)=>`<a class="district-pill${catalogDistricts.has(district[1])?' district-pill-ready':''}${district[1]==='vyborgsky'?' needs-review':''}" href="${districtLink(district)}"${district[1]==='vyborgsky'?` title="${html(vyborgReviewTooltip)}"`:''}><span class="district-number">${String(index+1).padStart(2,'0')}</span><span>${text(district[0])}</span>${district[1]==='vyborgsky'?'<span class="district-pill-review">Данные уточняются</span>':''}<span class="district-pill-arrow" aria-hidden="true">↗</span></a>`).join('')}</div><a class="all-districts-link" href="districts/index.html">Открыть список районов <span aria-hidden="true">→</span></a></div></section>
   <section class="section how-section" id="how"><div class="container"><div class="section-heading"><div><p class="section-kicker">Просто начать</p><h2>Как попасть в&nbsp;клуб</h2></div></div><div class="steps-grid"><div class="step"><span>01</span><h3>Найди интерес</h3><p>Выбери занятие или район, который тебе подходит.</p></div><div class="step"><span>02</span><h3>Открой страницу клуба</h3><p>Посмотри адрес и&nbsp;доступные направления.</p></div><div class="step"><span>03</span><h3>Уточни детали</h3><p>Спроси у&nbsp;организаторов про расписание, возраст и&nbsp;запись.</p></div></div><div class="how-bottom"><p>Программы и&nbsp;набор могут меняться. Перед посещением проверь актуальные условия на&nbsp;странице клуба.</p><a href="districts/index.html">Открыть каталоги <span aria-hidden="true">↗</span></a></div></div></section>`
 });
 
@@ -207,7 +226,7 @@ const directory = page({
   title:'Районы Петербурга',
   description:'Выберите район Санкт-Петербурга и найдите подростково-молодёжные клубы.',
   base:'../',active:'districts',className:'directory-page',
-  body:`<section class="subhero"><div class="container"><nav class="breadcrumbs" aria-label="Навигационная цепочка"><a href="../index.html">Главная</a><span>/</span><span>Районы</span></nav><p class="section-kicker">Каталог по&nbsp;городу</p><h1>Районы Петербурга</h1><p class="subhero-lead">Выбери район и&nbsp;узнай, какие клубы и&nbsp;занятия уже есть в&nbsp;каталоге.</p></div></section><section class="section directory-section"><div class="container"><div class="directory-toolbar"><label for="district-search">Найти район</label><div class="search-box"><span aria-hidden="true">⌕</span><input id="district-search" type="search" placeholder="Например, Адмиралтейский" autocomplete="off"></div><p><strong>18&nbsp;районов</strong><br>Открыто 5&nbsp;каталогов</p></div><div class="directory-grid" id="district-list">${districts.map((district,index)=>`<a class="directory-card${catalogDistricts.has(district[1])?' ready':''}${district[1]==='vyborgsky'?' needs-review':''}" href="${district[1]}.html" data-search="${html(district[0].toLowerCase())}" data-topics="${districtTopics[district[1]]??''}"${district[1]==='vyborgsky'?` title="${html(vyborgReviewTooltip)}"`:''}><span class="directory-number">${String(index+1).padStart(2,'0')}</span><span class="directory-name">${text(district[0])}</span><span class="directory-status">${district[1]==='vyborgsky'?'9&nbsp;площадок · данные уточняются':district[1]==='kalininsky'?'21&nbsp;площадка':district[1]==='kirovsky'?'19&nbsp;площадок':catalogDistricts.has(district[1])?'Каталог открыт':'Страница района'}</span><span class="directory-arrow" aria-hidden="true">↗</span></a>`).join('')}</div><p class="directory-topic-note" id="district-topic-note" hidden><span id="district-topic-note-text"></span> <a href="index.html">Сбросить направление</a></p><p class="empty-state" id="district-empty" hidden>По&nbsp;этому запросу каталогов не&nbsp;нашлось. Очисти поиск или выбери другое направление.</p></div></section>`
+  body:`<section class="subhero"><div class="container"><nav class="breadcrumbs" aria-label="Навигационная цепочка"><a href="../index.html">Главная</a><span>/</span><span>Районы</span></nav><p class="section-kicker">Каталог по&nbsp;городу</p><h1>Районы Петербурга</h1><p class="subhero-lead">Выбери район и&nbsp;узнай, какие клубы и&nbsp;занятия уже есть в&nbsp;каталоге.</p></div></section><section class="section directory-section"><div class="container"><div class="directory-toolbar"><label for="district-search">Найти район</label><div class="search-box"><span aria-hidden="true">⌕</span><input id="district-search" type="search" placeholder="Например, Адмиралтейский" autocomplete="off"></div><p><strong>18&nbsp;районов</strong><br>Открыто 7&nbsp;каталогов</p></div><div class="directory-grid" id="district-list">${districts.map((district,index)=>`<a class="directory-card${catalogDistricts.has(district[1])?' ready':''}${district[1]==='vyborgsky'?' needs-review':''}" href="${district[1]}.html" data-search="${html(district[0].toLowerCase())}" data-topics="${districtTopics[district[1]]??''}"${district[1]==='vyborgsky'?` title="${html(vyborgReviewTooltip)}"`:''}><span class="directory-number">${String(index+1).padStart(2,'0')}</span><span class="directory-name">${text(district[0])}</span><span class="directory-status">${district[1]==='vyborgsky'?'9&nbsp;площадок · данные уточняются':district[1]==='kalininsky'?'21&nbsp;площадка':district[1]==='kirovsky'?'19&nbsp;площадок':district[1]==='kolpinsky'?'15&nbsp;площадок':district[1]==='krasnogvardeysky'?'22&nbsp;площадки':catalogDistricts.has(district[1])?'Каталог открыт':'Страница района'}</span><span class="directory-arrow" aria-hidden="true">↗</span></a>`).join('')}</div><p class="directory-topic-note" id="district-topic-note" hidden><span id="district-topic-note-text"></span> <a href="index.html">Сбросить направление</a></p><p class="empty-state" id="district-empty" hidden>По&nbsp;этому запросу каталогов не&nbsp;нашлось. Очисти поиск или выбери другое направление.</p></div></section>`
 });
 
 const vo = page({
@@ -259,8 +278,40 @@ const kirov = page({
   <div class="catalog-source"><span aria-hidden="true">ⓘ</span><div><p>Перечень площадок, адреса и&nbsp;контакты: <a href="${kirovClubsSource}" target="_blank" rel="noopener noreferrer">сайт ПМЦ «Кировский»</a>. Дополнительный источник по&nbsp;направлениям: <a href="${kirovPdfSource}" target="_blank" rel="noopener noreferrer">городской PDF</a>, загружен 01.06.2026.</p><p>На&nbsp;главной странице ПМЦ указано 20 подразделений, а&nbsp;в&nbsp;разделе «Наши клубы» перечислено 19. Состав и&nbsp;отдельные контакты в&nbsp;PDF отличаются от&nbsp;списка на&nbsp;сайте ПМЦ. В&nbsp;каталоге использован список сайта; детали и&nbsp;действующий набор уточняй у&nbsp;центра.</p></div></div></div></section>`
 });
 
+function newDistrictPage({name, genitive, className, clubs, lead, organizations, sourceNote, credit}) {
+  const countNoun = clubs.length % 10 >= 2 && clubs.length % 10 <= 4 && Math.floor(clubs.length / 10) % 10 !== 1 ? 'площадки' : 'площадок';
+  const organizationFilters = organizations.length > 1
+    ? `<h3 class="filter-label">Учреждение</h3><div class="topic-filters" role="group" aria-label="Фильтр по учреждению">${[['all','Все учреждения'],...organizations.map(([key,org])=>[key,org.name])].map(([key,label])=>`<button type="button" class="filter-chip${key==='all'?' active':''}" data-org-filter="${key}" aria-pressed="${key==='all'?'true':'false'}">${text(label)}</button>`).join('')}</div>`
+    : '';
+  return page({
+    title:`Клубы ${genitive} района`,
+    description:`${clubs.length} молодёжных площадок ${genitive} района Санкт-Петербурга: направления, адреса и контакты.`,
+    base:'../', active:'districts', className,
+    body:`<section class="subhero vo-subhero"><div class="container"><nav class="breadcrumbs" aria-label="Навигационная цепочка"><a href="../index.html">Главная</a><span>/</span><a href="index.html">Районы</a><span>/</span><span>${name}</span></nav><div class="vo-hero-grid"><div><p class="section-kicker">Молодёжные площадки района</p><h1>${name} район</h1><p class="subhero-lead">${lead}</p><a class="button button-primary" href="#clubs">Смотреть площадки <span aria-hidden="true">↓</span></a></div><div class="vo-stats" aria-label="Состав каталога"><div><b>${clubs.length}</b><span>${countNoun} в&nbsp;каталоге</span></div><p>Сведения сверены по&nbsp;открытым источникам. Набор, расписание и&nbsp;условия уточняй у&nbsp;организатора.</p></div></div></div></section>
+    <section class="section catalog-section" id="clubs"><div class="container"><div class="catalog-heading"><div><p class="section-kicker">Каталог района</p><h2>Найди своё место</h2><p>Ищи по&nbsp;названию, адресу или направлению.</p></div><p id="result-count" aria-live="polite">Показано ${clubs.length} ${countNoun}</p></div><div class="catalog-tools"><div class="search-box"><span aria-hidden="true">⌕</span><label class="sr-only" for="club-search">Поиск по площадкам</label><input id="club-search" type="search" placeholder="Название, занятие или адрес" autocomplete="off"></div>${organizationFilters}<h3 class="filter-label">Направление</h3><div class="topic-filters" role="group" aria-label="Фильтр по направлениям">${Object.entries(topicNames).map(([key,label])=>`<button type="button" class="filter-chip${key==='all'?' active':''}" data-filter="${key}" aria-pressed="${key==='all'?'true':'false'}">${text(label)}</button>`).join('')}</div></div><div class="catalog-heading catalog-subheading"><h2>Клубы и&nbsp;пространства</h2></div><div class="club-grid" id="club-grid">${clubs.map(club=>clubCard(club)).join('')}</div><p class="empty-state" id="club-empty" hidden>Подходящих площадок не&nbsp;найдено. Попробуй другой запрос.</p>
+    <div class="catalog-heading catalog-subheading"><div><p class="section-kicker">Связаться с учреждением</p><h2>К кому обратиться</h2></div></div><div class="organization-grid">${organizations.map(([,org])=>`<article class="organization-card"><p class="section-kicker">Контакты учреждения</p><h3>${text(org.name)}</h3><p>${text(org.address)}</p><p class="organization-phone"><a href="tel:+7812${org.phone.replace(/\D/g,'')}">${text(org.phone)}</a></p><div class="organization-links">${org.email?`<a href="mailto:${html(org.email)}">${text(org.email)}</a>`:''}<a href="${html(org.site)}" target="_blank" rel="noopener noreferrer">Сайт учреждения <span aria-hidden="true">↗</span></a></div></article>`).join('')}</div>
+    <div class="catalog-heading catalog-subheading"><div><p class="section-kicker">Перед посещением</p><h2>Уточни условия</h2></div></div><div class="steps-grid"><div class="step"><span>01</span><h3>Возраст</h3><p>Спроси, для&nbsp;кого открыта группа.</p></div><div class="step"><span>02</span><h3>Расписание</h3><p>Проверь дни, время и&nbsp;наличие мест.</p></div><div class="step"><span>03</span><h3>Запись</h3><p>Узнай, как присоединиться.</p></div></div><div class="catalog-source"><span aria-hidden="true">ⓘ</span><div>${sourceNote}<p>${credit}</p></div></div></div></section>`,
+  });
+}
+
+const kolpino = newDistrictPage({
+  name:'Колпинский',genitive:'Колпинского',className:'kolpino-page',clubs:kolpinoClubs,
+  lead:'Клубы Дома молодёжи «Колпинец» и&nbsp;МЦ «Ровесник» в&nbsp;Колпине, Металлострое и&nbsp;Понтонном.',
+  organizations:Object.entries(kolpinoOrganizations),
+  sourceNote:`<p>Состав и&nbsp;направления: <a href="${kolpinoSources.kolpinets}" target="_blank" rel="noopener noreferrer">документ Дома молодёжи «Колпинец»</a> и&nbsp;<a href="${kolpinoSources.rovesnik}" target="_blank" rel="noopener noreferrer">документ «Ровесника»</a> в&nbsp;городской базе от&nbsp;01.06.2026. Действующий состав «Ровесника» дополнительно сверен с&nbsp;<a href="https://spbgbu-rovesnik.ru/" target="_blank" rel="noopener noreferrer">сайтом учреждения</a>. Часть адресов в&nbsp;старых районных списках расходится с&nbsp;документами: смотри примечания на&nbsp;страницах клубов.</p>`,
+  credit:'Фото КДЦ «Ижорский» и&nbsp;моста: <a href="https://commons.wikimedia.org/wiki/File:DK_Izhorsky_and_bridge_(Kolpino).jpg" target="_blank" rel="noopener noreferrer">Андрей Крижановский, Wikimedia Commons</a>, общественное достояние. Изображение кадрировано.',
+});
+
+const krasnogvard = newDistrictPage({
+  name:'Красногвардейский',genitive:'Красногвардейского',className:'krasnogvard-page',clubs:krasnogvardClubs,
+  lead:'Клубы и&nbsp;молодёжные пространства МЦ «Охта». Выбери площадку по&nbsp;адресу или интересу.',
+  organizations:[['okhta',krasnogvardOrganization]],
+  sourceNote:`<p>Состав, названия и&nbsp;адреса сверены по&nbsp;<a href="${krasnogvardSource}" target="_blank" rel="noopener noreferrer">действующей странице контактов МЦ «Охта»</a>. Примеры бесплатных направлений взяты из&nbsp;<a href="${krasnogvardPdfSource}" target="_blank" rel="noopener noreferrer">городского PDF</a>, загруженного 01.06.2026. В&nbsp;нём 21 площадка, а&nbsp;в&nbsp;текущем списке центра 22: для&nbsp;пространства «4К» направления уточняются.</p>`,
+  credit:'Фото Большеохтинского моста: <a href="https://commons.wikimedia.org/wiki/File:Bolsheokhtinsky_Bridge_SPB.jpg" target="_blank" rel="noopener noreferrer">Алексей Фёдоров, Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>. Изображение кадрировано и&nbsp;сжато.',
+});
+
 function otherDistrict([name,slug]) {
-  return page({title:`${name} район`,description:`Страница подростково-молодёжных клубов: ${name} район Санкт-Петербурга.`,base:'../',active:'districts',className:'pending-page',body:`<section class="subhero"><div class="container"><nav class="breadcrumbs" aria-label="Навигационная цепочка"><a href="../index.html">Главная</a><span>/</span><a href="index.html">Районы</a><span>/</span><span>${text(name)}</span></nav><p class="section-kicker">Страница района</p><h1>${text(name)} район</h1><p class="subhero-lead">Проверяем адреса, направления и&nbsp;контакты клубов этого района. Каталог появится здесь после сверки данных.</p></div></section><section class="section pending-content"><div class="container"><div class="pending-panel"><div class="pending-symbol" aria-hidden="true">✳</div><div><span class="status-label">Раздел наполняется</span><h2>Скоро здесь будут клубы</h2><p>Пока можно посмотреть другие районы или открыть городскую базу учреждений.</p><div class="pending-actions"><a class="button button-primary" href="index.html">Все районы <span aria-hidden="true">↗</span></a><a class="text-link" href="https://spbdm.ru/baza-uchrezhdeniy/" target="_blank" rel="noopener noreferrer">Городская база учреждений ↗</a></div></div></div><div class="nearby-prompt"><h3>Уже есть в&nbsp;каталоге</h3><p>Открыты каталоги пяти районов.</p><a href="index.html">Выбрать район <span aria-hidden="true">→</span></a></div></div></section>`});
+  return page({title:`${name} район`,description:`Страница подростково-молодёжных клубов: ${name} район Санкт-Петербурга.`,base:'../',active:'districts',className:'pending-page',body:`<section class="subhero"><div class="container"><nav class="breadcrumbs" aria-label="Навигационная цепочка"><a href="../index.html">Главная</a><span>/</span><a href="index.html">Районы</a><span>/</span><span>${text(name)}</span></nav><p class="section-kicker">Страница района</p><h1>${text(name)} район</h1><p class="subhero-lead">Проверяем адреса, направления и&nbsp;контакты клубов этого района. Каталог появится здесь после сверки данных.</p></div></section><section class="section pending-content"><div class="container"><div class="pending-panel"><div class="pending-symbol" aria-hidden="true">✳</div><div><span class="status-label">Раздел наполняется</span><h2>Скоро здесь будут клубы</h2><p>Пока можно посмотреть другие районы или открыть городскую базу учреждений.</p><div class="pending-actions"><a class="button button-primary" href="index.html">Все районы <span aria-hidden="true">↗</span></a><a class="text-link" href="https://spbdm.ru/baza-uchrezhdeniy/" target="_blank" rel="noopener noreferrer">Городская база учреждений ↗</a></div></div></div><div class="nearby-prompt"><h3>Уже есть в&nbsp;каталоге</h3><p>Открыты каталоги семи районов.</p><a href="index.html">Выбрать район <span aria-hidden="true">→</span></a></div></div></section>`});
 }
 
 function clubDetail(club) {
@@ -345,12 +396,34 @@ function kirovClubDetail(club) {
   });
 }
 
+function newDistrictClubDetail(club, districtName, districtGenitive, districtSlug, source) {
+  const org = club.organizationInfo;
+  const phone = club.phone || org.phone;
+  const phoneDigits = phone.replace(/\D/g, '');
+  const phoneHref = phoneDigits.length === 7 ? `tel:+7812${phoneDigits}` : `tel:+${phoneDigits}`;
+  const activityMarkup = club.activities.length
+    ? `<div class="activity-list">${club.activities.map(item => `<span>${text(item)}</span>`).join('')}</div>`
+    : '<p>Направления этой площадки уточняются. Свяжись с&nbsp;центром перед визитом.</p>';
+  const activityCaution = club.activities.length
+    ? 'Направления приведены по&nbsp;открытым материалам учреждения. Уточни действующие группы, возраст, стоимость и&nbsp;расписание.'
+    : 'Городской документ не&nbsp;содержит перечня занятий этой площадки. Уточни действующие группы, возраст, стоимость и&nbsp;расписание.';
+  return page({
+    title:`${club.name}, ${districtName} район`,
+    description:`${club.name}: ${club.address}. Адрес, направления и контакты площадки ${districtGenitive} района.`,
+    base:'../../', className:'club-detail-page',
+    body:`<section class="subhero detail-subhero"><div class="container"><nav class="breadcrumbs" aria-label="Навигационная цепочка"><a href="../../index.html">Главная</a><span>/</span><a href="../../districts/${districtSlug}.html">${districtName} район</a><span>/</span><span>${text(club.name)}</span></nav><p class="section-kicker">${text(club.type)} · ${text(org.name)}</p><h1>${text(club.name)}</h1><p class="subhero-lead">${text(club.address)}</p></div></section>
+    <section class="section detail-content"><div class="container detail-grid"><div class="detail-main"><div class="detail-block"><p class="section-kicker">Чем заняться</p><h2>Направления площадки</h2>${activityMarkup}<p class="detail-muted">${activityCaution}</p></div><div class="detail-block"><p class="section-kicker">Перед посещением</p><h2>Как присоединиться</h2><ol class="detail-steps"><li>Свяжись с&nbsp;площадкой или учреждением.</li><li>Уточни, идёт&nbsp;ли набор на&nbsp;интересующее направление.</li><li>Спроси про возраст, расписание и&nbsp;порядок записи.</li></ol></div><div class="detail-alert"><strong>Сведения уточняются</strong><p>Адрес и&nbsp;условия конкретного занятия проверь у&nbsp;организатора перед визитом.${club.note ? ` ${text(club.note)}` : ''}</p></div><div class="catalog-source"><span aria-hidden="true">ⓘ</span><div><p>Сведения о&nbsp;площадке: <a href="${html(source)}" target="_blank" rel="noopener noreferrer">открытый источник</a>. Контакты: <a href="${html(org.site)}" target="_blank" rel="noopener noreferrer">сайт организатора</a>.</p></div></div></div><aside class="detail-aside"><div class="contact-panel"><span class="status-label">Адрес и&nbsp;контакты</span><h2>${text(club.name)}</h2><p class="contact-address">${text(club.address)}</p><p class="contact-phone"><span>${club.phone ? 'Телефон площадки' : 'Телефон учреждения'}</span><b><a href="${phoneHref}">${text(phone)}</a></b></p>${club.email ? `<p class="contact-phone"><span>Почта площадки</span><b><a href="mailto:${html(club.email)}">${text(club.email)}</a></b></p>` : org.email ? `<p class="contact-phone"><span>Почта учреждения</span><b><a href="mailto:${html(org.email)}">${text(org.email)}</a></b></p>` : ''}<div class="contact-actions"><a class="button button-primary" href="${html(org.site)}" target="_blank" rel="noopener noreferrer">Сайт организатора <span aria-hidden="true">↗</span></a></div><p class="contact-note">Перед визитом уточни место занятий и&nbsp;условия участия.</p></div><a class="back-card" href="../../districts/${districtSlug}.html">← Ко&nbsp;всем площадкам района</a></aside></div></section>`
+  });
+}
+
 await fs.mkdir(path.join(out,'districts'),{recursive:true});
 await fs.mkdir(path.join(out,'clubs'),{recursive:true});
 await fs.mkdir(path.join(out,'clubs','admiralteysky'),{recursive:true});
 await fs.mkdir(path.join(out,'clubs','vyborgsky'),{recursive:true});
 await fs.mkdir(path.join(out,'clubs','kalininsky'),{recursive:true});
 await fs.mkdir(path.join(out,'clubs','kirovsky'),{recursive:true});
+await fs.mkdir(path.join(out,'clubs','kolpinsky'),{recursive:true});
+await fs.mkdir(path.join(out,'clubs','krasnogvardeysky'),{recursive:true});
 await fs.mkdir(path.join(out,'assets'),{recursive:true});
 await fs.writeFile(path.join(out,'index.html'),home);
 await fs.writeFile(path.join(out,'districts','index.html'),directory);
@@ -359,12 +432,16 @@ await fs.writeFile(path.join(out,'districts','admiralteysky.html'),admiral);
 await fs.writeFile(path.join(out,'districts','vyborgsky.html'),vyborg);
 await fs.writeFile(path.join(out,'districts','kalininsky.html'),kalinin);
 await fs.writeFile(path.join(out,'districts','kirovsky.html'),kirov);
+await fs.writeFile(path.join(out,'districts','kolpinsky.html'),kolpino);
+await fs.writeFile(path.join(out,'districts','krasnogvardeysky.html'),krasnogvard);
 for (const district of districts.filter(item=>!catalogDistricts.has(item[1]))) await fs.writeFile(path.join(out,'districts',`${district[1]}.html`),otherDistrict(district));
 for (const club of clubs) await fs.writeFile(path.join(out,'clubs',`${club.slug}.html`),clubDetail(club));
 for (const club of admiralClubs) await fs.writeFile(path.join(out,'clubs','admiralteysky',`${club.slug}.html`),admiralClubDetail(club));
 for (const club of vyborgClubs) await fs.writeFile(path.join(out,'clubs','vyborgsky',`${club.slug}.html`),vyborgClubDetail(club));
 for (const club of kalininClubs) await fs.writeFile(path.join(out,'clubs','kalininsky',`${club.slug}.html`),kalininClubDetail(club));
 for (const club of kirovClubs) await fs.writeFile(path.join(out,'clubs','kirovsky',`${club.slug}.html`),kirovClubDetail(club));
+for (const club of kolpinoClubs) await fs.writeFile(path.join(out,'clubs','kolpinsky',`${club.slug}.html`),newDistrictClubDetail(club,'Колпинский','Колпинского','kolpinsky',club.organization === 'rovesnik' ? kolpinoSources.rovesnik : kolpinoSources.kolpinets));
+for (const club of krasnogvardClubs) await fs.writeFile(path.join(out,'clubs','krasnogvardeysky',`${club.slug}.html`),newDistrictClubDetail(club,'Красногвардейский','Красногвардейского','krasnogvardeysky',club.name === '4К' ? krasnogvardSource : krasnogvardPdfSource));
 const sitemapPaths = [
   '/',
   '/districts/index.html',
@@ -374,11 +451,13 @@ const sitemapPaths = [
   ...vyborgClubs.map(club => `/clubs/vyborgsky/${club.slug}.html`),
   ...kalininClubs.map(club => `/clubs/kalininsky/${club.slug}.html`),
   ...kirovClubs.map(club => `/clubs/kirovsky/${club.slug}.html`),
+  ...kolpinoClubs.map(club => `/clubs/kolpinsky/${club.slug}.html`),
+  ...krasnogvardClubs.map(club => `/clubs/krasnogvardeysky/${club.slug}.html`),
 ];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapPaths.map(route => `  <url><loc>https://young-russia.ru${route}</loc></url>`).join('\n')}\n</urlset>\n`;
 await fs.writeFile(path.join(out,'sitemap.xml'),sitemap);
 await fs.writeFile(path.join(out,'robots.txt'),'User-agent: *\nAllow: /\nSitemap: https://young-russia.ru/sitemap.xml\n');
-for (const asset of ['style.css','site.js','hero-youth.webp','hero-vasileostrovsky.webp','hero-admiralteysky.webp','hero-vyborgsky.webp','hero-kalininsky.webp','hero-kirovsky.webp','favicon.svg']) await fs.copyFile(path.join(root,'assets',asset),path.join(out,'assets',asset));
+for (const asset of ['style.css','site.js','hero-youth.webp','hero-vasileostrovsky.webp','hero-admiralteysky.webp','hero-vyborgsky.webp','hero-kalininsky.webp','hero-kirovsky.webp','hero-kolpinsky.webp','hero-krasnogvardeysky.webp','favicon.svg']) await fs.copyFile(path.join(root,'assets',asset),path.join(out,'assets',asset));
 await fs.copyFile(path.join(root,'assets','style.css'),path.join(out,'assets',styleAsset));
 await fs.copyFile(path.join(root,'assets','site.js'),path.join(out,'assets',scriptAsset));
-console.log(`Built ${1+1+18+clubs.length+admiralClubs.length+vyborgClubs.length+kalininClubs.length+kirovClubs.length} HTML pages in ${out}`);
+console.log(`Built ${1+1+18+clubs.length+admiralClubs.length+vyborgClubs.length+kalininClubs.length+kirovClubs.length+kolpinoClubs.length+krasnogvardClubs.length} HTML pages in ${out}`);
