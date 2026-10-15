@@ -1,0 +1,4846 @@
+{
+  "description": "Адреса клубов для проверки и поиска координат. Координаты здесь пока не указаны.",
+  "clubCount": 334,
+  "addressCount": 322,
+  "addresses": [
+    {
+      "id": "0c4655a66aa5",
+      "district": "admiralteysky",
+      "address": "12-я Красноармейская ул., д. 14-16, лит. А",
+      "query": "14-16, 12-я Красноармейская улица, Санкт-Петербург, Россия",
+      "review": [
+        "Диапазон домов",
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Орфей»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "05b53c7bc773",
+      "district": "admiralteysky",
+      "address": "12-я Красноармейская ул., д. 5",
+      "query": "5, 12-я Красноармейская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Созвучие»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 18
+        }
+      ]
+    },
+    {
+      "id": "33e58174d023",
+      "district": "admiralteysky",
+      "address": "3-я Красноармейская ул., д. 14",
+      "query": "14, 3-я Красноармейская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Психологическая служба «Мозаика»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "815ecf0f8399",
+      "district": "admiralteysky",
+      "address": "3-я Красноармейская ул., д. 14, лит. А",
+      "query": "14, 3-я Красноармейская улица, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Домострой»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "3825afcb09b7",
+      "district": "admiralteysky",
+      "address": "4-я Красноармейская ул., д. 11, лит. А",
+      "query": "11, 4-я Красноармейская улица, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Селена»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 16
+        }
+      ]
+    },
+    {
+      "id": "1b445e175008",
+      "district": "admiralteysky",
+      "address": "Большая Подьяческая ул., д. 13",
+      "query": "13, Большая Подьяческая улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Молодёжный футбольный клуб «Форвард»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 19
+        }
+      ]
+    },
+    {
+      "id": "785b72150436",
+      "district": "admiralteysky",
+      "address": "Галерная ул., д. 52, лит. В",
+      "query": "52, Галерная улица, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Ритм»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "id": "0aca59418c27",
+      "district": "admiralteysky",
+      "address": "Гороховая ул., д. 57, лит. А",
+      "query": "57, Гороховая улица, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Надежда»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "b61ea9f65634",
+      "district": "admiralteysky",
+      "address": "Измайловский пр., д. 18, лит. Б",
+      "query": "18, Измайловский проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Коломбина»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "1ded3c59fd19",
+      "district": "admiralteysky",
+      "address": "Наб. канала Грибоедова, д. 106",
+      "query": "106, набережная канала Грибоедова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Город»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "487fed5dea28",
+      "district": "admiralteysky",
+      "address": "Наб. Обводного канала, д. 128, лит. А",
+      "query": "128, набережная Обводного канала, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Поиск»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 21
+        }
+      ]
+    },
+    {
+      "id": "89092072bcbf",
+      "district": "admiralteysky",
+      "address": "Наб. реки Мойки, д. 110, лит. А",
+      "query": "110, набережная реки Мойки, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Меридиан»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "54db7848a882",
+      "district": "admiralteysky",
+      "address": "Наб. реки Мойки, д. 112",
+      "query": "112, набережная реки Мойки, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Вдохновение»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "09020c4d02b7",
+      "district": "admiralteysky",
+      "address": "Наб. реки Фонтанки, д. 133",
+      "query": "133, набережная реки Фонтанки, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Центр молодёжного творчества и семейного досуга «Ф133»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 24
+        }
+      ]
+    },
+    {
+      "id": "70f731c2fe9b",
+      "district": "admiralteysky",
+      "address": "Наб. реки Фонтанки, д. 136, лит. А",
+      "query": "136, набережная реки Фонтанки, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Ровесник»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "id": "362d08072a61",
+      "district": "admiralteysky",
+      "address": "Наб. реки Фонтанки, д. 150, лит. А",
+      "query": "150, набережная реки Фонтанки, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Петербургские львы»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "id": "3843b9ea228f",
+      "district": "admiralteysky",
+      "address": "Наб. реки Фонтанки, д. 92",
+      "query": "92, набережная реки Фонтанки, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "ПМК «Двор»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 23
+        }
+      ]
+    },
+    {
+      "id": "fa11d6b3ab2b",
+      "district": "admiralteysky",
+      "address": "Пер. Бойцова, д. 8",
+      "query": "8, переулок Бойцова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Палестра»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "36f886dfd890",
+      "district": "admiralteysky",
+      "address": "Пер. Макаренко, д. 9",
+      "query": "9, переулок Макаренко, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Глобус»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 2
+        },
+        {
+          "name": "Молодёжный клуб «Идеал»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "058dd00eeb98",
+      "district": "admiralteysky",
+      "address": "Псковская ул., д. 14",
+      "query": "14, Псковская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Клуб юных моряков «Адмиралтеец»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 0
+        },
+        {
+          "name": "Молодёжный клуб «Эллада»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 20
+        }
+      ]
+    },
+    {
+      "id": "53a2222592e5",
+      "district": "admiralteysky",
+      "address": "Рузовская ул., д. 25",
+      "query": "25, Рузовская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Славяне»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 17
+        }
+      ]
+    },
+    {
+      "id": "447df21a0b9c",
+      "district": "admiralteysky",
+      "address": "Садовая ул., д. 125, лит. Б",
+      "query": "125, Садовая улица, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Перспектива»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "e78f1044ea37",
+      "district": "admiralteysky",
+      "address": "Садовая ул., д. 55-57, лит. А",
+      "query": "55-57, Садовая улица, Санкт-Петербург, Россия",
+      "review": [
+        "Диапазон домов",
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжное пространство «Учреждение»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 25
+        }
+      ]
+    },
+    {
+      "id": "8129cb014fb4",
+      "district": "admiralteysky",
+      "address": "Серпуховская ул., д. 26-28",
+      "query": "26-28, Серпуховская улица, Санкт-Петербург, Россия",
+      "review": [
+        "Диапазон домов"
+      ],
+      "clubs": [
+        {
+          "name": "ПМК «Прометей»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 22
+        }
+      ]
+    },
+    {
+      "id": "6af3788ff50b",
+      "district": "frunzensky",
+      "address": "Боровая ул., д. 48А",
+      "query": "48А, Боровая улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "ВПК имени А. Ф. Клубова",
+          "source": "data/clubs-frunzensky.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "9cadbed50476",
+      "district": "frunzensky",
+      "address": "Будапештская ул., д. 33",
+      "query": "33, Будапештская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Планета",
+          "source": "data/clubs-frunzensky.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "f0a5cedfffb5",
+      "district": "frunzensky",
+      "address": "Будапештская ул., д. 49",
+      "query": "49, Будапештская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Ракетка",
+          "source": "data/clubs-frunzensky.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "2b5e37df3ac0",
+      "district": "frunzensky",
+      "address": "Бухарестская ул., д. 114",
+      "query": "114, Бухарестская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "МИР",
+          "source": "data/clubs-frunzensky.json",
+          "index": 16
+        }
+      ]
+    },
+    {
+      "id": "5fb346fc7a87",
+      "district": "frunzensky",
+      "address": "Бухарестская ул., д. 31, корп. 1",
+      "query": "31, Бухарестская улица, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Прогресс",
+          "source": "data/clubs-frunzensky.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "19111700780b",
+      "district": "frunzensky",
+      "address": "Бухарестская ул., д. 74",
+      "query": "74, Бухарестская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Романтика",
+          "source": "data/clubs-frunzensky.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "d1d5f614acf1",
+      "district": "frunzensky",
+      "address": "Бухарестская ул., д. 91А",
+      "query": "91А, Бухарестская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Молоко",
+          "source": "data/clubs-frunzensky.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "9c797d38d2dc",
+      "district": "frunzensky",
+      "address": "Купчинская ул., д. 15",
+      "query": "15, Купчинская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Юность",
+          "source": "data/clubs-frunzensky.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "93b92c002f08",
+      "district": "frunzensky",
+      "address": "Купчинская ул., д. 23",
+      "query": "23, Купчинская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Гармония",
+          "source": "data/clubs-frunzensky.json",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "id": "70e9111f83b0",
+      "district": "frunzensky",
+      "address": "Купчинская ул., д. 32",
+      "query": "32, Купчинская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Современник",
+          "source": "data/clubs-frunzensky.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "b8f100110536",
+      "district": "frunzensky",
+      "address": "Пловдивская ул., д. 9",
+      "query": "9, Пловдивская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Феникс",
+          "source": "data/clubs-frunzensky.json",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "id": "fb7ec7353026",
+      "district": "frunzensky",
+      "address": "Софийская ул., д. 39, корп. 1",
+      "query": "39, Софийская улица, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Атмосфера",
+          "source": "data/clubs-frunzensky.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "1adc2650caef",
+      "district": "frunzensky",
+      "address": "Софийская ул., д. 44",
+      "query": "44, Софийская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Факел",
+          "source": "data/clubs-frunzensky.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "8321451ff3c4",
+      "district": "frunzensky",
+      "address": "Софийская ул., д. 47, корп. 1",
+      "query": "47, Софийская улица, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Старт",
+          "source": "data/clubs-frunzensky.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "309a7d04720e",
+      "district": "frunzensky",
+      "address": "ул. Димитрова, д. 18",
+      "query": "18, улица Димитрова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Искра",
+          "source": "data/clubs-frunzensky.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "a180dd567104",
+      "district": "frunzensky",
+      "address": "ул. Олеко Дундича, д. 32",
+      "query": "32, улица Олеко Дундича, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Дом молодёжи «Купчино»",
+          "source": "data/clubs-frunzensky.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "f9f11d7c2bac",
+      "district": "frunzensky",
+      "address": "ул. Олеко Дундича, д. 34",
+      "query": "34, улица Олеко Дундича, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "ВПК имени 3-й Фрунзенской дивизии народного ополчения",
+          "source": "data/clubs-frunzensky.json",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "id": "89cd1a66d31b",
+      "district": "kalininsky",
+      "address": "Кондратьевский пр., д. 63, к. 1",
+      "query": "63, Кондратьевский проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "ВКадре",
+          "source": "data/clubs-kalininsky.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "18085837fb78",
+      "district": "kalininsky",
+      "address": "Пискарёвский пр., д. 28, лит. А",
+      "query": "28, Пискарёвский проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Творчество",
+          "source": "data/clubs-kalininsky.json",
+          "index": 19
+        }
+      ]
+    },
+    {
+      "id": "0685fccaaff8",
+      "district": "kalininsky",
+      "address": "Пискарёвский пр., д. 52, лит. А",
+      "query": "52, Пискарёвский проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Дружба",
+          "source": "data/clubs-kalininsky.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "889b0e552197",
+      "district": "kalininsky",
+      "address": "пр. Культуры, д. 21, к. 1, лит. А",
+      "query": "21, проспект Культуры, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Пионер",
+          "source": "data/clubs-kalininsky.json",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "id": "8ef054e3303e",
+      "district": "kalininsky",
+      "address": "пр. Луначарского, д. 80, лит. Б",
+      "query": "80, проспект Луначарского, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Ритмикс",
+          "source": "data/clubs-kalininsky.json",
+          "index": 16
+        }
+      ]
+    },
+    {
+      "id": "09fb2547874a",
+      "district": "kalininsky",
+      "address": "пр. Маршала Блюхера, д. 14",
+      "query": "14, проспект Маршала Блюхера, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Ровесник",
+          "source": "data/clubs-kalininsky.json",
+          "index": 17
+        }
+      ]
+    },
+    {
+      "id": "0d5c8cc7eb07",
+      "district": "kalininsky",
+      "address": "пр. Мечникова, д. 19, лит. А",
+      "query": "19, проспект Мечникова, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Мужество",
+          "source": "data/clubs-kalininsky.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "99ce3325199e",
+      "district": "kalininsky",
+      "address": "пр. Науки, д. 38, лит. А",
+      "query": "38, проспект Науки, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Создание",
+          "source": "data/clubs-kalininsky.json",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "id": "3647fa0afb80",
+      "district": "kalininsky",
+      "address": "пр. Науки, д. 44, лит. А",
+      "query": "44, проспект Науки, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Алые Паруса",
+          "source": "data/clubs-kalininsky.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "051ed62428dc",
+      "district": "kalininsky",
+      "address": "пр. Непокорённых, д. 16, к. 1, лит. Д",
+      "query": "16, проспект Непокорённых, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Непокорённых",
+          "source": "data/clubs-kalininsky.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "9a2a0b7d6e10",
+      "district": "kalininsky",
+      "address": "пр. Непокорённых, д. 74, лит. А",
+      "query": "74, проспект Непокорённых, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Окна",
+          "source": "data/clubs-kalininsky.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "0810c3812039",
+      "district": "kalininsky",
+      "address": "пр. Просвещения, д. 67, лит. А",
+      "query": "67, проспект Просвещения, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Огонёк",
+          "source": "data/clubs-kalininsky.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "6ed15751ec49",
+      "district": "kalininsky",
+      "address": "Светлановский пр., д. 121, к. 1, лит. А",
+      "query": "121, Светлановский проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Кухня",
+          "source": "data/clubs-kalininsky.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "952081e93bdf",
+      "district": "kalininsky",
+      "address": "Суздальский пр., д. 61",
+      "query": "61, Суздальский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "#Водинголос",
+          "source": "data/clubs-kalininsky.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "1ef738e14408",
+      "district": "kalininsky",
+      "address": "ул. Академика Байкова, д. 15, лит. А",
+      "query": "15, улица Академика Байкова, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Олимп",
+          "source": "data/clubs-kalininsky.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "17c2c2573479",
+      "district": "kalininsky",
+      "address": "ул. Бутлерова, д. 10, к. 1, лит. Б",
+      "query": "10, улица Бутлерова, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Бригантина",
+          "source": "data/clubs-kalininsky.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "f032e5ef62f0",
+      "district": "kalininsky",
+      "address": "ул. Лужская, д. 10, к. 1, лит. Б",
+      "query": "10, улица Лужская, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Сцена",
+          "source": "data/clubs-kalininsky.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "a823b7c058e0",
+      "district": "kalininsky",
+      "address": "ул. Руставели, д. 37",
+      "query": "37, улица Руставели, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Атлант",
+          "source": "data/clubs-kalininsky.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "a6f257e4f742",
+      "district": "kalininsky",
+      "address": "ул. Руставели, д. 66, лит. А",
+      "query": "66, улица Руставели, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Спасатель",
+          "source": "data/clubs-kalininsky.json",
+          "index": 18
+        }
+      ]
+    },
+    {
+      "id": "c560ca7238a5",
+      "district": "kalininsky",
+      "address": "ул. Ушинского, д. 35, к. 1, лит. А",
+      "query": "35, улица Ушинского, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Парус",
+          "source": "data/clubs-kalininsky.json",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "id": "fcb48739bbcf",
+      "district": "kalininsky",
+      "address": "ул. Ушинского, д. 5, к. 1, лит. А",
+      "query": "5, улица Ушинского, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Эврика",
+          "source": "data/clubs-kalininsky.json",
+          "index": 20
+        }
+      ]
+    },
+    {
+      "id": "9d0d95a4d6fc",
+      "district": "kirovsky",
+      "address": "Дачный пр., д. 13",
+      "query": "13, Дачный проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Кортик",
+          "source": "data/clubs-kirovsky.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "2bc044571ab3",
+      "district": "kirovsky",
+      "address": "Канонерский остров, д. 11",
+      "query": "11, Канонерский остров, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Канонерец",
+          "source": "data/clubs-kirovsky.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "ba98a6bab879",
+      "district": "kirovsky",
+      "address": "Канонерский остров, д. 20",
+      "query": "20, Канонерский остров, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Центр",
+          "source": "data/clubs-kirovsky.json",
+          "index": 16
+        }
+      ]
+    },
+    {
+      "id": "c7d06e0f6cff",
+      "district": "kirovsky",
+      "address": "Ленинский пр., д. 137",
+      "query": "137, Ленинский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Ленинец",
+          "source": "data/clubs-kirovsky.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "3c9f51fd3a37",
+      "district": "kirovsky",
+      "address": "пр. Ветеранов, д. 16",
+      "query": "16, проспект Ветеранов, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "В16",
+          "source": "data/clubs-kirovsky.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "be802430198e",
+      "district": "kirovsky",
+      "address": "пр. Ветеранов, д. 53/56",
+      "query": "53/56, проспект Ветеранов, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Имени Лёни Голикова",
+          "source": "data/clubs-kirovsky.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "2dde53a5b13c",
+      "district": "kirovsky",
+      "address": "пр. Маршала Жукова, д. 60/1",
+      "query": "60/1, проспект Маршала Жукова, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Прометей",
+          "source": "data/clubs-kirovsky.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "d2036b5bbc6d",
+      "district": "kirovsky",
+      "address": "пр. Народного Ополчения, д. 115",
+      "query": "115, проспект Народного Ополчения, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Радуга",
+          "source": "data/clubs-kirovsky.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "e2c45b801f76",
+      "district": "kirovsky",
+      "address": "пр. Стачек, д. 67",
+      "query": "67, проспект Стачек, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Юный корабел",
+          "source": "data/clubs-kirovsky.json",
+          "index": 17
+        }
+      ]
+    },
+    {
+      "id": "f1c77a22ba59",
+      "district": "kirovsky",
+      "address": "ул. Губина, д. 5",
+      "query": "5, улица Губина, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Север",
+          "source": "data/clubs-kirovsky.json",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "id": "476a766ca9b5",
+      "district": "kirovsky",
+      "address": "ул. Краснопутиловская, д. 19",
+      "query": "19, улица Краснопутиловская, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Заря",
+          "source": "data/clubs-kirovsky.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "b6b48383d867",
+      "district": "kirovsky",
+      "address": "ул. Лёни Голикова, д. 27",
+      "query": "27, улица Лёни Голикова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Ракета",
+          "source": "data/clubs-kirovsky.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "33e1ff863c38",
+      "district": "kirovsky",
+      "address": "ул. Лёни Голикова, д. 82",
+      "query": "82, улица Лёни Голикова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Альтаир",
+          "source": "data/clubs-kirovsky.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "fec4b0533e0e",
+      "district": "kirovsky",
+      "address": "ул. Морской Пехоты, д. 6/1",
+      "query": "6/1, улица Морской Пехоты, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжный",
+          "source": "data/clubs-kirovsky.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "737ebcd4eda7",
+      "district": "kirovsky",
+      "address": "ул. Новостроек, д. 15",
+      "query": "15, улица Новостроек, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Алые паруса",
+          "source": "data/clubs-kirovsky.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "c24c9458bf33",
+      "district": "kirovsky",
+      "address": "ул. Подводника Кузьмина, д. 26",
+      "query": "26, улица Подводника Кузьмина, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Юный ленинградец",
+          "source": "data/clubs-kirovsky.json",
+          "index": 18
+        }
+      ]
+    },
+    {
+      "id": "69dd6514c661",
+      "district": "kirovsky",
+      "address": "ул. Солдата Корзуна, д. 40",
+      "query": "40, улица Солдата Корзуна, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Смена",
+          "source": "data/clubs-kirovsky.json",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "id": "b62ef96193c0",
+      "district": "kirovsky",
+      "address": "ул. Стойкости, д. 8",
+      "query": "8, улица Стойкости, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Нарвская застава",
+          "source": "data/clubs-kirovsky.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "38ac812a9e97",
+      "district": "kirovsky",
+      "address": "ул. Счастливая, д. 17",
+      "query": "17, улица Счастливая, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Факел",
+          "source": "data/clubs-kirovsky.json",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "id": "2e0244dda97a",
+      "district": "kolpinsky",
+      "address": "г. Колпино, бульвар Трудящихся, д. 29/5",
+      "query": "29/5, бульвар Трудящихся, Колпино, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Родина",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "4f5a54c9198a",
+      "district": "kolpinsky",
+      "address": "г. Колпино, Заводской пр., д. 10",
+      "query": "10, Заводской проспект, Колпино, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Колпинец",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "fb5ce95a92ce",
+      "district": "kolpinsky",
+      "address": "г. Колпино, пр. Ленина, д. 49",
+      "query": "49, проспект Ленина, Колпино, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Горизонт",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "75499161ad23",
+      "district": "kolpinsky",
+      "address": "г. Колпино, ул. Веры Слуцкой, д. 89",
+      "query": "89, улица Веры Слуцкой, Колпино, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Колпинская перчатка",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "23446a295818",
+      "district": "kolpinsky",
+      "address": "г. Колпино, ул. Володарского, д. 9",
+      "query": "9, улица Володарского, Колпино, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Фантазёры",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "ef02e2613da8",
+      "district": "kolpinsky",
+      "address": "г. Колпино, ул. Загородная, д. 62",
+      "query": "62, улица Загородная, Колпино, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Z",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "id": "7e897f0772ec",
+      "district": "kolpinsky",
+      "address": "г. Колпино, ул. Ижорского Батальона, д. 15",
+      "query": "15, улица Ижорского Батальона, Колпино, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Ритм",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "259f398a2460",
+      "district": "kolpinsky",
+      "address": "г. Колпино, ул. Павловская, д. 82",
+      "query": "82, улица Павловская, Колпино, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Факел",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 1
+        },
+        {
+          "name": "Медиазавод",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "b683ee75e428",
+      "district": "kolpinsky",
+      "address": "г. Колпино, ул. Танкистов, д. 28А",
+      "query": "28А, улица Танкистов, Колпино, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Юность",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "9ab30397cd09",
+      "district": "kolpinsky",
+      "address": "Площадки на базе школ Колпинского района",
+      "query": "Площадки на базе школ Колпинского района, Санкт-Петербург, Россия",
+      "review": [
+        "Нет номера дома"
+      ],
+      "clubs": [
+        {
+          "name": "Патриот",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "11a2cc1933f2",
+      "district": "kolpinsky",
+      "address": "пос. Металлострой, ул. Полевая, д. 2/30",
+      "query": "2/30, улица Полевая, Металлострой, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Чайка",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "8d6d1e550c47",
+      "district": "kolpinsky",
+      "address": "пос. Металлострой, ул. Школьная, д. 12",
+      "query": "12, улица Школьная, Металлострой, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Орлёнок",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "33ec60d8f10b",
+      "district": "kolpinsky",
+      "address": "пос. Понтонный, ул. Южная, д. 13",
+      "query": "13, улица Южная, Понтонный, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Балтика",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "5be68c087fdb",
+      "district": "kolpinsky",
+      "address": "пос. Понтонный, ул. Южная, д. 3",
+      "query": "3, улица Южная, Понтонный, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Дельта",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "id": "200b780e273c",
+      "district": "krasnogvardeysky",
+      "address": "Большеохтинский пр., д. 19",
+      "query": "19, Большеохтинский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Измерение",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "e3a7242a733d",
+      "district": "krasnogvardeysky",
+      "address": "Большеохтинский пр., д. 41",
+      "query": "41, Большеохтинский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Рейд 2.0",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "id": "512f2d11bbbe",
+      "district": "krasnogvardeysky",
+      "address": "Заневский пр., д. 12",
+      "query": "12, Заневский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Тепло",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "03bae564ac64",
+      "district": "krasnogvardeysky",
+      "address": "Индустриальный пр., д. 7",
+      "query": "7, Индустриальный проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Диалог",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "51596984c02c",
+      "district": "krasnogvardeysky",
+      "address": "Малоохтинский пр., д. 92",
+      "query": "92, Малоохтинский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Современник",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "a27c21a27ffc",
+      "district": "krasnogvardeysky",
+      "address": "пр. Маршала Блюхера, д. 36/1",
+      "query": "36/1, проспект Маршала Блюхера, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "ZOV",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "id": "3bc185d0c82f",
+      "district": "krasnogvardeysky",
+      "address": "пр. Маршала Тухачевского, д. 41",
+      "query": "41, проспект Маршала Тухачевского, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Метеор",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 19
+        }
+      ]
+    },
+    {
+      "id": "cc4fd4ec6075",
+      "district": "krasnogvardeysky",
+      "address": "пр. Металлистов, д. 19/30",
+      "query": "19/30, проспект Металлистов, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Фактура",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "id": "8300342c48d0",
+      "district": "krasnogvardeysky",
+      "address": "пр. Шаумяна, д. 31",
+      "query": "31, проспект Шаумяна, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Берёзка",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 18
+        }
+      ]
+    },
+    {
+      "id": "7789ffcbd83c",
+      "district": "krasnogvardeysky",
+      "address": "пр. Энергетиков, д. 50",
+      "query": "50, проспект Энергетиков, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Нева",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "377bb0bd3a01",
+      "district": "krasnogvardeysky",
+      "address": "пр. Энергетиков, д. 70, корп. 3",
+      "query": "70, проспект Энергетиков, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Нео",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "94cc925b3999",
+      "district": "krasnogvardeysky",
+      "address": "Северный пр., д. 127/2",
+      "query": "127/2, Северный проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Соседи",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 20
+        }
+      ]
+    },
+    {
+      "id": "126c7c0fea8c",
+      "district": "krasnogvardeysky",
+      "address": "Среднеохтинский пр., д. 14",
+      "query": "14, Среднеохтинский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "4К",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 21
+        }
+      ]
+    },
+    {
+      "id": "5e7a14938b11",
+      "district": "krasnogvardeysky",
+      "address": "ул. Белорусская, д. 6, корп. 2 и 3",
+      "query": "6, улица Белорусская, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Адреналин",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "7e1585b438d0",
+      "district": "krasnogvardeysky",
+      "address": "ул. Казанская, д. 14",
+      "query": "14, улица Казанская, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Точка",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "1b8fdc3f6734",
+      "district": "krasnogvardeysky",
+      "address": "ул. Коммуны, д. 32, корп. 5",
+      "query": "32, улица Коммуны, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Вега",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "de35a132718a",
+      "district": "krasnogvardeysky",
+      "address": "ул. Корнея Чуковского, д. 3, корп. 1",
+      "query": "3, улица Корнея Чуковского, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Острова",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 16
+        }
+      ]
+    },
+    {
+      "id": "74c109cbba46",
+      "district": "krasnogvardeysky",
+      "address": "ул. Ленская, д. 5",
+      "query": "5, улица Ленская, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Аквамарин",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "ecdd70752f8a",
+      "district": "krasnogvardeysky",
+      "address": "ул. Ленская, д. 8, корп. 2",
+      "query": "8, улица Ленская, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Родник",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "e927166e16b1",
+      "district": "krasnogvardeysky",
+      "address": "ул. Передовиков, д. 16, корп. 2",
+      "query": "16, улица Передовиков, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Квадрат",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "a8172b1d8cb1",
+      "district": "krasnogvardeysky",
+      "address": "ул. Республиканская, д. 18, корп. 1",
+      "query": "18, улица Республиканская, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Квартира.ру",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 17
+        }
+      ]
+    },
+    {
+      "id": "d7e568295157",
+      "district": "krasnogvardeysky",
+      "address": "ул. Тарасова, д. 11",
+      "query": "11, улица Тарасова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Факел",
+          "source": "data/clubs-krasnogvardeysky.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "8ffd9aea567d",
+      "district": "krasnoselsky",
+      "address": "Балтийский бульвар, д. 4, стр. 1",
+      "query": "4, Балтийский бульвар, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Причал",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "id": "f95d2d22c62a",
+      "district": "krasnoselsky",
+      "address": "г. Красное Село, ул. Освобождения, д. 31, корп. 1",
+      "query": "31, улица Освобождения, Красное Село, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Восход",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "2434814814a2",
+      "district": "krasnoselsky",
+      "address": "Красносельское ш., д. 46, корп. 4",
+      "query": "46, Красносельское шоссе, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Умелец",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "24a9d6232446",
+      "district": "krasnoselsky",
+      "address": "пр. Ветеранов, д. 166",
+      "query": "166, проспект Ветеранов, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Олимп",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "9b3e6136579a",
+      "district": "krasnoselsky",
+      "address": "пр. Героев, д. 24, корп. 2",
+      "query": "24, проспект Героев, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Рекорд",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "ddf192a60dc3",
+      "district": "krasnoselsky",
+      "address": "ул. Десантников, д. 34",
+      "query": "34, улица Десантников, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Буревестник",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "id": "a15e0cf6be21",
+      "district": "krasnoselsky",
+      "address": "ул. Добровольцев, д. 44",
+      "query": "44, улица Добровольцев, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Ритм",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "46f080bf0d3b",
+      "district": "krasnoselsky",
+      "address": "ул. Котина, д. 2, корп. 1",
+      "query": "2, улица Котина, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Ровесник",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "9483fcfaa751",
+      "district": "krasnoselsky",
+      "address": "ул. Маршала Захарова, д. 23",
+      "query": "23, улица Маршала Захарова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Полет",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "35c53503a3d4",
+      "district": "krasnoselsky",
+      "address": "ул. Маршала Захарова, д. 29, корп. 2",
+      "query": "29, улица Маршала Захарова, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Маяк",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "795e116d0c21",
+      "district": "krasnoselsky",
+      "address": "ул. Маршала Казакова, д. 68, корп. 1",
+      "query": "68, улица Маршала Казакова, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Берег",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "1a3eec8fa425",
+      "district": "krasnoselsky",
+      "address": "ул. Морской Пехоты, д. 22, корп. 2",
+      "query": "22, улица Морской Пехоты, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Компас",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 16
+        }
+      ]
+    },
+    {
+      "id": "d8598fe2adaf",
+      "district": "krasnoselsky",
+      "address": "ул. Пионерстроя, д. 4",
+      "query": "4, улица Пионерстроя, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Алые паруса",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "b62fdd3f3977",
+      "district": "krasnoselsky",
+      "address": "ул. Пограничника Гарькавого, д. 36, корп. 1",
+      "query": "36, улица Пограничника Гарькавого, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Ракета",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "e5a79eee1f4e",
+      "district": "krasnoselsky",
+      "address": "ул. Тамбасова, д. 3, корп. 1",
+      "query": "3, улица Тамбасова, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Непокоренный рубеж",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "9a3850aadd75",
+      "district": "krasnoselsky",
+      "address": "ул. Тамбасова, д. 32",
+      "query": "32, улица Тамбасова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Факел",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "bfe336ac6710",
+      "district": "krasnoselsky",
+      "address": "ул. Чекистов, д. 28",
+      "query": "28, улица Чекистов, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Юность",
+          "source": "data/clubs-krasnoselsky.json",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "id": "6f0409f4c8f5",
+      "district": "kronshtadtsky",
+      "address": "г. Кронштадт, Советская ул., д. 35, лит. А",
+      "query": "35, Советская улица, Кронштадт, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Кронштадтский Дворец молодёжи",
+          "source": "data/clubs-kronshtadtsky.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "de99a9c135c1",
+      "district": "kronshtadtsky",
+      "address": "г. Кронштадт, ул. Мануильского, д. 45/3, лит. А",
+      "query": "45/3, улица Мануильского, Кронштадт, Россия",
+      "review": [
+        "Двойной номер дома",
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Маяк",
+          "source": "data/clubs-kronshtadtsky.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "3a0859a004ae",
+      "district": "kronshtadtsky",
+      "address": "г. Кронштадт, Якорная пл., д. 3В, лит. А",
+      "query": "3В, Якорная площадь, Кронштадт, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Ровесник",
+          "source": "data/clubs-kronshtadtsky.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "c1c135ba673c",
+      "district": "kurortny",
+      "address": "г. Зеленогорск, Привокзальная ул., д. 7",
+      "query": "7, Привокзальная улица, Зеленогорск, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Снайпер: Привокзальная",
+          "source": "data/clubs-kurortny.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "f716f3aad69b",
+      "district": "kurortny",
+      "address": "г. Зеленогорск, ул. Исполкомская, д. 5, лит. А",
+      "query": "5, улица Исполкомская, Зеленогорск, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Снайпер: Исполкомская",
+          "source": "data/clubs-kurortny.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "8688b4734fdb",
+      "district": "kurortny",
+      "address": "г. Зеленогорск, ул. Ленина, д. 25",
+      "query": "25, улица Ленина, Зеленогорск, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Снайпер: Ленина",
+          "source": "data/clubs-kurortny.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "369ff8065831",
+      "district": "kurortny",
+      "address": "г. Сестрорецк, Приморское ш., д. 270",
+      "query": "270, Приморское шоссе, Сестрорецк, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Восход: Приморское шоссе, 270",
+          "source": "data/clubs-kurortny.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "cd248dbb0b54",
+      "district": "kurortny",
+      "address": "г. Сестрорецк, Приморское ш., д. 280",
+      "query": "280, Приморское шоссе, Сестрорецк, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Восход: Приморское шоссе, 280",
+          "source": "data/clubs-kurortny.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "2a81049eaa12",
+      "district": "kurortny",
+      "address": "г. Сестрорецк, ул. Володарского, д. 21",
+      "query": "21, улица Володарского, Сестрорецк, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Восход: Володарского",
+          "source": "data/clubs-kurortny.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "ea0d0f32c1d1",
+      "district": "kurortny",
+      "address": "г. Сестрорецк, ул. Мосина, д. 1",
+      "query": "1, улица Мосина, Сестрорецк, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Восход: Мосина",
+          "source": "data/clubs-kurortny.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "d9bdbdadb78b",
+      "district": "kurortny",
+      "address": "г. Сестрорецк, ул. Токарева, д. 15",
+      "query": "15, улица Токарева, Сестрорецк, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Восход: Токарева",
+          "source": "data/clubs-kurortny.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "8745cdbe190d",
+      "district": "kurortny",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "query": "57А, улица Карла Маркса, Песочный, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодость",
+          "source": "data/clubs-kurortny.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "79b16234b9a8",
+      "district": "moskovsky",
+      "address": "5-й Предпортовый пр., д. 8, корп. 5",
+      "query": "8, 5-й Предпортовый проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Пулковец",
+          "source": "data/clubs-moskovsky.json",
+          "index": 18
+        }
+      ]
+    },
+    {
+      "id": "c222ec24a9c0",
+      "district": "moskovsky",
+      "address": "Авиационная ул., д. 9",
+      "query": "9, Авиационная улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Надежда",
+          "source": "data/clubs-moskovsky.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "bc373dc5fba5",
+      "district": "moskovsky",
+      "address": "Благодатная ул., д. 38",
+      "query": "38, Благодатная улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Комета",
+          "source": "data/clubs-moskovsky.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "2d04b1989678",
+      "district": "moskovsky",
+      "address": "Благодатная ул., д. 51",
+      "query": "51, Благодатная улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Спутник",
+          "source": "data/clubs-moskovsky.json",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "id": "9ec1e97048af",
+      "district": "moskovsky",
+      "address": "Варшавская ул., д. 47, корп. 2",
+      "query": "47, Варшавская улица, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Аврора",
+          "source": "data/clubs-moskovsky.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "cf2623a18733",
+      "district": "moskovsky",
+      "address": "Витебский пр., д. 41, корп. 1",
+      "query": "41, Витебский проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Рубин",
+          "source": "data/clubs-moskovsky.json",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "id": "cc0ba09ee90a",
+      "district": "moskovsky",
+      "address": "Звёздная ул., д. 16А",
+      "query": "16А, Звёздная улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "На Звёздной",
+          "source": "data/clubs-moskovsky.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "7b4bf1e0f3a3",
+      "district": "moskovsky",
+      "address": "Краснопутиловская ул., д. 56А",
+      "query": "56А, Краснопутиловская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Центр патриотического воспитания",
+          "source": "data/clubs-moskovsky.json",
+          "index": 20
+        }
+      ]
+    },
+    {
+      "id": "4306f9dc2dff",
+      "district": "moskovsky",
+      "address": "Кубинская ул., д. 44",
+      "query": "44, Кубинская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Восток",
+          "source": "data/clubs-moskovsky.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "d7591285e89f",
+      "district": "moskovsky",
+      "address": "Ленинский пр., д. 158, корп. 2",
+      "query": "158, Ленинский проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Романтики",
+          "source": "data/clubs-moskovsky.json",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "id": "24977370ad42",
+      "district": "moskovsky",
+      "address": "Московский пр., д. 151А",
+      "query": "151А, Московский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "ПРОСТО.Московский",
+          "source": "data/clubs-moskovsky.json",
+          "index": 19
+        }
+      ]
+    },
+    {
+      "id": "b11e31f76bd9",
+      "district": "moskovsky",
+      "address": "Московский пр., д. 153",
+      "query": "153, Московский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Старт",
+          "source": "data/clubs-moskovsky.json",
+          "index": 16
+        }
+      ]
+    },
+    {
+      "id": "e9099876adbd",
+      "district": "moskovsky",
+      "address": "Московский пр., д. 174А",
+      "query": "174А, Московский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Космос",
+          "source": "data/clubs-moskovsky.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "acb15311631b",
+      "district": "moskovsky",
+      "address": "Московский пр., д. 216А",
+      "query": "216А, Московский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Луч",
+          "source": "data/clubs-moskovsky.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "80d5727d410e",
+      "district": "moskovsky",
+      "address": "Московское ш., д. 14, корп. 1",
+      "query": "14, Московское шоссе, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Юность",
+          "source": "data/clubs-moskovsky.json",
+          "index": 17
+        }
+      ]
+    },
+    {
+      "id": "ffd8287c9e32",
+      "district": "moskovsky",
+      "address": "пр. Космонавтов, д. 29, корп. 7",
+      "query": "29, проспект Космонавтов, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Космонавт",
+          "source": "data/clubs-moskovsky.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "6dc96044c78e",
+      "district": "moskovsky",
+      "address": "Пулковская ул., д. 11, корп. 1",
+      "query": "11, Пулковская улица, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Октябрь",
+          "source": "data/clubs-moskovsky.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "01324d99d29d",
+      "district": "moskovsky",
+      "address": "Смоленская ул., д. 1",
+      "query": "1, Смоленская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Нева",
+          "source": "data/clubs-moskovsky.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "e409028cfa5e",
+      "district": "moskovsky",
+      "address": "ул. Ленсовета, д. 10",
+      "query": "10, улица Ленсовета, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Молодёжный",
+          "source": "data/clubs-moskovsky.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "2d14abdb3862",
+      "district": "moskovsky",
+      "address": "ул. Орджоникидзе, д. 61",
+      "query": "61, улица Орджоникидзе, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Взлёт",
+          "source": "data/clubs-moskovsky.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "3df216a38aa0",
+      "district": "moskovsky",
+      "address": "ул. Пилотов, д. 25",
+      "query": "25, улица Пилотов, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Вертикаль",
+          "source": "data/clubs-moskovsky.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "392c7758ef6c",
+      "district": "nevsky",
+      "address": "3-й Рабфаковский пер., д. 4",
+      "query": "4, 3-й Рабфаковский переулок, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Чайка",
+          "source": "data/clubs-nevsky.json",
+          "index": 23
+        }
+      ]
+    },
+    {
+      "id": "1287469a37c5",
+      "district": "nevsky",
+      "address": "бульвар Красных Зорь, д. 5",
+      "query": "5, бульвар Красных Зорь, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Параллель",
+          "source": "data/clubs-nevsky.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "2abdf1369696",
+      "district": "nevsky",
+      "address": "Дальневосточный пр., д. 4",
+      "query": "4, Дальневосточный проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Кругозор",
+          "source": "data/clubs-nevsky.json",
+          "index": 17
+        }
+      ]
+    },
+    {
+      "id": "294b22b8f3b3",
+      "district": "nevsky",
+      "address": "Дальневосточный пр., д. 8, корп. 1",
+      "query": "8, Дальневосточный проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Юбилейный",
+          "source": "data/clubs-nevsky.json",
+          "index": 24
+        }
+      ]
+    },
+    {
+      "id": "3b65d8fcd159",
+      "district": "nevsky",
+      "address": "Октябрьская наб., д. 84, корп. 5",
+      "query": "84, Октябрьская набережная, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Дружба",
+          "source": "data/clubs-nevsky.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "9f1ea41b89d0",
+      "district": "nevsky",
+      "address": "Октябрьская наб., д. 86, корп. 2, стр. 1",
+      "query": "86, Октябрьская набережная, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Арктика Холл",
+          "source": "data/clubs-nevsky.json",
+          "index": 33
+        }
+      ]
+    },
+    {
+      "id": "ed9704013ded",
+      "district": "nevsky",
+      "address": "пр. Большевиков, д. 57, корп. 2",
+      "query": "57, проспект Большевиков, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Невские орлята",
+          "source": "data/clubs-nevsky.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "0c475434b332",
+      "district": "nevsky",
+      "address": "пр. Большевиков, д. 6, корп. 2",
+      "query": "6, проспект Большевиков, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Товарищ",
+          "source": "data/clubs-nevsky.json",
+          "index": 26
+        }
+      ]
+    },
+    {
+      "id": "a5d557b6dd0b",
+      "district": "nevsky",
+      "address": "пр. Обуховской Обороны, д. 243",
+      "query": "243, проспект Обуховской Обороны, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Перспектива",
+          "source": "data/clubs-nevsky.json",
+          "index": 31
+        }
+      ]
+    },
+    {
+      "id": "0002b4f2df4f",
+      "district": "nevsky",
+      "address": "пр. Обуховской Обороны, д. 95, корп. 1",
+      "query": "95, проспект Обуховской Обороны, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Спутник",
+          "source": "data/clubs-nevsky.json",
+          "index": 27
+        }
+      ]
+    },
+    {
+      "id": "058dc8f1035f",
+      "district": "nevsky",
+      "address": "пр. Солидарности, д. 11, корп. 1",
+      "query": "11, проспект Солидарности, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Прожектор",
+          "source": "data/clubs-nevsky.json",
+          "index": 29
+        }
+      ]
+    },
+    {
+      "id": "f2e53db32d13",
+      "district": "nevsky",
+      "address": "Товарищеский пр., д. 20/27",
+      "query": "20/27, Товарищеский проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Зоркий",
+          "source": "data/clubs-nevsky.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "79246700b68c",
+      "district": "nevsky",
+      "address": "ул. Антонова-Овсеенко, д. 11, корп. 1",
+      "query": "11, улица Антонова-Овсеенко, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Луч",
+          "source": "data/clubs-nevsky.json",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "id": "2cd5f03da984",
+      "district": "nevsky",
+      "address": "ул. Бабушкина, д. 117, корп. 2",
+      "query": "117, улица Бабушкина, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Ракета",
+          "source": "data/clubs-nevsky.json",
+          "index": 28
+        }
+      ]
+    },
+    {
+      "id": "bcb52a1a8129",
+      "district": "nevsky",
+      "address": "ул. Бабушкина, д. 42, корп. 1",
+      "query": "42, улица Бабушкина, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Наш Этаж",
+          "source": "data/clubs-nevsky.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "9d8ce9594082",
+      "district": "nevsky",
+      "address": "ул. Бабушкина, д. 42, корп. 4А",
+      "query": "42, улица Бабушкина, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжный центр",
+          "source": "data/clubs-nevsky.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "ddf0ca8075de",
+      "district": "nevsky",
+      "address": "ул. Дыбенко, д. 13, корп. 1",
+      "query": "13, улица Дыбенко, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Космос",
+          "source": "data/clubs-nevsky.json",
+          "index": 19
+        }
+      ]
+    },
+    {
+      "id": "6eee3cbd6929",
+      "district": "nevsky",
+      "address": "ул. Дыбенко, д. 25, корп. 1",
+      "query": "25, улица Дыбенко, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Горизонт",
+          "source": "data/clubs-nevsky.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "f50ab89016aa",
+      "district": "nevsky",
+      "address": "ул. Еремеева, д. 1",
+      "query": "1, улица Еремеева, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Патриот",
+          "source": "data/clubs-nevsky.json",
+          "index": 32
+        }
+      ]
+    },
+    {
+      "id": "40ee13296437",
+      "district": "nevsky",
+      "address": "ул. Караваевская, д. 31",
+      "query": "31, улица Караваевская, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Каравелла",
+          "source": "data/clubs-nevsky.json",
+          "index": 20
+        }
+      ]
+    },
+    {
+      "id": "9abc90b7e05d",
+      "district": "nevsky",
+      "address": "ул. Кибальчича, д. 8, корп. 2",
+      "query": "8, улица Кибальчича, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Юность",
+          "source": "data/clubs-nevsky.json",
+          "index": 22
+        }
+      ]
+    },
+    {
+      "id": "6ff99da783ab",
+      "district": "nevsky",
+      "address": "ул. Коллонтай, д. 21, корп. 1",
+      "query": "21, улица Коллонтай, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Огонёк",
+          "source": "data/clubs-nevsky.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "3bbe28ebf2d9",
+      "district": "nevsky",
+      "address": "ул. Коллонтай, д. 32, корп. 3",
+      "query": "32, улица Коллонтай, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Лидер",
+          "source": "data/clubs-nevsky.json",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "id": "aea5c82633af",
+      "district": "nevsky",
+      "address": "ул. Коллонтай, д. 41",
+      "query": "41, улица Коллонтай, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Искатели",
+          "source": "data/clubs-nevsky.json",
+          "index": 21
+        }
+      ]
+    },
+    {
+      "id": "8be6cce3775a",
+      "district": "nevsky",
+      "address": "ул. Кржижановского, д. 5",
+      "query": "5, улица Кржижановского, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Атлант",
+          "source": "data/clubs-nevsky.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "3646c46debf2",
+      "district": "nevsky",
+      "address": "ул. Крупской, д. 31",
+      "query": "31, улица Крупской, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Факел",
+          "source": "data/clubs-nevsky.json",
+          "index": 25
+        }
+      ]
+    },
+    {
+      "id": "5188983a6fc2",
+      "district": "nevsky",
+      "address": "ул. Крыленко, д. 21",
+      "query": "21, улица Крыленко, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Олимпиец",
+          "source": "data/clubs-nevsky.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "022c235169f9",
+      "district": "nevsky",
+      "address": "ул. Народная, д. 28",
+      "query": "28, улица Народная, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Оптимист",
+          "source": "data/clubs-nevsky.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "b3d19e25fdf0",
+      "district": "nevsky",
+      "address": "ул. Новосёлов, д. 53, корп. 2",
+      "query": "53, улица Новосёлов, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Мечта",
+          "source": "data/clubs-nevsky.json",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "id": "0289b2086137",
+      "district": "nevsky",
+      "address": "ул. Ольминского, д. 26",
+      "query": "26, улица Ольминского, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Ленинградец",
+          "source": "data/clubs-nevsky.json",
+          "index": 16
+        }
+      ]
+    },
+    {
+      "id": "13b833deb7d4",
+      "district": "nevsky",
+      "address": "ул. Полярников, д. 19",
+      "query": "19, улица Полярников, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Полярник",
+          "source": "data/clubs-nevsky.json",
+          "index": 30
+        }
+      ]
+    },
+    {
+      "id": "759498f5da4c",
+      "district": "nevsky",
+      "address": "ул. Прибрежная, д. 16",
+      "query": "16, улица Прибрежная, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Нева",
+          "source": "data/clubs-nevsky.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "3a26ccf79b56",
+      "district": "nevsky",
+      "address": "ул. Русановская, д. 13, корп. 2",
+      "query": "13, улица Русановская, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "АртНевский",
+          "source": "data/clubs-nevsky.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "5225dad40669",
+      "district": "nevsky",
+      "address": "ул. Седова, д. 98А",
+      "query": "98А, улица Седова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Красные Зори",
+          "source": "data/clubs-nevsky.json",
+          "index": 18
+        }
+      ]
+    },
+    {
+      "id": "135e9eedd44a",
+      "district": "petrodvortsovy",
+      "address": "г. Ломоносов, ул. Александровская, д. 38Б",
+      "query": "38Б, улица Александровская, Ломоносов, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Олимп",
+          "source": "data/clubs-petrodvortsovy.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "ae03f27a288e",
+      "district": "petrodvortsovy",
+      "address": "г. Ломоносов, ул. Михайловская, д. 51",
+      "query": "51, улица Михайловская, Ломоносов, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "М51",
+          "source": "data/clubs-petrodvortsovy.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "56e85e3cd43a",
+      "district": "petrodvortsovy",
+      "address": "г. Ломоносов, ул. Победы, д. 20, корп. 2",
+      "query": "20, улица Победы, Ломоносов, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Юнта",
+          "source": "data/clubs-petrodvortsovy.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "354366d3fbad",
+      "district": "petrodvortsovy",
+      "address": "г. Петергоф, ул. Парковая, д. 16",
+      "query": "16, улица Парковая, Петергоф, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Навигатор",
+          "source": "data/clubs-petrodvortsovy.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "c673b7e93256",
+      "district": "petrodvortsovy",
+      "address": "г. Петергоф, ул. Разводная, д. 29А",
+      "query": "29А, улица Разводная, Петергоф, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Бриг",
+          "source": "data/clubs-petrodvortsovy.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "45eac1ecebfb",
+      "district": "petrodvortsovy",
+      "address": "г. Петергоф, ул. Халтурина, д. 15, корп. 4",
+      "query": "15, улица Халтурина, Петергоф, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Тайфун",
+          "source": "data/clubs-petrodvortsovy.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "e0054b6723f5",
+      "district": "petrodvortsovy",
+      "address": "г. Петергоф, ул. Чичеринская, д. 11, корп. 4",
+      "query": "11, улица Чичеринская, Петергоф, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Меридиан",
+          "source": "data/clubs-petrodvortsovy.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "5015476c06e6",
+      "district": "petrodvortsovy",
+      "address": "г. Петергоф, ул. Шахматова, д. 12, корп. 3",
+      "query": "12, улица Шахматова, Петергоф, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Экватор",
+          "source": "data/clubs-petrodvortsovy.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "c93a2335c9b3",
+      "district": "petrodvortsovy",
+      "address": "пос. Стрельна, Санкт-Петербургское ш., д. 69А",
+      "query": "69А, Санкт-Петербургское шоссе, Стрельна, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Галс",
+          "source": "data/clubs-petrodvortsovy.json",
+          "index": 2
+        },
+        {
+          "name": "Стрела",
+          "source": "data/clubs-petrodvortsovy.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "8b3fdd4c2943",
+      "district": "petrogradsky",
+      "address": "Большая Монетная ул., д. 24А",
+      "query": "24А, Большая Монетная улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Общественные мастерские",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "id": "b22c5f6b658e",
+      "district": "petrogradsky",
+      "address": "Большая Пушкарская ул., д. 32А",
+      "query": "32А, Большая Пушкарская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Среда",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "e20d35c78025",
+      "district": "petrogradsky",
+      "address": "Газовая ул., д. 7",
+      "query": "7, Газовая улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Чайка",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 18
+        }
+      ]
+    },
+    {
+      "id": "c7f354559b1f",
+      "district": "petrogradsky",
+      "address": "Каменноостровский пр., д. 64",
+      "query": "64, Каменноостровский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Палата ремёсел",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "10ba4c3a5b1e",
+      "district": "petrogradsky",
+      "address": "Кронверкская ул., д. 15",
+      "query": "15, Кронверкская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Эстетика",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 8
+        },
+        {
+          "name": "Добро.Центр",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "id": "afa4406f9483",
+      "district": "petrogradsky",
+      "address": "ул. Блохина, д. 25",
+      "query": "25, улица Блохина, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Ю-Питер",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 16
+        }
+      ]
+    },
+    {
+      "id": "a6ff133ed2d2",
+      "district": "petrogradsky",
+      "address": "ул. Введенская, д. 7",
+      "query": "7, улица Введенская, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Зеркало",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "736342f171f1",
+      "district": "petrogradsky",
+      "address": "ул. Воскова, д. 16",
+      "query": "16, улица Воскова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Алмаз",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "3eaf357de54a",
+      "district": "petrogradsky",
+      "address": "ул. Воскова, д. 7/18",
+      "query": "7/18, улица Воскова, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Вега",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "id": "37e8c9f307dc",
+      "district": "petrogradsky",
+      "address": "ул. Воскова, д. 8/5",
+      "query": "8/5, улица Воскова, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Альфа",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "1b3c54987f9f",
+      "district": "petrogradsky",
+      "address": "ул. Гатчинская, д. 1/56",
+      "query": "1/56, улица Гатчинская, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Эра",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 17
+        }
+      ]
+    },
+    {
+      "id": "4b36ee04026b",
+      "district": "petrogradsky",
+      "address": "ул. Гатчинская, д. 25/25",
+      "query": "25/25, улица Гатчинская, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "ФанДом",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "12c31fb856fb",
+      "district": "petrogradsky",
+      "address": "ул. Ленина, д. 10",
+      "query": "10, улица Ленина, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Антей",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "30b97193d2bd",
+      "district": "petrogradsky",
+      "address": "ул. Мира, д. 7",
+      "query": "7, улица Мира, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Мир",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "4251ad3e067f",
+      "district": "petrogradsky",
+      "address": "ул. Мончегорская, д. 10Б",
+      "query": "10Б, улица Мончегорская, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Дом",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "ef9bbcdab869",
+      "district": "petrogradsky",
+      "address": "ул. Подковырова, д. 20",
+      "query": "20, улица Подковырова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Старт",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "7de974314639",
+      "district": "petrogradsky",
+      "address": "ул. Полозова, д. 3",
+      "query": "3, улица Полозова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Северное сияние",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "d0d917ea2f13",
+      "district": "petrogradsky",
+      "address": "ул. Полозова, д. 3, пом. 2-Н",
+      "query": "3, улица Полозова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Дом Юнармии",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 19
+        }
+      ]
+    },
+    {
+      "id": "5f37527f072c",
+      "district": "petrogradsky",
+      "address": "ул. Съезжинская, д. 34",
+      "query": "34, улица Съезжинская, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Планета-АРТ",
+          "source": "data/clubs-petrogradsky.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "3d8ff9b654fb",
+      "district": "primorsky",
+      "address": "Богатырский пр., д. 44",
+      "query": "44, Богатырский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "На Богатырском",
+          "source": "data/clubs-primorsky.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "794f19a601be",
+      "district": "primorsky",
+      "address": "Комендантский пр., д. 39, корп. 1",
+      "query": "39, Комендантский проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Заозерье",
+          "source": "data/clubs-primorsky.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "c4db8307c839",
+      "district": "primorsky",
+      "address": "Комендантский пр., д. 51, корп. 1",
+      "query": "51, Комендантский проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Юпитер",
+          "source": "data/clubs-primorsky.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "8986065f3fb4",
+      "district": "primorsky",
+      "address": "Ланское ш., д. 24, корп. 5",
+      "query": "24, Ланское шоссе, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Галактика",
+          "source": "data/clubs-primorsky.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "57b35555764a",
+      "district": "primorsky",
+      "address": "Нижне-Каменская ул., д. 26, стр. 1",
+      "query": "26, Нижне-Каменская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Развитие",
+          "source": "data/clubs-primorsky.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "107c82402ee4",
+      "district": "primorsky",
+      "address": "пр. Авиаконструкторов, д. 16, корп. 1",
+      "query": "16, проспект Авиаконструкторов, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Корпус",
+          "source": "data/clubs-primorsky.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "76935cfac25a",
+      "district": "primorsky",
+      "address": "пр. Королёва, д. 32, корп. 1, лит. Б",
+      "query": "32, проспект Королёва, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "На Королёва",
+          "source": "data/clubs-primorsky.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "e3fd68e49829",
+      "district": "primorsky",
+      "address": "ул. Мебельная, д. 25, корп. 1, пом. 26-Н",
+      "query": "25, улица Мебельная, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Каскад",
+          "source": "data/clubs-primorsky.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "0c858bdb2563",
+      "district": "primorsky",
+      "address": "ул. Мебельная, д. 25, корп. 1, пом. 27-Н",
+      "query": "25, улица Мебельная, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Ритм",
+          "source": "data/clubs-primorsky.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "68cd81acffa4",
+      "district": "primorsky",
+      "address": "ул. Савушкина, д. 37",
+      "query": "37, улица Савушкина, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Нева",
+          "source": "data/clubs-primorsky.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "d35a94f02373",
+      "district": "primorsky",
+      "address": "ул. Торжковская, д. 24, корп. 2",
+      "query": "24, улица Торжковская, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Юность",
+          "source": "data/clubs-primorsky.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "7bf8e11693ac",
+      "district": "primorsky",
+      "address": "ул. Туристская, д. 11, корп. 1",
+      "query": "11, улица Туристская, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Молодёжная Идея",
+          "source": "data/clubs-primorsky.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "67a78057d0ea",
+      "district": "primorsky",
+      "address": "ул. Школьная, д. 17",
+      "query": "17, улица Школьная, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "В стиле",
+          "source": "data/clubs-primorsky.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "1317873d68d7",
+      "district": "pushkinsky",
+      "address": "г. Павловск, пос. Динамо, Клубная пл., д. 1",
+      "query": "1, пос. Динамо, Клубная площадь, Павловск, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Павловчанин",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "b189421071f5",
+      "district": "pushkinsky",
+      "address": "г. Павловск, ул. Звериницкая, д. 21А",
+      "query": "21А, улица Звериницкая, Павловск, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Заречье",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "47e197efc234",
+      "district": "pushkinsky",
+      "address": "г. Павловск, ул. Толмачёва, д. 8А",
+      "query": "8А, улица Толмачёва, Павловск, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Радуга",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "eb07091f21f0",
+      "district": "pushkinsky",
+      "address": "г. Пушкин, Кадетский б-р, д. 18",
+      "query": "18, Кадетский б-р, Пушкин, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Витус",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "dde7f3875783",
+      "district": "pushkinsky",
+      "address": "г. Пушкин, Красносельское ш., д. 67",
+      "query": "67, Красносельское шоссе, Пушкин, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Антей",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 0
+        },
+        {
+          "name": "Товарищ",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "05ad51a8ca05",
+      "district": "pushkinsky",
+      "address": "г. Пушкин, ул. В. Шишкова, д. 32/15",
+      "query": "32/15, улица В. Шишкова, Пушкин, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Ника",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "dfffe1d60b28",
+      "district": "pushkinsky",
+      "address": "г. Пушкин, ул. Генерала Хазова, д. 45",
+      "query": "45, улица Генерала Хазова, Пушкин, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Исток",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "139d4e1dc5a3",
+      "district": "pushkinsky",
+      "address": "г. Пушкин, ул. Железнодорожная, д. 56",
+      "query": "56, улица Железнодорожная, Пушкин, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Пушкинец",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "a0c44df78bcd",
+      "district": "pushkinsky",
+      "address": "г. Пушкин, ул. Ленинградская, д. 47",
+      "query": "47, улица Ленинградская, Пушкин, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Информационный центр «Царскосельский»",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 20
+        }
+      ]
+    },
+    {
+      "id": "63b40b19ac53",
+      "district": "pushkinsky",
+      "address": "г. Пушкин, ул. Ленинградская, д. 77",
+      "query": "77, улица Ленинградская, Пушкин, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Чайка",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "4a3d6e9f2b0c",
+      "district": "pushkinsky",
+      "address": "г. Пушкин, ул. Магазейная, д. 42",
+      "query": "42, улица Магазейная, Пушкин, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Царскосельский",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 19
+        }
+      ]
+    },
+    {
+      "id": "e911866fab11",
+      "district": "pushkinsky",
+      "address": "г. Пушкин, ул. Средняя, д. 34",
+      "query": "34, улица Средняя, Пушкин, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Вымпел",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "1ba9979d5e26",
+      "district": "pushkinsky",
+      "address": "г. Пушкин, ул. Широкая, д. 16",
+      "query": "16, улица Широкая, Пушкин, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Юность",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "id": "11f44d85b13f",
+      "district": "pushkinsky",
+      "address": "пос. Ленсоветовский",
+      "query": "пос. Ленсоветовский, Санкт-Петербург, Россия",
+      "review": [
+        "Нет номера дома"
+      ],
+      "clubs": [
+        {
+          "name": "Ленсоветовский",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "id": "65a69140c2a2",
+      "district": "pushkinsky",
+      "address": "пос. Шушары, мкр. Славянка, ул. Ростовская, д. 14-16",
+      "query": "14-16, мкр. Славянка, улица Ростовская, Шушары, Россия",
+      "review": [
+        "Диапазон домов"
+      ],
+      "clubs": [
+        {
+          "name": "Росток",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 17
+        }
+      ]
+    },
+    {
+      "id": "a994654b8976",
+      "district": "pushkinsky",
+      "address": "пос. Шушары, Пулковское отделение, д. 30",
+      "query": "30, Пулковское отделение, Шушары, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Пулковец",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "57f8d53fcdf6",
+      "district": "pushkinsky",
+      "address": "пос. Шушары, Старорусский пр., д. 8, корп. 1",
+      "query": "8, Старорусский проспект, Шушары, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "3-й этаж",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 18
+        }
+      ]
+    },
+    {
+      "id": "16a79df8f8c0",
+      "district": "pushkinsky",
+      "address": "пос. Шушары, ул. Валдайская, д. 9",
+      "query": "9, улица Валдайская, Шушары, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Шушары",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "id": "3ff2e1c9f0b3",
+      "district": "pushkinsky",
+      "address": "пос. Шушары, ул. Галицкая, д. 2, корп. 1",
+      "query": "2, улица Галицкая, Шушары, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Славянка",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "2bfaa354a1b8",
+      "district": "pushkinsky",
+      "address": "пос. Шушары, ул. Первомайская, д. 8А",
+      "query": "8А, улица Первомайская, Шушары, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Олимп",
+          "source": "data/clubs-pushkinsky.json",
+          "index": 16
+        }
+      ]
+    },
+    {
+      "id": "285dba20155c",
+      "district": "tsentralny",
+      "address": "3-я Советская ул., д. 26",
+      "query": "26, 3-я Советская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Маяк",
+          "source": "data/clubs-tsentralny.json",
+          "index": 16
+        }
+      ]
+    },
+    {
+      "id": "6c7c87d3809b",
+      "district": "tsentralny",
+      "address": "Загородный пр., д. 21-23",
+      "query": "21-23, Загородный проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Диапазон домов"
+      ],
+      "clubs": [
+        {
+          "name": "Феникс",
+          "source": "data/clubs-tsentralny.json",
+          "index": 23
+        }
+      ]
+    },
+    {
+      "id": "2c005c4f67b9",
+      "district": "tsentralny",
+      "address": "Лиговский пр., д. 65",
+      "query": "65, Лиговский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Атлет",
+          "source": "data/clubs-tsentralny.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "76276a5800cc",
+      "district": "tsentralny",
+      "address": "Литейный пр., д. 30",
+      "query": "30, Литейный проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Атлант",
+          "source": "data/clubs-tsentralny.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "c02444bd0133",
+      "district": "tsentralny",
+      "address": "наб. реки Мойки, д. 51",
+      "query": "51, набережная реки Мойки, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Острова",
+          "source": "data/clubs-tsentralny.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "e74c19993652",
+      "district": "tsentralny",
+      "address": "наб. реки Мойки, д. 9",
+      "query": "9, набережная реки Мойки, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Максимум",
+          "source": "data/clubs-tsentralny.json",
+          "index": 17
+        }
+      ]
+    },
+    {
+      "id": "129abb612868",
+      "district": "tsentralny",
+      "address": "Невский пр., д. 108/110",
+      "query": "108/110, Невский проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Прометей",
+          "source": "data/clubs-tsentralny.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "7da7d1743eef",
+      "district": "tsentralny",
+      "address": "Сапёрный пер., д. 5",
+      "query": "5, Сапёрный переулок, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Романтики",
+          "source": "data/clubs-tsentralny.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "95d68d97802f",
+      "district": "tsentralny",
+      "address": "ул. Восстания, д. 20/16",
+      "query": "20/16, улица Восстания, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Горизонт",
+          "source": "data/clubs-tsentralny.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "54fbf44f7ff2",
+      "district": "tsentralny",
+      "address": "ул. Коломенская, д. 5",
+      "query": "5, улица Коломенская, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "На Коломенской",
+          "source": "data/clubs-tsentralny.json",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "id": "a81db200ad86",
+      "district": "tsentralny",
+      "address": "ул. Марата, д. 55/5",
+      "query": "55/5, улица Марата, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Муравейник",
+          "source": "data/clubs-tsentralny.json",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "id": "857bb724b42f",
+      "district": "tsentralny",
+      "address": "ул. Марата, д. 76",
+      "query": "76, улица Марата, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Спартак",
+          "source": "data/clubs-tsentralny.json",
+          "index": 24
+        }
+      ]
+    },
+    {
+      "id": "18d6080792f5",
+      "district": "tsentralny",
+      "address": "ул. Марата, д. 78",
+      "query": "78, улица Марата, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Петровский",
+          "source": "data/clubs-tsentralny.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "b25e240e48e4",
+      "district": "tsentralny",
+      "address": "ул. Марата, д. 9",
+      "query": "9, улица Марата, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "На Марата",
+          "source": "data/clubs-tsentralny.json",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "id": "6bac315811a0",
+      "district": "tsentralny",
+      "address": "ул. Миллионная, д. 13-15",
+      "query": "13-15, улица Миллионная, Санкт-Петербург, Россия",
+      "review": [
+        "Диапазон домов"
+      ],
+      "clubs": [
+        {
+          "name": "Нева",
+          "source": "data/clubs-tsentralny.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "9a21a7949b6b",
+      "district": "tsentralny",
+      "address": "ул. Моховая, д. 27-29",
+      "query": "27-29, улица Моховая, Санкт-Петербург, Россия",
+      "review": [
+        "Диапазон домов"
+      ],
+      "clubs": [
+        {
+          "name": "Юность",
+          "source": "data/clubs-tsentralny.json",
+          "index": 22
+        }
+      ]
+    },
+    {
+      "id": "46ab1b9cde4f",
+      "district": "tsentralny",
+      "address": "ул. Правды, д. 2/13",
+      "query": "2/13, улица Правды, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Луч",
+          "source": "data/clubs-tsentralny.json",
+          "index": 18
+        }
+      ]
+    },
+    {
+      "id": "64e67fd9a78c",
+      "district": "tsentralny",
+      "address": "ул. Правды, д. 22",
+      "query": "22, улица Правды, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Ямская слобода",
+          "source": "data/clubs-tsentralny.json",
+          "index": 20
+        }
+      ]
+    },
+    {
+      "id": "690fc155006a",
+      "district": "tsentralny",
+      "address": "ул. Пушкинская, д. 11",
+      "query": "11, улица Пушкинская, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Ровесник",
+          "source": "data/clubs-tsentralny.json",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "id": "4e8a2739a02e",
+      "district": "tsentralny",
+      "address": "ул. Рубинштейна, д. 15-17",
+      "query": "15-17, улица Рубинштейна, Санкт-Петербург, Россия",
+      "review": [
+        "Диапазон домов"
+      ],
+      "clubs": [
+        {
+          "name": "На Троицкой",
+          "source": "data/clubs-tsentralny.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "596774d52e4a",
+      "district": "tsentralny",
+      "address": "ул. Фурштатская, д. 14-16",
+      "query": "14-16, улица Фурштатская, Санкт-Петербург, Россия",
+      "review": [
+        "Диапазон домов"
+      ],
+      "clubs": [
+        {
+          "name": "Ленинградец",
+          "source": "data/clubs-tsentralny.json",
+          "index": 19
+        }
+      ]
+    },
+    {
+      "id": "968fde8552e8",
+      "district": "tsentralny",
+      "address": "ул. Фурштатская, д. 54",
+      "query": "54, улица Фурштатская, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "На Фурштатской",
+          "source": "data/clubs-tsentralny.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "227f65432f63",
+      "district": "tsentralny",
+      "address": "ул. Чайковского, д. 1",
+      "query": "1, улица Чайковского, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Огонёк",
+          "source": "data/clubs-tsentralny.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "c453f1d672d4",
+      "district": "tsentralny",
+      "address": "ул. Чехова, д. 4",
+      "query": "4, улица Чехова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Барс",
+          "source": "data/clubs-tsentralny.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "e4b8a3cb9ccc",
+      "district": "tsentralny",
+      "address": "ул. Чехова, д. 5",
+      "query": "5, улица Чехова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Чайка",
+          "source": "data/clubs-tsentralny.json",
+          "index": 21
+        }
+      ]
+    },
+    {
+      "id": "54137fbbe569",
+      "district": "vasileostrovsky",
+      "address": "1-я линия В.О., д. 22 (вход с пер. Репина, д. 23)",
+      "query": "22, 1-я линия В.О., Санкт-Петербург, Россия",
+      "review": [
+        "Есть уточнение о входе"
+      ],
+      "clubs": [
+        {
+          "name": "Аврора",
+          "source": "data/clubs-vo.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "61e6eea10e23",
+      "district": "vasileostrovsky",
+      "address": "10-я линия В.О., д. 47-Б",
+      "query": "47-Б, 10-я линия В.О., Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Витана",
+          "source": "data/clubs-vo.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "99e44688edd1",
+      "district": "vasileostrovsky",
+      "address": "12-я линия В.О., д. 29",
+      "query": "29, 12-я линия В.О., Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Надежда",
+          "source": "data/clubs-vo.json",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "id": "7f96950c7fdd",
+      "district": "vasileostrovsky",
+      "address": "12-я линия В.О., д. 9 (вход с 11-й линии, д. 18)",
+      "query": "9, 12-я линия В.О., Санкт-Петербург, Россия",
+      "review": [
+        "Есть уточнение о входе"
+      ],
+      "clubs": [
+        {
+          "name": "Эллада",
+          "source": "data/clubs-vo.json",
+          "index": 29
+        }
+      ]
+    },
+    {
+      "id": "61c55b3afd47",
+      "district": "vasileostrovsky",
+      "address": "14-я линия В.О., д. 97",
+      "query": "97, 14-я линия В.О., Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Молния",
+          "source": "data/clubs-vo.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "19cafe9ebeec",
+      "district": "vasileostrovsky",
+      "address": "17-я линия В.О., д. 18",
+      "query": "18, 17-я линия В.О., Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Пресс-клуб",
+          "source": "data/clubs-vo.json",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "id": "179ea7842b4f",
+      "district": "vasileostrovsky",
+      "address": "20-я линия В.О., д. 15",
+      "query": "15, 20-я линия В.О., Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Скаутский",
+          "source": "data/clubs-vo.json",
+          "index": 20
+        }
+      ]
+    },
+    {
+      "id": "3e6891b67b19",
+      "district": "vasileostrovsky",
+      "address": "9-я линия В.О., д. 52",
+      "query": "52, 9-я линия В.О., Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Протон",
+          "source": "data/clubs-vo.json",
+          "index": 15
+        },
+        {
+          "name": "Севера",
+          "source": "data/clubs-vo.json",
+          "index": 19
+        }
+      ]
+    },
+    {
+      "id": "9072184e6c27",
+      "district": "vasileostrovsky",
+      "address": "9-я линия В.О., д. 68",
+      "query": "68, 9-я линия В.О., Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Ленинградец",
+          "source": "data/clubs-vo.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "1df090026622",
+      "district": "vasileostrovsky",
+      "address": "Большой пр. В.О., д. 56",
+      "query": "56, Большой проспект В.О., Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Дружба",
+          "source": "data/clubs-vo.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "d9c30336c50d",
+      "district": "vasileostrovsky",
+      "address": "Большой пр. В.О., д. 82",
+      "query": "82, Большой проспект В.О., Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Радуга",
+          "source": "data/clubs-vo.json",
+          "index": 16
+        }
+      ]
+    },
+    {
+      "id": "8dadbc1a48d5",
+      "district": "vasileostrovsky",
+      "address": "Гаванская ул., д. 47, корп. 2",
+      "query": "47, Гаванская улица, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Факел",
+          "source": "data/clubs-vo.json",
+          "index": 22
+        }
+      ]
+    },
+    {
+      "id": "f058356d4881",
+      "district": "vasileostrovsky",
+      "address": "Железноводская ул., д. 20",
+      "query": "20, Железноводская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Морской",
+          "source": "data/clubs-vo.json",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "id": "9551576203ca",
+      "district": "vasileostrovsky",
+      "address": "Кадетская линия, д. 17",
+      "query": "17, Кадетская линия, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Чайка",
+          "source": "data/clubs-vo.json",
+          "index": 26
+        }
+      ]
+    },
+    {
+      "id": "98e6083419a5",
+      "district": "vasileostrovsky",
+      "address": "Камская ул., д. 14",
+      "query": "14, Камская улица, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Камчатка",
+          "source": "data/clubs-vo.json",
+          "index": 5
+        },
+        {
+          "name": "Отвага",
+          "source": "data/clubs-vo.json",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "id": "58c61833a670",
+      "district": "vasileostrovsky",
+      "address": "Малый пр. В.О., д. 14; 6-я линия В.О., д. 47",
+      "query": "14; 6-я линия В.О., Малый проспект В.О., Санкт-Петербург, Россия",
+      "review": [
+        "Указано несколько адресов"
+      ],
+      "clubs": [
+        {
+          "name": "Ровесник",
+          "source": "data/clubs-vo.json",
+          "index": 17
+        }
+      ]
+    },
+    {
+      "id": "b2e3ecd04b49",
+      "district": "vasileostrovsky",
+      "address": "Малый пр. В.О., д. 26",
+      "query": "26, Малый проспект В.О., Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Центр творчества",
+          "source": "data/clubs-vo.json",
+          "index": 24
+        },
+        {
+          "name": "Юпитер",
+          "source": "data/clubs-vo.json",
+          "index": 31
+        }
+      ]
+    },
+    {
+      "id": "8d3f187642b8",
+      "district": "vasileostrovsky",
+      "address": "Морская наб., д. 15",
+      "query": "15, Морская набережная, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Виндсерфинг",
+          "source": "data/clubs-vo.json",
+          "index": 2
+        },
+        {
+          "name": "Шахматный",
+          "source": "data/clubs-vo.json",
+          "index": 27
+        },
+        {
+          "name": "Штурм",
+          "source": "data/clubs-vo.json",
+          "index": 28
+        }
+      ]
+    },
+    {
+      "id": "5c898528e54a",
+      "district": "vasileostrovsky",
+      "address": "наб. Макарова, д. 34",
+      "query": "34, набережная Макарова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Спарта",
+          "source": "data/clubs-vo.json",
+          "index": 21
+        }
+      ]
+    },
+    {
+      "id": "fa6cd3e3cf38",
+      "district": "vasileostrovsky",
+      "address": "Наличная ул., д. 3/21",
+      "query": "3/21, Наличная улица, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Маяк-Олимпикс",
+          "source": "data/clubs-vo.json",
+          "index": 7
+        },
+        {
+          "name": "Планета",
+          "source": "data/clubs-vo.json",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "id": "24046af4292f",
+      "district": "vasileostrovsky",
+      "address": "пр. КИМа, д. 5/34",
+      "query": "5/34, проспект КИМа, Санкт-Петербург, Россия",
+      "review": [
+        "Двойной номер дома"
+      ],
+      "clubs": [
+        {
+          "name": "Белый медведь",
+          "source": "data/clubs-vo.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "2a41ed512e34",
+      "district": "vasileostrovsky",
+      "address": "Средний пр. В.О., д. 106",
+      "query": "106, Средний проспект В.О., Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Центр туристской подготовки",
+          "source": "data/clubs-vo.json",
+          "index": 25
+        }
+      ]
+    },
+    {
+      "id": "8f5608acaa61",
+      "district": "vasileostrovsky",
+      "address": "Средний пр. В.О., д. 19",
+      "query": "19, Средний проспект В.О., Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Юность",
+          "source": "data/clubs-vo.json",
+          "index": 30
+        }
+      ]
+    },
+    {
+      "id": "251809e9257a",
+      "district": "vasileostrovsky",
+      "address": "Средний пр. В.О., д. 52",
+      "query": "52, Средний проспект В.О., Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Салют",
+          "source": "data/clubs-vo.json",
+          "index": 18
+        }
+      ]
+    },
+    {
+      "id": "7d591ce2cae8",
+      "district": "vasileostrovsky",
+      "address": "ул. Нахимова, д. 1",
+      "query": "1, улица Нахимова, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Притяжение",
+          "source": "data/clubs-vo.json",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "id": "de4672c69a18",
+      "district": "vasileostrovsky",
+      "address": "ул. Шевченко, д. 3-Б",
+      "query": "3-Б, улица Шевченко, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Фонарик",
+          "source": "data/clubs-vo.json",
+          "index": 23
+        }
+      ]
+    },
+    {
+      "id": "f95c51840b02",
+      "district": "vyborgsky",
+      "address": "Большой Сампсониевский пр., д. 108, лит. А",
+      "query": "108, Большой Сампсониевский проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Лидер",
+          "source": "data/clubs-vyborgsky.json",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "id": "93b08b10d8ba",
+      "district": "vyborgsky",
+      "address": "Большой Сампсониевский пр., д. 37",
+      "query": "37, Большой Сампсониевский проспект, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Форпост",
+          "source": "data/clubs-vyborgsky.json",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "id": "4d99e2a84fed",
+      "district": "vyborgsky",
+      "address": "Лесной пр., д. 61, к. 3",
+      "query": "61, Лесной проспект, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Феникс",
+          "source": "data/clubs-vyborgsky.json",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "id": "68a45b2748e3",
+      "district": "vyborgsky",
+      "address": "пос. Парголово, Осиновая Роща, Приозерское ш., д. 18, к. 1, лит. А",
+      "query": "18, Осиновая Роща, Приозерское шоссе, Парголово, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Патриот",
+          "source": "data/clubs-vyborgsky.json",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "id": "110aefae07eb",
+      "district": "vyborgsky",
+      "address": "пр. Просвещения, д. 46, к. 1, лит. А",
+      "query": "46, проспект Просвещения, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Перекрёсток",
+          "source": "data/clubs-vyborgsky.json",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "id": "1f5a827e8da2",
+      "district": "vyborgsky",
+      "address": "пр. Просвещения, д. 47",
+      "query": "47, проспект Просвещения, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Фестиваль",
+          "source": "data/clubs-vyborgsky.json",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "id": "4a6c831c03f4",
+      "district": "vyborgsky",
+      "address": "пр. Энгельса, д. 133, к. 1, лит. Д",
+      "query": "133, проспект Энгельса, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Ритм",
+          "source": "data/clubs-vyborgsky.json",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "id": "fb4c79e38dfc",
+      "district": "vyborgsky",
+      "address": "пр. Энгельса, д. 147, к. 1, лит. Д",
+      "query": "147, проспект Энгельса, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Центральный",
+          "source": "data/clubs-vyborgsky.json",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "id": "49a14af84426",
+      "district": "vyborgsky",
+      "address": "пр. Энгельса, д. 7, лит. Б",
+      "query": "7, проспект Энгельса, Санкт-Петербург, Россия",
+      "review": [
+        "Корпус или литера"
+      ],
+      "clubs": [
+        {
+          "name": "Перспектива",
+          "source": "data/clubs-vyborgsky.json",
+          "index": 5
+        }
+      ]
+    }
+  ]
+}

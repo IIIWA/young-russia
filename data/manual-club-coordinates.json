@@ -1,0 +1,66 @@
+{
+  "description": "Координаты отдельных клубов, предоставленные пользователем. Ключ соответствует id адреса в map-addresses.json; points позволяют различать клубы по одному адресу.",
+  "overrides": {
+    "0c4655a66aa5": { "points": [
+      { "clubName": "Молодёжный клуб «Орфей»", "latitude": 59.911331, "longitude": 30.302814, "referenceUrl": "https://yandex.ru/maps/-/CXBWEF8O" }
+    ] },
+    "05b53c7bc773": { "points": [
+      { "clubName": "Молодёжный клуб «Созвучие»", "latitude": 59.911649, "longitude": 30.305396, "referenceUrl": "https://yandex.ru/maps/-/CXBWI45h" }
+    ] },
+    "815ecf0f8399": { "points": [
+      { "clubName": "Молодёжный клуб «Домострой»", "mapLabel": "3/14", "latitude": 59.914377, "longitude": 30.311779, "referenceUrl": "https://yandex.ru/maps/-/CXBWMG5K" }
+    ] },
+    "33e58174d023": { "points": [
+      { "clubName": "Психологическая служба «Мозаика»", "latitude": 59.914367, "longitude": 30.311580, "referenceUrl": "https://yandex.ru/maps/-/CXBWMT7H" }
+    ] },
+    "3825afcb09b7": { "points": [
+      { "clubName": "Молодёжный клуб «Селена»", "latitude": 59.914028, "longitude": 30.312926, "referenceUrl": "https://yandex.ru/maps/-/CXBWQDmn" }
+    ] },
+    "54137fbbe569": { "points": [
+      { "clubName": "Аврора", "latitude": 59.942141, "longitude": 30.288357, "referenceUrl": "https://yandex.ru/maps/-/CXBWU8Nl" }
+    ] },
+    "61e6eea10e23": { "points": [
+      { "clubName": "Витана", "latitude": 59.944936, "longitude": 30.270773, "referenceUrl": "https://yandex.ru/maps/-/CXBWeUyG" }
+    ] },
+    "99e44688edd1": { "points": [
+      { "clubName": "Надежда", "latitude": 59.941479, "longitude": 30.271077, "referenceUrl": "https://yandex.ru/maps/-/CXBWePy~" }
+    ] },
+    "7f96950c7fdd": { "points": [
+      { "clubName": "Эллада", "latitude": 59.938199, "longitude": 30.275555, "referenceUrl": "https://yandex.ru/maps/-/CXBWi4zS" }
+    ] },
+    "61c55b3afd47": { "points": [
+      { "clubName": "Молния", "latitude": 59.946971, "longitude": 30.261444, "referenceUrl": "https://yandex.ru/maps/-/CXBWiWkr" }
+    ] },
+    "19cafe9ebeec": { "points": [
+      { "clubName": "Пресс-клуб", "latitude": 59.937034, "longitude": 30.267222, "referenceUrl": "https://yandex.ru/maps/-/CXBWiXmL" }
+    ] },
+    "179ea7842b4f": { "points": [
+      { "clubName": "Скаутский", "latitude": 59.933458, "longitude": 30.266698, "referenceUrl": "https://yandex.ru/maps/-/CXBWmXJZ" }
+    ] },
+    "3e6891b67b19": { "points": [
+      { "clubName": "Протон", "latitude": 59.944601, "longitude": 30.272847, "referenceUrl": "https://yandex.ru/maps/-/CXBWqBlF" },
+      { "clubName": "Севера", "latitude": 59.944601, "longitude": 30.272847, "referenceUrl": "https://yandex.ru/maps/-/CXBWqBlF" }
+    ] },
+    "9072184e6c27": { "points": [
+      { "clubName": "Ленинградец", "latitude": 59.946858, "longitude": 30.270322, "referenceUrl": "https://yandex.ru/maps/-/CXBWqHzw" }
+    ] },
+    "8dadbc1a48d5": { "points": [
+      { "clubName": "Факел", "latitude": 59.938336, "longitude": 30.238249, "referenceUrl": "https://yandex.ru/maps/-/CXBWuUNB" }
+    ] },
+    "58c61833a670": { "points": [
+      { "clubName": "Ровесник", "latitude": 59.947093, "longitude": 30.275147, "referenceUrl": "https://yandex.ru/maps/-/CXBWuN-~" }
+    ] },
+    "8d3f187642b8": { "points": [
+      { "clubName": "Виндсерфинг", "latitude": 59.940236, "longitude": 30.214865, "referenceUrl": "https://yandex.ru/maps/-/CXBWyQNE" },
+      { "clubName": "Шахматный", "latitude": 59.941000, "longitude": 30.215962, "referenceUrl": "https://yandex.ru/maps/-/CXBWyNLt" },
+      { "clubName": "Штурм", "latitude": 59.941613, "longitude": 30.209096, "referenceUrl": "https://yandex.ru/maps/-/CXBWBLMI" }
+    ] },
+    "24046af4292f": { "points": [
+      { "clubName": "Белый медведь", "latitude": 59.951842, "longitude": 30.247734, "referenceUrl": "https://yandex.ru/maps/-/CXBWVQYz" }
+    ] },
+    "fa6cd3e3cf38": { "points": [
+      { "clubName": "Маяк-Олимпикс", "latitude": 59.929931, "longitude": 30.238120, "referenceUrl": "https://yandex.ru/maps/-/CXBWFJ8y", "precision": "approximate", "locationNote": "Наличная ул., д. 3/21, дом напротив комплекса ЛЕНЭКСПО, вход со двора. По указанию пользователя показан рядом с «Планетой»; точка входа не подтверждена." },
+      { "clubName": "Планета", "latitude": 59.929931, "longitude": 30.238120, "referenceUrl": "https://yandex.ru/maps/-/CXBWFJ8y" }
+    ] }
+  }
+}

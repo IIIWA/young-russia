@@ -319,7 +319,13 @@ def make_home() -> str:
         f'<div class="linked-grid four compact">{district_cards}</div>',
         "Четыре районных каталога собраны по открытым материалам. Контакты и программы сверять перед обновлениями.")
 
-    join = section(6, "Как участвовать", "join",
+    club_map = section(6, "Карта Петербурга", "map",
+        '<div class="section-heading"><div><h2>Клубы на&nbsp;карте</h2><p>Карта появится под&nbsp;списком районов. Метки клубов добавим после проверки адресов.</p></div></div>'
+        '<div class="wire-map-placeholder" role="img" aria-label="Место для интерактивной карты Петербурга">'
+        '<span>Карта Петербурга</span><small>Место для карты, пока без меток клубов</small></div>',
+        "На сайте здесь будет интерактивная Яндекс Карта. В прототипе показано место блока; метки клубов пока не нанесены.")
+
+    join = section(7, "Как участвовать", "join",
         '<div class="center-copy"><h2>Как попасть в клуб</h2><p>Короткий путь от интереса до первого занятия.</p></div>'
         '<div class="simple-grid three">'
         '<div class="info-card"><b>01</b><h3>Выбери</h3><p>Найди направление или клуб рядом с домом.</p></div>'
@@ -328,13 +334,13 @@ def make_home() -> str:
         '</div>',
         "Для конкретных групп условия могут отличаться. На карточках нужны подтверждённые правила записи.")
 
-    sources = section(7, "Источники и актуальность", "sources",
+    sources = section(8, "Источники и актуальность", "sources",
         '<div class="split-block"><div><h2>Проверь детали перед визитом</h2>'
         '<p>Направления и контакты могут меняться. Карточки связывают с источником, а расписание и наличие мест нужно уточнять у организатора.</p></div>'
         '<div class="source-links"><a href="https://spbdm.ru/baza-uchrezhdeniy/" target="_blank" rel="noopener noreferrer">Городская база учреждений ↗</a>'
         '<a href="https://www.pmcvo.ru/" target="_blank" rel="noopener noreferrer">ПМЦ Василеостровского района ↗</a></div></div>',
         "Перед запуском добавить дату последней проверки каждой карточки и порядок обновления данных.")
-    return page("Главная", "Прототип каталога подростково-молодёжных клубов Петербурга", hero + offer + topics + vo + districts + join + sources, active="home")
+    return page("Главная", "Прототип каталога подростково-молодёжных клубов Петербурга", hero + offer + topics + vo + districts + club_map + join + sources, active="home")
 
 
 def make_district_index() -> str:

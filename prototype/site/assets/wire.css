@@ -47,6 +47,9 @@ p { margin: 0 0 16px; }
 .wire-section::before { content: ""; position: absolute; inset: 0; pointer-events: none; background: repeating-linear-gradient(90deg, transparent 0, transparent calc(8.333% - 1px), var(--grid-line) calc(8.333% - 1px), var(--grid-line) 8.333%); }
 .wire-section.hero-band { background: #dedede; }
 .wire-section.gray-band { background: #e8e8e8; }
+.wire-map-placeholder { display: flex; min-height: 430px; flex-direction: column; align-items: center; justify-content: center; gap: 8px; border: 2px dashed #9b9b9b; border-radius: 12px; background: repeating-linear-gradient(0deg, #e6e6e6 0, #e6e6e6 38px, #ededed 39px, #ededed 40px), repeating-linear-gradient(90deg, transparent 0, transparent 38px, #d8d8d8 39px, #d8d8d8 40px); text-align: center; }
+.wire-map-placeholder span { font-size: clamp(24px, 3vw, 38px); font-weight: 800; }
+.wire-map-placeholder small { font-size: 14px; color: #555; }
 .section-label-row { position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 25px; }
 .sec-label { display: inline-block; border: 1px solid #aaa; background: rgba(255, 255, 255, .85); border-radius: 999px; padding: 5px 11px; font-size: 10px; font-weight: 800; letter-spacing: .08em; color: #444; line-height: 1.2; }
 .section-body { position: relative; z-index: 1; }
@@ -220,6 +223,7 @@ body.comment-open { overflow: hidden; }
 }
 
 @media (max-width: 520px) {
+  .wire-map-placeholder { min-height: 300px; padding: 20px; }
   .wire-main, .header-inner, .footer-inner { width: min(100% - 20px, 1240px); }
   .wire-section { padding: 17px 13px; }
   .section-label-row { align-items: flex-start; }
