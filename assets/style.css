@@ -106,6 +106,7 @@ h3{font-size:1.5rem;font-weight:750}
 .vyborg-page .district-hero-image{object-position:center 45%}
 .kalinin-page .district-hero-image{object-position:center 47%}
 .kirov-page .district-hero-image{object-position:center 48%}
+.krasnoselsky-page .district-hero-image{object-position:center 25%}
 .district-photo-hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(13,27,57,.86) 0%,rgba(16,32,64,.70) 47%,rgba(18,37,68,.27) 100%)}
 .district-photo-hero::after{display:none}
 .district-photo-hero .container{position:relative;z-index:2}
@@ -131,3 +132,4 @@ h3{font-size:1.5rem;font-weight:750}
 .kirov-page .steps-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
 @media(max-width:760px){.kalinin-page .district-hero-image{object-position:66% center}.kalinin-page .steps-grid{grid-template-columns:1fr}}
 @media(max-width:760px){.kirov-page .district-hero-image{object-position:72% center}.kirov-page .steps-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.krasnoselsky-page .district-hero-image{object-position:52% 20%}.krasnoselsky-page .steps-grid{grid-template-columns:1fr}}
