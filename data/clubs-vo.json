@@ -59,6 +59,22 @@
     "phone": "+7 921 945-97-89",
     "officialUrl": "https://www.pmcvo.ru/pmkvitana.html",
     "vkUrl": "https://vk.com/vitanavospb",
+    "activityPages": [
+      {"id":"vitana-yogosofiya","title":"Студия йоги и философии «ЙОГАСОФИЯ»","vkUrl":"https://vk.ru/club234008496","catalogActivity":"","suggestedCatalogActivity":"Фитнес-йога","mapping":"ждёт подтверждения соответствия"},
+      {"id":"vitana-fitnes","title":"Студия фитнеса ПМК «Витана»","vkUrl":"https://vk.ru/vitanafif","catalogActivity":"Фитнес","mapping":"совпадает с названием направления в карточке клуба","schedule":[{"day":"вторник","time":"11:00-15:00"},{"day":"четверг","time":"11:30-15:30"},{"day":"суббота","time":"11:00-13:00"}]},
+      {"id":"vitana-allegro","title":"Танцевальная студия «Аллегро»","vkUrl":"https://vk.ru/club76150332","catalogActivity":"Соло-латина","mapping":"соответствие подтверждено пользователем","schedule":[{"days":"вторник, четверг","time":"15:30-17:30, 18:00-20:00"},{"day":"суббота","time":"13:30-17:00, 18:30-22:00"}]},
+      {"id":"vitana-infinity","title":"Спортивно-танцевальная школа-студия INFINITY","vkUrl":"https://vk.ru/infinitycheer","catalogActivity":"Чир-спорт","mapping":"соответствие подтверждено пользователем","schedule":[{"days":"понедельник, среда, пятница, воскресенье","time":"19:00-21:30"}]}
+    ],
+    "scheduleSource": "https://www.pmcvo.ru/pmkvitana.html",
+    "scheduleCheckedAt": "2026-10-16",
+    "activitySchedule": [
+      {"activity":"Настольный теннис","schedule":[{"days":"вторник, четверг, суббота","time":"16:30-19:00, 19:30-22:00"}]},
+      {"activity":"ОФП по чир-спорту","schedule":[{"days":"понедельник, среда, пятница, воскресенье","time":"16:00-18:30"}]},
+      {"activity":"Чир-спорт","schedule":[{"days":"понедельник, среда, пятница, воскресенье","time":"19:00-21:30"}]},
+      {"activity":"Соло-латина","schedule":[{"days":"вторник, четверг","time":"15:30-17:30, 18:00-20:00"},{"day":"суббота","time":"13:30-17:00, 18:30-22:00"}]},
+      {"activity":"Фитнес-йога","schedule":[{"days":"вторник, четверг","time":"20:00-22:00"},{"day":"суббота","time":"17:00-17:30, 18:00-18:30"}]},
+      {"activity":"Фитнес","schedule":[{"day":"вторник","time":"11:00-15:00"},{"day":"четверг","time":"11:30-15:30"},{"day":"суббота","time":"11:00-13:00"}]}
+    ],
     "activities": [
       "Чир-спорт",
       "ОФП по чир-спорту",
@@ -180,6 +196,23 @@
     "phone": "+7 921 945-97-89",
     "officialUrl": "https://www.pmcvo.ru/pmkmorskoi.html",
     "vkUrl": "https://vk.com/pmk_morskoy",
+    "activityPages": [
+      {"id":"morskoy-kak-eto-skazat","title":"Разговорный клуб «Как это сказать по-...?»","vkUrl":"https://vk.ru/club228196020","catalogActivity":"Разговорный клуб: английский, немецкий, японский","languages":["английский","немецкий"],"mapping":"английский и немецкий языки подтверждены пользователем"},
+      {"id":"morskoy-yaponskiy","title":"Разговорный клуб на японском языке","vkUrl":"https://vk.ru/club238186565","catalogActivity":"Разговорный клуб: английский, немецкий, японский","mapping":"японский язык явно указан в названии группы","schedule":[{"days":"вторник, суббота","time":"16:30-19:00, 19:30-22:00"}]},
+      {"id":"morskoy-devyatyy-lad","title":"Девятый лад","vkUrl":"https://vk.ru/public210767355","catalogActivity":"Гитара","mapping":"соответствие подтверждено пользователем","schedule":[{"days":"понедельник, четверг","time":"16:30-19:00, 19:30-22:00"}]},
+      {"id":"morskoy-sam-sebe-kinolog","title":"Сам себе кинолог","vkUrl":"https://vk.ru/club227665123","catalogActivity":"Курс «Сам себе кинолог»","mapping":"совпадает с названием направления в карточке клуба","schedule":[{"day":"среда","time":"16:30-19:00, 19:30-22:00"}]},
+      {"id":"morskoy-vspyshka","title":"Фотостудия «Вспышка»","vkUrl":"https://vk.ru/club222231756","catalogActivity":"Фотостудия","mapping":"соответствует направлению в карточке клуба","schedule":[{"day":"четверг","time":"16:30-19:00, 19:30-22:00"}]}
+    ],
+    "scheduleSource": "https://www.pmcvo.ru/pmkmorskoi.html",
+    "scheduleCheckedAt": "2026-10-16",
+    "activitySchedule": [
+      {"activity":"Гитара","schedule":[{"days":"понедельник, четверг","time":"16:30-19:00, 19:30-22:00"}]},
+      {"activity":"Курс «Сам себе кинолог»","schedule":[{"day":"среда","time":"16:30-19:00, 19:30-22:00"}]},
+      {"activity":"Разговорный клуб на английском языке","schedule":[{"day":"вторник","time":"18:40-20:20, 20:20-22:00"},{"day":"среда","time":"16:30-18:10, 20:20-22:00"},{"day":"пятница","time":"16:30-18:10, 18:40-20:20"},{"day":"суббота","time":"16:30-18:10, 18:40-20:20"}]},
+      {"activity":"Разговорный клуб на немецком языке","schedule":[{"day":"вторник","time":"16:30-18:10"},{"day":"среда","time":"18:40-20:20"},{"day":"пятница","time":"20:20-22:20"}]},
+      {"activity":"Разговорный клуб на японском языке","schedule":[{"days":"вторник, суббота","time":"16:30-19:00, 19:30-22:00"}]},
+      {"activity":"Фотостудия","schedule":[{"day":"четверг","time":"16:30-19:00, 19:30-22:00"}]}
+    ],
     "activities": [
       "Гитара",
       "Курс «Сам себе кинолог»",
@@ -450,6 +483,7 @@
     "type": "ПМК",
     "name": "Центр творчества",
     "address": "Малый пр. В.О., д. 26",
+    "reviewNotice": "Статус в Яндекс Картах расходится с имеющимися сведениями. Перед визитом уточни работу площадки у организатора.",
     "phone": "327-09-95; +7 952 264-47-23",
     "officialUrl": "https://www.pmcvo.ru/pmkcentrtvorchestva.html",
     "vkUrl": "",
@@ -553,7 +587,7 @@
     "address": "Средний пр. В.О., д. 19",
     "phone": "328-21-31",
     "officialUrl": "https://www.pmcvo.ru/pmkunost.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/club200187926",
     "activities": [
       "Классический танец (боди-балет)",
       "Стретчинг",
@@ -573,7 +607,7 @@
     "address": "Малый пр. В.О., д. 26",
     "phone": "327-09-96",
     "officialUrl": "https://www.pmcvo.ru/pmkupiter.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/pmkyoupiter",
     "activities": [
       "Вокал",
       "Хор"

@@ -1,0 +1,71 @@
+{
+  "checked": "2026-10-16",
+  "source": "Официальный сайт ПМЦ «Кировский», раздел «Наши клубы»",
+  "note": "Сохранены страницы клубов. Прямые ссылки VK для этих клубов на просмотренных страницах не были подтверждены.",
+  "clubs": [
+    {
+      "name": "Алые паруса",
+      "url": "https://pmckir.ru/?page_id=1667"
+    },
+    {
+      "name": "Альтаир",
+      "url": "https://pmckir.ru/?page_id=1769"
+    },
+    {
+      "name": "В16",
+      "url": "https://pmckir.ru/?page_id=5607"
+    },
+    {
+      "name": "Заря",
+      "url": "https://pmckir.ru/?page_id=1794"
+    },
+    {
+      "name": "Имени Лёни Голикова",
+      "url": "https://pmckir.ru/?page_id=1810"
+    },
+    {
+      "name": "Кортик",
+      "url": "https://pmckir.ru/?page_id=1842"
+    },
+    {
+      "name": "Ленинец",
+      "url": "https://pmckir.ru/?page_id=1851"
+    },
+    {
+      "name": "Молодежный",
+      "url": "https://pmckir.ru/?page_id=1861"
+    },
+    {
+      "name": "Нарвская застава",
+      "url": "https://pmckir.ru/?page_id=1869"
+    },
+    {
+      "name": "Прометей",
+      "url": "https://pmckir.ru/?page_id=1895"
+    },
+    {
+      "name": "Радуга",
+      "url": "https://pmckir.ru/?page_id=1905"
+    },
+    {
+      "name": "Ракета",
+      "url": "https://pmckir.ru/?page_id=1918"
+    },
+    {
+      "name": "Смена",
+      "url": "https://pmckir.ru/?page_id=1943"
+    },
+    {
+      "name": "Факел",
+      "url": "https://pmckir.ru/?page_id=1954"
+    },
+    {
+      "name": "Юный корабел",
+      "url": "https://pmckir.ru/?page_id=1962"
+    },
+    {
+      "name": "Юный ленинградец",
+      "url": "https://pmckir.ru/?page_id=1970"
+    }
+  ]
+}

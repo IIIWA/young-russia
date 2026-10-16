@@ -93,12 +93,11 @@ DISTRICTS = [
 ]
 
 TOPICS = [
-    ("languages", "Языки", "Разговорные клубы"),
-    ("sport", "Спорт", "Секции и активный отдых"),
-    ("dance", "Танцы", "Современные и другие направления"),
-    ("creative", "Творчество", "Рисование, фотография, дизайн"),
-    ("stage", "Музыка и сцена", "Вокал, театр, гитара"),
-    ("community", "Общение", "Проекты, игры, волонтёрство"),
+    ("knowledge", "Знания и технологии", "Языки, цифровые и прикладные навыки"),
+    ("sport", "Спорт и движение", "Игры, танцы, фитнес и активный отдых"),
+    ("creative", "Творчество", "Рисование, ремёсла, фото и дизайн"),
+    ("stage", "Сцена и музыка", "Музыка, вокал, театр и кино"),
+    ("community", "Общение и проекты", "Клубы, добровольчество и встречи"),
 ]
 
 KNOWN_SLUGS = {
@@ -176,7 +175,7 @@ def landmark_placeholder(lines: tuple[str, ...], statistic: tuple[str, str] | No
 
 def district_photo_backdrop(lines: tuple[str, ...], generated: bool = True) -> str:
     caption = " · ".join(text(line) for line in lines)
-    label = "СГЕНЕРИРОВАННОЕ ИЗОБРАЖЕНИЕ" if generated else "ФОТО-ЗАГЛУШКА · ИЗОБРАЖЕНИЕ ЕЩЁ НЕ ВЫБРАНО"
+    label = "МАКЕТ ФОНОВОГО ИЗОБРАЖЕНИЯ" if generated else "ФОТО-ЗАГЛУШКА · ИЗОБРАЖЕНИЕ ЕЩЁ НЕ ВЫБРАНО"
     return (
         '<div class="district-photo-placeholder" aria-hidden="true">'
         f'<span>ФОН НА ВСЮ ШИРИНУ HERO · {label}<br>{caption}</span></div>'
@@ -270,8 +269,8 @@ def breadcrumb(items: list[tuple[str, str | None]]) -> str:
 def make_home() -> str:
     hero = section(1, "Первый экран", "hero",
         '<div class="hero-center"><p class="eyebrow">Бесплатные возможности для молодёжи 14-35 лет</p>'
-        '<h1>Найди занятие и клуб рядом с собой</h1>'
-        '<p class="lead">Спорт, творчество, языки и общение в подростково-молодёжных клубах Петербурга.</p>'
+        '<h1>Найди своё занятие в Петербурге</h1>'
+        '<p class="lead">Спорт, творчество, языки и общение рядом с домом. Выбери то, что тебе интересно, и узнай, куда прийти.</p>'
         '<div class="button-row">'
         + button("Выбрать район", "districts/index.html")
         + button("Смотреть занятия", "#topics", True)
@@ -279,51 +278,47 @@ def make_home() -> str:
         "Задача блока: сразу объяснить, что можно найти. Возраст и условия участия проверяем для каждой программы.",
         "hero-band")
 
-    offer = section(2, "Что есть в каталоге", "about-catalog",
-        '<div class="center-copy"><h2>От интереса до адреса клуба</h2>'
-        '<p>Можно начать с занятия или района, открыть карточку площадки и перейти к организатору за расписанием и записью.</p></div>'
+    offer = section(2, "Кратко о каталоге", "about-catalog",
         '<div class="simple-grid three">'
-        '<div class="info-card"><b>01</b><h3>Занятия</h3><p>Направления из открытых материалов учреждений.</p></div>'
-        '<div class="info-card"><b>02</b><h3>Адреса</h3><p>Клубы, пространства и расположение по районам.</p></div>'
-        '<div class="info-card"><b>03</b><h3>Контакты</h3><p>Ссылки на страницы организаторов и доступные телефоны.</p></div>'
+        '<div class="info-card"><b>14-35&nbsp;лет</b><h3>Возможности для&nbsp;молодёжи</h3></div>'
+        '<div class="info-card"><b>Бесплатно</b><h3>Направления каталога</h3></div>'
+        '<div class="info-card"><b>Рядом</b><h3>Начни поиск со&nbsp;своего района</h3></div>'
         '</div>',
-        "Показать три главных типа информации без рекламных обещаний.")
+        "Три кратких факта расположены между первым экраном и&nbsp;направлениями.")
 
     topic_cards = "".join(
-        linked_card(name, subtitle, f"districts/vasileostrovsky.html?topic={key}", "КЛИК · КЛУБЫ ПО ТЕМЕ")
+        linked_card(name, subtitle, f"directions/index.html?topic={key}", "КЛИК · СТРАНИЦА ЗАНЯТИЙ")
         for key, name, subtitle in TOPICS
     )
     topics = section(3, "Выбор направления", "topics",
-        '<div class="section-heading"><div><h2>Что тебе интересно?</h2><p>Выбери тему. Пока поиск покажет клубы Василеостровского района.</p></div></div>'
+        '<div class="section-heading"><div><h2>Чем хочется заняться?</h2><p>Выбери направление. На&nbsp;следующей странице можно уточнить занятие и&nbsp;район.</p></div></div>'
         f'<div class="linked-grid three">{topic_cards}</div>',
-        "Темы для Василеостровского района обновлены по списку ПМЦ от 12.10.2026. При добавлении районов список тем можно пересмотреть.")
+        "Пять направлений ведут на&nbsp;одну страницу. Подгруппы и&nbsp;клубы меняются при выборе темы.")
 
     featured = [next(item for item in CLUBS if item["name"] == name) for name in ["Морской", "Аврора", "Витана"]]
-    vo = section(4, "Первый район", "vasileostrovsky",
-        '<div class="split-block"><div><p class="eyebrow">Каталог уже наполнен</p><h2>Василеостровский район</h2>'
-        '<p>31 подростково-молодёжный клуб и молодёжное пространство «Притяжение». Выбирай занятие и смотри адреса.</p>'
-        + button("Все площадки района", "districts/vasileostrovsky.html") + '</div>'
-        '<div class="stat-box"><strong>31 + 1</strong><span>клубы и пространство</span></div></div>'
-        '<div class="mini-heading"><h3>Примеры карточек</h3><span>Кликабельные страницы</span></div>'
-        f'<div class="linked-grid three">{"".join(club_card(item, "") for item in featured)}</div>',
-        "Адреса, телефоны и направления обновлены по списку ПМЦ от 12.10.2026. Условия участия, набор и расписание уточнить.",
+    vo = section(4, "Каталоги районов", "vasileostrovsky",
+        '<div class="split-block"><div><p class="eyebrow">Каталоги уже открыты</p><h2>Начни с восемнадцати районов</h2>'
+        '<p>Каталоги всех районов Петербурга открыты. Ищи площадку по названию, адресу и направлению.</p>'
+        + button("Выбрать район", "districts/index.html") + '</div>'
+        '<div class="stat-box"><strong>18</strong><span>районов города</span></div></div>',
+        "Список всех районов доступен ниже. Клубы показаны на страницах районов.",
         "gray-band")
 
     district_cards = "".join(
-        linked_card(name, "9 площадок · данные уточняются" if code == "vyborgsky" else ("21 площадка · макет для сверки" if code == "kalininsky" else ("Макет наполнен для сверки" if code in OPEN_DISTRICTS else "Данные собираются")), f"districts/{code}.html", "ДАННЫЕ УТОЧНЯЮТСЯ" if code == "vyborgsky" else "КЛИК · СТРАНИЦА РАЙОНА", code == "vyborgsky")
+        linked_card(name, "Данные уточняются" if code == "vyborgsky" else "Каталог района открыт", f"districts/{code}.html", "ДАННЫЕ УТОЧНЯЮТСЯ" if code == "vyborgsky" else "КЛИК · СТРАНИЦА РАЙОНА", code == "vyborgsky")
         for name, code in DISTRICTS
     )
     districts = section(5, "Все районы", "districts",
-        '<div class="section-heading"><div><h2>Найди свой район</h2><p>Для каждого района есть страница. Списки площадок собраны для Василеостровского, Адмиралтейского, Выборгского и Калининского районов.</p></div>'
+        '<div class="section-heading"><div><h2>Выбери свой район</h2><p>Для каждого района Петербурга открыт каталог клубов.</p></div>'
         + button("Список районов", "districts/index.html", True) + '</div>'
         f'<div class="linked-grid four compact">{district_cards}</div>',
-        "Четыре районных каталога собраны по открытым материалам. Контакты и программы сверять перед обновлениями.")
+        "Каталоги восемнадцати районов собраны по&nbsp;открытым материалам. Контакты и&nbsp;программы сверять перед обновлениями.")
 
     club_map = section(6, "Карта Петербурга", "map",
-        '<div class="section-heading"><div><h2>Клубы на&nbsp;карте</h2><p>Карта появится под&nbsp;списком районов. Метки клубов добавим после проверки адресов.</p></div></div>'
+        '<div class="section-heading"><div><h2>Клубы на&nbsp;карте</h2><p>В&nbsp;локальной сборке здесь показаны площадки Василеостровского района.</p></div></div>'
         '<div class="wire-map-placeholder" role="img" aria-label="Место для интерактивной карты Петербурга">'
-        '<span>Карта Петербурга</span><small>Место для карты, пока без меток клубов</small></div>',
-        "На сайте здесь будет интерактивная Яндекс Карта. В прототипе показано место блока; метки клубов пока не нанесены.")
+        '<span>Карта Петербурга</span><small>Схема места интерактивной карты</small></div>',
+        "В&nbsp;прототипе показана схема блока. В&nbsp;локальной сборке работает карта с&nbsp;метками клубов.")
 
     join = section(7, "Как участвовать", "join",
         '<div class="center-copy"><h2>Как попасть в клуб</h2><p>Короткий путь от интереса до первого занятия.</p></div>'
@@ -340,25 +335,25 @@ def make_home() -> str:
         '<div class="source-links"><a href="https://spbdm.ru/baza-uchrezhdeniy/" target="_blank" rel="noopener noreferrer">Городская база учреждений ↗</a>'
         '<a href="https://www.pmcvo.ru/" target="_blank" rel="noopener noreferrer">ПМЦ Василеостровского района ↗</a></div></div>',
         "Перед запуском добавить дату последней проверки каждой карточки и порядок обновления данных.")
-    return page("Главная", "Прототип каталога подростково-молодёжных клубов Петербурга", hero + offer + topics + vo + districts + club_map + join + sources, active="home")
+    return page("Главная", "Прототип каталога подростково-молодёжных клубов Петербурга", hero + offer + topics + vo + districts + club_map + join, active="home")
 
 
 def make_district_index() -> str:
     hero = section(1, "Вход в каталог районов", "districts-intro",
         breadcrumb([("Главная", "../index.html"), ("Районы", None)])
-        + '<div class="hero-center"><p class="eyebrow">18 районов Петербурга</p><h1>Выбери район</h1>'
+        + '<div class="hero-center"><p class="eyebrow">18 районов Петербурга</p><h1>Районы Петербурга</h1>'
         '<p class="lead">Открой страницу района, чтобы найти клубы и направления рядом.</p></div>',
         "Понятная точка входа в городской каталог.", "hero-band")
     cards = "".join(
-        linked_card(name, "9 площадок · данные уточняются" if code == "vyborgsky" else ("21 площадка · макет для сверки" if code == "kalininsky" else ("Макет наполнен для сверки" if code in OPEN_DISTRICTS else "Список клубов готовится")), f"{code}.html", "ДАННЫЕ УТОЧНЯЮТСЯ" if code == "vyborgsky" else "КЛИК · РАЙОН", code == "vyborgsky")
+        linked_card(name, "Данные уточняются" if code == "vyborgsky" else "Каталог района открыт", f"{code}.html", "ДАННЫЕ УТОЧНЯЮТСЯ" if code == "vyborgsky" else "КЛИК · РАЙОН", code == "vyborgsky")
         for name, code in DISTRICTS
     )
     listing = section(2, "Список районов", "district-list",
-        '<div class="section-heading"><div><h2>Все районы</h2><p>Начни с поиска по названию или выбери карточку.</p></div>'
+        '<div class="section-heading"><div><p>Начни с поиска по названию или выбери карточку.</p></div>'
         '<label class="search-label">Поиск района<input id="district-search" type="search" placeholder="Например, Василеостровский"></label></div>'
         f'<div class="linked-grid four compact" id="district-grid">{cards}</div>'
         '<p class="empty-message" id="district-empty" hidden>Район не найден. Проверь название.</p>',
-        "Макеты четырёх районов наполнены открытыми материалами. Контакты и программы нужно подтверждать перед обновлениями.")
+        "Каталоги всех восемнадцати районов открыты. Контакты и&nbsp;программы нужно подтверждать перед обновлениями.")
     status = section(3, "Статус наполнения", "status",
         '<div class="split-block"><div><h2>Данные добавляются поэтапно</h2>'
         '<p>Для каждого района сначала сверяются учреждения, адреса, программы и контакты. Готовые страницы будут вести к клубам.</p></div>'
@@ -367,7 +362,7 @@ def make_district_index() -> str:
         + button("Выборгский", "vyborgsky.html", True)
         + button("Калининский", "kalininsky.html", True) + '</div></div>',
         "Не показывать неподтверждённые числа клубов в других районах.")
-    return page("Районы", "Страницы районов Петербурга", hero + listing + status, base="../", active="districts")
+    return page("Районы", "Страницы районов Петербурга", hero + listing, base="../", active="districts")
 
 
 def make_vo() -> str:
@@ -375,27 +370,36 @@ def make_vo() -> str:
         breadcrumb([("Главная", "../index.html"), ("Районы", "index.html"), ("Василеостровский", None)])
         + '<div class="district-photo-stage">'
         + district_photo_backdrop(("Стрелка Васильевского острова", "здание Биржи", "Ростральные колонны"))
-        + '<div class="district-photo-foreground"><div><p class="eyebrow">Первый район в каталоге</p><h1>Клубы Василеостровского района</h1>'
+        + '<div class="district-photo-foreground"><div><p class="eyebrow">Каталог района</p><h1>Василеостровский район</h1>'
         '<p class="lead">31 клуб и пространство «Притяжение»: адреса, направления и ссылки на организаторов.</p>'
         + button("Перейти к списку", "#club-list") + '</div>'
         + '<div class="stat-box"><strong>32</strong><span>площадки в списке</span></div></div></div>',
-        "Сгенерированное изображение на всю ширину hero с полупрозрачным затемнением. Состав сверить с ПМЦ ВО.", "hero-band district-photo-wire")
+        "Знаковая архитектура на&nbsp;всю ширину hero с&nbsp;полупрозрачным затемнением. Состав сверить с&nbsp;ПМЦ ВО.", "hero-band district-photo-wire")
     filters = "".join(
         f'<button class="filter-chip" type="button" data-topic="{key}" aria-pressed="false">{text(name)}</button>'
         for key, name, _ in TOPICS
     )
     finder = section(2, "Поиск и фильтры", "vo-search",
-        '<div class="section-heading"><div><h2>Найди клуб по интересу</h2><p>Поиск работает по названию, адресу и направлениям.</p></div>'
+        '<div class="section-heading"><div><h2>Выбери подходящее место</h2><p>Поиск работает по названию, адресу и направлениям.</p></div>'
         '<label class="search-label">Поиск клуба<input id="club-search" type="search" placeholder="Название, направление или адрес"></label></div>'
         '<div class="filter-row" role="group" aria-label="Направления">'
         '<button class="filter-chip active" type="button" data-topic="all" aria-pressed="true">Все</button>' + filters + '</div>'
         '<p class="result-counter" id="club-count" aria-live="polite">Показано 32 площадки</p>',
         "Фильтры прототипные: категории сверить с действующими программами.")
     listing = section(3, "Карточки клубов", "club-list",
-        '<div class="section-heading"><div><h2>Клубы и пространства</h2><p>Открой карточку, чтобы увидеть направления, адрес и контакты.</p></div></div>'
+        '<div class="section-heading"><div><p>Открой карточку, чтобы увидеть направления, адрес и контакты.</p></div></div>'
         f'<div class="linked-grid three" id="club-grid">{"".join(club_card(club, "../") for club in CLUBS)}</div>'
         '<p class="empty-message" id="club-empty" hidden>Подходящих клубов не найдено. Измени запрос или тему.</p>',
         "У части клубов прямые контакты и статус требуют уточнения. Нельзя подменять отсутствие данных догадками.")
+    catalog = section(2, "Поиск и клубы", "club-list",
+        '<div class="section-heading"><div><h2>Выбери подходящее место</h2><p>Поиск работает по названию, адресу и направлениям.</p></div>'
+        '<label class="search-label">Поиск клуба<input id="club-search" type="search" placeholder="Название, направление или адрес"></label></div>'
+        '<div class="filter-row" role="group" aria-label="Направления">'
+        '<button class="filter-chip active" type="button" data-topic="all" aria-pressed="true">Все</button>' + filters + '</div>'
+        '<p class="result-counter" id="club-count" aria-live="polite">Показано 32 площадки</p>'
+        '<div class="linked-grid three" id="club-grid">' + "".join(club_card(club, "../") for club in CLUBS) + '</div>'
+        '<p class="empty-message" id="club-empty" hidden>Подходящих клубов не найдено. Измени запрос или тему.</p>',
+        "Поиск и карточки находятся в&nbsp;одном блоке, как в&nbsp;локальной сборке. Актуальность условий уточняй у&nbsp;организаторов.")
     questions = section(4, "Перед посещением", "before-visit",
         '<div class="center-copy"><h2>Что уточнить у организатора</h2><p>Одна и та же площадка может вести разные группы с разными условиями.</p></div>'
         '<div class="simple-grid four">'
@@ -410,7 +414,7 @@ def make_vo() -> str:
         '<div class="source-links"><a href="https://spbdm.ru/baza-uchrezhdeniy/" target="_blank" rel="noopener noreferrer">Городская база ↗</a>'
         '<a href="https://www.pmcvo.ru/" target="_blank" rel="noopener noreferrer">Сайт ПМЦ ВО ↗</a></div></div>',
         "Дата документа не означает, что каждая группа открыта для записи. Стоимость, расписание и набор нужно уточнять у ПМЦ.")
-    return page("Василеостровский район", "Клубы Василеостровского района", hero + finder + listing + questions + source, base="../", active="vo")
+    return page("Василеостровский район", "Клубы Василеостровского района", hero + catalog, base="../", active="vo")
 
 
 def make_admiralteysky() -> str:
@@ -718,38 +722,20 @@ def write(relative: str, content: str) -> None:
 
 def main() -> None:
     assert len(CLUBS) == 32
-    assert len(ADMIRAL_CLUBS) == 26
-    assert len(VYBORG_CLUBS) == 9
-    assert len(KALININ_CLUBS) == 21
     assert len(DISTRICTS) == 18
+    # The remaining district and club wireframes are synchronized from dist/
+    # by sync-local.py. Keep their saved pages intact here.
     write("index.html", make_home())
     write("districts/index.html", make_district_index())
     write("districts/vasileostrovsky.html", make_vo())
-    for name, code in DISTRICTS:
-        if code == "admiralteysky":
-            write(f"districts/{code}.html", make_admiralteysky())
-        elif code == "vyborgsky":
-            write(f"districts/{code}.html", make_vyborgsky())
-        elif code == "kalininsky":
-            write(f"districts/{code}.html", make_kalininsky())
-        elif code != "vasileostrovsky":
-            write(f"districts/{code}.html", make_pending_district(name, code))
-    for club in CLUBS:
-        write(f"clubs/{slug(club['name'])}.html", make_club(club))
-    for club in ADMIRAL_CLUBS:
-        write(f"clubs/admiralteysky/{slug(club['name'])}.html", make_club(club, "Адмиралтейский", "admiralteysky", "../../"))
-    for club in VYBORG_CLUBS:
-        write(f"clubs/vyborgsky/{slug(club['name'])}.html", make_club(club, "Выборгский", "vyborgsky", "../../"))
-    for club in KALININ_CLUBS:
-        write(f"clubs/kalininsky/{slug(club['name'])}.html", make_club(club, "Калининский", "kalininsky", "../../"))
     assets = OUTPUT / "assets"
     assets.mkdir(parents=True, exist_ok=True)
-    for asset in ["wire.css", "app.js", "comments.js"]:
+    for asset in ["wire.css", "app.js", "comments.js", "map-preview.js"]:
         shutil.copy2(ROOT / "assets" / asset, assets / asset)
     api = OUTPUT / "api"
     api.mkdir(parents=True, exist_ok=True)
     shutil.copy2(ROOT / "api" / "comments.php", api / "comments.php")
-    print(f"Built {1 + 1 + len(DISTRICTS) + len(CLUBS) + len(ADMIRAL_CLUBS) + len(VYBORG_CLUBS) + len(KALININ_CLUBS)} pages in {OUTPUT}")
+    print(f"Built 3 custom prototype pages in {OUTPUT}")
 
 
 if __name__ == "__main__":

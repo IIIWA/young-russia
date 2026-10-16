@@ -1,0 +1,50 @@
+/* Monochrome review layer for pages synchronized from the local build. */
+:root {
+  --ink: #111;
+  --muted: #555;
+  --blue: #222;
+  --blue-dark: #111;
+  --cream: #fff;
+  --line: #c9c9c9;
+  --coral: #333;
+  --yellow: #e7e7e7;
+  --mint: #e7e7e7;
+  --shadow: 0 12px 28px rgb(0 0 0 / 8%);
+}
+body { background: #fff; color: #111; }
+.local-sync { width: min(100% - 44px, 1240px); margin: 22px auto 70px; filter: grayscale(1); }
+.local-sync .container { width: 100%; max-width: none; }
+.local-sync .wire-section {
+  position: relative;
+  margin: 0 0 22px;
+  padding: 28px 34px 22px;
+  border: 1px solid #d7d7d7;
+  border-radius: 14px;
+  background: #f6f6f6;
+  color: #111;
+  overflow: hidden;
+}
+.local-sync .wire-section:first-child { background: #dedede; }
+.local-sync .wire-section > .section-label-row,
+.local-sync .wire-section > .section-note { position: relative; z-index: 5; }
+.local-sync .wire-section > .section-note { margin: 28px 0 0; padding: 12px 0 0; border-top: 1px solid #aaa; color: #555; }
+.local-sync .wire-section .sec-label { color: #333; background: #fff; }
+.local-sync .wire-section :is(.district-hero-image,.hero-photo img) { filter: grayscale(1); opacity: .5; }
+.local-sync .wire-section :is(.button,.topic-card,.club-card,.district-card,.organization-card,.detail-block,.filter-chip,.district-pill) {
+  border-color: #aaa;
+}
+.local-sync .wire-section :is(.button-primary,.topic-card,.filter-chip[aria-pressed="true"]) { background: #222; color: #fff; }
+.local-sync .wire-section :is(.section-kicker,.eyebrow) { color: #555; }
+.local-sync .wire-section h1,
+.local-sync .wire-section h2,
+.local-sync .wire-section h3 { color: #111; text-wrap: balance; }
+.local-sync .wire-section p { text-wrap: pretty; }
+.local-sync .wire-section .section-note { font-size: 12.5px; line-height: 1.4; }
+@media (max-width: 760px) {
+  .local-sync { width: min(100% - 28px, 1240px); margin-top: 14px; }
+  .local-sync .wire-section { padding: 20px 18px 18px; margin-bottom: 14px; }
+}
+@media (max-width: 520px) {
+  .local-sync { width: min(100% - 20px, 1240px); }
+  .local-sync .wire-section { padding: 17px 13px; }
+}

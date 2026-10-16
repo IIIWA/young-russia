@@ -61,6 +61,44 @@
     "fa6cd3e3cf38": { "points": [
       { "clubName": "Маяк-Олимпикс", "latitude": 59.929931, "longitude": 30.238120, "referenceUrl": "https://yandex.ru/maps/-/CXBWFJ8y", "precision": "approximate", "locationNote": "Наличная ул., д. 3/21, дом напротив комплекса ЛЕНЭКСПО, вход со двора. По указанию пользователя показан рядом с «Планетой»; точка входа не подтверждена." },
       { "clubName": "Планета", "latitude": 59.929931, "longitude": 30.238120, "referenceUrl": "https://yandex.ru/maps/-/CXBWFJ8y" }
+    ] },
+    "1df090026622": { "points": [
+      { "clubName": "Дружба", "latitude": 59.934099, "longitude": 30.267072, "referenceUrl": "https://yandex.ru/maps/-/CXBxITla" }
+    ] },
+    "98e6083419a5": { "points": [
+      { "clubName": "Камчатка", "latitude": 59.946379, "longitude": 30.255741, "referenceUrl": "https://yandex.ru/maps/-/CXBxQYMG" },
+      { "clubName": "Отвага", "latitude": 59.946372, "longitude": 30.255684, "referenceUrl": "https://yandex.ru/maps/-/CXBxQD76" }
+    ] },
+    "f058356d4881": { "points": [
+      { "clubName": "Морской", "latitude": 59.952376, "longitude": 30.254756, "referenceUrl": "https://yandex.ru/maps/-/CXBxQZ8D" }
+    ] },
+    "7d591ce2cae8": { "points": [
+      { "clubName": "Притяжение", "latitude": 59.944223, "longitude": 30.235733, "referenceUrl": "https://yandex.ru/maps/-/CXBxU4kd" }
+    ] },
+    "d9c30336c50d": { "points": [
+      { "clubName": "Радуга", "latitude": 59.929949, "longitude": 30.252139, "referenceUrl": "https://yandex.ru/maps/-/CXBxUSns" }
+    ] },
+    "251809e9257a": { "points": [
+      { "clubName": "Салют", "latitude": 59.940157, "longitude": 30.270611, "referenceUrl": "https://yandex.ru/maps/-/CXBxUT6D" }
+    ] },
+    "5c898528e54a": { "points": [
+      { "clubName": "Спарта", "latitude": 59.949436, "longitude": 30.276089, "referenceUrl": "https://yandex.ru/maps/-/CXBxYMZl" }
+    ] },
+    "de4672c69a18": { "points": [
+      { "clubName": "Фонарик", "latitude": 59.930377, "longitude": 30.246346, "referenceUrl": "https://yandex.ru/maps/-/CXBxYJls" }
+    ] },
+    "b2e3ecd04b49": { "points": [
+      { "clubName": "Центр творчества", "latitude": 59.945306, "longitude": 30.270800, "referenceUrl": "https://yandex.ru/maps/-/CXBx4Si-", "locationNote": "На Яндекс Картах площадка отмечена как неработающая; по сообщению пользователя она работает. Статус и вход требуют уточнения у организатора." },
+      { "clubName": "Юпитер", "latitude": 59.945275, "longitude": 30.270739, "referenceUrl": "https://yandex.ru/maps/-/CXBxiCKb" }
+    ] },
+    "2a41ed512e34": { "points": [
+      { "clubName": "Центр туристской подготовки", "latitude": 59.930976, "longitude": 30.237934, "referenceUrl": "https://yandex.ru/maps/-/CXBxaV89" }
+    ] },
+    "9551576203ca": { "points": [
+      { "clubName": "Чайка", "latitude": 59.944759, "longitude": 30.288168, "referenceUrl": "https://yandex.ru/maps/-/CXBxa0ny" }
+    ] },
+    "8f5608acaa61": { "points": [
+      { "clubName": "Юность", "latitude": 59.944341, "longitude": 30.282020, "referenceUrl": "https://yandex.ru/maps/-/CXBxiFLW" }
     ] }
   }
 }

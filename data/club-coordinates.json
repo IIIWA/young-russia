@@ -5,11 +5,11 @@
   "license": "https://www.openstreetmap.org/copyright",
   "clubCount": 334,
   "addressCount": 322,
-  "userProvidedClubCount": 23,
+  "userProvidedClubCount": 37,
   "summary": {
-    "user_provided": 19,
+    "user_provided": 31,
     "partially_user_provided": 0,
-    "likely_match": 135,
+    "likely_match": 123,
     "needs_review": 156,
     "not_found": 11,
     "wrong_region": 1
@@ -14285,31 +14285,25 @@
           "index": 4
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Дружба",
-          "source": "data/clubs-vo.json",
-          "index": 4
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9339299,
-        "longitude": 30.267086
+        "latitude": 59.934099,
+        "longitude": 30.267072
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXBxITla",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Дружба",
           "coordinates": {
-            "latitude": 59.9339299,
-            "longitude": 30.267086
+            "latitude": 59.934099,
+            "longitude": 30.267072
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxITla",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -14332,31 +14326,25 @@
           "index": 16
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Радуга",
-          "source": "data/clubs-vo.json",
-          "index": 16
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9299242,
-        "longitude": 30.2524351
+        "latitude": 59.929949,
+        "longitude": 30.252139
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXBxUSns",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Радуга",
           "coordinates": {
-            "latitude": 59.9299242,
-            "longitude": 30.2524351
+            "latitude": 59.929949,
+            "longitude": 30.252139
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxUSns",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -14420,31 +14408,25 @@
           "index": 9
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Морской",
-          "source": "data/clubs-vo.json",
-          "index": 9
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9523183,
-        "longitude": 30.254599
+        "latitude": 59.952376,
+        "longitude": 30.254756
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXBxQZ8D",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Морской",
           "coordinates": {
-            "latitude": 59.9523183,
-            "longitude": 30.254599
+            "latitude": 59.952376,
+            "longitude": 30.254756
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxQZ8D",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -14467,31 +14449,25 @@
           "index": 26
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Чайка",
-          "source": "data/clubs-vo.json",
-          "index": 26
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9446146,
-        "longitude": 30.2877208
+        "latitude": 59.944759,
+        "longitude": 30.288168
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXBxa0ny",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Чайка",
           "coordinates": {
-            "latitude": 59.9446146,
-            "longitude": 30.2877208
+            "latitude": 59.944759,
+            "longitude": 30.288168
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxa0ny",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -14519,36 +14495,22 @@
           "index": 11
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Камчатка",
-          "source": "data/clubs-vo.json",
-          "index": 5
-        },
-        {
-          "name": "Отвага",
-          "source": "data/clubs-vo.json",
-          "index": 11
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
-      "coordinates": {
-        "latitude": 59.9464536,
-        "longitude": 30.2559987
-      },
-      "coordinateSource": "OpenStreetMap Nominatim",
+      "coordinates": null,
+      "coordinateSource": "per_club",
       "referenceUrl": null,
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Камчатка",
           "coordinates": {
-            "latitude": 59.9464536,
-            "longitude": 30.2559987
+            "latitude": 59.946379,
+            "longitude": 30.255741
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxQYMG",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -14556,11 +14518,11 @@
         {
           "clubName": "Отвага",
           "coordinates": {
-            "latitude": 59.9464536,
-            "longitude": 30.2559987
+            "latitude": 59.946372,
+            "longitude": 30.255684
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxQD76",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -14625,48 +14587,34 @@
           "index": 31
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Центр творчества",
-          "source": "data/clubs-vo.json",
-          "index": 24
-        },
-        {
-          "name": "Юпитер",
-          "source": "data/clubs-vo.json",
-          "index": 31
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
-      "coordinates": {
-        "latitude": 59.9454124,
-        "longitude": 30.2705319
-      },
-      "coordinateSource": "OpenStreetMap Nominatim",
+      "coordinates": null,
+      "coordinateSource": "per_club",
       "referenceUrl": null,
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Центр творчества",
           "coordinates": {
-            "latitude": 59.9454124,
-            "longitude": 30.2705319
+            "latitude": 59.945306,
+            "longitude": 30.2708
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBx4Si-",
           "mapLabel": null,
           "precision": null,
-          "locationNote": null
+          "locationNote": "На Яндекс Картах площадка отмечена как неработающая; по сообщению пользователя она работает. Статус и вход требуют уточнения у организатора."
         },
         {
           "clubName": "Юпитер",
           "coordinates": {
-            "latitude": 59.9454124,
-            "longitude": 30.2705319
+            "latitude": 59.945275,
+            "longitude": 30.270739
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxiCKb",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -14761,31 +14709,25 @@
           "index": 21
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Спарта",
-          "source": "data/clubs-vo.json",
-          "index": 21
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9493768,
-        "longitude": 30.2766035
+        "latitude": 59.949436,
+        "longitude": 30.276089
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXBxYMZl",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Спарта",
           "coordinates": {
-            "latitude": 59.9493768,
-            "longitude": 30.2766035
+            "latitude": 59.949436,
+            "longitude": 30.276089
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxYMZl",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -14907,31 +14849,25 @@
           "index": 25
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Центр туристской подготовки",
-          "source": "data/clubs-vo.json",
-          "index": 25
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9311103,
-        "longitude": 30.2379146
+        "latitude": 59.930976,
+        "longitude": 30.237934
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXBxaV89",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Центр туристской подготовки",
           "coordinates": {
-            "latitude": 59.9311103,
-            "longitude": 30.2379146
+            "latitude": 59.930976,
+            "longitude": 30.237934
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxaV89",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -14954,31 +14890,25 @@
           "index": 30
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Юность",
-          "source": "data/clubs-vo.json",
-          "index": 30
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9443472,
-        "longitude": 30.281957
+        "latitude": 59.944341,
+        "longitude": 30.28202
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXBxiFLW",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Юность",
           "coordinates": {
-            "latitude": 59.9443472,
-            "longitude": 30.281957
+            "latitude": 59.944341,
+            "longitude": 30.28202
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxiFLW",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -15001,31 +14931,25 @@
           "index": 18
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Салют",
-          "source": "data/clubs-vo.json",
-          "index": 18
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9403687,
-        "longitude": 30.270026
+        "latitude": 59.940157,
+        "longitude": 30.270611
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXBxUT6D",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Салют",
           "coordinates": {
-            "latitude": 59.9403687,
-            "longitude": 30.270026
+            "latitude": 59.940157,
+            "longitude": 30.270611
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxUT6D",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -15048,31 +14972,25 @@
           "index": 14
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Притяжение",
-          "source": "data/clubs-vo.json",
-          "index": 14
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9440272,
-        "longitude": 30.2346918
+        "latitude": 59.944223,
+        "longitude": 30.235733
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXBxU4kd",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Притяжение",
           "coordinates": {
-            "latitude": 59.9440272,
-            "longitude": 30.2346918
+            "latitude": 59.944223,
+            "longitude": 30.235733
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxU4kd",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -15095,31 +15013,25 @@
           "index": 23
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Фонарик",
-          "source": "data/clubs-vo.json",
-          "index": 23
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9303104,
-        "longitude": 30.2465427
+        "latitude": 59.930377,
+        "longitude": 30.246346
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXBxYJls",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Фонарик",
           "coordinates": {
-            "latitude": 59.9303104,
-            "longitude": 30.2465427
+            "latitude": 59.930377,
+            "longitude": 30.246346
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxYJls",
           "mapLabel": null,
           "precision": null,
           "locationNote": null

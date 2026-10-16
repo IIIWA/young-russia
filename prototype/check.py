@@ -1,22 +1,71 @@
 """Small integrity check for generated wireframe pages."""
 
 import re
+from html import unescape
+from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 
 root = Path(__file__).resolve().parent / "site"
+production_root = root.parent.parent / "dist"
 pages = sorted(root.rglob("*.html"))
 errors = []
-if len(pages) != 108:
-    errors.append(f"Expected 108 pages, found {len(pages)}")
+
+
+class Outline(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.heading = None
+        self.words = []
+        self.headings = []
+        self.sections = 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "section":
+            self.sections += 1
+        if tag in {"h1", "h2"}:
+            self.heading = tag
+            self.words = []
+
+    def handle_data(self, value):
+        if self.heading:
+            self.words.append(value)
+
+    def handle_endtag(self, tag):
+        if tag == self.heading:
+            self.headings.append((tag, " ".join(unescape("".join(self.words)).split())))
+            self.heading = None
+
+
+def outline(page):
+    result = Outline()
+    result.feed(page.read_text(encoding="utf-8"))
+    return result
+template_routes = (
+    "index.html",
+    "districts/index.html",
+    "districts/vasileostrovsky.html",
+    "clubs/morskoy.html",
+    "directions/index.html",
+    "activities/morskoy-devyatyy-lad.html",
+)
+existing_routes = {page.relative_to(root).as_posix() for page in pages}
+for route in template_routes:
+    if route not in existing_routes:
+        errors.append(f"Missing saved prototype: {route}")
+    elif (production_root / route).is_file():
+        local = outline(production_root / route)
+        prototype = outline(root / route)
+        if local.headings != prototype.headings or local.sections != prototype.sections:
+            errors.append(f"Prototype structure differs from local build: {route}")
 
 for page in pages:
     markup = page.read_text(encoding="utf-8")
-    sections = markup.count('class="wire-section ')
+    sections = len(re.findall(r'class="wire-section(?:\s|")', markup))
     if markup.count('class="sec-label"') != sections or markup.count('class="section-note"') != sections:
         errors.append(f"Missing label or annotation: {page.relative_to(root)}")
-    if markup.count("<h1>") != 1:
+    if len(re.findall(r"<h1(?:\s[^>]*)?>", markup)) != 1:
         errors.append(f"Expected one page title: {page.relative_to(root)}")
     if 'assets/comments.js' not in markup:
         errors.append(f"Comments script missing: {page.relative_to(root)}")

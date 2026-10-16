@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Прототип страницы направления «Девятый лад» в ПМК «Морской»">
+  <title>Девятый лад | Прототип направления</title>
+  <link rel="stylesheet" href="../assets/wire.css">
+  <script src="../assets/app.js" defer></script>
+  <script src="../assets/comments.js" defer></script>
+  <style>
+    .direction-summary { max-width: 64rem; }
+    .direction-summary h1, .direction-summary h2, .direction-summary h3 { text-wrap: balance; }
+    .direction-summary p, .direction-summary li { text-wrap: pretty; }
+    .direction-card { display: grid; grid-template-columns: minmax(0,1.4fr) minmax(16rem,1fr); gap: 2rem; align-items: start; }
+    .direction-card > div { min-width: 0; }
+    .direction-card .button-column { margin-top: 1.25rem; }
+    .direction-facts { display: grid; gap: .85rem; }
+    .direction-facts .contact-row { margin: 0; }
+    .direction-help { max-width: 44rem; }
+    @media (max-width: 700px) { .direction-card { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="../index.html">ПМК Петербурга<span> / прототип</span></a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="../index.html">Главная</a>
+        <a href="../index.html#topics">Занятия</a>
+        <a href="../districts/index.html">Районы</a>
+        <a href="../districts/vasileostrovsky.html">Васильевский остров</a>
+      </nav>
+      <button class="header-comment" type="button" data-page-comment>Обсудить страницу</button>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Мобильная навигация" hidden>
+      <a href="../index.html">Главная</a>
+      <a href="../index.html#topics">Занятия</a>
+      <a href="../districts/index.html">Районы</a>
+      <a href="../districts/vasileostrovsky.html">Васильевский остров</a>
+      <button type="button" data-page-comment>Обсудить страницу</button>
+    </nav>
+  </header>
+  <main id="main" class="wire-main">
+    <section class="wire-section hero-band direction-summary" data-section="intro" data-section-label="Первый экран">
+      <div class="section-label-row"><span class="sec-label">01 · НАПРАВЛЕНИЕ</span></div>
+      <div class="section-body">
+        <nav class="breadcrumbs" aria-label="Навигационная цепочка">
+          <a href="../index.html">Главная</a><span aria-hidden="true">/</span>
+          <a href="../districts/vasileostrovsky.html">Василеостровский район</a><span aria-hidden="true">/</span>
+          <a href="../clubs/morskoy.html">ПМК «Морской»</a><span aria-hidden="true">/</span><span>Девятый лад</span>
+        </nav>
+        <div class="club-hero-copy">
+          <p class="eyebrow">Гитара · ПМК «Морской»</p>
+          <h1>Девятый лад</h1>
+          <p class="lead">Направление игры на&nbsp;гитаре в&nbsp;ПМК «Морской» на&nbsp;Васильевском острове.</p>
+          <div class="button-row">
+            <a class="wire-button button-dark" href="https://vk.ru/public210767355" target="_blank" rel="noopener noreferrer">Страница направления в&nbsp;VK ↗</a>
+            <a class="wire-button button-outline" href="#contacts">Контакты и&nbsp;адрес ↓</a>
+          </div>
+        </div>
+      </div>
+      <p class="section-note">↳ Для остальных направлений меняются название, краткое описание, ссылка VK и&nbsp;данные клуба.</p>
+    </section>
+
+    <section class="wire-section direction-summary" id="about" data-section="about" data-section-label="О направлении">
+      <div class="section-label-row"><span class="sec-label">02 · О НАПРАВЛЕНИИ</span></div>
+      <div class="section-body direction-card">
+        <div>
+          <h2>Знакомство с&nbsp;направлением</h2>
+          <p>«Девятый лад» связан с&nbsp;занятиями гитарой в&nbsp;клубе «Морской». Подробности о&nbsp;формате занятий и&nbsp;новостях направления можно узнать в&nbsp;его сообществе.</p>
+        </div>
+        <div class="info-card">
+          <h3>Что уточнить перед записью</h3>
+          <p>Возраст участников, наличие мест и&nbsp;условия участия.</p>
+        </div>
+      </div>
+      <p class="section-note">↳ Описание основано на&nbsp;названии направления и&nbsp;подтверждённой связи с&nbsp;гитарой. Программу занятий не&nbsp;додумываем.</p>
+    </section>
+
+    <section class="wire-section direction-summary" id="schedule" data-section="schedule" data-section-label="Расписание">
+      <div class="section-label-row"><span class="sec-label">03 · РАСПИСАНИЕ</span></div>
+      <div class="section-body direction-card">
+        <div>
+          <h2>Когда проходят занятия</h2>
+          <p>По&nbsp;расписанию на&nbsp;сайте ПМЦ, игра на&nbsp;гитаре «9 лад» проходит по&nbsp;понедельникам и&nbsp;четвергам.</p>
+        </div>
+        <div class="direction-facts">
+          <div class="contact-row"><span>Понедельник</span><strong>16:30-19:00 и&nbsp;19:30-22:00</strong></div>
+          <div class="contact-row"><span>Четверг</span><strong>16:30-19:00 и&nbsp;19:30-22:00</strong></div>
+        </div>
+      </div>
+      <p class="section-note">↳ Расписание проверено на&nbsp;сайте ПМЦ 16.10.2026. Перед посещением уточни изменения у&nbsp;клуба.</p>
+    </section>
+
+    <section class="wire-section direction-summary" id="contacts" data-section="contacts" data-section-label="Контакты и адрес">
+      <div class="section-label-row"><span class="sec-label">04 · КОНТАКТЫ И АДРЕС</span></div>
+      <div class="section-body direction-card">
+        <div>
+          <h2>Как связаться</h2>
+          <div class="direction-facts">
+            <div class="contact-row"><span>Клуб</span><strong>ПМК «Морской»</strong></div>
+            <div class="contact-row"><span>Адрес клуба</span><strong>Железноводская ул., д.&nbsp;20</strong></div>
+            <div class="contact-row"><span>Телефон из&nbsp;списка ПМЦ</span><strong><a href="tel:+79219459789">+7&nbsp;921&nbsp;945-97-89</a></strong></div>
+          </div>
+        </div>
+        <div class="button-column">
+          <a class="wire-button button-dark" href="https://vk.ru/public210767355" target="_blank" rel="noopener noreferrer">Сообщество «Девятый лад» ↗</a>
+          <a class="wire-button button-outline" href="../clubs/morskoy.html">Страница ПМК «Морской» →</a>
+          <a class="wire-button button-outline" href="https://www.pmcvo.ru/pmkmorskoi.html" target="_blank" rel="noopener noreferrer">Карточка клуба на&nbsp;сайте ПМЦ ↗</a>
+        </div>
+      </div>
+      <p class="section-note">↳ Телефон и&nbsp;адрес относятся к&nbsp;ПМК «Морской». Отдельные контакты студии пока не&nbsp;подтверждены.</p>
+    </section>
+
+    <section class="wire-section direction-summary" data-section="source" data-section-label="Сведения и проверка">
+      <div class="section-label-row"><span class="sec-label">05 · СВЕДЕНИЯ И ПРОВЕРКА</span></div>
+      <div class="section-body direction-help">
+        <h2>Перед первым посещением</h2>
+        <p>Проверь расписание и&nbsp;условия участия в&nbsp;сообществе направления или уточни их&nbsp;по&nbsp;телефону клуба. Адрес, телефон и&nbsp;расписание сверены с&nbsp;<a href="https://www.pmcvo.ru/pmkmorskoi.html" target="_blank" rel="noopener noreferrer">официальной страницей клуба</a> 16.10.2026.</p>
+      </div>
+      <p class="section-note">↳ После уточнения можно добавить возраст, стоимость и&nbsp;способ записи.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><a class="wordmark" href="../index.html">ПМК Петербурга<span> / прототип</span></a><p>Условия участия уточняй у&nbsp;организатора.</p><a href="../districts/vasileostrovsky.html">Клубы района →</a></div></footer>
+</body>
+</html>

@@ -1,0 +1,193 @@
+{
+  "checked": "2026-10-16",
+  "source": "Официальный сайт ПМЦ «Невский», карточки клубов",
+  "note": "Ссылки опубликованы на официальном сайте центра. Сами страницы VK не открывались из-за ограничения браузера; доступность и содержание не подтверждены.",
+  "clubs": [
+    {
+      "name": "АртНевский",
+      "url": "https://centernevskiy.ru/artnevskij/",
+      "vk": "https://vk.com/public218811263"
+    },
+    {
+      "name": "Атлант",
+      "url": "https://centernevskiy.ru/atlant/",
+      "vk": "https://vk.com/club24552119",
+      "phone": "584-54-13"
+    },
+    {
+      "name": "Горизонт",
+      "url": "https://centernevskiy.ru/gorizont/",
+      "vk": "https://vk.com/spbgorizont",
+      "phone": "586-52-09"
+    },
+    {
+      "name": "Дружба",
+      "url": "https://centernevskiy.ru/druzhba/",
+      "vk": "https://vk.com/pmkdruzhba",
+      "phone": "447-24-56"
+    },
+    {
+      "name": "Зоркий",
+      "url": "https://centernevskiy.ru/zorkij/",
+      "vk": "https://vk.com/public94070149",
+      "phone": "580-70-49"
+    },
+    {
+      "name": "Искатели",
+      "url": "https://centernevskiy.ru/iskateli/",
+      "vk": "https://vk.com/public140425651",
+      "phone": "442-13-37"
+    },
+    {
+      "name": "Каравелла",
+      "url": "https://centernevskiy.ru/karavella/",
+      "vk": "https://vk.com/pmkaravell",
+      "phone": "577-80-08"
+    },
+    {
+      "name": "Космос",
+      "url": "https://centernevskiy.ru/kosmos/",
+      "vk": "https://vk.com/pmk_kosmos",
+      "phone": "585-51-98"
+    },
+    {
+      "name": "Кругозор",
+      "url": "https://centernevskiy.ru/krugozor/",
+      "vk": "https://vk.com/club42857231",
+      "phone": "447-77-74"
+    },
+    {
+      "name": "Ленинградец",
+      "url": "https://centernevskiy.ru/leningradec/",
+      "vk": "https://vk.com/club85211760"
+    },
+    {
+      "name": "Лидер",
+      "url": "https://centernevskiy.ru/lider/",
+      "vk": "https://vk.com/club34944303",
+      "phone": "583-18-48"
+    },
+    {
+      "name": "Луч",
+      "url": "https://centernevskiy.ru/luch/",
+      "vk": "https://vk.com/pmklu4",
+      "phone": "589-96-21"
+    },
+    {
+      "name": "Мечта",
+      "url": "https://centernevskiy.ru/mechta/",
+      "vk": "https://vk.com/mechta_club_spb",
+      "phone": "446-14-32"
+    },
+    {
+      "name": "Молодёжный центр",
+      "url": "https://centernevskiy.ru/molodjozhnyj-centr/",
+      "vk": "https://vk.com/molodejniycenter",
+      "phone": "988-45-77"
+    },
+    {
+      "name": "НашЭтаж",
+      "url": "https://centernevskiy.ru/nashjetazh/",
+      "vk": "https://vk.com/ourlevel",
+      "phone": "568-49-74"
+    },
+    {
+      "name": "Нева",
+      "url": "https://centernevskiy.ru/neva/",
+      "vk": "https://vk.com/neva16",
+      "phone": "700-69-59"
+    },
+    {
+      "name": "Невские орлята",
+      "url": "https://centernevskiy.ru/nevskie-orljata/",
+      "vk": "https://vk.com/club_nevskie78",
+      "phone": "446-18-38"
+    },
+    {
+      "name": "Огонёк",
+      "url": "https://centernevskiy.ru/ogonjok/",
+      "vk": "https://vk.com/ogonekpmk",
+      "phone": "588-82-25"
+    },
+    {
+      "name": "Олимпиец",
+      "url": "https://centernevskiy.ru/olimpiec/",
+      "vk": "https://vk.com/pmk_olimpiec",
+      "phone": "586-43-28"
+    },
+    {
+      "name": "Оптимист",
+      "url": "https://centernevskiy.ru/optimist/",
+      "vk": "https://vk.com/club161376154",
+      "phone": "446-80-67"
+    },
+    {
+      "name": "Параллель",
+      "url": "https://centernevskiy.ru/parallel/",
+      "vk": "https://vk.com/parallel_club"
+    },
+    {
+      "name": "Патриот",
+      "url": "https://centernevskiy.ru/patriot/",
+      "vk": "https://vk.com/patriotclubspb",
+      "phone": "620-00-74"
+    },
+    {
+      "name": "Перспектива",
+      "url": "https://centernevskiy.ru/perspektiva/",
+      "vk": "https://vk.com/public62117342",
+      "phone": "362-73-14"
+    },
+    {
+      "name": "Полярник",
+      "url": "https://centernevskiy.ru/poljarnik/",
+      "vk": "https://vk.com/pmkpolyrnik",
+      "phone": "560-32-19"
+    },
+    {
+      "name": "Прожектор",
+      "url": "https://centernevskiy.ru/prozhektor/",
+      "vk": "https://vk.com/clubpmkprojector"
+    },
+    {
+      "name": "Ракета",
+      "url": "https://centernevskiy.ru/raketa/",
+      "vk": "https://vk.com/club137392949",
+      "phone": "362-18-28"
+    },
+    {
+      "name": "Спутник",
+      "url": "https://centernevskiy.ru/sputnik/",
+      "vk": "https://vk.com/club133553584"
+    },
+    {
+      "name": "Товарищ",
+      "url": "https://centernevskiy.ru/tovarishh/",
+      "vk": "https://vk.com/clubspb5891223",
+      "phone": "589-12-23"
+    },
+    {
+      "name": "Факел",
+      "url": "https://centernevskiy.ru/fakel/",
+      "vk": "https://vk.com/club50436940",
+      "phone": "560-27-95"
+    },
+    {
+      "name": "Чайка",
+      "url": "https://centernevskiy.ru/chajka/",
+      "vk": "https://vk.com/club96077723",
+      "phone": "367-69-29"
+    },
+    {
+      "name": "Юбилейный",
+      "url": "https://centernevskiy.ru/jubilejnyj/",
+      "vk": "https://vk.com/clubyoubileyny",
+      "phone": "621-70-10"
+    },
+    {
+      "name": "Юность",
+      "url": "https://centernevskiy.ru/junost/",
+      "vk": "https://vk.com/pmk_junost"
+    }
+  ]
+}

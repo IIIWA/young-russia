@@ -1,0 +1,16 @@
+{
+  "received": "2026-10-16",
+  "source": "Ссылки на основные направления клубов «Морской» и «Витана», присланные и классифицированные пользователем. Полнота набора «Морского» подтверждена. Страницы VK напрямую не открывались.",
+  "routeStatus": "Страницы направлений запланированы; адреса страниц ещё не согласованы и не создавались.",
+  "activities": [
+    {"district":"vo","club":"Морской","id":"morskoy-kak-eto-skazat","title":"Разговорный клуб «Как это сказать по-...?»","vkUrl":"https://vk.ru/club228196020","catalogActivity":"Разговорный клуб: английский, немецкий, японский","languages":["английский","немецкий"],"mapping":"английский и немецкий языки подтверждены пользователем"},
+    {"district":"vo","club":"Морской","id":"morskoy-yaponskiy","title":"Разговорный клуб на японском языке","vkUrl":"https://vk.ru/club238186565","catalogActivity":"Разговорный клуб: английский, немецкий, японский","mapping":"японский язык явно указан в названии группы"},
+    {"district":"vo","club":"Морской","id":"morskoy-devyatyy-lad","title":"Девятый лад","vkUrl":"https://vk.ru/public210767355","catalogActivity":"Гитара","mapping":"соответствие подтверждено пользователем"},
+    {"district":"vo","club":"Морской","id":"morskoy-sam-sebe-kinolog","title":"Сам себе кинолог","vkUrl":"https://vk.ru/club227665123","catalogActivity":"Курс «Сам себе кинолог»","mapping":"совпадает с названием направления в карточке клуба"},
+    {"district":"vo","club":"Морской","id":"morskoy-vspyshka","title":"Фотостудия «Вспышка»","vkUrl":"https://vk.ru/club222231756","catalogActivity":"Фотостудия","mapping":"соответствует направлению в карточке клуба"},
+    {"district":"vo","club":"Витана","id":"vitana-yogosofiya","title":"Студия йоги и философии «ЙОГАСОФИЯ»","vkUrl":"https://vk.ru/club234008496","catalogActivity":"","suggestedCatalogActivity":"Фитнес-йога","mapping":"ждёт подтверждения соответствия"},
+    {"district":"vo","club":"Витана","id":"vitana-fitnes","title":"Студия фитнеса ПМК «Витана»","vkUrl":"https://vk.ru/vitanafif","catalogActivity":"Фитнес","mapping":"совпадает с названием направления в карточке клуба"},
+    {"district":"vo","club":"Витана","id":"vitana-allegro","title":"Танцевальная студия «Аллегро»","vkUrl":"https://vk.ru/club76150332","catalogActivity":"Соло-латина","mapping":"соответствие подтверждено пользователем"},
+    {"district":"vo","club":"Витана","id":"vitana-infinity","title":"Спортивно-танцевальная школа-студия INFINITY","vkUrl":"https://vk.ru/infinitycheer","catalogActivity":"Чир-спорт","mapping":"соответствие подтверждено пользователем"}
+  ]
+}

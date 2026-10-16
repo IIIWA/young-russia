@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://young-russia.ru/</loc></url>
+  <url><loc>https://young-russia.ru/directions/index.html</loc></url>
   <url><loc>https://young-russia.ru/districts/index.html</loc></url>
   <url><loc>https://young-russia.ru/districts/admiralteysky.html</loc></url>
   <url><loc>https://young-russia.ru/districts/vasileostrovsky.html</loc></url>
@@ -52,6 +53,10 @@
   <url><loc>https://young-russia.ru/clubs/ellada.html</loc></url>
   <url><loc>https://young-russia.ru/clubs/yunost.html</loc></url>
   <url><loc>https://young-russia.ru/clubs/yupiter.html</loc></url>
+  <url><loc>https://young-russia.ru/activities/morskoy-devyatyy-lad.html</loc></url>
+  <url><loc>https://young-russia.ru/activities/morskoy-sam-sebe-kinolog.html</loc></url>
+  <url><loc>https://young-russia.ru/activities/morskoy-razgovornyy-klub.html</loc></url>
+  <url><loc>https://young-russia.ru/activities/morskoy-vspyshka.html</loc></url>
   <url><loc>https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html</loc></url>
   <url><loc>https://young-russia.ru/clubs/admiralteysky/molodyozhnyy-klub-vdohnovenie.html</loc></url>
   <url><loc>https://young-russia.ru/clubs/admiralteysky/molodyozhnyy-klub-globus.html</loc></url>
