@@ -97,15 +97,17 @@ if (clubsMap) {
             const selected = visibleUrls ? clubs.filter(club => [...visibleUrls].some(url => url.endsWith(club.url))) : clubs;
             const grouped = new Map();
             for (const club of selected) {
-              const key = club.coordinates.join(',');
-              if (!grouped.has(key)) grouped.set(key, []);
-              grouped.get(key).push(club);
+              for (const coordinates of [club.coordinates, ...(club.additionalCoordinates ?? [])]) {
+                const key = coordinates.join(',');
+                if (!grouped.has(key)) grouped.set(key, {coordinates, clubs:[]});
+                grouped.get(key).clubs.push(club);
+              }
             }
             map.geoObjects.removeAll();
-            const placemarks = [...grouped.values()].map(group => {
+            const placemarks = [...grouped.values()].map(({coordinates, clubs:group}) => {
               const provisional = group.some(club => club.provisional);
               const body = group.map(club => `<div><a href="${escapeHtml(filtered ? `../${club.url}` : club.url)}">${escapeHtml(club.name)}</a><br>${escapeHtml(club.address)}${club.provisional ? '<br><small>Точка предварительная</small>' : ''}</div>`).join('<hr>');
-              return new window.ymaps.Placemark(group[0].coordinates, {
+              return new window.ymaps.Placemark(coordinates, {
                 balloonContentHeader: group.length === 1 ? escapeHtml(group[0].name) : `${group.length} клуба по&nbsp;одному адресу`,
                 balloonContentBody: body,
                 hintContent: group.map(club => club.name).join(', '),
@@ -320,11 +322,14 @@ if (directionResults) {
     }
     const grouped = new Map();
     for (const element of points) {
-      const key = `${element.dataset.mapLat},${element.dataset.mapLon}`;
-      if (!grouped.has(key)) grouped.set(key, []);
-      grouped.get(key).push(element);
+      const locations = [[Number(element.dataset.mapLat),Number(element.dataset.mapLon)], ...JSON.parse(element.dataset.mapAdditional || '[]')];
+      for (const coordinates of locations) {
+        const key = coordinates.join(',');
+        if (!grouped.has(key)) grouped.set(key, {coordinates, elements:[]});
+        grouped.get(key).elements.push(element);
+      }
     }
-    const placemarks = [...grouped.values()].map(group => {
+    const placemarks = [...grouped.values()].map(({coordinates, elements:group}) => {
       const provisional = group.some(element => element.dataset.mapProvisional === 'true');
       const body = group.map(element => {
         const link = element.querySelector('h3 a');
@@ -332,7 +337,7 @@ if (directionResults) {
         const address = element.querySelector('.direction-club-address').textContent;
         return `<div><a href="${escapeMapHtml(link.getAttribute('href'))}">${escapeMapHtml(link.textContent)}</a><br>${escapeMapHtml(activity)}<br>${escapeMapHtml(address)}${element.dataset.mapProvisional === 'true' ? '<br><small>Точка предварительная</small>' : ''}</div>`;
       }).join('<hr>');
-      return new window.ymaps.Placemark([Number(group[0].dataset.mapLat),Number(group[0].dataset.mapLon)], {
+      return new window.ymaps.Placemark(coordinates, {
         balloonContentHeader: group.length === 1 ? escapeMapHtml(group[0].querySelector('h3 a').textContent) : `${group.length} клуба по&nbsp;одному адресу`,
         balloonContentBody: body,
         hintContent: group.map(element => element.querySelector('h3 a').textContent).join(', '),

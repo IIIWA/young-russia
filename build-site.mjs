@@ -289,7 +289,7 @@ const allMapClubs = mapCoordinateData.addresses.flatMap(address => {
     const club = source && mapSourceClubs[source.source]?.[source.index];
     if (!club || club.name !== point.clubName || club.address !== address.address) throw new Error(`Map club ${point.clubName} does not match source ${address.id}`);
     const clubPath = source.source === 'data/clubs-vo.json' ? `clubs/${club.slug}.html` : `clubs/${address.district}/${club.slug}.html`;
-    return {name:club.name,address:club.address,district:address.district,coordinates:[point.coordinates.latitude,point.coordinates.longitude],url:clubPath,topics:tags(club),provisional:point.source !== 'user_provided' || point.precision === 'approximate'};
+    return {name:club.name,address:club.address,district:address.district,coordinates:[point.coordinates.latitude,point.coordinates.longitude],...(point.additionalPoints?.length ? {additionalCoordinates:point.additionalPoints.map(location => [location.latitude,location.longitude])} : {}),url:clubPath,topics:tags(club),provisional:point.source !== 'user_provided' || point.precision === 'approximate'};
   }).filter(Boolean);
 });
 const mapClubs = allMapClubs.filter(club => club.district === 'vasileostrovsky');
@@ -323,7 +323,7 @@ function withDistrictMap(markup, slug) {
 }
 const directionMapPoints = new Map(mapCoordinateData.addresses.flatMap(address => address.clubCoordinates.filter(point => point.coordinates).map(point => [
   `${address.district}|${point.clubName}|${address.address}`,
-  {coordinates:[point.coordinates.latitude,point.coordinates.longitude],provisional:point.source !== 'user_provided' || point.precision === 'approximate'},
+  {coordinates:[point.coordinates.latitude,point.coordinates.longitude],additionalCoordinates:point.additionalPoints?.map(location => [location.latitude,location.longitude]) ?? [],provisional:point.source !== 'user_provided' || point.precision === 'approximate'},
 ])));
 const featured = [clubs.find(club => club.name === 'Морской'), admiralClubs[0], admiralClubs[22]].filter(Boolean);
 const districtLink = district => `districts/${district[1]}.html`;
@@ -370,7 +370,8 @@ const directionResultCards = catalogClubs.filter(club => classifyClub(club).topi
   const initiallyVisible = firstMatch && initialDirectionCount <= 12;
   const href = `../clubs/${club.districtCode ? `${districtCode}/` : ''}${club.slug}.html`;
   const mapPoint = directionMapPoints.get(`${districtCode}|${club.name}|${club.address}`);
-  return `<article class="direction-club-card" data-district="${districtCode}" data-direction-activities="${html(JSON.stringify(activities))}"${mapPoint ? ` data-map-lat="${mapPoint.coordinates[0]}" data-map-lon="${mapPoint.coordinates[1]}" data-map-provisional="${mapPoint.provisional}"` : ''}${initiallyVisible?'':' hidden'}><div class="direction-club-top"><span>${text(directionDistrictNames[districtCode])} район</span><span aria-hidden="true">↗</span></div><h3><a href="${href}">${text(club.name)}</a></h3><p class="direction-club-activity"><span>Подходящее занятие</span><strong data-matched-activity>${firstMatch ? text(firstMatch.label) : ''}</strong><small data-activity-provisional${firstMatch?.provisional?'':' hidden'}>Тематика уточняется</small></p><p class="direction-club-address">${text(club.address)}</p><span class="direction-club-link">Открыть страницу клуба →</span></article>`;
+  const extraMapPoints = mapPoint?.additionalCoordinates.length ? ` data-map-additional="${html(JSON.stringify(mapPoint.additionalCoordinates))}"` : '';
+  return `<article class="direction-club-card" data-district="${districtCode}" data-direction-activities="${html(JSON.stringify(activities))}"${mapPoint ? ` data-map-lat="${mapPoint.coordinates[0]}" data-map-lon="${mapPoint.coordinates[1]}" data-map-provisional="${mapPoint.provisional}"${extraMapPoints}` : ''}${initiallyVisible?'':' hidden'}><div class="direction-club-top"><span>${text(directionDistrictNames[districtCode])} район</span><span aria-hidden="true">↗</span></div><h3><a href="${href}">${text(club.name)}</a></h3><p class="direction-club-activity"><span>Подходящее занятие</span><strong data-matched-activity>${firstMatch ? text(firstMatch.label) : ''}</strong><small data-activity-provisional${firstMatch?.provisional?'':' hidden'}>Тематика уточняется</small></p><p class="direction-club-address">${text(club.address)}</p><span class="direction-club-link">Открыть страницу клуба →</span></article>`;
 }).join('');
 const directionTopicButtons = Object.entries(topicGroups).map(([code,group]) => `<button class="direction-topic direction-topic-${code}" type="button" data-topic-button="${code}" aria-pressed="${code==='knowledge'}"><span class="direction-topic-bullet" aria-hidden="true"></span><strong>${text(group.label)}</strong><small>${venueCountLabel(catalogClubs.filter(club => classifyClub(club).topics.includes(code)).length)}</small></button>`).join('');
 const directionSubtopicButtons = Object.entries(topicGroups).flatMap(([groupCode,group]) => Object.entries(group.subtopics).map(([code,label]) => `<label class="direction-subtopic"${groupCode==='knowledge'?'':' hidden'}><input type="radio" name="direction-subtopic" data-subtopic-button="${code}" data-group="${groupCode}"><span class="direction-subtopic-body"><strong>${text(label)}</strong><small>${venueCountLabel(catalogClubs.filter(club => classifyClub(club).subtopics.includes(code)).length)}</small></span></label>`)).join('');
@@ -677,16 +678,20 @@ function clubLocationMarkup(club, districtSlug) {
     const searchUrl = `https://yandex.ru/maps/?text=${encodeURIComponent(`Санкт-Петербург, ${club.address}`)}`;
     return `<div class="club-location"><h3>Адрес клуба</h3>${address}<p class="club-location-pending">Точка на&nbsp;карте уточняется.</p><a class="club-location-link" href="${html(searchUrl)}" target="_blank" rel="noopener noreferrer">Найти адрес в&nbsp;Яндекс Картах ↗</a></div>`;
   }
-  const { latitude, longitude } = point.coordinates;
-  const coords = `${longitude},${latitude}`;
-  const sharedMap = point.source === 'user_provided' && /^https:\/\/yandex\.ru\/maps\/-\//.test(point.referenceUrl ?? '');
-  const shareId = sharedMap ? new URL(point.referenceUrl).pathname.split('/').filter(Boolean).at(-1) : '';
-  const mapUrl = sharedMap
-    ? `https://api-maps.yandex.ru/frame/v1/-/${encodeURIComponent(shareId)}?lang=ru_RU`
-    : `https://yandex.ru/map-widget/v1/?ll=${encodeURIComponent(coords)}&z=16&pt=${encodeURIComponent(`${coords},pm2rdm`)}`;
-  const externalUrl = sharedMap ? point.referenceUrl : `https://yandex.ru/maps/?ll=${encodeURIComponent(coords)}&z=16&pt=${encodeURIComponent(`${coords},pm2rdm`)}`;
   const provisional = point.source !== 'user_provided' || point.precision === 'approximate';
-  return `<div class="club-location"><h3>Клуб на&nbsp;карте</h3>${address}<iframe class="club-location-map" title="${text(club.name)} на Яндекс Картах" src="${html(mapUrl)}" loading="lazy" allowfullscreen></iframe>${provisional ? '<p class="club-location-pending">Метка предварительная. Уточни расположение у&nbsp;организаторов.</p>' : ''}<a class="club-location-link" href="${html(externalUrl)}" target="_blank" rel="noopener noreferrer">Открыть в&nbsp;Яндекс Картах ↗</a></div>`;
+  const locations = [{...point.coordinates, referenceUrl:point.referenceUrl}, ...(point.additionalPoints ?? [])];
+  const maps = locations.map((location, index) => {
+    const coords = `${location.longitude},${location.latitude}`;
+    const sharedMap = point.source === 'user_provided' && /^https:\/\/yandex\.ru\/maps\/-\//.test(location.referenceUrl ?? '');
+    const shareId = sharedMap ? new URL(location.referenceUrl).pathname.split('/').filter(Boolean).at(-1) : '';
+    const mapUrl = sharedMap
+      ? `https://api-maps.yandex.ru/frame/v1/-/${encodeURIComponent(shareId)}?lang=ru_RU`
+      : `https://yandex.ru/map-widget/v1/?ll=${encodeURIComponent(coords)}&z=16&pt=${encodeURIComponent(`${coords},pm2rdm`)}`;
+    const externalUrl = sharedMap ? location.referenceUrl : `https://yandex.ru/maps/?ll=${encodeURIComponent(coords)}&z=16&pt=${encodeURIComponent(`${coords},pm2rdm`)}`;
+    const pointLabel = locations.length > 1 ? `, точка ${index + 1}` : '';
+    return `${locations.length > 1 ? `<h4>Точка&nbsp;${index + 1}</h4>` : ''}${address}<iframe class="club-location-map" title="${text(club.name)}${pointLabel} на Яндекс Картах" src="${html(mapUrl)}" loading="lazy" allowfullscreen></iframe>${provisional ? '<p class="club-location-pending">Метка предварительная. Уточни расположение у&nbsp;организаторов.</p>' : ''}<a class="club-location-link" href="${html(externalUrl)}" target="_blank" rel="noopener noreferrer">Открыть в&nbsp;Яндекс Картах ↗</a>`;
+  }).join('');
+  return `<div class="club-location"><h3>Клуб на&nbsp;карте</h3>${maps}</div>`;
 }
 
 const weekdayLabels = new Map([

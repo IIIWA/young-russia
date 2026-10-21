@@ -5,13 +5,13 @@
   "license": "https://www.openstreetmap.org/copyright",
   "clubCount": 334,
   "addressCount": 322,
-  "userProvidedClubCount": 265,
+  "userProvidedClubCount": 310,
   "summary": {
-    "user_provided": 254,
-    "partially_user_provided": 1,
-    "likely_match": 32,
-    "needs_review": 31,
-    "not_found": 4,
+    "user_provided": 299,
+    "partially_user_provided": 0,
+    "likely_match": 15,
+    "needs_review": 5,
+    "not_found": 3,
     "wrong_region": 0
   },
   "addresses": [
@@ -1039,34 +1039,28 @@
           "index": 2
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "ВПК имени А. Ф. Клубова",
-          "source": "data/clubs-frunzensky.json",
-          "index": 2
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.838587,
-        "longitude": 30.0115755
+        "latitude": 59.914937,
+        "longitude": 30.344209
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR77P8Z",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "ВПК имени А. Ф. Клубова",
           "coordinates": {
-            "latitude": 59.838587,
-            "longitude": 30.0115755
+            "latitude": 59.914937,
+            "longitude": 30.344209
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR77P8Z",
           "mapLabel": null,
-          "precision": null,
-          "locationNote": null
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 20412 м; адрес и точку нужно проверить вручную."
         }
       ],
       "match": {
@@ -1086,31 +1080,25 @@
           "index": 7
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Планета",
-          "source": "data/clubs-frunzensky.json",
-          "index": 7
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.8590979,
-        "longitude": 30.3766125
+        "latitude": 59.859127,
+        "longitude": 30.375905
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCAAO6",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Планета",
           "coordinates": {
-            "latitude": 59.8590979,
-            "longitude": 30.3766125
+            "latitude": 59.859127,
+            "longitude": 30.375905
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCAAO6",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1133,31 +1121,25 @@
           "index": 6
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Ракетка",
-          "source": "data/clubs-frunzensky.json",
-          "index": 6
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.8526135,
-        "longitude": 30.3820905
+        "latitude": 59.852773,
+        "longitude": 30.381424
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR7722j",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Ракетка",
           "coordinates": {
-            "latitude": 59.8526135,
-            "longitude": 30.3820905
+            "latitude": 59.852773,
+            "longitude": 30.381424
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7722j",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1180,33 +1162,25 @@
           "index": 16
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "МИР",
-          "source": "data/clubs-frunzensky.json",
-          "index": 16
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Совпадение не уровня здания"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.849381,
-        "longitude": 30.4041182
+        "latitude": 59.849261,
+        "longitude": 30.404971
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCANjH",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "МИР",
           "coordinates": {
-            "latitude": 59.849381,
-            "longitude": 30.4041182
+            "latitude": 59.849261,
+            "longitude": 30.404971
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCANjH",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1229,34 +1203,25 @@
           "index": 11
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Прогресс",
-          "source": "data/clubs-frunzensky.json",
-          "index": 11
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Корпус или литера",
-        "Номер дома не подтверждён"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.8654488,
-        "longitude": 30.3822668
+        "latitude": 59.865838,
+        "longitude": 30.38397
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCAI1-",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Прогресс",
           "coordinates": {
-            "latitude": 59.8654488,
-            "longitude": 30.3822668
+            "latitude": 59.865838,
+            "longitude": 30.38397
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCAI1-",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1279,33 +1244,25 @@
           "index": 10
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Романтика",
-          "source": "data/clubs-frunzensky.json",
-          "index": 10
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Совпадение не уровня здания"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.8709363,
-        "longitude": 30.3816042
+        "latitude": 59.870871,
+        "longitude": 30.382461
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCAIzp",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Романтика",
           "coordinates": {
-            "latitude": 59.8709363,
-            "longitude": 30.3816042
+            "latitude": 59.870871,
+            "longitude": 30.382461
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCAIzp",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1328,34 +1285,25 @@
           "index": 1
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Молоко",
-          "source": "data/clubs-frunzensky.json",
-          "index": 1
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Совпадение не уровня здания",
-        "Номер дома не подтверждён"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.8402704,
-        "longitude": 30.4111886
+        "latitude": 59.833298,
+        "longitude": 30.417351
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR77LYJ",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Молоко",
           "coordinates": {
-            "latitude": 59.8402704,
-            "longitude": 30.4111886
+            "latitude": 59.833298,
+            "longitude": 30.417351
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR77LYJ",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1378,33 +1326,25 @@
           "index": 8
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Юность",
-          "source": "data/clubs-frunzensky.json",
-          "index": 8
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Номер дома не подтверждён"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.8380092,
-        "longitude": 30.3815702
+        "latitude": 59.839054,
+        "longitude": 30.384083
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCAENC",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Юность",
           "coordinates": {
-            "latitude": 59.8380092,
-            "longitude": 30.3815702
+            "latitude": 59.839054,
+            "longitude": 30.384083
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCAENC",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1427,31 +1367,25 @@
           "index": 13
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Гармония",
-          "source": "data/clubs-frunzensky.json",
-          "index": 13
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.8333779,
-        "longitude": 30.3910757
+        "latitude": 59.833952,
+        "longitude": 30.390636
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCAQ0F",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Гармония",
           "coordinates": {
-            "latitude": 59.8333779,
-            "longitude": 30.3910757
+            "latitude": 59.833952,
+            "longitude": 30.390636
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCAQ0F",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1474,33 +1408,25 @@
           "index": 5
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Современник",
-          "source": "data/clubs-frunzensky.json",
-          "index": 5
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Совпадение не уровня здания"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.8287545,
-        "longitude": 30.3980535
+        "latitude": 59.828914,
+        "longitude": 30.398343
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR772M0",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Современник",
           "coordinates": {
-            "latitude": 59.8287545,
-            "longitude": 30.3980535
+            "latitude": 59.828914,
+            "longitude": 30.398343
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR772M0",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1523,31 +1449,25 @@
           "index": 14
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Феникс",
-          "source": "data/clubs-frunzensky.json",
-          "index": 14
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.8414922,
-        "longitude": 30.3906568
+        "latitude": 59.841611,
+        "longitude": 30.390792
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCAJMA",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Феникс",
           "coordinates": {
-            "latitude": 59.8414922,
-            "longitude": 30.3906568
+            "latitude": 59.841611,
+            "longitude": 30.390792
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCAJMA",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1570,34 +1490,25 @@
           "index": 12
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Атмосфера",
-          "source": "data/clubs-frunzensky.json",
-          "index": 12
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Корпус или литера",
-        "Номер дома не подтверждён"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.8723752,
-        "longitude": 30.4009596
+        "latitude": 59.873186,
+        "longitude": 30.40191
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCAM~A",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Атмосфера",
           "coordinates": {
-            "latitude": 59.8723752,
-            "longitude": 30.4009596
+            "latitude": 59.873186,
+            "longitude": 30.40191
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCAM~A",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1620,31 +1531,25 @@
           "index": 9
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Факел",
-          "source": "data/clubs-frunzensky.json",
-          "index": 9
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.8696488,
-        "longitude": 30.4110368
+        "latitude": 59.869512,
+        "longitude": 30.411641
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCAE9j",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Факел",
           "coordinates": {
-            "latitude": 59.8696488,
-            "longitude": 30.4110368
+            "latitude": 59.869512,
+            "longitude": 30.411641
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCAE9j",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1667,34 +1572,25 @@
           "index": 4
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Старт",
-          "source": "data/clubs-frunzensky.json",
-          "index": 4
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Корпус или литера",
-        "Номер дома не подтверждён"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.8701192,
-        "longitude": 30.404305
+        "latitude": 59.870974,
+        "longitude": 30.405235
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR77XI8",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Старт",
           "coordinates": {
-            "latitude": 59.8701192,
-            "longitude": 30.404305
+            "latitude": 59.870974,
+            "longitude": 30.405235
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR77XI8",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1717,33 +1613,25 @@
           "index": 3
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Искра",
-          "source": "data/clubs-frunzensky.json",
-          "index": 3
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Номер дома не подтверждён"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.8494486,
-        "longitude": 30.3890516
+        "latitude": 59.849721,
+        "longitude": 30.390095
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR77TN-",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Искра",
           "coordinates": {
-            "latitude": 59.8494486,
-            "longitude": 30.3890516
+            "latitude": 59.849721,
+            "longitude": 30.390095
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR77TN-",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1766,31 +1654,25 @@
           "index": 0
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Дом молодёжи «Купчино»",
-          "source": "data/clubs-frunzensky.json",
-          "index": 0
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.832968,
-        "longitude": 30.4169064
+        "latitude": 59.833081,
+        "longitude": 30.417221
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR776kQ",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Дом молодёжи «Купчино»",
           "coordinates": {
-            "latitude": 59.832968,
-            "longitude": 30.4169064
+            "latitude": 59.833081,
+            "longitude": 30.417221
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR776kQ",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -1813,33 +1695,25 @@
           "index": 15
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "ВПК имени 3-й Фрунзенской дивизии народного ополчения",
-          "source": "data/clubs-frunzensky.json",
-          "index": 15
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Номер дома не подтверждён"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.8339623,
-        "longitude": 30.420687
+        "latitude": 59.834025,
+        "longitude": 30.420428
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCAJke",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "ВПК имени 3-й Фрунзенской дивизии народного ополчения",
           "coordinates": {
-            "latitude": 59.8339623,
-            "longitude": 30.420687
+            "latitude": 59.834025,
+            "longitude": 30.420428
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCAJke",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -10363,14 +10237,8 @@
           "index": 11
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Товарищ",
-          "source": "data/clubs-pushkinsky.json",
-          "index": 11
-        }
-      ],
-      "status": "partially_user_provided",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": null,
       "coordinateSource": "per_club",
@@ -10392,11 +10260,11 @@
         {
           "clubName": "Товарищ",
           "coordinates": {
-            "latitude": 59.7042602,
-            "longitude": 30.3571769
+            "latitude": 59.703921,
+            "longitude": 30.357711
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7zCl2",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -10591,31 +10459,25 @@
           "index": 12
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Чайка",
-          "source": "data/clubs-pushkinsky.json",
-          "index": 12
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.7307179,
-        "longitude": 30.4082919
+        "latitude": 59.730768,
+        "longitude": 30.408159
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR7zKiJ",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Чайка",
           "coordinates": {
-            "latitude": 59.7307179,
-            "longitude": 30.4082919
+            "latitude": 59.730768,
+            "longitude": 30.408159
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7zKiJ",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -10638,33 +10500,25 @@
           "index": 19
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Царскосельский",
-          "source": "data/clubs-pushkinsky.json",
-          "index": 19
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Совпадение не уровня здания"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.7227211,
-        "longitude": 30.4098638
+        "latitude": 59.722528,
+        "longitude": 30.409705
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR77NjA",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Царскосельский",
           "coordinates": {
-            "latitude": 59.7227211,
-            "longitude": 30.4098638
+            "latitude": 59.722528,
+            "longitude": 30.409705
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR77NjA",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -10728,33 +10582,25 @@
           "index": 14
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Юность",
-          "source": "data/clubs-pushkinsky.json",
-          "index": 14
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Совпадение не уровня здания"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.7233901,
-        "longitude": 30.4239675
+        "latitude": 59.723414,
+        "longitude": 30.423602
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR7z2-u",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Юность",
           "coordinates": {
-            "latitude": 59.7233901,
-            "longitude": 30.4239675
+            "latitude": 59.723414,
+            "longitude": 30.423602
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7z2-u",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -10829,27 +10675,25 @@
           "index": 17
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Росток",
-          "source": "data/clubs-pushkinsky.json",
-          "index": 17
-        }
-      ],
-      "status": "not_found",
-      "reasons": [
-        "Диапазон домов"
-      ],
-      "coordinates": null,
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
+      "coordinates": {
+        "latitude": 59.73952,
+        "longitude": 30.46775
+      },
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR774no",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Росток",
-          "coordinates": null,
-          "source": null,
-          "referenceUrl": null,
+          "coordinates": {
+            "latitude": 59.73952,
+            "longitude": 30.46775
+          },
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR774no",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -10905,34 +10749,25 @@
           "index": 18
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "3-й этаж",
-          "source": "data/clubs-pushkinsky.json",
-          "index": 18
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Корпус или литера",
-        "Номер дома не подтверждён"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.8089516,
-        "longitude": 30.3589405
+        "latitude": 59.808351,
+        "longitude": 30.359976
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR77FIG",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "3-й этаж",
           "coordinates": {
-            "latitude": 59.8089516,
-            "longitude": 30.3589405
+            "latitude": 59.808351,
+            "longitude": 30.359976
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR77FIG",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -10955,33 +10790,25 @@
           "index": 13
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Шушары",
-          "source": "data/clubs-pushkinsky.json",
-          "index": 13
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Совпадение не уровня здания"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.8041311,
-        "longitude": 30.3779968
+        "latitude": 59.804134,
+        "longitude": 30.378093
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR7zXjq",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Шушары",
           "coordinates": {
-            "latitude": 59.8041311,
-            "longitude": 30.3779968
+            "latitude": 59.804134,
+            "longitude": 30.378093
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7zXjq",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11004,34 +10831,25 @@
           "index": 10
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Славянка",
-          "source": "data/clubs-pushkinsky.json",
-          "index": 10
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Корпус или литера",
-        "Номер дома не подтверждён"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.7311106,
-        "longitude": 30.4636687
+        "latitude": 59.731287,
+        "longitude": 30.463461
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR7vBj8",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Славянка",
           "coordinates": {
-            "latitude": 59.7311106,
-            "longitude": 30.4636687
+            "latitude": 59.731287,
+            "longitude": 30.463461
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7vBj8",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11054,34 +10872,25 @@
           "index": 16
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Олимп",
-          "source": "data/clubs-pushkinsky.json",
-          "index": 16
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Совпадение не уровня здания",
-        "Номер дома не подтверждён"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.8058907,
-        "longitude": 30.3712694
+        "latitude": 59.80884,
+        "longitude": 30.37689
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXR77Q8O",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Олимп",
           "coordinates": {
-            "latitude": 59.8058907,
-            "longitude": 30.3712694
+            "latitude": 59.80884,
+            "longitude": 30.37689
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXR77Q8O",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11104,31 +10913,25 @@
           "index": 16
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Маяк",
-          "source": "data/clubs-tsentralny.json",
-          "index": 16
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9324177,
-        "longitude": 30.3703076
+        "latitude": 59.932421,
+        "longitude": 30.370392
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCEF8y",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Маяк",
           "coordinates": {
-            "latitude": 59.9324177,
-            "longitude": 30.3703076
+            "latitude": 59.932421,
+            "longitude": 30.370392
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCEF8y",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11151,33 +10954,25 @@
           "index": 23
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Феникс",
-          "source": "data/clubs-tsentralny.json",
-          "index": 23
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Диапазон домов"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.9252013,
-        "longitude": 30.3382768
+        "latitude": 59.925456,
+        "longitude": 30.338362
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCEHpG",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Феникс",
           "coordinates": {
-            "latitude": 59.9252013,
-            "longitude": 30.3382768
+            "latitude": 59.925456,
+            "longitude": 30.338362
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCEHpG",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11200,31 +10995,25 @@
           "index": 1
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Атлет",
-          "source": "data/clubs-tsentralny.json",
-          "index": 1
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9272655,
-        "longitude": 30.3580572
+        "latitude": 59.92744,
+        "longitude": 30.357099
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCAVy5",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Атлет",
           "coordinates": {
-            "latitude": 59.9272655,
-            "longitude": 30.3580572
+            "latitude": 59.92744,
+            "longitude": 30.357099
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCAVy5",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11247,31 +11036,25 @@
           "index": 0
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Атлант",
-          "source": "data/clubs-tsentralny.json",
-          "index": 0
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9405793,
-        "longitude": 30.3488765
+        "latitude": 59.940976,
+        "longitude": 30.350174
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCARoc",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Атлант",
           "coordinates": {
-            "latitude": 59.9405793,
-            "longitude": 30.3488765
+            "latitude": 59.940976,
+            "longitude": 30.350174
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCARoc",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11390,35 +11173,25 @@
           "index": 6
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Прометей",
-          "source": "data/clubs-tsentralny.json",
-          "index": 6
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Двойной номер дома",
-        "Совпадение не уровня здания",
-        "Номер дома не подтверждён"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.92999,
-        "longitude": 30.3673963
+        "latitude": 59.932215,
+        "longitude": 30.357697
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCAC1M",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Прометей",
           "coordinates": {
-            "latitude": 59.92999,
-            "longitude": 30.3673963
+            "latitude": 59.932215,
+            "longitude": 30.357697
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCAC1M",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11441,31 +11214,25 @@
           "index": 4
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Романтики",
-          "source": "data/clubs-tsentralny.json",
-          "index": 4
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9408495,
-        "longitude": 30.3568252
+        "latitude": 59.94089,
+        "longitude": 30.356622
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCA66s",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Романтики",
           "coordinates": {
-            "latitude": 59.9408495,
-            "longitude": 30.3568252
+            "latitude": 59.94089,
+            "longitude": 30.356622
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCA66s",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11488,33 +11255,25 @@
           "index": 3
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Горизонт",
-          "source": "data/clubs-tsentralny.json",
-          "index": 3
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Двойной номер дома"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.9376627,
-        "longitude": 30.359451
+        "latitude": 59.937594,
+        "longitude": 30.359478
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCAZn5",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Горизонт",
           "coordinates": {
-            "latitude": 59.9376627,
-            "longitude": 30.359451
+            "latitude": 59.937594,
+            "longitude": 30.359478
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCAZn5",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11537,31 +11296,25 @@
           "index": 14
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "На Коломенской",
-          "source": "data/clubs-tsentralny.json",
-          "index": 14
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9260602,
-        "longitude": 30.354604
+        "latitude": 59.926129,
+        "longitude": 30.354825
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCEYP3",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "На Коломенской",
           "coordinates": {
-            "latitude": 59.9260602,
-            "longitude": 30.354604
+            "latitude": 59.926129,
+            "longitude": 30.354825
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCEYP3",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11584,33 +11337,25 @@
           "index": 15
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Муравейник",
-          "source": "data/clubs-tsentralny.json",
-          "index": 15
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Двойной номер дома"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.9226113,
-        "longitude": 30.3481963
+        "latitude": 59.922761,
+        "longitude": 30.348419
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCE4-D",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Муравейник",
           "coordinates": {
-            "latitude": 59.9226113,
-            "longitude": 30.3481963
+            "latitude": 59.922761,
+            "longitude": 30.348419
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCE4-D",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11633,31 +11378,25 @@
           "index": 24
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Спартак",
-          "source": "data/clubs-tsentralny.json",
-          "index": 24
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9199926,
-        "longitude": 30.3425642
+        "latitude": 59.92028,
+        "longitude": 30.34227
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCEX0H",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Спартак",
           "coordinates": {
-            "latitude": 59.9199926,
-            "longitude": 30.3425642
+            "latitude": 59.92028,
+            "longitude": 30.34227
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCEX0H",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11774,35 +11513,25 @@
           "index": 10
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Нева",
-          "source": "data/clubs-tsentralny.json",
-          "index": 10
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Диапазон домов",
-        "Совпадение не уровня здания",
-        "Номер дома не подтверждён"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.9451217,
-        "longitude": 30.3285351
+        "latitude": 59.943825,
+        "longitude": 30.324156
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCATzy",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Нева",
           "coordinates": {
-            "latitude": 59.9451217,
-            "longitude": 30.3285351
+            "latitude": 59.943825,
+            "longitude": 30.324156
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCATzy",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11825,37 +11554,35 @@
           "index": 22
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Юность",
-          "source": "data/clubs-tsentralny.json",
-          "index": 22
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Диапазон домов",
-        "Совпадение не уровня здания"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.9420604,
-        "longitude": 30.3443024
+        "latitude": 59.941215,
+        "longitude": 30.34499
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCEDOS",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Юность",
           "coordinates": {
-            "latitude": 59.9420604,
-            "longitude": 30.3443024
+            "latitude": 59.941215,
+            "longitude": 30.34499
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCEDOS",
           "mapLabel": null,
           "precision": null,
-          "locationNote": null
+          "locationNote": null,
+          "additionalPoints": [
+            {
+              "latitude": 59.941839,
+              "longitude": 30.34334,
+              "referenceUrl": "https://yandex.ru/maps/-/CXRCEDPf"
+            }
+          ]
         }
       ],
       "match": {
@@ -11875,33 +11602,25 @@
           "index": 18
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Луч",
-          "source": "data/clubs-tsentralny.json",
-          "index": 18
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Двойной номер дома"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.9245341,
-        "longitude": 30.3447916
+        "latitude": 59.924367,
+        "longitude": 30.345406
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCEZOb",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Луч",
           "coordinates": {
-            "latitude": 59.9245341,
-            "longitude": 30.3447916
+            "latitude": 59.924367,
+            "longitude": 30.345406
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCEZOb",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -11971,36 +11690,28 @@
           "index": 5
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Ровесник",
-          "source": "data/clubs-tsentralny.json",
-          "index": 5
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Совпадение не уровня здания"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.8060256,
-        "longitude": 30.3864985
+        "latitude": 59.929342,
+        "longitude": 30.35627
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCACN8",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Ровесник",
           "coordinates": {
-            "latitude": 59.8060256,
-            "longitude": 30.3864985
+            "latitude": 59.929342,
+            "longitude": 30.35627
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCACN8",
           "mapLabel": null,
-          "precision": null,
-          "locationNote": null
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 13816 м; адрес и точку нужно проверить вручную."
         }
       ],
       "match": {
@@ -12020,33 +11731,25 @@
           "index": 12
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "На Троицкой",
-          "source": "data/clubs-tsentralny.json",
-          "index": 12
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Диапазон домов"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.9293639,
-        "longitude": 30.3424776
+        "latitude": 59.928724,
+        "longitude": 30.343636
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCA-8X",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "На Троицкой",
           "coordinates": {
-            "latitude": 59.9293639,
-            "longitude": 30.3424776
+            "latitude": 59.928724,
+            "longitude": 30.343636
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCA-8X",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -12069,35 +11772,25 @@
           "index": 19
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Ленинградец",
-          "source": "data/clubs-tsentralny.json",
-          "index": 19
-        }
-      ],
-      "status": "needs_review",
-      "reasons": [
-        "Диапазон домов",
-        "Совпадение не уровня здания",
-        "Номер дома не подтверждён"
-      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
       "coordinates": {
-        "latitude": 59.9449957,
-        "longitude": 30.3666699
+        "latitude": 59.945429,
+        "longitude": 30.353357
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCEK45",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Ленинградец",
           "coordinates": {
-            "latitude": 59.9449957,
-            "longitude": 30.3666699
+            "latitude": 59.945429,
+            "longitude": 30.353357
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCEK45",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -12167,31 +11860,25 @@
           "index": 9
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Огонёк",
-          "source": "data/clubs-tsentralny.json",
-          "index": 9
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9463161,
-        "longitude": 30.3396339
+        "latitude": 59.946005,
+        "longitude": 30.340212
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCALIu",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Огонёк",
           "coordinates": {
-            "latitude": 59.9463161,
-            "longitude": 30.3396339
+            "latitude": 59.946005,
+            "longitude": 30.340212
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCALIu",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -12214,31 +11901,25 @@
           "index": 2
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Барс",
-          "source": "data/clubs-tsentralny.json",
-          "index": 2
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9369472,
-        "longitude": 30.3524791
+        "latitude": 59.937127,
+        "longitude": 30.351155
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCAVld",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Барс",
           "coordinates": {
-            "latitude": 59.9369472,
-            "longitude": 30.3524791
+            "latitude": 59.937127,
+            "longitude": 30.351155
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCAVld",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
@@ -12261,31 +11942,25 @@
           "index": 21
         }
       ],
-      "pendingClubs": [
-        {
-          "name": "Чайка",
-          "source": "data/clubs-tsentralny.json",
-          "index": 21
-        }
-      ],
-      "status": "likely_match",
+      "pendingClubs": [],
+      "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.9369084,
-        "longitude": 30.3531192
+        "latitude": 59.936896,
+        "longitude": 30.352981
       },
-      "coordinateSource": "OpenStreetMap Nominatim",
-      "referenceUrl": null,
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRCES-z",
       "mapLabel": null,
       "clubCoordinates": [
         {
           "clubName": "Чайка",
           "coordinates": {
-            "latitude": 59.9369084,
-            "longitude": 30.3531192
+            "latitude": 59.936896,
+            "longitude": 30.352981
           },
-          "source": "OpenStreetMap Nominatim candidate",
-          "referenceUrl": null,
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRCES-z",
           "mapLabel": null,
           "precision": null,
           "locationNote": null

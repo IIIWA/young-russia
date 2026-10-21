@@ -49,7 +49,8 @@ h3{font-size:1.5rem;font-weight:750}
 .hero-copy{padding:18px 35px 18px 0;position:relative;z-index:2}
 .kicker,.section-kicker{font-size:13px;line-height:1.2;text-transform:uppercase;letter-spacing:.13em;font-weight:850;color:var(--blue)}
 .kicker{display:flex;align-items:center;gap:9px;margin-bottom:27px}.kicker-dot{width:8px;height:8px;border-radius:50%;background:var(--coral)}
-.hero h1{max-width:650px;margin-bottom:28px}.hero h1 em{font-style:normal;color:var(--blue)}
+.hero-copy{width:100%;min-width:0;container-type:inline-size}
+.hero h1{max-width:650px;margin-bottom:28px;overflow-wrap:normal;text-wrap:balance}.hero h1 em{font-style:normal;color:var(--blue)}
 .hero-lead{font-size:clamp(18px,1.6vw,21px);line-height:1.55;max-width:535px;color:#455069;margin-bottom:30px}
 .hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:27px}
 .hero-facts{display:flex;gap:32px;margin-top:53px;color:var(--muted);font-size:14px}
@@ -288,3 +289,8 @@ h3{font-size:1.5rem;font-weight:750}
 .morskoy-schedule-guitar{background:#f1c6a5}
 .morskoy-schedule-kinolog{background:#b8d8c6}
 .morskoy-schedule-photo{background:#bec0df}
+
+/* Fit the complete city name within the hero text column. */
+.hero h1{font-size:min(clamp(3.5rem,6vw,6.4rem),14.5cqi)}
+@media(max-width:1050px){.hero h1{font-size:min(clamp(3.5rem,5.8vw,5rem),14.5cqi)}}
+@media(max-width:760px){.hero h1{font-size:min(clamp(3.4rem,11vw,5rem),14.5cqi)}}

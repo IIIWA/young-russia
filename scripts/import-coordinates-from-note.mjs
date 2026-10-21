@@ -7,6 +7,8 @@ const sourceArgument = process.argv.find(argument => argument.startsWith('--sour
 const source = sourceArgument ? path.resolve(root, sourceArgument) : path.join(root, 'YoungRussiaOBS/Задачи/Координаты клубов — ввод 2026-10-22.md');
 const target = path.join(root, 'data/manual-club-coordinates.json');
 const apply = process.argv.includes('--apply');
+// Multiple locations require an explicit choice after reviewing the source note.
+const allowMultiple = process.argv.includes('--allow-multiple');
 const districtCodes = new Map([
   ['Адмиралтейский', 'admiralteysky'], ['Василеостровский', 'vasileostrovsky'],
   ['Выборгский', 'vyborgsky'], ['Калининский', 'kalininsky'],
@@ -83,7 +85,7 @@ for (let i = 0; i < lines.length; i += 1) {
 const expectedRows = Number(note.match(/В файле (\d+) клубов из/)?.[1]);
 if (!expectedRows || rows.length !== expectedRows) throw new Error(`Expected ${expectedRows} source rows, found ${rows.length}`);
 
-const summary = { sourceRows: rows.length, blank: 0, noCoordinates: 0, valid: 0, alreadyPresent: 0, added: 0, newNames: [], repairedLinks: 0, distantCandidates: [], problems: [] };
+const summary = { sourceRows: rows.length, blank: 0, noCoordinates: 0, valid: 0, alreadyPresent: 0, added: 0, addedPoints: 0, newNames: [], multipleLocations: [], repairedLinks: 0, distantCandidates: [], problems: [] };
 const seen = new Set();
 for (const row of rows) {
   const key = `${row.district}|${normal(row.name)}|${normal(row.location)}`;
@@ -95,7 +97,7 @@ for (const row of rows) {
     continue;
   }
   if (!row.value) { summary.blank += 1; continue; }
-  if (/^(?:нет(?:\s|,|$)|точных координат нет)/i.test(row.value)) { summary.noCoordinates += 1; continue; }
+  if (/^(?:нет(?:\s|,|$)|точных координат нет|уточнить(?:\s|,|$))/i.test(row.value)) { summary.noCoordinates += 1; continue; }
   const repairedValue = row.value.replace(/^ttps:\/\/yandex\.ru\/maps\/-\//, 'https://yandex.ru/maps/-/');
   if (repairedValue !== row.value) summary.repairedLinks += 1;
   const urls = [...repairedValue.matchAll(/https:\/\/yandex\.ru\/maps\/-\/[^\s)]+/g)].map(item => item[0]);
@@ -105,21 +107,27 @@ for (const row of rows) {
   if (isNevskyCenter && (urls.length !== 2 || points.length !== 2 || !urls[0].endsWith('/CXRvm0JX') || !urls[1].endsWith('/CXRvqQ3X'))) {
     throw new Error(`Changed source evidence for Молодёжный центр at line ${row.line}`);
   }
-  if ((!isNevskyCenter && urls.length !== 1) || (!isNevskyCenter && points.length !== 1)) {
-    summary.problems.push({ line: row.line, name: row.name, problem: 'Нужна ровно одна ссылка Яндекс Карт и одна пара координат', value: row.value });
+  if (!isNevskyCenter && (!urls.length || urls.length !== points.length || (points.length > 1 && !allowMultiple))) {
+    summary.problems.push({ line: row.line, name: row.name, problem: 'Нужна ссылка Яндекс Карт для каждой пары координат; несколько точек требуют --allow-multiple после подтверждения', value: row.value });
     continue;
   }
-  const latitude = Number(points[0][1]);
-  const longitude = Number(points[0][2]);
-  if (latitude < 59.1 || latitude > 60.5 || longitude < 28.5 || longitude > 31.8) {
-    summary.problems.push({ line: row.line, name: row.name, problem: 'Точка вне Петербурга', latitude, longitude });
+  const locations = (isNevskyCenter ? points.slice(0, 1) : points).map((point, index) => ({ latitude: Number(point[1]), longitude: Number(point[2]), referenceUrl: urls[index] }));
+  if (locations.some(({ latitude, longitude }) => latitude < 59.1 || latitude > 60.5 || longitude < 28.5 || longitude > 31.8)) {
+    summary.problems.push({ line: row.line, name: row.name, problem: 'Точка вне Петербурга', locations });
     continue;
   }
+  if (new Set(locations.map(point => `${point.latitude},${point.longitude}`)).size !== locations.length) {
+    summary.problems.push({ line: row.line, name: row.name, problem: 'Повтор одной точки в записи', locations });
+    continue;
+  }
+  const { latitude, longitude } = locations[0];
+  if (locations.length > 1) summary.multipleLocations.push({ line: row.line, name: row.name, points: locations.length });
   summary.valid += 1;
   const { address, club } = match;
   const prior = manual.overrides[address.id]?.points?.find(point => point.clubName === club.name);
   if (prior) {
-    if (prior.latitude === latitude && prior.longitude === longitude) summary.alreadyPresent += 1;
+    const priorLocations = [prior, ...(prior.additionalPoints ?? [])];
+    if (priorLocations.length === locations.length && priorLocations.every((point, index) => point.latitude === locations[index].latitude && point.longitude === locations[index].longitude)) summary.alreadyPresent += 1;
     else summary.problems.push({ line: row.line, name: row.name, problem: 'Другая точка уже есть в ручном реестре', prior, proposed: { latitude, longitude, referenceUrl: urls[0] } });
     continue;
   }
@@ -128,6 +136,7 @@ for (const row of rows) {
   if (displacement > 1000) summary.distantCandidates.push({ line: row.line, label: `${row.name} — ${row.location}`, proposed: { latitude, longitude, referenceUrl: urls[0] }, candidate, distanceMeters: displacement });
   manual.overrides[address.id] ??= { points: [] };
   const point = { clubName: club.name, latitude, longitude, referenceUrl: urls[0] };
+  if (locations.length > 1) point.additionalPoints = locations.slice(1);
   if (isNevskyCenter) {
     point.precision = 'approximate';
     point.locationNote = 'В каталоге ул. Бабушкина, д. 42, корп. 4А; в Яндекс Картах у выбранной точки указан корпус 4. Вторая точка из заметки относится к корпусу 1 и не использована.';
@@ -138,6 +147,7 @@ for (const row of rows) {
   }
   manual.overrides[address.id].points.push(point);
   summary.added += 1;
+  summary.addedPoints += locations.length;
   summary.newNames.push(`${row.name} (${row.district})`);
 }
 if (apply && summary.problems.length) throw new Error(`Import stopped: ${JSON.stringify(summary.problems)}`);

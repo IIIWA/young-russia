@@ -41,7 +41,8 @@ const records = addresses.addresses.map(address => {
   if (!Array.isArray(manualPoints)) throw new Error(`Invalid manual points for ${address.id}`);
   const manualByClub = new Map();
   for (const point of manualPoints) {
-    if (!address.clubs.some(club => club.name === point.clubName) || manualByClub.has(point.clubName) || !Number.isFinite(point.latitude) || !Number.isFinite(point.longitude) || point.latitude < 59.1 || point.latitude > 60.5 || point.longitude < 28.5 || point.longitude > 31.8 || !/^https:\/\/yandex\.ru\/maps\//.test(point.referenceUrl)) {
+    const locations = [point, ...(point.additionalPoints ?? [])];
+    if (!address.clubs.some(club => club.name === point.clubName) || manualByClub.has(point.clubName) || locations.some(location => !Number.isFinite(location.latitude) || !Number.isFinite(location.longitude) || location.latitude < 59.1 || location.latitude > 60.5 || location.longitude < 28.5 || location.longitude > 31.8 || !/^https:\/\/yandex\.ru\/maps\//.test(location.referenceUrl)) || new Set(locations.map(location => `${location.latitude},${location.longitude}`)).size !== locations.length) {
       throw new Error(`Invalid manual coordinates for ${address.id}: ${point.clubName}`);
     }
     manualByClub.set(point.clubName, point);
@@ -91,6 +92,7 @@ const records = addresses.addresses.map(address => {
         mapLabel: point?.mapLabel ?? null,
         precision: point?.precision ?? null,
         locationNote: point?.locationNote ?? null,
+        ...(point?.additionalPoints?.length ? { additionalPoints: point.additionalPoints } : {}),
       };
     }),
     match: candidate ? {
