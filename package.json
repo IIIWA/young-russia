@@ -10,6 +10,8 @@
     "dev": "npm run prepare:nuxt-content && nuxt dev",
     "build": "npm run prepare:nuxt-content && nuxt generate && node scripts/publish-nuxt.mjs",
     "build:legacy": "node build-site.mjs",
+    "data:views": "node scripts/build-vyborgsky-note-evidence.mjs && node scripts/build-district-research-views.mjs && node scripts/build-admiralteysky-research-base.mjs && node scripts/build-vyborgsky-research-base.mjs",
+    "data:coords": "node scripts/build-coordinates-list.mjs",
     "check": "node scripts/check-site.mjs",
     "preview": "node scripts/serve.mjs"
   },

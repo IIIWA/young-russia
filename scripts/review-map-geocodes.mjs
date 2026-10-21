@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { writeGeneratedFile } from './write-generated-file.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dataDir = path.join(root, 'data');
@@ -32,8 +33,11 @@ function matchesStreet(candidate, query) {
 
 const records = addresses.addresses.map(address => {
   const result = geocodes.results[address.id];
-  if (!result || result.query !== address.query) throw new Error(`Missing current geocode for ${address.id}`);
   const manualPoints = manualCoordinates[address.id]?.points ?? [];
+  // A user-supplied point can cover a new address before the optional OSM cache is refreshed.
+  if ((!result || result.query !== address.query) && manualPoints.length !== address.clubs.length) {
+    throw new Error(`Missing current geocode for ${address.id}`);
+  }
   if (!Array.isArray(manualPoints)) throw new Error(`Invalid manual points for ${address.id}`);
   const manualByClub = new Map();
   for (const point of manualPoints) {
@@ -42,7 +46,7 @@ const records = addresses.addresses.map(address => {
     }
     manualByClub.set(point.clubName, point);
   }
-  const candidate = result.candidates.find(inRegion) ?? result.candidates[0] ?? null;
+  const candidate = result?.query === address.query ? result.candidates.find(inRegion) ?? result.candidates[0] ?? null : null;
   const reasons = [...address.review];
   const pendingClubs = address.clubs.filter(club => !manualByClub.has(club.name));
   let status;
@@ -110,7 +114,7 @@ const output = {
   summary,
   addresses: records,
 };
-await fs.writeFile(path.join(dataDir, 'club-coordinates.json'), `${JSON.stringify(output, null, 2)}\n`, 'utf8');
+await writeGeneratedFile(path.join(dataDir, 'club-coordinates.json'), `${JSON.stringify(output, null, 2)}\n`);
 
 const problemRows = records.filter(record => !['user_provided', 'likely_match'].includes(record.status));
 const report = [
@@ -126,7 +130,7 @@ const report = [
   ...problemRows.map(record => `- **${record.district} · ${record.address}** — **Клубы для проверки:** ${record.pendingClubs.map(club => `**${club.name}**`).join('; ')}. ${record.status}; ${record.reasons.join(', ') || 'совпадений нет'}${record.match ? `; [совпадение](${record.match.osmUrl})` : ''}.`),
   '',
 ].join('\n');
-await fs.writeFile(path.join(dataDir, 'map-geocoding-report.md'), report, 'utf8');
+await writeGeneratedFile(path.join(dataDir, 'map-geocoding-report.md'), report);
 
 const statusNames = {partially_user_provided:'Часть клубов без подтверждённой точки', needs_review:'Требует проверки', not_found:'Адрес не найден', wrong_region:'Точка вне Петербурга'};
 const htmlRows = problemRows.map(record => `<li class="entry" id="${escapeHtml(record.id)}">
@@ -172,5 +176,5 @@ const htmlReport = `<!doctype html>
 </body>
 </html>
 `;
-await fs.writeFile(path.join(dataDir, 'map-geocoding-report.html'), htmlReport, 'utf8');
+await writeGeneratedFile(path.join(dataDir, 'map-geocoding-report.html'), htmlReport);
 console.log(JSON.stringify(summary));

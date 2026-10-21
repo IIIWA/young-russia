@@ -1,104 +1,2648 @@
 {
   "description": "Координаты отдельных клубов, предоставленные пользователем. Ключ соответствует id адреса в map-addresses.json; points позволяют различать клубы по одному адресу.",
   "overrides": {
-    "0c4655a66aa5": { "points": [
-      { "clubName": "Молодёжный клуб «Орфей»", "latitude": 59.911331, "longitude": 30.302814, "referenceUrl": "https://yandex.ru/maps/-/CXBWEF8O" }
-    ] },
-    "05b53c7bc773": { "points": [
-      { "clubName": "Молодёжный клуб «Созвучие»", "latitude": 59.911649, "longitude": 30.305396, "referenceUrl": "https://yandex.ru/maps/-/CXBWI45h" }
-    ] },
-    "815ecf0f8399": { "points": [
-      { "clubName": "Молодёжный клуб «Домострой»", "mapLabel": "3/14", "latitude": 59.914377, "longitude": 30.311779, "referenceUrl": "https://yandex.ru/maps/-/CXBWMG5K" }
-    ] },
-    "33e58174d023": { "points": [
-      { "clubName": "Психологическая служба «Мозаика»", "latitude": 59.914367, "longitude": 30.311580, "referenceUrl": "https://yandex.ru/maps/-/CXBWMT7H" }
-    ] },
-    "3825afcb09b7": { "points": [
-      { "clubName": "Молодёжный клуб «Селена»", "latitude": 59.914028, "longitude": 30.312926, "referenceUrl": "https://yandex.ru/maps/-/CXBWQDmn" }
-    ] },
-    "54137fbbe569": { "points": [
-      { "clubName": "Аврора", "latitude": 59.942141, "longitude": 30.288357, "referenceUrl": "https://yandex.ru/maps/-/CXBWU8Nl" }
-    ] },
-    "61e6eea10e23": { "points": [
-      { "clubName": "Витана", "latitude": 59.944936, "longitude": 30.270773, "referenceUrl": "https://yandex.ru/maps/-/CXBWeUyG" }
-    ] },
-    "99e44688edd1": { "points": [
-      { "clubName": "Надежда", "latitude": 59.941479, "longitude": 30.271077, "referenceUrl": "https://yandex.ru/maps/-/CXBWePy~" }
-    ] },
-    "7f96950c7fdd": { "points": [
-      { "clubName": "Эллада", "latitude": 59.938199, "longitude": 30.275555, "referenceUrl": "https://yandex.ru/maps/-/CXBWi4zS" }
-    ] },
-    "61c55b3afd47": { "points": [
-      { "clubName": "Молния", "latitude": 59.946971, "longitude": 30.261444, "referenceUrl": "https://yandex.ru/maps/-/CXBWiWkr" }
-    ] },
-    "19cafe9ebeec": { "points": [
-      { "clubName": "Пресс-клуб", "latitude": 59.937034, "longitude": 30.267222, "referenceUrl": "https://yandex.ru/maps/-/CXBWiXmL" }
-    ] },
-    "179ea7842b4f": { "points": [
-      { "clubName": "Скаутский", "latitude": 59.933458, "longitude": 30.266698, "referenceUrl": "https://yandex.ru/maps/-/CXBWmXJZ" }
-    ] },
-    "3e6891b67b19": { "points": [
-      { "clubName": "Протон", "latitude": 59.944601, "longitude": 30.272847, "referenceUrl": "https://yandex.ru/maps/-/CXBWqBlF" },
-      { "clubName": "Севера", "latitude": 59.944601, "longitude": 30.272847, "referenceUrl": "https://yandex.ru/maps/-/CXBWqBlF" }
-    ] },
-    "9072184e6c27": { "points": [
-      { "clubName": "Ленинградец", "latitude": 59.946858, "longitude": 30.270322, "referenceUrl": "https://yandex.ru/maps/-/CXBWqHzw" }
-    ] },
-    "8dadbc1a48d5": { "points": [
-      { "clubName": "Факел", "latitude": 59.938336, "longitude": 30.238249, "referenceUrl": "https://yandex.ru/maps/-/CXBWuUNB" }
-    ] },
-    "58c61833a670": { "points": [
-      { "clubName": "Ровесник", "latitude": 59.947093, "longitude": 30.275147, "referenceUrl": "https://yandex.ru/maps/-/CXBWuN-~" }
-    ] },
-    "8d3f187642b8": { "points": [
-      { "clubName": "Виндсерфинг", "latitude": 59.940236, "longitude": 30.214865, "referenceUrl": "https://yandex.ru/maps/-/CXBWyQNE" },
-      { "clubName": "Шахматный", "latitude": 59.941000, "longitude": 30.215962, "referenceUrl": "https://yandex.ru/maps/-/CXBWyNLt" },
-      { "clubName": "Штурм", "latitude": 59.941613, "longitude": 30.209096, "referenceUrl": "https://yandex.ru/maps/-/CXBWBLMI" }
-    ] },
-    "24046af4292f": { "points": [
-      { "clubName": "Белый медведь", "latitude": 59.951842, "longitude": 30.247734, "referenceUrl": "https://yandex.ru/maps/-/CXBWVQYz" }
-    ] },
-    "fa6cd3e3cf38": { "points": [
-      { "clubName": "Маяк-Олимпикс", "latitude": 59.929931, "longitude": 30.238120, "referenceUrl": "https://yandex.ru/maps/-/CXBWFJ8y", "precision": "approximate", "locationNote": "Наличная ул., д. 3/21, дом напротив комплекса ЛЕНЭКСПО, вход со двора. По указанию пользователя показан рядом с «Планетой»; точка входа не подтверждена." },
-      { "clubName": "Планета", "latitude": 59.929931, "longitude": 30.238120, "referenceUrl": "https://yandex.ru/maps/-/CXBWFJ8y" }
-    ] },
-    "1df090026622": { "points": [
-      { "clubName": "Дружба", "latitude": 59.934099, "longitude": 30.267072, "referenceUrl": "https://yandex.ru/maps/-/CXBxITla" }
-    ] },
-    "98e6083419a5": { "points": [
-      { "clubName": "Камчатка", "latitude": 59.946379, "longitude": 30.255741, "referenceUrl": "https://yandex.ru/maps/-/CXBxQYMG" },
-      { "clubName": "Отвага", "latitude": 59.946372, "longitude": 30.255684, "referenceUrl": "https://yandex.ru/maps/-/CXBxQD76" }
-    ] },
-    "f058356d4881": { "points": [
-      { "clubName": "Морской", "latitude": 59.952376, "longitude": 30.254756, "referenceUrl": "https://yandex.ru/maps/-/CXBxQZ8D" }
-    ] },
-    "7d591ce2cae8": { "points": [
-      { "clubName": "Притяжение", "latitude": 59.944223, "longitude": 30.235733, "referenceUrl": "https://yandex.ru/maps/-/CXBxU4kd" }
-    ] },
-    "d9c30336c50d": { "points": [
-      { "clubName": "Радуга", "latitude": 59.929949, "longitude": 30.252139, "referenceUrl": "https://yandex.ru/maps/-/CXBxUSns" }
-    ] },
-    "251809e9257a": { "points": [
-      { "clubName": "Салют", "latitude": 59.940157, "longitude": 30.270611, "referenceUrl": "https://yandex.ru/maps/-/CXBxUT6D" }
-    ] },
-    "5c898528e54a": { "points": [
-      { "clubName": "Спарта", "latitude": 59.949436, "longitude": 30.276089, "referenceUrl": "https://yandex.ru/maps/-/CXBxYMZl" }
-    ] },
-    "de4672c69a18": { "points": [
-      { "clubName": "Фонарик", "latitude": 59.930377, "longitude": 30.246346, "referenceUrl": "https://yandex.ru/maps/-/CXBxYJls" }
-    ] },
-    "b2e3ecd04b49": { "points": [
-      { "clubName": "Центр творчества", "latitude": 59.945306, "longitude": 30.270800, "referenceUrl": "https://yandex.ru/maps/-/CXBx4Si-", "locationNote": "На Яндекс Картах площадка отмечена как неработающая; по сообщению пользователя она работает. Статус и вход требуют уточнения у организатора." },
-      { "clubName": "Юпитер", "latitude": 59.945275, "longitude": 30.270739, "referenceUrl": "https://yandex.ru/maps/-/CXBxiCKb" }
-    ] },
-    "2a41ed512e34": { "points": [
-      { "clubName": "Центр туристской подготовки", "latitude": 59.930976, "longitude": 30.237934, "referenceUrl": "https://yandex.ru/maps/-/CXBxaV89" }
-    ] },
-    "9551576203ca": { "points": [
-      { "clubName": "Чайка", "latitude": 59.944759, "longitude": 30.288168, "referenceUrl": "https://yandex.ru/maps/-/CXBxa0ny" }
-    ] },
-    "8f5608acaa61": { "points": [
-      { "clubName": "Юность", "latitude": 59.944341, "longitude": 30.282020, "referenceUrl": "https://yandex.ru/maps/-/CXBxiFLW" }
-    ] }
+    "0c4655a66aa5": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Орфей»",
+          "latitude": 59.911331,
+          "longitude": 30.302814,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWEF8O"
+        }
+      ]
+    },
+    "05b53c7bc773": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Созвучие»",
+          "latitude": 59.911649,
+          "longitude": 30.305396,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWI45h"
+        }
+      ]
+    },
+    "815ecf0f8399": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Домострой»",
+          "mapLabel": "3/14",
+          "latitude": 59.914377,
+          "longitude": 30.311779,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWMG5K"
+        }
+      ]
+    },
+    "33e58174d023": {
+      "points": [
+        {
+          "clubName": "Психологическая служба «Мозаика»",
+          "latitude": 59.914367,
+          "longitude": 30.31158,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWMT7H"
+        }
+      ]
+    },
+    "3825afcb09b7": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Селена»",
+          "latitude": 59.914028,
+          "longitude": 30.312926,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWQDmn"
+        }
+      ]
+    },
+    "fb9d3b8892f1": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Поиск»",
+          "latitude": 59.908039,
+          "longitude": 30.292988,
+          "referenceUrl": "https://yandex.ru/maps/-/CXFbzBZ7"
+        }
+      ]
+    },
+    "e4b7fe698928": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Ритм»",
+          "latitude": 59.930346,
+          "longitude": 30.286607,
+          "referenceUrl": "https://yandex.ru/maps/-/CXFb7Q6z",
+          "locationNote": "Вход с наб. Адмиралтейского канала, д. 27, флигель во дворе."
+        }
+      ]
+    },
+    "54137fbbe569": {
+      "points": [
+        {
+          "clubName": "Аврора",
+          "latitude": 59.942141,
+          "longitude": 30.288357,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWU8Nl"
+        }
+      ]
+    },
+    "61e6eea10e23": {
+      "points": [
+        {
+          "clubName": "Витана",
+          "latitude": 59.944936,
+          "longitude": 30.270773,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWeUyG"
+        }
+      ]
+    },
+    "99e44688edd1": {
+      "points": [
+        {
+          "clubName": "Надежда",
+          "latitude": 59.941479,
+          "longitude": 30.271077,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWePy~"
+        }
+      ]
+    },
+    "7f96950c7fdd": {
+      "points": [
+        {
+          "clubName": "Эллада",
+          "latitude": 59.938199,
+          "longitude": 30.275555,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWi4zS"
+        }
+      ]
+    },
+    "61c55b3afd47": {
+      "points": [
+        {
+          "clubName": "Молния",
+          "latitude": 59.946971,
+          "longitude": 30.261444,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWiWkr"
+        }
+      ]
+    },
+    "19cafe9ebeec": {
+      "points": [
+        {
+          "clubName": "Пресс-клуб",
+          "latitude": 59.937034,
+          "longitude": 30.267222,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWiXmL"
+        }
+      ]
+    },
+    "179ea7842b4f": {
+      "points": [
+        {
+          "clubName": "Скаутский",
+          "latitude": 59.933458,
+          "longitude": 30.266698,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWmXJZ"
+        }
+      ]
+    },
+    "3e6891b67b19": {
+      "points": [
+        {
+          "clubName": "Протон",
+          "latitude": 59.944601,
+          "longitude": 30.272847,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWqBlF"
+        },
+        {
+          "clubName": "Севера",
+          "latitude": 59.944601,
+          "longitude": 30.272847,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWqBlF"
+        }
+      ]
+    },
+    "9072184e6c27": {
+      "points": [
+        {
+          "clubName": "Ленинградец",
+          "latitude": 59.946858,
+          "longitude": 30.270322,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWqHzw"
+        }
+      ]
+    },
+    "8dadbc1a48d5": {
+      "points": [
+        {
+          "clubName": "Факел",
+          "latitude": 59.938336,
+          "longitude": 30.238249,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWuUNB"
+        }
+      ]
+    },
+    "58c61833a670": {
+      "points": [
+        {
+          "clubName": "Ровесник",
+          "latitude": 59.947093,
+          "longitude": 30.275147,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWuN-~"
+        }
+      ]
+    },
+    "8d3f187642b8": {
+      "points": [
+        {
+          "clubName": "Виндсерфинг",
+          "latitude": 59.940236,
+          "longitude": 30.214865,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWyQNE"
+        },
+        {
+          "clubName": "Шахматный",
+          "latitude": 59.941,
+          "longitude": 30.215962,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWyNLt"
+        },
+        {
+          "clubName": "Штурм",
+          "latitude": 59.941613,
+          "longitude": 30.209096,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWBLMI"
+        }
+      ]
+    },
+    "24046af4292f": {
+      "points": [
+        {
+          "clubName": "Белый медведь",
+          "latitude": 59.951842,
+          "longitude": 30.247734,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWVQYz"
+        }
+      ]
+    },
+    "fa6cd3e3cf38": {
+      "points": [
+        {
+          "clubName": "Маяк-Олимпикс",
+          "latitude": 59.929931,
+          "longitude": 30.23812,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWFJ8y",
+          "precision": "approximate",
+          "locationNote": "Наличная ул., д. 3/21, дом напротив комплекса ЛЕНЭКСПО, вход со двора. По указанию пользователя показан рядом с «Планетой»; точка входа не подтверждена."
+        },
+        {
+          "clubName": "Планета",
+          "latitude": 59.929931,
+          "longitude": 30.23812,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBWFJ8y"
+        }
+      ]
+    },
+    "1df090026622": {
+      "points": [
+        {
+          "clubName": "Дружба",
+          "latitude": 59.934099,
+          "longitude": 30.267072,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxITla"
+        }
+      ]
+    },
+    "98e6083419a5": {
+      "points": [
+        {
+          "clubName": "Камчатка",
+          "latitude": 59.946379,
+          "longitude": 30.255741,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxQYMG"
+        },
+        {
+          "clubName": "Отвага",
+          "latitude": 59.946372,
+          "longitude": 30.255684,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxQD76"
+        }
+      ]
+    },
+    "f058356d4881": {
+      "points": [
+        {
+          "clubName": "Морской",
+          "latitude": 59.952376,
+          "longitude": 30.254756,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxQZ8D"
+        }
+      ]
+    },
+    "7d591ce2cae8": {
+      "points": [
+        {
+          "clubName": "Притяжение",
+          "latitude": 59.944223,
+          "longitude": 30.235733,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxU4kd"
+        }
+      ]
+    },
+    "d9c30336c50d": {
+      "points": [
+        {
+          "clubName": "Радуга",
+          "latitude": 59.929949,
+          "longitude": 30.252139,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxUSns"
+        }
+      ]
+    },
+    "251809e9257a": {
+      "points": [
+        {
+          "clubName": "Салют",
+          "latitude": 59.940157,
+          "longitude": 30.270611,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxUT6D"
+        }
+      ]
+    },
+    "5c898528e54a": {
+      "points": [
+        {
+          "clubName": "Спарта",
+          "latitude": 59.949436,
+          "longitude": 30.276089,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxYMZl"
+        }
+      ]
+    },
+    "de4672c69a18": {
+      "points": [
+        {
+          "clubName": "Фонарик",
+          "latitude": 59.930377,
+          "longitude": 30.246346,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxYJls"
+        }
+      ]
+    },
+    "b2e3ecd04b49": {
+      "points": [
+        {
+          "clubName": "Центр творчества",
+          "latitude": 59.945306,
+          "longitude": 30.2708,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBx4Si-",
+          "locationNote": "На Яндекс Картах площадка отмечена как неработающая; по сообщению пользователя она работает. Статус и вход требуют уточнения у организатора."
+        },
+        {
+          "clubName": "Юпитер",
+          "latitude": 59.945275,
+          "longitude": 30.270739,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxiCKb"
+        }
+      ]
+    },
+    "2a41ed512e34": {
+      "points": [
+        {
+          "clubName": "Центр туристской подготовки",
+          "latitude": 59.930976,
+          "longitude": 30.237934,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxaV89"
+        }
+      ]
+    },
+    "9551576203ca": {
+      "points": [
+        {
+          "clubName": "Чайка",
+          "latitude": 59.944759,
+          "longitude": 30.288168,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxa0ny"
+        }
+      ]
+    },
+    "8f5608acaa61": {
+      "points": [
+        {
+          "clubName": "Юность",
+          "latitude": 59.944341,
+          "longitude": 30.28202,
+          "referenceUrl": "https://yandex.ru/maps/-/CXBxiFLW"
+        }
+      ]
+    },
+    "058dd00eeb98": {
+      "points": [
+        {
+          "clubName": "Клуб юных моряков «Адмиралтеец»",
+          "latitude": 59.920068,
+          "longitude": 30.281955,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnFKjm"
+        },
+        {
+          "clubName": "Молодёжный клуб «Эллада»",
+          "latitude": 59.920043,
+          "longitude": 30.281959,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnVH9E"
+        }
+      ]
+    },
+    "54db7848a882": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Вдохновение»",
+          "latitude": 59.928179,
+          "longitude": 30.286383,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnF2m5"
+        }
+      ]
+    },
+    "36f886dfd890": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Глобус»",
+          "latitude": 59.918839,
+          "longitude": 30.297876,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnJG90"
+        },
+        {
+          "clubName": "Молодёжный клуб «Идеал»",
+          "latitude": 59.918706,
+          "longitude": 30.298005,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnND5h"
+        }
+      ]
+    },
+    "1ded3c59fd19": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Город»",
+          "latitude": 59.924205,
+          "longitude": 30.304377,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnNC0G"
+        }
+      ]
+    },
+    "b61ea9f65634": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Коломбина»",
+          "latitude": 59.910901,
+          "longitude": 30.309371,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnNX5F"
+        }
+      ]
+    },
+    "89092072bcbf": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Меридиан»",
+          "latitude": 59.928146,
+          "longitude": 30.287621,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnRENH"
+        }
+      ]
+    },
+    "0aca59418c27": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Надежда»",
+          "latitude": 59.925578,
+          "longitude": 30.32551,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnR4iv"
+        }
+      ]
+    },
+    "fa11d6b3ab2b": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Палестра»",
+          "latitude": 59.921037,
+          "longitude": 30.310483,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnRNoI"
+        }
+      ]
+    },
+    "447df21a0b9c": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Перспектива»",
+          "latitude": 59.917341,
+          "longitude": 30.283709,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnRC5u"
+        }
+      ]
+    },
+    "362d08072a61": {
+      "points": [
+        {
+          "clubName": "Молодёжный клуб «Петербургские львы»",
+          "latitude": 59.91538,
+          "longitude": 30.285576,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnROo~"
+        }
+      ]
+    },
+    "70f731c2fe9b": {
+      "points": [
+        {
+          "clubName": "Студия «КАМИН»",
+          "latitude": 59.91647,
+          "longitude": 30.298062,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnR85G"
+        }
+      ]
+    },
+    "53a2222592e5": {
+      "points": [
+        {
+          "clubName": "Молодёжное пространство «Поток»",
+          "latitude": 59.915399,
+          "longitude": 30.329667,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnVN96"
+        }
+      ]
+    },
+    "1b445e175008": {
+      "points": [
+        {
+          "clubName": "Молодёжный футбольный клуб «Форвард»",
+          "latitude": 59.925118,
+          "longitude": 30.30536,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnVGOL"
+        }
+      ]
+    },
+    "8129cb014fb4": {
+      "points": [
+        {
+          "clubName": "ПМК «Прометей»",
+          "latitude": 59.91449,
+          "longitude": 30.324636,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnV2Ia"
+        }
+      ]
+    },
+    "3843b9ea228f": {
+      "points": [
+        {
+          "clubName": "ПМК «Двор»",
+          "latitude": 59.923842,
+          "longitude": 30.326999,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnZCim"
+        }
+      ]
+    },
+    "09020c4d02b7": {
+      "points": [
+        {
+          "clubName": "Центр молодёжного творчества и семейного досуга «Ф133»",
+          "latitude": 59.919328,
+          "longitude": 30.303626,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRn6UIA"
+        }
+      ]
+    },
+    "fb4c79e38dfc": {
+      "points": [
+        {
+          "clubName": "Центральный",
+          "latitude": 60.056393,
+          "longitude": 30.339033,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnbNJD"
+        }
+      ]
+    },
+    "4a6c831c03f4": {
+      "points": [
+        {
+          "clubName": "Ритм",
+          "latitude": 60.048822,
+          "longitude": 30.334492,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnbG6V"
+        }
+      ]
+    },
+    "110aefae07eb": {
+      "points": [
+        {
+          "clubName": "Перекрёсток",
+          "latitude": 60.049716,
+          "longitude": 30.352562,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnjLKY"
+        }
+      ]
+    },
+    "f95c51840b02": {
+      "points": [
+        {
+          "clubName": "Лидер",
+          "latitude": 59.996022,
+          "longitude": 30.329736,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnnH6b"
+        }
+      ]
+    },
+    "68a45b2748e3": {
+      "points": [
+        {
+          "clubName": "Патриот",
+          "latitude": 60.109951,
+          "longitude": 30.258333,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnr8ju"
+        }
+      ]
+    },
+    "49a14af84426": {
+      "points": [
+        {
+          "clubName": "Перспектива",
+          "latitude": 59.998813,
+          "longitude": 30.330782,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnvMYw"
+        }
+      ]
+    },
+    "93b08b10d8ba": {
+      "points": [
+        {
+          "clubName": "Форпост",
+          "latitude": 59.967484,
+          "longitude": 30.342644,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnvJY7"
+        }
+      ]
+    },
+    "4d99e2a84fed": {
+      "points": [
+        {
+          "clubName": "Феникс",
+          "latitude": 59.984033,
+          "longitude": 30.34464,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnvOk4",
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 23333 м; адрес и точку нужно проверить вручную."
+        }
+      ]
+    },
+    "1f5a827e8da2": {
+      "points": [
+        {
+          "clubName": "Фестиваль",
+          "latitude": 60.04446,
+          "longitude": 30.370847,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnvTya"
+        }
+      ]
+    },
+    "a823b7c058e0": {
+      "points": [
+        {
+          "clubName": "Атлант",
+          "latitude": 60.013971,
+          "longitude": 30.43502,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnzYzr"
+        }
+      ]
+    },
+    "952081e93bdf": {
+      "points": [
+        {
+          "clubName": "#Водинголос",
+          "latitude": 60.050846,
+          "longitude": 30.385703,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnzSOC"
+        }
+      ]
+    },
+    "f032e5ef62f0": {
+      "points": [
+        {
+          "clubName": "Сцена",
+          "latitude": 60.024887,
+          "longitude": 30.427402,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnzD8i"
+        }
+      ]
+    },
+    "3647fa0afb80": {
+      "points": [
+        {
+          "clubName": "Алые Паруса",
+          "latitude": 60.007058,
+          "longitude": 30.427053,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRnzXjs"
+        }
+      ]
+    },
+    "17c2c2573479": {
+      "points": [
+        {
+          "clubName": "Бригантина",
+          "latitude": 60.001018,
+          "longitude": 30.394157,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRn7IzL"
+        }
+      ]
+    },
+    "89cd1a66d31b": {
+      "points": [
+        {
+          "clubName": "ВКадре",
+          "latitude": 59.975646,
+          "longitude": 30.393142,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRn7B1N"
+        }
+      ]
+    },
+    "0685fccaaff8": {
+      "points": [
+        {
+          "clubName": "Дружба",
+          "latitude": 59.990672,
+          "longitude": 30.430254,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRn7R7c"
+        }
+      ]
+    },
+    "6ed15751ec49": {
+      "points": [
+        {
+          "clubName": "Кухня",
+          "latitude": 60.046332,
+          "longitude": 30.404993,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRn7HoE"
+        }
+      ]
+    },
+    "0d5c8cc7eb07": {
+      "points": [
+        {
+          "clubName": "Мужество",
+          "latitude": 59.98584,
+          "longitude": 30.413756,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRn7X~m"
+        }
+      ]
+    },
+    "051ed62428dc": {
+      "points": [
+        {
+          "clubName": "Непокорённых",
+          "latitude": 59.996219,
+          "longitude": 30.384675,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrAJ2c"
+        }
+      ]
+    },
+    "0810c3812039": {
+      "points": [
+        {
+          "clubName": "Огонёк",
+          "latitude": 60.040501,
+          "longitude": 30.393531,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrAKk-"
+        }
+      ]
+    },
+    "9a2a0b7d6e10": {
+      "points": [
+        {
+          "clubName": "Окна",
+          "latitude": 59.993123,
+          "longitude": 30.433573,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrEB67"
+        }
+      ]
+    },
+    "1ef738e14408": {
+      "points": [
+        {
+          "clubName": "Олимп",
+          "latitude": 60.026809,
+          "longitude": 30.376816,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrEVIS"
+        }
+      ]
+    },
+    "c560ca7238a5": {
+      "points": [
+        {
+          "clubName": "Парус",
+          "latitude": 60.040673,
+          "longitude": 30.415213,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrEC1I"
+        }
+      ]
+    },
+    "889b0e552197": {
+      "points": [
+        {
+          "clubName": "Пионер",
+          "latitude": 60.044901,
+          "longitude": 30.377113,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrESm7"
+        }
+      ]
+    },
+    "99ce3325199e": {
+      "points": [
+        {
+          "clubName": "Создание",
+          "latitude": 60.007997,
+          "longitude": 30.421453,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrEDpb"
+        }
+      ]
+    },
+    "8ef054e3303e": {
+      "points": [
+        {
+          "clubName": "Ритмикс",
+          "latitude": 60.035958,
+          "longitude": 30.375265,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrETke"
+        }
+      ]
+    },
+    "09fb2547874a": {
+      "points": [
+        {
+          "clubName": "Ровесник",
+          "latitude": 59.980146,
+          "longitude": 30.382129,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrIM0L"
+        }
+      ]
+    },
+    "a6f257e4f742": {
+      "points": [
+        {
+          "clubName": "Спасатель",
+          "latitude": 60.037282,
+          "longitude": 30.430236,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrIBiI"
+        }
+      ]
+    },
+    "18085837fb78": {
+      "points": [
+        {
+          "clubName": "Творчество",
+          "latitude": 59.972095,
+          "longitude": 30.411047,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrIR3q"
+        }
+      ]
+    },
+    "fcb48739bbcf": {
+      "points": [
+        {
+          "clubName": "Эврика",
+          "latitude": 60.028866,
+          "longitude": 30.405476,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrIKNf"
+        }
+      ]
+    },
+    "737ebcd4eda7": {
+      "points": [
+        {
+          "clubName": "Алые паруса",
+          "latitude": 59.874573,
+          "longitude": 30.266754,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrI0Ym"
+        }
+      ]
+    },
+    "33e1ff863c38": {
+      "points": [
+        {
+          "clubName": "Альтаир",
+          "latitude": 59.836813,
+          "longitude": 30.245536,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrITNo"
+        }
+      ]
+    },
+    "476a766ca9b5": {
+      "points": [
+        {
+          "clubName": "Заря",
+          "latitude": 59.870503,
+          "longitude": 30.266669,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrQT4o"
+        }
+      ]
+    },
+    "be802430198e": {
+      "points": [
+        {
+          "clubName": "Имени Лёни Голикова",
+          "latitude": 59.841221,
+          "longitude": 30.238531,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrUQj2"
+        }
+      ]
+    },
+    "9d0d95a4d6fc": {
+      "points": [
+        {
+          "clubName": "Кортик",
+          "latitude": 59.845239,
+          "longitude": 30.247426,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrUSow"
+        }
+      ]
+    },
+    "c7d06e0f6cff": {
+      "points": [
+        {
+          "clubName": "Ленинец",
+          "latitude": 59.85133,
+          "longitude": 30.279295,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrUH17"
+        }
+      ]
+    },
+    "fec4b0533e0e": {
+      "points": [
+        {
+          "clubName": "Молодёжный",
+          "latitude": 59.862543,
+          "longitude": 30.249159,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrUX4I"
+        }
+      ]
+    },
+    "b62ef96193c0": {
+      "points": [
+        {
+          "clubName": "Нарвская застава",
+          "latitude": 59.827545,
+          "longitude": 30.21636,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrYA0m"
+        }
+      ]
+    },
+    "2dde53a5b13c": {
+      "points": [
+        {
+          "clubName": "Прометей",
+          "latitude": 59.838357,
+          "longitude": 30.204519,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrYQZF",
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 2318 м; адрес и точку нужно проверить вручную."
+        }
+      ]
+    },
+    "d2036b5bbc6d": {
+      "points": [
+        {
+          "clubName": "Радуга",
+          "latitude": 59.858073,
+          "longitude": 30.179358,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrYBZ0",
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 5502 м; адрес и точку нужно проверить вручную."
+        }
+      ]
+    },
+    "b6b48383d867": {
+      "points": [
+        {
+          "clubName": "Ракета",
+          "latitude": 59.844527,
+          "longitude": 30.23066,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrYCid"
+        }
+      ]
+    },
+    "f1c77a22ba59": {
+      "points": [
+        {
+          "clubName": "Север",
+          "latitude": 59.895785,
+          "longitude": 30.262144,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrYWys"
+        }
+      ]
+    },
+    "69dd6514c661": {
+      "points": [
+        {
+          "clubName": "Смена",
+          "latitude": 59.831054,
+          "longitude": 30.221322,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrYHjM"
+        }
+      ]
+    },
+    "38ac812a9e97": {
+      "points": [
+        {
+          "clubName": "Факел",
+          "latitude": 59.843502,
+          "longitude": 30.273983,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrY-KF"
+        }
+      ]
+    },
+    "ba98a6bab879": {
+      "points": [
+        {
+          "clubName": "Центр",
+          "latitude": 59.902438,
+          "longitude": 30.219218,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr4NmN"
+        }
+      ]
+    },
+    "e2c45b801f76": {
+      "points": [
+        {
+          "clubName": "Юный корабел",
+          "latitude": 59.870423,
+          "longitude": 30.258375,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr46mI"
+        }
+      ]
+    },
+    "c24c9458bf33": {
+      "points": [
+        {
+          "clubName": "Юный ленинградец",
+          "latitude": 59.846384,
+          "longitude": 30.261385,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr4OKH"
+        }
+      ]
+    },
+    "4f5a54c9198a": {
+      "points": [
+        {
+          "clubName": "Колпинец",
+          "latitude": 59.736895,
+          "longitude": 30.560717,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr4Lkl"
+        }
+      ]
+    },
+    "259f398a2460": {
+      "points": [
+        {
+          "clubName": "Факел",
+          "latitude": 59.747922,
+          "longitude": 30.568017,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr4-2Z"
+        },
+        {
+          "clubName": "Медиазавод",
+          "latitude": 59.747852,
+          "longitude": 30.567229,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRreVJa"
+        }
+      ]
+    },
+    "7e897f0772ec": {
+      "points": [
+        {
+          "clubName": "Ритм",
+          "latitude": 59.73683,
+          "longitude": 30.617127,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRraQzj"
+        }
+      ]
+    },
+    "fb5ce95a92ce": {
+      "points": [
+        {
+          "clubName": "Горизонт",
+          "latitude": 59.751524,
+          "longitude": 30.571053,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRraNoG"
+        }
+      ]
+    },
+    "23446a295818": {
+      "points": [
+        {
+          "clubName": "Фантазёры",
+          "latitude": 59.744533,
+          "longitude": 30.593053,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRraCII"
+        }
+      ]
+    },
+    "33ec60d8f10b": {
+      "points": [
+        {
+          "clubName": "Балтика",
+          "latitude": 59.778903,
+          "longitude": 30.647921,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRreAM5"
+        }
+      ]
+    },
+    "11a2cc1933f2": {
+      "points": [
+        {
+          "clubName": "Чайка",
+          "latitude": 59.812498,
+          "longitude": 30.559724,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRreMLJ"
+        }
+      ]
+    },
+    "8d6d1e550c47": {
+      "points": [
+        {
+          "clubName": "Орлёнок",
+          "latitude": 59.809774,
+          "longitude": 30.569801,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRreBkx"
+        }
+      ]
+    },
+    "b683ee75e428": {
+      "points": [
+        {
+          "clubName": "Юность",
+          "latitude": 59.744268,
+          "longitude": 30.562108,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRreC~8"
+        }
+      ]
+    },
+    "75499161ad23": {
+      "points": [
+        {
+          "clubName": "Колпинская перчатка",
+          "latitude": 59.73276,
+          "longitude": 30.57668,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRre0NV"
+        }
+      ]
+    },
+    "5be68c087fdb": {
+      "points": [
+        {
+          "clubName": "Дельта",
+          "latitude": 59.777077,
+          "longitude": 30.653298,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRriG2l"
+        }
+      ]
+    },
+    "5e7a14938b11": {
+      "points": [
+        {
+          "clubName": "Адреналин",
+          "latitude": 59.936537,
+          "longitude": 30.499081,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRriDmd"
+        }
+      ]
+    },
+    "74c109cbba46": {
+      "points": [
+        {
+          "clubName": "Аквамарин",
+          "latitude": 59.940631,
+          "longitude": 30.482021,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRri-zx"
+        }
+      ]
+    },
+    "7e1585b438d0": {
+      "points": [
+        {
+          "clubName": "Точка",
+          "latitude": 59.926652,
+          "longitude": 30.425694,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrqOK8",
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 5840 м; адрес и точку нужно проверить вручную."
+        }
+      ]
+    },
+    "03bae564ac64": {
+      "points": [
+        {
+          "clubName": "Диалог",
+          "latitude": 59.937783,
+          "longitude": 30.477606,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrq02x"
+        }
+      ]
+    },
+    "377bb0bd3a01": {
+      "points": [
+        {
+          "clubName": "Нео",
+          "latitude": 59.970995,
+          "longitude": 30.434614,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrqL8h"
+        }
+      ]
+    },
+    "d7e568295157": {
+      "points": [
+        {
+          "clubName": "Факел",
+          "latitude": 59.949557,
+          "longitude": 30.413258,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrqX6r"
+        }
+      ]
+    },
+    "ecdd70752f8a": {
+      "points": [
+        {
+          "clubName": "Родник",
+          "latitude": 59.941175,
+          "longitude": 30.487634,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrRP4F"
+        }
+      ]
+    },
+    "512f2d11bbbe": {
+      "points": [
+        {
+          "clubName": "Тепло",
+          "latitude": 59.929232,
+          "longitude": 30.408862,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrVN0D"
+        }
+      ]
+    },
+    "7789ffcbd83c": {
+      "points": [
+        {
+          "clubName": "Нева",
+          "latitude": 59.96565,
+          "longitude": 30.435428,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrVC0B"
+        }
+      ]
+    },
+    "200b780e273c": {
+      "points": [
+        {
+          "clubName": "Измерение",
+          "latitude": 59.952001,
+          "longitude": 30.410666,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrVD48"
+        }
+      ]
+    },
+    "51596984c02c": {
+      "points": [
+        {
+          "clubName": "Современник",
+          "latitude": 59.923145,
+          "longitude": 30.405701,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrZTzi"
+        }
+      ]
+    },
+    "e927166e16b1": {
+      "points": [
+        {
+          "clubName": "Квадрат",
+          "latitude": 59.945337,
+          "longitude": 30.458928,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrZ2oj"
+        }
+      ]
+    },
+    "cc4fd4ec6075": {
+      "points": [
+        {
+          "clubName": "Фактура",
+          "latitude": 59.954371,
+          "longitude": 30.423471,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr6Ioo"
+        }
+      ]
+    },
+    "a27c21a27ffc": {
+      "points": [
+        {
+          "clubName": "ZOV",
+          "latitude": 59.976112,
+          "longitude": 30.419141,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr641F",
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 2572 м; адрес и точку нужно проверить вручную."
+        }
+      ]
+    },
+    "e3a7242a733d": {
+      "points": [
+        {
+          "clubName": "Рейд 2.0",
+          "latitude": 59.958643,
+          "longitude": 30.411116,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr6VMW"
+        }
+      ]
+    },
+    "de35a132718a": {
+      "points": [
+        {
+          "clubName": "Острова",
+          "latitude": 60.028568,
+          "longitude": 30.454917,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr6Cld"
+        }
+      ]
+    },
+    "a8172b1d8cb1": {
+      "points": [
+        {
+          "clubName": "Квартира.ру",
+          "latitude": 59.933989,
+          "longitude": 30.41131,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr689p",
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 21077 м; адрес и точку нужно проверить вручную."
+        }
+      ]
+    },
+    "8300342c48d0": {
+      "points": [
+        {
+          "clubName": "Берёзка",
+          "latitude": 59.931082,
+          "longitude": 30.415118,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr6LLQ"
+        }
+      ]
+    },
+    "3bc185d0c82f": {
+      "points": [
+        {
+          "clubName": "Метеор",
+          "latitude": 59.973481,
+          "longitude": 30.417624,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr625e"
+        }
+      ]
+    },
+    "94cc925b3999": {
+      "points": [
+        {
+          "clubName": "Соседи",
+          "latitude": 60.000605,
+          "longitude": 30.452931,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrbM9H",
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 3121 м; адрес и точку нужно проверить вручную."
+        }
+      ]
+    },
+    "126c7c0fea8c": {
+      "points": [
+        {
+          "clubName": "4К",
+          "latitude": 59.949449,
+          "longitude": 30.41366,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrbB2m"
+        }
+      ]
+    },
+    "d8598fe2adaf": {
+      "points": [
+        {
+          "clubName": "Алые паруса",
+          "latitude": 59.842705,
+          "longitude": 30.131581,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrbR1Y"
+        }
+      ]
+    },
+    "e5a79eee1f4e": {
+      "points": [
+        {
+          "clubName": "Непокоренный рубеж",
+          "latitude": 59.838858,
+          "longitude": 30.156123,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrbCNA"
+        }
+      ]
+    },
+    "795e116d0c21": {
+      "points": [
+        {
+          "clubName": "Берег",
+          "latitude": 59.86608,
+          "longitude": 30.177436,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrbWj9"
+        }
+      ]
+    },
+    "9a3850aadd75": {
+      "points": [
+        {
+          "clubName": "Факел",
+          "latitude": 59.828904,
+          "longitude": 30.157692,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrbD56"
+        }
+      ]
+    },
+    "2434814814a2": {
+      "points": [
+        {
+          "clubName": "Умелец",
+          "latitude": 59.788262,
+          "longitude": 30.150703,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrb27n"
+        }
+      ]
+    },
+    "46f080bf0d3b": {
+      "points": [
+        {
+          "clubName": "Ровесник",
+          "latitude": 59.856271,
+          "longitude": 30.20965,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrfEnu"
+        }
+      ]
+    },
+    "a15e0cf6be21": {
+      "points": [
+        {
+          "clubName": "Ритм",
+          "latitude": 59.830529,
+          "longitude": 30.16695,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrfYIU"
+        }
+      ]
+    },
+    "9b3e6136579a": {
+      "points": [
+        {
+          "clubName": "Рекорд",
+          "latitude": 59.861474,
+          "longitude": 30.165075,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrfVP~"
+        }
+      ]
+    },
+    "b62fdd3f3977": {
+      "points": [
+        {
+          "clubName": "Ракета",
+          "latitude": 59.832394,
+          "longitude": 30.148556,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrfGlR"
+        }
+      ]
+    },
+    "9483fcfaa751": {
+      "points": [
+        {
+          "clubName": "Полет",
+          "latitude": 59.85301,
+          "longitude": 30.194417,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrfT3J"
+        }
+      ]
+    },
+    "24a9d6232446": {
+      "points": [
+        {
+          "clubName": "Олимп",
+          "latitude": 59.834623,
+          "longitude": 30.141246,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrf-pq"
+        }
+      ]
+    },
+    "35c53503a3d4": {
+      "points": [
+        {
+          "clubName": "Маяк",
+          "latitude": 59.849867,
+          "longitude": 30.205801,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrjQ4U"
+        }
+      ]
+    },
+    "f95d2d22c62a": {
+      "points": [
+        {
+          "clubName": "Восход",
+          "latitude": 59.744478,
+          "longitude": 30.077501,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrjB8~"
+        }
+      ]
+    },
+    "ddf192a60dc3": {
+      "points": [
+        {
+          "clubName": "Буревестник",
+          "latitude": 59.848446,
+          "longitude": 30.199077,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrjV7H"
+        }
+      ]
+    },
+    "bfe336ac6710": {
+      "points": [
+        {
+          "clubName": "Юность",
+          "latitude": 59.843907,
+          "longitude": 30.162817,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrjC4C"
+        }
+      ]
+    },
+    "8ffd9aea567d": {
+      "points": [
+        {
+          "clubName": "Причал",
+          "latitude": 59.868393,
+          "longitude": 30.155627,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrjHye"
+        }
+      ]
+    },
+    "1a3eec8fa425": {
+      "points": [
+        {
+          "clubName": "Компас",
+          "latitude": 59.862399,
+          "longitude": 30.227977,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrj-m5"
+        }
+      ]
+    },
+    "6f0409f4c8f5": {
+      "points": [
+        {
+          "clubName": "Кронштадтский Дворец молодёжи",
+          "latitude": 59.994306,
+          "longitude": 29.777958,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrnUpJ"
+        }
+      ]
+    },
+    "de99a9c135c1": {
+      "points": [
+        {
+          "clubName": "Маяк",
+          "latitude": 59.985542,
+          "longitude": 29.787778,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrnFz3"
+        }
+      ]
+    },
+    "3a0859a004ae": {
+      "points": [
+        {
+          "clubName": "Ровесник",
+          "latitude": 59.991167,
+          "longitude": 29.779738,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrn6I-"
+        }
+      ]
+    },
+    "2a81049eaa12": {
+      "points": [
+        {
+          "clubName": "Восход: Володарского",
+          "latitude": 60.099405,
+          "longitude": 29.976816,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrnO~w"
+        }
+      ]
+    },
+    "ea0d0f32c1d1": {
+      "points": [
+        {
+          "clubName": "Восход: Мосина",
+          "latitude": 60.091823,
+          "longitude": 29.964842,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrrFYc"
+        }
+      ]
+    },
+    "d9bdbdadb78b": {
+      "points": [
+        {
+          "clubName": "Восход: Токарева",
+          "latitude": 60.091183,
+          "longitude": 29.95626,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrvYzZ"
+        }
+      ]
+    },
+    "cd248dbb0b54": {
+      "points": [
+        {
+          "clubName": "Восход: Приморское шоссе, 280",
+          "latitude": 60.091351,
+          "longitude": 29.971153,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrvJm0"
+        }
+      ]
+    },
+    "8745cdbe190d": {
+      "points": [
+        {
+          "clubName": "Молодость",
+          "latitude": 60.126154,
+          "longitude": 30.140768,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrvT8a"
+        }
+      ]
+    },
+    "f716f3aad69b": {
+      "points": [
+        {
+          "clubName": "Снайпер: Исполкомская",
+          "latitude": 60.195358,
+          "longitude": 29.701681,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRrzO2E"
+        }
+      ]
+    },
+    "8688b4734fdb": {
+      "points": [
+        {
+          "clubName": "Снайпер: Ленина",
+          "latitude": 60.200765,
+          "longitude": 29.70687,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr7AIO"
+        }
+      ]
+    },
+    "9ec1e97048af": {
+      "points": [
+        {
+          "clubName": "Аврора",
+          "latitude": 59.855887,
+          "longitude": 30.31166,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvEAmR"
+        }
+      ]
+    },
+    "3df216a38aa0": {
+      "points": [
+        {
+          "clubName": "Вертикаль",
+          "latitude": 59.813708,
+          "longitude": 30.296113,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvEYIl"
+        }
+      ]
+    },
+    "2d14abdb3862": {
+      "points": [
+        {
+          "clubName": "Взлёт",
+          "latitude": 59.841933,
+          "longitude": 30.362095,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvENZC"
+        }
+      ]
+    },
+    "4306f9dc2dff": {
+      "points": [
+        {
+          "clubName": "Восток",
+          "latitude": 59.860071,
+          "longitude": 30.296461,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvE68O"
+        }
+      ]
+    },
+    "cc0ba09ee90a": {
+      "points": [
+        {
+          "clubName": "На Звёздной",
+          "latitude": 59.835784,
+          "longitude": 30.364504,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvEW0s"
+        }
+      ]
+    },
+    "bc373dc5fba5": {
+      "points": [
+        {
+          "clubName": "Комета",
+          "latitude": 59.876304,
+          "longitude": 30.331957,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvELnj"
+        }
+      ]
+    },
+    "ffd8287c9e32": {
+      "points": [
+        {
+          "clubName": "Космонавт",
+          "latitude": 59.856023,
+          "longitude": 30.345537,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvIMIZ"
+        }
+      ]
+    },
+    "e9099876adbd": {
+      "points": [
+        {
+          "clubName": "Космос",
+          "latitude": 59.876895,
+          "longitude": 30.322325,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvIYYh",
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 3880 м; адрес и точку нужно проверить вручную."
+        }
+      ]
+    },
+    "acb15311631b": {
+      "points": [
+        {
+          "clubName": "Луч",
+          "latitude": 59.848389,
+          "longitude": 30.323427,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvIFIe"
+        }
+      ]
+    },
+    "e409028cfa5e": {
+      "points": [
+        {
+          "clubName": "Молодёжный",
+          "latitude": 59.858571,
+          "longitude": 30.331121,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvMB9p"
+        }
+      ]
+    },
+    "c222ec24a9c0": {
+      "points": [
+        {
+          "clubName": "Надежда",
+          "latitude": 59.855247,
+          "longitude": 30.323061,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvQKng"
+        }
+      ]
+    },
+    "01324d99d29d": {
+      "points": [
+        {
+          "clubName": "Нева",
+          "latitude": 59.903393,
+          "longitude": 30.320179,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvQ03y"
+        }
+      ]
+    },
+    "6dc96044c78e": {
+      "points": [
+        {
+          "clubName": "Октябрь",
+          "latitude": 59.83845,
+          "longitude": 30.348064,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvYSOo"
+        }
+      ]
+    },
+    "d7591285e89f": {
+      "points": [
+        {
+          "clubName": "Романтики",
+          "latitude": 59.85321,
+          "longitude": 30.29939,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRv44kO"
+        }
+      ]
+    },
+    "cf2623a18733": {
+      "points": [
+        {
+          "clubName": "Рубин",
+          "latitude": 59.855936,
+          "longitude": 30.359557,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRv4NOg"
+        }
+      ]
+    },
+    "b11e31f76bd9": {
+      "points": [
+        {
+          "clubName": "Старт",
+          "latitude": 59.872708,
+          "longitude": 30.318538,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvaP3X"
+        }
+      ]
+    },
+    "80d5727d410e": {
+      "points": [
+        {
+          "clubName": "Юность",
+          "latitude": 59.836443,
+          "longitude": 30.33731,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRva28U",
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 14851 м; адрес и точку нужно проверить вручную."
+        }
+      ]
+    },
+    "79b16234b9a8": {
+      "points": [
+        {
+          "clubName": "Пулковец",
+          "latitude": 59.836307,
+          "longitude": 30.315255,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRveELC"
+        }
+      ]
+    },
+    "24977370ad42": {
+      "points": [
+        {
+          "clubName": "ПРОСТО.Московский",
+          "latitude": 59.873038,
+          "longitude": 30.317591,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRve4-b"
+        }
+      ]
+    },
+    "7b4bf1e0f3a3": {
+      "points": [
+        {
+          "clubName": "Центр патриотического воспитания",
+          "latitude": 59.857056,
+          "longitude": 30.296564,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRveJmX"
+        }
+      ]
+    },
+    "3a26ccf79b56": {
+      "points": [
+        {
+          "clubName": "АртНевский",
+          "latitude": 59.86399,
+          "longitude": 30.506938,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRve6O2"
+        }
+      ]
+    },
+    "8be6cce3775a": {
+      "points": [
+        {
+          "clubName": "Атлант",
+          "latitude": 59.932018,
+          "longitude": 30.470733,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRveK1g"
+        }
+      ]
+    },
+    "6eee3cbd6929": {
+      "points": [
+        {
+          "clubName": "Горизонт",
+          "latitude": 59.904132,
+          "longitude": 30.477946,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRve0iR"
+        }
+      ]
+    },
+    "3b65d8fcd159": {
+      "points": [
+        {
+          "clubName": "Дружба",
+          "latitude": 59.872865,
+          "longitude": 30.469397,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvePLZ"
+        }
+      ]
+    },
+    "f2e53db32d13": {
+      "points": [
+        {
+          "clubName": "Зоркий",
+          "latitude": 59.914821,
+          "longitude": 30.486183,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRve2~p"
+        }
+      ]
+    },
+    "1287469a37c5": {
+      "points": [
+        {
+          "clubName": "Параллель",
+          "latitude": 59.872554,
+          "longitude": 30.443603,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRviIMO"
+        }
+      ]
+    },
+    "022c235169f9": {
+      "points": [
+        {
+          "clubName": "Оптимист",
+          "latitude": 59.882464,
+          "longitude": 30.465944,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRviQjN"
+        }
+      ]
+    },
+    "5188983a6fc2": {
+      "points": [
+        {
+          "clubName": "Олимпиец",
+          "latitude": 59.896477,
+          "longitude": 30.476629,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvi47o"
+        }
+      ]
+    },
+    "6ff99da783ab": {
+      "points": [
+        {
+          "clubName": "Огонёк",
+          "latitude": 59.918686,
+          "longitude": 30.469185,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRviJp-"
+        }
+      ]
+    },
+    "ed9704013ded": {
+      "points": [
+        {
+          "clubName": "Невские орлята",
+          "latitude": 59.882685,
+          "longitude": 30.486128,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRviZ0t"
+        }
+      ]
+    },
+    "9d8ce9594082": {
+      "points": [
+        {
+          "clubName": "Молодёжный центр",
+          "latitude": 59.877392,
+          "longitude": 30.445032,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRvm0JX",
+          "precision": "approximate",
+          "locationNote": "В каталоге ул. Бабушкина, д. 42, корп. 4А; в Яндекс Картах у выбранной точки указан корпус 4. Вторая точка из заметки относится к корпусу 1 и не использована."
+        }
+      ]
+    },
+    "bcb52a1a8129": {
+      "points": [
+        {
+          "clubName": "Наш Этаж",
+          "latitude": 59.877163,
+          "longitude": 30.443717,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRv7M15"
+        }
+      ]
+    },
+    "b3d19e25fdf0": {
+      "points": [
+        {
+          "clubName": "Мечта",
+          "latitude": 59.885898,
+          "longitude": 30.482192,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzQQly"
+        }
+      ]
+    },
+    "79246700b68c": {
+      "points": [
+        {
+          "clubName": "Луч",
+          "latitude": 59.9074,
+          "longitude": 30.467143,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzQF6v"
+        }
+      ]
+    },
+    "3bbe28ebf2d9": {
+      "points": [
+        {
+          "clubName": "Лидер",
+          "latitude": 59.924904,
+          "longitude": 30.487063,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzQR6y"
+        }
+      ]
+    },
+    "0289b2086137": {
+      "points": [
+        {
+          "clubName": "Ленинградец",
+          "latitude": 59.895553,
+          "longitude": 30.41578,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzQZ~9"
+        }
+      ]
+    },
+    "2abdf1369696": {
+      "points": [
+        {
+          "clubName": "Кругозор",
+          "latitude": 59.892921,
+          "longitude": 30.465339,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzQGL-",
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 1749 м; адрес и точку нужно проверить вручную."
+        }
+      ]
+    },
+    "5225dad40669": {
+      "points": [
+        {
+          "clubName": "Красные Зори",
+          "latitude": 59.870378,
+          "longitude": 30.442339,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzQ02t",
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 2606 м; адрес и точку нужно проверить вручную."
+        }
+      ]
+    },
+    "ddf0ca8075de": {
+      "points": [
+        {
+          "clubName": "Космос",
+          "latitude": 59.901005,
+          "longitude": 30.464438,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzQL-H"
+        }
+      ]
+    },
+    "40ee13296437": {
+      "points": [
+        {
+          "clubName": "Каравелла",
+          "latitude": 59.830799,
+          "longitude": 30.511344,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzQ-I-"
+        }
+      ]
+    },
+    "aea5c82633af": {
+      "points": [
+        {
+          "clubName": "Искатели",
+          "latitude": 59.92416,
+          "longitude": 30.495798,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzUEks"
+        }
+      ]
+    },
+    "9abc90b7e05d": {
+      "points": [
+        {
+          "clubName": "Юность",
+          "latitude": 59.866351,
+          "longitude": 30.438588,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzUQ1z"
+        }
+      ]
+    },
+    "392c7758ef6c": {
+      "points": [
+        {
+          "clubName": "Чайка",
+          "latitude": 59.853033,
+          "longitude": 30.466484,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzU44l"
+        }
+      ]
+    },
+    "294b22b8f3b3": {
+      "points": [
+        {
+          "clubName": "Юбилейный",
+          "latitude": 59.916202,
+          "longitude": 30.433074,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzUFpZ"
+        }
+      ]
+    },
+    "3646c46debf2": {
+      "points": [
+        {
+          "clubName": "Факел",
+          "latitude": 59.889535,
+          "longitude": 30.42584,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzUNkZ"
+        }
+      ]
+    },
+    "0c475434b332": {
+      "points": [
+        {
+          "clubName": "Товарищ",
+          "latitude": 59.916479,
+          "longitude": 30.476628,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzUGN6"
+        }
+      ]
+    },
+    "0002b4f2df4f": {
+      "points": [
+        {
+          "clubName": "Спутник",
+          "latitude": 59.898119,
+          "longitude": 30.430803,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzU2mN"
+        }
+      ]
+    },
+    "2cd5f03da984": {
+      "points": [
+        {
+          "clubName": "Ракета",
+          "latitude": 59.862075,
+          "longitude": 30.457769,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzYEld"
+        }
+      ]
+    },
+    "058dc8f1035f": {
+      "points": [
+        {
+          "clubName": "Прожектор",
+          "latitude": 59.920853,
+          "longitude": 30.491531,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzYU1N"
+        }
+      ]
+    },
+    "13b833deb7d4": {
+      "points": [
+        {
+          "clubName": "Полярник",
+          "latitude": 59.877145,
+          "longitude": 30.436576,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzYN-I"
+        }
+      ]
+    },
+    "a5d557b6dd0b": {
+      "points": [
+        {
+          "clubName": "Перспектива",
+          "latitude": 59.862252,
+          "longitude": 30.472965,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzYCIw"
+        }
+      ]
+    },
+    "f50ab89016aa": {
+      "points": [
+        {
+          "clubName": "Патриот",
+          "latitude": 59.917788,
+          "longitude": 30.429841,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzYO4C"
+        }
+      ]
+    },
+    "9f1ea41b89d0": {
+      "points": [
+        {
+          "clubName": "Арктика Холл",
+          "latitude": 59.872213,
+          "longitude": 30.469682,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzY81r"
+        }
+      ]
+    },
+    "736342f171f1": {
+      "points": [
+        {
+          "clubName": "Алмаз",
+          "latitude": 59.958042,
+          "longitude": 30.306676,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzYPLx"
+        }
+      ]
+    },
+    "37e8c9f307dc": {
+      "points": [
+        {
+          "clubName": "Альфа",
+          "latitude": 59.958068,
+          "longitude": 30.304293,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRz4Q8c"
+        }
+      ]
+    },
+    "12c31fb856fb": {
+      "points": [
+        {
+          "clubName": "Антей",
+          "latitude": 59.960138,
+          "longitude": 30.308435,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRz44y9",
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 16949 м; адрес и точку нужно проверить вручную."
+        }
+      ]
+    },
+    "7de974314639": {
+      "points": [
+        {
+          "clubName": "Северное сияние",
+          "latitude": 59.962789,
+          "longitude": 30.305031,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRz4N7A"
+        }
+      ]
+    },
+    "ef9bbcdab869": {
+      "points": [
+        {
+          "clubName": "Старт",
+          "latitude": 59.964284,
+          "longitude": 30.301954,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRz4VL~"
+        }
+      ]
+    },
+    "b22c5f6b658e": {
+      "points": [
+        {
+          "clubName": "Среда",
+          "latitude": 59.959568,
+          "longitude": 30.304679,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRz4KPa"
+        }
+      ]
+    },
+    "c7f354559b1f": {
+      "points": [
+        {
+          "clubName": "Палата ремёсел",
+          "latitude": 59.973977,
+          "longitude": 30.302198,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRz40oE"
+        }
+      ]
+    },
+    "4b36ee04026b": {
+      "points": [
+        {
+          "clubName": "ФанДом",
+          "latitude": 59.96288,
+          "longitude": 30.298511,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRz4LZg"
+        }
+      ]
+    },
+    "10ba4c3a5b1e": {
+      "points": [
+        {
+          "clubName": "Эстетика",
+          "latitude": 59.959971,
+          "longitude": 30.312415,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzaA4p"
+        },
+        {
+          "clubName": "Добро.Центр",
+          "latitude": 59.959904,
+          "longitude": 30.31218,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzeR2~"
+        }
+      ]
+    },
+    "4251ad3e067f": {
+      "points": [
+        {
+          "clubName": "Дом",
+          "latitude": 59.957639,
+          "longitude": 30.293704,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzaUkv"
+        }
+      ]
+    },
+    "5f37527f072c": {
+      "points": [
+        {
+          "clubName": "Планета-АРТ",
+          "latitude": 59.954215,
+          "longitude": 30.303545,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzaR74"
+        }
+      ]
+    },
+    "30b97193d2bd": {
+      "points": [
+        {
+          "clubName": "Мир",
+          "latitude": 59.959218,
+          "longitude": 30.315172,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzeJk-",
+          "precision": "approximate",
+          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 16844 м; адрес и точку нужно проверить вручную."
+        }
+      ]
+    },
+    "a6ff133ed2d2": {
+      "points": [
+        {
+          "clubName": "Зеркало",
+          "latitude": 59.956278,
+          "longitude": 30.301041,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzeYlf"
+        }
+      ]
+    },
+    "8b3fdd4c2943": {
+      "points": [
+        {
+          "clubName": "Общественные мастерские",
+          "latitude": 59.963556,
+          "longitude": 30.323414,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzeCJo"
+        }
+      ]
+    },
+    "3eaf357de54a": {
+      "points": [
+        {
+          "clubName": "Вега",
+          "latitude": 59.957462,
+          "longitude": 30.304907,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzeK7y"
+        }
+      ]
+    },
+    "afa4406f9483": {
+      "points": [
+        {
+          "clubName": "Ю-Питер",
+          "latitude": 59.952439,
+          "longitude": 30.295899,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzeHiD"
+        }
+      ]
+    },
+    "1b3c54987f9f": {
+      "points": [
+        {
+          "clubName": "Эра",
+          "latitude": 59.960801,
+          "longitude": 30.303156,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzeTNG"
+        }
+      ]
+    },
+    "e20d35c78025": {
+      "points": [
+        {
+          "clubName": "Чайка",
+          "latitude": 59.965397,
+          "longitude": 30.294875,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRze--F"
+        }
+      ]
+    },
+    "d0d917ea2f13": {
+      "points": [
+        {
+          "clubName": "Дом Юнармии",
+          "latitude": 59.962749,
+          "longitude": 30.305397,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRziQPj"
+        }
+      ]
+    },
+    "c673b7e93256": {
+      "points": [
+        {
+          "clubName": "Бриг",
+          "latitude": 59.874153,
+          "longitude": 29.899495,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzi4No"
+        }
+      ]
+    },
+    "ae03f27a288e": {
+      "points": [
+        {
+          "clubName": "М51",
+          "latitude": 59.897066,
+          "longitude": 29.764395,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRziRKB"
+        }
+      ]
+    },
+    "e0054b6723f5": {
+      "points": [
+        {
+          "clubName": "Меридиан",
+          "latitude": 59.873153,
+          "longitude": 29.856807,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRziW5w"
+        }
+      ]
+    },
+    "354366d3fbad": {
+      "points": [
+        {
+          "clubName": "Навигатор",
+          "latitude": 59.859676,
+          "longitude": 29.936253,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRziXmZ"
+        }
+      ]
+    },
+    "135e9eedd44a": {
+      "points": [
+        {
+          "clubName": "Олимп",
+          "latitude": 59.910037,
+          "longitude": 29.778404,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzm461"
+        }
+      ]
+    },
+    "45eac1ecebfb": {
+      "points": [
+        {
+          "clubName": "Тайфун",
+          "latitude": 59.883206,
+          "longitude": 29.860174,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzqAKI"
+        }
+      ]
+    },
+    "5015476c06e6": {
+      "points": [
+        {
+          "clubName": "Экватор",
+          "latitude": 59.871346,
+          "longitude": 29.864546,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzqU45"
+        }
+      ]
+    },
+    "56e85e3cd43a": {
+      "points": [
+        {
+          "clubName": "Юнта",
+          "latitude": 59.90284,
+          "longitude": 29.771778,
+          "referenceUrl": "https://yandex.ru/maps/-/CXRzqJMl"
+        }
+      ]
+    },
+    "76935cfac25a": {
+      "points": [
+        {
+          "clubName": "На Королёва",
+          "latitude": 60.014279,
+          "longitude": 30.260546,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7nNIf"
+        }
+      ]
+    },
+    "67a78057d0ea": {
+      "points": [
+        {
+          "clubName": "В стиле",
+          "latitude": 59.988164,
+          "longitude": 30.286953,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7nVyM"
+        }
+      ]
+    },
+    "0c858bdb2563": {
+      "points": [
+        {
+          "clubName": "Ритм",
+          "latitude": 59.995821,
+          "longitude": 30.209864,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7nZZg"
+        }
+      ]
+    },
+    "3d8ff9b654fb": {
+      "points": [
+        {
+          "clubName": "На Богатырском",
+          "latitude": 60.00425,
+          "longitude": 30.225901,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7nCyg"
+        }
+      ]
+    },
+    "7bf8e11693ac": {
+      "points": [
+        {
+          "clubName": "Молодёжная Идея",
+          "latitude": 59.997378,
+          "longitude": 30.209899,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7nGKh"
+        }
+      ]
+    },
+    "e3fd68e49829": {
+      "points": [
+        {
+          "clubName": "Каскад",
+          "latitude": 59.995821,
+          "longitude": 30.209864,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7nS5G"
+        }
+      ]
+    },
+    "794f19a601be": {
+      "points": [
+        {
+          "clubName": "Заозерье",
+          "latitude": 60.025385,
+          "longitude": 30.24013,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7n0ij"
+        }
+      ]
+    },
+    "d35a94f02373": {
+      "points": [
+        {
+          "clubName": "Юность",
+          "latitude": 59.991877,
+          "longitude": 30.315651,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7nDzV"
+        }
+      ]
+    },
+    "68cd81acffa4": {
+      "points": [
+        {
+          "clubName": "Нева",
+          "latitude": 59.985025,
+          "longitude": 30.278584,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7nHM7"
+        }
+      ]
+    },
+    "c4db8307c839": {
+      "points": [
+        {
+          "clubName": "Юпитер",
+          "latitude": 60.030723,
+          "longitude": 30.238465,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7nLyh"
+        }
+      ]
+    },
+    "107c82402ee4": {
+      "points": [
+        {
+          "clubName": "Корпус",
+          "latitude": 60.017646,
+          "longitude": 30.236608,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7rELw"
+        }
+      ]
+    },
+    "57b35555764a": {
+      "points": [
+        {
+          "clubName": "Развитие",
+          "latitude": 60.03352,
+          "longitude": 30.217976,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7rMnp"
+        }
+      ]
+    },
+    "8986065f3fb4": {
+      "points": [
+        {
+          "clubName": "Галактика",
+          "latitude": 59.998276,
+          "longitude": 30.319946,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7rBYI"
+        }
+      ]
+    },
+    "dde7f3875783": {
+      "points": [
+        {
+          "clubName": "Антей",
+          "latitude": 59.704269,
+          "longitude": 30.357209,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7rF7J"
+        }
+      ]
+    },
+    "eb07091f21f0": {
+      "points": [
+        {
+          "clubName": "Витус",
+          "latitude": 59.706585,
+          "longitude": 30.405742,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7rJz2"
+        }
+      ]
+    },
+    "e911866fab11": {
+      "points": [
+        {
+          "clubName": "Вымпел",
+          "latitude": 59.716023,
+          "longitude": 30.40766,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7rRot"
+        }
+      ]
+    },
+    "05ad51a8ca05": {
+      "points": [
+        {
+          "clubName": "Ника",
+          "latitude": 59.736102,
+          "longitude": 30.40585,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7r8IG"
+        }
+      ]
+    },
+    "1317873d68d7": {
+      "points": [
+        {
+          "clubName": "Павловчанин",
+          "latitude": 59.65414,
+          "longitude": 30.401917,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7r8~-"
+        }
+      ]
+    },
+    "139d4e1dc5a3": {
+      "points": [
+        {
+          "clubName": "Пушкинец",
+          "latitude": 59.734427,
+          "longitude": 30.420073,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7rLj2"
+        }
+      ]
+    },
+    "47e197efc234": {
+      "points": [
+        {
+          "clubName": "Радуга",
+          "latitude": 59.685298,
+          "longitude": 30.430572,
+          "referenceUrl": "https://yandex.ru/maps/-/CXR7rPKV"
+        }
+      ]
+    }
   }
 }

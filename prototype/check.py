@@ -13,6 +13,14 @@ pages = sorted(root.rglob("*.html"))
 errors = []
 
 
+# Soft hyphen (U+00AD) is a typographic line-break hint, not part of the page
+# structure: the production build puts it into long headings, while the saved
+# wireframe keeps plain text. Compare headings without it, otherwise one
+# invisible character looks like a structural difference.
+def heading_text(words):
+    return " ".join(unescape("".join(words)).replace("\u00ad", "").split())
+
+
 class Outline(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -34,7 +42,7 @@ class Outline(HTMLParser):
 
     def handle_endtag(self, tag):
         if tag == self.heading:
-            self.headings.append((tag, " ".join(unescape("".join(self.words)).split())))
+            self.headings.append((tag, heading_text(self.words)))
             self.heading = None
 
 

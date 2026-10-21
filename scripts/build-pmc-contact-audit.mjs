@@ -34,6 +34,7 @@ for (const filename of files) {
       name: entry.name,
       type: entry.type || '',
       address: entry.address || '',
+      activities: entry.activities || [],
       phone: entry.phone || '',
       officialPhone: supplement?.phone || '',
       email: entry.email || '',
@@ -41,6 +42,7 @@ for (const filename of files) {
         vk: supplement?.vk || entry.vkUrl || '',
         official: supplement?.url || entry.officialUrl || '',
       },
+      vkApproval: entry.vkUrlApprovedAt ? {approvedByUserAt: entry.vkUrlApprovedAt, source: entry.vkUrlSource || '', sourceLine: entry.vkUrlSourceLine || null, alternateUrls: entry.vkUrlAlternates || [], aliasConfirmedByUserAt: entry.vkUrlAliasConfirmedAt || '', sharedWith: entry.vkUrlSharedWith || ''} : null,
       activityPages: activityPages.map(item => ({
         id: item.id,
         title: item.title,
@@ -49,9 +51,11 @@ for (const filename of files) {
         suggestedCatalogActivity: item.suggestedCatalogActivity || '',
         vkUrl: item.vkUrl,
         mapping: item.mapping,
+        sourceLine: item.sourceLine || null,
+        approvedByUserAt: item.approvedByUserAt || '',
         schedule: item.schedule || [],
         prototypeRoute: directionPrototypeRoutes.get(item.id) || '',
-        pageStatus: directionPrototypeRoutes.has(item.id) ? 'Есть прототип; производственная страница не создана' : 'Запланирована; шаблон проходит согласование',
+        pageStatus: directionPrototypeRoutes.has(item.id) ? 'Есть прототип и производственная страница' : item.approvedByUserAt ? 'Ссылка сообщества показана в локальной карточке клуба' : 'Запланирована; шаблон проходит согласование',
       })),
       activitySchedule: entry.activitySchedule || [],
       scheduleSource: entry.scheduleSource || '',
@@ -71,15 +75,19 @@ for (const filename of files) {
 const summary = {
   clubs: clubs.length,
   withVk: clubs.filter(x => x.links.vk).length,
+  userApprovedClubVk: clubs.filter(x => x.vkApproval?.approvedByUserAt).length,
   withOfficialPage: clubs.filter(x => x.links.official).length,
   withPhone: clubs.filter(x => x.phone).length,
   withOfficialPhone: clubs.filter(x => x.officialPhone).length,
   withAnyPhone: clubs.filter(x => x.phone || x.officialPhone).length,
   withEmail: clubs.filter(x => x.email).length,
+  withActivities: clubs.filter(x => x.activities.length).length,
+  withActivityVk: clubs.reduce((count, club) => count + club.activityPages.filter(page => page.vkUrl).length, 0),
 };
 await fs.mkdir(path.dirname(out), { recursive: true });
 await fs.writeFile(out, JSON.stringify({
   created: '2026-10-16',
+  updated: '2026-10-19',
   purpose: 'Рабочий реестр для последующей проверки и применения ссылок и контактов на сайте; это не доказательство их текущей актуальности.',
   summary,
   clubs,

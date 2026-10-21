@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мобильный макет расписания ПМК «Морской»</title>
+  <style>
+    :root{font-family:Georgia,"Times New Roman",serif;color:#68242e;background:#eee8e3}
+    *{box-sizing:border-box}
+    body{margin:0}
+    .review{max-width:900px;margin:0 auto;padding:28px 20px 60px;font-family:Arial,sans-serif;color:#263039}
+    .review h1{margin:0 0 9px;font-size:clamp(25px,3vw,34px);line-height:1.15;text-wrap:balance}
+    .review p{max-width:660px;margin:0 0 25px;line-height:1.5;color:#5d646a;text-wrap:pretty}
+    .review a{color:#7d2635}
+    .phone{width:min(390px,100%);margin:auto;padding:10px;border:1px solid #dbd1ca;border-radius:35px;background:#fff;box-shadow:0 20px 60px #4c303022}
+    .screen{border-radius:27px;overflow:hidden;background:#faf6f2;min-height:780px}
+    .head{padding:30px 22px 25px;background:radial-gradient(circle at 102% -12%,#e5dce8 0 22%,transparent 23%),radial-gradient(circle at -8% 104%,#f6dbd4 0 24%,transparent 25%)}
+    .eyebrow{font:700 11px/1.4 Arial,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:#9d6b70}
+    .head h2{font-size:37px;line-height:1.02;letter-spacing:-.035em;margin:13px 0 8px;text-wrap:balance}
+    .sub{font-size:15px;line-height:1.4;margin:0;color:#7c444c}
+    .legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:23px}
+    .legend span{display:inline-flex;align-items:center;gap:8px;border:1px solid #e9d5d2;background:#fffaf8;border-radius:999px;padding:8px 12px;font:600 13px/1 Arial,sans-serif;color:#592c39}
+    .legend i{width:12px;height:12px;border-radius:50%;display:inline-block}
+    .legend .eng i{background:#eba3ad}.legend .deu i{background:#c3bfdf}
+    .days{display:grid;gap:13px;padding:0 14px 22px}
+    .day{border:1px solid #e5cfc9;border-radius:17px;background:#fffaf7;overflow:hidden}
+    .day h3{margin:0;padding:15px 16px 13px;font-size:23px;line-height:1.1;border-bottom:1px solid #ecdcd7;text-wrap:balance}
+    .slots{list-style:none;margin:0;padding:5px 12px 9px}
+    .slot{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 3px;border-bottom:1px solid #f0e6e1}
+    .slot:last-child{border:0}
+    time{font:700 15px/1.3 Arial,sans-serif;white-space:nowrap;color:#6f353f;font-variant-numeric:tabular-nums}
+    .tag{display:inline-flex;align-items:center;justify-content:center;min-width:63px;padding:9px 10px;border-radius:10px;font:700 15px/1 Arial,sans-serif;color:#4e263b}
+    .tag.eng{background:#f0afb6}.tag.deu{background:#cbc7e3}
+    .note{padding:0 20px 23px;margin:0;font:12px/1.45 Arial,sans-serif;color:#87686b}
+    @media(max-width:500px){:root{background:#faf6f2}.review{padding:0}.review>h1,.review>p{display:none}.phone{width:100%;padding:0;border:0;border-radius:0;box-shadow:none}.screen{border-radius:0;min-height:100vh}}
+    @media(max-width:350px){.head h2{font-size:32px}.slot{gap:6px}time{font-size:13px}.tag{min-width:54px}}
+  </style>
+</head>
+<body>
+  <main class="review">
+    <h1>Расписание на&nbsp;телефоне</h1>
+    <p>Макет показывает выбранную палитру в&nbsp;узком экране. Каждый день виден отдельной карточкой: время и&nbsp;язык занятия можно прочитать без&nbsp;масштабирования. <a href="schedule-palette-review-2026-10-18.html">Вернуться к&nbsp;галерее</a>.</p>
+    <div class="phone">
+      <div class="screen">
+        <header class="head">
+          <span class="eyebrow">ПМК «Морской» · расписание</span>
+          <h2>Разговорный клуб</h2>
+          <p class="sub">Английский и&nbsp;немецкий языки</p>
+          <div class="legend" aria-label="Обозначения языков">
+            <span class="eng"><i aria-hidden="true"></i>English · Eng</span>
+            <span class="deu"><i aria-hidden="true"></i>Deutsch · Deu</span>
+          </div>
+        </header>
+        <div class="days" aria-label="Расписание по дням">
+          <section class="day" aria-labelledby="tuesday"><h3 id="tuesday" aria-label="Вторник">Вт</h3><ul class="slots">
+            <li class="slot"><time>16:30-18:10</time><span class="tag deu" aria-label="Немецкий язык">Deu</span></li>
+            <li class="slot"><time>18:40-20:20</time><span class="tag eng" aria-label="Английский язык">Eng</span></li>
+            <li class="slot"><time>20:20-22:00</time><span class="tag eng" aria-label="Английский язык">Eng</span></li>
+          </ul></section>
+          <section class="day" aria-labelledby="wednesday"><h3 id="wednesday" aria-label="Среда">Ср</h3><ul class="slots">
+            <li class="slot"><time>16:30-18:10</time><span class="tag eng" aria-label="Английский язык">Eng</span></li>
+            <li class="slot"><time>18:40-20:20</time><span class="tag deu" aria-label="Немецкий язык">Deu</span></li>
+            <li class="slot"><time>20:20-22:00</time><span class="tag eng" aria-label="Английский язык">Eng</span></li>
+          </ul></section>
+          <section class="day" aria-labelledby="friday"><h3 id="friday" aria-label="Пятница">Пт</h3><ul class="slots">
+            <li class="slot"><time>16:30-18:10</time><span class="tag eng" aria-label="Английский язык">Eng</span></li>
+            <li class="slot"><time>18:40-20:20</time><span class="tag eng" aria-label="Английский язык">Eng</span></li>
+            <li class="slot"><time>20:20-22:00</time><span class="tag deu" aria-label="Немецкий язык">Deu</span></li>
+          </ul></section>
+          <section class="day" aria-labelledby="saturday"><h3 id="saturday" aria-label="Суббота">Сб</h3><ul class="slots">
+            <li class="slot"><time>16:30-18:10</time><span class="tag eng" aria-label="Английский язык">Eng</span></li>
+            <li class="slot"><time>18:40-20:20</time><span class="tag eng" aria-label="Английский язык">Eng</span></li>
+            <li class="slot"><time>20:20-22:00</time><span class="tag deu" aria-label="Немецкий язык">Deu</span></li>
+          </ul></section>
+        </div>
+        <p class="note">Перед визитом уточни расписание у&nbsp;организаторов.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

@@ -5,7 +5,10 @@
     "address": "1-я линия В.О., д. 22 (вход с пер. Репина, д. 23)",
     "phone": "328-35-06",
     "officialUrl": "https://www.pmcvo.ru/pmkavrora.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/pmcavrora",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1201,
     "activities": [
       "Хореография",
       "Краеведение",
@@ -23,7 +26,10 @@
     "address": "пр. КИМа, д. 5/34",
     "phone": "+7 911 249-55-59",
     "officialUrl": "https://www.pmcvo.ru/pmk-belyi-medved.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/belyi_medved_vo",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1211,
     "activities": [
       "Атлетическая гимнастика",
       "Атлетизм",
@@ -40,7 +46,10 @@
     "address": "Морская наб., д. 15",
     "phone": "355-61-26; +7 921 650-24-06",
     "officialUrl": "https://www.pmcvo.ru/pmkvindserfing.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/club215682842",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1221,
     "activities": [
       "Народная гребля",
       "Гребля-индор",
@@ -58,12 +67,16 @@
     "address": "10-я линия В.О., д. 47-Б",
     "phone": "+7 921 945-97-89",
     "officialUrl": "https://www.pmcvo.ru/pmkvitana.html",
-    "vkUrl": "https://vk.com/vitanavospb",
+    "vkUrl": "https://vk.ru/vitanavospb",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1231,
     "activityPages": [
       {"id":"vitana-yogosofiya","title":"Студия йоги и философии «ЙОГАСОФИЯ»","vkUrl":"https://vk.ru/club234008496","catalogActivity":"","suggestedCatalogActivity":"Фитнес-йога","mapping":"ждёт подтверждения соответствия"},
       {"id":"vitana-fitnes","title":"Студия фитнеса ПМК «Витана»","vkUrl":"https://vk.ru/vitanafif","catalogActivity":"Фитнес","mapping":"совпадает с названием направления в карточке клуба","schedule":[{"day":"вторник","time":"11:00-15:00"},{"day":"четверг","time":"11:30-15:30"},{"day":"суббота","time":"11:00-13:00"}]},
       {"id":"vitana-allegro","title":"Танцевальная студия «Аллегро»","vkUrl":"https://vk.ru/club76150332","catalogActivity":"Соло-латина","mapping":"соответствие подтверждено пользователем","schedule":[{"days":"вторник, четверг","time":"15:30-17:30, 18:00-20:00"},{"day":"суббота","time":"13:30-17:00, 18:30-22:00"}]},
-      {"id":"vitana-infinity","title":"Спортивно-танцевальная школа-студия INFINITY","vkUrl":"https://vk.ru/infinitycheer","catalogActivity":"Чир-спорт","mapping":"соответствие подтверждено пользователем","schedule":[{"days":"понедельник, среда, пятница, воскресенье","time":"19:00-21:30"}]}
+      {"id":"vitana-infinity","title":"Спортивно-танцевальная школа-студия INFINITY","vkUrl":"https://vk.ru/infinitycheer","catalogActivity":"Чир-спорт","mapping":"соответствие подтверждено пользователем","schedule":[{"days":"понедельник, среда, пятница, воскресенье","time":"19:00-21:30"}]},
+      {"id":"vitana-infinity-ofp","title":"INFINITY","vkUrl":"https://vk.ru/infinitycheer","catalogActivity":"ОФП по чир-спорту","mapping":"соответствие подтверждено пользователем 18.10.2026","sourceLine":2,"approvedByUserAt":"2026-10-18"}
     ],
     "scheduleSource": "https://www.pmcvo.ru/pmkvitana.html",
     "scheduleCheckedAt": "2026-10-16",
@@ -72,7 +85,7 @@
       {"activity":"ОФП по чир-спорту","schedule":[{"days":"понедельник, среда, пятница, воскресенье","time":"16:00-18:30"}]},
       {"activity":"Чир-спорт","schedule":[{"days":"понедельник, среда, пятница, воскресенье","time":"19:00-21:30"}]},
       {"activity":"Соло-латина","schedule":[{"days":"вторник, четверг","time":"15:30-17:30, 18:00-20:00"},{"day":"суббота","time":"13:30-17:00, 18:30-22:00"}]},
-      {"activity":"Фитнес-йога","schedule":[{"days":"вторник, четверг","time":"20:00-22:00"},{"day":"суббота","time":"17:00-17:30, 18:00-18:30"}]},
+      {"activity":"Фитнес-йога","schedule":[{"days":"вторник, четверг","time":"20:00-22:00"},{"day":"суббота","time":"17:00-18:00","source":"Уточнение пользователя от 19.10.2026 по присланному снимку"}]},
       {"activity":"Фитнес","schedule":[{"day":"вторник","time":"11:00-15:00"},{"day":"четверг","time":"11:30-15:30"},{"day":"суббота","time":"11:00-13:00"}]}
     ],
     "activities": [
@@ -94,7 +107,10 @@
     "address": "Большой пр. В.О., д. 56",
     "phone": "321-46-81; +7 904 607-57-07",
     "officialUrl": "https://www.pmcvo.ru/pmkdrygba.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/club182895843",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1241,
     "activities": [
       "Фитнес",
       "Йога",
@@ -112,7 +128,10 @@
     "address": "Камская ул., д. 14",
     "phone": "+7 962 354-07-88",
     "officialUrl": "https://www.pmcvo.ru/pmkkamchatka.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/kam_4at_ka",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1251,
     "activities": [
       "Брейк-данс",
       "Футворк",
@@ -134,7 +153,10 @@
     "address": "9-я линия В.О., д. 68",
     "phone": "323-14-86",
     "officialUrl": "https://www.pmcvo.ru/pmkleningradec.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/club30704573",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1261,
     "activities": [
       "Театральная студия",
       "Сценическое искусство",
@@ -152,7 +174,10 @@
     "address": "Наличная ул., д. 3/21",
     "phone": "+7 905 286-82-16",
     "officialUrl": "https://www.pmcvo.ru/pmk-mayak-olimpics.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/mcolympics",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1271,
     "activities": [
       "Занятия для молодёжи с ОВЗ",
       "Парусный спорт",
@@ -178,7 +203,10 @@
     "address": "14-я линия В.О., д. 97",
     "phone": "327-88-78; +7 921 995-40-14",
     "officialUrl": "https://www.pmcvo.ru/pmk-molniya.html",
-    "vkUrl": "https://vk.com/club17271635",
+    "vkUrl": "https://vk.ru/club17271635",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1281,
     "activities": [
       "Кикбоксинг",
       "ОФП с элементами кикбоксинга",
@@ -195,7 +223,10 @@
     "address": "Железноводская ул., д. 20",
     "phone": "+7 921 945-97-89",
     "officialUrl": "https://www.pmcvo.ru/pmkmorskoi.html",
-    "vkUrl": "https://vk.com/pmk_morskoy",
+    "vkUrl": "https://vk.ru/pmk_morskoy",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1291,
     "activityPages": [
       {"id":"morskoy-kak-eto-skazat","title":"Разговорный клуб «Как это сказать по-...?»","vkUrl":"https://vk.ru/club228196020","catalogActivity":"Разговорный клуб: английский, немецкий, японский","languages":["английский","немецкий"],"mapping":"английский и немецкий языки подтверждены пользователем"},
       {"id":"morskoy-yaponskiy","title":"Разговорный клуб на японском языке","vkUrl":"https://vk.ru/club238186565","catalogActivity":"Разговорный клуб: английский, немецкий, японский","mapping":"японский язык явно указан в названии группы","schedule":[{"days":"вторник, суббота","time":"16:30-19:00, 19:30-22:00"}]},
@@ -209,7 +240,7 @@
       {"activity":"Гитара","schedule":[{"days":"понедельник, четверг","time":"16:30-19:00, 19:30-22:00"}]},
       {"activity":"Курс «Сам себе кинолог»","schedule":[{"day":"среда","time":"16:30-19:00, 19:30-22:00"}]},
       {"activity":"Разговорный клуб на английском языке","schedule":[{"day":"вторник","time":"18:40-20:20, 20:20-22:00"},{"day":"среда","time":"16:30-18:10, 20:20-22:00"},{"day":"пятница","time":"16:30-18:10, 18:40-20:20"},{"day":"суббота","time":"16:30-18:10, 18:40-20:20"}]},
-      {"activity":"Разговорный клуб на немецком языке","schedule":[{"day":"вторник","time":"16:30-18:10"},{"day":"среда","time":"18:40-20:20"},{"day":"пятница","time":"20:20-22:20"}]},
+      {"activity":"Разговорный клуб на немецком языке","schedule":[{"day":"вторник","time":"16:30-18:10"},{"day":"среда","time":"18:40-20:20"},{"day":"пятница","time":"20:20-22:00","source":"Уточнение пользователя от 18.10.2026"},{"day":"суббота","time":"20:20-22:00","source":"Уточнение пользователя от 18.10.2026"}]},
       {"activity":"Разговорный клуб на японском языке","schedule":[{"days":"вторник, суббота","time":"16:30-19:00, 19:30-22:00"}]},
       {"activity":"Фотостудия","schedule":[{"day":"четверг","time":"16:30-19:00, 19:30-22:00"}]}
     ],
@@ -230,7 +261,16 @@
     "address": "12-я линия В.О., д. 29",
     "phone": "328-28-20",
     "officialUrl": "https://www.pmcvo.ru/pmknadegda.html",
-    "vkUrl": "https://vk.com/club92516077",
+    "vkUrl": "https://vk.ru/clubnadezhdavo",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1301,
+    "vkUrlAlternates": ["https://vk.com/club92516077"],
+    "vkUrlAliasConfirmedAt": "2026-10-18",
+    "activityPages": [
+      {"id":"nadezhda-darts","title":"ДАРТС И ТОЧКА","vkUrl":"https://vk.ru/club224598525","catalogActivity":"Дартс","mapping":"соответствие подтверждено пользователем 18.10.2026","sourceLine":693,"approvedByUserAt":"2026-10-18"},
+      {"id":"nadezhda-ukulele","title":"Звонкая струна","vkUrl":"https://vk.ru/club227876357","catalogActivity":"Укулеле","mapping":"соответствие подтверждено пользователем 18.10.2026","sourceLine":683,"approvedByUserAt":"2026-10-18"}
+    ],
     "activities": [
       "Актёрское мастерство",
       "Ораторское искусство",
@@ -250,7 +290,10 @@
     "address": "Камская ул., д. 14",
     "phone": "327-75-79; +7 921 995-40-14",
     "officialUrl": "https://www.pmcvo.ru/pmkotvaga.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/otvagaclubvo",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1311,
     "activities": [
       "Рукопашный бой",
       "Самооборона",
@@ -269,7 +312,10 @@
     "address": "Наличная ул., д. 3/21",
     "phone": "+7 911 901-02-20",
     "officialUrl": "https://www.pmcvo.ru/pmk-planeta.html",
-    "vkUrl": "https://vk.com/public195516119",
+    "vkUrl": "https://vk.ru/club195516119",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1321,
     "activities": [
       "Театральная студия",
       "Сценическая речь",
@@ -290,6 +336,9 @@
     "phone": "",
     "officialUrl": "https://www.pmcvo.ru/pmkpressclub.html",
     "vkUrl": "https://vk.com/publicvvo",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 933,
     "activities": [
       "Волонтёрство"
     ],
@@ -304,7 +353,10 @@
     "address": "ул. Нахимова, д. 1",
     "phone": "",
     "officialUrl": "https://www.pmcvo.ru/pmk-prityazheniye.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/gravity_vo",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1331,
     "activities": [
       "Коворкинг",
       "Мероприятия",
@@ -323,7 +375,13 @@
     "address": "9-я линия В.О., д. 52",
     "phone": "323-85-46; +7 921 388-91-13",
     "officialUrl": "https://www.pmcvo.ru/pmkproton.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/protonclub",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1341,
+    "activityPages": [
+      {"id":"proton-theatre-kot","title":"Камерный открытый театр «Кот»","vkUrl":"https://vk.ru/club222305889","catalogActivity":"Актёрское мастерство","mapping":"соответствие подтверждено пользователем 18.10.2026","sourceLine":1028,"approvedByUserAt":"2026-10-18"}
+    ],
     "activities": [
       "Актёрское мастерство",
       "Актёрский вокал",
@@ -341,7 +399,10 @@
     "address": "Большой пр. В.О., д. 82",
     "phone": "+7 921 957-73-93",
     "officialUrl": "https://www.pmcvo.ru/pmkradyga.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/club228348392",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1351,
     "activities": [
       "Русский бильярд",
       "Пул"
@@ -357,7 +418,10 @@
     "address": "Малый пр. В.О., д. 14; 6-я линия В.О., д. 47",
     "phone": "328-53-79",
     "officialUrl": "https://www.pmcvo.ru/pmkrovesnik.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/club227051367",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1361,
     "activities": [
       "ОФП",
       "Городошный спорт",
@@ -377,7 +441,14 @@
     "address": "Средний пр. В.О., д. 52",
     "phone": "321-88-90",
     "officialUrl": "https://www.pmcvo.ru/pmksalut.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/salutvo",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1371,
+    "activityPages": [
+      {"id":"salut-voron","title":"Ворон","vkUrl":"https://vk.ru/club236513027","catalogActivity":"Английский клуб","mapping":"соответствие подтверждено пользователем 18.10.2026","sourceLine":1142,"approvedByUserAt":"2026-10-18"},
+      {"id":"salut-otogrelis","title":"Отогрелись","vkUrl":"https://vk.ru/club236192607","catalogActivity":"Клуб творчества","mapping":"соответствие подтверждено пользователем 18.10.2026","sourceLine":1149,"approvedByUserAt":"2026-10-18"}
+    ],
     "activities": [
       "Живопись (сурдо-студия)",
       "Английский клуб",
@@ -395,7 +466,10 @@
     "address": "9-я линия В.О., д. 52",
     "phone": "323-60-52; +7 921 388-91-13",
     "officialUrl": "https://www.pmcvo.ru/pmk-severa.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/club231411996",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1381,
     "activities": [
       "Арт-терапия",
       "Театр"
@@ -411,7 +485,10 @@
     "address": "20-я линия В.О., д. 15",
     "phone": "321-79-32",
     "officialUrl": "https://www.pmcvo.ru/pmk-skautskiy.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/otryad_sova",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1391,
     "activities": [
       "Скаутинг",
       "Первая доврачебная помощь"
@@ -427,7 +504,17 @@
     "address": "наб. Макарова, д. 34",
     "phone": "328-55-96; +7 911 213-95-38",
     "officialUrl": "https://www.pmcvo.ru/pmksparta.html",
-    "vkUrl": "https://vk.com/club12646245",
+    "vkUrl": "https://vk.ru/club12646245",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1401,
+    "activityPages": [
+      {"id":"sparta-concept-jazz","title":"Concept","vkUrl":"https://vk.ru/conceptdance","catalogActivity":"Джаз-модерн","mapping":"соответствие подтверждено пользователем 18.10.2026","sourceLine":1579,"approvedByUserAt":"2026-10-18"},
+      {"id":"sparta-concept-contemporary","title":"Concept","vkUrl":"https://vk.ru/conceptdance","catalogActivity":"Контемпорари","mapping":"соответствие подтверждено пользователем 18.10.2026","sourceLine":1579,"approvedByUserAt":"2026-10-18"},
+      {"id":"sparta-glow-heels","title":"Glow","vkUrl":"https://vk.ru/glowdancee","catalogActivity":"Хай-хиллс","mapping":"соответствие подтверждено пользователем 18.10.2026","sourceLine":1579,"approvedByUserAt":"2026-10-18"},
+      {"id":"sparta-glow-stretching","title":"Glow","vkUrl":"https://vk.ru/glowdancee","catalogActivity":"Стретчинг","mapping":"соответствие подтверждено пользователем 18.10.2026","sourceLine":1579,"approvedByUserAt":"2026-10-18"},
+      {"id":"sparta-mdc-hiphop","title":"MDC","vkUrl":"https://vk.ru/moderndancecom","catalogActivity":"Хип-хоп","mapping":"соответствие подтверждено пользователем 18.10.2026","sourceLine":1579,"approvedByUserAt":"2026-10-18"}
+    ],
     "activities": [
       "ОФП",
       "Джаз-модерн",
@@ -447,7 +534,10 @@
     "address": "Гаванская ул., д. 47, корп. 2",
     "phone": "355-14-14",
     "officialUrl": "https://www.pmcvo.ru/pmk-fakel.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/fakelvo",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1411,
     "activities": [
       "Джиу-джитсу",
       "Дзюдо",
@@ -469,7 +559,10 @@
     "address": "ул. Шевченко, д. 3-Б",
     "phone": "+7 905 286-82-16",
     "officialUrl": "https://www.pmcvo.ru/pmkfonarik.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/fonarikclub",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1421,
     "activities": [
       "Вышивка",
       "Театральная студия «Художественное слово»"
@@ -501,7 +594,11 @@
     "address": "Средний пр. В.О., д. 106",
     "phone": "+7 911 901-02-20",
     "officialUrl": "https://www.pmcvo.ru/pmkcenttyr.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/club195516119",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1321,
+    "vkUrlSharedWith": "Планета",
     "activities": [
       "Эстрадный вокал"
     ],
@@ -516,7 +613,10 @@
     "address": "Кадетская линия, д. 17",
     "phone": "323-53-51; +7 981 732-41-22",
     "officialUrl": "https://www.pmcvo.ru/pmkchayka.html",
-    "vkUrl": "https://vk.com/clubchayka",
+    "vkUrl": "https://vk.ru/clubchayka",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1431,
     "activities": [
       "Эстрадный вокал",
       "Народный вокал",
@@ -537,7 +637,10 @@
     "address": "Морская наб., д. 15",
     "phone": "351-71-78; +7 921 970-17-17",
     "officialUrl": "https://www.pmcvo.ru/pmkshahmatnyi.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/chessvo",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1441,
     "activities": [
       "Шахматы",
       "История шахмат"
@@ -553,7 +656,10 @@
     "address": "Морская наб., д. 15",
     "phone": "355-35-82",
     "officialUrl": "https://www.pmcvo.ru/pmkshtyrm.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/clubshturmvo",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1451,
     "activities": [
       "Изобразительное искусство («Ступени творчества»)"
     ],
@@ -568,7 +674,10 @@
     "address": "12-я линия В.О., д. 9 (вход с 11-й линии, д. 18)",
     "phone": "327-19-71; +7 921 637-37-86",
     "officialUrl": "https://www.pmcvo.ru/pmk-ellada.html",
-    "vkUrl": "",
+    "vkUrl": "https://vk.ru/ellada_vo",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1461,
     "activities": [
       "Бодибилдинг",
       "Пауэрлифтинг",
@@ -587,7 +696,12 @@
     "address": "Средний пр. В.О., д. 19",
     "phone": "328-21-31",
     "officialUrl": "https://www.pmcvo.ru/pmkunost.html",
-    "vkUrl": "https://vk.ru/club200187926",
+    "vkUrl": "https://vk.ru/yunostclubvo",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1471,
+    "vkUrlAlternates": ["https://vk.ru/club200187926"],
+    "vkUrlAliasConfirmedAt": "2026-10-18",
     "activities": [
       "Классический танец (боди-балет)",
       "Стретчинг",
@@ -608,6 +722,13 @@
     "phone": "327-09-96",
     "officialUrl": "https://www.pmcvo.ru/pmkupiter.html",
     "vkUrl": "https://vk.ru/pmkyoupiter",
+    "vkUrlApprovedAt": "2026-10-18",
+    "vkUrlSource": "Заметка пользователя от 17.10.2026",
+    "vkUrlSourceLine": 1483,
+    "activityPages": [
+      {"id":"yupiter-voxbox","title":"VoxBox","vkUrl":"https://vk.ru/club215526957","catalogActivity":"Вокал","mapping":"соответствие подтверждено пользователем 18.10.2026","sourceLine":2132,"approvedByUserAt":"2026-10-18"},
+      {"id":"yupiter-lauda","title":"LAUDA","vkUrl":"https://vk.ru/club6767389","catalogActivity":"Хор","mapping":"соответствие подтверждено пользователем 18.10.2026","sourceLine":2132,"approvedByUserAt":"2026-10-18"}
+    ],
     "activities": [
       "Вокал",
       "Хор"

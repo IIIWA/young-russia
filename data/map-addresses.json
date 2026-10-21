@@ -95,13 +95,11 @@
       ]
     },
     {
-      "id": "785b72150436",
+      "id": "e4b7fe698928",
       "district": "admiralteysky",
-      "address": "Галерная ул., д. 52, лит. В",
+      "address": "Галерная ул., д. 52",
       "query": "52, Галерная улица, Санкт-Петербург, Россия",
-      "review": [
-        "Корпус или литера"
-      ],
+      "review": [],
       "clubs": [
         {
           "name": "Молодёжный клуб «Ритм»",
@@ -153,22 +151,6 @@
           "name": "Молодёжный клуб «Город»",
           "source": "data/clubs-admiralteysky.json",
           "index": 3
-        }
-      ]
-    },
-    {
-      "id": "487fed5dea28",
-      "district": "admiralteysky",
-      "address": "Наб. Обводного канала, д. 128, лит. А",
-      "query": "128, набережная Обводного канала, Санкт-Петербург, Россия",
-      "review": [
-        "Корпус или литера"
-      ],
-      "clubs": [
-        {
-          "name": "Молодёжный клуб «Поиск»",
-          "source": "data/clubs-admiralteysky.json",
-          "index": 21
         }
       ]
     },
@@ -226,7 +208,7 @@
       ],
       "clubs": [
         {
-          "name": "Молодёжный клуб «Ровесник»",
+          "name": "Студия «КАМИН»",
           "source": "data/clubs-admiralteysky.json",
           "index": 15
         }
@@ -322,7 +304,7 @@
       "review": [],
       "clubs": [
         {
-          "name": "Молодёжный клуб «Славяне»",
+          "name": "Молодёжное пространство «Поток»",
           "source": "data/clubs-admiralteysky.json",
           "index": 17
         }
@@ -374,6 +356,20 @@
           "name": "ПМК «Прометей»",
           "source": "data/clubs-admiralteysky.json",
           "index": 22
+        }
+      ]
+    },
+    {
+      "id": "fb9d3b8892f1",
+      "district": "admiralteysky",
+      "address": "ул. Розенштейна, д. 1",
+      "query": "1, улица Розенштейна, Санкт-Петербург, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Молодёжный клуб «Поиск»",
+          "source": "data/clubs-admiralteysky.json",
+          "index": 21
         }
       ]
     },

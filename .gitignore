@@ -16,7 +16,11 @@ backups/
 outputs/
 logs/
 source-assets/
-YoungRussiaOBS/
+YoungRussiaOBS/*
+!YoungRussiaOBS/СТАТУС-САЙТА-И-ЗАДАЧИ.md
+data/research/admiralteysky-note-evidence.json
+data/research/admiralteysky-note-contacts.csv
+data/research/vyborgsky-note-evidence.json
 ПМК-Петербург/
 prototype/preview-*.png
 .deploy/
@@ -24,4 +28,6 @@ AGENTS.md
 ДЕПЛОЙ.md
 prototype/ВОПРОСЫ-ДЛЯ-СВЕРКИ.md
 assets/source/
+assets/schedules/
+data/research/vo-note-evidence.json
 scripts/export-data.py

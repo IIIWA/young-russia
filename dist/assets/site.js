@@ -16,6 +16,28 @@
 }
 
 const menuButton = document.querySelector('.menu-button');
+const boxingSchedule = document.querySelector('.boxing-schedule');
+if (boxingSchedule) {
+  const dayCells = [...boxingSchedule.querySelectorAll('tbody th[data-day-full]')];
+  const frame = boxingSchedule.closest('.boxing-schedule-frame');
+  const probe = document.createElement('span');
+  probe.style.cssText = 'position:absolute;visibility:hidden;white-space:nowrap;pointer-events:none';
+  document.body.append(probe);
+  const updateDayNames = () => {
+    const allFit = dayCells.every(cell => {
+      const style = getComputedStyle(cell);
+      probe.style.font = style.font;
+      probe.style.letterSpacing = style.letterSpacing;
+      probe.textContent = cell.dataset.dayFull;
+      const available = cell.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
+      return probe.getBoundingClientRect().width <= available - 2;
+    });
+    dayCells.forEach(cell => { cell.textContent = allFit ? cell.dataset.dayFull : cell.dataset.dayShort; });
+  };
+  updateDayNames();
+  new ResizeObserver(updateDayNames).observe(frame);
+  document.fonts?.ready.then(updateDayNames);
+}
 const mobileNav = document.querySelector('#mobile-nav');
 if (menuButton && mobileNav) {
   menuButton.addEventListener('click', () => {
@@ -38,6 +60,15 @@ if (clubsMap) {
   const status = document.querySelector('#clubs-map-status');
   const setStatus = message => { if (status) status.textContent = message; };
   const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[char]));
+  const filtered = clubsMap.dataset.filtered === 'true';
+  let mapCount = document.querySelector('#catalog-map-count');
+  if (filtered && !mapCount) {
+    mapCount = document.createElement('p');
+    mapCount.id = 'catalog-map-count';
+    mapCount.className = 'catalog-map-credit';
+    mapCount.setAttribute('aria-live', 'polite');
+    clubsMap.closest('.catalog-map-panel')?.querySelector('.catalog-map-credit')?.before(mapCount);
+  }
   const allowedHost = ['young-russia.ru', 'www.young-russia.ru', 'localhost', '127.0.0.1'].includes(location.hostname);
   if (!allowedHost) {
     setStatus('Карту можно открыть на сайте или через локальный сервер просмотра.');
@@ -60,25 +91,37 @@ if (clubsMap) {
       script.onload = async () => {
         try {
           await new Promise((resolve, reject) => window.ymaps.ready(resolve, reject));
-          const map = new window.ymaps.Map(clubsMap, { center: [59.94, 30.27], zoom: 12 });
-          const grouped = new Map();
-          for (const club of clubs) {
-            const key = club.coordinates.join(',');
-            if (!grouped.has(key)) grouped.set(key, []);
-            grouped.get(key).push(club);
-          }
-          const placemarks = [...grouped.values()].map(group => {
-            const provisional = group.some(club => club.provisional);
-            const body = group.map(club => `<div><a href="${escapeHtml(club.url)}">${escapeHtml(club.name)}</a><br>${escapeHtml(club.address)}${club.provisional ? '<br><small>Точка предварительная</small>' : ''}</div>`).join('<hr>');
-            return new window.ymaps.Placemark(group[0].coordinates, {
-              balloonContentHeader: group.length === 1 ? escapeHtml(group[0].name) : `${group.length} клуба по&nbsp;одному адресу`,
-              balloonContentBody: body,
-              hintContent: group.map(club => club.name).join(', '),
-            }, {preset:'islands#circleDotIcon', iconColor:provisional ? '#db7819' : '#1976d2'});
-          });
-          placemarks.forEach(placemark => map.geoObjects.add(placemark));
-          if (placemarks.length > 1) map.setBounds(map.geoObjects.getBounds(), {checkZoomRange:true, zoomMargin:24});
-          if (status) status.hidden = true;
+          const map = new window.ymaps.Map(clubsMap, { center: [59.94, 30.27], zoom: 12, controls: ['zoomControl'] });
+          const renderMap = () => {
+            const visibleUrls = filtered ? new Set([...document.querySelectorAll('#club-grid .club-card:not([hidden]) h3 a')].map(link => link.getAttribute('href'))) : null;
+            const selected = visibleUrls ? clubs.filter(club => [...visibleUrls].some(url => url.endsWith(club.url))) : clubs;
+            const grouped = new Map();
+            for (const club of selected) {
+              const key = club.coordinates.join(',');
+              if (!grouped.has(key)) grouped.set(key, []);
+              grouped.get(key).push(club);
+            }
+            map.geoObjects.removeAll();
+            const placemarks = [...grouped.values()].map(group => {
+              const provisional = group.some(club => club.provisional);
+              const body = group.map(club => `<div><a href="${escapeHtml(filtered ? `../${club.url}` : club.url)}">${escapeHtml(club.name)}</a><br>${escapeHtml(club.address)}${club.provisional ? '<br><small>Точка предварительная</small>' : ''}</div>`).join('<hr>');
+              return new window.ymaps.Placemark(group[0].coordinates, {
+                balloonContentHeader: group.length === 1 ? escapeHtml(group[0].name) : `${group.length} клуба по&nbsp;одному адресу`,
+                balloonContentBody: body,
+                hintContent: group.map(club => club.name).join(', '),
+              }, {preset:'islands#circleDotIcon', iconColor:provisional ? '#db7819' : '#1976d2'});
+            });
+            placemarks.forEach(placemark => map.geoObjects.add(placemark));
+            if (placemarks.length > 1) map.setBounds(map.geoObjects.getBounds(), {checkZoomRange:true, zoomMargin:24});
+            else if (placemarks.length === 1) map.setCenter(placemarks[0].geometry.getCoordinates(), 15);
+            if (mapCount) mapCount.textContent = `Площадок с координатами: ${selected.length} из ${visibleUrls.size}.`;
+            if (status) {
+              status.hidden = placemarks.length > 0;
+              if (!placemarks.length) setStatus(visibleUrls?.size ? 'Координаты выбранных площадок уточняются. Адреса указаны в карточках ниже.' : 'Для выбранных фильтров площадок нет.');
+            }
+          };
+          if (filtered) document.addEventListener('club-catalog-filtered', renderMap);
+          renderMap();
         } catch {
           setStatus('Не удалось загрузить карту. Открой каталог клубов по ссылке ниже.');
         }
@@ -206,6 +249,7 @@ if (clubSearch) {
     }
     count.textContent = `Показано ${visible} из ${cards.length}`;
     empty.hidden = visible > 0;
+    document.dispatchEvent(new Event('club-catalog-filtered'));
   }
   clubSearch.addEventListener('input', update);
   topicChips.forEach(chip => chip.addEventListener('click', () => {

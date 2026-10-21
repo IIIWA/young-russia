@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { writeGeneratedFile } from './write-generated-file.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dataDir = path.join(root, 'data');
@@ -64,5 +65,5 @@ const output = {
   addresses: records,
 };
 const target = path.join(dataDir, 'map-addresses.json');
-await fs.writeFile(target, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
+await writeGeneratedFile(target, `${JSON.stringify(output, null, 2)}\n`);
 console.log(`Prepared ${clubCount} clubs at ${records.length} unique addresses; ${records.filter(record => record.review.length).length} addresses need extra review.`);

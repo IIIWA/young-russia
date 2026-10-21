@@ -11,10 +11,23 @@ const { data: page } = await useAsyncData(`catalog:${filename}`, async () => {
   return module.default
 })
 
+const showBackToTop = ref(false)
+const updateBackToTop = () => { showBackToTop.value = window.scrollY > 480 }
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+  })
+}
+
 onMounted(async () => {
   // The catalog filters bind to the rendered DOM, after Nuxt has hydrated it.
   await import('../../assets/site.js')
+  window.addEventListener('scroll', updateBackToTop, { passive: true })
+  updateBackToTop()
 })
+
+onBeforeUnmount(() => window.removeEventListener('scroll', updateBackToTop))
 
 useHead(() => ({
   htmlAttrs: { lang: 'ru' },
@@ -38,5 +51,6 @@ useHead(() => ({
     <div v-html="page.header" />
     <main id="main" v-html="page.body" />
     <div v-html="page.footer" />
+    <button v-show="showBackToTop" class="back-to-top" type="button" aria-label="Вернуться наверх" title="Наверх" @click="scrollToTop"><span aria-hidden="true">↑</span></button>
   </div>
 </template>

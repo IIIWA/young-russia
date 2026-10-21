@@ -7,6 +7,12 @@
 - `build.py` обновляет образцы главной, списка районов и страницы района на примере Василеостровского.
 - `build-directions.mjs` обновляет образец страницы направлений и сохраняет пять старых адресов с переходом на неё.
 - `sync-local.py` обновляет только образцы страницы клуба (`clubs/morskoy.html`) и занятия (`activities/morskoy-devyatyy-lad.html`).
+- `build-admiralteets-directions.mjs` обновляет девять сохранённых прототипов направлений КЮМ «Адмиралтеец» из каталога клуба. Предыдущая версия прототипа бокса сохранена в `snapshots/2026-10-19-before-admiralteets-directions/activities/`.
+- `build-site.mjs` создаёт прототип по тому же маршруту для каждого нового направления из каталога. Существующие файлы не перезаписываются: согласованные варианты остаются сохранёнными. Для осознанного обновления только автоматически созданных прототипов можно выполнить сборку с `REFRESH_CATALOG_PROTOTYPES=1` после сохранения предыдущих вариантов.
+- Горизонтальная сетка бокса до перехода на таблицу с днями в строках сохранена в `snapshots/2026-10-19-before-vertical-boxing/activities/`.
+- Вертикальная таблица бокса до увеличения цветной заливки ячеек сохранена в `snapshots/2026-10-19-before-filled-boxing-cells/activities/`.
+- Таблица бокса до выравнивания дней по центру и переключения полных названий сохранена в `snapshots/2026-10-19-before-responsive-day-names/activities/`.
+- Страница бокса до добавления ссылки на руководителя направления в блок записи сохранена в `snapshots/2026-10-19-before-boxing-leader-link/activities/`.
 - `check.py` сравнивает структуру шести образцов с локальной сборкой и проверяет ссылки на всех сохранённых страницах.
 
 Снимок прежних страниц перед массовой синхронизацией хранится в `snapshots/2026-10-16-before-full-site-parity/site/`. Массовые копии маршрутов были удалены после уточнения области прототипирования.
@@ -21,6 +27,7 @@
 npm run build
 python prototype/build.py
 node prototype/build-directions.mjs
+node prototype/build-admiralteets-directions.mjs
 python prototype/sync-local.py
 python prototype/check.py
 npm run check
