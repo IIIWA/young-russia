@@ -1,0 +1,60 @@
+{
+  "task": "S-89",
+  "status": "published_verified_git_pending",
+  "release": "ui-cards-20261028-mvsafm37",
+  "deployedAtUTC": "2026-10-28T15:53:44Z",
+  "deployedAtMoscow": "28.10.2026, 18:53:44",
+  "publishBeforeCommit": true,
+  "sourceBaseCommit": "304f5db79a13e1c7bf27817b05a45654139b4ecc",
+  "siteCommit": null,
+  "archive": {
+    "files": 5512,
+    "html": 2626,
+    "canonical": 2624,
+    "bytes": 11709867,
+    "sha256": "b9b664cf327f482937699d44e687ecb0d8d14c4d3d8b5bed28ad08f970043b29"
+  },
+  "baseline": {
+    "files": 5507,
+    "snapshotFiles": 25159
+  },
+  "backup": {
+    "filename": "young-russia-before-ui-cards-20261028-mvsafm37.tar.gz",
+    "bytes": 24390548,
+    "sha256": "48c732dad90900e7a097089d5b98aba4c821999b12319d4a6c73e4bc99817378"
+  },
+  "preservation": {
+    "protected": {
+      "robots.txt": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8",
+      ".htaccess": "1a85612ef6398f1528f6022a474fef2d17d987bc9f7ef654a5283537f9165840",
+      "2bd9808eebd74e34a33893f93adc7043.txt": "ed45e66d652040622ec5aeb83e9cfd882bc3d09bbdebebef7c1f82ff179a4e25"
+    },
+    "serverPrototypeFiles": 1659,
+    "prototypeUnchanged": true,
+    "commentsHash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "commentsInode": 56766512,
+    "commentsUnchanged": true
+  },
+  "checks": {
+    "serverHTTP": 50,
+    "externalMatches": 36,
+    "externalSpecialCases": 11,
+    "browserCases": 7,
+    "globalContentPages": 2624,
+    "districts": 18,
+    "clubs": 334
+  },
+  "ssh": {
+    "sessions": 1,
+    "freshPresenceConfirmed": true,
+    "explicitlyClosed": true
+  },
+  "git": {
+    "commit": null,
+    "pushed": false
+  },
+  "limits": {
+    "node": "22.17.0; project engines unchanged",
+    "pageSpeedScore": "not measured"
+  }
+}

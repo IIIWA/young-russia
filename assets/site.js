@@ -29,6 +29,23 @@ function mapClubActivities(activities, languageSelection = false, base = '') {
   return `${languageDetails}<div style="margin-top:10px;max-width:320px;font-size:14px"><strong>Направления клуба</strong>${list}</div>`;
 }
 
+function addMapPlacemarks(map, placemarks, clusterNearby = false) {
+  if (clusterNearby) {
+    const clusterer = new window.ymaps.Clusterer({
+      preset:'islands#blueClusterIcons',
+      gridSize:64,
+      groupByCoordinates:false,
+      clusterDisableClickZoom:false,
+      clusterOpenBalloonOnClick:false,
+      zoomMargin:32,
+    });
+    clusterer.add(placemarks);
+    map.geoObjects.add(clusterer);
+  } else {
+    placemarks.forEach(placemark => map.geoObjects.add(placemark));
+  }
+}
+
 const menuButton = document.querySelector('.menu-button');
 const boxingSchedule = document.querySelector('.boxing-schedule');
 if (boxingSchedule) {
@@ -128,7 +145,7 @@ if (clubsMap) {
                 hintContent: group.map(club => club.name).join(', '),
               }, {preset:'islands#circleDotIcon', iconColor:provisional ? '#db7819' : '#1976d2'});
             });
-            placemarks.forEach(placemark => map.geoObjects.add(placemark));
+            addMapPlacemarks(map, placemarks, filtered);
             if (placemarks.length > 1) map.setBounds(map.geoObjects.getBounds(), {checkZoomRange:true, zoomMargin:24});
             else if (placemarks.length === 1) map.setCenter(placemarks[0].geometry.getCoordinates(), 15);
             if (mapCount) mapCount.textContent = `Площадок с координатами: ${selected.length} из ${visibleUrls.size}.`;
@@ -312,7 +329,8 @@ if (directionResults) {
   const reset = document.querySelector('#direction-reset');
   const mapNode = document.querySelector('#direction-map');
   const mapStatus = document.querySelector('#direction-map-status');
-  const defaultTopic = 'knowledge';
+  const defaultTopic = 'all';
+  const allTopics = {label:'Все направления', subtopics:{}};
   let topic = defaultTopic;
   let subtopic = '';
   let limit = 12;
@@ -359,7 +377,7 @@ if (directionResults) {
         hintContent: group.map(element => element.querySelector('h3 a').textContent).join(', '),
       }, {preset:'islands#circleDotIcon',iconColor:provisional ? '#db7819' : '#2545ed'});
     });
-    placemarks.forEach(placemark => directionMap.geoObjects.add(placemark));
+    addMapPlacemarks(directionMap, placemarks, true);
     if (placemarks.length === 1) directionMap.setCenter(placemarks[0].geometry.getCoordinates(),14);
     else directionMap.setBounds(directionMap.geoObjects.getBounds(),{checkZoomRange:true,zoomMargin:30});
     mapStatus.textContent = `На карте: ${points.length} из ${matches.length} площадок.${points.length < matches.length ? ' Координаты остальных уточняются.' : ''}`;
@@ -398,9 +416,9 @@ if (directionResults) {
   function readDirectionUrl() {
     const params = new URLSearchParams(location.search);
     const requestedTopic = params.get('topic');
-    topic = Object.hasOwn(taxonomy,requestedTopic) ? requestedTopic : defaultTopic;
+    topic = requestedTopic === 'all' || Object.hasOwn(taxonomy,requestedTopic) ? requestedTopic : defaultTopic;
     const requestedSubtopic = params.get('subtopic');
-    subtopic = Object.hasOwn(taxonomy[topic].subtopics,requestedSubtopic) ? requestedSubtopic : '';
+    subtopic = topic !== 'all' && Object.hasOwn(taxonomy[topic].subtopics,requestedSubtopic) ? requestedSubtopic : '';
     const requestedDistrict = params.get('district') || '';
     districtSelect.value = [...districtSelect.options].some(option => option.value === requestedDistrict) ? requestedDistrict : '';
     limit = 12;
@@ -408,7 +426,8 @@ if (directionResults) {
 
   function writeDirectionUrl() {
     const url = new URL(location.href);
-    url.searchParams.set('topic',topic);
+    if (topic === 'all') url.searchParams.delete('topic');
+    else url.searchParams.set('topic',topic);
     if (subtopic) url.searchParams.set('subtopic',subtopic);
     else url.searchParams.delete('subtopic');
     if (districtSelect.value) url.searchParams.set('district',districtSelect.value);
@@ -417,7 +436,7 @@ if (directionResults) {
   }
 
   function renderDirections() {
-    const group = taxonomy[topic];
+    const group = topic === 'all' ? allTopics : taxonomy[topic];
     const groupSubtopics = new Set(Object.keys(group.subtopics));
     title.textContent = group.label;
     document.title = `${group.label} | ПМК Петербурга`;
@@ -430,7 +449,7 @@ if (directionResults) {
 
     const matches = [];
     for (const {element,activities} of cards) {
-      const matchedActivity = activities.find(activity => activity.subtopics.some(code => subtopic ? code === subtopic : groupSubtopics.has(code)));
+      const matchedActivity = topic === 'all' ? activities[0] : activities.find(activity => activity.subtopics.some(code => subtopic ? code === subtopic : groupSubtopics.has(code)));
       if (matchedActivity && (!districtSelect.value || element.dataset.district === districtSelect.value)) {
         element.querySelector('[data-matched-activity]').textContent = matchedActivity.label;
         element.querySelector('[data-activity-provisional]').hidden = !matchedActivity.provisional;
@@ -466,7 +485,7 @@ if (directionResults) {
   compactSubgroups.addEventListener('change',syncSubgroups);
   districtSelect.addEventListener('change',() => { limit = 12; writeDirectionUrl(); renderDirections(); });
   more.addEventListener('click',() => { limit += 12; renderDirections(); });
-  reset.addEventListener('click',() => { subtopic = ''; districtSelect.value = ''; limit = 12; writeDirectionUrl(); renderDirections(); });
+  reset.addEventListener('click',() => { topic = defaultTopic; subtopic = ''; districtSelect.value = ''; limit = 12; writeDirectionUrl(); renderDirections(); });
   addEventListener('popstate',() => { readDirectionUrl(); renderDirections(); });
   readDirectionUrl();
   renderDirections();

@@ -245,7 +245,7 @@ h3{font-size:1.5rem;font-weight:750}
 @media(max-width:480px){.direction-explore .direction-topics{grid-template-columns:1fr}.direction-map{height:300px}}
 
 /* Directions run above the map; native radio controls filter the subgroups. */
-.direction-hero .direction-topics{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:17px}
+.direction-hero .direction-topics{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin-bottom:17px}
 .direction-hero .direction-topic{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:3px;min-height:66px;padding:10px 13px;border-radius:12px}
 .direction-hero .direction-topic:hover{transform:none}
 .direction-hero .direction-topic-bullet{display:none}
@@ -266,7 +266,7 @@ h3{font-size:1.5rem;font-weight:750}
 .direction-explore .direction-subtopic-body strong{margin:0;color:var(--ink);font-size:13px;line-height:1.2}
 .direction-explore .direction-subtopic-body small{margin:0;color:var(--muted);font-size:11px;font-weight:650;line-height:1.2}
 .direction-explore .direction-map{height:430px}
-@media(max-width:1050px){.direction-explore{grid-template-columns:230px minmax(0,1fr)}.direction-explore .direction-subtopics summary{display:flex;position:relative;flex-direction:column;gap:4px;padding:12px 36px 12px 14px;border:1px solid #d8def5;border-radius:11px;background:#fff;cursor:pointer;list-style:none}.direction-explore .direction-subtopics summary::-webkit-details-marker{display:none}.direction-explore .direction-subtopics summary::after{content:'';position:absolute;top:50%;right:17px;width:8px;height:8px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateY(-70%) rotate(45deg)}.direction-explore .direction-subtopics[open] summary::after{transform:translateY(-25%) rotate(225deg)}.direction-explore .direction-subtopics summary span{color:var(--muted);font-size:12px;font-weight:700}.direction-explore .direction-subtopics summary strong{font-size:15px;line-height:1.3}.direction-explore .direction-subtopic-options{margin-top:8px}.direction-explore .direction-subtopic-options::before{display:none}}
+@media(max-width:1050px){.direction-hero .direction-topics{grid-template-columns:repeat(3,minmax(0,1fr))}.direction-explore{grid-template-columns:230px minmax(0,1fr)}.direction-explore .direction-subtopics summary{display:flex;position:relative;flex-direction:column;gap:4px;padding:12px 36px 12px 14px;border:1px solid #d8def5;border-radius:11px;background:#fff;cursor:pointer;list-style:none}.direction-explore .direction-subtopics summary::-webkit-details-marker{display:none}.direction-explore .direction-subtopics summary::after{content:'';position:absolute;top:50%;right:17px;width:8px;height:8px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateY(-70%) rotate(45deg)}.direction-explore .direction-subtopics[open] summary::after{transform:translateY(-25%) rotate(225deg)}.direction-explore .direction-subtopics summary span{color:var(--muted);font-size:12px;font-weight:700}.direction-explore .direction-subtopics summary strong{font-size:15px;line-height:1.3}.direction-explore .direction-subtopic-options{margin-top:8px}.direction-explore .direction-subtopic-options::before{display:none}}
 @media(max-width:760px){.direction-hero .direction-topics{grid-template-columns:repeat(2,minmax(0,1fr))}.direction-explore{grid-template-columns:1fr}.direction-explore .direction-map{height:340px}}
 @media(max-width:480px){.direction-hero .direction-topic{min-height:60px}.direction-explore .direction-map{height:300px}}
 
@@ -302,3 +302,63 @@ h3{font-size:1.5rem;font-weight:750}
 @media(max-width:760px){.hero h1{font-size:min(clamp(3.4rem,11vw,5rem),14.5cqi)}}
 .schedule-source-note a{color:#1d4ed8;text-decoration:underline}.schedule-frequency{line-height:1.5}
 .contact-email{margin:20px 0 0;font-size:15px;line-height:1.6}.contact-email>span:first-child{color:var(--muted)}.contact-email-address{overflow-wrap:anywhere}
+
+.club-card>h3:first-child{margin-top:0}
+.club-kind{color:var(--blue);font-size:.75em;font-weight:650;letter-spacing:0;text-decoration:none;white-space:nowrap}
+.club-tags span{font-weight:550}
+
+/* Compact mobile cards: keep two readable columns without clipping content. */
+@media(max-width:760px){
+  .featured-grid,.club-grid,.direction-results-grid,.direction-card-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:10px;
+  }
+  .club-card,.direction-club-card,.direction-card{
+    min-width:0;
+    min-height:0;
+    padding:14px 12px;
+    border-radius:16px;
+    overflow-wrap:anywhere;
+    hyphens:auto;
+  }
+  .club-card h3,.direction-club-card h3,.direction-card h3{
+    margin:14px 0 10px;
+    font-size:clamp(17px,4.4vw,21px);
+    line-height:1.2;
+    text-wrap:balance;
+  }
+  .club-card .eyebrow,.direction-club-top{
+    font-size:11px;
+    letter-spacing:.025em;
+    line-height:1.4;
+  }
+  .club-address,.direction-club-address{
+    font-size:13px;
+    line-height:1.5;
+    margin-bottom:14px;
+    text-wrap:pretty;
+  }
+  .club-tags{gap:5px;margin-bottom:14px}
+  .club-tags span{max-width:100%;padding:5px 7px;border-radius:9px;font-size:12px;line-height:1.35}
+  .club-card .card-bottom,.direction-club-link{
+    min-height:44px;
+    padding-top:12px;
+    font-size:12px;
+    line-height:1.4;
+  }
+  .club-card .card-bottom{align-items:center;gap:6px}
+  .club-card .card-bottom span{flex-shrink:0}
+  .club-review-notice{margin:0 0 14px;padding:7px;font-size:12px}
+  .direction-club-top{gap:6px}
+  .direction-club-top span:last-child{flex-shrink:0;font-size:16px}
+  .direction-club-activity{gap:6px;margin-bottom:14px}
+  .direction-club-activity span{font-size:10px;letter-spacing:.025em}
+  .direction-club-activity strong{font-size:14px;line-height:1.4}
+  .direction-club-activity small{font-size:12px}
+  .direction-club-link{margin-top:0}
+  .detail-block:has(>.direction-card-grid){padding:18px 12px}
+  .direction-card .section-kicker{margin-bottom:0;font-size:10px;letter-spacing:.04em;line-height:1.4}
+  .direction-card h3{font-size:clamp(16px,4.2vw,20px)}
+  .direction-card-detail,.direction-card-specialist{margin:0 0 14px;font-size:13px;line-height:1.5}
+  .direction-card-link{display:flex;align-items:center;justify-content:space-between;gap:6px;min-height:44px;font-size:12px}
+}

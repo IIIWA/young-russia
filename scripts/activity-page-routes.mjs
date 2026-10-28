@@ -38,10 +38,28 @@ export function isVkCommunityUrl(value) {
 }
 
 export function mapClubActivityEntries(club) {
+  // Preserve the source index when computing routes; only the displayed list is sorted.
   return club.activities.map((label, index) => {
-    const hasCommunity = club.activityPages?.some(page => page.catalogActivity === label && isVkCommunityUrl(page.vkUrl));
-    const slug = hasCommunity ? activityPageSlug(club,label,index) : null;
-    if (hasCommunity && !slug) throw new Error(`Missing activity route: ${club.name}, ${label}`);
-    return {label,...(slug ? {url:`activities/${slug}.html`} : {})};
-  });
+    const slug = activityPageSlug(club, label, index);
+    if (!slug) throw new Error(`Missing activity route: ${club.name}, ${label}`);
+    const pages = (club.activityPages ?? []).filter(page => page.catalogActivity === label);
+    const schedules = (club.activitySchedule ?? []).filter(record => record.activity === label);
+    const hasSchedule = [...schedules, ...pages].some(record =>
+      record.seasonalStatus !== 'expired' && record.schedule?.some(slot => slot.time)
+    ) || (club.classSchedule === 'Брейкинг: пн–сб 16:00–21:00' && label.startsWith('Брейкинг'));
+    // Count direction-specific content shown on its page; shared club contacts do not affect rank.
+    const contacts = new Set(pages.flatMap(page => [page.vkUrl, page.officialUrl,
+      ...(page.communityContacts ?? []).map(contact => contact.profileUrl),
+    ]).filter(Boolean));
+    const sections = [
+      pages.some(page => page.title && page.title !== label),
+      pages.some(page => page.specialist),
+      contacts.size > 0,
+      pages.some(page => page.registrationUrl),
+      club.activityConditions?.some(condition => condition.activity === label && condition.sourceText),
+    ].filter(Boolean).length;
+    return {label, url:`activities/${slug}.html`, index, priority:[Number(hasSchedule), sections, contacts.size]};
+  }).sort((a,b) => b.priority[0] - a.priority[0] || b.priority[1] - a.priority[1]
+    || b.priority[2] - a.priority[2] || a.index - b.index)
+    .map(({label,url}) => ({label,url}));
 }
