@@ -1,12 +1,12 @@
 {
   "task": "S-89",
-  "status": "published_verified_git_pending",
+  "status": "published_committed_pushed",
   "release": "ui-cards-20261028-mvsafm37",
   "deployedAtUTC": "2026-10-28T15:53:44Z",
   "deployedAtMoscow": "28.10.2026, 18:53:44",
   "publishBeforeCommit": true,
   "sourceBaseCommit": "304f5db79a13e1c7bf27817b05a45654139b4ecc",
-  "siteCommit": null,
+  "siteCommit": "a9363a82420c1221c5242e4725ace7cf65944797",
   "archive": {
     "files": 5512,
     "html": 2626,
@@ -50,8 +50,11 @@
     "explicitlyClosed": true
   },
   "git": {
-    "commit": null,
-    "pushed": false
+    "commit": "a9363a82420c1221c5242e4725ace7cf65944797",
+    "remote": "a9363a82420c1221c5242e4725ace7cf65944797",
+    "pushed": true,
+    "changedPaths": 7917,
+    "publishedBeforeCommit": true
   },
   "limits": {
     "node": "22.17.0; project engines unchanged",
