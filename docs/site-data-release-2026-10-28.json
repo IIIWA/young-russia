@@ -1,0 +1,59 @@
+{
+  "task": "S-83",
+  "status": "published_verified",
+  "release": "site-data-20261028-mvrf1jxo",
+  "site": "https://young-russia.ru/",
+  "deployedAtUTC": "2026-10-28T01:30:10Z",
+  "deployedAtMoscow": "28.10.2026, 04:30:10",
+  "siteCommit": "27751b3bf5f0b24f6ff37db5a5f6425de243c15b",
+  "preparationRegisterCommit": "0548319b288a03f39b551bcd74a117f3d9aaa966",
+  "archive": {
+    "files": 5507,
+    "html": 2626,
+    "canonical": 2624,
+    "bytes": 11428883,
+    "sha256": "913373619250e6a2552e7631843aa888916584ed0a77b030c2fe15a891cb099e"
+  },
+  "catalog": {
+    "districts": 18,
+    "clubs": 334,
+    "newS84Schedules": 135,
+    "newS84Intervals": 776,
+    "partialPetrogradskySchedules": 29,
+    "partialPetrogradskyIntervals": 35
+  },
+  "baseline": {
+    "manifestFiles": 4972,
+    "snapshotFiles": 23912
+  },
+  "backup": {
+    "filename": "young-russia-before-site-data-20261028-mvrf1jxo.tar.gz",
+    "bytes": 22505616,
+    "sha256": "6f1efc0cc424b65c37bc550ba95c0399333194e2b56ff27a6559a72f5b35a298"
+  },
+  "checks": {
+    "serverHttp": 39,
+    "externalMatchingPagesAndFiles": 150,
+    "externalSpecialCases": 11,
+    "mobileBrowserPages": 5,
+    "workingDistrictFilter": true,
+    "allNewSchedulesHttp": 135,
+    "metrika": true,
+    "protectedFiles": true,
+    "prototypePreserved": true,
+    "commentsPreserved": true,
+    "commentsBackup": true
+  },
+  "ssh": {
+    "sessions": 3,
+    "firstTwoEndedBeforeActivation": true,
+    "thirdFinishedActive": true,
+    "closed": true,
+    "transportOfflineTest": "PASS"
+  },
+  "limits": {
+    "directVkAvailability": "Not checked: browser site-safety policy blocks VK; bjj_antey supplied by user",
+    "pageSpeedScore": "Not measured",
+    "buildEngine": "Final build completed on installed Node 22.17.0 with engine warnings after Windows denied bundled Node 24.22.1 execution"
+  }
+}
