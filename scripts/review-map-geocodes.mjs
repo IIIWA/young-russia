@@ -49,7 +49,8 @@ const records = addresses.addresses.map(address => {
   }
   const candidate = result?.query === address.query ? result.candidates.find(inRegion) ?? result.candidates[0] ?? null : null;
   const reasons = [...address.review];
-  const pendingClubs = address.clubs.filter(club => !manualByClub.has(club.name));
+  const pendingClubs = address.clubs.filter(club => !manualByClub.has(club.name) || (manualByClub.get(club.name).source ?? 'user_provided') !== 'user_provided');
+  for (const point of manualPoints) if (point.source && point.source !== 'user_provided' && point.locationNote) reasons.push(point.locationNote);
   let status;
   if (manualPoints.length && !pendingClubs.length) {
     status = 'user_provided';
@@ -79,7 +80,7 @@ const records = addresses.addresses.map(address => {
     status,
     reasons,
     coordinates: sharedCoordinates,
-    coordinateSource: manualPoints.length ? sameManualPoint ? 'user_provided' : 'per_club' : 'OpenStreetMap Nominatim',
+    coordinateSource: manualPoints.length ? sameManualPoint && manualPoints.every(p=>(p.source??'user_provided')==='user_provided') ? 'user_provided' : 'per_club' : 'OpenStreetMap Nominatim',
     referenceUrl: sameManualPoint ? manualPoints[0].referenceUrl : null,
     mapLabel: sameManualPoint ? manualPoints[0].mapLabel ?? null : null,
     clubCoordinates: address.clubs.map(club => {
@@ -87,11 +88,12 @@ const records = addresses.addresses.map(address => {
       return {
         clubName: club.name,
         coordinates: point ? {latitude: point.latitude, longitude: point.longitude} : candidateCoordinates,
-        source: point ? 'user_provided' : candidateCoordinates ? 'OpenStreetMap Nominatim candidate' : null,
+        source: point ? point.source ?? 'user_provided' : candidateCoordinates ? 'OpenStreetMap Nominatim candidate' : null,
         referenceUrl: point?.referenceUrl ?? null,
         mapLabel: point?.mapLabel ?? null,
         precision: point?.precision ?? null,
         locationNote: point?.locationNote ?? null,
+        ...(point?.evidenceUrl ? {evidenceUrl:point.evidenceUrl,derivedFromClub:point.derivedFromClub} : {}),
         ...(point?.additionalPoints?.length ? { additionalPoints: point.additionalPoints } : {}),
       };
     }),
@@ -106,7 +108,7 @@ const records = addresses.addresses.map(address => {
 const summary = Object.fromEntries(['user_provided', 'partially_user_provided', 'likely_match', 'needs_review', 'not_found', 'wrong_region'].map(status => [status, records.filter(record => record.status === status).length]));
 const userProvidedClubCount = records.flatMap(record => record.clubCoordinates).filter(club => club.source === 'user_provided').length;
 const output = {
-  description: 'Координаты клубов. clubCoordinates содержит точку для каждого клуба. user_provided предоставлены пользователем; likely_match означает автоматическую проверку дома и улицы без ручного подтверждения.',
+  description: 'Координаты клубов. clubCoordinates содержит точку для каждого клуба. user_provided предоставлены пользователем; official_address_shared_venue означает предварительную точку здания другой площадки по общему официальному адресу; likely_match означает автоматическую проверку дома и улицы без ручного подтверждения.',
   source: geocodes.source,
   attribution: geocodes.attribution,
   license: geocodes.license,

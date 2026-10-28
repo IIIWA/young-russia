@@ -1,19 +1,2561 @@
 [
-  {"type":"Дом молодёжи","name":"Дом молодёжи «Купчино»","address":"ул. Олеко Дундича, д. 32","phone":"366-97-87","activities":["Джампинг","Растяжка","Фитнес","Хореография","Театр","Бокс","Вокал","Рисование","Зумба"]},
-  {"type":"Молодёжное объединение","name":"Молоко","address":"Бухарестская ул., д. 91А","phone":"366-97-67","activities":["Арт-терапия","Вокал","Фотография","Разговорный английский","Музыкальный театр","Барабаны","Гитара","Семейный клуб"]},
-  {"name":"ВПК имени А. Ф. Клубова","address":"Боровая ул., д. 48А","phone":"766-36-97","activities":["Театр","Рисование","Гитара","Брейкинг"]},
-  {"name":"Искра","address":"ул. Димитрова, д. 18","phone":"772-86-18","activities":["Рисование","Вокал","Актёрское мастерство","Фортепиано"]},
-  {"name":"Старт","address":"Софийская ул., д. 47, корп. 1","phone":"268-13-13","activities":["Волейбол","Футбол-фристайл","Тхэквондо","Каратэ","Военно-патриотический клуб"]},
-  {"name":"Современник","address":"Купчинская ул., д. 32","phone":"778-04-52","activities":["Английский клуб","Акробатический рок-н-ролл","Современные танцы","Каратэ"]},
-  {"name":"Ракетка","address":"Будапештская ул., д. 49","phone":"360-57-72","activities":["Настольный теннис"]},
-  {"name":"Планета","address":"Будапештская ул., д. 33","phone":"360-90-03","activities":["Хореография"]},
-  {"name":"Юность","address":"Купчинская ул., д. 15","phone":"366-50-66","activities":["Йога","Танцы","Театр","Скетчинг","Литература","Рукоделие"]},
-  {"type":"Центр современной молодёжной культуры","name":"Факел","address":"Софийская ул., д. 44","phone":"268-10-10","activities":["Интеллектуальные игры","Фитбол-дэнс","Хореография","Общая физическая подготовка","Зумба"]},
-  {"name":"Романтика","address":"Бухарестская ул., д. 74","phone":"268-12-12","activities":["Танцы","Рисование","Кинорежиссура","Вокал","Гитара"]},
-  {"name":"Прогресс","address":"Бухарестская ул., д. 31, корп. 1","phone":"774-70-49","activities":["Современные танцы","Тяжёлая атлетика","Пауэрлифтинг"]},
-  {"name":"Атмосфера","address":"Софийская ул., д. 39, корп. 1","phone":"269-08-13","activities":["Гитара","Фитнес","Творческий клуб"]},
-  {"name":"Гармония","address":"Купчинская ул., д. 23","phone":"778-98-58","activities":["Рисование","Здоровье","Английский язык","Танцы"]},
-  {"name":"Феникс","address":"Пловдивская ул., д. 9","phone":"708-11-37","activities":["Фитнес","Рисование","Самбо"]},
-  {"name":"ВПК имени 3-й Фрунзенской дивизии народного ополчения","address":"ул. Олеко Дундича, д. 34","phone":"778-89-74","activities":["Лайт-файт","Страйкбол","Управление БПЛА","Борьба"]},
-  {"name":"МИР","address":"Бухарестская ул., д. 114","activities":["Театр","Фотография","Киноклуб"]}
+  {
+    "type": "Дом молодёжи",
+    "name": "Дом молодёжи «Купчино»",
+    "address": "ул. Олеко Дундича, д. 32",
+    "phone": "366-97-87",
+    "activities": [
+      "Джампинг",
+      "Растяжка",
+      "Фитнес",
+      "Хореография",
+      "Театр",
+      "Бокс",
+      "Вокал",
+      "Рисование",
+      "Зумба",
+      "Тренажёрный зал",
+      "Йога",
+      "Стретчинг",
+      "Художественная студия",
+      "Танцы"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=1",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=1",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 99,
+        "endLine": 105,
+        "quote": "![Дом молодёжи \"КУПЧИНО\"](https://sun9-8.vkuserphoto.ru/s/v1/ig2/rCB7nZkzeBtNAMelCbv-RU44Xem6gY04Zo4mOEmfqib821H0CmLkD2giCzp37lZMSvjM3h_7wkt67YNelZiIJjKO.jpg?quality=95&crop=0,6,1868,1868&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440&ava=1&u=fLeluEuodyVODdqBJOLg2h9jS9WTWQjzm7b6RaAUkCE&cs=50x50)\n\nДом молодёжи \"КУПЧИНО\"\n\nул. Олеко Дундича, 32\n\n](https://vk.ru/domik_frunz)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/domik_frunz",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=1",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activitySchedule": [
+      {
+        "activity": "Бокс",
+        "sourceType": "official_web",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?studio=dm_box_budj",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Период действия на официальной странице не указан. Бесплатные занятия для участников от 14 до 35 лет. Для спортивных занятий нужна медицинская справка. До посещения уточни расписание.",
+        "fundingEvidence": {
+          "status": "free",
+          "quote": "Стоимость: бесплатно; от 14 до 35 лет",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?studio=dm_box_budj"
+        },
+        "sourceRecords": [
+          "S-81/frunzensky/officialComparison/Бокс"
+        ],
+        "importTask": "S-82",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-22:00"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-22:00"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-22:00"
+          },
+          {
+            "day": "воскресенье",
+            "time": "15:30-22:00"
+          }
+        ]
+      },
+      {
+        "activity": "Тренажёрный зал",
+        "sourceType": "official_web",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?studio=fitness",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Период действия на официальной странице не указан. Бесплатные занятия для участников от 14 до 35 лет. Для спортивных занятий нужна медицинская справка. До посещения уточни расписание.",
+        "fundingEvidence": {
+          "status": "free",
+          "quote": "Стоимость: бесплатно; от 14 до 35 лет",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?studio=fitness"
+        },
+        "sourceRecords": [
+          "S-81/frunzensky/officialComparison/Тренажёрный зал"
+        ],
+        "importTask": "S-82",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "18:00-22:00"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-22:00"
+          },
+          {
+            "day": "суббота",
+            "time": "16:00-20:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Бокс",
+        "title": "Бокс",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?studio=dm_box_budj",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-82"
+      },
+      {
+        "catalogActivity": "Тренажёрный зал",
+        "title": "Тренажёрный зал",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?studio=fitness",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-82"
+      },
+      {
+        "catalogActivity": "Театр",
+        "title": "Театр-студия «МЫ»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Джампинг",
+        "title": "Джампинг",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Зумба",
+        "title": "Зумба",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Йога",
+        "title": "Йога",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Стретчинг",
+        "title": "Стретчинг",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Растяжка",
+        "title": "Растяжка",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Вокал",
+        "title": "Вокально-инструментальный ансамбль",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Художественная студия",
+        "title": "Художественная студия",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Танцы",
+        "title": "Студия современной хореографии «Смайл»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Фитнес",
+        "title": "Фитнес «Мама и малыш»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Бокс",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?studio=dm_box_budj",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Бесплатно для участников от 14 до 35 лет. Обязательна справка о допуске к занятиям спортом",
+        "importTask": "S-82"
+      },
+      {
+        "activity": "Тренажёрный зал",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?studio=fitness",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Бесплатно для участников от 14 до 35 лет. Обязательна справка о допуске к занятиям спортом",
+        "importTask": "S-82"
+      },
+      {
+        "activity": "Театр",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Театр-студия «МЫ». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+          "quote": "Театр-студия «МЫ»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Джампинг",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Джампинг. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+          "quote": "Джампинг",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Зумба",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Зумба. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+          "quote": "Зумба",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Йога",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Йога. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+          "quote": "Йога",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Стретчинг",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Стретчинг. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+          "quote": "Стретчинг",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Растяжка",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Растяжка. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+          "quote": "Растяжка",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Вокал",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Вокально-инструментальный ансамбль. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+          "quote": "Вокально-инструментальный ансамбль",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Художественная студия",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Художественная студия. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+          "quote": "Художественная студия",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия современной хореографии «Смайл». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+          "quote": "Студия современной хореографии «Смайл»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Фитнес",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Фитнес «Мама и малыш». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=1",
+          "quote": "Фитнес «Мама и малыш»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжное объединение",
+    "name": "Молоко",
+    "address": "Бухарестская ул., д. 91А",
+    "phone": "366-97-67",
+    "activities": [
+      "Арт-терапия",
+      "Вокал",
+      "Фотография",
+      "Разговорный английский",
+      "Музыкальный театр",
+      "Барабаны",
+      "Гитара",
+      "Семейный клуб",
+      "Студия причёсок и макияжа «Гармония»",
+      "Арт-терапия «Сила образа»",
+      "Творческая инклюзивная студия «Арт-игры»",
+      "Творческая студия «НЕхудожка»",
+      "Клуб молодой семьи",
+      "Семейная игротека",
+      "Английский язык",
+      "Танцы",
+      "Фитнес"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 109,
+        "endLine": 115,
+        "quote": "![Молодежное креативное объединение «Молоко»](https://sun9-72.vkuserphoto.ru/s/v1/ig2/pC3rv36KxUUX2kUx4BNs1gTKsSbEku28XmPnVLtckoPWLr8F2UYmw2qG5JeXH0eKAC0_2QG4vP8FyxIBiIg-1k8O.jpg?quality=95&crop=97,99,831,831&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=VHq0BUBymfDL_AQRqJHWNxwvrPnbElhw3e-vKHSahpQ&cs=50x50)\n\nМолодежное креативное объединение «Молоко»\n\nул. Бухарестская, д. 91 А\n\n](https://vk.ru/moloko_frunz)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/moloko_frunz",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=18",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "Студия причёсок и макияжа «Гармония»",
+        "title": "Студия причёсок и макияжа «Гармония»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Арт-терапия «Сила образа»",
+        "title": "Арт-терапия «Сила образа»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Творческая инклюзивная студия «Арт-игры»",
+        "title": "Творческая инклюзивная студия «Арт-игры»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Творческая студия «НЕхудожка»",
+        "title": "Творческая студия «НЕхудожка»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Клуб молодой семьи",
+        "title": "Клуб семейного общения",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Семейная игротека",
+        "title": "Семейная игротека",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Английский язык",
+        "title": "Студия английского языка",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Танцы",
+        "title": "Студия уличного танца (брейк-данс)",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Вокал",
+        "title": "Студия вокала",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Фитнес",
+        "title": "Студия-фитнес «Сила и грация»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Танцы",
+        "title": "Танцевально-пластическая компания «Квадрат»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Вокал",
+        "title": "Вокально-хоровой ансамбль «МИГ»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Студия причёсок и макияжа «Гармония»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия причёсок и макияжа «Гармония». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+          "quote": "Студия причёсок и макияжа «Гармония»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Арт-терапия «Сила образа»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Арт-терапия «Сила образа». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+          "quote": "Арт-терапия «Сила образа»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Творческая инклюзивная студия «Арт-игры»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Творческая инклюзивная студия «Арт-игры». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+          "quote": "Творческая инклюзивная студия «Арт-игры»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Творческая студия «НЕхудожка»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Творческая студия «НЕхудожка». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+          "quote": "Творческая студия «НЕхудожка»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Клуб молодой семьи",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Клуб семейного общения. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+          "quote": "Клуб семейного общения",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Семейная игротека",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Семейная игротека. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+          "quote": "Семейная игротека",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Английский язык",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия английского языка. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+          "quote": "Студия английского языка",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия уличного танца (брейк-данс). Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+          "quote": "Студия уличного танца (брейк-данс)",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Вокал",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия вокала. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+          "quote": "Студия вокала",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Фитнес",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия-фитнес «Сила и грация». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+          "quote": "Студия-фитнес «Сила и грация»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Танцевально-пластическая компания «Квадрат». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+          "quote": "Танцевально-пластическая компания «Квадрат»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Вокал",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Вокально-хоровой ансамбль «МИГ». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=18",
+          "quote": "Вокально-хоровой ансамбль «МИГ»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "ВПК имени А. Ф. Клубова",
+    "address": "Боровая ул., д. 48А",
+    "phone": "766-36-97",
+    "activities": [
+      "Театр",
+      "Рисование",
+      "Гитара",
+      "Брейкинг",
+      "ИЗО-студия",
+      "Скетчинг",
+      "Каллиграфия",
+      "Ораторское мастерство",
+      "Книжный клуб",
+      "Иконопись",
+      "Графический дизайн",
+      "Керамическая мастерская"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=2",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=2",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 169,
+        "endLine": 175,
+        "quote": "![КЛУБОВ | Молодёжное пространство](https://sun9-39.vkuserphoto.ru/s/v1/ig2/MFOlKdCoFnoG1An3wOIlkkNwIHqGJTJ2UJ7V1snf7SgGL4EQnbwfTdIZ5MkyPaeiELoSPlP8qMzudFsOkw8VA-O6.jpg?quality=95&crop=0,0,400,400&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=t-CsjAms43ZS3PsshXaC214uHkSNzMFRXrCb_p80Hfk&cs=50x50)\n\nКЛУБОВ | Молодёжное пространство\n\nул. Боровая, д. 48\n\n](https://vk.ru/klubov.club)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/klubov.club",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=2",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "ИЗО-студия",
+        "title": "ИЗО-студия",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Скетчинг",
+        "title": "Скетчинг",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Каллиграфия",
+        "title": "Каллиграфия",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Театр",
+        "title": "Театральная студия",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Театр",
+        "title": "Любительский театр «ВЕРНО»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Ораторское мастерство",
+        "title": "Ораторское мастерство",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Книжный клуб",
+        "title": "Книжный клуб",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Иконопись",
+        "title": "Иконопись",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Графический дизайн",
+        "title": "Графический дизайн",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Керамическая мастерская",
+        "title": "Керамическая мастерская",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "ИЗО-студия",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "ИЗО-студия. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+          "quote": "ИЗО-студия",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Скетчинг",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Скетчинг. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+          "quote": "Скетчинг",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Каллиграфия",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Каллиграфия. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+          "quote": "Каллиграфия",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Театр",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Театральная студия. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+          "quote": "Театральная студия",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Театр",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Любительский театр «ВЕРНО». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+          "quote": "Любительский театр «ВЕРНО»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Ораторское мастерство",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Ораторское мастерство. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+          "quote": "Ораторское мастерство",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Книжный клуб",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Книжный клуб. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+          "quote": "Книжный клуб",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Иконопись",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Иконопись. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+          "quote": "Иконопись",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Графический дизайн",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Графический дизайн. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+          "quote": "Графический дизайн",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Керамическая мастерская",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Керамическая мастерская. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=2",
+          "quote": "Керамическая мастерская",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Искра",
+    "address": "ул. Димитрова, д. 18",
+    "phone": "772-86-18",
+    "activities": [
+      "Рисование",
+      "Вокал",
+      "Актёрское мастерство",
+      "Фортепиано",
+      "Студия ИЗО и художественно-прикладного творчества «Палитра»",
+      "Студия игры на фортепиано «Камертон»",
+      "Танцы"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=3",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=3",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 159,
+        "endLine": 165,
+        "quote": "![\"Искра\", подростково-молодежный клуб](https://sun9-50.vkuserphoto.ru/s/v1/ig2/BQqE5HlzP2Rot1Y53hArDRuTr3aKONVKY4NcTq-U-Dil9O4j9y7X7CoTSqTwpm0kZRHBjDAChUf4zjQdd-2h7lMh.jpg?quality=96&crop=210,235,1446,1446&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440&ava=1&u=XiMiIYCFaWwqvqPyenOtbVHDJ7AAu8DRoWfruKSx81o&cs=50x50)\n\n\"Искра\", подростково-молодежный клуб\n\nул. Димитрова, д.18, корп.1\n\n](https://vk.ru/klub_iskra)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/klub_iskra",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=3",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "Студия ИЗО и художественно-прикладного творчества «Палитра»",
+        "title": "Студия ИЗО и художественно-прикладного творчества «Палитра»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=3",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Студия игры на фортепиано «Камертон»",
+        "title": "Студия игры на фортепиано «Камертон»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=3",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Танцы",
+        "title": "Студия современного танца (хип-хоп)",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=3",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Танцы",
+        "title": "Студия бальных танцев (соло)",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=3",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Студия ИЗО и художественно-прикладного творчества «Палитра»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=3",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия ИЗО и художественно-прикладного творчества «Палитра». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=3",
+          "quote": "Студия ИЗО и художественно-прикладного творчества «Палитра»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Студия игры на фортепиано «Камертон»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=3",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия игры на фортепиано «Камертон». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=3",
+          "quote": "Студия игры на фортепиано «Камертон»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=3",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия современного танца (хип-хоп). Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=3",
+          "quote": "Студия современного танца (хип-хоп)",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=3",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия бальных танцев (соло). Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=3",
+          "quote": "Студия бальных танцев (соло)",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Старт",
+    "address": "Софийская ул., д. 47, корп. 1",
+    "phone": "268-13-13",
+    "activities": [
+      "Волейбол",
+      "Футбол-фристайл",
+      "Тхэквондо",
+      "Каратэ",
+      "Военно-патриотический клуб",
+      "Традиционное тхэквондо",
+      "Всестилевое карате"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=13",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=13",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 219,
+        "endLine": 225,
+        "quote": "![\"СТАРТ\", подростково-молодежный клуб](https://sun9-39.vkuserphoto.ru/s/v1/ig2/batWLTpzwrAymGHdLnlAU7cVLcejk4l4tzkgRsL7nOUAfNp6X5Eu_nkiuVCkv3QAwzdQc-_K9Gnbu4RTzLrkmrjD.jpg?quality=96&crop=193,159,1446,1446&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440&ava=1&u=DygYZF6zbVVPp2jXflSJ5NGvn8uUkbK_cpZfGLrVDMU&cs=50x50)\n\n\"СТАРТ\", подростково-молодежный клуб\n\nул. Софийская, д. 47, корп. 1\n\n](https://vk.ru/pmk.start)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/pmk.start",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=13",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "Тхэквондо",
+        "title": "Тхэквондо",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=13",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Традиционное тхэквондо",
+        "title": "Традиционное тхэквондо",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=13",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Всестилевое карате",
+        "title": "Всестилевое карате",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=13",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Волейбол",
+        "title": "Волейбол",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=13",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Тхэквондо",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=13",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Тхэквондо. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=13",
+          "quote": "Тхэквондо",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Традиционное тхэквондо",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=13",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Традиционное тхэквондо. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=13",
+          "quote": "Традиционное тхэквондо",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Всестилевое карате",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=13",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Всестилевое карате. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=13",
+          "quote": "Всестилевое карате",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Волейбол",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=13",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Волейбол. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=13",
+          "quote": "Волейбол",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Современник",
+    "address": "Купчинская ул., д. 32",
+    "phone": "778-04-52",
+    "activities": [
+      "Английский клуб",
+      "Акробатический рок-н-ролл",
+      "Современные танцы",
+      "Каратэ",
+      "Английский язык",
+      "Студия акробатического рок-н-ролла «Лидер»",
+      "Танцы",
+      "Секция каратэ «Хигаши»"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=12",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=12",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 279,
+        "endLine": 285,
+        "quote": "![\"Современник\", подростково-молодежный клуб](https://sun9-62.vkuserphoto.ru/s/v1/ig2/v07-f7lolI31a3ttOX1tLMEnF1pG2T-uYIZRruqgaQ5_dbzK-_7AIFDmOdQuLzT_G1yRVXajufd2xbcmFFVIq8r-.jpg?quality=95&crop=62,53,330,330&as=32x32,48x48,72x72,108x108,160x160,240x240&ava=1&u=7UMWQjfwBbuzlYekmYsuj5qVg_KxL3gObDvcq5xpWYQ&cs=50x50)\n\n\"Современник\", подростково-молодежный клуб\n\nул. Купчинская, д. 32\n\n](https://vk.ru/newsovremennik)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/newsovremennik",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=12",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "Английский язык",
+        "title": "Студия английского языка",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=12",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Студия акробатического рок-н-ролла «Лидер»",
+        "title": "Студия акробатического рок-н-ролла «Лидер»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=12",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Танцы",
+        "title": "Студия современного танца «HARD CORE»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=12",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Секция каратэ «Хигаши»",
+        "title": "Секция каратэ «Хигаши»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=12",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Английский язык",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=12",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия английского языка. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=12",
+          "quote": "Студия английского языка",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Студия акробатического рок-н-ролла «Лидер»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=12",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия акробатического рок-н-ролла «Лидер». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=12",
+          "quote": "Студия акробатического рок-н-ролла «Лидер»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=12",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия современного танца «HARD CORE». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=12",
+          "quote": "Студия современного танца «HARD CORE»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Секция каратэ «Хигаши»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=12",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Секция каратэ «Хигаши». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=12",
+          "quote": "Секция каратэ «Хигаши»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Ракетка",
+    "address": "Будапештская ул., д. 49",
+    "phone": "360-57-72",
+    "activities": [
+      "Настольный теннис",
+      "ОФП"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=11",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=11",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 209,
+        "endLine": 215,
+        "quote": "![\"Ракетка\", подростково-молодежный клуб](https://sun9-4.vkuserphoto.ru/s/v1/ig2/GdYNZTszcglNoDS3Z6n5RuBORoGQFfCTqJoZIepD3Nmi3y6WAR6JcPSi00Ave9W4S-6FvkCN0l-y6va81ITBan8e.jpg?quality=96&crop=185,210,1455,1455&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440&ava=1&u=Gxr3ecVUuN3IUOQcOFHRvNBza9N5N20NO9LFE0kE69c&cs=50x50)\n\n\"Ракетка\", подростково-молодежный клуб\n\nул. Будапештская, д. 49\n\n](https://vk.ru/pmk.raketka)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/pmk.raketka",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=11",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "Настольный теннис",
+        "title": "Настольный теннис",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=11",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "ОФП",
+        "title": "Секция ОФП (общая физическая подготовка)",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=11",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Настольный теннис",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=11",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Настольный теннис. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=11",
+          "quote": "Настольный теннис",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "ОФП",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=11",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Секция ОФП (общая физическая подготовка). Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=11",
+          "quote": "Секция ОФП (общая физическая подготовка)",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Планета",
+    "address": "Будапештская ул., д. 33",
+    "phone": "360-90-03",
+    "activities": [
+      "Хореография",
+      "Танцы"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=9",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=9",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 199,
+        "endLine": 205,
+        "quote": "![\"ПЛАНЕТА\", подростково-молодежный клуб](https://sun9-2.vkuserphoto.ru/s/v1/ig2/19A_CiY7PmNiMiPzCKBbbknz-lcjhSwi9z3uItVSjMajELOyrkFq8uWQFWmbaUGtc1jJaQ_Ro_AInvvaoGyWfKA3.jpg?quality=95&crop=65,12,619,619&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540&ava=1&u=BtKKn38ZO-4xJL2anfO5mm3M2bOLXWnqjuxBsZ_pI4U&cs=50x50)\n\n\"ПЛАНЕТА\", подростково-молодежный клуб\n\nул. Будапештская, д. 33\n\n](https://vk.ru/planeta_tyt)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/planeta_tyt",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=9",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "Танцы",
+        "title": "Хореографический ансамбль эстрадного танца «Каприз»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=9",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=9",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Хореографический ансамбль эстрадного танца «Каприз». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=9",
+          "quote": "Хореографический ансамбль эстрадного танца «Каприз»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Юность",
+    "address": "Купчинская ул., д. 15",
+    "phone": "366-50-66",
+    "activities": [
+      "Йога",
+      "Танцы",
+      "Театр",
+      "Скетчинг",
+      "Литература",
+      "Рукоделие",
+      "Студия скетчинга",
+      "Студия творчества «Рукоделие»",
+      "Студия хип-хоп «На стиле навсегда»",
+      "Секция «Эрудиком»"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=16",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=16",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 259,
+        "endLine": 265,
+        "quote": "![\"Юность\", подростково-молодежный клуб](https://sun9-53.vkuserphoto.ru/s/v1/ig2/zOENvAAeNG7nxhyVFRnjRvehVpQ7xqWsY0FkMskkY0A9LPvUl_y6RD1JVSbMwZyrTdfhouCkBHe9Et8A7P3R0sI6.jpg?quality=95&crop=87,298,828,828&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=mB1V0qBQy145KLJKelBhvRT0SjGF7xr4ZGyONmEJo04&cs=50x50)\n\n\"Юность\", подростково-молодежный клуб\n\nул. Купчинская, д. 15\n\n](https://vk.ru/pmk.yunost)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/pmk.yunost",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=16",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "Студия скетчинга",
+        "title": "Студия скетчинга",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Йога",
+        "title": "Студия йоги «Красивое и здоровое тело»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Театр",
+        "title": "Любительская театральная студия «КАДАНС»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Театр",
+        "title": "Молодёжный театр «Импульс»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Студия творчества «Рукоделие»",
+        "title": "Студия творчества «Рукоделие»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Танцы",
+        "title": "Театр-танца «Тепло»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Студия хип-хоп «На стиле навсегда»",
+        "title": "Студия хип-хоп «На стиле навсегда»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Секция «Эрудиком»",
+        "title": "Секция «Эрудиком»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Студия скетчинга",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия скетчинга. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+          "quote": "Студия скетчинга",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Йога",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия йоги «Красивое и здоровое тело». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+          "quote": "Студия йоги «Красивое и здоровое тело»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Театр",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Любительская театральная студия «КАДАНС». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+          "quote": "Любительская театральная студия «КАДАНС»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Театр",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Молодёжный театр «Импульс». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+          "quote": "Молодёжный театр «Импульс»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Студия творчества «Рукоделие»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия творчества «Рукоделие». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+          "quote": "Студия творчества «Рукоделие»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Театр-танца «Тепло». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+          "quote": "Театр-танца «Тепло»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Студия хип-хоп «На стиле навсегда»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия хип-хоп «На стиле навсегда». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+          "quote": "Студия хип-хоп «На стиле навсегда»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Секция «Эрудиком»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Секция «Эрудиком». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=16",
+          "quote": "Секция «Эрудиком»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Центр современной молодёжной культуры",
+    "name": "Факел",
+    "address": "Софийская ул., д. 44",
+    "phone": "268-10-10",
+    "activities": [
+      "Интеллектуальные игры",
+      "Фитбол-дэнс",
+      "Хореография",
+      "Общая физическая подготовка",
+      "Зумба",
+      "Шахматы",
+      "Танцы",
+      "Зумба-фит",
+      "Йога",
+      "Театр",
+      "Креативная творческая лаборатория «МераПринятия»"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=15",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=15",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 229,
+        "endLine": 235,
+        "quote": "![ФАКЕЛ, подростково-молодежный клуб](https://sun9-50.vkuserphoto.ru/s/v1/ig2/v8wKgh8QhDoq6r_CjLFCYAxvfSetIHWP4vDhi4DajOIhQPeumDevRjLLwbAvKM5Lmj6LXKbFetdVwV4MYphXpgSX.jpg?quality=95&crop=17,0,926,926&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=qePrZY6S9j9eE3_AQcE9rJ4KG-I5AbffmDTIWltkEN8&cs=50x50)\n\nФАКЕЛ, подростково-молодежный клуб\n\nул. Софийская, д. 44\n\n](https://vk.ru/pmk.fakel)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/pmk.fakel",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=15",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "Шахматы",
+        "title": "Интеллектуальные игры «СВОЯ ИГРА» (включая шахматы)",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=15",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Танцы",
+        "title": "Современная хореографическая студия «Жемчужины Петербурга»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=15",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Зумба-фит",
+        "title": "Зумба-фит",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=15",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Йога",
+        "title": "Секция ОФП (йога, растяжка)",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=15",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Театр",
+        "title": "Театр «ЧеТверг»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=15",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Креативная творческая лаборатория «МераПринятия»",
+        "title": "Креативная творческая лаборатория «МераПринятия»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=15",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Шахматы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=15",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Интеллектуальные игры «СВОЯ ИГРА» (включая шахматы). Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=15",
+          "quote": "Интеллектуальные игры «СВОЯ ИГРА» (включая шахматы)",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=15",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Современная хореографическая студия «Жемчужины Петербурга». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=15",
+          "quote": "Современная хореографическая студия «Жемчужины Петербурга»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Зумба-фит",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=15",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Зумба-фит. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=15",
+          "quote": "Зумба-фит",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Йога",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=15",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Секция ОФП (йога, растяжка). Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=15",
+          "quote": "Секция ОФП (йога, растяжка)",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Театр",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=15",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Театр «ЧеТверг». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=15",
+          "quote": "Театр «ЧеТверг»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Креативная творческая лаборатория «МераПринятия»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=15",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Креативная творческая лаборатория «МераПринятия». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=15",
+          "quote": "Креативная творческая лаборатория «МераПринятия»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Романтика",
+    "address": "Бухарестская ул., д. 74",
+    "phone": "268-12-12",
+    "activities": [
+      "Танцы",
+      "Рисование",
+      "Кинорежиссура",
+      "Вокал",
+      "Гитара",
+      "ИЗО-студия «Арт-город»",
+      "Режиссура кино"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=14",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=14",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 239,
+        "endLine": 245,
+        "quote": "![\"Романтика\", подростково-молодежный клуб](https://sun9-52.vkuserphoto.ru/s/v1/ig2/JWaMUEaSA7QUc92JxlhSQoORqSOlyu4pexA5UBarrhmbCaNGfrj39CfusgFEocVE73-Pl5I6RTy-I6ryuym1N0Ul.jpg?quality=95&crop=44,36,1542,1542&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440&ava=1&u=qyn403395-PeZpo4kdDKJHqRhaF-yfPNynu8tOPFUT0&cs=50x50)\n\n\"Романтика\", подростково-молодежный клуб\n\nул. Бухарестская, д. 91 А\n\n](https://vk.ru/pmk_romantika)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/pmk_romantika",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=14",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "Танцы",
+        "title": "Ансамбль танца «Романтика»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=14",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Вокал",
+        "title": "Вокальная студия «Звучи как ты»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=14",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Вокал",
+        "title": "Вокальная студия «Sole»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=14",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Гитара",
+        "title": "Студия гитары «Музыка серебряных струн»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=14",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "ИЗО-студия «Арт-город»",
+        "title": "ИЗО-студия «Арт-город»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=14",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Режиссура кино",
+        "title": "Режиссура кино",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=14",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=14",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Ансамбль танца «Романтика». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=14",
+          "quote": "Ансамбль танца «Романтика»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Вокал",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=14",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Вокальная студия «Звучи как ты». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=14",
+          "quote": "Вокальная студия «Звучи как ты»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Вокал",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=14",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Вокальная студия «Sole». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=14",
+          "quote": "Вокальная студия «Sole»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Гитара",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=14",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия гитары «Музыка серебряных струн». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=14",
+          "quote": "Студия гитары «Музыка серебряных струн»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "ИЗО-студия «Арт-город»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=14",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "ИЗО-студия «Арт-город». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=14",
+          "quote": "ИЗО-студия «Арт-город»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Режиссура кино",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=14",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Режиссура кино. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=14",
+          "quote": "Режиссура кино",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Прогресс",
+    "address": "Бухарестская ул., д. 31, корп. 1",
+    "phone": "774-70-49",
+    "activities": [
+      "Современные танцы",
+      "Тяжёлая атлетика",
+      "Пауэрлифтинг",
+      "Тренажёрный зал",
+      "Фитнес"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=10",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=10",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 179,
+        "endLine": 185,
+        "quote": "![\"ПРОГРЕСС\", подростково-молодежный клуб](https://sun9-46.vkuserphoto.ru/s/v1/ig2/HWOrVJoYscC6yuQcbp4_tvZBXvBZHZhONWYaMw3cw0eCagUNd7UsYzK2QnBI7u1CF8c2zeEBe3ve1WSwTCn4WMyo.jpg?quality=96&crop=3,2,1344,1344&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280&ava=1&u=DOYLuxl5hPlJpda5_Ss68ZIAlOmH4kGWyh2o-IbsEMI&cs=50x50)\n\n\"ПРОГРЕСС\", подростково-молодежный клуб\n\nул. Бухарестская, д. 31, корп. 1\n\n](https://vk.ru/progresssportclub)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/progresssportclub",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=10",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "Тяжёлая атлетика",
+        "title": "Тяжёлая атлетика",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=10",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Пауэрлифтинг",
+        "title": "Пауэрлифтинг",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=10",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Тренажёрный зал",
+        "title": "Функциональный тренинг (тренажёрный зал)",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=10",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Фитнес",
+        "title": "Студия танца и фитнеса «HeadWay»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=10",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Тяжёлая атлетика",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=10",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Тяжёлая атлетика. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=10",
+          "quote": "Тяжёлая атлетика",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Пауэрлифтинг",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=10",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Пауэрлифтинг. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=10",
+          "quote": "Пауэрлифтинг",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Тренажёрный зал",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=10",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Функциональный тренинг (тренажёрный зал). Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=10",
+          "quote": "Функциональный тренинг (тренажёрный зал)",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Фитнес",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=10",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия танца и фитнеса «HeadWay». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=10",
+          "quote": "Студия танца и фитнеса «HeadWay»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Атмосфера",
+    "address": "Софийская ул., д. 39, корп. 1",
+    "phone": "269-08-13",
+    "activities": [
+      "Гитара",
+      "Фитнес",
+      "Творческий клуб",
+      "Театр",
+      "Вокал",
+      "Студия «Зумба»",
+      "Студия арт-терапии «Сила образа»",
+      "Танцы"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=8",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=8",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 139,
+        "endLine": 145,
+        "quote": "![\"Атмосфера\", подростково-молодежный клуб](https://sun9-8.vkuserphoto.ru/s/v1/ig2/Nhtp1M9yT8wooZ2vbvSSw7ujzNFNY0BIKCmgtyAXvzEcXpoc6iMyfrTMUhpB-qe9pipbJqWLadPAe1ENXSUYtXhj.jpg?quality=95&crop=171,204,706,706&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&u=nhXV-7P4i77yPhp20XXutrILjbcK_sw_P39Qvuk_y5U&cs=50x50)\n\n\"Атмосфера\", подростково-молодежный клуб\n\nул. Софийская, д. 39, корп. 1\n\n](https://vk.ru/pmk.atmosfera)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/pmk.atmosfera",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=8",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "Театр",
+        "title": "Музыкальный театр-студия «Маска»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=8",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Вокал",
+        "title": "Вокальная студия «Форте»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=8",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Студия «Зумба»",
+        "title": "Студия «Зумба»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=8",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Студия арт-терапии «Сила образа»",
+        "title": "Студия арт-терапии «Сила образа»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=8",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Танцы",
+        "title": "Студия социального танца «Атмосфера танца»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=8",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Театр",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=8",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Музыкальный театр-студия «Маска». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=8",
+          "quote": "Музыкальный театр-студия «Маска»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Вокал",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=8",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Вокальная студия «Форте». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=8",
+          "quote": "Вокальная студия «Форте»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Студия «Зумба»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=8",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия «Зумба». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=8",
+          "quote": "Студия «Зумба»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Студия арт-терапии «Сила образа»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=8",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия арт-терапии «Сила образа». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=8",
+          "quote": "Студия арт-терапии «Сила образа»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=8",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия социального танца «Атмосфера танца». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=8",
+          "quote": "Студия социального танца «Атмосфера танца»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Гармония",
+    "address": "Купчинская ул., д. 23",
+    "phone": "778-98-58",
+    "activities": [
+      "Рисование",
+      "Здоровье",
+      "Английский язык",
+      "Танцы",
+      "Студия красоты и здоровья «ABS+Flex»",
+      "Студия ИЗО и творческая мастерская"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=7",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=7",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 269,
+        "endLine": 275,
+        "quote": "![\"Гармония\", подростково-молодежный клуб](https://sun9-50.vkuserphoto.ru/s/v1/ig2/VXV1q8qezQ_UW7I3dvSHM3oA2cScZndyobQSchoJYJkI-IIaHEErJrwZcNRgFmNoVgIKBiI02x9V5vd9vN1Z5hPZ.jpg?quality=95&crop=108,516,864,864&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=2-bjS3CMepVa3a5mTxqPFpS7wH5WoL0vKrt_CZy3MuQ&cs=50x50)\n\n\"Гармония\", подростково-молодежный клуб\n\nул. Купчинская, д. 23\n\n](https://vk.ru/pmk.garmonia)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/pmk.garmonia",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=7",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "Студия красоты и здоровья «ABS+Flex»",
+        "title": "Студия красоты и здоровья «ABS+Flex»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=7",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Танцы",
+        "title": "Студия современного танца (хип-хоп)",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=7",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Английский язык",
+        "title": "Студия английского языка «ГОВОРИЛИТИ»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=7",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Студия ИЗО и творческая мастерская",
+        "title": "Студия ИЗО и творческая мастерская",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=7",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Студия красоты и здоровья «ABS+Flex»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=7",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия красоты и здоровья «ABS+Flex». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=7",
+          "quote": "Студия красоты и здоровья «ABS+Flex»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=7",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия современного танца (хип-хоп). Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=7",
+          "quote": "Студия современного танца (хип-хоп)",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Английский язык",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=7",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия английского языка «ГОВОРИЛИТИ». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=7",
+          "quote": "Студия английского языка «ГОВОРИЛИТИ»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Студия ИЗО и творческая мастерская",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=7",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия ИЗО и творческая мастерская. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=7",
+          "quote": "Студия ИЗО и творческая мастерская",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Феникс",
+    "address": "Пловдивская ул., д. 9",
+    "phone": "708-11-37",
+    "activities": [
+      "Фитнес",
+      "Рисование",
+      "Самбо"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=6",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=6",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 249,
+        "endLine": 255,
+        "quote": "![ФЕНИКС, подростково-молодежный клуб](https://sun9-15.vkuserphoto.ru/s/v1/ig2/q4EZd-m9xhrg0mgmeNLh1-B4o_lSKfW75m78xkza32eMi_I70h8rWo2YBxDI5wx7EHQHsMzWzcPczpqn5xlidYU2.jpg?quality=96&crop=59,59,1681,1681&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440&ava=1&u=acgds5j8k4ZFbljnOdxE5S-wgKNiIlnInYSdDdM6O_I&cs=50x50)\n\nФЕНИКС, подростково-молодежный клуб\n\nул. Пловдивская, д. 9\n\n](https://vk.ru/pmk.fenix)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/pmk.fenix",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=6",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28"
+  },
+  {
+    "name": "ВПК имени 3-й Фрунзенской дивизии народного ополчения",
+    "address": "ул. Олеко Дундича, д. 34",
+    "phone": "778-89-74",
+    "activities": [
+      "Лайт-файт",
+      "Страйкбол",
+      "Управление БПЛА",
+      "Борьба",
+      "ММА-Лайт (лайт-файт - вид смешанных единоборств с дозированным контактом);",
+      "Секция «Управление дронами» ;",
+      "Секция «Тактическая стрельба» (лазерный тир и страйкбол);",
+      "Студия подкастов - запись видеоконтента в профессионально оборудованной студии."
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=5",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=5",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 189,
+        "endLine": 195,
+        "quote": "![ПМК \"Военно-патриотический клуб им. 3-й ФДНО\"](https://sun9-54.vkuserphoto.ru/s/v1/ig2/CMwePm_89eG971ZMSx6zZzzx2kM6q-c2hyQCNZham2d9kHbOSFm6IJD2d1orjw19N6Oyt63ZAh3Hn2ZvWa28AzQd.jpg?quality=95&crop=0,0,433,433&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=piY6kezD6fzDTkyRPAf_IHgXqTYXGgme9aZ7Civy42c&cs=50x50)\n\nПМК \"Военно-патриотический клуб им. 3-й ФДНО\"\n\nул. Олеко Дундича, д. 34\n\n](https://vk.ru/3fdno)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/3fdno",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=5",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "ММА-Лайт (лайт-файт - вид смешанных единоборств с дозированным контактом);",
+        "title": "ММА-Лайт (лайт-файт - вид смешанных единоборств с дозированным контактом);",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=5",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Секция «Управление дронами» ;",
+        "title": "Секция «Управление дронами» ;",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=5",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Секция «Тактическая стрельба» (лазерный тир и страйкбол);",
+        "title": "Секция «Тактическая стрельба» (лазерный тир и страйкбол);",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=5",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Студия подкастов - запись видеоконтента в профессионально оборудованной студии.",
+        "title": "Студия подкастов - запись видеоконтента в профессионально оборудованной студии.",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=5",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "ММА-Лайт (лайт-файт - вид смешанных единоборств с дозированным контактом);",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=5",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "ММА-Лайт (лайт-файт - вид смешанных единоборств с дозированным контактом);. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=5",
+          "quote": "ММА-Лайт (лайт-файт — вид смешанных единоборств с дозированным контактом);",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Секция «Управление дронами» ;",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=5",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Секция «Управление дронами» ;. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=5",
+          "quote": "Секция «Управление дронами» ;",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Секция «Тактическая стрельба» (лазерный тир и страйкбол);",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=5",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Секция «Тактическая стрельба» (лазерный тир и страйкбол);. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=5",
+          "quote": "Секция «Тактическая стрельба» (лазерный тир и страйкбол);",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Студия подкастов - запись видеоконтента в профессионально оборудованной студии.",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=5",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия подкастов - запись видеоконтента в профессионально оборудованной студии.. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=5",
+          "quote": "Студия подкастов — запись видеоконтента в профессионально оборудованной студии.",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "МИР",
+    "address": "Бухарестская ул., д. 114",
+    "activities": [
+      "Театр",
+      "Фотография",
+      "Киноклуб",
+      "Киношкола Дмитрия Леднева",
+      "Школа дипломата",
+      "Арт-студия «Краски и кисти»",
+      "Студия здорового движения «Пульс»",
+      "Медиа-студия «67»"
+    ],
+    "officialUrl": "http://centerfrunze.ru/clubs.php?id=4",
+    "contactSource": {
+      "officialUrl": "http://centerfrunze.ru/clubs.php?id=4",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Фрунзенского района.md",
+        "startLine": 149,
+        "endLine": 155,
+        "quote": "![Подростково-молодежный клуб \"МИР\"](https://sun9-61.vkuserphoto.ru/s/v1/ig2/ks0eiAGomm45k0Vr07x195ksC8mQxmHQ3_xZ8qgZ18mi3R56vpiuwUuYFp6fTaZL8CK3qNeQAc5qkliOTOQXK_jS.jpg?quality=95&crop=0,0,1800,1800&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440&ava=1&u=04SOLswFruWwlGxR3URe49EwPdqRfqieMF8LAsXdd4s&cs=50x50)\n\nПодростково-молодежный клуб \"МИР\"\n\nул. Бухарестская, д. 114\n\n](https://vk.ru/pmkmir)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.ru/pmkmir",
+    "vkUrlSource": "http://centerfrunze.ru/clubs.php?id=4",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "catalogActivity": "Киношкола Дмитрия Леднева",
+        "title": "Киношкола Дмитрия Леднева",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=4",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Школа дипломата",
+        "title": "Школа дипломата",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=4",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Арт-студия «Краски и кисти»",
+        "title": "Арт-студия «Краски и кисти»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=4",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Студия здорового движения «Пульс»",
+        "title": "Студия здорового движения «Пульс»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=4",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Медиа-студия «67»",
+        "title": "Медиа-студия «67»",
+        "officialUrl": "http://centerfrunze.ru/clubs.php?id=4",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Киношкола Дмитрия Леднева",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=4",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Киношкола Дмитрия Леднева. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=4",
+          "quote": "Киношкола Дмитрия Леднева",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Школа дипломата",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=4",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Школа дипломата. Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=4",
+          "quote": "Школа дипломата",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Арт-студия «Краски и кисти»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=4",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Арт-студия «Краски и кисти». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=4",
+          "quote": "Арт-студия «Краски и кисти»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Студия здорового движения «Пульс»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=4",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Студия здорового движения «Пульс». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=4",
+          "quote": "Студия здорового движения «Пульс»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Медиа-студия «67»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "http://centerfrunze.ru/clubs.php?id=4",
+        "sourceCheckedAt": "2026-10-26",
+        "sourceText": "Медиа-студия «67». Бесплатный вариант от 14 до 35 лет. Возраст своей группы и наличие мест уточни у клуба",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "http://centerfrunze.ru/clubs.php?id=4",
+          "quote": "Медиа-студия «67»",
+          "age": "от 14 до 35 лет"
+        },
+        "importTask": "S-84"
+      }
+    ]
+  }
 ]

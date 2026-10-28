@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-23",
+  "scope": "local only",
+  "mappedClubs": 331,
+  "routesUnchanged": 1700,
+  "linkedActivities": 31,
+  "plainActivities": 1660,
+  "linkedClubs": 12,
+  "morskoy": [
+    {
+      "label": "Гитара",
+      "url": "activities/morskoy-devyatyy-lad.html"
+    },
+    {
+      "label": "Курс «Сам себе кинолог»",
+      "url": "activities/morskoy-sam-sebe-kinolog.html"
+    },
+    {
+      "label": "Разговорный клуб: английский, немецкий, японский",
+      "url": "activities/morskoy-razgovornyy-klub.html"
+    },
+    {
+      "label": "Фотостудия",
+      "url": "activities/morskoy-vspyshka.html"
+    }
+  ],
+  "vitana": [
+    {
+      "label": "Чир-спорт",
+      "url": "activities/vasileostrovsky-vitana-chir-sport-01.html"
+    },
+    {
+      "label": "ОФП по чир-спорту",
+      "url": "activities/vasileostrovsky-vitana-ofp-po-chir-sportu-02.html"
+    },
+    {
+      "label": "Соло-латина",
+      "url": "activities/vasileostrovsky-vitana-solo-latina-03.html"
+    },
+    {
+      "label": "Фитнес",
+      "url": "activities/vasileostrovsky-vitana-fitnes-04.html"
+    },
+    {
+      "label": "Фитнес-йога"
+    },
+    {
+      "label": "Настольный теннис"
+    }
+  ],
+  "checks": [
+    "all previous activity routes unchanged",
+    "each map link opens an existing activity page with a matching direction VK community",
+    "fallback club VK does not create a direction link",
+    "unconfirmed suggested mapping stays plain text",
+    "home and nested URL prefixes",
+    "blue underlined links and unsafe URL rejection"
+  ]
+}

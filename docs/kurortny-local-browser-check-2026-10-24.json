@@ -1,0 +1,168 @@
+{
+  "checkedSchedules": 40,
+  "checkedSlots": 208,
+  "retiredPagesAbsent": 0,
+  "contactPages": 9,
+  "renderMode": "static dist HTML with original local CSS and fonts; no HTTP preview assertion",
+  "browserChecks": [
+    {
+      "route": "activities/kurortny-voshod-primorskoe-shosse-280-dzyudo-03.html",
+      "width": 390,
+      "scroll": 390,
+      "groups": [
+        3,
+        3,
+        2
+      ],
+      "slots": 21,
+      "screenshot": "outputs/kurortny-voshod-primorskoe-shosse-280-2-390.png"
+    },
+    {
+      "route": "activities/kurortny-voshod-primorskoe-shosse-280-dzyudo-03.html",
+      "width": 683,
+      "scroll": 683,
+      "groups": [
+        3,
+        3,
+        2
+      ],
+      "slots": 21,
+      "screenshot": "outputs/kurortny-voshod-primorskoe-shosse-280-2-683.png"
+    },
+    {
+      "route": "activities/kurortny-voshod-primorskoe-shosse-280-dzyudo-03.html",
+      "width": 1280,
+      "scroll": 1280,
+      "groups": [
+        3,
+        3,
+        2
+      ],
+      "slots": 21,
+      "screenshot": "outputs/kurortny-voshod-primorskoe-shosse-280-2-1280.png"
+    },
+    {
+      "route": "activities/kurortny-molodost-studiya-gorod-masterov-15.html",
+      "width": 390,
+      "scroll": 390,
+      "groups": [
+        3,
+        2
+      ],
+      "slots": 12,
+      "screenshot": "outputs/kurortny-molodost-14-390.png"
+    },
+    {
+      "route": "activities/kurortny-molodost-studiya-gorod-masterov-15.html",
+      "width": 683,
+      "scroll": 683,
+      "groups": [
+        3,
+        2
+      ],
+      "slots": 12,
+      "screenshot": "outputs/kurortny-molodost-14-683.png"
+    },
+    {
+      "route": "activities/kurortny-molodost-studiya-gorod-masterov-15.html",
+      "width": 1280,
+      "scroll": 1280,
+      "groups": [
+        3,
+        2
+      ],
+      "slots": 12,
+      "screenshot": "outputs/kurortny-molodost-14-1280.png"
+    },
+    {
+      "route": "activities/kurortny-molodost-nastolnyy-tennis-04.html",
+      "width": 390,
+      "scroll": 390,
+      "groups": [
+        3
+      ],
+      "slots": 4,
+      "screenshot": "outputs/kurortny-molodost-3-390.png"
+    },
+    {
+      "route": "activities/kurortny-molodost-nastolnyy-tennis-04.html",
+      "width": 683,
+      "scroll": 683,
+      "groups": [
+        3
+      ],
+      "slots": 4,
+      "screenshot": "outputs/kurortny-molodost-3-683.png"
+    },
+    {
+      "route": "activities/kurortny-molodost-nastolnyy-tennis-04.html",
+      "width": 1280,
+      "scroll": 1280,
+      "groups": [
+        3
+      ],
+      "slots": 4,
+      "screenshot": "outputs/kurortny-molodost-3-1280.png"
+    },
+    {
+      "route": "activities/kurortny-snayper-lenina-boks-02.html",
+      "width": 390,
+      "scroll": 390,
+      "groups": [
+        2
+      ],
+      "slots": 1,
+      "screenshot": "outputs/kurortny-snayper-lenina-1-390.png"
+    },
+    {
+      "route": "activities/kurortny-snayper-lenina-boks-02.html",
+      "width": 683,
+      "scroll": 683,
+      "groups": [
+        2
+      ],
+      "slots": 1,
+      "screenshot": "outputs/kurortny-snayper-lenina-1-683.png"
+    },
+    {
+      "route": "activities/kurortny-snayper-lenina-boks-02.html",
+      "width": 1280,
+      "scroll": 1280,
+      "groups": [
+        2
+      ],
+      "slots": 1,
+      "screenshot": "outputs/kurortny-snayper-lenina-1-1280.png"
+    },
+    {
+      "route": "activities/kurortny-snayper-ispolkomskaya-ofp-silovyh-sposobnostey-trenazhyo-12.html",
+      "width": 390,
+      "scroll": 390,
+      "groups": [
+        3
+      ],
+      "slots": 5,
+      "screenshot": "outputs/kurortny-snayper-ispolkomskaya-11-390.png"
+    },
+    {
+      "route": "activities/kurortny-snayper-ispolkomskaya-ofp-silovyh-sposobnostey-trenazhyo-12.html",
+      "width": 683,
+      "scroll": 683,
+      "groups": [
+        3
+      ],
+      "slots": 5,
+      "screenshot": "outputs/kurortny-snayper-ispolkomskaya-11-683.png"
+    },
+    {
+      "route": "activities/kurortny-snayper-ispolkomskaya-ofp-silovyh-sposobnostey-trenazhyo-12.html",
+      "width": 1280,
+      "scroll": 1280,
+      "groups": [
+        3
+      ],
+      "slots": 5,
+      "screenshot": "outputs/kurortny-snayper-ispolkomskaya-11-1280.png"
+    }
+  ]
+}

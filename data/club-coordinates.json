@@ -1,14 +1,14 @@
 {
-  "description": "Координаты клубов. clubCoordinates содержит точку для каждого клуба. user_provided предоставлены пользователем; likely_match означает автоматическую проверку дома и улицы без ручного подтверждения.",
+  "description": "Координаты клубов. clubCoordinates содержит точку для каждого клуба. user_provided предоставлены пользователем; official_address_shared_venue означает предварительную точку здания другой площадки по общему официальному адресу; likely_match означает автоматическую проверку дома и улицы без ручного подтверждения.",
   "source": "OpenStreetMap Nominatim",
   "attribution": "© OpenStreetMap contributors",
   "license": "https://www.openstreetmap.org/copyright",
   "clubCount": 334,
-  "addressCount": 322,
-  "userProvidedClubCount": 310,
+  "addressCount": 321,
+  "userProvidedClubCount": 309,
   "summary": {
-    "user_provided": 299,
-    "partially_user_provided": 0,
+    "user_provided": 297,
+    "partially_user_provided": 1,
     "likely_match": 15,
     "needs_review": 5,
     "not_found": 3,
@@ -1059,8 +1059,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXR77P8Z",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 20412 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -2875,8 +2875,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRrYQZF",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 2318 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -2916,8 +2916,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRrYBZ0",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 5502 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -3378,9 +3378,9 @@
       }
     },
     {
-      "id": "2e0244dda97a",
+      "id": "910c21d5a550",
       "district": "kolpinsky",
-      "address": "г. Колпино, бульвар Трудящихся, д. 29/5",
+      "address": "г. Колпино, бульвар Трудящихся, д. 29/52",
       "clubs": [
         {
           "name": "Родина",
@@ -3398,12 +3398,11 @@
       "status": "needs_review",
       "reasons": [
         "Двойной номер дома",
-        "Совпадение не уровня здания",
-        "Номер дома не подтверждён"
+        "Совпадение не уровня здания"
       ],
       "coordinates": {
-        "latitude": 59.7349661,
-        "longitude": 30.5846019
+        "latitude": 59.7340481,
+        "longitude": 30.5793962
       },
       "coordinateSource": "OpenStreetMap Nominatim",
       "referenceUrl": null,
@@ -3412,8 +3411,8 @@
         {
           "clubName": "Родина",
           "coordinates": {
-            "latitude": 59.7349661,
-            "longitude": 30.5846019
+            "latitude": 59.7340481,
+            "longitude": 30.5793962
           },
           "source": "OpenStreetMap Nominatim candidate",
           "referenceUrl": null,
@@ -3423,9 +3422,9 @@
         }
       ],
       "match": {
-        "displayName": "бульвар Трудящихся, Вертолёт, Колпино, Санкт-Петербург, Северо-Западный федеральный округ, 196657, Россия",
-        "type": "road",
-        "osmUrl": "https://www.openstreetmap.org/way/341734437"
+        "displayName": "Ижорский профессиональный политехнический лицей, 29/52, бульвар Трудящихся, Вертолёт, Колпино, Санкт-Петербург, Северо-Западный федеральный округ, 196657, Россия",
+        "type": "amenity",
+        "osmUrl": "https://www.openstreetmap.org/relation/1181112"
       }
     },
     {
@@ -3470,45 +3469,41 @@
       }
     },
     {
-      "id": "fb5ce95a92ce",
+      "id": "3a402e543259",
       "district": "kolpinsky",
-      "address": "г. Колпино, пр. Ленина, д. 49",
+      "address": "г. Колпино, ул. Адмиралтейская, д. 9",
       "clubs": [
         {
-          "name": "Горизонт",
+          "name": "Фантазёры",
           "source": "data/clubs-kolpinsky.json",
-          "index": 3
+          "index": 4
         }
       ],
       "pendingClubs": [],
       "status": "user_provided",
       "reasons": [],
       "coordinates": {
-        "latitude": 59.751524,
-        "longitude": 30.571053
+        "latitude": 59.744533,
+        "longitude": 30.593053
       },
       "coordinateSource": "user_provided",
-      "referenceUrl": "https://yandex.ru/maps/-/CXRraNoG",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRraCII",
       "mapLabel": null,
       "clubCoordinates": [
         {
-          "clubName": "Горизонт",
+          "clubName": "Фантазёры",
           "coordinates": {
-            "latitude": 59.751524,
-            "longitude": 30.571053
+            "latitude": 59.744533,
+            "longitude": 30.593053
           },
           "source": "user_provided",
-          "referenceUrl": "https://yandex.ru/maps/-/CXRraNoG",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRraCII",
           "mapLabel": null,
           "precision": null,
           "locationNote": null
         }
       ],
-      "match": {
-        "displayName": "49, проспект Ленина, Колпино, Санкт-Петербург, Северо-Западный федеральный округ, 196650, Россия",
-        "type": "building",
-        "osmUrl": "https://www.openstreetmap.org/way/77857697"
-      }
+      "match": null
     },
     {
       "id": "75499161ad23",
@@ -3549,47 +3544,6 @@
         "displayName": "Старый универсам, 89, улица Веры Слуцкой, Вертолёт, Колпино, Санкт-Петербург, Северо-Западный федеральный округ, 196657, Россия",
         "type": "building",
         "osmUrl": "https://www.openstreetmap.org/relation/1167382"
-      }
-    },
-    {
-      "id": "23446a295818",
-      "district": "kolpinsky",
-      "address": "г. Колпино, ул. Володарского, д. 9",
-      "clubs": [
-        {
-          "name": "Фантазёры",
-          "source": "data/clubs-kolpinsky.json",
-          "index": 4
-        }
-      ],
-      "pendingClubs": [],
-      "status": "user_provided",
-      "reasons": [],
-      "coordinates": {
-        "latitude": 59.744533,
-        "longitude": 30.593053
-      },
-      "coordinateSource": "user_provided",
-      "referenceUrl": "https://yandex.ru/maps/-/CXRraCII",
-      "mapLabel": null,
-      "clubCoordinates": [
-        {
-          "clubName": "Фантазёры",
-          "coordinates": {
-            "latitude": 59.744533,
-            "longitude": 30.593053
-          },
-          "source": "user_provided",
-          "referenceUrl": "https://yandex.ru/maps/-/CXRraCII",
-          "mapLabel": null,
-          "precision": null,
-          "locationNote": null
-        }
-      ],
-      "match": {
-        "displayName": "9, Адмиралтейская улица, Колпино, Санкт-Петербург, Северо-Западный федеральный округ, 196653, Россия",
-        "type": "building",
-        "osmUrl": "https://www.openstreetmap.org/way/38806748"
       }
     },
     {
@@ -3691,14 +3645,27 @@
           "index": 1
         },
         {
+          "name": "Горизонт",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 3
+        },
+        {
           "name": "Медиазавод",
           "source": "data/clubs-kolpinsky.json",
           "index": 9
         }
       ],
-      "pendingClubs": [],
-      "status": "user_provided",
-      "reasons": [],
+      "pendingClubs": [
+        {
+          "name": "Горизонт",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 3
+        }
+      ],
+      "status": "partially_user_provided",
+      "reasons": [
+        "Официальный адрес «Горизонта» изменён на Павловскую, 82. Предварительно показано здание «Медиазавода» по тому же адресу. Нужна точка входа «Горизонта»; прежняя точка на проспекте Ленина сохранена в истории."
+      ],
       "coordinates": null,
       "coordinateSource": "per_club",
       "referenceUrl": null,
@@ -3715,6 +3682,20 @@
           "mapLabel": null,
           "precision": null,
           "locationNote": null
+        },
+        {
+          "clubName": "Горизонт",
+          "coordinates": {
+            "latitude": 59.747852,
+            "longitude": 30.567229
+          },
+          "source": "official_address_shared_venue",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRreVJa",
+          "mapLabel": null,
+          "precision": "approximate",
+          "locationNote": "Официальный адрес «Горизонта» изменён на Павловскую, 82. Предварительно показано здание «Медиазавода» по тому же адресу. Нужна точка входа «Горизонта»; прежняя точка на проспекте Ленина сохранена в истории.",
+          "evidenceUrl": "http://dmk.spb.ru/klubs/gorizont/",
+          "derivedFromClub": "Медиазавод"
         },
         {
           "clubName": "Медиазавод",
@@ -4215,8 +4196,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRr641F",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 2572 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -4457,8 +4438,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRrbM9H",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 3121 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -4509,9 +4490,9 @@
       }
     },
     {
-      "id": "5e7a14938b11",
+      "id": "17b607645fdb",
       "district": "krasnogvardeysky",
-      "address": "ул. Белорусская, д. 6, корп. 2 и 3",
+      "address": "ул. Белорусская, д. 6, корп. 2",
       "clubs": [
         {
           "name": "Адреналин",
@@ -4543,11 +4524,7 @@
           "locationNote": null
         }
       ],
-      "match": {
-        "displayName": "Общежитие ИТМО, 6, Белорусская улица, округ Пороховые, Санкт-Петербург, Северо-Западный федеральный округ, 195298, Россия",
-        "type": "building",
-        "osmUrl": "https://www.openstreetmap.org/way/23917326"
-      }
+      "match": null
     },
     {
       "id": "7e1585b438d0",
@@ -4580,8 +4557,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRrqOK8",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 5840 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -4835,8 +4812,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRr689p",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 21077 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -5707,6 +5684,43 @@
       }
     },
     {
+      "id": "bf14974cbf46",
+      "district": "kurortny",
+      "address": "г. Зеленогорск, пр. Ленина, д. 25",
+      "clubs": [
+        {
+          "name": "Снайпер: Ленина",
+          "source": "data/clubs-kurortny.json",
+          "index": 7
+        }
+      ],
+      "pendingClubs": [],
+      "status": "user_provided",
+      "reasons": [],
+      "coordinates": {
+        "latitude": 60.200765,
+        "longitude": 29.70687
+      },
+      "coordinateSource": "user_provided",
+      "referenceUrl": "https://yandex.ru/maps/-/CXRr7AIO",
+      "mapLabel": null,
+      "clubCoordinates": [
+        {
+          "clubName": "Снайпер: Ленина",
+          "coordinates": {
+            "latitude": 60.200765,
+            "longitude": 29.70687
+          },
+          "source": "user_provided",
+          "referenceUrl": "https://yandex.ru/maps/-/CXRr7AIO",
+          "mapLabel": null,
+          "precision": null,
+          "locationNote": null
+        }
+      ],
+      "match": null
+    },
+    {
       "id": "c1c135ba673c",
       "district": "kurortny",
       "address": "г. Зеленогорск, Привокзальная ул., д. 7",
@@ -5792,47 +5806,6 @@
         "displayName": "5, Исполкомская улица, Зеленогорск, Санкт-Петербург, Северо-Западный федеральный округ, 189810, Россия",
         "type": "building",
         "osmUrl": "https://www.openstreetmap.org/way/89563626"
-      }
-    },
-    {
-      "id": "8688b4734fdb",
-      "district": "kurortny",
-      "address": "г. Зеленогорск, ул. Ленина, д. 25",
-      "clubs": [
-        {
-          "name": "Снайпер: Ленина",
-          "source": "data/clubs-kurortny.json",
-          "index": 7
-        }
-      ],
-      "pendingClubs": [],
-      "status": "user_provided",
-      "reasons": [],
-      "coordinates": {
-        "latitude": 60.200765,
-        "longitude": 29.70687
-      },
-      "coordinateSource": "user_provided",
-      "referenceUrl": "https://yandex.ru/maps/-/CXRr7AIO",
-      "mapLabel": null,
-      "clubCoordinates": [
-        {
-          "clubName": "Снайпер: Ленина",
-          "coordinates": {
-            "latitude": 60.200765,
-            "longitude": 29.70687
-          },
-          "source": "user_provided",
-          "referenceUrl": "https://yandex.ru/maps/-/CXRr7AIO",
-          "mapLabel": null,
-          "precision": null,
-          "locationNote": null
-        }
-      ],
-      "match": {
-        "displayName": "25, улица Ленина, Квартал №20А, 4-й квартал, Зеленогорск, ЗАТО Зеленогорск, Красноярский край, Сибирский федеральный округ, 663690, Россия",
-        "type": "building",
-        "osmUrl": "https://www.openstreetmap.org/way/103432016"
       }
     },
     {
@@ -6612,8 +6585,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRvIYYh",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 3880 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -6694,8 +6667,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRva28U",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 14851 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -7063,8 +7036,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRzQGL-",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 1749 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -8340,8 +8313,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRzQ02t",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 2606 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -9280,8 +9253,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRz44y9",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 16949 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -9321,8 +9294,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRzeJk-",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 16844 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -11710,8 +11683,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRCACN8",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 13816 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {
@@ -13224,8 +13197,8 @@
           "source": "user_provided",
           "referenceUrl": "https://yandex.ru/maps/-/CXRnvOk4",
           "mapLabel": null,
-          "precision": "approximate",
-          "locationNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 23333 м; адрес и точку нужно проверить вручную."
+          "precision": null,
+          "locationNote": null
         }
       ],
       "match": {

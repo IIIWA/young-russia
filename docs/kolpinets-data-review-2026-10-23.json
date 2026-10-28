@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-23",
+  "status": "published_verified",
+  "officialPages": 16,
+  "clubs": 10,
+  "newNamedActivities": 51,
+  "schedules": 49,
+  "slots": 135,
+  "userServices": 57,
+  "unmappedUserServices": [
+    {
+      "index": 7,
+      "title": "Диалог. Психология и общение",
+      "costText": "бесплатно",
+      "institution": "ДМК — Дом молодёжи «Колпинец»",
+      "reason": "Две официальные программы «Диалог», одно общее название услуги; соответствие не определено."
+    },
+    {
+      "index": 15,
+      "title": "«Закон в тренде»",
+      "costText": "бесплатно",
+      "institution": "ДМК — Дом молодёжи «Колпинец»",
+      "reason": "Точное соответствие программе и клубу на проверенных официальных страницах не найдено."
+    },
+    {
+      "index": 16,
+      "title": "«Смех и точка»",
+      "costText": "бесплатно",
+      "institution": "ДМК — Дом молодёжи «Колпинец»",
+      "reason": "Точное соответствие программе и клубу на проверенных официальных страницах не найдено."
+    },
+    {
+      "index": 29,
+      "title": "«Старт в арт». Творческая студия",
+      "costText": "бесплатно",
+      "institution": "ДМК — Дом молодёжи «Колпинец»",
+      "reason": "Точное соответствие программе и клубу на проверенных официальных страницах не найдено."
+    },
+    {
+      "index": 30,
+      "title": "«Антикафе» в рамках объединений «Траектория подростка» и «Паутина»",
+      "costText": "бесплатно",
+      "institution": "ДМК — Дом молодёжи «Колпинец»",
+      "reason": "На сайте найдены «Траектория подростка» и «Паутина», но не отдельные часы услуги «Антикафе»."
+    },
+    {
+      "index": 57,
+      "title": "«Есть контакт». Объединение для молодёжи",
+      "costText": "бесплатно",
+      "institution": "ДМК — Дом молодёжи «Колпинец»",
+      "reason": "Точное соответствие программе и клубу на проверенных официальных страницах не найдено."
+    }
+  ],
+  "unpublishedPrograms": [
+    {
+      "club": "Горизонт",
+      "activity": "Группа практической психологии «Спроси у психолога»",
+      "schedule": [
+        {
+          "day": "вторник",
+          "time": "15:00-20:00"
+        },
+        {
+          "day": "суббота",
+          "time": "15:00-20:00"
+        }
+      ],
+      "userServiceIndexes": [],
+      "reason": "В присланном бесплатном перечне это название не найдено; бесплатность и набор не подтверждены."
+    },
+    {
+      "club": "Медиазавод",
+      "activity": "Бесконфликтное общение «Диалог»",
+      "schedule": [
+        {
+          "day": "вторник",
+          "time": "15:00-20:00"
+        },
+        {
+          "day": "среда",
+          "time": "15:00-20:00"
+        }
+      ],
+      "userServiceIndexes": [
+        7
+      ],
+      "mappingNote": "Название витрины «Диалог. Психология и общение» сопоставлено по профилю общения. На сайте также есть другое семейное пространство «Диалог» в «Факеле»; ID услуги и однозначность сопоставления требуют проверки.",
+      "reason": "Название витрины «Диалог. Психология и общение» сопоставлено по профилю общения. На сайте также есть другое семейное пространство «Диалог» в «Факеле»; ID услуги и однозначность сопоставления требуют проверки."
+    },
+    {
+      "club": "Факел",
+      "activity": "Семейное психологическое пространство «Диалог»",
+      "schedule": [
+        {
+          "day": "вторник",
+          "time": "16:30-20:30"
+        },
+        {
+          "day": "четверг",
+          "time": "15:00-21:00"
+        }
+      ],
+      "userServiceIndexes": [],
+      "reason": "В бесплатной витрине есть «Диалог. Психология и общение», но отдельную услугу нельзя однозначно отнести к этой семейной программе либо к «Медиазаводу»."
+    }
+  ],
+  "addressChanges": [
+    {
+      "club": "Родина",
+      "before": {
+        "address": "г. Колпино, бульвар Трудящихся, д. 29/5",
+        "clubName": "Родина",
+        "coordinates": {
+          "latitude": 59.7349661,
+          "longitude": 30.5846019
+        },
+        "source": "OpenStreetMap Nominatim candidate",
+        "referenceUrl": null,
+        "mapLabel": null,
+        "precision": null,
+        "locationNote": null
+      },
+      "after": {
+        "address": "г. Колпино, бульвар Трудящихся, д. 29/52",
+        "clubName": "Родина",
+        "coordinates": {
+          "latitude": 59.7340481,
+          "longitude": 30.5793962
+        },
+        "source": "OpenStreetMap Nominatim candidate",
+        "referenceUrl": null,
+        "mapLabel": null,
+        "precision": null,
+        "locationNote": null
+      }
+    },
+    {
+      "club": "Горизонт",
+      "before": {
+        "address": "г. Колпино, пр. Ленина, д. 49",
+        "clubName": "Горизонт",
+        "coordinates": {
+          "latitude": 59.751524,
+          "longitude": 30.571053
+        },
+        "source": "user_provided",
+        "referenceUrl": "https://yandex.ru/maps/-/CXRraNoG",
+        "mapLabel": null,
+        "precision": null,
+        "locationNote": null
+      },
+      "after": {
+        "address": "г. Колпино, ул. Павловская, д. 82",
+        "clubName": "Горизонт",
+        "coordinates": {
+          "latitude": 59.747852,
+          "longitude": 30.567229
+        },
+        "source": "official_address_shared_venue",
+        "referenceUrl": "https://yandex.ru/maps/-/CXRreVJa",
+        "mapLabel": null,
+        "precision": "approximate",
+        "locationNote": "Официальный адрес «Горизонта» изменён на Павловскую, 82. Предварительно показано здание «Медиазавода» по тому же адресу. Нужна точка входа «Горизонта»; прежняя точка на проспекте Ленина сохранена в истории.",
+        "evidenceUrl": "http://dmk.spb.ru/klubs/gorizont/",
+        "derivedFromClub": "Медиазавод"
+      }
+    },
+    {
+      "club": "Фантазёры",
+      "before": {
+        "address": "г. Колпино, ул. Володарского, д. 9",
+        "clubName": "Фантазёры",
+        "coordinates": {
+          "latitude": 59.744533,
+          "longitude": 30.593053
+        },
+        "source": "user_provided",
+        "referenceUrl": "https://yandex.ru/maps/-/CXRraCII",
+        "mapLabel": null,
+        "precision": null,
+        "locationNote": null
+      },
+      "after": {
+        "address": "г. Колпино, ул. Адмиралтейская, д. 9",
+        "clubName": "Фантазёры",
+        "coordinates": {
+          "latitude": 59.744533,
+          "longitude": 30.593053
+        },
+        "source": "user_provided",
+        "referenceUrl": "https://yandex.ru/maps/-/CXRraCII",
+        "mapLabel": null,
+        "precision": null,
+        "locationNote": null
+      }
+    }
+  ],
+  "coordinateAudit": {
+    "unchanged": 331,
+    "userProvided": 309,
+    "withPoint": 331,
+    "withoutPoint": [
+      "kolpinsky|Патриот",
+      "pushkinsky|Заречье",
+      "pushkinsky|Пулковец"
+    ],
+    "allOtherClubCoordinatesUnchanged": true
+  },
+  "rovesnikUnchanged": true,
+  "oldActivityRoutesPreserved": true,
+  "vkDirectChecked": false,
+  "publication": {
+    "release": "kolpinets-all-20261023-mvl9drf0",
+    "deployedAt": "2026-10-23T17:44:28Z",
+    "report": "docs/kolpinets-all-release-2026-10-23.md",
+    "httpFiles": 68,
+    "browserChecks": 67
+  },
+  "gitCommit": "not_performed",
+  "gitPush": "not_performed",
+  "localChecks": {
+    "build": {
+      "html": 2057,
+      "canonical": 2055,
+      "log": "outputs/kolpinets-build-2026-10-23.log"
+    },
+    "check": {
+      "passed": true,
+      "html": 2057,
+      "canonical": 2055,
+      "sitemap": true,
+      "noindexFallbacks": true
+    },
+    "browser": {
+      "passed": true,
+      "clubs": 10,
+      "schedulePages": 49,
+      "viewportChecks": 67,
+      "evidence": "outputs/kolpinets-browser-check-2026-10-23.json"
+    },
+    "baseLinks": {
+      "passed": true,
+      "count": 10
+    },
+    "coordinateInputs": {
+      "preserved": true,
+      "fields": 26
+    }
+  },
+  "vkLinks": {
+    "publishedOnOfficialPages": 9,
+    "userOnly": 1,
+    "directChecked": false
+  },
+  "catalog": {
+    "clubs": 334,
+    "activities": 1700,
+    "districtClubs": 15,
+    "districtActivities": 90,
+    "internalCards": 117,
+    "internalDistricts": 6
+  }
+}

@@ -15,6 +15,20 @@
   document.head.appendChild(googleTag);
 }
 
+function mapClubActivities(activities, languageSelection = false, base = '') {
+  const escape = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+  const entries = [...new Map((activities ?? []).map(activity => typeof activity === 'string' ? {label:activity} : activity).filter(activity => activity?.label).map(activity => [activity.label,activity])).values()];
+  const labels = entries.map(activity => activity.label);
+  const languagePatterns = [['английский',/английск/iu],['немецкий',/немецк/iu],['французский',/французск/iu],['испанский',/испанск/iu],['китайский',/китайск/iu],['японский',/японск/iu],['корейский',/корейск/iu],['жестовый язык',/жестов/iu]];
+  const languages = languagePatterns.filter(([,pattern]) => labels.some(label => pattern.test(label))).map(([label]) => label);
+  const languageDetails = languageSelection || languages.length || labels.some(label => /язык|билингв/iu.test(label))
+    ? `<p style="margin:8px 0"><strong>Языки:</strong> ${languages.length ? languages.join(', ') : 'список уточняется у&nbsp;клуба'}</p>` : '';
+  const list = labels.length
+    ? `<ul style="margin:6px 0 0;padding-left:18px;max-height:180px;overflow-y:auto;line-height:1.5">${entries.map(activity => `<li>${/^activities\/[a-z0-9-]+\.html$/.test(activity.url ?? '') ? `<a class="map-balloon-link" style="color:#1d4ed8!important;text-decoration:underline!important" href="${escape(base + activity.url)}">${escape(activity.label)}</a>` : escape(activity.label)}</li>`).join('')}</ul>`
+    : '<p style="margin:6px 0">Список занятий уточняется у&nbsp;клуба.</p>';
+  return `${languageDetails}<div style="margin-top:10px;max-width:320px;font-size:14px"><strong>Направления клуба</strong>${list}</div>`;
+}
+
 const menuButton = document.querySelector('.menu-button');
 const boxingSchedule = document.querySelector('.boxing-schedule');
 if (boxingSchedule) {
@@ -106,7 +120,8 @@ if (clubsMap) {
             map.geoObjects.removeAll();
             const placemarks = [...grouped.values()].map(({coordinates, clubs:group}) => {
               const provisional = group.some(club => club.provisional);
-              const body = group.map(club => `<div><a href="${escapeHtml(filtered ? `../${club.url}` : club.url)}">${escapeHtml(club.name)}</a><br>${escapeHtml(club.address)}${club.provisional ? '<br><small>Точка предварительная</small>' : ''}</div>`).join('<hr>');
+              const languageSelection = new URLSearchParams(location.search).get('subtopic') === 'languages' || new URLSearchParams(location.search).get('topic') === 'languages';
+              const body = group.map(club => `<div><a class="map-balloon-link" style="color:#1d4ed8!important;text-decoration:underline!important" href="${escapeHtml(filtered ? `../${club.url}` : club.url)}">${escapeHtml(club.name)}</a><br>${escapeHtml(club.address)}${mapClubActivities(club.activities, languageSelection, filtered ? '../' : '')}${club.provisional ? '<br><small>Точка предварительная</small>' : ''}</div>`).join('<hr>');
               return new window.ymaps.Placemark(coordinates, {
                 balloonContentHeader: group.length === 1 ? escapeHtml(group[0].name) : `${group.length} клуба по&nbsp;одному адресу`,
                 balloonContentBody: body,
@@ -335,7 +350,8 @@ if (directionResults) {
         const link = element.querySelector('h3 a');
         const activity = element.querySelector('[data-matched-activity]').textContent;
         const address = element.querySelector('.direction-club-address').textContent;
-        return `<div><a href="${escapeMapHtml(link.getAttribute('href'))}">${escapeMapHtml(link.textContent)}</a><br>${escapeMapHtml(activity)}<br>${escapeMapHtml(address)}${element.dataset.mapProvisional === 'true' ? '<br><small>Точка предварительная</small>' : ''}</div>`;
+        const activities = JSON.parse(element.dataset.directionActivities);
+        return `<div><a class="map-balloon-link" style="color:#1d4ed8!important;text-decoration:underline!important" href="${escapeMapHtml(link.getAttribute('href'))}">${escapeMapHtml(link.textContent)}</a><br>${escapeMapHtml(address)}<p style="margin:8px 0"><strong>По&nbsp;выбранному фильтру:</strong> ${escapeMapHtml(activity)}</p>${mapClubActivities(activities, subtopic === 'languages', '../')}${element.dataset.mapProvisional === 'true' ? '<br><small>Точка предварительная</small>' : ''}</div>`;
       }).join('<hr>');
       return new window.ymaps.Placemark(coordinates, {
         balloonContentHeader: group.length === 1 ? escapeMapHtml(group[0].querySelector('h3 a').textContent) : `${group.length} клуба по&nbsp;одному адресу`,

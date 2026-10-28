@@ -1,0 +1,2 @@
+# Nuxt emits catalog HTML in multiline JavaScript strings. Preserve those spaces.
+dist/_nuxt/*.js whitespace=-blank-at-eol

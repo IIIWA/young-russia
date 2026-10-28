@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 const root = path.resolve(import.meta.dirname, '..');
-const sourcePath = 'YoungRussiaOBS/Задачи/Адмиралтейский район.md';
+const sourcePath = 'YoungRussiaOBS/Источники/ВК/ВК ПМК Адмиралтейского района.md';
 const source = await fs.readFile(path.join(root, sourcePath), 'utf8');
 const lines = source.replace(/\r\n/g, '\n').split('\n');
 if (lines.at(-1) === '') lines.pop();

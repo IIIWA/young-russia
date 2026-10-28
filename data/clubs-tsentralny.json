@@ -1,27 +1,4279 @@
 [
-  {"name":"Атлант","address":"Литейный пр., д. 30","phone":"273-79-93","activities":["Пауэрлифтинг","Единоборства","Танцы"]},
-  {"name":"Атлет","address":"Лиговский пр., д. 65","phone":"575-86-29","activities":["Курс молодого бойца","Атлетизм"]},
-  {"name":"Барс","address":"ул. Чехова, д. 4","phone":"272-28-18","activities":["Клуб молодой семьи","Рисование"]},
-  {"name":"Горизонт","address":"ул. Восстания, д. 20/16","phone":"273-75-76","activities":["Театр","Ораторское мастерство"]},
-  {"name":"Романтики","address":"Сапёрный пер., д. 5","phone":"272-19-17","activities":["Место свободного общения","Настольные игры","Шахматы","Шашки","Настольный хоккей","Настольный теннис","Танцы","Консультации психолога"],"description":"Здесь можно встретиться с друзьями, посмотреть фильм, поиграть и присоединиться к занятиям. Психолог помогает с выбором профессии и поиском направления развития.","sourceUrl":"https://perspektiva-klab.ru/clubs/romantiki/"},
-  {"name":"Ровесник","address":"ул. Пушкинская, д. 11","phone":"572-37-00","activities":["Танцы","Настольные игры","Театр танца"]},
-  {"name":"Прометей","address":"Невский пр., д. 108/110","phone":"272-21-41","activities":["Настольный хоккей","Вокал","Танцы","Настольные игры"]},
-  {"name":"Петровский","address":"ул. Марата, д. 78","phone":"764-29-11","activities":["Театр-студия «Летний сад»","Студия здоровья «Мульти-фитнес»","Арт-мастерская","Секция киберспорта","Место свободного общения"],"description":"Театральная студия занимается актёрским мастерством, сценической речью и спектаклями. В арт-мастерской осваивают лепку, рисунок, граффити и каллиграфию. Также доступны фитнес, киберспорт и место для общения и игр.","sourceUrl":"https://perspektiva-klab.ru/clubs/petrovskij/"},
-  {"name":"Острова","address":"наб. реки Мойки, д. 51","phone":"571-95-65","activities":["КВН","Вокал","Медиастудия","Стартап-клуб"]},
-  {"name":"Огонёк","address":"ул. Чайковского, д. 1","phone":"272-93-70","activities":["Патриотический клуб"]},
-  {"name":"Нева","address":"ул. Миллионная, д. 13-15","phone":"314-10-72","activities":["Рисование","Творчество","Литература","Театр","Звукозапись"]},
-  {"name":"На Фурштатской","address":"ул. Фурштатская, д. 54","phone":"272-44-11","activities":["Стрелковый кружок"]},
-  {"name":"На Троицкой","address":"ул. Рубинштейна, д. 15-17","phone":"712-44-70","activities":["Историческое фехтование","Создание костюмов","Тхэквондо","Танцы","Театр"]},
-  {"name":"На Марата","address":"ул. Марата, д. 9","phone":"575-56-13","activities":["Место свободного общения","Настольные игры","Шахматы","Шашки","Настольный хоккей","Настольный теннис","Танцы"],"description":"Здесь можно встретиться с друзьями, посмотреть фильм, участвовать в обсуждениях, играть в настольные игры и присоединиться к занятиям в студиях.","sourceUrl":"https://perspektiva-klab.ru/clubs/na-marata/"},
-  {"name":"На Коломенской","address":"ул. Коломенская, д. 5","phone":"571-99-20","activities":["Вокал","Гитара","Настольный теннис"]},
-  {"name":"Муравейник","address":"ул. Марата, д. 55/5","phone":"712-39-95","activities":["Театр","Настольные игры","Фитнес","Экскурсии","Арт-мастерская"]},
-  {"name":"Маяк","address":"3-я Советская ул., д. 26","phone":"717-48-54","activities":["Общая физическая подготовка","Смешанные единоборства"]},
-  {"name":"Максимум","address":"наб. реки Мойки, д. 9","phone":"570-45-73","activities":["Театр","Клуб любителей животных","Музыка"]},
-  {"name":"Луч","address":"ул. Правды, д. 2/13","phone":"315-64-30","activities":["Живопись","Саморазвитие"]},
-  {"name":"Ленинградец","address":"ул. Фурштатская, д. 14-16","phone":"273-10-73","activities":["Арт-мастерская","Танцы","КВН"]},
-  {"name":"Ямская слобода","address":"ул. Правды, д. 22","phone":"575-62-76","activities":["Скаутский клуб","Театр"]},
-  {"name":"Чайка","address":"ул. Чехова, д. 5","phone":"273-51-28","activities":["Вокал","Коворкинг","Бокс","Самбо","Общая физическая подготовка"]},
-  {"name":"Юность","address":"ул. Моховая, д. 27-29","phone":"572-37-00","activities":["Патриотический клуб"]},
-  {"name":"Феникс","address":"Загородный пр., д. 21-23","phone":"315-02-81","activities":["Танцы","Сценическая речь","Творчество"]},
-  {"name":"Спартак","address":"ул. Марата, д. 76","phone":"572-37-46","activities":["Ушу","Общая физическая подготовка"]}
+  {
+    "name": "Атлант",
+    "address": "Литейный пр., д. 30",
+    "phone": "273-79-93",
+    "activities": [
+      "Пауэрлифтинг",
+      "Единоборства",
+      "Танцы"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/atlant/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/atlant/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 201,
+        "endLine": 203,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Атлант\" - [https://vk.com/pmkatlant](https://vk.com/pmkatlant)  \n(Литейный пр., д.30 : +7(812)273-79-93)  \n(ул. Короленко, 10 : +7(812)579-10-83)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/pmkatlant",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/atlant/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28"
+  },
+  {
+    "name": "Атлет",
+    "address": "Лиговский пр., д. 65",
+    "phone": "575-86-29",
+    "activities": [
+      "Курс молодого бойца",
+      "Атлетизм"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/atlet/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/atlet/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 205,
+        "endLine": 206,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Атлет\" - [https://vk.com/pmkatlet](https://vk.com/pmkatlet)  \n(Лиговский пр., д.65 : +7(812)575-86-29)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/pmkatlet",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/atlet/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activitySchedule": [
+      {
+        "activity": "Курс молодого бойца",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Атлет-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 1,
+          "row": 2,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Курс молодого бойца, Секция \"Атлетизм\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Атлет",
+            "index": 0,
+            "activity": "Курс молодого бойца",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "17:30-18:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "№ 3"
+          },
+          {
+            "day": "понедельник",
+            "time": "20:00-20:45",
+            "group": "№ 3"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "17:30-18:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "№ 3"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "№ 3"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "17:30-18:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-19:45",
+            "group": "№ 3"
+          },
+          {
+            "day": "пятница",
+            "time": "20:00-20:45",
+            "group": "№ 3"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          }
+        ]
+      },
+      {
+        "activity": "Атлетизм",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Атлет-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 1,
+          "row": 2,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Курс молодого бойца, Секция \"Атлетизм\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Атлет",
+            "index": 1,
+            "activity": "Секция «Атлетизм»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-20:00",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-20:00",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-20:00",
+            "group": "№ 1"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Курс молодого бойца",
+        "title": "Курс молодого бойца",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/atlet/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Атлетизм",
+        "title": "Секция «Атлетизм»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/atlet/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Курс молодого бойца",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Атлетизм",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Барс",
+    "address": "ул. Чехова, д. 4",
+    "phone": "272-28-18",
+    "activities": [
+      "Клуб молодой семьи",
+      "Рисование"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/bars/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/bars/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 208,
+        "endLine": 209,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Барс\" - [https://vk.com/pmkbars](https://vk.com/pmkbars)  \n(ул. Чехова, д. 4 : +7(812)272-28-18)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/pmkbars",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/bars/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activitySchedule": [
+      {
+        "activity": "Рисование",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/10/Барс-13.10.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 13.10.2026",
+        "sourceNote": "В источнике с 13.10.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 1,
+          "row": 3,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Клуб молодой семьи \"Тетешечка\", Изостудия \"Карандаши\", Клуб молодой семьи \"Пуговки\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Барс",
+            "index": 0,
+            "activity": "Изостудия «Карандаши»",
+            "period": {
+              "startDate": "13.10.2026",
+              "endDate": null,
+              "label": "с 13.10.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "17:30-18:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "17:30-18:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "17:30-18:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          }
+        ]
+      },
+      {
+        "activity": "Клуб молодой семьи",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/10/Барс-13.10.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 13.10.2026",
+        "sourceNote": "В источнике с 13.10.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 1,
+          "row": 3,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Клуб молодой семьи \"Тетешечка\", Изостудия \"Карандаши\", Клуб молодой семьи \"Пуговки\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Барс",
+            "index": 1,
+            "activity": "Клуб молодой семьи «Пуговки»",
+            "period": {
+              "startDate": "13.10.2026",
+              "endDate": null,
+              "label": "с 13.10.2026"
+            }
+          },
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Барс",
+            "index": 2,
+            "activity": "Клуб молодой семьи «Тетешечка»",
+            "period": {
+              "startDate": "13.10.2026",
+              "endDate": null,
+              "label": "с 13.10.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:30-17:15",
+            "group": "Клуб молодой семьи «Пуговки» · № 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "17:30-18:15",
+            "group": "Клуб молодой семьи «Пуговки» · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "16:30-17:15",
+            "group": "Клуб молодой семьи «Пуговки» · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "17:30-18:15",
+            "group": "Клуб молодой семьи «Пуговки» · № 1"
+          },
+          {
+            "day": "четверг",
+            "time": "16:30-17:15",
+            "group": "Клуб молодой семьи «Пуговки» · № 1"
+          },
+          {
+            "day": "четверг",
+            "time": "17:30-18:15",
+            "group": "Клуб молодой семьи «Пуговки» · № 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "Клуб молодой семьи «Тетешечка» · № 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "20:00-20:45",
+            "group": "Клуб молодой семьи «Тетешечка» · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "Клуб молодой семьи «Тетешечка» · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "Клуб молодой семьи «Тетешечка» · № 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "Клуб молодой семьи «Тетешечка» · № 1"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "Клуб молодой семьи «Тетешечка» · № 1"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Рисование",
+        "title": "Изостудия «Карандаши»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/bars/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Клуб молодой семьи",
+        "title": "Клуб молодой семьи «Пуговки»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/bars/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Клуб молодой семьи",
+        "title": "Клуб молодой семьи «Тетешечка»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/bars/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Рисование",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Клуб молодой семьи",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Горизонт",
+    "address": "ул. Восстания, д. 20/16",
+    "phone": "273-75-76",
+    "activities": [
+      "Театр",
+      "Ораторское мастерство"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/gorizont/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/gorizont/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 211,
+        "endLine": 213,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Горизонт\" - [https://vk.com/pmkgorizont](https://vk.com/pmkgorizont)  \n(ул. Восстания, д. 20/16 (Ковенский пер., 16) : +7(812)273-75-76)  \nкод на воротах *2016#  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/pmkgorizont",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/gorizont/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activitySchedule": [
+      {
+        "activity": "Театр",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/10/Горизонт-01.10.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.10.2026",
+        "sourceNote": "В источнике с 01.10.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 1,
+          "row": 4,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Театральная студия \"КЭВС\", Объединение \"Молодежный клуб любителей театра\", Театральная студия \"Артель\", Студия \"Скороговоркинг\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Горизонт",
+            "index": 0,
+            "activity": "Театральная студия «КЭВС»",
+            "period": {
+              "startDate": "01.10.2026",
+              "endDate": null,
+              "label": "с 01.10.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "15:30-16:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          }
+        ]
+      },
+      {
+        "activity": "Ораторское мастерство",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/10/Горизонт-01.10.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.10.2026",
+        "sourceNote": "В источнике с 01.10.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 1,
+          "row": 4,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Театральная студия \"КЭВС\", Объединение \"Молодежный клуб любителей театра\", Театральная студия \"Артель\", Студия \"Скороговоркинг\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Горизонт",
+            "index": 1,
+            "activity": "Студия «Скороговоркинг»",
+            "period": {
+              "startDate": "01.10.2026",
+              "endDate": null,
+              "label": "с 01.10.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "15:30-16:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "15:30-16:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Театр",
+        "title": "Театральная студия «КЭВС»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/gorizont/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Ораторское мастерство",
+        "title": "Студия «Скороговоркинг»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/gorizont/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Театр",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Ораторское мастерство",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Романтики",
+    "address": "Сапёрный пер., д. 5",
+    "phone": "272-19-17",
+    "activities": [
+      "Место свободного общения",
+      "Настольные игры",
+      "Шахматы",
+      "Шашки",
+      "Настольный хоккей",
+      "Настольный теннис",
+      "Танцы",
+      "Консультации психолога"
+    ],
+    "description": "Здесь можно встретиться с друзьями, посмотреть фильм, поиграть и присоединиться к занятиям. Психолог помогает с выбором профессии и поиском направления развития.",
+    "sourceUrl": "https://perspektiva-klab.ru/clubs/romantiki/",
+    "officialUrl": "https://perspektiva-klab.ru/clubs/romantiki/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/romantiki/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 270,
+        "endLine": 271,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Романтики\" - [https://vk.com/romantikipmk](https://vk.com/romantikipmk)  \n(Саперный переулок, д. 5 : +7(812)272-19-17)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/romantikipmk",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/romantiki/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28"
+  },
+  {
+    "name": "Ровесник",
+    "address": "ул. Пушкинская, д. 11",
+    "phone": "572-37-00",
+    "activities": [
+      "Танцы",
+      "Настольные игры",
+      "Театр танца",
+      "Театр"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/rovesnik/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/rovesnik/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 267,
+        "endLine": 268,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Ровесник\" - [https://vk.com/inforazvedka](https://vk.com/inforazvedka)  \n(ул. Пушкинская, д. 11 : +7(812)572-37-00)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/inforazvedka",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/rovesnik/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activitySchedule": [
+      {
+        "activity": "Танцы",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Ровесник-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 1,
+          "row": 6,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Коллектив хореографических миниатюр \"Мозаика\", Студия танца \"Фиеста\", Клуб \"Настольные игры\", Театрально-танцевальная студия \"Переулок\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Ровесник",
+            "index": 0,
+            "activity": "Коллектив хореографических миниатюр «Мозаика»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          },
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Ровесник",
+            "index": 1,
+            "activity": "Студия танцев «Фиеста»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "16:00-16:45",
+            "group": "Коллектив хореографических миниатюр «Мозаика» · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "17:00-17:45",
+            "group": "Коллектив хореографических миниатюр «Мозаика» · № 1"
+          },
+          {
+            "day": "суббота",
+            "time": "16:00-16:45",
+            "group": "Коллектив хореографических миниатюр «Мозаика» · № 1"
+          },
+          {
+            "day": "суббота",
+            "time": "17:00-17:45",
+            "group": "Коллектив хореографических миниатюр «Мозаика» · № 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "17:00-17:45",
+            "group": "Студия танцев «Фиеста» · № 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "18:00-18:45",
+            "group": "Студия танцев «Фиеста» · № 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "Студия танцев «Фиеста» · № 2"
+          },
+          {
+            "day": "понедельник",
+            "time": "20:00-20:45",
+            "group": "Студия танцев «Фиеста» · № 2"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "Студия танцев «Фиеста» · № 2"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "Студия танцев «Фиеста» · № 2"
+          },
+          {
+            "day": "среда",
+            "time": "17:00-17:45",
+            "group": "Студия танцев «Фиеста» · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "Студия танцев «Фиеста» · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "Студия танцев «Фиеста» · № 2"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "Студия танцев «Фиеста» · № 2"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-17:45",
+            "group": "Студия танцев «Фиеста» · № 1"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "Студия танцев «Фиеста» · № 1"
+          }
+        ]
+      },
+      {
+        "activity": "Настольные игры",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Ровесник-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 1,
+          "row": 6,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Коллектив хореографических миниатюр \"Мозаика\", Студия танца \"Фиеста\", Клуб \"Настольные игры\", Театрально-танцевальная студия \"Переулок\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Ровесник",
+            "index": 2,
+            "activity": "Клуб «Настольные игры»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:00-17:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          }
+        ]
+      },
+      {
+        "activity": "Театр",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Ровесник-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 1,
+          "row": 6,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Коллектив хореографических миниатюр \"Мозаика\", Студия танца \"Фиеста\", Клуб \"Настольные игры\", Театрально-танцевальная студия \"Переулок\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Ровесник",
+            "index": 3,
+            "activity": "Театрально-танцевальная студия «Переулок»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "17:30-18:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "17:30-18:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "17:30-18:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Танцы",
+        "title": "Коллектив хореографических миниатюр «Мозаика»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/rovesnik/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Танцы",
+        "title": "Студия танцев «Фиеста»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/rovesnik/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Настольные игры",
+        "title": "Клуб «Настольные игры»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/rovesnik/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Театр",
+        "title": "Театрально-танцевальная студия «Переулок»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/rovesnik/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Настольные игры",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Театр",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Прометей",
+    "address": "Невский пр., д. 108/110",
+    "phone": "272-21-41",
+    "activities": [
+      "Настольный хоккей",
+      "Вокал",
+      "Танцы",
+      "Настольные игры"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/prometej/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/prometej/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 263,
+        "endLine": 265,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Прометей\" - [https://vk.com/pmkprometey](https://vk.com/pmkprometey)  \n(Невский пр., д. 108: +7(812)272-21-41  \n(Невский пр., д. 110 : +7(812)719-86-57)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/pmkprometey",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/prometej/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28"
+  },
+  {
+    "name": "Петровский",
+    "address": "ул. Марата, д. 78",
+    "phone": "764-29-11",
+    "activities": [
+      "Театр-студия «Летний сад»",
+      "Студия здоровья «Мульти-фитнес»",
+      "Арт-мастерская",
+      "Секция киберспорта",
+      "Место свободного общения"
+    ],
+    "description": "Театральная студия занимается актёрским мастерством, сценической речью и спектаклями. В арт-мастерской осваивают лепку, рисунок, граффити и каллиграфию. Также доступны фитнес, киберспорт и место для общения и игр.",
+    "sourceUrl": "https://perspektiva-klab.ru/clubs/petrovskij/",
+    "officialUrl": "https://perspektiva-klab.ru/clubs/petrovskij/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/petrovskij/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 260,
+        "endLine": 261,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Петровский\" - [https://vk.com/club233720011](https://vk.com/club233720011)  \n(ул. Марата, д. 78 : +7(812)764-29-11)  "
+      },
+      "importTask": "S-82"
+    }
+  },
+  {
+    "name": "Острова",
+    "address": "наб. реки Мойки, д. 51",
+    "phone": "571-95-65",
+    "activities": [
+      "КВН",
+      "Вокал",
+      "Медиастудия",
+      "Стартап-клуб",
+      "Медиа"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/ostrova/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/ostrova/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 257,
+        "endLine": 258,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Острова\" - [https://vk.com/pmkostrova](https://vk.com/pmkostrova)  \n(ул. Большая Морская, 6 (наб. реки Мойки, 51) : 571-95-65)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/pmkostrova",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/ostrova/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activitySchedule": [
+      {
+        "activity": "КВН",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Острова-15.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 15.09.2026",
+        "sourceNote": "В источнике с 15.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 1,
+          "row": 9,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Студия \"Старт-Ап\", Студия КВН \"Юмор\", Студия \"Классический вокал\", Студия \"Стафф\", Студия КВН \"Балтика\", Студия \"Медиалидер\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Острова",
+            "index": 0,
+            "activity": "Студия КВН «Балтика»",
+            "period": {
+              "startDate": "15.09.2026",
+              "endDate": null,
+              "label": "с 15.09.2026"
+            }
+          },
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Острова",
+            "index": 2,
+            "activity": "Студия КВН «Юмор»",
+            "period": {
+              "startDate": "15.09.2026",
+              "endDate": null,
+              "label": "с 15.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-18:45",
+            "group": "Студия КВН «Балтика» · № 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "Студия КВН «Балтика» · № 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "20:00-20:45",
+            "group": "Студия КВН «Балтика» · № 1"
+          },
+          {
+            "day": "вторник",
+            "time": "18:00-18:45",
+            "group": "Студия КВН «Балтика» · № 2"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "Студия КВН «Балтика» · № 2"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "Студия КВН «Балтика» · № 2"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "Студия КВН «Балтика» · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "Студия КВН «Балтика» · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "Студия КВН «Балтика» · № 1"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "Студия КВН «Балтика» · № 2"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "Студия КВН «Балтика» · № 2"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "Студия КВН «Балтика» · № 2"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "Студия КВН «Юмор» · № 1"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "Студия КВН «Юмор» · № 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "Студия КВН «Юмор» · № 1"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "Студия КВН «Юмор» · № 1"
+          }
+        ]
+      },
+      {
+        "activity": "Вокал",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Острова-15.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 15.09.2026",
+        "sourceNote": "В источнике с 15.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 1,
+          "row": 9,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Студия \"Старт-Ап\", Студия КВН \"Юмор\", Студия \"Классический вокал\", Студия \"Стафф\", Студия КВН \"Балтика\", Студия \"Медиалидер\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Острова",
+            "index": 1,
+            "activity": "Студия «Классический вокал»",
+            "period": {
+              "startDate": "15.09.2026",
+              "endDate": null,
+              "label": "с 15.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-15:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "16:00-16:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-15:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "16:00-16:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-15:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-16:45",
+            "group": "№ 1"
+          }
+        ]
+      },
+      {
+        "activity": "Медиа",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Острова-15.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 15.09.2026",
+        "sourceNote": "В источнике с 15.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 1,
+          "row": 9,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Студия \"Старт-Ап\", Студия КВН \"Юмор\", Студия \"Классический вокал\", Студия \"Стафф\", Студия КВН \"Балтика\", Студия \"Медиалидер\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Острова",
+            "index": 3,
+            "activity": "Студия «Медиалидер»",
+            "period": {
+              "startDate": "15.09.2026",
+              "endDate": null,
+              "label": "с 15.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "КВН",
+        "title": "Студия КВН «Балтика»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/ostrova/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "КВН",
+        "title": "Студия КВН «Юмор»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/ostrova/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Вокал",
+        "title": "Студия «Классический вокал»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/ostrova/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Медиа",
+        "title": "Студия «Медиалидер»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/ostrova/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "КВН",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Вокал",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Медиа",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Огонёк",
+    "address": "ул. Чайковского, д. 1",
+    "phone": "272-93-70",
+    "activities": [
+      "Патриотический клуб",
+      "Начальная военная подготовка"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/ogonek/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/ogonek/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 254,
+        "endLine": 255,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Огонёк\" - [https://vk.com/pmkogonek1](https://vk.com/pmkogonek1)  \n(ул. Чайковского, д.1: +7(812)272-93-70)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/pmkogonek1",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/ogonek/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activitySchedule": [
+      {
+        "activity": "Начальная военная подготовка",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Огонек-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 1,
+          "row": 10,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Секция НВП в строке 10 бесплатной колонки, визуально проверена на первой странице.",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются.",
+          "additionalEvidence": "Секция НВП в строке 10 бесплатной колонки, визуально проверена на первой странице."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Огонёк",
+            "index": 0,
+            "activity": "Секция «НВП»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Начальная военная подготовка",
+        "title": "Секция «НВП»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/ogonek/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Начальная военная подготовка",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Нева",
+    "address": "ул. Миллионная, д. 13-15",
+    "phone": "314-10-72",
+    "activities": [
+      "Рисование",
+      "Творчество",
+      "Литература",
+      "Театр",
+      "Звукозапись",
+      "Игровые проекты",
+      "Творческая мастерская",
+      "Студия звукозаписи",
+      "Гардарика"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/neva/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/neva/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 251,
+        "endLine": 252,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Нева\" - [https://vk.com/neva_pmk](https://vk.com/neva_pmk)  \n(ул. Миллионная, 13-15 : +7(812)314-10-72/+7(812)312-97-35)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/neva_pmk",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/neva/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activitySchedule": [
+      {
+        "activity": "Рисование",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Нева-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 11,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Изостудия, Творческое объединение \"Game Power\", Студия \"Добродел\", Литературная мастерская \"Фабула\", Театральная студия, Гардарика, Студия звукозаписи",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Нева",
+            "index": 0,
+            "activity": "Изостудия",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          }
+        ]
+      },
+      {
+        "activity": "Игровые проекты",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Нева-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 11,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Изостудия, Творческое объединение \"Game Power\", Студия \"Добродел\", Литературная мастерская \"Фабула\", Театральная студия, Гардарика, Студия звукозаписи",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Нева",
+            "index": 1,
+            "activity": "Творческое объединение «Game Power»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "17:30-18:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "17:30-18:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "17:30-18:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          }
+        ]
+      },
+      {
+        "activity": "Творческая мастерская",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Нева-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 11,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Изостудия, Творческое объединение \"Game Power\", Студия \"Добродел\", Литературная мастерская \"Фабула\", Театральная студия, Гардарика, Студия звукозаписи",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Нева",
+            "index": 2,
+            "activity": "Студия «Добродел»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          }
+        ]
+      },
+      {
+        "activity": "Театр",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Нева-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 11,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Изостудия, Творческое объединение \"Game Power\", Студия \"Добродел\", Литературная мастерская \"Фабула\", Театральная студия, Гардарика, Студия звукозаписи",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Нева",
+            "index": 3,
+            "activity": "Театральная студия",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          }
+        ]
+      },
+      {
+        "activity": "Студия звукозаписи",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Нева-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 11,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Изостудия, Творческое объединение \"Game Power\", Студия \"Добродел\", Литературная мастерская \"Фабула\", Театральная студия, Гардарика, Студия звукозаписи",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Нева",
+            "index": 4,
+            "activity": "Студия звукозаписи",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          }
+        ]
+      },
+      {
+        "activity": "Гардарика",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Нева-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 11,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Изостудия, Творческое объединение \"Game Power\", Студия \"Добродел\", Литературная мастерская \"Фабула\", Театральная студия, Гардарика, Студия звукозаписи",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Нева",
+            "index": 5,
+            "activity": "Гардарика",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Рисование",
+        "title": "Изостудия",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/neva/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Игровые проекты",
+        "title": "Творческое объединение «Game Power»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/neva/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Творческая мастерская",
+        "title": "Студия «Добродел»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/neva/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Театр",
+        "title": "Театральная студия",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/neva/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Студия звукозаписи",
+        "title": "Студия звукозаписи",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/neva/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Гардарика",
+        "title": "Гардарика",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/neva/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Рисование",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Игровые проекты",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Творческая мастерская",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Театр",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Студия звукозаписи",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Гардарика",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "На Фурштатской",
+    "address": "ул. Фурштатская, д. 54",
+    "phone": "272-44-11",
+    "activities": [
+      "Стрелковый кружок"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/na-furshtarskoj/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/na-furshtarskoj/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 247,
+        "endLine": 249,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"На Фурштатской\" - [https://vk.com/club17069840](https://vk.com/club17069840)  \n(ул. Фурштатская, 54 : +7(812)272-44-11)  \n(ул. Чайковского, 79 : +7(812)273-79-61)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/club17069840",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/na-furshtarskoj/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28"
+  },
+  {
+    "name": "На Троицкой",
+    "address": "ул. Рубинштейна, д. 15-17",
+    "phone": "712-44-70",
+    "activities": [
+      "Историческое фехтование",
+      "Создание костюмов",
+      "Тхэквондо",
+      "Танцы",
+      "Театр"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/na-troiczkoj/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/na-troiczkoj/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 242,
+        "endLine": 245,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"На Троицкой\" - [https://vk.com/pmknatroitskoy](https://vk.com/pmknatroitskoy)  \n(ул. Рубинштейна, 15-17, 19/8 : +7(812)712-44-70)  \n(Графский пер., 7 : +7(812)310-30-15)  \n(ул. Рубинштейна, 25 : +7(812)572-27-88)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/pmknatroitskoy",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/na-troiczkoj/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28"
+  },
+  {
+    "name": "На Марата",
+    "address": "ул. Марата, д. 9",
+    "phone": "575-56-13",
+    "activities": [
+      "Место свободного общения",
+      "Настольные игры",
+      "Шахматы",
+      "Шашки",
+      "Настольный хоккей",
+      "Настольный теннис",
+      "Танцы"
+    ],
+    "description": "Здесь можно встретиться с друзьями, посмотреть фильм, участвовать в обсуждениях, играть в настольные игры и присоединиться к занятиям в студиях.",
+    "sourceUrl": "https://perspektiva-klab.ru/clubs/na-marata/",
+    "officialUrl": "https://perspektiva-klab.ru/clubs/na-marata/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/na-marata/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 239,
+        "endLine": 240,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"На Марата\"  \n(ул. Марата, д. 9: +7(812)575-56-13)  "
+      },
+      "importTask": "S-82"
+    }
+  },
+  {
+    "name": "На Коломенской",
+    "address": "ул. Коломенская, д. 5",
+    "phone": "571-99-20",
+    "activities": [
+      "Вокал",
+      "Гитара",
+      "Настольный теннис"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/na-kolomenskoj/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/na-kolomenskoj/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 235,
+        "endLine": 237,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"На Коломенской\" - [https://vk.com/na_kolomenskoy5](https://vk.com/na_kolomenskoy5)  \n(ул. Коломенская, 5 : +7(812)571-99-20)  \n(ул. Заслонова, 2 (Лиговский пр., 107) : +7(812)712-24-09)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/na_kolomenskoy5",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/na-kolomenskoj/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28"
+  },
+  {
+    "name": "Муравейник",
+    "address": "ул. Марата, д. 55/5",
+    "phone": "712-39-95",
+    "activities": [
+      "Театр",
+      "Настольные игры",
+      "Фитнес",
+      "Экскурсии",
+      "Арт-мастерская"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/muravejnik/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/muravejnik/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 231,
+        "endLine": 233,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Муравейник\" [https://vk.com/pmkmuraveinik](https://vk.com/pmkmuraveinik)  \n(ул. Марата, д.55/5 : +7(812)712-39-95)  \n(ул. Воронежская, д.14 : +7(812)764-06-33)  "
+      },
+      "importTask": "S-82"
+    }
+  },
+  {
+    "name": "Маяк",
+    "address": "3-я Советская ул., д. 26",
+    "phone": "717-48-54",
+    "activities": [
+      "Общая физическая подготовка",
+      "Смешанные единоборства",
+      "ОФП",
+      "Здоровый образ жизни"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/mayak/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/mayak/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 228,
+        "endLine": 229,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Маяк\" - [https://vk.com/pmk.maiak](https://vk.com/pmk.maiak)  \n(ул. 3-я Советская, 26 : +7(812)717-48-54)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/pmk.maiak",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/mayak/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activitySchedule": [
+      {
+        "activity": "ОФП",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Маяк-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 17,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "ОФП с элементами смешанных боевых единоборств, Студия \"ЗОЖ\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Маяк",
+            "index": 0,
+            "activity": "ОФП с элементами смешанных боевых единоборств",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          },
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Маяк",
+            "index": 1,
+            "activity": "ОФП с элементами смешанных боевых единоборств",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "ОФП с элементами смешанных боевых единоборств · Гергерт Г.Е. · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "ОФП с элементами смешанных боевых единоборств · Гергерт Г.Е. · № 2"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "ОФП с элементами смешанных боевых единоборств · Гергерт Г.Е. · № 2"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "ОФП с элементами смешанных боевых единоборств · Гергерт Г.Е. · № 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "ОФП с элементами смешанных боевых единоборств · Гергерт Г.Е. · № 2"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "ОФП с элементами смешанных боевых единоборств · Гергерт Г.Е. · № 2"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "ОФП с элементами смешанных боевых единоборств · Попов Т.А. · № 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "20:00-20:45",
+            "group": "ОФП с элементами смешанных боевых единоборств · Попов Т.А. · № 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "16:30-17:15",
+            "group": "ОФП с элементами смешанных боевых единоборств · Попов Т.А. · № 2"
+          },
+          {
+            "day": "понедельник",
+            "time": "17:30-18:15",
+            "group": "ОФП с элементами смешанных боевых единоборств · Попов Т.А. · № 2"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "ОФП с элементами смешанных боевых единоборств · Попов Т.А. · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "ОФП с элементами смешанных боевых единоборств · Попов Т.А. · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "16:30-17:15",
+            "group": "ОФП с элементами смешанных боевых единоборств · Попов Т.А. · № 2"
+          },
+          {
+            "day": "среда",
+            "time": "17:30-18:15",
+            "group": "ОФП с элементами смешанных боевых единоборств · Попов Т.А. · № 2"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-19:45",
+            "group": "ОФП с элементами смешанных боевых единоборств · Попов Т.А. · № 1"
+          },
+          {
+            "day": "пятница",
+            "time": "20:00-20:45",
+            "group": "ОФП с элементами смешанных боевых единоборств · Попов Т.А. · № 1"
+          },
+          {
+            "day": "пятница",
+            "time": "16:30-17:15",
+            "group": "ОФП с элементами смешанных боевых единоборств · Попов Т.А. · № 2"
+          },
+          {
+            "day": "пятница",
+            "time": "17:30-18:15",
+            "group": "ОФП с элементами смешанных боевых единоборств · Попов Т.А. · № 2"
+          }
+        ]
+      },
+      {
+        "activity": "Здоровый образ жизни",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Маяк-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 17,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "ОФП с элементами смешанных боевых единоборств, Студия \"ЗОЖ\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Маяк",
+            "index": 2,
+            "activity": "Студия «ЗОЖ»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "ОФП",
+        "title": "ОФП с элементами смешанных боевых единоборств",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/mayak/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Здоровый образ жизни",
+        "title": "Студия «ЗОЖ»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/mayak/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "ОФП",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Здоровый образ жизни",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Максимум",
+    "address": "наб. реки Мойки, д. 9",
+    "phone": "570-45-73",
+    "activities": [
+      "Театр",
+      "Клуб любителей животных",
+      "Музыка",
+      "Студия «Форте»"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/maksimum/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/maksimum/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 224,
+        "endLine": 226,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Максимум\" - [https://vk.com/pmkmaksimum](https://vk.com/pmkmaksimum)  \n(ул. Миллионная, 10 (наб. реки Мойки, 9) : +7(812)570-45-73)  \nкод на воротах 2376#  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/pmkmaksimum",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/maksimum/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activitySchedule": [
+      {
+        "activity": "Театр",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Максимум-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 18,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Театральная студия \"КЭВС\", Объединение \"Клуб любителей животных\", Студия \"Форте\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Максимум",
+            "index": 0,
+            "activity": "Театральная студия «КЭВС-junior»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "15:30-16:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          }
+        ]
+      },
+      {
+        "activity": "Клуб любителей животных",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Максимум-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 18,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Театральная студия \"КЭВС\", Объединение \"Клуб любителей животных\", Студия \"Форте\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Максимум",
+            "index": 1,
+            "activity": "Объединение «Клуб любителей животных»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-15:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "16:00-16:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "17:00-17:45",
+            "group": "№ 1"
+          }
+        ]
+      },
+      {
+        "activity": "Студия «Форте»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Максимум-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 18,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Театральная студия \"КЭВС\", Объединение \"Клуб любителей животных\", Студия \"Форте\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Максимум",
+            "index": 2,
+            "activity": "Студия «Форте»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Театр",
+        "title": "Театральная студия «КЭВС-junior»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/maksimum/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Клуб любителей животных",
+        "title": "Объединение «Клуб любителей животных»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/maksimum/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Студия «Форте»",
+        "title": "Студия «Форте»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/maksimum/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Театр",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Клуб любителей животных",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Студия «Форте»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Луч",
+    "address": "ул. Правды, д. 2/13",
+    "phone": "315-64-30",
+    "activities": [
+      "Живопись",
+      "Саморазвитие"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/luch/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/luch/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 219,
+        "endLine": 222,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Луч\" - [https://vk.com/pmkluch](https://vk.com/pmkluch)  \n(ул. Правды, 2/13 : +7(812)315-64-30)  \n(ЗАКРЫТ НА РЕМОНТ: ул. Б. Московская, 1-3: +7(812)576-36-62)  \n(ул. Б. Московская, 16 : +7(812)713-34-20)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/pmkluch",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/luch/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28"
+  },
+  {
+    "name": "Ленинградец",
+    "address": "ул. Фурштатская, д. 14-16",
+    "phone": "273-10-73",
+    "activities": [
+      "Арт-мастерская",
+      "Танцы",
+      "КВН",
+      "Творческая мастерская",
+      "Клуб «Весёлые затеи»",
+      "Краеведение"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/leningradec/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/leningradec/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 215,
+        "endLine": 217,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Ленинградец\" - [https://vk.com/club86897953](https://vk.com/club86897953)  \n(ул. Фурштатская, д. 14 -16 (под аркой налево) : +7(812)273-10-73/+7(812)579-34-46)  \nкод на воротах: 2345в  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/club86897953",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/leningradec/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activitySchedule": [
+      {
+        "activity": "Танцы",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Ленинградец-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 20,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Творческая мастерская \"Флер- Оранж\", Студия современного танца \"Dogma\", Музей истории улицы Фурштатской, Клуб \"Веселые затеи\", Объединение \"КВН в Центре\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Ленинградец",
+            "index": 0,
+            "activity": "Студия современного танца «DogmA»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-15:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "16:00-16:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "суббота",
+            "time": "17:00-17:45",
+            "group": "№ 2"
+          }
+        ]
+      },
+      {
+        "activity": "Творческая мастерская",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Ленинградец-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 20,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Творческая мастерская \"Флер- Оранж\", Студия современного танца \"Dogma\", Музей истории улицы Фурштатской, Клуб \"Веселые затеи\", Объединение \"КВН в Центре\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Ленинградец",
+            "index": 1,
+            "activity": "Творческая мастерская «Флёр-Оранж»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:30-16:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "понедельник",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "15:30-16:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "16:30-17:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          }
+        ]
+      },
+      {
+        "activity": "Клуб «Весёлые затеи»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Ленинградец-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 20,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Творческая мастерская \"Флер- Оранж\", Студия современного танца \"Dogma\", Музей истории улицы Фурштатской, Клуб \"Веселые затеи\", Объединение \"КВН в Центре\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Ленинградец",
+            "index": 2,
+            "activity": "Клуб «Веселые затеи»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "суббота",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          }
+        ]
+      },
+      {
+        "activity": "Краеведение",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Ленинградец-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 20,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Творческая мастерская \"Флер- Оранж\", Студия современного танца \"Dogma\", Музей истории улицы Фурштатской, Клуб \"Веселые затеи\", Объединение \"КВН в Центре\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Ленинградец",
+            "index": 3,
+            "activity": "Музей истории улицы Фурштатской",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:30-16:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "17:00-17:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "понедельник",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "15:30-16:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "17:00-17:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "15:30-16:15",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-17:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Танцы",
+        "title": "Студия современного танца «DogmA»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/leningradec/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Творческая мастерская",
+        "title": "Творческая мастерская «Флёр-Оранж»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/leningradec/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Клуб «Весёлые затеи»",
+        "title": "Клуб «Веселые затеи»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/leningradec/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Краеведение",
+        "title": "Музей истории улицы Фурштатской",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/leningradec/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Творческая мастерская",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Клуб «Весёлые затеи»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Краеведение",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Ямская слобода",
+    "address": "ул. Правды, д. 22",
+    "phone": "575-62-76",
+    "activities": [
+      "Скаутский клуб",
+      "Театр"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/yamskaya-sloboda/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/yamskaya-sloboda/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 289,
+        "endLine": 290,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Ямская Слобода\" - [https://vk.com/yamskayasloboda](https://vk.com/yamskayasloboda)  \n(ул. Правды, д. 22 : +7(812)575-62-76)"
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/yamskayasloboda",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/yamskaya-sloboda/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activitySchedule": [
+      {
+        "activity": "Театр",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/10/Ямская-слобода-01.10.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.10.2026",
+        "sourceNote": "В источнике с 01.10.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 22,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Скаутский отряд \"Роза ветров\", Телевизионная театральная студия \"ТЭТРИС\", Театр-студия \"Ближний круг\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Ямская Слобода",
+            "index": 0,
+            "activity": "Телевизионная театральная студия «ТЭТРИС»",
+            "period": {
+              "startDate": "01.10.2026",
+              "endDate": null,
+              "label": "с 01.10.2026"
+            }
+          },
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Ямская Слобода",
+            "index": 1,
+            "activity": "Театр-студия «Ближний круг»",
+            "period": {
+              "startDate": "01.10.2026",
+              "endDate": null,
+              "label": "с 01.10.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "четверг",
+            "time": "19:15-20:00",
+            "group": "Телевизионная театральная студия «ТЭТРИС» · № 1"
+          },
+          {
+            "day": "четверг",
+            "time": "20:15-21:00",
+            "group": "Телевизионная театральная студия «ТЭТРИС» · № 1"
+          },
+          {
+            "day": "пятница",
+            "time": "19:15-20:00",
+            "group": "Телевизионная театральная студия «ТЭТРИС» · № 2"
+          },
+          {
+            "day": "пятница",
+            "time": "20:15-21:00",
+            "group": "Телевизионная театральная студия «ТЭТРИС» · № 2"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-15:45",
+            "group": "Телевизионная театральная студия «ТЭТРИС» · № 1"
+          },
+          {
+            "day": "суббота",
+            "time": "16:00-16:45",
+            "group": "Телевизионная театральная студия «ТЭТРИС» · № 1"
+          },
+          {
+            "day": "суббота",
+            "time": "17:00-17:45",
+            "group": "Телевизионная театральная студия «ТЭТРИС» · № 2"
+          },
+          {
+            "day": "суббота",
+            "time": "18:00-18:45",
+            "group": "Телевизионная театральная студия «ТЭТРИС» · № 2"
+          },
+          {
+            "day": "понедельник",
+            "time": "17:00-17:45",
+            "group": "Театр-студия «Ближний круг» · № 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "18:00-18:45",
+            "group": "Театр-студия «Ближний круг» · № 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "Театр-студия «Ближний круг» · № 2"
+          },
+          {
+            "day": "понедельник",
+            "time": "20:00-20:45",
+            "group": "Театр-студия «Ближний круг» · № 2"
+          },
+          {
+            "day": "вторник",
+            "time": "17:00-17:45",
+            "group": "Театр-студия «Ближний круг» · № 1"
+          },
+          {
+            "day": "вторник",
+            "time": "18:00-18:45",
+            "group": "Театр-студия «Ближний круг» · № 1"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "Театр-студия «Ближний круг» · № 2"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "Театр-студия «Ближний круг» · № 2"
+          },
+          {
+            "day": "среда",
+            "time": "17:00-17:45",
+            "group": "Театр-студия «Ближний круг» · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "Театр-студия «Ближний круг» · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "Театр-студия «Ближний круг» · № 2"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "Театр-студия «Ближний круг» · № 2"
+          }
+        ]
+      },
+      {
+        "activity": "Скаутский клуб",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/10/Ямская-слобода-01.10.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.10.2026",
+        "sourceNote": "В источнике с 01.10.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 2,
+          "row": 22,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Скаутский отряд \"Роза ветров\", Телевизионная театральная студия \"ТЭТРИС\", Театр-студия \"Ближний круг\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Ямская Слобода",
+            "index": 2,
+            "activity": "Скаутский отряд «Роза ветров»",
+            "period": {
+              "startDate": "01.10.2026",
+              "endDate": null,
+              "label": "с 01.10.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Театр",
+        "title": "Телевизионная театральная студия «ТЭТРИС»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/yamskaya-sloboda/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Театр",
+        "title": "Театр-студия «Ближний круг»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/yamskaya-sloboda/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Скаутский клуб",
+        "title": "Скаутский отряд «Роза ветров»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/yamskaya-sloboda/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Театр",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Скаутский клуб",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Чайка",
+    "address": "ул. Чехова, д. 5",
+    "phone": "273-51-28",
+    "activities": [
+      "Вокал",
+      "Коворкинг",
+      "Бокс",
+      "Самбо",
+      "Общая физическая подготовка"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/chajka/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/chajka/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 279,
+        "endLine": 281,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Чайка\" - [https://vk.com/club223786616](https://vk.com/club223786616)  \n(ул. Чехова, д. 4: +7(812)273-51-28)  \n(ул. Чехова, д. 5: +7(812)579-41-62)  "
+      },
+      "importTask": "S-82"
+    }
+  },
+  {
+    "name": "Юность",
+    "address": "ул. Моховая, д. 27-29",
+    "phone": "572-37-00",
+    "activities": [
+      "Патриотический клуб"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/yunost/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/yunost/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 286,
+        "endLine": 287,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Юность\" - [https://vk.com/pmkyouth](https://vk.com/pmkyouth)  \n(ул. Моховая, д. 27-29 : +7(812)272-98-61)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/pmkyouth",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/yunost/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28"
+  },
+  {
+    "name": "Феникс",
+    "address": "Загородный пр., д. 21-23",
+    "phone": "315-02-81",
+    "activities": [
+      "Танцы",
+      "Сценическая речь",
+      "Творчество",
+      "Конферанс"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/feniks/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/feniks/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 276,
+        "endLine": 277,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Феникс\" - [https://vk.com/pmk_feniks](https://vk.com/pmk_feniks)  \n(Загородный пр., д. 21-23 : +7(812)315-02-81)  "
+      },
+      "importTask": "S-82"
+    },
+    "vkUrl": "https://vk.com/pmk_feniks",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/feniks/",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "activitySchedule": [
+      {
+        "activity": "Танцы",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Феникс-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 3,
+          "row": 26,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Студия танца \"Фортуна\", Студия конферанса \"Апельсин\", Творческое объединение \"Rocking Gangs\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Феникс",
+            "index": 0,
+            "activity": "Студия танца «Фортуна»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-16:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "17:00-17:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "понедельник",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "16:00-16:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "17:00-17:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-16:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "17:00-17:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          }
+        ]
+      },
+      {
+        "activity": "Конферанс",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Феникс-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 3,
+          "row": 26,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Студия танца \"Фортуна\", Студия конферанса \"Апельсин\", Творческое объединение \"Rocking Gangs\"",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Феникс",
+            "index": 1,
+            "activity": "Студия конферанса «Апельсин»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:00-17:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-17:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "№ 2"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Танцы",
+        "title": "Студия танца «Фортуна»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/feniks/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Конферанс",
+        "title": "Студия конферанса «Апельсин»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/feniks/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Конферанс",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "name": "Спартак",
+    "address": "ул. Марата, д. 76",
+    "phone": "572-37-46",
+    "activities": [
+      "Ушу",
+      "Общая физическая подготовка",
+      "ОФП"
+    ],
+    "officialUrl": "https://perspektiva-klab.ru/clubs/https-vk-com-club237490130/",
+    "contactSource": {
+      "officialUrl": "https://perspektiva-klab.ru/clubs/https-vk-com-club237490130/",
+      "officialCheckedAt": "2026-10-26",
+      "vkNote": {
+        "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Центрального района.md",
+        "snapshotPath": "outputs/S-81-inputs/notes/tsentralny.md",
+        "startLine": 273,
+        "endLine": 274,
+        "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Спартак\" - [https://vk.com/club237490130](https://vk.com/club237490130)  \n(ул. Марата, д.76 : 572-37-46)  "
+      },
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Ушу",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Спартак-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 3,
+          "row": 27,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Секция \"Ушу\", ОФП",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Спартак",
+            "index": 0,
+            "activity": "Секция «У-шу»",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "вторник",
+            "time": "17:00-17:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "вторник",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "№ 1"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-17:45",
+            "group": "№ 2"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45",
+            "group": "№ 2"
+          }
+        ]
+      },
+      {
+        "activity": "ОФП",
+        "sourceType": "official_web",
+        "sourceUrl": "https://perspektiva-klab.ru/wp-content/uploads/2026/09/Спартак-01.09.2026.pdf",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "с 01.09.2026",
+        "sourceNote": "В источнике с 01.09.2026. Направление или его категория указаны в бесплатном перечне этого клуба. Возраст своей группы, допуск, запись и наличие мест уточни перед посещением. Названия отдельных студий и групп сохранены в таблице.",
+        "partial": false,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+          "sha256": "4a93eefd36795362fba7cea3debf2ff24c509276ae2cb63198228bb17c58c0a1",
+          "page": 3,
+          "row": 27,
+          "column": "Перечень реализуемых бесплатных направлений",
+          "quote": "Секция \"Ушу\", ОФП",
+          "matchScope": "Название либо явно названная категория в том же клубе; индивидуальный возраст и набор уточняются."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Спартак",
+            "index": 1,
+            "activity": "Общая физическая подготовка",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          },
+          {
+            "package": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+            "club": "Спартак",
+            "index": 2,
+            "activity": "Общая физическая подготовка",
+            "period": {
+              "startDate": "01.09.2026",
+              "endDate": null,
+              "label": "с 01.09.2026"
+            }
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "19:00-19:45",
+            "group": "Общая физическая подготовка · Никулин П.В. · № 1"
+          },
+          {
+            "day": "понедельник",
+            "time": "20:00-20:45",
+            "group": "Общая физическая подготовка · Никулин П.В. · № 1"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-19:45",
+            "group": "Общая физическая подготовка · Никулин П.В. · № 1"
+          },
+          {
+            "day": "пятница",
+            "time": "20:00-20:45",
+            "group": "Общая физическая подготовка · Никулин П.В. · № 1"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-19:45",
+            "group": "Общая физическая подготовка · Торотадзе М.А. · № 1"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-20:45",
+            "group": "Общая физическая подготовка · Торотадзе М.А. · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-19:45",
+            "group": "Общая физическая подготовка · Торотадзе М.А. · № 1"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45",
+            "group": "Общая физическая подготовка · Торотадзе М.А. · № 1"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-19:45",
+            "group": "Общая физическая подготовка · Торотадзе М.А. · № 1"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45",
+            "group": "Общая физическая подготовка · Торотадзе М.А. · № 1"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-19:45",
+            "group": "Общая физическая подготовка · Торотадзе М.А. · № 1"
+          },
+          {
+            "day": "суббота",
+            "time": "20:00-20:45",
+            "group": "Общая физическая подготовка · Торотадзе М.А. · № 1"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Ушу",
+        "title": "Секция «У-шу»",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/https-vk-com-club237490130/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "ОФП",
+        "title": "Общая физическая подготовка",
+        "officialUrl": "https://perspektiva-klab.ru/clubs/https-vk-com-club237490130/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Ушу",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "ОФП",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/048/ewb43yyvu770vfq104sby11l7k0vtexo/%D0%9E%D0%9F%D0%9C%D0%9A%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0.pdf",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
+        "importTask": "S-84"
+      }
+    ]
+  }
 ]

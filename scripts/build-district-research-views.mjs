@@ -2,6 +2,9 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { writeGeneratedFile } from './write-generated-file.mjs';
+import {officialDistrictRows} from './official-district-research.mjs';
+import {remainingDistrictRows} from './remaining-district-research.mjs';
+import {enrichRowsWithVk,vkOnlyDistrictRows} from './vk-note-research.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const vault = path.join(root, 'YoungRussiaOBS');
@@ -17,7 +20,7 @@ const escapeCsv = value => `"${String(value ?? '').replaceAll('"', '""')}"`;
 const unique = values => [...new Set(values.filter(Boolean))];
 const imageSchedules = JSON.parse(await fs.readFile(imageSchedulesPath, 'utf8'));
 const imageScheduleByClub = new Map(imageSchedules.clubs.map(item => [`${item.district}:${item.club}`, item]));
-const scheduleSessionText = item => `${(item.days ?? [item.day]).join(', ')} ${item.time}${item.group ? `, группа ${item.group}` : ''}${item.program ? `, ${item.program}` : ''}`;
+const scheduleSessionText = item => `${(item.days ?? [item.day]).join(', ')} ${item.time}${item.group ? `, группа ${item.group}` : ''}${item.program ? `, ${item.program}` : ''}${item.room ? `, кабинет ${item.room}` : ''}`;
 const imageScheduleLines = item => item ? [
   ...(item.activitySchedules ?? []).flatMap(activity => activity.sessions.map(session => `- **${activity.activity}:** ${scheduleSessionText({ ...session, group: session.group ?? activity.defaultGroup })}.`)),
   ...(item.otherSchedule ?? []).map(other => `- **${other.label}:** ${scheduleSessionText(other)}.`),
@@ -27,9 +30,9 @@ const imageScheduleLines = item => item ? [
 const sentence = value => /[.!?]$/.test(value) ? value : `${value}.`;
 const sourceLines = new Map();
 for (const note of [
-  'YoungRussiaOBS/Задачи/Васька - добавление ссылок направлений  ПМК.md',
-  'YoungRussiaOBS/Задачи/Адмиралтейский район.md',
-  'YoungRussiaOBS/Задачи/ПМК Выборгского инфа.md',
+  'YoungRussiaOBS/Источники/ВК/ВК ПМК Василеостровского района.md',
+  'YoungRussiaOBS/Источники/ВК/ВК ПМК Адмиралтейского района.md',
+  'YoungRussiaOBS/Источники/ВК/ВК ПМК Выборгского района.md',
 ]) sourceLines.set(note, (await fs.readFile(path.join(root, note), 'utf8')).replace(/\r\n/g, '\n').split('\n'));
 const voDetailNames = new Set((await fs.readdir(path.join(vault, 'База данных', 'ПМК Василеостровского района')))
   .filter(name => name.endsWith('.md')).map(name => path.basename(name, '.md')));
@@ -74,7 +77,7 @@ function activityNearSchedule(note, sourceLine, scheduleText) {
 }
 
 const centers = await readJson('data/research/pmc-centers-contacts.json');
-const officialNote = await fs.readFile(path.join(vault, 'Задачи', 'Адмиралтейский район официальные стр.md'), 'utf8');
+const officialNote = await fs.readFile(path.join(vault, 'Источники', 'Официальные сайты', 'Адмиралтейский район — исходные сведения.md'), 'utf8');
 const officialPages = [...officialNote.matchAll(/^## \[\s*([^\]]+?)\s*\]\((https:\/\/admiralteisky\.admiral\.gov\.spb\.ru\/molodezhnye-kluby-centra\/\d+\/)\)/gm)]
   .map((match) => ({ name: match[1].trim(), url: match[2], line: officialNote.slice(0, match.index).split('\n').length }));
 const normalizeName = name => name.toLowerCase().replace(/[«»"“”]/g, '').replace(/\s+/g, ' ').trim();
@@ -85,9 +88,9 @@ function officialPageFor(club) {
   return matches[0] ?? null;
 }
 const configs = [
-  { code: 'vasileostrovsky', short: 'ВО', label: 'Василеостровский', catalog: 'data/clubs-vo.json', evidence: 'data/research/vo-note-evidence.json', sourceNote: 'YoungRussiaOBS/Задачи/Васька - добавление ссылок направлений  ПМК.md' },
-  { code: 'admiralteysky', short: 'АД', label: 'Адмиралтейский', catalog: 'data/clubs-admiralteysky.json', evidence: 'data/research/admiralteysky-note-evidence.json', sourceNote: 'YoungRussiaOBS/Задачи/Адмиралтейский район.md' },
-  { code: 'vyborgsky', short: 'ВЫ', label: 'Выборгский', catalog: 'data/clubs-vyborgsky.json', evidence: 'data/research/vyborgsky-note-evidence.json', sourceNote: 'YoungRussiaOBS/Задачи/ПМК Выборгского инфа.md' },
+  { code: 'vasileostrovsky', short: 'ВО', label: 'Василеостровский', catalog: 'data/clubs-vo.json', evidence: 'data/research/vo-note-evidence.json', sourceNote: 'YoungRussiaOBS/Источники/ВК/ВК ПМК Василеостровского района.md' },
+  { code: 'admiralteysky', short: 'АД', label: 'Адмиралтейский', catalog: 'data/clubs-admiralteysky.json', evidence: 'data/research/admiralteysky-note-evidence.json', sourceNote: 'YoungRussiaOBS/Источники/ВК/ВК ПМК Адмиралтейского района.md' },
+  { code: 'vyborgsky', short: 'ВЫ', label: 'Выборгский', catalog: 'data/clubs-vyborgsky.json', evidence: 'data/research/vyborgsky-note-evidence.json', sourceNote: 'YoungRussiaOBS/Источники/ВК/ВК ПМК Выборгского района.md' },
 ];
 
 async function voSpecialists() {
@@ -144,6 +147,7 @@ for (const config of configs) {
           ? 'График сотрудника, не расписание занятия' : activityNearSchedule(config.sourceNote, item.line, item.text) || item.catalogActivity;
       return { ...item, activity: activity || 'Фрагмент без однозначного названия направления' };
     });
+    for(const record of (club.activitySchedule??[]).filter(r=>r.sourceType==='user_confirmed'))for(const slot of record.schedule)scheduleDetails.push({activity:record.activity,text:`${slot.day}: ${slot.time}; ${record.source}; подтверждено ${record.confirmedAt}`,line:'уточнение пользователя',sourceNote:record.sourceFile});
     const scheduleLines = scheduleDetails.length;
     const researchStatus = config.code === 'vyborgsky'
       ? sections.length ? 'данные из заметки; актуальность требует сверки' : 'в заметке есть только ссылка клуба; направления и расписание не разобраны'
@@ -170,7 +174,7 @@ for (const config of configs) {
       scheduleActivities: unique(scheduleDetails.map(item => item.activity).filter(name =>
         !/^(?:Режим работы клуба|Заголовок расписания|График сотрудника, не расписание занятия|Фрагмент без однозначного названия направления)$/.test(name))),
       catalogScheduleCount: (club.activitySchedule ?? []).length + (club.classSchedule ? 1 : 0),
-      reviewStatus: researchStatus, sourceNote: config.sourceNote, sourceCatalog: config.catalog,
+      reviewStatus: club.activityCatalogConfirmedAt ? `Действующие направления и новые часы подтверждены пользователем ${club.activityCatalogConfirmedAt}; старые заметки сохранены для истории` : researchStatus, sourceNote: config.sourceNote, sourceCatalog: config.catalog,
       sections, reviewIssues: config.code === 'admiralteysky' ? evidence.reviewIssues.filter(item => item.catalogClub === club.name) : [],
       officialNoteLine: official?.line ?? null,
       detailNote: config.code === 'vasileostrovsky' && voDetailNames.has(club.name) ? `ПМК Василеостровского района/${club.name}`
@@ -178,11 +182,15 @@ for (const config of configs) {
           : config.code === 'vyborgsky' ? `ПМК Выборгского района/${club.name}` : '',
       detailBase: config.code === 'vasileostrovsky' ? 'ПМК Василеостровского района.base'
         : config.code === 'admiralteysky' ? 'ПМК Адмиралтейского района.base' : 'ПМК Выборгского района.base',
-      updatedAt: club.noteConfirmedAt ?? club.contactConfirmedAt ?? club.addressConfirmedAt ?? club.nameConfirmedAt ?? activityPages.map(page => page.providedAt).filter(Boolean).sort().at(-1) ?? '',
+      updatedAt: club.activityCatalogConfirmedAt ?? club.noteConfirmedAt ?? club.contactConfirmedAt ?? club.addressConfirmedAt ?? club.nameConfirmedAt ?? activityPages.map(page => page.providedAt).filter(Boolean).sort().at(-1) ?? '',
     });
   }
 }
 
+rows.push(...await officialDistrictRows());
+rows.push(...await remainingDistrictRows());
+await enrichRowsWithVk(rows);
+rows.push(...await vkOnlyDistrictRows());
 const base = `filters:
   and:
     - file.inFolder("База данных/Каталог клубов Санкт-Петербурга")
@@ -209,7 +217,7 @@ properties:
   activity_count:
     displayName: Занятий
   activity_link_count:
-    displayName: ВК занятий
+    displayName: Ссылок занятий
   specialist_count:
     displayName: Специалистов в исследовании
   schedule_line_count:
@@ -289,8 +297,8 @@ for (const row of rows) {
     `image_schedule_source: ${escapeYaml(row.imageSchedule?.sourceImage ? `[[${path.basename(row.imageSchedule.sourceImage)}]]` : '')}`,
     `detail_note: ${escapeYaml(row.detailNote ? `[[База данных/${row.detailNote}]]` : '')}`,
     `detail_base: ${escapeYaml(row.detailBase ? `[[База данных/${row.detailBase}]]` : '')}`,
-    `research_source: ${escapeYaml(`[[Задачи/${path.basename(row.sourceNote, '.md')}]]`)}`,
-    `official_source: ${escapeYaml(row.district === 'Адмиралтейский' ? '[[Задачи/Адмиралтейский район официальные стр]]' : '')}`,
+    `research_source: ${escapeYaml(row.researchSourceUrl || `[[${row.sourceNote.replace(/^YoungRussiaOBS\//, '').replace(/\.md$/, '')}]]`)}`,
+    `official_source: ${escapeYaml(row.district === 'Адмиралтейский' ? '[[Источники/Официальные сайты/Адмиралтейский район — исходные сведения]]' : '')}`,
     `source_catalog: ${escapeYaml(row.sourceCatalog)}`, `source_note: ${escapeYaml(row.sourceNote)}`,
     `updated_at: ${escapeYaml(row.updatedAt)}`, '---', '',
   ];
@@ -301,18 +309,19 @@ for (const row of rows) {
     `**ВК клуба:** ${row.clubVk ? `[открыть](${row.clubVk})${row.district === 'Выборгский' ? ' (из заметки; доступность не проверена)' : ''}` : 'не указан'}  `,
     `**Центр:** ${row.center} (${row.centerPhone || 'телефон не указан'})  `,
     ...(row.detailNote ? [`**Подробная карточка:** [[${row.detailNote}]]  `, `**Подробная база:** [[${row.detailBase}]]`] : []), '',
-    '## Занятия по каталогу', '', ...row.activities.map(item => `- ${item}`), '',
-    row.district === 'Выборгский' ? '## Ссылки направлений из заметки' : '## Сообщества занятий', '',
-    ...(row.activityPages.length ? row.activityPages.map(page => `- ${sentence(`${page.catalogActivity || page.title}: [${page.title}](${page.vkUrl})${page.specialist ? `; специалист ${page.specialist}` : ''}`)}`) : ['- Ссылки не указаны.']), '',
+    row.researchOnly ? '## Предложения из исследования' : '## Занятия по каталогу', '', ...row.activities.map(item => `- ${item}`), '',
+    row.researchOnly ? '## Ссылки направлений из исследования (вид ссылки в подробной карточке)' : row.district === 'Выборгский' ? '## Ссылки направлений из заметки' : '## Сообщества занятий', '',
+    ...(row.activityPages.length ? row.activityPages.map(page => `- ${sentence(`${page.catalogActivity || page.title}: [${page.title}](${page.vkUrl || page.officialUrl})${page.specialist ? `; специалист ${page.specialist}` : ''}`)}`) : ['- Ссылки не указаны.']), '',
+    ...(row.vkSection??[]),
     '## Исследование', '',
     `- Упоминаний специалистов: ${row.specialists.length}.`,
-    `- Строк расписания в исходной заметке: ${row.scheduleLines}.`,
+    `- Строк расписания ${row.researchOnly ? 'в исследовательских источниках (включая архив)' : 'в исходной заметке'}: ${row.scheduleLines}.`,
     `- Занятий с расписанием в каталоге: ${row.catalogScheduleCount}.`,
     '', '### Специалисты и контакты из исследования', '',
     ...(row.specialists.length ? row.specialists.map(person => `- ${person.name}${person.role ? `, ${person.role}` : ''}${person.activities ? `; занятие: ${person.activities}` : ''}${person.phone ? `; телефон: ${person.phone}` : ''}${person.profile ? `; [ВК](${person.profile})` : ''}`) : ['- Сведений пока нет.']),
-    '', '### Расписание из исходной заметки', '',
+    '', row.researchOnly ? '### Графики из исследования, включая архив' : '### Расписание из исходной заметки', '',
     '> [!warning] Для сверки',
-    '> Название направления берётся из текста заметки рядом со временем. Оно и само расписание требуют проверки перед переносом на сайт.', '',
+    row.researchOnly ? '> У каждой строки сохранены период, финансирование и источник. Полнота исследования не означает подтверждение текущего бесплатного набора. Подробные группы, условия и вопросы находятся в районной карточке.' : '> Название направления берётся из текста заметки рядом со временем. Оно и само расписание требуют проверки перед переносом на сайт.', '',
     ...(row.scheduleDetails.length ? row.scheduleDetails.map(item => `- **${item.activity}**: ${item.text.replaceAll('\n', ' ')} (строка ${item.line})`) : ['- Строк расписания не найдено.']),
     ...(row.imageSchedule ? [
       '', '### Расписание по снимку и уточнениям', '',
@@ -323,16 +332,16 @@ for (const row of rows) {
       ...(row.imageSchedule.notes ?? []).map(note => `- Примечание: ${note}`),
     ] : []),
     `- Статус: ${row.reviewStatus}.`,
-    `- [Исходная заметка](../../Задачи/${encodeURIComponent(path.basename(row.sourceNote))}).`,
-    ...(row.district === 'Выборгский' ? [`- [Вторая заметка: сюда добавляются новые данные по району](../../Задачи/${encodeURIComponent('ПМК Выборгского инфа 2.md')}).`] : []),
-    ...(row.district === 'Адмиралтейский' ? ['- [Официальные страницы из второй заметки](../../Задачи/%D0%90%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D1%82%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D1%81%D1%82%D1%80.md).'] : []),
+    row.researchSourceUrl ? `- [Официальный источник](${row.researchSourceUrl}).` : `- [Исходная заметка](../../${encodeURI(row.sourceNote.replace(/^YoungRussiaOBS\//, ''))}).`,
+    ...(row.district === 'Выборгский' ? [`- [Вторая заметка: сюда добавляются новые данные по району](../../Источники/ВК/${encodeURIComponent('ВК ПМК Выборгского района — дополнение.md')}).`] : []),
+    ...(row.district === 'Адмиралтейский' ? ['- [Официальные страницы из второй заметки](../../%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B/%D0%90%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D1%82%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%E2%80%94%20%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F.md).'] : []),
     `- Исходные данные сайта: \`${row.sourceCatalog}\`.`,
     '- Эта карточка генерируется автоматически. Исправляй исходные данные, затем пересобирай представления.', '',
   ];
   await writeGeneratedFile(path.join(outputDir, `${row.id}.md`), `${frontmatter.concat(body).join('\n')}\n`);
 }
 
-const headers = ['ID', 'Район', 'Клуб', 'Подробная карточка', 'Подробная база', 'Адрес', 'Телефон клуба', 'ВК клуба', 'Страница клуба', 'Центр', 'Телефон центра', 'Почта центра', 'Занятий', 'Занятия', 'ВК занятий', 'Специалистов в исследовании', 'Специалисты и контакты', 'Строк расписания из заметки', 'Направления с расписанием в заметке', 'Расписание из заметки', 'Занятий с расписанием в каталоге', 'Статус сверки', 'Источник', 'Дата обновления', 'Строк по снимку и уточнениям', 'Расписание по снимку и уточнениям', 'Снимок расписания'];
-const csvRows = rows.map(row => [row.id, row.district, row.club, row.detailNote, row.detailBase, row.address, row.phone, row.clubVk, row.officialPage, row.center, row.centerPhone, row.centerEmail, row.activities.length, row.activities.join(' | '), row.activityPages.map(page => `${page.catalogActivity || page.title}: ${page.vkUrl}`).join(' | '), row.specialists.length, row.specialists.map(person => `${person.name}${person.role ? ` (${person.role})` : ''}${person.phone ? `; телефон ${person.phone}` : ''}${person.profile ? `; ВК ${person.profile}` : ''}`).join(' | '), row.scheduleLines, row.scheduleActivities.join(' | '), row.scheduleDetails.map(item => `${item.activity}: ${item.text} (строка ${item.line})`).join(' | '), row.catalogScheduleCount, row.reviewStatus, row.sourceNote, row.updatedAt, row.imageScheduleLines.length, row.imageScheduleLines.join(' | '), row.imageSchedule?.sourceImage ?? '']);
+const headers = ['ID', 'Район', 'Клуб', 'Подробная карточка', 'Подробная база', 'Адрес', 'Телефон клуба', 'ВК клуба', 'Страница клуба', 'Центр', 'Телефон центра', 'Почта центра', 'Занятий', 'Занятия', 'Ссылки занятий', 'Специалистов в исследовании', 'Специалисты и контакты', 'Строк расписания из заметки', 'Направления с расписанием в заметке', 'Расписание из заметки', 'Занятий с расписанием в каталоге', 'Статус сверки', 'Источник', 'Дата обновления', 'Строк по снимку и уточнениям', 'Расписание по снимку и уточнениям', 'Снимок расписания'];
+const csvRows = rows.map(row => [row.id, row.district, row.club, row.detailNote, row.detailBase, row.address, row.phone, row.clubVk, row.officialPage, row.center, row.centerPhone, row.centerEmail, row.activities.length, row.activities.join(' | '), row.activityPages.map(page => `${page.catalogActivity || page.title}: ${page.vkUrl || page.officialUrl}`).join(' | '), row.specialists.length, row.specialists.map(person => `${person.name}${person.role ? ` (${person.role})` : ''}${person.phone ? `; телефон ${person.phone}` : ''}${person.profile ? `; ВК ${person.profile}` : ''}`).join(' | '), row.scheduleLines, row.scheduleActivities.join(' | '), row.scheduleDetails.map(item => `${item.activity}: ${item.text} (строка ${item.line})`).join(' | '), row.catalogScheduleCount, row.reviewStatus, row.sourceNote, row.updatedAt, row.imageScheduleLines.length, row.imageScheduleLines.join(' | '), row.imageSchedule?.sourceImage ?? '']);
 await writeGeneratedFile(csvPath, `\uFEFF${[headers, ...csvRows].map(values => values.map(escapeCsv).join(';')).join('\r\n')}\r\n`);
-console.log(JSON.stringify({ clubs: rows.length, districts: configs.length, obsidian: outputDir, csv: csvPath }));
+console.log(JSON.stringify({ clubs: rows.length, districts: new Set(rows.map(r => r.district)).size, obsidian: outputDir, csv: csvPath }));

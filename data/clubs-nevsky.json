@@ -1,36 +1,823 @@
 [
-  {"name":"АртНевский","address":"ул. Русановская, д. 13, корп. 2","activities":["Рисование","Анимация","Шахматы","Клуб молодой семьи"]},
-  {"name":"Атлант","address":"ул. Кржижановского, д. 5","phone":"584-54-13","activities":["Спорт","Патриотический клуб","Современные танцы"]},
-  {"name":"Горизонт","address":"ул. Дыбенко, д. 25, корп. 1","phone":"586-52-09","activities":["Танцы","Рисование","Гитара","Этноперкуссия"]},
-  {"name":"Дружба","address":"Октябрьская наб., д. 84, корп. 5","phone":"447-24-56","activities":["Декоративно-прикладное творчество","Спорт"]},
-  {"name":"Зоркий","address":"Товарищеский пр., д. 20/27","phone":"580-70-49","activities":["Творчество","Языковой клуб","Гитара","Настольные игры"]},
-  {"name":"Параллель","address":"бульвар Красных Зорь, д. 5","phone":"362-07-28","activities":["Добровольчество","Творчество","Театр","Вокал"]},
-  {"name":"Оптимист","address":"ул. Народная, д. 28","phone":"446-80-67","activities":["Творчество","Фитнес","Социальные проекты"]},
-  {"name":"Олимпиец","address":"ул. Крыленко, д. 21","phone":"586-43-28","activities":["Спорт","Вокал","Танцы"]},
-  {"name":"Огонёк","address":"ул. Коллонтай, д. 21, корп. 1","phone":"588-82-25","activities":["Танцы","Вокал","Рисование","Фитнес","Каратэ","Клуб молодой семьи"]},
-  {"name":"Невские орлята","address":"пр. Большевиков, д. 57, корп. 2","phone":"446-18-38","activities":["Патриотический клуб","Спорт","Танцы","Театр","Стиль"]},
-  {"name":"Нева","address":"ул. Прибрежная, д. 16","phone":"700-69-59","activities":["Настольные игры","Фитнес"]},
-  {"type":"Молодёжный центр","name":"Молодёжный центр","address":"ул. Бабушкина, д. 42, корп. 4А","activities":["Вокал","Гитара","Звукозапись","Театр","Танцы","Фотография","Дизайн"]},
-  {"name":"Наш Этаж","address":"ул. Бабушкина, д. 42, корп. 1","activities":["Социальные проекты","Медиастудия","Графический дизайн","Патриотический клуб"]},
-  {"name":"Мечта","address":"ул. Новосёлов, д. 53, корп. 2","activities":["Социальные проекты","Профориентация"]},
-  {"name":"Луч","address":"ул. Антонова-Овсеенко, д. 11, корп. 1","activities":["Вокал","Брейк-данс","Творчество","Танцы"]},
-  {"name":"Лидер","address":"ул. Коллонтай, д. 32, корп. 3","phone":"583-18-48","activities":["Спорт","Творчество","Социальные проекты"]},
-  {"name":"Ленинградец","address":"ул. Ольминского, д. 26","phone":"365-07-71","activities":["Спорт","Творчество","Клуб молодой семьи","Йога"]},
-  {"name":"Кругозор","address":"Дальневосточный пр., д. 4","phone":"447-77-74","activities":["Танцы","Спорт","Вокал","Семейный клуб"]},
-  {"name":"Красные Зори","address":"ул. Седова, д. 98А","activities":["Студия звукозаписи"]},
-  {"name":"Космос","address":"ул. Дыбенко, д. 13, корп. 1","phone":"585-51-98","activities":["Танцы","Семейный клуб"]},
-  {"name":"Каравелла","address":"ул. Караваевская, д. 31","phone":"577-80-08","activities":["Творчество","Дискуссионный клуб","Настольные игры","Разговорный английский","Рисование"]},
-  {"name":"Искатели","address":"ул. Коллонтай, д. 41","phone":"442-13-37","activities":["Спорт","Настольный теннис"]},
-  {"name":"Юность","address":"ул. Кибальчича, д. 8, корп. 2","phone":"362-70-73","activities":["Вокал","Театр","Гитара","Творчество"]},
-  {"name":"Чайка","address":"3-й Рабфаковский пер., д. 4","phone":"367-69-29","activities":["Спорт","Брейк-данс","Творчество","Социальные проекты"]},
-  {"name":"Юбилейный","address":"Дальневосточный пр., д. 8, корп. 1","phone":"621-70-10","activities":["Каратэ","Театр","Рисование","Танцы"]},
-  {"name":"Факел","address":"ул. Крупской, д. 31","phone":"560-27-95","activities":["Социальные проекты","Патриотический клуб"]},
-  {"name":"Товарищ","address":"пр. Большевиков, д. 6, корп. 2","phone":"589-12-23","activities":["Спорт","Танцы","Этноперкуссия"]},
-  {"name":"Спутник","address":"пр. Обуховской Обороны, д. 95, корп. 1","activities":["Фитнес","Гитара","Интеллектуальный клуб"]},
-  {"name":"Ракета","address":"ул. Бабушкина, д. 117, корп. 2","activities":["Гончарное дело","Танцы","Историческая реконструкция","Фитнес","Творчество"]},
-  {"name":"Прожектор","address":"пр. Солидарности, д. 11, корп. 1","phone":"583-41-27","activities":["Спорт","Танцы"]},
-  {"name":"Полярник","address":"ул. Полярников, д. 19","activities":["Информационные технологии","Проектный офис","Фотография"]},
-  {"name":"Перспектива","address":"пр. Обуховской Обороны, д. 243","phone":"362-73-14","activities":["Спорт","Йога","Творческое пространство"]},
-  {"name":"Патриот","address":"ул. Еремеева, д. 1","phone":"620-00-74","activities":["Вокал","Спорт","Патриотический клуб","Добровольчество","Рисование","Фотография"]},
-  {"type":"Молодёжное пространство","name":"Арктика Холл","address":"Октябрьская наб., д. 86, корп. 2, стр. 1","activities":["Графический дизайн","Проектный офис","Фотография","Иллюстрация","Творчество"]}
+  {
+    "name": "АртНевский",
+    "address": "ул. Русановская, д. 13, корп. 2",
+    "activities": [
+      "Рисование",
+      "Анимация",
+      "Шахматы",
+      "Клуб молодой семьи"
+    ],
+    "vkUrl": "https://vk.com/public218811263",
+    "vkUrlSource": "https://centernevskiy.ru/artnevskij/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Атлант",
+    "address": "ул. Кржижановского, д. 5",
+    "phone": "584-54-13",
+    "activities": [
+      "Спорт",
+      "Патриотический клуб",
+      "Современные танцы",
+      "ОФП",
+      "Бачата и сальса соло",
+      "Каратэ",
+      "Хип-хоп"
+    ],
+    "vkUrl": "https://vk.com/club24552119",
+    "vkUrlSource": "https://centernevskiy.ru/atlant/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23",
+    "activitySchedule": [
+      {
+        "activity": "ОФП",
+        "fundingEvidence": {
+          "status": "free",
+          "age": "14-35",
+          "scope": "same_atlant_schedule_block",
+          "sourceRefs": [
+            {
+              "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+              "startLine": 82,
+              "endLine": 84,
+              "quote": "**ОФП**\n\nПонедельник, Среда, Пятница — 16:00–21:00"
+            },
+            {
+              "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+              "startLine": 108,
+              "endLine": 109,
+              "quote": "Для всех желающих от 14 до 35 лет бесплатно.  \nПиши нам в сообщения сообщества [vk.me/atlant_champ](https://vk.ru/away.php?to=https://vk.me/atlant_champ&utf=1 \"https://vk.com/away.php?to=https://vk.me/atlant_champ&utf=1\") – и приходи на пробное занятие."
+            }
+          ]
+        },
+        "sourceType": "user_vk_text",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "В предоставленных сведениях сообщества период действия расписания не указан. Указаны бесплатные занятия для участников от 14 до 35 лет. До посещения уточни действующую сетку и время своей группы.",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceUrl": "https://vk.ru/atlant_champ",
+        "sourceRefs": [
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 82,
+            "endLine": 84,
+            "quote": "**ОФП**\n\nПонедельник, Среда, Пятница — 16:00–21:00"
+          },
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 108,
+            "endLine": 109,
+            "quote": "Для всех желающих от 14 до 35 лет бесплатно.  \nПиши нам в сообщения сообщества [vk.me/atlant_champ](https://vk.ru/away.php?to=https://vk.me/atlant_champ&utf=1 \"https://vk.com/away.php?to=https://vk.me/atlant_champ&utf=1\") – и приходи на пробное занятие."
+          }
+        ],
+        "sourceRecords": [
+          "nevsky-atlant-text-82"
+        ],
+        "importTask": "S-82",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "16:00-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Бачата и сальса соло",
+        "fundingEvidence": {
+          "status": "free",
+          "age": "14-35",
+          "scope": "same_atlant_schedule_block",
+          "sourceRefs": [
+            {
+              "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+              "startLine": 86,
+              "endLine": 88,
+              "quote": "**Бачата, сальса соло**\n\nПонедельник, Среда 16:00-21:00"
+            },
+            {
+              "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+              "startLine": 108,
+              "endLine": 109,
+              "quote": "Для всех желающих от 14 до 35 лет бесплатно.  \nПиши нам в сообщения сообщества [vk.me/atlant_champ](https://vk.ru/away.php?to=https://vk.me/atlant_champ&utf=1 \"https://vk.com/away.php?to=https://vk.me/atlant_champ&utf=1\") – и приходи на пробное занятие."
+            }
+          ]
+        },
+        "sourceType": "user_vk_text",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "В предоставленных сведениях сообщества период действия расписания не указан. Указаны бесплатные занятия для участников от 14 до 35 лет. До посещения уточни действующую сетку и время своей группы.",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceUrl": "https://vk.ru/atlant_champ",
+        "sourceRefs": [
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 86,
+            "endLine": 88,
+            "quote": "**Бачата, сальса соло**\n\nПонедельник, Среда 16:00-21:00"
+          },
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 108,
+            "endLine": 109,
+            "quote": "Для всех желающих от 14 до 35 лет бесплатно.  \nПиши нам в сообщения сообщества [vk.me/atlant_champ](https://vk.ru/away.php?to=https://vk.me/atlant_champ&utf=1 \"https://vk.com/away.php?to=https://vk.me/atlant_champ&utf=1\") – и приходи на пробное занятие."
+          }
+        ],
+        "sourceRecords": [
+          "nevsky-atlant-text-86"
+        ],
+        "importTask": "S-82",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "16:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Каратэ",
+        "fundingEvidence": {
+          "status": "free",
+          "age": "14-35",
+          "scope": "same_atlant_schedule_block",
+          "sourceRefs": [
+            {
+              "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+              "startLine": 90,
+              "endLine": 98,
+              "quote": "**Каратэ**\n\nВторник, Четверг:\n\n1 группа — 17:00–18:00\n\n2 группа — 19:00–21:00\n\nСуббота: 1 и 2 группы — 16:00–20:00"
+            },
+            {
+              "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+              "startLine": 108,
+              "endLine": 109,
+              "quote": "Для всех желающих от 14 до 35 лет бесплатно.  \nПиши нам в сообщения сообщества [vk.me/atlant_champ](https://vk.ru/away.php?to=https://vk.me/atlant_champ&utf=1 \"https://vk.com/away.php?to=https://vk.me/atlant_champ&utf=1\") – и приходи на пробное занятие."
+            }
+          ]
+        },
+        "sourceType": "user_vk_text",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "В предоставленных сведениях сообщества период действия расписания не указан. Указаны бесплатные занятия для участников от 14 до 35 лет. До посещения уточни действующую сетку и время своей группы.",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceUrl": "https://vk.ru/atlant_champ",
+        "sourceRefs": [
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 90,
+            "endLine": 98,
+            "quote": "**Каратэ**\n\nВторник, Четверг:\n\n1 группа — 17:00–18:00\n\n2 группа — 19:00–21:00\n\nСуббота: 1 и 2 группы — 16:00–20:00"
+          },
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 108,
+            "endLine": 109,
+            "quote": "Для всех желающих от 14 до 35 лет бесплатно.  \nПиши нам в сообщения сообщества [vk.me/atlant_champ](https://vk.ru/away.php?to=https://vk.me/atlant_champ&utf=1 \"https://vk.com/away.php?to=https://vk.me/atlant_champ&utf=1\") – и приходи на пробное занятие."
+          }
+        ],
+        "sourceRecords": [
+          "nevsky-atlant-text-90"
+        ],
+        "importTask": "S-82",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:00-18:00",
+            "group": "1 группа"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-21:00",
+            "group": "2 группа"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-18:00",
+            "group": "1 группа"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-21:00",
+            "group": "2 группа"
+          },
+          {
+            "day": "суббота",
+            "time": "16:00-20:00",
+            "group": "1 и 2 группы"
+          }
+        ]
+      },
+      {
+        "activity": "Хип-хоп",
+        "fundingEvidence": {
+          "status": "free",
+          "age": "14-35",
+          "scope": "same_atlant_schedule_block",
+          "sourceRefs": [
+            {
+              "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+              "startLine": 100,
+              "endLine": 102,
+              "quote": "**Хип-хоп**\n\nВторник, Четверг — 16:00–21:00"
+            },
+            {
+              "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+              "startLine": 108,
+              "endLine": 109,
+              "quote": "Для всех желающих от 14 до 35 лет бесплатно.  \nПиши нам в сообщения сообщества [vk.me/atlant_champ](https://vk.ru/away.php?to=https://vk.me/atlant_champ&utf=1 \"https://vk.com/away.php?to=https://vk.me/atlant_champ&utf=1\") – и приходи на пробное занятие."
+            }
+          ]
+        },
+        "sourceType": "user_vk_text",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "В предоставленных сведениях сообщества период действия расписания не указан. Указаны бесплатные занятия для участников от 14 до 35 лет. До посещения уточни действующую сетку и время своей группы.",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceUrl": "https://vk.ru/atlant_champ",
+        "sourceRefs": [
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 100,
+            "endLine": 102,
+            "quote": "**Хип-хоп**\n\nВторник, Четверг — 16:00–21:00"
+          },
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 108,
+            "endLine": 109,
+            "quote": "Для всех желающих от 14 до 35 лет бесплатно.  \nПиши нам в сообщения сообщества [vk.me/atlant_champ](https://vk.ru/away.php?to=https://vk.me/atlant_champ&utf=1 \"https://vk.com/away.php?to=https://vk.me/atlant_champ&utf=1\") – и приходи на пробное занятие."
+          }
+        ],
+        "sourceRecords": [
+          "nevsky-atlant-text-100"
+        ],
+        "importTask": "S-82",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "16:00-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "16:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "ОФП",
+        "sourceType": "user_vk_note",
+        "sourceUrl": "https://vk.ru/atlant_champ",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для участников от 14 до 35 лет. Период расписания не указан",
+        "sourceRefs": [
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 82,
+            "endLine": 84,
+            "quote": "**ОФП**\n\nПонедельник, Среда, Пятница — 16:00–21:00"
+          },
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 108,
+            "endLine": 109,
+            "quote": "Для всех желающих от 14 до 35 лет бесплатно.  \nПиши нам в сообщения сообщества [vk.me/atlant_champ](https://vk.ru/away.php?to=https://vk.me/atlant_champ&utf=1 \"https://vk.com/away.php?to=https://vk.me/atlant_champ&utf=1\") – и приходи на пробное занятие."
+          }
+        ],
+        "importTask": "S-82"
+      },
+      {
+        "activity": "Бачата и сальса соло",
+        "sourceType": "user_vk_note",
+        "sourceUrl": "https://vk.ru/atlant_champ",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для участников от 14 до 35 лет. Период расписания не указан",
+        "sourceRefs": [
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 86,
+            "endLine": 88,
+            "quote": "**Бачата, сальса соло**\n\nПонедельник, Среда 16:00-21:00"
+          },
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 108,
+            "endLine": 109,
+            "quote": "Для всех желающих от 14 до 35 лет бесплатно.  \nПиши нам в сообщения сообщества [vk.me/atlant_champ](https://vk.ru/away.php?to=https://vk.me/atlant_champ&utf=1 \"https://vk.com/away.php?to=https://vk.me/atlant_champ&utf=1\") – и приходи на пробное занятие."
+          }
+        ],
+        "importTask": "S-82"
+      },
+      {
+        "activity": "Каратэ",
+        "sourceType": "user_vk_note",
+        "sourceUrl": "https://vk.ru/atlant_champ",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для участников от 14 до 35 лет. Период расписания не указан",
+        "sourceRefs": [
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 90,
+            "endLine": 98,
+            "quote": "**Каратэ**\n\nВторник, Четверг:\n\n1 группа — 17:00–18:00\n\n2 группа — 19:00–21:00\n\nСуббота: 1 и 2 группы — 16:00–20:00"
+          },
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 108,
+            "endLine": 109,
+            "quote": "Для всех желающих от 14 до 35 лет бесплатно.  \nПиши нам в сообщения сообщества [vk.me/atlant_champ](https://vk.ru/away.php?to=https://vk.me/atlant_champ&utf=1 \"https://vk.com/away.php?to=https://vk.me/atlant_champ&utf=1\") – и приходи на пробное занятие."
+          }
+        ],
+        "importTask": "S-82"
+      },
+      {
+        "activity": "Хип-хоп",
+        "sourceType": "user_vk_note",
+        "sourceUrl": "https://vk.ru/atlant_champ",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для участников от 14 до 35 лет. Период расписания не указан",
+        "sourceRefs": [
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 100,
+            "endLine": 102,
+            "quote": "**Хип-хоп**\n\nВторник, Четверг — 16:00–21:00"
+          },
+          {
+            "sourceNote": "YoungRussiaOBS/Источники/ВК/---ВК ПМК Невского района.md",
+            "startLine": 108,
+            "endLine": 109,
+            "quote": "Для всех желающих от 14 до 35 лет бесплатно.  \nПиши нам в сообщения сообщества [vk.me/atlant_champ](https://vk.ru/away.php?to=https://vk.me/atlant_champ&utf=1 \"https://vk.com/away.php?to=https://vk.me/atlant_champ&utf=1\") – и приходи на пробное занятие."
+          }
+        ],
+        "importTask": "S-82"
+      }
+    ]
+  },
+  {
+    "name": "Горизонт",
+    "address": "ул. Дыбенко, д. 25, корп. 1",
+    "phone": "586-52-09",
+    "activities": [
+      "Танцы",
+      "Рисование",
+      "Гитара",
+      "Этноперкуссия"
+    ],
+    "vkUrl": "https://vk.com/spbgorizont",
+    "vkUrlSource": "https://centernevskiy.ru/gorizont/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Дружба",
+    "address": "Октябрьская наб., д. 84, корп. 5",
+    "phone": "447-24-56",
+    "activities": [
+      "Декоративно-прикладное творчество",
+      "Спорт"
+    ],
+    "vkUrl": "https://vk.com/pmkdruzhba",
+    "vkUrlSource": "https://centernevskiy.ru/druzhba/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Зоркий",
+    "address": "Товарищеский пр., д. 20/27",
+    "phone": "580-70-49",
+    "activities": [
+      "Творчество",
+      "Языковой клуб",
+      "Гитара",
+      "Настольные игры"
+    ],
+    "vkUrl": "https://vk.com/public94070149",
+    "vkUrlSource": "https://centernevskiy.ru/zorkij/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Параллель",
+    "address": "бульвар Красных Зорь, д. 5",
+    "phone": "362-07-28",
+    "activities": [
+      "Добровольчество",
+      "Творчество",
+      "Театр",
+      "Вокал"
+    ],
+    "vkUrl": "https://vk.com/parallel_club",
+    "vkUrlSource": "https://centernevskiy.ru/parallel/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Оптимист",
+    "address": "ул. Народная, д. 28",
+    "phone": "446-80-67",
+    "activities": [
+      "Творчество",
+      "Фитнес",
+      "Социальные проекты"
+    ],
+    "vkUrl": "https://vk.com/club161376154",
+    "vkUrlSource": "https://centernevskiy.ru/optimist/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Олимпиец",
+    "address": "ул. Крыленко, д. 21",
+    "phone": "586-43-28",
+    "activities": [
+      "Спорт",
+      "Вокал",
+      "Танцы"
+    ],
+    "vkUrl": "https://vk.com/pmk_olimpiec",
+    "vkUrlSource": "https://centernevskiy.ru/olimpiec/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Огонёк",
+    "address": "ул. Коллонтай, д. 21, корп. 1",
+    "phone": "588-82-25",
+    "activities": [
+      "Танцы",
+      "Вокал",
+      "Рисование",
+      "Фитнес",
+      "Каратэ",
+      "Клуб молодой семьи"
+    ],
+    "vkUrl": "https://vk.com/ogonekpmk",
+    "vkUrlSource": "https://centernevskiy.ru/ogonjok/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Невские орлята",
+    "address": "пр. Большевиков, д. 57, корп. 2",
+    "phone": "446-18-38",
+    "activities": [
+      "Патриотический клуб",
+      "Спорт",
+      "Танцы",
+      "Театр",
+      "Стиль"
+    ],
+    "vkUrl": "https://vk.com/club_nevskie78",
+    "vkUrlSource": "https://centernevskiy.ru/nevskie-orljata/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Нева",
+    "address": "ул. Прибрежная, д. 16",
+    "phone": "700-69-59",
+    "activities": [
+      "Настольные игры",
+      "Фитнес"
+    ],
+    "vkUrl": "https://vk.com/neva16",
+    "vkUrlSource": "https://centernevskiy.ru/neva/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "type": "Молодёжный центр",
+    "name": "Молодёжный центр",
+    "address": "ул. Бабушкина, д. 42, корп. 4А",
+    "activities": [
+      "Вокал",
+      "Гитара",
+      "Звукозапись",
+      "Театр",
+      "Танцы",
+      "Фотография",
+      "Дизайн"
+    ],
+    "vkUrl": "https://vk.com/molodejniycenter",
+    "vkUrlSource": "https://centernevskiy.ru/molodjozhnyj-centr/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Наш Этаж",
+    "address": "ул. Бабушкина, д. 42, корп. 1",
+    "activities": [
+      "Социальные проекты",
+      "Медиастудия",
+      "Графический дизайн",
+      "Патриотический клуб"
+    ],
+    "vkUrl": "https://vk.com/ourlevel",
+    "vkUrlSource": "https://centernevskiy.ru/nashjetazh/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Мечта",
+    "address": "ул. Новосёлов, д. 53, корп. 2",
+    "activities": [
+      "Социальные проекты",
+      "Профориентация"
+    ],
+    "vkUrl": "https://vk.com/mechta_club_spb",
+    "vkUrlSource": "https://centernevskiy.ru/mechta/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Луч",
+    "address": "ул. Антонова-Овсеенко, д. 11, корп. 1",
+    "activities": [
+      "Вокал",
+      "Брейк-данс",
+      "Творчество",
+      "Танцы"
+    ],
+    "vkUrl": "https://vk.com/pmklu4",
+    "vkUrlSource": "https://centernevskiy.ru/luch/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Лидер",
+    "address": "ул. Коллонтай, д. 32, корп. 3",
+    "phone": "583-18-48",
+    "activities": [
+      "Спорт",
+      "Творчество",
+      "Социальные проекты"
+    ],
+    "vkUrl": "https://vk.com/club34944303",
+    "vkUrlSource": "https://centernevskiy.ru/lider/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Ленинградец",
+    "address": "ул. Ольминского, д. 26",
+    "phone": "365-07-71",
+    "activities": [
+      "Спорт",
+      "Творчество",
+      "Клуб молодой семьи",
+      "Йога"
+    ],
+    "vkUrl": "https://vk.com/club85211760",
+    "vkUrlSource": "https://centernevskiy.ru/leningradec/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Кругозор",
+    "address": "Дальневосточный пр., д. 4",
+    "phone": "447-77-74",
+    "activities": [
+      "Танцы",
+      "Спорт",
+      "Вокал",
+      "Семейный клуб"
+    ],
+    "vkUrl": "https://vk.com/club42857231",
+    "vkUrlSource": "https://centernevskiy.ru/krugozor/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Красные Зори",
+    "address": "ул. Седова, д. 98А",
+    "activities": [
+      "Студия звукозаписи"
+    ]
+  },
+  {
+    "name": "Космос",
+    "address": "ул. Дыбенко, д. 13, корп. 1",
+    "phone": "585-51-98",
+    "activities": [
+      "Танцы",
+      "Семейный клуб"
+    ],
+    "vkUrl": "https://vk.com/pmk_kosmos",
+    "vkUrlSource": "https://centernevskiy.ru/kosmos/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Каравелла",
+    "address": "ул. Караваевская, д. 31",
+    "phone": "577-80-08",
+    "activities": [
+      "Творчество",
+      "Дискуссионный клуб",
+      "Настольные игры",
+      "Разговорный английский",
+      "Рисование"
+    ],
+    "vkUrl": "https://vk.com/pmkaravell",
+    "vkUrlSource": "https://centernevskiy.ru/karavella/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Искатели",
+    "address": "ул. Коллонтай, д. 41",
+    "phone": "442-13-37",
+    "activities": [
+      "Спорт",
+      "Настольный теннис"
+    ],
+    "vkUrl": "https://vk.com/public140425651",
+    "vkUrlSource": "https://centernevskiy.ru/iskateli/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Юность",
+    "address": "ул. Кибальчича, д. 8, корп. 2",
+    "phone": "362-70-73",
+    "activities": [
+      "Вокал",
+      "Театр",
+      "Гитара",
+      "Творчество"
+    ],
+    "vkUrl": "https://vk.com/pmk_junost",
+    "vkUrlSource": "https://centernevskiy.ru/junost/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Чайка",
+    "address": "3-й Рабфаковский пер., д. 4",
+    "phone": "367-69-29",
+    "activities": [
+      "Спорт",
+      "Брейк-данс",
+      "Творчество",
+      "Социальные проекты"
+    ],
+    "vkUrl": "https://vk.com/club96077723",
+    "vkUrlSource": "https://centernevskiy.ru/chajka/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Юбилейный",
+    "address": "Дальневосточный пр., д. 8, корп. 1",
+    "phone": "621-70-10",
+    "activities": [
+      "Каратэ",
+      "Театр",
+      "Рисование",
+      "Танцы"
+    ],
+    "vkUrl": "https://vk.com/clubyoubileyny",
+    "vkUrlSource": "https://centernevskiy.ru/jubilejnyj/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Факел",
+    "address": "ул. Крупской, д. 31",
+    "phone": "560-27-95",
+    "activities": [
+      "Социальные проекты",
+      "Патриотический клуб"
+    ],
+    "vkUrl": "https://vk.com/club50436940",
+    "vkUrlSource": "https://centernevskiy.ru/fakel/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Товарищ",
+    "address": "пр. Большевиков, д. 6, корп. 2",
+    "phone": "589-12-23",
+    "activities": [
+      "Спорт",
+      "Танцы",
+      "Этноперкуссия"
+    ],
+    "vkUrl": "https://vk.com/clubspb5891223",
+    "vkUrlSource": "https://centernevskiy.ru/tovarishh/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Спутник",
+    "address": "пр. Обуховской Обороны, д. 95, корп. 1",
+    "activities": [
+      "Фитнес",
+      "Гитара",
+      "Интеллектуальный клуб"
+    ],
+    "vkUrl": "https://vk.com/club133553584",
+    "vkUrlSource": "https://centernevskiy.ru/sputnik/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Ракета",
+    "address": "ул. Бабушкина, д. 117, корп. 2",
+    "activities": [
+      "Гончарное дело",
+      "Танцы",
+      "Историческая реконструкция",
+      "Фитнес",
+      "Творчество"
+    ],
+    "vkUrl": "https://vk.com/club137392949",
+    "vkUrlSource": "https://centernevskiy.ru/raketa/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Прожектор",
+    "address": "пр. Солидарности, д. 11, корп. 1",
+    "phone": "583-41-27",
+    "activities": [
+      "Спорт",
+      "Танцы"
+    ],
+    "vkUrl": "https://vk.com/clubpmkprojector",
+    "vkUrlSource": "https://centernevskiy.ru/prozhektor/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Полярник",
+    "address": "ул. Полярников, д. 19",
+    "activities": [
+      "Информационные технологии",
+      "Проектный офис",
+      "Фотография"
+    ],
+    "vkUrl": "https://vk.com/pmkpolyrnik",
+    "vkUrlSource": "https://centernevskiy.ru/poljarnik/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Перспектива",
+    "address": "пр. Обуховской Обороны, д. 243",
+    "phone": "362-73-14",
+    "activities": [
+      "Спорт",
+      "Йога",
+      "Творческое пространство"
+    ],
+    "vkUrl": "https://vk.com/public62117342",
+    "vkUrlSource": "https://centernevskiy.ru/perspektiva/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "name": "Патриот",
+    "address": "ул. Еремеева, д. 1",
+    "phone": "620-00-74",
+    "activities": [
+      "Вокал",
+      "Спорт",
+      "Патриотический клуб",
+      "Добровольчество",
+      "Рисование",
+      "Фотография"
+    ],
+    "vkUrl": "https://vk.com/patriotclubspb",
+    "vkUrlSource": "https://centernevskiy.ru/patriot/",
+    "vkUrlSourceCheckedAt": "2026-10-16",
+    "vkUrlImportedAt": "2026-10-23"
+  },
+  {
+    "type": "Молодёжное пространство",
+    "name": "Арктика Холл",
+    "address": "Октябрьская наб., д. 86, корп. 2, стр. 1",
+    "activities": [
+      "Графический дизайн",
+      "Проектный офис",
+      "Фотография",
+      "Иллюстрация",
+      "Творчество"
+    ],
+    "vkUrl": "https://vk.ru/arctic_hall",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28"
+  }
 ]

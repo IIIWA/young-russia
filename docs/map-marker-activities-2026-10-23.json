@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-23",
+  "scope": "published and HTTP hash verified",
+  "buildRoot": "dist",
+  "mappedClubs": 331,
+  "districtCounts": {
+    "admiralteysky": 26,
+    "frunzensky": 17,
+    "kalininsky": 21,
+    "kirovsky": 19,
+    "kolpinsky": 14,
+    "krasnogvardeysky": 22,
+    "krasnoselsky": 17,
+    "kronshtadtsky": 3,
+    "kurortny": 9,
+    "moskovsky": 21,
+    "nevsky": 34,
+    "petrodvortsovy": 10,
+    "petrogradsky": 20,
+    "primorsky": 13,
+    "pushkinsky": 19,
+    "tsentralny": 25,
+    "vasileostrovsky": 32,
+    "vyborgsky": 9
+  },
+  "morskoy": [
+    "Гитара",
+    "Курс «Сам себе кинолог»",
+    "Разговорный клуб: английский, немецкий, японский",
+    "Фотостудия"
+  ],
+  "longestList": {
+    "name": "Атлант",
+    "district": "kalininsky",
+    "count": 44
+  },
+  "checks": [
+    "catalog activities match every map payload",
+    "all 18 district payloads match home map",
+    "three Morskoy languages",
+    "unknown language fallback",
+    "escaped HTML",
+    "long lists preserved with internal scroll"
+  ],
+  "publication": {
+    "release": "kolpinets-all-20261023-mvl9drf0",
+    "deployedAt": "2026-10-23T17:44:28Z",
+    "report": "docs/kolpinets-all-release-2026-10-23.md"
+  }
+}

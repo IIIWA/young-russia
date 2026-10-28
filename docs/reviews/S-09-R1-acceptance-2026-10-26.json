@@ -1,0 +1,581 @@
+{
+  "schemaVersion": 1,
+  "task": "S-09-R1",
+  "reviewedOn": "2026-10-26",
+  "auditAcceptance": "accepted",
+  "gitSelectionApproval": "pending_user_packaging_decision_and_S-09-R1A",
+  "originalReport": "docs/reviews/S-09-R1.json",
+  "originalReportSha256": "8bf8c77b0e79824ea24316c2876734b13f97dee05b142fdcee400a02a08fdaa8",
+  "evidence": "outputs/S-09-R1-manager-2026-10-26/verification.json",
+  "verification": {
+    "classified": 7592,
+    "unique": 7592,
+    "duplicates": [],
+    "missing": [],
+    "changedBeforeManagementUpdate": [],
+    "headMatches": true,
+    "indexMatches": true,
+    "manifest": {
+      "checkedFiles": 4972,
+      "missing": [],
+      "mismatches": []
+    },
+    "siteCheck": {
+      "checkedAt": "2026-10-25T22:27:46.275Z",
+      "exitCode": 0,
+      "html": 2426,
+      "canonical": 2424,
+      "breadcrumbPages": 2423,
+      "source": "Independent npm run check in controlling chat; no build."
+    }
+  },
+  "baseProposedCount": 7522,
+  "deferredDecisions": [
+    {
+      "path": "package.json",
+      "sha256": "4455f77db9e7ba3263d4bd16be7ae2011aa1e909223a03f6a441b970efe37143",
+      "group": "mixed_package",
+      "recommendation": "include_whole_with_editorial_draft_bundle",
+      "condition": "user_accepts_public_git_draft_storage_and_S-09-R1A_passes",
+      "userApproved": false
+    },
+    {
+      "path": "data/editorial-guide-drafts.json",
+      "sha256": "60c4c673a4bed7144225f44d27adb80902cb950967bec7e8122e3f3e6dc723ba",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "docs/screenshots/map-marker-activities-2026-10-23/atlant-long-list.png",
+      "sha256": "c8f5b18b2e1c653537760096d4e07a64c63cb5585c96ad322c949156dbd0cc24",
+      "group": "screenshot_review",
+      "recommendation": "include_after_jpeg_extension_and_reference_fix",
+      "condition": "S-09-R1A_preserves_bytes",
+      "userApproved": false
+    },
+    {
+      "path": "docs/screenshots/map-marker-activities-2026-10-23/avrora.png",
+      "sha256": "17a47ea2dc674c83b74f7fcd8a471f7aa4019624ef14a58f029261b09a16ef5d",
+      "group": "screenshot_review",
+      "recommendation": "include_after_jpeg_extension_and_reference_fix",
+      "condition": "S-09-R1A_preserves_bytes",
+      "userApproved": false
+    },
+    {
+      "path": "docs/screenshots/map-marker-activities-2026-10-23/directions-morskoy.png",
+      "sha256": "4733c735b53f5606f66a14dda832a42cb5739fb5930b57a37efe3854fb5a8d24",
+      "group": "screenshot_review",
+      "recommendation": "include_after_jpeg_extension_and_reference_fix",
+      "condition": "S-09-R1A_preserves_bytes",
+      "userApproved": false
+    },
+    {
+      "path": "docs/screenshots/map-marker-activities-2026-10-23/morskoy-mobile.png",
+      "sha256": "901d6335d9a37d07d7f528998261aaea1033c3fff151e8d5c150163a26be6449",
+      "group": "screenshot_review",
+      "recommendation": "include_after_jpeg_extension_and_reference_fix",
+      "condition": "S-09-R1A_preserves_bytes",
+      "userApproved": false
+    },
+    {
+      "path": "docs/screenshots/map-marker-activities-2026-10-23/morskoy.png",
+      "sha256": "831b12a69327cc651f67f3419bf14018716e2b28523caf550948d03f6211112f",
+      "group": "screenshot_review",
+      "recommendation": "include_after_jpeg_extension_and_reference_fix",
+      "condition": "S-09-R1A_preserves_bytes",
+      "userApproved": false
+    },
+    {
+      "path": "docs/screenshots/map-marker-activity-links-2026-10-23/morskoy-links.png",
+      "sha256": "ee4f700ddb5cb24e678f0c8942e2bd95f17b07ddf2d81a8a948e423d4d918f54",
+      "group": "screenshot_review",
+      "recommendation": "include_after_jpeg_extension_and_reference_fix",
+      "condition": "S-09-R1A_preserves_bytes",
+      "userApproved": false
+    },
+    {
+      "path": "docs/screenshots/map-marker-activity-links-2026-10-23/vitana-mixed.png",
+      "sha256": "ca0ec689675708d6d984445b9bfb6f55e46b4f94bbaa80fa3ec4ba963070a71a",
+      "group": "screenshot_review",
+      "recommendation": "include_after_jpeg_extension_and_reference_fix",
+      "condition": "S-09-R1A_preserves_bytes",
+      "userApproved": false
+    },
+    {
+      "path": "docs/seo-editorial-strategy-2026-10-22.md",
+      "sha256": "bb2fe591678e313f57adc7a5c37616fa955a4c6bf6ad454bb4421784844a8f47",
+      "group": "whitespace_pending",
+      "recommendation": "include_after_trailing_blank_line_fix",
+      "condition": "no_editorial_content_change",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/assets/flags/cn.svg",
+      "sha256": "571983fcd0ae310576a3cd4e342d364db88696b9e34937520847ac3e51b54a54",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/assets/flags/de.svg",
+      "sha256": "261a6255888a9d8759a183d8bf8d89090a74ee53a2a423d08f5a33bd4f58ceb7",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/assets/flags/es.svg",
+      "sha256": "2bd02a0f94c125ff5de341c2e8cef9a46f6e4e113a6e3bad0d87bcafc87936f6",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/assets/flags/fr.svg",
+      "sha256": "99d333e18864f7b66a637c70289e71da780ab2bc78439b30434837a7508cf9a6",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/assets/flags/gb.svg",
+      "sha256": "5f1ebb1de113ac9bbcaa818def0e2d0aca36f0509f5fc2c623d39897f45c061a",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/assets/flags/jp.svg",
+      "sha256": "a943d4f273fa15d7453074e35f567ce54d254c4d7d0e598d2621efc9f5f93d37",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/assets/flags/kr.svg",
+      "sha256": "b0af18e9e157391ba25aefeceb2af07773ffc2243d8fce29bb3c1a7d2cab85ce",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/assets/guide-navigation.js",
+      "sha256": "d4bc51688cba0d2b37841784b408bc71a3fe11302a1c8ad55865847d9111e9a6",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/assets/guide-pages.css",
+      "sha256": "c40ae7b3b68d234ebe3ccdac7a75b76480201f570dc55f10af3f980224550da4",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/assets/topic-map.js",
+      "sha256": "73d27ef0880f43e1a2e071533f6ea0ed67649e86c642b84f01de21fd52aa7f85",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/assets/topic-pages.css",
+      "sha256": "ced6cd5a1c3c54faded19244d8795beb0564adcb24638dab1b6398e8f8e2efd8",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/directions/boks.html",
+      "sha256": "201512b3263014e32d3f4b5d0b528ef6803f249840d3b483e5175d76449e4d43",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/directions/razgovornye-kluby.html",
+      "sha256": "cd93e9a1180bc9f19235ecf77d42bb29ac1a85cd8df9207c4cec5ceda6de1c0d",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/guides/boks.html",
+      "sha256": "9bb816ccc201251cff01cf6b92ee272788176ccdcfa8e72e8ffafc5fe99cb98d",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/guides/index.html",
+      "sha256": "275fa9bcaf10cc60a29ae96c8010e28d0c89e450ca8f8375c4c574ff141c4e56",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "prototype/site/guides/razgovornye-kluby.html",
+      "sha256": "9ef75f26dd49338024c7eadadbf02bc84ff08d015f85f3e343f8ae237d745bf7",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "scripts/build-topic-page-prototypes.mjs",
+      "sha256": "03199b9b4246fec153a556ffd2ae433ccf401b6ded9a61915b3d7f7bf4b7f543",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "scripts/import-wordcraft-export.py",
+      "sha256": "7d73da747f0e9db74a0eb7d90e1e842cc492f420c69eea5c6dc5a40b01625158",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    },
+    {
+      "path": "scripts/serve-topic-prototypes.mjs",
+      "sha256": "ae9ad2198afaeea1d7b57d0d524a1b6b0265afe9c220354f9b61fb6de40dacc1",
+      "group": "editorial_drafts",
+      "recommendation": "separate_commit_as_unapproved_drafts",
+      "condition": "user_accepts_public_git_visibility_no_site_publication",
+      "userApproved": false
+    }
+  ],
+  "localRulesDecision": {
+    "path": "AGENTS.md",
+    "recommendation": "track_existing_rules_after_removing_exact_ignore_entry",
+    "userApproved": false
+  },
+  "internalExclusions": [
+    {
+      "path": "data/research/pmc-club-contact-audit.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/activity-type-normalization-2026-10-22.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/activity-types-2026-10-22.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/admiralteets-user-update-2026-10-24.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kalininsky-catalog-before-2026-10-23.json",
+      "group": "research_backups",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kalininsky-city-free-evidence-2026-10-23.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kalininsky-import-review-2026-10-23.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kalininsky-official-evidence.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kalininsky-schedule-transcription-2026-10-23.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kirovsky-official-evidence.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kolpinets-address-coordinate-history-2026-10-23.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kolpinets-before-import-2026-10-23.json",
+      "group": "research_backups",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kolpinets-user-evidence-2026-10-23.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kolpinsky-official-evidence.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/krasnogvardeysky-import-review-2026-10-23.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/krasnogvardeysky-official-evidence.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/krasnoselsky-docx-2025-05.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/krasnoselsky-official-evidence.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kronshtadtsky-catalog-before-2026-10-23.json",
+      "group": "research_backups",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kronshtadtsky-official-evidence.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kronshtadtsky-official-pages-2026-10-23.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kronshtadtsky-pdf-source-2026-10-23.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kurortny-catalog-before-2026-10-24.json",
+      "group": "research_backups",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kurortny-official-evidence.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kurortny-official-pages-2026-10-24.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kurortny-schedule-transcription-2026-10-24.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/kurortny-user-docx-2026-10-24.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/ligovo-catalog-before-2026-10-23.json",
+      "group": "research_backups",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/ohta-catalog-before-2026-10-23.json",
+      "group": "research_backups",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/ohta-schedule-transcription-2026-10-23.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/ohta-structured-source-2026-10-23.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/patriot-schedule-image-2026-10-22.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/raketa-closure-image-2026-10-24.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/schedule-attachment-audit-2026-10-24.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/wordcraft-conversation-2026-10-23.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/wordstat-2026-10-22/activity-demand.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/wordstat-2026-10-22/activity-query-plan.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/wordstat-2026-10-22/monthly-dynamics.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "data/research/wordstat-2026-10-22/top-queries.json",
+      "group": "internal_research",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "docs/search-console-baseline-2026-10-22.md",
+      "group": "analytics_private",
+      "recommendation": "keep_current_revision_local"
+    },
+    {
+      "path": "docs/search-data-api-connection-2026-10-23.md",
+      "group": "analytics_private",
+      "recommendation": "keep_current_revision_local"
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "docs/screenshots/map-marker-activities-2026-10-23/atlant-long-list.png",
+      "actualFormat": "JPEG",
+      "extensionMismatch": true,
+      "width": 1265,
+      "height": 712,
+      "metadataSegments": [
+        "APP0"
+      ],
+      "hasExifOrComment": false,
+      "visualReview": "No visible accounts, secrets, private messages or browser chrome; public catalog/map content with attribution."
+    },
+    {
+      "path": "docs/screenshots/map-marker-activities-2026-10-23/avrora.png",
+      "actualFormat": "JPEG",
+      "extensionMismatch": true,
+      "width": 1265,
+      "height": 712,
+      "metadataSegments": [
+        "APP0"
+      ],
+      "hasExifOrComment": false,
+      "visualReview": "No visible accounts, secrets, private messages or browser chrome; public catalog/map content with attribution."
+    },
+    {
+      "path": "docs/screenshots/map-marker-activities-2026-10-23/directions-morskoy.png",
+      "actualFormat": "JPEG",
+      "extensionMismatch": true,
+      "width": 1265,
+      "height": 712,
+      "metadataSegments": [
+        "APP0"
+      ],
+      "hasExifOrComment": false,
+      "visualReview": "No visible accounts, secrets, private messages or browser chrome; public catalog/map content with attribution."
+    },
+    {
+      "path": "docs/screenshots/map-marker-activities-2026-10-23/morskoy-mobile.png",
+      "actualFormat": "JPEG",
+      "extensionMismatch": true,
+      "width": 375,
+      "height": 811,
+      "metadataSegments": [
+        "APP0"
+      ],
+      "hasExifOrComment": false,
+      "visualReview": "No visible accounts, secrets, private messages or browser chrome; public catalog/map content with attribution."
+    },
+    {
+      "path": "docs/screenshots/map-marker-activities-2026-10-23/morskoy.png",
+      "actualFormat": "JPEG",
+      "extensionMismatch": true,
+      "width": 1265,
+      "height": 712,
+      "metadataSegments": [
+        "APP0"
+      ],
+      "hasExifOrComment": false,
+      "visualReview": "No visible accounts, secrets, private messages or browser chrome; public catalog/map content with attribution."
+    },
+    {
+      "path": "docs/screenshots/map-marker-activity-links-2026-10-23/morskoy-links.png",
+      "actualFormat": "JPEG",
+      "extensionMismatch": true,
+      "width": 1265,
+      "height": 712,
+      "metadataSegments": [
+        "APP0"
+      ],
+      "hasExifOrComment": false,
+      "visualReview": "No visible accounts, secrets, private messages or browser chrome; public catalog/map content with attribution."
+    },
+    {
+      "path": "docs/screenshots/map-marker-activity-links-2026-10-23/vitana-mixed.png",
+      "actualFormat": "JPEG",
+      "extensionMismatch": true,
+      "width": 1265,
+      "height": 712,
+      "metadataSegments": [
+        "APP0"
+      ],
+      "hasExifOrComment": false,
+      "visualReview": "No visible accounts, secrets, private messages or browser chrome; public catalog/map content with attribution."
+    }
+  ],
+  "nextTask": {
+    "id": "S-09-R1A",
+    "state": "proposed_not_launched",
+    "brief": "docs/tasks/S-09-R1A.md"
+  },
+  "nonActions": {
+    "siteChanges": false,
+    "build": false,
+    "staging": false,
+    "commit": false,
+    "push": false,
+    "ssh": false,
+    "executorMessages": false,
+    "newTasksLaunched": false
+  },
+  "note": "Management documents change after this verification; refresh exact hashes before any later staging. Draft GitHub source visibility is part of the pending user decision."
+}

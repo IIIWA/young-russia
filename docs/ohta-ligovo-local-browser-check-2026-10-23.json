@@ -1,0 +1,108 @@
+{
+  "checkedSchedules": 203,
+  "checkedSlots": 1056,
+  "retiredPagesAbsent": 19,
+  "contactPages": 39,
+  "renderMode": "static dist HTML with original local CSS and fonts; no HTTP preview assertion",
+  "browserChecks": [
+    {
+      "route": "activities/krasnogvardeysky-teplo-angliyskiy-razgovornyy-klub-ovsyan-34.html",
+      "width": 390,
+      "scroll": 390,
+      "groups": [
+        3,
+        2
+      ],
+      "slots": 9,
+      "screenshot": "outputs/ohta-teplo-390.png"
+    },
+    {
+      "route": "activities/krasnogvardeysky-teplo-angliyskiy-razgovornyy-klub-ovsyan-34.html",
+      "width": 683,
+      "scroll": 683,
+      "groups": [
+        3,
+        2
+      ],
+      "slots": 9,
+      "screenshot": "outputs/ohta-teplo-683.png"
+    },
+    {
+      "route": "activities/krasnogvardeysky-teplo-angliyskiy-razgovornyy-klub-ovsyan-34.html",
+      "width": 1280,
+      "scroll": 1280,
+      "groups": [
+        3,
+        2
+      ],
+      "slots": 9,
+      "screenshot": "outputs/ohta-teplo-1280.png"
+    },
+    {
+      "route": "activities/krasnogvardeysky-kvadrat-fotostudiya-vspyshka-30.html",
+      "width": 390,
+      "scroll": 390,
+      "groups": [
+        3,
+        2
+      ],
+      "slots": 10,
+      "screenshot": "outputs/ohta-kvadrat-390.png"
+    },
+    {
+      "route": "activities/krasnogvardeysky-kvadrat-fotostudiya-vspyshka-30.html",
+      "width": 683,
+      "scroll": 683,
+      "groups": [
+        3,
+        2
+      ],
+      "slots": 10,
+      "screenshot": "outputs/ohta-kvadrat-683.png"
+    },
+    {
+      "route": "activities/krasnogvardeysky-kvadrat-fotostudiya-vspyshka-30.html",
+      "width": 1280,
+      "scroll": 1280,
+      "groups": [
+        3,
+        2
+      ],
+      "slots": 10,
+      "screenshot": "outputs/ohta-kvadrat-1280.png"
+    },
+    {
+      "route": "activities/krasnogvardeysky-meteor-sektsiya-ofp-s-elementami-skalolaz-12.html",
+      "width": 390,
+      "scroll": 390,
+      "groups": [
+        3,
+        2
+      ],
+      "slots": 8,
+      "screenshot": "outputs/ohta-meteor-390.png"
+    },
+    {
+      "route": "activities/krasnogvardeysky-meteor-sektsiya-ofp-s-elementami-skalolaz-12.html",
+      "width": 683,
+      "scroll": 683,
+      "groups": [
+        3,
+        2
+      ],
+      "slots": 8,
+      "screenshot": "outputs/ohta-meteor-683.png"
+    },
+    {
+      "route": "activities/krasnogvardeysky-meteor-sektsiya-ofp-s-elementami-skalolaz-12.html",
+      "width": 1280,
+      "scroll": 1280,
+      "groups": [
+        3,
+        2
+      ],
+      "slots": 8,
+      "screenshot": "outputs/ohta-meteor-1280.png"
+    }
+  ]
+}

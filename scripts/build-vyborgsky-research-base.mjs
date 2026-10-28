@@ -17,7 +17,7 @@ const yaml = value => JSON.stringify(String(value ?? ''));
 const unique = values => [...new Set(values.filter(Boolean))];
 const issues = {
   'Перекрёсток': [
-    'В заметке встречаются две ссылки на страницу «Перекрёстка»: mklub461 в списке ПМЦ и mirpr46 в описании вокальной студии. Уточнить, какая действует.',
+    'Для «Перекрёстка» в публичный каталог перенесена mklub461: она указана в списке клубов на официальном сайте ПМЦ «МИР», проверенном 22.10.2026. Ссылка mirpr46 из описания вокальной студии сохранена как отдельный кандидат; её назначение уточнить.',
     '«Класс сопрано»: в заметке указаны бесплатные часы до 18:30 и платные индивидуальные занятия после 18:30; условия не обобщать на всё направление.',
     '«Комьюнити Дэнс»: два фрагмента дают разное окончание занятий — 20:30 и 21:00; расписание требует уточнения.',
     '«Арт-пространство»: в источнике время записано как 16:0; не исправлять без проверки.',
@@ -30,13 +30,12 @@ const issues = {
   ],
   'Феникс': [
     'Публикации разных лет; актуальность расписаний и набора проверить у учреждения.',
-    'Точка клуба на карте района ошибочная: OSM сопоставил «Лесной пр., д. 61» с Петро-Славянкой, а площадка находится в Выборгском районе. Нужна подтверждённая точка.',
   ],
   'Фестиваль': ['Публикации разных лет; актуальность расписаний и набора проверить у учреждения.'],
-  'Патриот': ['Точки на карте района нет: адрес в Осиновой Роще не геокодирован. Нужна подтверждённая точка.'],
+  'Патриот': ['Расписание на снимке начинается 01.09.2025; действующий набор и изменения уточнить перед посещением.'],
 };
-const secondNoteName = 'ПМК Выборгского инфа 2';
-const secondNoteLink = `[[Задачи/${secondNoteName}]]`;
+const secondNoteName = 'ВК ПМК Выборгского района — дополнение';
+const secondNoteLink = `[[Источники/ВК/${secondNoteName}]]`;
 // Ручные пояснения к карточкам. Держим их здесь, потому что карточки пересоздаются командой data:views.
 const manualNotes = {
   'Патриот': [
@@ -116,6 +115,10 @@ properties:
     displayName: Направлений со ссылками
   schedule_fragment_count:
     displayName: Фрагментов расписания
+  catalog_schedule_count:
+    displayName: Расписаний в каталоге
+  image_schedule_count:
+    displayName: Интервалов по снимку
   review_issue_count:
     displayName: Вопросов для сверки
   review_status:
@@ -173,11 +176,14 @@ for (const [index, club] of clubs.entries()) {
   const clubVk = club.vkUrl || evidence.clubVk[club.name]?.url || '';
   const centerPhone = unique([...(catalogCenter?.phones ?? []), noteCenter.phone]).join('; ');
   const centerEmail = (catalogCenter?.emails ?? []).join('; ');
+  const centerSite = catalogCenter?.links.site || noteCenter.site;
   const questionList = issues[club.name] ?? [];
   if (!sections.length) questionList.push('В заметке найдена страница ВК клуба в списке ПМЦ «МИР», но нет отдельных описаний занятий и расписаний.');
   const linked = sections.filter(section => section.groupLinks.length || section.productPage);
   const scheduleCount = sections.reduce((sum, section) => sum + section.scheduleEvidence.length, 0);
   const personCount = sections.reduce((sum, section) => sum + section.people.length, 0);
+  const imageSchedules = (club.activitySchedule ?? []).filter(item => item.sourceType === 'user_image');
+  const imageSessionCount = imageSchedules.reduce((count, activity) => count + activity.schedule.reduce((n, session) => n + String(session.day ?? session.days).split(',').length, 0), 0);
   const status = sections.length ? 'рабочие сведения из заметки; актуальность не проверена' : 'только ссылка клуба; направления требуют отдельной сверки';
   const frontmatter = [
     '---', 'record_type: pmk_vyborgsky_research', `catalog_id: ${yaml(id)}`,
@@ -185,13 +191,14 @@ for (const [index, club] of clubs.entries()) {
     `organization: ${yaml(noteCenter.name)}`, `address: ${yaml(club.address)}`,
     `club_phone: ${yaml(club.phone)}`, `club_email: ${yaml(club.email)}`,
     `club_vk: ${yaml(clubVk)}`, `center_vk: ${yaml(noteCenter.vk.url)}`,
-    `center_site: ${yaml(noteCenter.site)}`, `center_phone: ${yaml(centerPhone)}`,
+    `center_site: ${yaml(centerSite)}`, `center_phone: ${yaml(centerPhone)}`,
     `center_email: ${yaml(centerEmail)}`, `direction_count: ${sections.length}`,
     `direction_link_count: ${linked.length}`, `schedule_fragment_count: ${scheduleCount}`,
+    `catalog_schedule_count: ${(club.activitySchedule ?? []).length}`, `image_schedule_count: ${imageSessionCount}`,
     `person_mention_count: ${personCount}`,
     `review_issue_count: ${questionList.length}`, `review_status: ${yaml(status)}`,
     `general_card: ${yaml(`[[База данных/Каталог клубов Санкт-Петербурга/${id}]]`)}`,
-    `source_note: ${yaml('[[Задачи/ПМК Выборгского инфа]]')}`,
+    `source_note: ${yaml('[[Источники/ВК/ВК ПМК Выборгского района]]')}`,
     ...(secondNoteCommunities[club.name]?.length ? [`source_note_2: ${yaml(secondNoteLink)}`] : []),
     '---', '',
   ];
@@ -200,7 +207,7 @@ for (const [index, club] of clubs.entries()) {
     `**Общая карточка:** [[Каталог клубов Санкт-Петербурга/${id}]]  `,
     `**Учреждение:** ${noteCenter.name}  `,
     `**Адрес по каталогу:** ${club.address}  `,
-    `**ВК клуба:** ${clubVk ? `[открыть](${clubVk})` : 'отдельная ссылка не найдена'}  `,
+    `**${club.vkUrlSharedWith ? 'Общее сообщество учреждения' : 'ВК клуба'}:** ${clubVk ? `[открыть](${clubVk})` : 'отдельная ссылка не найдена'}  `,
     ...(evidence.clubVkAlternates?.[club.name] ?? []).map(item => `**Другая ссылка ВК из заметки:** [открыть](${item.url}), строка ${item.line}; связь уточнить.  `),
     `**ВК учреждения:** [открыть](${noteCenter.vk.url})  `,
     `**Статус:** ${status}`, '',
@@ -209,19 +216,28 @@ for (const [index, club] of clubs.entries()) {
     `- Почта клуба по каталогу: ${club.email || 'не указана'}.`,
     `- Телефон учреждения: ${centerPhone || 'не указан'}.`,
     `- Почта учреждения: ${centerEmail || 'не указана'}.`,
-    `- Сайт учреждения: ${noteCenter.site ? `[открыть](${noteCenter.site})` : 'не указан'}.`,
+    `- Сайт учреждения: ${centerSite ? `[открыть](${centerSite})` : 'не указан'}.`,
     club.organization === 'mir'
-      ? '- Официальной страницы клуба нет: у ПМЦ «МИР» только общая страница со списком клубов — [мц-мир.рф/clubs](https://xn----ptbkbv6a.xn--p1ai/clubs); ссылки на клубы открываются с неё.'
+      ? club.officialUrl ? `- Официальная страница клуба: [открыть](${club.officialUrl}); ссылка из меню учреждения проверена ${club.officialUrlCheckedAt}.` : '- Официальная страница клуба пока не указана; [список клубов ПМЦ «МИР»](https://xn----ptbkbv6a.xn--p1ai/clubs).'
       : '- Официальной страницы у площадки нет: отдельных страниц у клубов «Форпоста» не найдено, общие сведения — на сайте и в группе учреждения.',
     '- Доступность страниц и актуальность контактов отдельно не проверены.', '',
     '## Направления по каталогу сайта', '',
     ...(club.activities.length ? club.activities.map(activity => `- ${activity}`) : ['- Не указаны.']), '',
+    ...(imageSchedules.length ? [
+      '## Расписание по снимку', '',
+      `- Источник: [[${club.scheduleSourceImage}]], дата начала в документе ${club.scheduleSourceEffectiveFrom}.`,
+      '- Перенесено в основной каталог по запросу пользователя 22.10.2026; действующий набор отдельно не проверен.', '',
+      ...imageSchedules.flatMap(activity => [
+        `### ${activity.activity}`, '',
+        ...activity.schedule.map(session => `- **${session.group}:** ${session.day ?? session.days}, ${session.time}; кабинет ${session.room}.`), '',
+      ]),
+    ] : []),
     '## Направления из присланной заметки', '',
     '> [!warning] Рабочие сведения',
     '> Название, время и условия приведены по заметке. Совпадение с общими категориями каталога не утверждено; перед переносом на сайт нужно сверить действующее расписание и набор.', '',
     ...(sections.length ? sections.flatMap(section => [
       `### ${section.title}`, '',
-      `- Источник: [[ПМК Выборгского инфа]], строки ${section.sourceLines.join('–')}.`,
+      `- Источник: [[Источники/ВК/ВК ПМК Выборгского района]], строки ${section.sourceLines.join('–')}.`,
       ...(section.publishedAt ? [`- Дата публикации в заметке: ${section.publishedAt}.`] : []),
       ...(section.groupLinks.length ? section.groupLinks.map(link => `- Ссылка ВК из раздела: [открыть](${link.url}), строка ${link.line}; принадлежность уточнить.`) : []),
       ...(section.productPage ? [`- Страница направления в каталоге ВК: [открыть](${section.productPage.url}), строка ${section.productPage.line}.`] : []),
@@ -243,7 +259,7 @@ for (const [index, club] of clubs.entries()) {
     ...(club.name === 'Форпост' ? ['- Публикация об объединении «ДВИЖ» в строках 1260–1290 не называет площадку; она оставлена на уровне учреждения.'] : []),
     ...(club.name === 'Перекрёсток' ? ['- В конце заметки, строки 1932–2100, есть список сообществ. Его ссылки требуют сверки с конкретными направлениями.'] : []),
     '', '## Источники', '',
-    '- [[ПМК Выборгского инфа]] — исходная заметка пользователя.',
+    '- [[Источники/ВК/ВК ПМК Выборгского района]] — исходная заметка пользователя.',
     ...(secondNoteCommunities[club.name]?.length ? [`- ${secondNoteLink} — вторая заметка пользователя: ссылки на сообщества клуба.`] : []),
     '- Исходный каталог сайта: `data/clubs-vyborgsky.json`.',
     '- Карточка создаётся командой `npm run data:views`; правки в ней пропадут при пересборке.', '',

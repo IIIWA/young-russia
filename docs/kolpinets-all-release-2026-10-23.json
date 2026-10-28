@@ -1,0 +1,1347 @@
+{
+  "date": "2026-10-23",
+  "release": "kolpinets-all-20261023-mvl9drf0",
+  "deployedAt": "2026-10-23T17:44:28Z",
+  "deployedTimeMoscow": "20:44:28",
+  "verifiedAt": "2026-10-23T17:49:05.418Z",
+  "filesVerified": 4233,
+  "htmlPages": 2057,
+  "canonicalUrls": 2055,
+  "catalog": {
+    "clubs": 334,
+    "activities": 1700
+  },
+  "kolpinets": {
+    "clubs": 10,
+    "newActivities": 51,
+    "schedules": 49,
+    "slots": 135,
+    "unmappedUserServices": 6
+  },
+  "maps": {
+    "mappedClubs": 331,
+    "allDistricts": 18,
+    "activitiesInPopups": true
+  },
+  "scheduleLayoutPublished": true,
+  "baseline": {
+    "event": "baseline_verified",
+    "files": 4128,
+    "snapshot_files": 18997
+  },
+  "backup": "/var/www/u3013321/data/backups/young-russia-before-kolpinets-all-20261023-mvl9drf0.tar.gz",
+  "backupSha256": "58bbbcf2ba33b75ee61bdb8e6ae19c60f86e0b818e4b95b66f3ad564372c6b49",
+  "previous": "/var/www/u3013321/data/www/.young-russia-prev-kolpinets-all-20261023-mvl9drf0",
+  "archiveSha256": "feb8cfb63cc2b74f2a3d8da1dc2499358b85baca57e54a225098723684da2352",
+  "protected": {
+    "robots.txt": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8",
+    ".htaccess": "1a85612ef6398f1528f6022a474fef2d17d987bc9f7ef654a5283537f9165840",
+    "2bd9808eebd74e34a33893f93adc7043.txt": "ed45e66d652040622ec5aeb83e9cfd882bc3d09bbdebebef7c1f82ff179a4e25"
+  },
+  "retained": [
+    "2bd9808eebd74e34a33893f93adc7043.txt",
+    "prototype"
+  ],
+  "http": {
+    "checkedAt": "2026-10-23T17:45:31.657Z",
+    "release": "kolpinets-all-20261023-mvl9drf0",
+    "httpFiles": 68,
+    "checks": [
+      {
+        "file": "activities/kolpinsky-baltika-mediastudiya-sofit-04.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-baltika-mediastudiya-sofit-04.html",
+        "status": 200,
+        "sha256": "40d7afeabc2de80320bbcf07006e73e92f080eef2855d15cbfc205ab77a8306e"
+      },
+      {
+        "file": "activities/kolpinsky-baltika-molodyozhnoe-obedinenie-dayosh-mol-05.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-baltika-molodyozhnoe-obedinenie-dayosh-mol-05.html",
+        "status": 200,
+        "sha256": "1a5a58693376cf7f3c8c33c53a8015c07c0cd779881bb4fb54941f7f38fe6c9a"
+      },
+      {
+        "file": "activities/kolpinsky-baltika-nastolnyy-tennis-06.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-baltika-nastolnyy-tennis-06.html",
+        "status": 200,
+        "sha256": "05c10723200e61c2dbe1afa76103efa36e01f370f5dabb5b485fd749154c2b2b"
+      },
+      {
+        "file": "activities/kolpinsky-baltika-ofp-kurs-na-sport-07.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-baltika-ofp-kurs-na-sport-07.html",
+        "status": 200,
+        "sha256": "801a53ec0511a050af9d1909da210ee59e21a532066ea45d1a311d04d6be079c"
+      },
+      {
+        "file": "activities/kolpinsky-baltika-pauerlifting-i-girevoy-sport-08.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-baltika-pauerlifting-i-girevoy-sport-08.html",
+        "status": 200,
+        "sha256": "54b303460b6afe4f2616b83a1ca62bfa88048af3017ff70c094870a0e463e733"
+      },
+      {
+        "file": "activities/kolpinsky-baltika-step-aerobika-09.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-baltika-step-aerobika-09.html",
+        "status": 200,
+        "sha256": "47e594e17458616fe3b3ae16c78e2cf7b1120fa0daba450cafb03ddefcb1ef0b"
+      },
+      {
+        "file": "activities/kolpinsky-chayka-atleticheskaya-gimnastika-03.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-chayka-atleticheskaya-gimnastika-03.html",
+        "status": 200,
+        "sha256": "fc1f1c4b979d9e0ede88fc57bdd4841b58cf30b8c557c747dd71cc050cf846a7"
+      },
+      {
+        "file": "activities/kolpinsky-chayka-boks-02.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-chayka-boks-02.html",
+        "status": 200,
+        "sha256": "2b5fc7fa6863fa1321d54fc7a23fa54d0cbed0739098057b6d60f589577ecbc0"
+      },
+      {
+        "file": "activities/kolpinsky-chayka-molodyozhnoe-obedinenie-sport-zhiz-04.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-chayka-molodyozhnoe-obedinenie-sport-zhiz-04.html",
+        "status": 200,
+        "sha256": "99966341563e0b6b8992d8817000bfcc363e439cf33f1662448cc8d669eb74f9"
+      },
+      {
+        "file": "activities/kolpinsky-fakel-dizayn-i-iskusstvo-avangard-12.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fakel-dizayn-i-iskusstvo-avangard-12.html",
+        "status": 200,
+        "sha256": "62ba6e719a018a0be39a2bea4fbd1f386d82d401384d1e82dae785af8c577a03"
+      },
+      {
+        "file": "activities/kolpinsky-fakel-graficheskiy-dizayn-i-animatsiya-08.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fakel-graficheskiy-dizayn-i-animatsiya-08.html",
+        "status": 200,
+        "sha256": "864d8f1395b53aa78a9d99f11ce19d19557f8f41e23c69897a82fce4a6c7a4df"
+      },
+      {
+        "file": "activities/kolpinsky-fakel-kitayskiy-yazyk-huashan-13.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fakel-kitayskiy-yazyk-huashan-13.html",
+        "status": 200,
+        "sha256": "76206134e81bde1eb38a1a53f8b3c25fcf9db07040f9b473cbf61289dd2a7f2c"
+      },
+      {
+        "file": "activities/kolpinsky-fakel-narodnoe-penie-pri-doline-10.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fakel-narodnoe-penie-pri-doline-10.html",
+        "status": 200,
+        "sha256": "5c81204c198b4a102eba4b7da857ba27d68bf432823eb420dd33eb9aa7648c9d"
+      },
+      {
+        "file": "activities/kolpinsky-fakel-semeynyy-muzykalnyy-klub-poteshki-11.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fakel-semeynyy-muzykalnyy-klub-poteshki-11.html",
+        "status": 200,
+        "sha256": "c10d6f8951b8e24505751e34cd85836f0163fd62cdeecccabbe00ab3c7e2deee"
+      },
+      {
+        "file": "activities/kolpinsky-fakel-teatralnaya-studiya-krylya-05.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fakel-teatralnaya-studiya-krylya-05.html",
+        "status": 200,
+        "sha256": "206b4b5c2abc9fe140ec3b6cd219d389192da8e0bf4cfa37ce82993a6d0dab77"
+      },
+      {
+        "file": "activities/kolpinsky-fakel-tsifrovoy-dizayn-ot-idei-do-voplos-09.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fakel-tsifrovoy-dizayn-ot-idei-do-voplos-09.html",
+        "status": 200,
+        "sha256": "61b2d87f30199aba9aa8576bf20d55ef6d7f69d55c4ebf8dd2324b849c336903"
+      },
+      {
+        "file": "activities/kolpinsky-fakel-ulichnye-tantsy-04.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fakel-ulichnye-tantsy-04.html",
+        "status": 200,
+        "sha256": "51cd9a22b0a61cced89feae87995779cfc8ff995dd2457ebe7870a7b844440f9"
+      },
+      {
+        "file": "activities/kolpinsky-fakel-vokalnaya-studiya-briz-06.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fakel-vokalnaya-studiya-briz-06.html",
+        "status": 200,
+        "sha256": "e174bcd9af12839baad6cd9f2bb6c997e7d586a636a842e3057ee7441a0ee323"
+      },
+      {
+        "file": "activities/kolpinsky-fakel-vokalnaya-studiya-cantabile-07.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fakel-vokalnaya-studiya-cantabile-07.html",
+        "status": 200,
+        "sha256": "f40363c38d1fcd785e157cda88d907c3bd98bd5c0b1638e0bd9b3af601e2841b"
+      },
+      {
+        "file": "activities/kolpinsky-fantazyory-fotostudiya-profoto-05.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fantazyory-fotostudiya-profoto-05.html",
+        "status": 200,
+        "sha256": "320233bbb6ae8116813587cee7aba4748755487139b9e8ce687823906a426720"
+      },
+      {
+        "file": "activities/kolpinsky-fantazyory-osnovy-obrabotki-fotografiy-i-mobi-04.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fantazyory-osnovy-obrabotki-fotografiy-i-mobi-04.html",
+        "status": 200,
+        "sha256": "169cc01a33014ec9dce46fceb6befb38164dc93f8b9453925eacb5c88ca85b3c"
+      },
+      {
+        "file": "activities/kolpinsky-fantazyory-studiya-stilya-i-mody-kontsept-02.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fantazyory-studiya-stilya-i-mody-kontsept-02.html",
+        "status": 200,
+        "sha256": "ec9788b501a1843d05adafab92e97a119d0dcc9f1c51f6b1c81f334d6409774f"
+      },
+      {
+        "file": "activities/kolpinsky-fantazyory-tvorcheskoe-razvitie-art-territori-03.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-fantazyory-tvorcheskoe-razvitie-art-territori-03.html",
+        "status": 200,
+        "sha256": "9d407cb2882e27f05f0cc33784c181792a0299c4fc82e10df13d749d9abffbde"
+      },
+      {
+        "file": "activities/kolpinsky-gorizont-igra-na-akusticheskoy-gitare-klass-04.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-gorizont-igra-na-akusticheskoy-gitare-klass-04.html",
+        "status": 200,
+        "sha256": "6afd3ad66bfeeac3d8359372564628c5da5ca1cdcf6adabecb135bfa88dfcc44"
+      },
+      {
+        "file": "activities/kolpinsky-gorizont-igra-na-barabannoy-ustanovke-zvuki-02.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-gorizont-igra-na-barabannoy-ustanovke-zvuki-02.html",
+        "status": 200,
+        "sha256": "c9d80f10f3a9655abbe8582084548ee27dd9574042450c3d07ff1e08fcaada3c"
+      },
+      {
+        "file": "activities/kolpinsky-gorizont-obuchenie-igre-na-gitare-artem-03.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-gorizont-obuchenie-igre-na-gitare-artem-03.html",
+        "status": 200,
+        "sha256": "b8459b7d719f76c339e85f0a40733ab794ab3ded2ccb647659fa05b94e4f76b4"
+      },
+      {
+        "file": "activities/kolpinsky-kolpinets-dobro-tsentr-dmk-08.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-kolpinets-dobro-tsentr-dmk-08.html",
+        "status": 200,
+        "sha256": "05ffb78d5824a97dbc6f0bde497e2c9da1d8aa81660b592877f9167af7c2efa8"
+      },
+      {
+        "file": "activities/kolpinsky-kolpinets-obedinenie-traektoriya-podrostka-04.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-kolpinets-obedinenie-traektoriya-podrostka-04.html",
+        "status": 200,
+        "sha256": "ad583a3058676cb12032c73c60100665dd6d0b7861b002b040d523a8d8ee5303"
+      },
+      {
+        "file": "activities/kolpinsky-kolpinets-prostranstvo-prosto-07.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-kolpinets-prostranstvo-prosto-07.html",
+        "status": 200,
+        "sha256": "1420142443bb60d873beab896bf321217c96b22a1fbfbd92b726deaf5e3aa953"
+      },
+      {
+        "file": "activities/kolpinsky-kolpinets-shahmaty-05.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-kolpinets-shahmaty-05.html",
+        "status": 200,
+        "sha256": "f6c74e60611192221bbcd51b87e90ad9b4561885c03c172035a3ac6fdf74a21a"
+      },
+      {
+        "file": "activities/kolpinsky-kolpinets-volontyorskoe-obedinenie-pautina-06.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-kolpinets-volontyorskoe-obedinenie-pautina-06.html",
+        "status": 200,
+        "sha256": "1894402e9d70685ee8e0544fc57b81367d534d223dcb2382060455003578f408"
+      },
+      {
+        "file": "activities/kolpinsky-mediazavod-igrovoy-klub-nerealnost-12.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-mediazavod-igrovoy-klub-nerealnost-12.html",
+        "status": 200,
+        "sha256": "2cc69b9e5d2d1b036a76687b9b57c53a4ad9ae51607fff7566c991941c9152a1"
+      },
+      {
+        "file": "activities/kolpinsky-mediazavod-inoskazanie-08.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-mediazavod-inoskazanie-08.html",
+        "status": 200,
+        "sha256": "44136988668d23754b48803fccd1a5b59e7787cc385be72702d68c3c9eea6a03"
+      },
+      {
+        "file": "activities/kolpinsky-mediazavod-klavishnyy-mir-11.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-mediazavod-klavishnyy-mir-11.html",
+        "status": 200,
+        "sha256": "a8dc3175eec02b574d1e0f7ad03e466b4905937213581305e9cf3213ef1ce0b0"
+      },
+      {
+        "file": "activities/kolpinsky-mediazavod-korotko-metrazhno-05.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-mediazavod-korotko-metrazhno-05.html",
+        "status": 200,
+        "sha256": "fef75b0b2b3f63e9f2d65472c8d05e39bbc63be94dc059a6391966f4737df66e"
+      },
+      {
+        "file": "activities/kolpinsky-mediazavod-pianino-zdes-10.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-mediazavod-pianino-zdes-10.html",
+        "status": 200,
+        "sha256": "fad57308b1a72a489a369c3446b96bb61add8ded59a77d7acf2f697bb3c88d6b"
+      },
+      {
+        "file": "activities/kolpinsky-mediazavod-proektnaya-masterskaya-13.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-mediazavod-proektnaya-masterskaya-13.html",
+        "status": 200,
+        "sha256": "747dfd883d39c37ed6a59327e1a2babc2f53cac937c06fc192dde755757af290"
+      },
+      {
+        "file": "activities/kolpinsky-mediazavod-psihologicheskaya-studiya-pro-teby-09.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-mediazavod-psihologicheskaya-studiya-pro-teby-09.html",
+        "status": 200,
+        "sha256": "e00eed4fb958f6b8c637b69f22d77632d353b56af6c1a413e55c18557f1b8f9b"
+      },
+      {
+        "file": "activities/kolpinsky-mediazavod-shkola-veduschego-04.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-mediazavod-shkola-veduschego-04.html",
+        "status": 200,
+        "sha256": "56122a49140b6f6f18869b5c6158bf642bf47289cf238960aac23d986a84e797"
+      },
+      {
+        "file": "activities/kolpinsky-mediazavod-teatr-miniatyur-03.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-mediazavod-teatr-miniatyur-03.html",
+        "status": 200,
+        "sha256": "f299529bca33b49709e65f767b282d07661642093a4e913e8c98348ea7cb7d40"
+      },
+      {
+        "file": "activities/kolpinsky-mediazavod-vokal-rezonans-14.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-mediazavod-vokal-rezonans-14.html",
+        "status": 200,
+        "sha256": "8a8567104afec31d3380d8cfadb84afb63de487af8a0d7e40413521cc321e329"
+      },
+      {
+        "file": "activities/kolpinsky-mediazavod-vokalnaya-laboratoriya-06.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-mediazavod-vokalnaya-laboratoriya-06.html",
+        "status": 200,
+        "sha256": "46b9b555bc88bf51e8e061206a9d8be140bbe3f2746f8c372bc346d0baa1c59e"
+      },
+      {
+        "file": "activities/kolpinsky-mediazavod-vokalnaya-laboratoriya-pro-07.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-mediazavod-vokalnaya-laboratoriya-pro-07.html",
+        "status": 200,
+        "sha256": "2ec679e7db19f580fcb53fe669b4134eb7272df9acba2595f50bd7d8c0195d80"
+      },
+      {
+        "file": "activities/kolpinsky-orlyonok-lyubitelskoe-obedinenie-liga-vozmo-06.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-orlyonok-lyubitelskoe-obedinenie-liga-vozmo-06.html",
+        "status": 200,
+        "sha256": "11f4d9e752a273b259141e3b349140973302f3f2fd4cdc4a80723cc58fe76a07"
+      },
+      {
+        "file": "activities/kolpinsky-orlyonok-nastolnye-igry-igrovaya-gavan-05.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-orlyonok-nastolnye-igry-igrovaya-gavan-05.html",
+        "status": 200,
+        "sha256": "61c733b79a9d8069b08676021bee46e85695f9f8976ee637f209a3f4497d4389"
+      },
+      {
+        "file": "activities/kolpinsky-orlyonok-nastolnyy-tennis-07.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-orlyonok-nastolnyy-tennis-07.html",
+        "status": 200,
+        "sha256": "0edf69beff0b5c2fa7b0a734a0fdfe5207dc076275bee04f5d0d5e5a53a4a219"
+      },
+      {
+        "file": "activities/kolpinsky-orlyonok-shahmaty-03.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-orlyonok-shahmaty-03.html",
+        "status": 200,
+        "sha256": "e327726655aeb9d35f9c7375c9d06b8d84a1d8e818e410660c4afc7e08ec202c"
+      },
+      {
+        "file": "activities/kolpinsky-orlyonok-volontyorskoe-obedinenie-pod-krylo-04.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-orlyonok-volontyorskoe-obedinenie-pod-krylo-04.html",
+        "status": 200,
+        "sha256": "178c8ed29b7c82065427a5d0e260c35bd54c455ebc6ec22537a592addc0f7989"
+      },
+      {
+        "file": "activities/kolpinsky-ritm-art-studiya-argentum-04.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-ritm-art-studiya-argentum-04.html",
+        "status": 200,
+        "sha256": "f3c712c4319f992973d8c867a3d8d609e34f0aa5b0867f30489a42d09f7ae448"
+      },
+      {
+        "file": "activities/kolpinsky-ritm-gitarnaya-studiya-zhivoy-zvuk-06.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-ritm-gitarnaya-studiya-zhivoy-zvuk-06.html",
+        "status": 200,
+        "sha256": "644598c14427f7b33821430cbe45038bd9abcfc63598a370e41bc3f3b295058e"
+      },
+      {
+        "file": "activities/kolpinsky-ritm-tsifrovaya-illyustratsiya-pero-05.html",
+        "url": "https://young-russia.ru/activities/kolpinsky-ritm-tsifrovaya-illyustratsiya-pero-05.html",
+        "status": 200,
+        "sha256": "af193e0501e7204435af649a4f9a673e1bd28f9971a9a940fb6d415a4248a67c"
+      },
+      {
+        "file": "assets/site.js",
+        "url": "https://young-russia.ru/assets/site.js",
+        "status": 200,
+        "sha256": "5cf923b2649ecdabe51a489fa7893aa47548b70e628a25ff5d9e7a0bfafcb597"
+      },
+      {
+        "file": "assets/style.css",
+        "url": "https://young-russia.ru/assets/style.css",
+        "status": 200,
+        "sha256": "afb3cb87f515cd9cc1bd60e0266966bb211e5deb6e893eb6b09bae24ecab2bc6"
+      },
+      {
+        "file": "clubs/kolpinsky/baltika.html",
+        "url": "https://young-russia.ru/clubs/kolpinsky/baltika.html",
+        "status": 200,
+        "sha256": "3b3842b89716b440fbcd5f2ae8111ae544616e12b1ab2134e4b71f7bb4e24f59"
+      },
+      {
+        "file": "clubs/kolpinsky/chayka.html",
+        "url": "https://young-russia.ru/clubs/kolpinsky/chayka.html",
+        "status": 200,
+        "sha256": "016c2a215f7c3d614de24c2118a9400f9a609c61ad25d5c55311e695f5ba9642"
+      },
+      {
+        "file": "clubs/kolpinsky/fakel.html",
+        "url": "https://young-russia.ru/clubs/kolpinsky/fakel.html",
+        "status": 200,
+        "sha256": "f5d3e0543cd70833bcd33ddd9beae2906b114e3a99fe349b7c65895347ec9b7e"
+      },
+      {
+        "file": "clubs/kolpinsky/fantazyory.html",
+        "url": "https://young-russia.ru/clubs/kolpinsky/fantazyory.html",
+        "status": 200,
+        "sha256": "09c9b5c01a03e41469fe3efe208d8626a2b5cfeefc96c4c16cb58b4604336252"
+      },
+      {
+        "file": "clubs/kolpinsky/gorizont.html",
+        "url": "https://young-russia.ru/clubs/kolpinsky/gorizont.html",
+        "status": 200,
+        "sha256": "dfc52e3d20d2bdfb9e4b8c7d05b3fa555663cd2b533f24a444e6ad24d4a747f1"
+      },
+      {
+        "file": "clubs/kolpinsky/kolpinets.html",
+        "url": "https://young-russia.ru/clubs/kolpinsky/kolpinets.html",
+        "status": 200,
+        "sha256": "c060822022a02eaafc0c66dd2916b32cc351c0e8a7c43d0f165f96632c40e470"
+      },
+      {
+        "file": "clubs/kolpinsky/mediazavod.html",
+        "url": "https://young-russia.ru/clubs/kolpinsky/mediazavod.html",
+        "status": 200,
+        "sha256": "cf135632dfb27f873f43ffb0d0a4fe217f12c1e3368df3148bccaa73fd3ace97"
+      },
+      {
+        "file": "clubs/kolpinsky/orlyonok.html",
+        "url": "https://young-russia.ru/clubs/kolpinsky/orlyonok.html",
+        "status": 200,
+        "sha256": "2ce0955054bd1f5710def635fe166e799ddff397e77080d5dd958ed67325fd2e"
+      },
+      {
+        "file": "clubs/kolpinsky/ritm.html",
+        "url": "https://young-russia.ru/clubs/kolpinsky/ritm.html",
+        "status": 200,
+        "sha256": "1a50a245cdac7c919e0f753f099f3106bc3bed73b7d75ffdf27b8ca203219160"
+      },
+      {
+        "file": "clubs/kolpinsky/rodina.html",
+        "url": "https://young-russia.ru/clubs/kolpinsky/rodina.html",
+        "status": 200,
+        "sha256": "3f79d962b4737cacbc3f602ad1b71054b3c4f1fc2f4f9024f33fc9c6faa1cf08"
+      },
+      {
+        "file": "directions/index.html",
+        "url": "https://young-russia.ru/directions/index.html",
+        "status": 200,
+        "sha256": "34df357d7fb715240941fbf46e35e98b931295f7847d1774d3f376afe57a8628"
+      },
+      {
+        "file": "districts/kolpinsky.html",
+        "url": "https://young-russia.ru/districts/kolpinsky.html",
+        "status": 200,
+        "sha256": "a1a29c597d57b471c06135a6525c8841d15fe5e3c61f34e51425b3b1973285eb"
+      },
+      {
+        "file": "index.html",
+        "url": "https://young-russia.ru/",
+        "status": 200,
+        "sha256": "650a506f081914e183021304eca036e8fdbca17dccb19904b4315445107bdcd3"
+      },
+      {
+        "file": "robots.txt",
+        "url": "https://young-russia.ru/robots.txt",
+        "status": 200,
+        "sha256": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8"
+      },
+      {
+        "file": "sitemap.xml",
+        "url": "https://young-russia.ru/sitemap.xml",
+        "status": 200,
+        "sha256": "1ffbc6cbadacf4b8f94f1c774979ca6b24d918f2cdc809960278fa1fe01f138e"
+      }
+    ],
+    "redirects": [
+      {
+        "url": "http://young-russia.ru/",
+        "status": 301,
+        "location": "https://young-russia.ru:443/"
+      },
+      {
+        "url": "https://www.young-russia.ru/",
+        "status": 301,
+        "location": "https://young-russia.ru/"
+      },
+      {
+        "url": "https://young-russia.ru/index.html",
+        "status": 301,
+        "location": "https://young-russia.ru/"
+      },
+      {
+        "url": "https://young-russia.ru/release-missing-kolpinets-20261023.html",
+        "status": 404,
+        "location": null
+      }
+    ],
+    "sitemapUrls": 2055,
+    "robotsVerified": true,
+    "indexNowPreserved": true,
+    "clubs": 10,
+    "directVkRequests": false
+  },
+  "browser": {
+    "checkedAt": "2026-10-23T17:46:44.994Z",
+    "clubs": 10,
+    "schedulePages": 49,
+    "viewportChecks": 67,
+    "checks": [
+      {
+        "route": "clubs/kolpinsky/kolpinets.html",
+        "width": 390,
+        "club": "Колпинец",
+        "vkFirst": true,
+        "noPhoneOrMailLinks": true,
+        "address": "г. Колпино, Заводской пр., д. 10"
+      },
+      {
+        "route": "activities/kolpinsky-kolpinets-obedinenie-traektoriya-podrostka-04.html",
+        "width": 390,
+        "club": "Колпинец",
+        "activity": "Объединение «Траектория подростка»",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-kolpinets-shahmaty-05.html",
+        "width": 390,
+        "club": "Колпинец",
+        "activity": "Шахматы",
+        "tables": 1,
+        "slots": 1,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-kolpinets-volontyorskoe-obedinenie-pautina-06.html",
+        "width": 390,
+        "club": "Колпинец",
+        "activity": "Волонтёрское объединение «Паутина»",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "clubs/kolpinsky/fakel.html",
+        "width": 390,
+        "club": "Факел",
+        "vkFirst": true,
+        "noPhoneOrMailLinks": true,
+        "address": "г. Колпино, ул. Павловская, д. 82"
+      },
+      {
+        "route": "activities/kolpinsky-fakel-ulichnye-tantsy-04.html",
+        "width": 390,
+        "club": "Факел",
+        "activity": "Уличные танцы",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fakel-teatralnaya-studiya-krylya-05.html",
+        "width": 390,
+        "club": "Факел",
+        "activity": "Театральная студия «Крылья»",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fakel-vokalnaya-studiya-briz-06.html",
+        "width": 390,
+        "club": "Факел",
+        "activity": "Вокальная студия «Бриз»",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fakel-vokalnaya-studiya-cantabile-07.html",
+        "width": 390,
+        "club": "Факел",
+        "activity": "Вокальная студия «Cantabile»",
+        "tables": 1,
+        "slots": 4,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fakel-graficheskiy-dizayn-i-animatsiya-08.html",
+        "width": 390,
+        "club": "Факел",
+        "activity": "Графический дизайн и анимация",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fakel-tsifrovoy-dizayn-ot-idei-do-voplos-09.html",
+        "width": 390,
+        "club": "Факел",
+        "activity": "Цифровой дизайн «От идеи до воплощения»",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fakel-narodnoe-penie-pri-doline-10.html",
+        "width": 390,
+        "club": "Факел",
+        "activity": "Народное пение «При долине»",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fakel-semeynyy-muzykalnyy-klub-poteshki-11.html",
+        "width": 390,
+        "club": "Факел",
+        "activity": "Семейный музыкальный клуб «Потешки»",
+        "tables": 1,
+        "slots": 1,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fakel-dizayn-i-iskusstvo-avangard-12.html",
+        "width": 390,
+        "club": "Факел",
+        "activity": "Дизайн и искусство «Авангард»",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fakel-kitayskiy-yazyk-huashan-13.html",
+        "width": 320,
+        "club": "Факел",
+        "activity": "Китайский язык «Хуашань»",
+        "tables": 1,
+        "slots": 4,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fakel-kitayskiy-yazyk-huashan-13.html",
+        "width": 390,
+        "club": "Факел",
+        "activity": "Китайский язык «Хуашань»",
+        "tables": 1,
+        "slots": 4,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fakel-kitayskiy-yazyk-huashan-13.html",
+        "width": 1440,
+        "club": "Факел",
+        "activity": "Китайский язык «Хуашань»",
+        "tables": 1,
+        "slots": 4,
+        "noOverflow": true
+      },
+      {
+        "route": "clubs/kolpinsky/ritm.html",
+        "width": 390,
+        "club": "Ритм",
+        "vkFirst": true,
+        "noPhoneOrMailLinks": true,
+        "address": "г. Колпино, ул. Ижорского Батальона, д. 15"
+      },
+      {
+        "route": "activities/kolpinsky-ritm-art-studiya-argentum-04.html",
+        "width": 390,
+        "club": "Ритм",
+        "activity": "Арт-студия «Аргентум»",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-ritm-tsifrovaya-illyustratsiya-pero-05.html",
+        "width": 390,
+        "club": "Ритм",
+        "activity": "Цифровая иллюстрация «Перо»",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-ritm-gitarnaya-studiya-zhivoy-zvuk-06.html",
+        "width": 390,
+        "club": "Ритм",
+        "activity": "Гитарная студия «Живой звук»",
+        "tables": 1,
+        "slots": 4,
+        "noOverflow": true
+      },
+      {
+        "route": "clubs/kolpinsky/gorizont.html",
+        "width": 390,
+        "club": "Горизонт",
+        "vkFirst": true,
+        "noPhoneOrMailLinks": true,
+        "address": "г. Колпино, ул. Павловская, д. 82"
+      },
+      {
+        "route": "activities/kolpinsky-gorizont-igra-na-barabannoy-ustanovke-zvuki-02.html",
+        "width": 390,
+        "club": "Горизонт",
+        "activity": "Игра на барабанной установке «Звуки шума»",
+        "tables": 1,
+        "slots": 4,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-gorizont-obuchenie-igre-na-gitare-artem-03.html",
+        "width": 390,
+        "club": "Горизонт",
+        "activity": "Обучение игре на гитаре «ARTем»",
+        "tables": 1,
+        "slots": 4,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-gorizont-igra-na-akusticheskoy-gitare-klass-04.html",
+        "width": 390,
+        "club": "Горизонт",
+        "activity": "Игра на акустической гитаре «Классика»",
+        "tables": 1,
+        "slots": 4,
+        "noOverflow": true
+      },
+      {
+        "route": "clubs/kolpinsky/fantazyory.html",
+        "width": 390,
+        "club": "Фантазёры",
+        "vkFirst": true,
+        "noPhoneOrMailLinks": true,
+        "address": "г. Колпино, ул. Адмиралтейская, д. 9"
+      },
+      {
+        "route": "activities/kolpinsky-fantazyory-studiya-stilya-i-mody-kontsept-02.html",
+        "width": 390,
+        "club": "Фантазёры",
+        "activity": "Студия стиля и моды «Концепт»",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fantazyory-tvorcheskoe-razvitie-art-territori-03.html",
+        "width": 390,
+        "club": "Фантазёры",
+        "activity": "Творческое развитие «Арт-территория»",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fantazyory-osnovy-obrabotki-fotografiy-i-mobi-04.html",
+        "width": 390,
+        "club": "Фантазёры",
+        "activity": "Основы обработки фотографий и мобильной съёмки",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-fantazyory-fotostudiya-profoto-05.html",
+        "width": 390,
+        "club": "Фантазёры",
+        "activity": "Фотостудия «ПроФото»",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "clubs/kolpinsky/rodina.html",
+        "width": 390,
+        "club": "Родина",
+        "vkFirst": true,
+        "noPhoneOrMailLinks": true,
+        "address": "г. Колпино, бульвар Трудящихся, д. 29/52"
+      },
+      {
+        "route": "clubs/kolpinsky/baltika.html",
+        "width": 390,
+        "club": "Балтика",
+        "vkFirst": true,
+        "noPhoneOrMailLinks": true,
+        "address": "пос. Понтонный, ул. Южная, д. 13"
+      },
+      {
+        "route": "activities/kolpinsky-baltika-mediastudiya-sofit-04.html",
+        "width": 390,
+        "club": "Балтика",
+        "activity": "Медиастудия «Софит»",
+        "tables": 1,
+        "slots": 5,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-baltika-molodyozhnoe-obedinenie-dayosh-mol-05.html",
+        "width": 390,
+        "club": "Балтика",
+        "activity": "Молодёжное объединение «Даёшь молодёжь»",
+        "tables": 1,
+        "slots": 5,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-baltika-nastolnyy-tennis-06.html",
+        "width": 390,
+        "club": "Балтика",
+        "activity": "Настольный теннис",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-baltika-ofp-kurs-na-sport-07.html",
+        "width": 390,
+        "club": "Балтика",
+        "activity": "ОФП «Курс на спорт»",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-baltika-pauerlifting-i-girevoy-sport-08.html",
+        "width": 390,
+        "club": "Балтика",
+        "activity": "Пауэрлифтинг и гиревой спорт",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-baltika-step-aerobika-09.html",
+        "width": 320,
+        "club": "Балтика",
+        "activity": "Степ-аэробика",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-baltika-step-aerobika-09.html",
+        "width": 390,
+        "club": "Балтика",
+        "activity": "Степ-аэробика",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-baltika-step-aerobika-09.html",
+        "width": 1440,
+        "club": "Балтика",
+        "activity": "Степ-аэробика",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "clubs/kolpinsky/chayka.html",
+        "width": 390,
+        "club": "Чайка",
+        "vkFirst": true,
+        "noPhoneOrMailLinks": true,
+        "address": "пос. Металлострой, ул. Полевая, д. 2/30"
+      },
+      {
+        "route": "activities/kolpinsky-chayka-boks-02.html",
+        "width": 390,
+        "club": "Чайка",
+        "activity": "Бокс",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-chayka-atleticheskaya-gimnastika-03.html",
+        "width": 390,
+        "club": "Чайка",
+        "activity": "Атлетическая гимнастика",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-chayka-molodyozhnoe-obedinenie-sport-zhiz-04.html",
+        "width": 390,
+        "club": "Чайка",
+        "activity": "Молодёжное объединение «Спорт - жизнь!»",
+        "tables": 1,
+        "slots": 4,
+        "noOverflow": true
+      },
+      {
+        "route": "clubs/kolpinsky/orlyonok.html",
+        "width": 390,
+        "club": "Орлёнок",
+        "vkFirst": true,
+        "noPhoneOrMailLinks": true,
+        "address": "пос. Металлострой, ул. Школьная, д. 12"
+      },
+      {
+        "route": "activities/kolpinsky-orlyonok-shahmaty-03.html",
+        "width": 390,
+        "club": "Орлёнок",
+        "activity": "Шахматы",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-orlyonok-volontyorskoe-obedinenie-pod-krylo-04.html",
+        "width": 390,
+        "club": "Орлёнок",
+        "activity": "Волонтёрское объединение «Под крылом»",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-orlyonok-nastolnye-igry-igrovaya-gavan-05.html",
+        "width": 390,
+        "club": "Орлёнок",
+        "activity": "Настольные игры «Игровая гавань»",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-orlyonok-lyubitelskoe-obedinenie-liga-vozmo-06.html",
+        "width": 390,
+        "club": "Орлёнок",
+        "activity": "Любительское объединение «Лига возможностей»",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-orlyonok-nastolnyy-tennis-07.html",
+        "width": 390,
+        "club": "Орлёнок",
+        "activity": "Настольный теннис",
+        "tables": 1,
+        "slots": 1,
+        "noOverflow": true
+      },
+      {
+        "route": "clubs/kolpinsky/mediazavod.html",
+        "width": 390,
+        "club": "Медиазавод",
+        "vkFirst": true,
+        "noPhoneOrMailLinks": true,
+        "address": "г. Колпино, ул. Павловская, д. 82"
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-teatr-miniatyur-03.html",
+        "width": 390,
+        "club": "Медиазавод",
+        "activity": "Театр миниатюр",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-shkola-veduschego-04.html",
+        "width": 390,
+        "club": "Медиазавод",
+        "activity": "Школа ведущего",
+        "tables": 1,
+        "slots": 3,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-korotko-metrazhno-05.html",
+        "width": 390,
+        "club": "Медиазавод",
+        "activity": "Коротко. Метражно",
+        "tables": 1,
+        "slots": 4,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-vokalnaya-laboratoriya-06.html",
+        "width": 390,
+        "club": "Медиазавод",
+        "activity": "Вокальная лаборатория",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-vokalnaya-laboratoriya-pro-07.html",
+        "width": 320,
+        "club": "Медиазавод",
+        "activity": "Вокальная лаборатория ПРО",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-vokalnaya-laboratoriya-pro-07.html",
+        "width": 390,
+        "club": "Медиазавод",
+        "activity": "Вокальная лаборатория ПРО",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-vokalnaya-laboratoriya-pro-07.html",
+        "width": 1440,
+        "club": "Медиазавод",
+        "activity": "Вокальная лаборатория ПРО",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-inoskazanie-08.html",
+        "width": 390,
+        "club": "Медиазавод",
+        "activity": "Иносказание",
+        "tables": 1,
+        "slots": 4,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-psihologicheskaya-studiya-pro-teby-09.html",
+        "width": 320,
+        "club": "Медиазавод",
+        "activity": "Психологическая студия «Про тебя»",
+        "tables": 1,
+        "slots": 5,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-psihologicheskaya-studiya-pro-teby-09.html",
+        "width": 390,
+        "club": "Медиазавод",
+        "activity": "Психологическая студия «Про тебя»",
+        "tables": 1,
+        "slots": 5,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-psihologicheskaya-studiya-pro-teby-09.html",
+        "width": 1440,
+        "club": "Медиазавод",
+        "activity": "Психологическая студия «Про тебя»",
+        "tables": 1,
+        "slots": 5,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-pianino-zdes-10.html",
+        "width": 390,
+        "club": "Медиазавод",
+        "activity": "Пианино здесь",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-klavishnyy-mir-11.html",
+        "width": 390,
+        "club": "Медиазавод",
+        "activity": "Клавишный мир",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-igrovoy-klub-nerealnost-12.html",
+        "width": 390,
+        "club": "Медиазавод",
+        "activity": "Игровой клуб «Нереальность»",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-proektnaya-masterskaya-13.html",
+        "width": 390,
+        "club": "Медиазавод",
+        "activity": "Проектная мастерская",
+        "tables": 1,
+        "slots": 1,
+        "noOverflow": true
+      },
+      {
+        "route": "activities/kolpinsky-mediazavod-vokal-rezonans-14.html",
+        "width": 390,
+        "club": "Медиазавод",
+        "activity": "Вокал «Резонанс»",
+        "tables": 1,
+        "slots": 2,
+        "noOverflow": true
+      }
+    ]
+  },
+  "remoteSmoke": [
+    {
+      "url": "https://young-russia.ru/",
+      "status": 200,
+      "location": null,
+      "sha256": "650a506f081914e183021304eca036e8fdbca17dccb19904b4315445107bdcd3",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Бесплатные кружки и секции в Санкт-Петербурге | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/",
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/D7ogTeR7.js"
+      ]
+    },
+    {
+      "url": "http://young-russia.ru/",
+      "status": 301,
+      "location": "https://young-russia.ru:443/",
+      "sha256": "9e17cb15dd75bbbd5dbb984eda674863c3b10ab72613cf8a39a00c3e11a8492a",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://www.young-russia.ru/?utm_source=seo-release",
+      "status": 301,
+      "location": "https://young-russia.ru/?utm_source=seo-release",
+      "sha256": "7e1bce37bb319845625c92597278e6fed7ce7fcd1da91b72c69672dc58cd1033",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://young-russia.ru/index.html?utm_source=seo-release",
+      "status": 301,
+      "location": "https://young-russia.ru/?utm_source=seo-release",
+      "sha256": "7e1bce37bb319845625c92597278e6fed7ce7fcd1da91b72c69672dc58cd1033",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://young-russia.ru/seo-release-missing-20261022.html",
+      "status": 404,
+      "location": null,
+      "sha256": "0545c648eb1b0f314f7c106d661c1de4b0db083732165af981622d17c86a38f6",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/D7ogTeR7.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/404.html",
+      "status": 200,
+      "location": null,
+      "sha256": "0545c648eb1b0f314f7c106d661c1de4b0db083732165af981622d17c86a38f6",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/D7ogTeR7.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/200.html",
+      "status": 200,
+      "location": null,
+      "sha256": "72bf3175df6059197c272a8c946ca208ee5599f6f5f1075f00bee8f851cc792b",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/D7ogTeR7.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/districts/vasileostrovsky.html",
+      "status": 200,
+      "location": null,
+      "sha256": "50f89bc9d8510ab35fa64e307432db838240039831a4e675222c8b6affd6b6e2",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Клубы Василеостровского района, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/districts/vasileostrovsky.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/D7ogTeR7.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "status": 200,
+      "location": null,
+      "sha256": "bef9cf5090a6fc3ecb429aed41db72ad8fd025f33864eaf6dd3746e43ca64271",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Клуб юных моряков «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/D7ogTeR7.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "status": 200,
+      "location": null,
+      "sha256": "2a90393e65fefdd461baec5e2214a5c2230a7c41c49fb271472666c64884c5d5",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Бокс, КЮМ «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/D7ogTeR7.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/robots.txt",
+      "status": 200,
+      "location": null,
+      "sha256": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8"
+    },
+    {
+      "url": "https://young-russia.ru/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "sha256": "1ffbc6cbadacf4b8f94f1c774979ca6b24d918f2cdc809960278fa1fe01f138e"
+    },
+    {
+      "url": "https://young-russia.ru/prototype/",
+      "status": 200,
+      "location": null,
+      "sha256": "a3b1d51e4058e19eb778af33b41c09f060effa815840b863e694eecd763fcb9e",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "Главная | Прототип ПМК Петербурга",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "assets/app.js",
+        "assets/comments.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/districts/kolpinsky.html",
+      "status": 200,
+      "location": null,
+      "sha256": "a1a29c597d57b471c06135a6525c8841d15fe5e3c61f34e51425b3b1973285eb",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Клубы Колпинского района, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/districts/kolpinsky.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/D7ogTeR7.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/clubs/kolpinsky/fakel.html",
+      "status": 200,
+      "location": null,
+      "sha256": "f5d3e0543cd70833bcd33ddd9beae2906b114e3a99fe349b7c65895347ec9b7e",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Факел, Колпинский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/clubs/kolpinsky/fakel.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/D7ogTeR7.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/kolpinsky-fakel-kitayskiy-yazyk-huashan-13.html",
+      "status": 200,
+      "location": null,
+      "sha256": "76206134e81bde1eb38a1a53f8b3c25fcf9db07040f9b473cbf61289dd2a7f2c",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Китайский язык «Хуашань», Факел, Колпинский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/activities/kolpinsky-fakel-kitayskiy-yazyk-huashan-13.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/D7ogTeR7.js"
+      ]
+    }
+  ],
+  "gitCommitCreated": false,
+  "gitPushPerformed": false,
+  "internalResearchPublished": false,
+  "directVkChecked": false
+}

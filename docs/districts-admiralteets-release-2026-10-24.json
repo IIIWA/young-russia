@@ -1,0 +1,956 @@
+{
+  "checkedAt": "2026-10-24",
+  "deployedAt": "2026-10-24T18:52:33Z",
+  "deployedAtMoscow": "24.10.2026, 21:52:33 МСК",
+  "release": "districts-admiralteets-20261024-mvmr89it",
+  "publicClubs": 334,
+  "activityPages": 2069,
+  "htmlPages": 2426,
+  "sitemapUrls": 2424,
+  "verifiedFiles": 4972,
+  "backup": "/var/www/u3013321/data/backups/young-russia-before-districts-admiralteets-20261024-mvmr89it.tar.gz",
+  "backupSha256": "70a8ec705ce3916c510f1068d5162e84e4e6d31a89f446e30704946a0187a190",
+  "previous": "/var/www/u3013321/data/www/.young-russia-prev-districts-admiralteets-20261024-mvmr89it",
+  "archiveSha256": "65e60b5e2f25bd9649a92a1844af60e3b3a5374b0d783ed3e52f54bd46398ac6",
+  "protected": {
+    "robots.txt": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8",
+    ".htaccess": "1a85612ef6398f1528f6022a474fef2d17d987bc9f7ef654a5283537f9165840",
+    "2bd9808eebd74e34a33893f93adc7043.txt": "ed45e66d652040622ec5aeb83e9cfd882bc3d09bbdebebef7c1f82ff179a4e25"
+  },
+  "remoteHttp": [
+    {
+      "url": "https://young-russia.ru/",
+      "status": 200,
+      "location": null,
+      "sha256": "409de65187ddc38c8714f3faa3fedfd652064e97d23cf30652322558d9ab8f58",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Бесплатные кружки и секции в Санкт-Петербурге | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/",
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "http://young-russia.ru/",
+      "status": 301,
+      "location": "https://young-russia.ru:443/",
+      "sha256": "9e17cb15dd75bbbd5dbb984eda674863c3b10ab72613cf8a39a00c3e11a8492a",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://www.young-russia.ru/?utm_source=seo-release",
+      "status": 301,
+      "location": "https://young-russia.ru/?utm_source=seo-release",
+      "sha256": "7e1bce37bb319845625c92597278e6fed7ce7fcd1da91b72c69672dc58cd1033",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://young-russia.ru/index.html?utm_source=seo-release",
+      "status": 301,
+      "location": "https://young-russia.ru/?utm_source=seo-release",
+      "sha256": "7e1bce37bb319845625c92597278e6fed7ce7fcd1da91b72c69672dc58cd1033",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://young-russia.ru/seo-release-missing-20261022.html",
+      "status": 404,
+      "location": null,
+      "sha256": "3d6e3b5f29e41ccc851bfc1a116ce1c6b01bd365633525be1b10f759d28ee8f8",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/404.html",
+      "status": 200,
+      "location": null,
+      "sha256": "3d6e3b5f29e41ccc851bfc1a116ce1c6b01bd365633525be1b10f759d28ee8f8",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/200.html",
+      "status": 200,
+      "location": null,
+      "sha256": "9b5581e48f279e0a65975c3904ab0b4bc9b8e2cac4960061bac71d69397ed524",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/districts/vasileostrovsky.html",
+      "status": 200,
+      "location": null,
+      "sha256": "9051eacfe965c7da7b89dd82ea6023dfbcd357e0902c7aae8d34ce09cb26a911",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Клубы Василеостровского района, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/districts/vasileostrovsky.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "status": 200,
+      "location": null,
+      "sha256": "b4ee53e3d1b60e0acd9f684f7ccd7324b76609d06d7ea8e61924c65e71cec2e9",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Клуб юных моряков «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "status": 200,
+      "location": null,
+      "sha256": "22359642e8b0a837937e4fc259e9afdcbc43c7d3f1a00cb7afd0ddd7ed742458",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Бокс, КЮМ «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/robots.txt",
+      "status": 200,
+      "location": null,
+      "sha256": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8"
+    },
+    {
+      "url": "https://young-russia.ru/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "sha256": "76a1c466e5120c34035d0e9119dddcb103e93792421578b21445d07b12893fd2"
+    },
+    {
+      "url": "https://young-russia.ru/prototype/",
+      "status": 200,
+      "location": null,
+      "sha256": "a3b1d51e4058e19eb778af33b41c09f060effa815840b863e694eecd763fcb9e",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "Главная | Прототип ПМК Петербурга",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "assets/app.js",
+        "assets/comments.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/districts/kolpinsky.html",
+      "status": 200,
+      "location": null,
+      "sha256": "f378d14af923c0b3afb08b10345e70ac96df44ea174515b0114f955a64b12e59",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Клубы Колпинского района, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/districts/kolpinsky.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/clubs/kolpinsky/fakel.html",
+      "status": 200,
+      "location": null,
+      "sha256": "9b121fb3b223f132106e834c6849511261b0d090b3c266f1b28b8d88970a1147",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Факел, Колпинский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/clubs/kolpinsky/fakel.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/kolpinsky-fakel-kitayskiy-yazyk-huashan-13.html",
+      "status": 200,
+      "location": null,
+      "sha256": "e51b9de4a56dc9915c2aae26fee74740d13804173bf4c83359815e6fb917015f",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Китайский язык «Хуашань», Факел, Колпинский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/activities/kolpinsky-fakel-kitayskiy-yazyk-huashan-13.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/districts/krasnogvardeysky.html",
+      "status": 200,
+      "location": null,
+      "sha256": "f931e842d4330cdb0c55fe22bb2682c40555a502c507ebac925fddc69759be3e",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Клубы Красногвардейского района, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/districts/krasnogvardeysky.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/districts/krasnoselsky.html",
+      "status": 200,
+      "location": null,
+      "sha256": "8dee7e33716457ada47936972594d51e285ea92602d160c3e996fe30e4c82913",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Клубы Красносельского района, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/districts/krasnoselsky.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/districts/kronshtadtsky.html",
+      "status": 200,
+      "location": null,
+      "sha256": "497ca713f11ac29076e18accc58a403c6679bc741bd0e7202be1db0f1655d6b4",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Клубы Кронштадтского района, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/districts/kronshtadtsky.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/districts/kurortny.html",
+      "status": 200,
+      "location": null,
+      "sha256": "944174f16eea1ac88b8d261fdfb0e75ae5554dc39cfbb1ee5802d0db060b19d4",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Клубы Курортного района, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/districts/kurortny.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/clubs/krasnoselsky/raketa.html",
+      "status": 200,
+      "location": null,
+      "sha256": "a94fd4aafea7f9aca4e695d64dab3e52ef0f701f1512daa2d53a6475c2494c6a",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Ракета, Красносельский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/clubs/krasnoselsky/raketa.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "status": 200,
+      "location": null,
+      "sha256": "b4ee53e3d1b60e0acd9f684f7ccd7324b76609d06d7ea8e61924c65e71cec2e9",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Клуб юных моряков «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-morskaya-pekhota.html",
+      "status": 200,
+      "location": null,
+      "sha256": "ebf48ddf6d687b0b28595ca0e53f6c19cb17c7107441b77b20cfcce9799f5e49",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Морская пехота, КЮМ «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/activities/admiralteets-morskaya-pekhota.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-nastolnyy-tennis.html",
+      "status": 200,
+      "location": null,
+      "sha256": "aad78b8cc13eedf908a7b6a08a700a2d357639d56ffc317f0558d7f9f266e95a",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Настольный теннис, КЮМ «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/activities/admiralteets-nastolnyy-tennis.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-trenazhernyy-zal.html",
+      "status": 200,
+      "location": null,
+      "sha256": "55af7464b271a55ab5c97f5070d5684c4d9844303b584e25f00594ac288cb2ac",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Тренажёрный зал, КЮМ «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/activities/admiralteets-trenazhernyy-zal.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "status": 200,
+      "location": null,
+      "sha256": "22359642e8b0a837937e4fc259e9afdcbc43c7d3f1a00cb7afd0ddd7ed742458",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Бокс, КЮМ «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-tayskiy-boks.html",
+      "status": 200,
+      "location": null,
+      "sha256": "385df0501279c66ce746d04e9293b999b11cdd12b124585282a415896afce316",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Тайский бокс, КЮМ «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/activities/admiralteets-tayskiy-boks.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/kurortny-voshod-primorskoe-shosse-280-dzyudo-03.html",
+      "status": 200,
+      "location": null,
+      "sha256": "b59f9995c4ca3290843c280fa23e22e9f62a18bc60ff213de6e264a23abea576",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Дзюдо, Восход: Приморское шоссе, 280, Курортный район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/activities/kurortny-voshod-primorskoe-shosse-280-dzyudo-03.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-sudovozhdenie.html",
+      "status": 404,
+      "location": null,
+      "sha256": "3d6e3b5f29e41ccc851bfc1a116ce1c6b01bd365633525be1b10f759d28ee8f8",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-lazertag.html",
+      "status": 404,
+      "location": null,
+      "sha256": "3d6e3b5f29e41ccc851bfc1a116ce1c6b01bd365633525be1b10f759d28ee8f8",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-kombinirovannyy-turizm.html",
+      "status": 404,
+      "location": null,
+      "sha256": "3d6e3b5f29e41ccc851bfc1a116ce1c6b01bd365633525be1b10f759d28ee8f8",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-ofp.html",
+      "status": 404,
+      "location": null,
+      "sha256": "3d6e3b5f29e41ccc851bfc1a116ce1c6b01bd365633525be1b10f759d28ee8f8",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-yunarmiya.html",
+      "status": 404,
+      "location": null,
+      "sha256": "3d6e3b5f29e41ccc851bfc1a116ce1c6b01bd365633525be1b10f759d28ee8f8",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/BJQZaalM.js"
+      ]
+    }
+  ],
+  "externalHttp": {
+    "checkedAt": "2026-10-24",
+    "release": "districts-admiralteets-20261024-mvmr89it",
+    "httpChecks": [
+      {
+        "path": "districts/krasnogvardeysky.html",
+        "status": 200,
+        "sha256": "f931e842d4330cdb0c55fe22bb2682c40555a502c507ebac925fddc69759be3e"
+      },
+      {
+        "path": "districts/krasnoselsky.html",
+        "status": 200,
+        "sha256": "8dee7e33716457ada47936972594d51e285ea92602d160c3e996fe30e4c82913"
+      },
+      {
+        "path": "districts/kronshtadtsky.html",
+        "status": 200,
+        "sha256": "497ca713f11ac29076e18accc58a403c6679bc741bd0e7202be1db0f1655d6b4"
+      },
+      {
+        "path": "districts/kurortny.html",
+        "status": 200,
+        "sha256": "944174f16eea1ac88b8d261fdfb0e75ae5554dc39cfbb1ee5802d0db060b19d4"
+      },
+      {
+        "path": "clubs/krasnoselsky/raketa.html",
+        "status": 200,
+        "sha256": "a94fd4aafea7f9aca4e695d64dab3e52ef0f701f1512daa2d53a6475c2494c6a"
+      },
+      {
+        "path": "clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+        "status": 200,
+        "sha256": "b4ee53e3d1b60e0acd9f684f7ccd7324b76609d06d7ea8e61924c65e71cec2e9"
+      },
+      {
+        "path": "activities/admiralteets-morskaya-pekhota.html",
+        "status": 200,
+        "sha256": "ebf48ddf6d687b0b28595ca0e53f6c19cb17c7107441b77b20cfcce9799f5e49"
+      },
+      {
+        "path": "activities/admiralteets-nastolnyy-tennis.html",
+        "status": 200,
+        "sha256": "aad78b8cc13eedf908a7b6a08a700a2d357639d56ffc317f0558d7f9f266e95a"
+      },
+      {
+        "path": "activities/admiralteets-trenazhernyy-zal.html",
+        "status": 200,
+        "sha256": "55af7464b271a55ab5c97f5070d5684c4d9844303b584e25f00594ac288cb2ac"
+      },
+      {
+        "path": "activities/admiralteets-boks.html",
+        "status": 200,
+        "sha256": "22359642e8b0a837937e4fc259e9afdcbc43c7d3f1a00cb7afd0ddd7ed742458"
+      },
+      {
+        "path": "activities/admiralteets-tayskiy-boks.html",
+        "status": 200,
+        "sha256": "385df0501279c66ce746d04e9293b999b11cdd12b124585282a415896afce316"
+      },
+      {
+        "path": "activities/kurortny-voshod-primorskoe-shosse-280-dzyudo-03.html",
+        "status": 200,
+        "sha256": "b59f9995c4ca3290843c280fa23e22e9f62a18bc60ff213de6e264a23abea576"
+      },
+      {
+        "path": "activities/admiralteets-sudovozhdenie.html",
+        "status": 404,
+        "sha256": "3d6e3b5f29e41ccc851bfc1a116ce1c6b01bd365633525be1b10f759d28ee8f8"
+      },
+      {
+        "path": "activities/admiralteets-lazertag.html",
+        "status": 404,
+        "sha256": "3d6e3b5f29e41ccc851bfc1a116ce1c6b01bd365633525be1b10f759d28ee8f8"
+      },
+      {
+        "path": "activities/admiralteets-kombinirovannyy-turizm.html",
+        "status": 404,
+        "sha256": "3d6e3b5f29e41ccc851bfc1a116ce1c6b01bd365633525be1b10f759d28ee8f8"
+      },
+      {
+        "path": "activities/admiralteets-ofp.html",
+        "status": 404,
+        "sha256": "3d6e3b5f29e41ccc851bfc1a116ce1c6b01bd365633525be1b10f759d28ee8f8"
+      },
+      {
+        "path": "activities/admiralteets-yunarmiya.html",
+        "status": 404,
+        "sha256": "3d6e3b5f29e41ccc851bfc1a116ce1c6b01bd365633525be1b10f759d28ee8f8"
+      },
+      {
+        "path": "robots.txt",
+        "status": 200,
+        "sha256": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8"
+      },
+      {
+        "path": "sitemap.xml",
+        "status": 200,
+        "sha256": "76a1c466e5120c34035d0e9119dddcb103e93792421578b21445d07b12893fd2"
+      }
+    ],
+    "sitemapUrls": 2424,
+    "closedAbsentFromSitemap": true,
+    "robotsSitemapCorrect": true
+  },
+  "admiralteetsCheck": {
+    "checkedAt": "2026-10-24",
+    "activeDirections": 5,
+    "closedDirections": 5,
+    "newIntervals": 15,
+    "boxingUnchanged": true,
+    "oldPrototypesPreserved": true,
+    "results": [
+      {
+        "activity": "Морская пехота",
+        "route": "activities/admiralteets-morskaya-pekhota.html",
+        "intervals": 5
+      },
+      {
+        "activity": "Настольный теннис",
+        "route": "activities/admiralteets-nastolnyy-tennis.html",
+        "intervals": 4
+      },
+      {
+        "activity": "Тренажёрный зал",
+        "route": "activities/admiralteets-trenazhernyy-zal.html",
+        "intervals": 6
+      }
+    ],
+    "ligovoProfiles": 18,
+    "raketaClosureNotice": true
+  },
+  "localBrowser": [
+    {
+      "headers": [
+        2
+      ],
+      "note": "Время подтверждено пользователем 24.10.2026. Распределение по группам и помещениям не указано.",
+      "scrollWidth": 1265,
+      "times": [
+        "15:00-20:30",
+        "15:00-20:30",
+        "15:00-20:30",
+        "15:00-20:30",
+        "15:00-20:30",
+        "15:00-20:30"
+      ],
+      "title": "Тренажёрный зал",
+      "url": "http://127.0.0.1:4173/activities/admiralteets-trenazhernyy-zal.html#schedule",
+      "width": 1280
+    },
+    {
+      "headers": [
+        2
+      ],
+      "note": "Время подтверждено пользователем 24.10.2026. Распределение по группам и помещениям не указано.",
+      "scrollWidth": 1265,
+      "times": [
+        "15:00-21:00",
+        "15:00-21:00",
+        "15:00-21:00",
+        "15:00-21:00",
+        "15:00-21:00"
+      ],
+      "title": "Морская пехота",
+      "url": "http://127.0.0.1:4173/activities/admiralteets-morskaya-pekhota.html#schedule",
+      "width": 1280
+    },
+    {
+      "headers": [
+        2
+      ],
+      "note": "Время подтверждено пользователем 24.10.2026. Распределение по группам и помещениям не указано.",
+      "scrollWidth": 1265,
+      "times": [
+        "15:00-21:00",
+        "15:00-21:00",
+        "15:00-21:00",
+        "15:00-21:00"
+      ],
+      "title": "Настольный теннис",
+      "url": "http://127.0.0.1:4173/activities/admiralteets-nastolnyy-tennis.html#schedule",
+      "width": 1280
+    }
+  ],
+  "liveSchedules": [
+    {
+      "scrollWidth": 960,
+      "sourceLinks": [],
+      "times": [
+        "15:00-20:30",
+        "15:00-20:30",
+        "15:00-20:30",
+        "15:00-20:30",
+        "15:00-20:30",
+        "15:00-20:30"
+      ],
+      "title": "Тренажёрный зал",
+      "url": "https://young-russia.ru/activities/admiralteets-trenazhernyy-zal.html#schedule",
+      "width": 960
+    },
+    {
+      "scrollWidth": 1265,
+      "sourceLinks": [],
+      "times": [
+        "15:00-21:00",
+        "15:00-21:00",
+        "15:00-21:00",
+        "15:00-21:00",
+        "15:00-21:00"
+      ],
+      "title": "Морская пехота",
+      "url": "https://young-russia.ru/activities/admiralteets-morskaya-pekhota.html#schedule",
+      "width": 1280
+    },
+    {
+      "scrollWidth": 1265,
+      "sourceLinks": [],
+      "times": [
+        "15:00-21:00",
+        "15:00-21:00",
+        "15:00-21:00",
+        "15:00-21:00"
+      ],
+      "title": "Настольный теннис",
+      "url": "https://young-russia.ru/activities/admiralteets-nastolnyy-tennis.html#schedule",
+      "width": 1280
+    },
+    {
+      "scrollWidth": 1265,
+      "sourceLinks": [
+        "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%B7%D0%B0%D0%BB-%D0%B4%D0%B7%D1%8E%D0%B4%D0%BE.pdf"
+      ],
+      "times": [
+        "16:00-18:00",
+        "20:00-22:00",
+        "16:00-18:00",
+        "20:00-22:00",
+        "16:00-18:00",
+        "20:00-22:00",
+        "17:00-19:00",
+        "19:00-21:00",
+        "17:00-19:00",
+        "19:00-21:00",
+        "16:00-18:00",
+        "20:00-22:00",
+        "17:00-18:30",
+        "16:00-18:00",
+        "20:00-22:00",
+        "17:00-18:30",
+        "16:00-18:00",
+        "10:00-12:00",
+        "18:30-20:00",
+        "18:30-20:00",
+        "12:00-14:00"
+      ],
+      "title": "Дзюдо",
+      "url": "https://young-russia.ru/activities/kurortny-voshod-primorskoe-shosse-280-dzyudo-03.html#schedule",
+      "width": 1280
+    }
+  ],
+  "liveDistricts": {
+    "districts": [
+      {
+        "clubLinks": [
+          "https://young-russia.ru/clubs/krasnogvardeysky/adrenalin.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/akvamarin.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/tochka.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/dialog.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/neo.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/fakel.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/rodnik.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/teplo.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/neva.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/izmerenie.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/vega.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/sovremennik.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/kvadrat.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/faktura.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/zov.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/reyd-2-0.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/ostrova.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/kvartira-ru.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/beryozka.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/meteor.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/sosedi.html",
+          "https://young-russia.ru/clubs/krasnogvardeysky/4k.html"
+        ],
+        "scrollWidth": 1265,
+        "title": "Красногвардейский район",
+        "url": "https://young-russia.ru/districts/krasnogvardeysky.html",
+        "width": 1280
+      },
+      {
+        "clubLinks": [
+          "https://young-russia.ru/clubs/krasnoselsky/alye-parusa.html",
+          "https://young-russia.ru/clubs/krasnoselsky/nepokorennyy-rubezh.html",
+          "https://young-russia.ru/clubs/krasnoselsky/bereg.html",
+          "https://young-russia.ru/clubs/krasnoselsky/fakel.html",
+          "https://young-russia.ru/clubs/krasnoselsky/umelets.html",
+          "https://young-russia.ru/clubs/krasnoselsky/rovesnik.html",
+          "https://young-russia.ru/clubs/krasnoselsky/ritm.html",
+          "https://young-russia.ru/clubs/krasnoselsky/rekord.html",
+          "https://young-russia.ru/clubs/krasnoselsky/raketa.html",
+          "https://young-russia.ru/clubs/krasnoselsky/polet.html",
+          "https://young-russia.ru/clubs/krasnoselsky/olimp.html",
+          "https://young-russia.ru/clubs/krasnoselsky/mayak.html",
+          "https://young-russia.ru/clubs/krasnoselsky/voshod.html",
+          "https://young-russia.ru/clubs/krasnoselsky/burevestnik.html",
+          "https://young-russia.ru/clubs/krasnoselsky/yunost.html",
+          "https://young-russia.ru/clubs/krasnoselsky/prichal.html",
+          "https://young-russia.ru/clubs/krasnoselsky/kompas.html"
+        ],
+        "scrollWidth": 1265,
+        "title": "Красносельский район",
+        "url": "https://young-russia.ru/districts/krasnoselsky.html",
+        "width": 1280
+      },
+      {
+        "clubLinks": [
+          "https://young-russia.ru/clubs/kronshtadtsky/kronshtadtskiy-dvorets-molodyozhi.html",
+          "https://young-russia.ru/clubs/kronshtadtsky/mayak.html",
+          "https://young-russia.ru/clubs/kronshtadtsky/rovesnik.html"
+        ],
+        "scrollWidth": 1265,
+        "title": "Кронштадтский район",
+        "url": "https://young-russia.ru/districts/kronshtadtsky.html",
+        "width": 1280
+      },
+      {
+        "clubLinks": [
+          "https://young-russia.ru/clubs/kurortny/voshod-volodarskogo.html",
+          "https://young-russia.ru/clubs/kurortny/voshod-primorskoe-shosse-270.html",
+          "https://young-russia.ru/clubs/kurortny/voshod-mosina.html",
+          "https://young-russia.ru/clubs/kurortny/voshod-tokareva.html",
+          "https://young-russia.ru/clubs/kurortny/voshod-primorskoe-shosse-280.html",
+          "https://young-russia.ru/clubs/kurortny/molodost.html",
+          "https://young-russia.ru/clubs/kurortny/snayper-ispolkomskaya.html",
+          "https://young-russia.ru/clubs/kurortny/snayper-lenina.html",
+          "https://young-russia.ru/clubs/kurortny/snayper-privokzalnaya.html"
+        ],
+        "scrollWidth": 1265,
+        "title": "Курортный район",
+        "url": "https://young-russia.ru/districts/kurortny.html",
+        "width": 1280
+      }
+    ],
+    "raketa": {
+      "notice": true,
+      "text": "Главная\n/\nКрасносельский район\n/\nРакета\n\nПОДРОСТКОВО-МОЛОДЁЖНЫЙ КЛУБ · МЦ «ЛИГОВО»\n\nРакета\n\nул. Пограничника Гарькавого, д. 36, корп. 1\n\nЧЕМ ЗАНЯТЬСЯ\n\nНаправления площадки\n\nКлуб закрыт на капитальный ремонт. Дата возобновления работы пока не указана.\n\nНаправления приведены по открытым материалам учреждения. Уточни действующие группы, возрастные условия, наличие мест и расписание.\n\nПЕРЕД ПОСЕЩЕНИЕМ\n\nКак присоединиться\nСвяжись с площадкой или учреждением.\nУточни, идёт ли набор на интересующее направление.\nСпроси про возраст, расписание и порядок записи.\nСведения уточняются\n\nАдрес и условия конкретного занятия проверь у организатора перед визитом. На официальной странице размещено объявление о закрытии клуба на капитальный ремонт. Дата возобновления работы не указана. Перед посещением уточни открытие у центра.\n\nⓘ\n\nСведения о площадке: открытый источник. Контакты: сайт организатора.\n\nАДРЕС И КОНТАКТЫ\nРакета\nВКонтакте клуба\n↗\nСайт организатора\n↗\n\nПочта площадки\npmcligovo@mail.ru\n\nПеред визитом уточни место занятий и условия участия.\n\nКлуб на карте\n\nул. Пограничника Гарькавого, д. 36, корп. 1\n\nОткрыть в Яндекс Картах ↗\n← Ко всем площадкам района",
+      "url": "https://young-russia.ru/clubs/krasnoselsky/raketa.html"
+    }
+  },
+  "liveAdmiralteets": {
+    "activities": [
+      {
+        "text": "ЕДИНОБОРСТВА\nБокс\n\nСпециалист: Гасанов М. Р.\n\nПодробнее →",
+        "url": "https://young-russia.ru/activities/admiralteets-boks.html"
+      },
+      {
+        "text": "МОРСКИЕ НАПРАВЛЕНИЯ\nМорская пехота\nПодробнее →",
+        "url": "https://young-russia.ru/activities/admiralteets-morskaya-pekhota.html"
+      },
+      {
+        "text": "СПОРТ И ДВИЖЕНИЕ\nНастольный теннис\nПодробнее →",
+        "url": "https://young-russia.ru/activities/admiralteets-nastolnyy-tennis.html"
+      },
+      {
+        "text": "СПОРТ И ДВИЖЕНИЕ\nТренажёрный зал\nПодробнее →",
+        "url": "https://young-russia.ru/activities/admiralteets-trenazhernyy-zal.html"
+      },
+      {
+        "text": "ЕДИНОБОРСТВА\nТайский бокс\n\nСпециалист: Корбат Евгений Евгениевич\n\nПодробнее →",
+        "url": "https://young-russia.ru/activities/admiralteets-tayskiy-boks.html"
+      }
+    ],
+    "scrollWidth": 1265,
+    "url": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+    "width": 1280
+  },
+  "gitCommitCreated": false,
+  "gitPush": false,
+  "rawObsidianPublished": false
+}

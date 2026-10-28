@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-23T11:46:39.563Z",
+  "status": "verified_local_not_deployed",
+  "evidence": {
+    "checkedAt": "2026-10-23T11:46:39.280Z",
+    "documents": 25,
+    "pages": 48,
+    "rows": 888,
+    "slots": 1798,
+    "kalininsky": {
+      "clubs": 21,
+      "activities": 288,
+      "vk": 20,
+      "activityLinks": 17,
+      "scheduleRecords": 191,
+      "scheduleSlots": 1333,
+      "autumnScheduleRecords": 37
+    },
+    "kirovsky": {
+      "clubs": 19,
+      "vk": 17,
+      "activityLinks": 4,
+      "schedules": 4
+    }
+  },
+  "pages": {
+    "checkedAt": "2026-10-23T11:46:39.042Z",
+    "html": 2006,
+    "clubPages": 334,
+    "ownVkFirst": 135,
+    "institutionVkFirst": 189,
+    "noConfirmedVk": 10,
+    "correctedPetrodvortsovyPages": 62,
+    "activities": 1649,
+    "schedulePages": 207,
+    "overviewCards": 107,
+    "badVkActiveLinks": 0
+  },
+  "browser": {
+    "pages": 8,
+    "viewportChecks": 24
+  },
+  "sourceHashes": {
+    "data/clubs-kalininsky.json": "cbb29a3f3b15411efd21797157152e52c52ee076fa70c49de35debb672468b79",
+    "data/clubs-kirovsky.json": "05e9d13328c1f8260cab3133a5925c842f96a743981cc4578168a3c922e4ba25",
+    "data/research/kalininsky-official-evidence.json": "24e370085eed050c7ad21b1b0eb850eccddc3eecf25378db0caf27d67ab0d68c",
+    "data/research/kalininsky-city-free-evidence-2026-10-23.json": "10758202e3e5d596bb4157eecd41c872069e497e4b93c7caff458a990f0c8859",
+    "data/research/kalininsky-schedule-transcription-2026-10-23.json": "3116474d5d1fab5cd43d91a81b208a76c5509d94f033c44ecee2c8fe76ae82e3",
+    "data/research/kirovsky-official-evidence.json": "ca7067a2ac56811048a3b84dfcfd82ffbf1852ec7998a3cf7839ad8b1431dd15",
+    "dist/sitemap.xml": "e38d0dbdb2ad75ae2ae05764150a6ffaacd44ea028b1ed0edc978597f3b10e21",
+    "dist/robots.txt": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8"
+  }
+}

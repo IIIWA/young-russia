@@ -1,5 +1,1353 @@
 [
-  {"type":"Дом молодёжи","name":"Кронштадтский Дворец молодёжи","organization":"kdm","address":"г. Кронштадт, Советская ул., д. 35, лит. А","phone":"311-22-14","activities":["Спорт","Творчество и досуг","Добровольчество","Экология","Проектная деятельность","Медиа"],"note":"Перечень в городском документе дан по общим направлениям, а не по названиям действующих групп."},
-  {"type":"Подростково-молодёжный клуб","name":"Маяк","organization":"kdm","address":"г. Кронштадт, ул. Мануильского, д. 45/3, лит. А","phone":"311-38-87","activities":["Декоративно-прикладное творчество","Спорт","Добровольчество","Проектная деятельность","Патриотические программы"],"note":"Перечень в городском документе дан по общим направлениям, а не по названиям действующих групп."},
-  {"type":"Подростково-молодёжный клуб","name":"Ровесник","organization":"kdm","address":"г. Кронштадт, Якорная пл., д. 3В, лит. А","phone":"311-34-68","activities":["Спорт","Творчество и досуг","Добровольчество","Здоровый образ жизни","Проектная деятельность","Медиа"],"note":"Перечень в городском документе дан по общим направлениям, а не по названиям действующих групп."}
+  {
+    "type": "Дом молодёжи",
+    "name": "Кронштадтский Дворец молодёжи",
+    "organization": "kdm",
+    "address": "г. Кронштадт, Советская ул., д. 35, лит. А",
+    "phone": "311-22-14",
+    "activities": [
+      "Спорт",
+      "Творчество и досуг",
+      "Добровольчество",
+      "Экология",
+      "Проектная деятельность",
+      "Медиа",
+      "Молодёжное объединение «Навык будущего»",
+      "Молодёжное объединение «Копилка знаний»",
+      "Молодёжное объединение «В мире диалога»",
+      "Молодёжное объединение «Путь единства»",
+      "Молодёжное объединение «ЭКОстиль»",
+      "Молодёжное объединение «Твой путь»",
+      "Молодёжное объединение «Калейдоскоп»",
+      "Молодёжное объединение «Будь здоров»",
+      "Молодёжное объединение «Алгоритм»",
+      "Секция «Спортивная семья»",
+      "Хореографическая студия «Раздолье»",
+      "Хореографическая студия «Задоринки»",
+      "Физкультурно-спортивная секция единоборств «Рукопашный бой»",
+      "Физкультурно-спортивная секция единоборств «ОБЩАЯ ФИЗИЧЕСКАЯ ПОДГОТОВКА»",
+      "Секция «Смешанные единоборства ММА»",
+      "Секция «Тайский бокс»"
+    ],
+    "note": "Названия студий и режим конкретных направлений сверены по официальным страницам. Платные варианты в каталог не включены. Возраст, группу и наличие мест уточни при записи.",
+    "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/",
+    "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/krondm",
+    "email": "bastion.35@mail.ru",
+    "activitySchedule": [
+      {
+        "activity": "Секция «Спортивная семья»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/sekcziya-%C2%ABsportivnaya-semya%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "суббота",
+            "time": "10:00-12:30"
+          }
+        ]
+      },
+      {
+        "activity": "Хореографическая студия «Раздолье»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/tanczevalnoe-napravlenie/xoreograficheskaya-studiya-%C2%ABrazdole%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "18:00-20:30"
+          },
+          {
+            "day": "суббота",
+            "time": "14:00-16:30"
+          }
+        ]
+      },
+      {
+        "activity": "Хореографическая студия «Задоринки»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/tanczevalnoe-napravlenie/xoreograficheskaya-studiya-%C2%ABzadorinki%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "15:30-20:30"
+          },
+          {
+            "day": "суббота",
+            "time": "09:00-14:00"
+          }
+        ]
+      },
+      {
+        "activity": "Физкультурно-спортивная секция единоборств «Рукопашный бой»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/fizkulturno-sportivnaya-sekcziya-edinoborstv-%C2%ABrukopashnyij-boj%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Физкультурно-спортивная секция единоборств «ОБЩАЯ ФИЗИЧЕСКАЯ ПОДГОТОВКА»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/fizkulturno-sportivnaya-sekcziya-edinoborstv-%C2%ABobshhaya-fizicheskaya-podgotovka%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "15:00-17:00"
+          },
+          {
+            "day": "вторник",
+            "time": "18:00-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-17:00"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-17:00"
+          }
+        ]
+      },
+      {
+        "activity": "Секция «Смешанные единоборства ММА»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/fizkulturno-sportivnaya-sekcziya-%C2%ABsmeshannyie-edinoborstva-mma%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:30-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "18:30-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-20:30"
+          }
+        ]
+      },
+      {
+        "activity": "Секция «Тайский бокс»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/sekcziya-%C2%ABtajskij-boks%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:30-20:30"
+          },
+          {
+            "day": "четверг",
+            "time": "17:30-20:30"
+          },
+          {
+            "day": "суббота",
+            "time": "08:00-12:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "title": "Молодёжное объединение «Навык будущего»",
+        "catalogActivity": "Молодёжное объединение «Навык будущего»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABnavyik-budushhego%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABnavyik-budushhego%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодёжное объединение «Копилка знаний»",
+        "catalogActivity": "Молодёжное объединение «Копилка знаний»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABkopilka-znanij%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABkopilka-znanij%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодёжное объединение «В мире диалога»",
+        "catalogActivity": "Молодёжное объединение «В мире диалога»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABv-mire-dialoga%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABv-mire-dialoga%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодёжное объединение «Путь единства»",
+        "catalogActivity": "Молодёжное объединение «Путь единства»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABput-edinstva%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABput-edinstva%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодёжное объединение «ЭКОстиль»",
+        "catalogActivity": "Молодёжное объединение «ЭКОстиль»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABekostil%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABekostil%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодёжное объединение «Твой путь»",
+        "catalogActivity": "Молодёжное объединение «Твой путь»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABtvoj-put%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABtvoj-put%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодёжное объединение «Калейдоскоп»",
+        "catalogActivity": "Молодёжное объединение «Калейдоскоп»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABkalejdoskop%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABkalejdoskop%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодёжное объединение «Будь здоров»",
+        "catalogActivity": "Молодёжное объединение «Будь здоров»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABbud-zdorov%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABbud-zdorov%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодёжное объединение «Алгоритм»",
+        "catalogActivity": "Молодёжное объединение «Алгоритм»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABalgoritm%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABalgoritm%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Секция «Спортивная семья»",
+        "catalogActivity": "Секция «Спортивная семья»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/sekcziya-%C2%ABsportivnaya-semya%C2%BB",
+        "vkUrl": "https://vk.com/kobi_kai",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/sekcziya-%C2%ABsportivnaya-semya%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Хореографическая студия «Раздолье»",
+        "catalogActivity": "Хореографическая студия «Раздолье»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/tanczevalnoe-napravlenie/xoreograficheskaya-studiya-%C2%ABrazdole%C2%BB",
+        "vkUrl": "https://vk.com/zadorinki_spb",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/tanczevalnoe-napravlenie/xoreograficheskaya-studiya-%C2%ABrazdole%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Хореографическая студия «Задоринки»",
+        "catalogActivity": "Хореографическая студия «Задоринки»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/tanczevalnoe-napravlenie/xoreograficheskaya-studiya-%C2%ABzadorinki%C2%BB",
+        "vkUrl": "https://vk.com/zadorinki_spb",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/tanczevalnoe-napravlenie/xoreograficheskaya-studiya-%C2%ABzadorinki%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Физкультурно-спортивная секция единоборств «Рукопашный бой»",
+        "catalogActivity": "Физкультурно-спортивная секция единоборств «Рукопашный бой»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/fizkulturno-sportivnaya-sekcziya-edinoborstv-%C2%ABrukopashnyij-boj%C2%BB",
+        "vkUrl": "https://vk.com/kobi_kai",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/fizkulturno-sportivnaya-sekcziya-edinoborstv-%C2%ABrukopashnyij-boj%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Физкультурно-спортивная секция единоборств «ОБЩАЯ ФИЗИЧЕСКАЯ ПОДГОТОВКА»",
+        "catalogActivity": "Физкультурно-спортивная секция единоборств «ОБЩАЯ ФИЗИЧЕСКАЯ ПОДГОТОВКА»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/fizkulturno-sportivnaya-sekcziya-edinoborstv-%C2%ABobshhaya-fizicheskaya-podgotovka%C2%BB",
+        "vkUrl": "https://vk.com/kobi_kai",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/fizkulturno-sportivnaya-sekcziya-edinoborstv-%C2%ABobshhaya-fizicheskaya-podgotovka%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Секция «Смешанные единоборства ММА»",
+        "catalogActivity": "Секция «Смешанные единоборства ММА»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/fizkulturno-sportivnaya-sekcziya-%C2%ABsmeshannyie-edinoborstva-mma%C2%BB",
+        "vkUrl": "https://vk.com/kobi_kai",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/fizkulturno-sportivnaya-sekcziya-%C2%ABsmeshannyie-edinoborstva-mma%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Секция «Тайский бокс»",
+        "catalogActivity": "Секция «Тайский бокс»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/sekcziya-%C2%ABtajskij-boks%C2%BB",
+        "vkUrl": "https://vk.com/kobi_kai",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/sekcziya-%C2%ABtajskij-boks%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Молодёжное объединение «Навык будущего»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABnavyik-budushhego%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодёжное объединение «Копилка знаний»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABkopilka-znanij%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодёжное объединение «В мире диалога»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABv-mire-dialoga%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодёжное объединение «Путь единства»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABput-edinstva%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодёжное объединение «ЭКОстиль»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABekostil%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодёжное объединение «Твой путь»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABtvoj-put%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодёжное объединение «Калейдоскоп»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABkalejdoskop%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодёжное объединение «Будь здоров»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABbud-zdorov%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодёжное объединение «Алгоритм»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/klubyi-i-formirovaniya-dvorcza-molodyozhi/klubnyie-formirovaniya/molodyozhnoe-obedinenie-%C2%ABalgoritm%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Секция «Спортивная семья»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/sekcziya-%C2%ABsportivnaya-semya%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Хореографическая студия «Раздолье»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/tanczevalnoe-napravlenie/xoreograficheskaya-studiya-%C2%ABrazdole%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Для мальчиков 9-16 лет. Группу и условия участия уточни у организатора"
+      },
+      {
+        "activity": "Хореографическая студия «Задоринки»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/tanczevalnoe-napravlenie/xoreograficheskaya-studiya-%C2%ABzadorinki%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Физкультурно-спортивная секция единоборств «Рукопашный бой»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/fizkulturno-sportivnaya-sekcziya-edinoborstv-%C2%ABrukopashnyij-boj%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Физкультурно-спортивная секция единоборств «ОБЩАЯ ФИЗИЧЕСКАЯ ПОДГОТОВКА»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/fizkulturno-sportivnaya-sekcziya-edinoborstv-%C2%ABobshhaya-fizicheskaya-podgotovka%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Секция «Смешанные единоборства ММА»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/fizkulturno-sportivnaya-sekcziya-%C2%ABsmeshannyie-edinoborstva-mma%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Секция «Тайский бокс»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/sportivno-ozdorovitelnyij-kompleks/sportivno-ozdorovitelnoe-napravlenie/sekcziya-%C2%ABtajskij-boks%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      }
+    ]
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Маяк",
+    "organization": "kdm",
+    "address": "г. Кронштадт, ул. Мануильского, д. 45/3, лит. А",
+    "phone": "311-38-87",
+    "activities": [
+      "Декоративно-прикладное творчество",
+      "Спорт",
+      "Добровольчество",
+      "Проектная деятельность",
+      "Патриотические программы",
+      "Любительское объединение «Пульс»",
+      "Любительское объединение «Грани творчества»",
+      "Любительское объединение «ЭКОстиль»",
+      "Любительское объединение «ИНФОгород»",
+      "Любительское объединение «ПроЗОЖ»",
+      "Молодежное объединение «Котлин»/поисковый отряд",
+      "Студия «Притяжение»",
+      "Студия кино- фотоискусства «Миг»",
+      "Танцевальная студия «Ритмикс»",
+      "Молодёжное объединение «ДОБРОволец»",
+      "Студия «Гончарный круг»",
+      "Спортивный клуб «Атлант»",
+      "Студия декоративно-прикладного творчества «Стиль»",
+      "Военно-исторический клуб «Ладога»"
+    ],
+    "note": "Названия студий и режим конкретных направлений сверены по официальным страницам. Платные варианты в каталог не включены. Возраст, группу и наличие мест уточни при записи.",
+    "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/",
+    "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.ru/club57981906",
+    "email": "bastion.35@mail.ru",
+    "activitySchedule": [
+      {
+        "activity": "Любительское объединение «Пульс»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABpuls%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "16:00-18:00"
+          },
+          {
+            "day": "суббота",
+            "time": "16:00-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Любительское объединение «Грани творчества»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABgrani-tvorchestva%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "19:00-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Любительское объединение «ЭКОстиль»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABekostil%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:30-19:30"
+          },
+          {
+            "day": "суббота",
+            "time": "17:30-19:30"
+          }
+        ]
+      },
+      {
+        "activity": "Любительское объединение «ИНФОгород»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABinfogorod%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "18:00-20:00"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Любительское объединение «ПроЗОЖ»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABprozozh%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:00-19:00"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-19:00"
+          }
+        ]
+      },
+      {
+        "activity": "Молодежное объединение «Котлин»/поисковый отряд",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABkotlin%C2%BB/poiskovyij",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "16:00-18:00"
+          },
+          {
+            "day": "четверг",
+            "time": "16:00-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Студия «Притяжение»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABprityazhenie%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "17:00-21:00"
+          },
+          {
+            "day": "вторник",
+            "time": "17:00-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "17:00-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "17:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Студия кино- фотоискусства «Миг»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-kino%E2%80%93-fotoiskusstva-%C2%ABmig%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:30-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "17:30-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Танцевальная студия «Ритмикс»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/tanczevalnaya-studiya-%C2%ABritmiks%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "16:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Молодёжное объединение «ДОБРОволец»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/molodyozhnoe-obedinenie-%C2%ABdobrovolecz%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-20:00"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Студия «Гончарный круг»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABgoncharnyij-krug%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "17:00-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "17:00-21:00"
+          },
+          {
+            "day": "суббота",
+            "time": "16:00-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Студия декоративно-прикладного творчества «Стиль»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-dekorativno-prikladnogo-tvorchestva-%C2%ABstil%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:00-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-21:00"
+          },
+          {
+            "day": "суббота",
+            "time": "18:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Военно-исторический клуб «Ладога»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/voenno-istoricheskij-klub-%C2%ABladoga%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "17:00-21:00"
+          },
+          {
+            "day": "вторник",
+            "time": "17:00-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "17:00-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "17:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "title": "Любительское объединение «Пульс»",
+        "catalogActivity": "Любительское объединение «Пульс»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABpuls%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABpuls%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Любительское объединение «Грани творчества»",
+        "catalogActivity": "Любительское объединение «Грани творчества»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABgrani-tvorchestva%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABgrani-tvorchestva%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Любительское объединение «ЭКОстиль»",
+        "catalogActivity": "Любительское объединение «ЭКОстиль»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABekostil%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABekostil%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Любительское объединение «ИНФОгород»",
+        "catalogActivity": "Любительское объединение «ИНФОгород»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABinfogorod%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABinfogorod%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Любительское объединение «ПроЗОЖ»",
+        "catalogActivity": "Любительское объединение «ПроЗОЖ»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABprozozh%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABprozozh%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодежное объединение «Котлин»/поисковый отряд",
+        "catalogActivity": "Молодежное объединение «Котлин»/поисковый отряд",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABkotlin%C2%BB/poiskovyij",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABkotlin%C2%BB/poiskovyij",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Студия «Притяжение»",
+        "catalogActivity": "Студия «Притяжение»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABprityazhenie%C2%BB",
+        "vkUrl": "https://vk.com/public221376190",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABprityazhenie%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Студия кино– фотоискусства «Миг»",
+        "catalogActivity": "Студия кино- фотоискусства «Миг»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-kino%E2%80%93-fotoiskusstva-%C2%ABmig%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-kino%E2%80%93-fotoiskusstva-%C2%ABmig%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Танцевальная студия «Ритмикс»",
+        "catalogActivity": "Танцевальная студия «Ритмикс»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/tanczevalnaya-studiya-%C2%ABritmiks%C2%BB",
+        "vkUrl": "https://vk.com/club199493376",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/tanczevalnaya-studiya-%C2%ABritmiks%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодёжное объединение «ДОБРОволец»",
+        "catalogActivity": "Молодёжное объединение «ДОБРОволец»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/molodyozhnoe-obedinenie-%C2%ABdobrovolecz%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/molodyozhnoe-obedinenie-%C2%ABdobrovolecz%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Студия «Гончарный круг»",
+        "catalogActivity": "Студия «Гончарный круг»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABgoncharnyij-krug%C2%BB",
+        "vkUrl": "https://vk.com/pmk_mayak_potter",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABgoncharnyij-krug%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Спортивный клуб «Атлант»",
+        "catalogActivity": "Спортивный клуб «Атлант»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/sportivnyij-klub-%C2%ABatlant%C2%BB",
+        "vkUrl": "https://vk.com/club199649411",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/sportivnyij-klub-%C2%ABatlant%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Студия декоративно-прикладного творчества «Стиль»",
+        "catalogActivity": "Студия декоративно-прикладного творчества «Стиль»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-dekorativno-prikladnogo-tvorchestva-%C2%ABstil%C2%BB",
+        "vkUrl": "https://vk.com/public199615820",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-dekorativno-prikladnogo-tvorchestva-%C2%ABstil%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Военно-исторический клуб «Ладога»",
+        "catalogActivity": "Военно-исторический клуб «Ладога»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/voenno-istoricheskij-klub-%C2%ABladoga%C2%BB",
+        "vkUrl": "https://vk.com/vik_ladoga",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/voenno-istoricheskij-klub-%C2%ABladoga%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Любительское объединение «Пульс»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABpuls%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Любительское объединение «Грани творчества»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABgrani-tvorchestva%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Любительское объединение «ЭКОстиль»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABekostil%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Любительское объединение «ИНФОгород»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABinfogorod%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Любительское объединение «ПроЗОЖ»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABprozozh%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодежное объединение «Котлин»/поисковый отряд",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABkotlin%C2%BB/poiskovyij",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "В поисковый отряд приглашаются участники старше 18 лет; возможно участие родителей"
+      },
+      {
+        "activity": "Студия «Притяжение»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABprityazhenie%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Студия кино- фотоискусства «Миг»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-kino%E2%80%93-fotoiskusstva-%C2%ABmig%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Танцевальная студия «Ритмикс»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/tanczevalnaya-studiya-%C2%ABritmiks%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодёжное объединение «ДОБРОволец»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/lyubitelskie-obedineniya/molodyozhnoe-obedinenie-%C2%ABdobrovolecz%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Студия «Гончарный круг»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABgoncharnyij-krug%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст участников: 14-35 лет. Состав группы и порядок записи уточни у клуба"
+      },
+      {
+        "activity": "Спортивный клуб «Атлант»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/sportivnyij-klub-%C2%ABatlant%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Студия декоративно-прикладного творчества «Стиль»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/studiya-dekorativno-prikladnogo-tvorchestva-%C2%ABstil%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст участников: 14-35 лет. Состав группы и порядок записи уточни у клуба"
+      },
+      {
+        "activity": "Военно-исторический клуб «Ладога»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABmayak%C2%BB/klubnyie-formirovaniya/voenno-istoricheskij-klub-%C2%ABladoga%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст участников: 14-35 лет. Состав группы и порядок записи уточни у клуба"
+      }
+    ]
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Ровесник",
+    "organization": "kdm",
+    "address": "г. Кронштадт, Якорная пл., д. 3В, лит. А",
+    "phone": "311-34-68",
+    "activities": [
+      "Спорт",
+      "Творчество и досуг",
+      "Добровольчество",
+      "Здоровый образ жизни",
+      "Проектная деятельность",
+      "Медиа",
+      "Студия занимательной науки «ФИЗиУМ»",
+      "Студия силовой подготовки «Территория силы»",
+      "Студия перфоманса Паши Канторова",
+      "Студия игры на гитаре «Струны»",
+      "Студия «ПроАктив»",
+      "Киноклуб «Броненосец с Котёнком»",
+      "Киберспортивный клуб «Lightwaves»",
+      "Фитнес-студия «Импульс»",
+      "Студия «Вокал ПРО»",
+      "Молодежное объединение «Ритм»",
+      "Молодежное объединение «Преображение»",
+      "Молодежное объединение «Под микроскопом»",
+      "Молодежное объединение «Мастерская идей»",
+      "Молодежное объединение «Изолайн»",
+      "Любительское объединение «Вокруг света»",
+      "Любительское объединение «Baker Street»"
+    ],
+    "note": "Названия студий и режим конкретных направлений сверены по официальным страницам. Платные варианты в каталог не включены. Возраст, группу и наличие мест уточни при записи.",
+    "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/",
+    "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.ru/new.rovesnik",
+    "email": "new.rovesnik@mail.ru",
+    "activitySchedule": [
+      {
+        "activity": "Молодежное объединение «Ритм»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABritm%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "пятница",
+            "time": "16:00-18:00"
+          },
+          {
+            "day": "суббота",
+            "time": "16:00-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Молодежное объединение «Преображение»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABpreobrazhenie%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "19:00-21:00"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Молодежное объединение «Под микроскопом»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABpod-mikroskopom%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "19:00-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Молодежное объединение «Мастерская идей»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABmasterskaya-idej%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "18:00-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Молодежное объединение «Изолайн»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABizolajn%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "16:00-18:00"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Любительское объединение «Вокруг света»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABvokrug-sveta%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "пятница",
+            "time": "18:00-20:00"
+          },
+          {
+            "day": "суббота",
+            "time": "16:00-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Любительское объединение «Baker Street»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABbaker-street%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceNote": "В источнике указан режим работы направления. Разделение по учебным группам и дата начала действия не указаны. Перед визитом уточни дни и время своей группы.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "19:00-21:00"
+          },
+          {
+            "day": "суббота",
+            "time": "19:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "title": "Студия занимательной науки «ФИЗиУМ»",
+        "catalogActivity": "Студия занимательной науки «ФИЗиУМ»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-zanimatelnoj-nauki-%C2%ABfizium%C2%BB",
+        "vkUrl": "https://vk.com/fizium",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-zanimatelnoj-nauki-%C2%ABfizium%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Студия силовой подготовки «Территория силы»",
+        "catalogActivity": "Студия силовой подготовки «Территория силы»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-silovoj-podgotovki-%C2%ABterritoriya-silyi%C2%BB",
+        "vkUrl": "https://vk.com/club230852262",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-silovoj-podgotovki-%C2%ABterritoriya-silyi%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Студия перфоманса Паши Канторова",
+        "catalogActivity": "Студия перфоманса Паши Канторова",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-perfomansa-pashi-kantorova",
+        "vkUrl": "https://vk.com/kronballet",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-perfomansa-pashi-kantorova",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Студия игры на гитаре «Струны»",
+        "catalogActivity": "Студия игры на гитаре «Струны»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-igryi-na-gitare-%C2%ABstrunyi%C2%BB",
+        "vkUrl": "https://vk.com/club226431320",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-igryi-na-gitare-%C2%ABstrunyi%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Студия «ПроАктив»",
+        "catalogActivity": "Студия «ПроАктив»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABproaktiv%C2%BB",
+        "vkUrl": "https://vk.com/club227984403",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABproaktiv%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Киноклуб «Броненосец с Котёнком»",
+        "catalogActivity": "Киноклуб «Броненосец с Котёнком»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/kinoklub-%C2%ABbronenosecz-s-kotyonkom%C2%BB",
+        "vkUrl": "https://vk.com/battleship_with_kitten",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/kinoklub-%C2%ABbronenosecz-s-kotyonkom%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Киберспортивный клуб «Lightwaves»",
+        "catalogActivity": "Киберспортивный клуб «Lightwaves»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/kibersportivnyij-klub-%C2%ABlightwaves%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/kibersportivnyij-klub-%C2%ABlightwaves%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Фитнес-студия «Импульс»",
+        "catalogActivity": "Фитнес-студия «Импульс»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/fitnes-studiya-%C2%ABimpuls%C2%BB",
+        "vkUrl": "https://vk.com/club226455828",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/fitnes-studiya-%C2%ABimpuls%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Студия «Вокал ПРО»",
+        "catalogActivity": "Студия «Вокал ПРО»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABvokal-pro%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABvokal-pro%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодежное объединение «Ритм»",
+        "catalogActivity": "Молодежное объединение «Ритм»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABritm%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABritm%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодежное объединение «Преображение»",
+        "catalogActivity": "Молодежное объединение «Преображение»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABpreobrazhenie%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABpreobrazhenie%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодежное объединение «Под микроскопом»",
+        "catalogActivity": "Молодежное объединение «Под микроскопом»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABpod-mikroskopom%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABpod-mikroskopom%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодежное объединение «Мастерская идей»",
+        "catalogActivity": "Молодежное объединение «Мастерская идей»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABmasterskaya-idej%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABmasterskaya-idej%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Молодежное объединение «Изолайн»",
+        "catalogActivity": "Молодежное объединение «Изолайн»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABizolajn%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABizolajn%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Любительское объединение «Вокруг света»",
+        "catalogActivity": "Любительское объединение «Вокруг света»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABvokrug-sveta%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABvokrug-sveta%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      },
+      {
+        "title": "Любительское объединение «Baker Street»",
+        "catalogActivity": "Любительское объединение «Baker Street»",
+        "officialUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABbaker-street%C2%BB",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABbaker-street%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "соответствие подтверждено официальной карточкой направления"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Студия занимательной науки «ФИЗиУМ»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-zanimatelnoj-nauki-%C2%ABfizium%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст участников: 14-35 лет. Состав группы и порядок записи уточни у клуба"
+      },
+      {
+        "activity": "Студия силовой подготовки «Территория силы»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-silovoj-podgotovki-%C2%ABterritoriya-silyi%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст участников: 14-35 лет. Состав группы и порядок записи уточни у клуба"
+      },
+      {
+        "activity": "Студия перфоманса Паши Канторова",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-perfomansa-pashi-kantorova",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Студия игры на гитаре «Струны»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-igryi-na-gitare-%C2%ABstrunyi%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст участников: 14-35 лет. Состав группы и порядок записи уточни у клуба"
+      },
+      {
+        "activity": "Студия «ПроАктив»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABproaktiv%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст участников: 14-35 лет. Состав группы и порядок записи уточни у клуба"
+      },
+      {
+        "activity": "Киноклуб «Броненосец с Котёнком»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/kinoklub-%C2%ABbronenosecz-s-kotyonkom%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст участников: 14-35 лет. Состав группы и порядок записи уточни у клуба"
+      },
+      {
+        "activity": "Киберспортивный клуб «Lightwaves»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/kibersportivnyij-klub-%C2%ABlightwaves%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст участников: 14-35 лет. Состав группы и порядок записи уточни у клуба"
+      },
+      {
+        "activity": "Фитнес-студия «Импульс»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/fitnes-studiya-%C2%ABimpuls%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст участников: 14-35 лет. Состав группы и порядок записи уточни у клуба"
+      },
+      {
+        "activity": "Студия «Вокал ПРО»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/klubnyie-formirovaniya/studiya-%C2%ABvokal-pro%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст участников: 14-35 лет. Состав группы и порядок записи уточни у клуба"
+      },
+      {
+        "activity": "Молодежное объединение «Ритм»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABritm%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодежное объединение «Преображение»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABpreobrazhenie%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодежное объединение «Под микроскопом»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABpod-mikroskopom%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодежное объединение «Мастерская идей»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABmasterskaya-idej%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Молодежное объединение «Изолайн»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/molodezhnoe-obedinenie-%C2%ABizolajn%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Любительское объединение «Вокруг света»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABvokrug-sveta%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      },
+      {
+        "activity": "Любительское объединение «Baker Street»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://xn----htbqkcfn.xn--p1ai/organizaczii/podrostkovo-molodyozhnyij-klub-%C2%ABrovesnik%C2%BB/lyubitelskie-obedineniya/lyubitelskoe-obedinenie-%C2%ABbaker-street%C2%BB",
+        "sourceCheckedAt": "2026-10-23",
+        "sourceText": "Возраст конкретной группы на странице не указан; уточни условия бесплатного участия при записи"
+      }
+    ]
+  }
 ]

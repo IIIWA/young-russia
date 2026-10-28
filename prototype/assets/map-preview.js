@@ -31,7 +31,7 @@
       map.geoObjects.add(new window.ymaps.Placemark(point.coordinates, {
         hintContent: point.name,
         balloonContentHeader: escapeHtml(point.name),
-        balloonContentBody: `${escapeHtml(point.address)}<br><a href="${escapeHtml(point.url)}">${escapeHtml(point.linkLabel || 'Страница клуба')}</a>${point.provisional ? '<br><small>Точка предварительная</small>' : ''}`,
+        balloonContentBody: `${escapeHtml(point.address)}<br><a class="map-balloon-link" style="color:#1d4ed8;text-decoration:underline" href="${escapeHtml(point.url)}">${escapeHtml(point.linkLabel || 'Страница клуба')}</a>${point.provisional ? '<br><small>Точка предварительная</small>' : ''}`,
       }, {preset:'islands#circleDotIcon', iconColor:point.provisional ? '#db7819' : '#1976d2'}));
     });
     if (selected.length > 1) map.setBounds(map.geoObjects.getBounds(), {checkZoomRange:true, zoomMargin:36});

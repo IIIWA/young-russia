@@ -1,0 +1,512 @@
+{
+  "date": "2026-10-22",
+  "task": "S-60",
+  "status": "published and verified",
+  "deployedAt": "2026-10-22T18:01:21Z",
+  "verifiedAt": "2026-10-22T18:02:55.784Z",
+  "archiveSha256": "1620ccd696c2d7ca6ce98d5b9090318d655771af38ae567fe42ba0de83c5ed93",
+  "filesVerified": 3895,
+  "htmlPages": 1891,
+  "sitemapUrls": 1889,
+  "backup": "/var/www/u3013321/data/backups/young-russia-before-patriot-schedule-2026-10-22.tar.gz",
+  "backupSha256": "2d5147bdc9133cb414c960be9d74886b7a0450aa14e446110118fa081809505a",
+  "previous": "/var/www/u3013321/data/www/.young-russia-prev-20261022-patriot-schedule",
+  "source": {
+    "image": "YoungRussiaOBS/Pasted image 20261021162347.png",
+    "sha256": "08c7d395889e9f8cbbddabbbe0c5f019221f17c9c990644f6716e1e5e6ecb877",
+    "effectiveFrom": "2025-09-01"
+  },
+  "schedule": {
+    "programs": 5,
+    "sessions": 7,
+    "weeklyHours": 20,
+    "pages": 4,
+    "browserChecks": [
+      {
+        "route": "/activities/vyborgsky-patriot-dekorativno-prikladnoe-tvorchestvo-02.html",
+        "width": 320,
+        "headers": [
+          "День",
+          "Декоретто",
+          "Фантазия"
+        ],
+        "rows": [
+          [
+            "Пн",
+            "17:00-19:30Кабинет 8",
+            "19:30-22:00Кабинет 8"
+          ],
+          [
+            "Чт",
+            "17:00-19:30Кабинет 8",
+            "19:30-22:00Кабинет 8"
+          ]
+        ],
+        "overflow": false
+      },
+      {
+        "route": "/activities/vyborgsky-patriot-dekorativno-prikladnoe-tvorchestvo-02.html",
+        "width": 390,
+        "headers": [
+          "День",
+          "Декоретто",
+          "Фантазия"
+        ],
+        "rows": [
+          [
+            "Пн",
+            "17:00-19:30Кабинет 8",
+            "19:30-22:00Кабинет 8"
+          ],
+          [
+            "Чт",
+            "17:00-19:30Кабинет 8",
+            "19:30-22:00Кабинет 8"
+          ]
+        ],
+        "overflow": false
+      },
+      {
+        "route": "/activities/vyborgsky-patriot-dekorativno-prikladnoe-tvorchestvo-02.html",
+        "width": 1440,
+        "headers": [
+          "Время",
+          "Пн",
+          "Чт"
+        ],
+        "rows": [
+          [
+            "17:00-19:30",
+            "Декоретто, кабинет 8",
+            "Декоретто, кабинет 8"
+          ],
+          [
+            "19:30-22:00",
+            "Фантазия, кабинет 8",
+            "Фантазия, кабинет 8"
+          ]
+        ],
+        "overflow": false
+      },
+      {
+        "route": "/activities/vyborgsky-patriot-istoricheskaya-masterskaya-03.html",
+        "width": 320,
+        "headers": [
+          "День",
+          "ФормаТ"
+        ],
+        "rows": [
+          [
+            "Вт",
+            "16:00-21:00Кабинет 8"
+          ]
+        ],
+        "overflow": false
+      },
+      {
+        "route": "/activities/vyborgsky-patriot-istoricheskaya-masterskaya-03.html",
+        "width": 390,
+        "headers": [
+          "День",
+          "ФормаТ"
+        ],
+        "rows": [
+          [
+            "Вт",
+            "16:00-21:00Кабинет 8"
+          ]
+        ],
+        "overflow": false
+      },
+      {
+        "route": "/activities/vyborgsky-patriot-istoricheskaya-masterskaya-03.html",
+        "width": 1440,
+        "headers": [
+          "Время",
+          "Вт"
+        ],
+        "rows": [
+          [
+            "16:00-21:00",
+            "ФормаТ, кабинет 8"
+          ]
+        ],
+        "overflow": false
+      },
+      {
+        "route": "/activities/vyborgsky-patriot-molodyozhnoe-obedinenie-my-vmeste-04.html",
+        "width": 320,
+        "headers": [
+          "День",
+          "Мы-вместе!"
+        ],
+        "rows": [
+          [
+            "Сб",
+            "18:30-21:00Кабинет 1"
+          ]
+        ],
+        "overflow": false
+      },
+      {
+        "route": "/activities/vyborgsky-patriot-molodyozhnoe-obedinenie-my-vmeste-04.html",
+        "width": 390,
+        "headers": [
+          "День",
+          "Мы-вместе!"
+        ],
+        "rows": [
+          [
+            "Сб",
+            "18:30-21:00Кабинет 1"
+          ]
+        ],
+        "overflow": false
+      },
+      {
+        "route": "/activities/vyborgsky-patriot-molodyozhnoe-obedinenie-my-vmeste-04.html",
+        "width": 1440,
+        "headers": [
+          "Время",
+          "Сб"
+        ],
+        "rows": [
+          [
+            "18:30-21:00",
+            "Мы-вместе!, кабинет 1"
+          ]
+        ],
+        "overflow": false
+      },
+      {
+        "route": "/activities/vyborgsky-patriot-nastolnye-igry-01.html",
+        "width": 320,
+        "headers": [
+          "День",
+          "Игрополис"
+        ],
+        "rows": [
+          [
+            "Сб",
+            "16:00-18:30Кабинет 1"
+          ]
+        ],
+        "overflow": false
+      },
+      {
+        "route": "/activities/vyborgsky-patriot-nastolnye-igry-01.html",
+        "width": 390,
+        "headers": [
+          "День",
+          "Игрополис"
+        ],
+        "rows": [
+          [
+            "Сб",
+            "16:00-18:30Кабинет 1"
+          ]
+        ],
+        "overflow": false
+      },
+      {
+        "route": "/activities/vyborgsky-patriot-nastolnye-igry-01.html",
+        "width": 1440,
+        "headers": [
+          "Время",
+          "Сб"
+        ],
+        "rows": [
+          [
+            "16:00-18:30",
+            "Игрополис, кабинет 1"
+          ]
+        ],
+        "overflow": false
+      }
+    ]
+  },
+  "coordinates": {
+    "clubs": 334,
+    "userProvided": 310,
+    "accepted": 308,
+    "approximate": 2,
+    "clubsWithAnyPoint": 331,
+    "markers": 332,
+    "queue": 26,
+    "newPoints": 0,
+    "acceptedPriorReviews": [
+      {
+        "addressId": "4d99e2a84fed",
+        "clubName": "Феникс",
+        "latitude": 59.984033,
+        "longitude": 30.34464,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRnvOk4",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 23333 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "2dde53a5b13c",
+        "clubName": "Прометей",
+        "latitude": 59.838357,
+        "longitude": 30.204519,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRrYQZF",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 2318 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "d2036b5bbc6d",
+        "clubName": "Радуга",
+        "latitude": 59.858073,
+        "longitude": 30.179358,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRrYBZ0",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 5502 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "7e1585b438d0",
+        "clubName": "Точка",
+        "latitude": 59.926652,
+        "longitude": 30.425694,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRrqOK8",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 5840 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "a27c21a27ffc",
+        "clubName": "ZOV",
+        "latitude": 59.976112,
+        "longitude": 30.419141,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRr641F",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 2572 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "a8172b1d8cb1",
+        "clubName": "Квартира.ру",
+        "latitude": 59.933989,
+        "longitude": 30.41131,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRr689p",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 21077 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "94cc925b3999",
+        "clubName": "Соседи",
+        "latitude": 60.000605,
+        "longitude": 30.452931,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRrbM9H",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 3121 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "e9099876adbd",
+        "clubName": "Космос",
+        "latitude": 59.876895,
+        "longitude": 30.322325,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRvIYYh",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 3880 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "80d5727d410e",
+        "clubName": "Юность",
+        "latitude": 59.836443,
+        "longitude": 30.33731,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRva28U",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 14851 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "2abdf1369696",
+        "clubName": "Кругозор",
+        "latitude": 59.892921,
+        "longitude": 30.465339,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRzQGL-",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 1749 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "5225dad40669",
+        "clubName": "Красные Зори",
+        "latitude": 59.870378,
+        "longitude": 30.442339,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRzQ02t",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 2606 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "12c31fb856fb",
+        "clubName": "Антей",
+        "latitude": 59.960138,
+        "longitude": 30.308435,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRz44y9",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 16949 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "30b97193d2bd",
+        "clubName": "Мир",
+        "latitude": 59.959218,
+        "longitude": 30.315172,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRzeJk-",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 16844 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "6af3788ff50b",
+        "clubName": "ВПК имени А. Ф. Клубова",
+        "latitude": 59.914937,
+        "longitude": 30.344209,
+        "referenceUrl": "https://yandex.ru/maps/-/CXR77P8Z",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 20412 м; адрес и точку нужно проверить вручную."
+      },
+      {
+        "addressId": "690fc155006a",
+        "clubName": "Ровесник",
+        "latitude": 59.929342,
+        "longitude": 30.35627,
+        "referenceUrl": "https://yandex.ru/maps/-/CXRCACN8",
+        "previousReviewNote": "Точка из заметки расходится с прежним автоматическим кандидатом OpenStreetMap на 13816 м; адрес и точку нужно проверить вручную."
+      }
+    ]
+  },
+  "maps": [
+    {
+      "district": "admiralteysky",
+      "clubs": 26,
+      "markers": 26
+    },
+    {
+      "district": "frunzensky",
+      "clubs": 17,
+      "markers": 17
+    },
+    {
+      "district": "kalininsky",
+      "clubs": 21,
+      "markers": 21
+    },
+    {
+      "district": "kirovsky",
+      "clubs": 19,
+      "markers": 19
+    },
+    {
+      "district": "kolpinsky",
+      "clubs": 14,
+      "markers": 14
+    },
+    {
+      "district": "krasnogvardeysky",
+      "clubs": 22,
+      "markers": 22
+    },
+    {
+      "district": "krasnoselsky",
+      "clubs": 17,
+      "markers": 17
+    },
+    {
+      "district": "kronshtadtsky",
+      "clubs": 3,
+      "markers": 3
+    },
+    {
+      "district": "kurortny",
+      "clubs": 9,
+      "markers": 9
+    },
+    {
+      "district": "moskovsky",
+      "clubs": 21,
+      "markers": 21
+    },
+    {
+      "district": "nevsky",
+      "clubs": 34,
+      "markers": 34
+    },
+    {
+      "district": "petrodvortsovy",
+      "clubs": 10,
+      "markers": 10
+    },
+    {
+      "district": "petrogradsky",
+      "clubs": 20,
+      "markers": 20
+    },
+    {
+      "district": "primorsky",
+      "clubs": 13,
+      "markers": 13
+    },
+    {
+      "district": "pushkinsky",
+      "clubs": 19,
+      "markers": 19
+    },
+    {
+      "district": "tsentralny",
+      "clubs": 25,
+      "markers": 26
+    },
+    {
+      "district": "vasileostrovsky",
+      "clubs": 32,
+      "markers": 32
+    },
+    {
+      "district": "vyborgsky",
+      "clubs": 9,
+      "markers": 9
+    }
+  ],
+  "http": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "d95f907c65757eaf6fa5c45f37196bc8fd8022fa0c67ca19bee0a257ce0b3511"
+    },
+    {
+      "file": "directions/index.html",
+      "status": 200,
+      "sha256": "f201178ac2040359865c46ffc2141d6dd0ceee7ace177f93dcecc15199e0fd37"
+    },
+    {
+      "file": "districts/vyborgsky.html",
+      "status": 200,
+      "sha256": "ab496c6048adee63a7d355d4de4964abed7db3006cfe40ea0a197a97ec53d8c7"
+    },
+    {
+      "file": "clubs/vyborgsky/patriot.html",
+      "status": 200,
+      "sha256": "10e518bb473e6240ddb1942f43dce0a290f8e7dbdb15c7e16fd07294a191a207"
+    },
+    {
+      "file": "robots.txt",
+      "status": 200,
+      "sha256": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8"
+    },
+    {
+      "file": "sitemap.xml",
+      "status": 200,
+      "sha256": "c1a0cb90885cf4702cf70ec7fbf5aa6ada958433f181e508c99a80e2ac85148f"
+    },
+    {
+      "file": "activities/vyborgsky-patriot-dekorativno-prikladnoe-tvorchestvo-02.html",
+      "status": 200,
+      "sha256": "8143581190f2d42d67e4e74764f8c206271eeeb276861b8a70b32544e3d3a8fc"
+    },
+    {
+      "file": "activities/vyborgsky-patriot-istoricheskaya-masterskaya-03.html",
+      "status": 200,
+      "sha256": "73eacca5c531b130dbae58790a7445f9c8dd2156196d40925f12efb419494929"
+    },
+    {
+      "file": "activities/vyborgsky-patriot-molodyozhnoe-obedinenie-my-vmeste-04.html",
+      "status": 200,
+      "sha256": "1a444f7f471f99a6b45bc1a99d8dcd6f6f99f469d58fcd06b53fbf551f35f1f5"
+    },
+    {
+      "file": "activities/vyborgsky-patriot-nastolnye-igry-01.html",
+      "status": 200,
+      "sha256": "bd1533a879ae24d864d7a9f2cec093cafc626aca7db3c894653e941faccd3a9b"
+    }
+  ],
+  "metrikaCounter": 113739844,
+  "protected": [
+    "robots.txt",
+    ".htaccess",
+    "server prototype files",
+    "prototype comments JSON"
+  ],
+  "git": "uncommitted; not pushed"
+}

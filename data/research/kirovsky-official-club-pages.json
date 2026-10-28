@@ -1,71 +1,119 @@
 {
-  "checked": "2026-10-16",
-  "source": "Официальный сайт ПМЦ «Кировский», раздел «Наши клубы»",
-  "note": "Сохранены страницы клубов. Прямые ссылки VK для этих клубов на просмотренных страницах не были подтверждены.",
+  "checked": "2026-10-23",
+  "source": "Официальный сайт ПМЦ «Кировский», раздел «Наши клубы» и 19 страниц",
+  "note": "Ссылка VK подтверждается размещением на официальном сайте; сама VK-страница не открывалась.",
   "clubs": [
     {
       "name": "Алые паруса",
-      "url": "https://pmckir.ru/?page_id=1667"
+      "url": "https://pmckir.ru/?page_id=1667",
+      "vkUrl": "https://vk.com/club16263721",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "Альтаир",
-      "url": "https://pmckir.ru/?page_id=1769"
+      "url": "https://pmckir.ru/?page_id=1769",
+      "vkUrl": "https://vk.com/iron_altair",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "В16",
-      "url": "https://pmckir.ru/?page_id=5607"
+      "url": "https://pmckir.ru/?page_id=5607",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "Заря",
-      "url": "https://pmckir.ru/?page_id=1794"
+      "url": "https://pmckir.ru/?page_id=1794",
+      "vkUrl": "https://vk.com/pmk_zarya",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "Имени Лёни Голикова",
-      "url": "https://pmckir.ru/?page_id=1810"
+      "url": "https://pmckir.ru/?page_id=1810",
+      "vkUrl": "https://vk.com/pmk_leni_golikova",
+      "sourceCheckedAt": "2026-10-23"
+    },
+    {
+      "name": "Канонерец",
+      "url": "https://pmckir.ru/?page_id=1833",
+      "vkUrl": "https://vk.com/kanonerec",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "Кортик",
-      "url": "https://pmckir.ru/?page_id=1842"
+      "url": "https://pmckir.ru/?page_id=1842",
+      "vkUrl": "https://vk.com/club151736835",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "Ленинец",
-      "url": "https://pmckir.ru/?page_id=1851"
+      "url": "https://pmckir.ru/?page_id=1851",
+      "vkUrl": "https://vk.com/pmklenenec",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
-      "name": "Молодежный",
-      "url": "https://pmckir.ru/?page_id=1861"
+      "name": "Молодёжный",
+      "url": "https://pmckir.ru/?page_id=1861",
+      "vkUrl": "https://vk.com/molspase",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "Нарвская застава",
-      "url": "https://pmckir.ru/?page_id=1869"
+      "url": "https://pmckir.ru/?page_id=1869",
+      "vkUrl": "https://vk.com/club65947899",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "Прометей",
-      "url": "https://pmckir.ru/?page_id=1895"
+      "url": "https://pmckir.ru/?page_id=1895",
+      "vkUrl": "https://vk.com/club154236766",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "Радуга",
-      "url": "https://pmckir.ru/?page_id=1905"
+      "url": "https://pmckir.ru/?page_id=1905",
+      "vkUrl": "https://vk.com/pmz_pmkraduga",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "Ракета",
-      "url": "https://pmckir.ru/?page_id=1918"
+      "url": "https://pmckir.ru/?page_id=1918",
+      "vkUrl": "https://vk.com/public160977498",
+      "sourceCheckedAt": "2026-10-23"
+    },
+    {
+      "name": "Север",
+      "url": "https://pmckir.ru/?page_id=1935",
+      "vkUrl": "https://vk.com/mpseverblizko",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "Смена",
-      "url": "https://pmckir.ru/?page_id=1943"
+      "url": "https://pmckir.ru/?page_id=1943",
+      "vkUrl": "https://vk.com/club139572086",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "Факел",
-      "url": "https://pmckir.ru/?page_id=1954"
+      "url": "https://pmckir.ru/?page_id=1954",
+      "vkUrl": "https://vk.com/mkfakelkir",
+      "sourceCheckedAt": "2026-10-23"
+    },
+    {
+      "name": "Центр",
+      "url": "https://pmckir.ru/?page_id=5648",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "Юный корабел",
-      "url": "https://pmckir.ru/?page_id=1962"
+      "url": "https://pmckir.ru/?page_id=1962",
+      "vkUrl": "https://vk.com/club11237362",
+      "sourceCheckedAt": "2026-10-23"
     },
     {
       "name": "Юный ленинградец",
-      "url": "https://pmckir.ru/?page_id=1970"
+      "url": "https://pmckir.ru/?page_id=1970",
+      "vkUrl": "https://vk.com/unleningradez",
+      "sourceCheckedAt": "2026-10-23"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "attribution": "© OpenStreetMap contributors",
   "license": "https://www.openstreetmap.org/copyright",
   "policy": "https://operations.osmfoundation.org/policies/nominatim/",
-  "addressCount": 322,
+  "addressCount": 321,
   "results": {
     "0c4655a66aa5": {
       "query": "14-16, 12-я Красноармейская улица, Санкт-Петербург, Россия",
@@ -12217,6 +12217,58 @@
             "59.9989891",
             "30.3305382",
             "30.3306382"
+          ]
+        }
+      ]
+    },
+    "910c21d5a550": {
+      "query": "29/52, бульвар Трудящихся, Колпино, Россия",
+      "checkedAt": "2026-10-23T17:12:15.464Z",
+      "previousQueries": [],
+      "candidates": [
+        {
+          "latitude": 59.7340481,
+          "longitude": 30.5793962,
+          "displayName": "Ижорский профессиональный политехнический лицей, 29/52, бульвар Трудящихся, Вертолёт, Колпино, Санкт-Петербург, Северо-Западный федеральный округ, 196657, Россия",
+          "addresstype": "amenity",
+          "type": "college",
+          "osmType": "relation",
+          "osmId": 1181112,
+          "boundingbox": [
+            "59.7330273",
+            "59.7349224",
+            "30.5789818",
+            "30.5817439"
+          ]
+        },
+        {
+          "latitude": 59.7335301,
+          "longitude": 30.5811747,
+          "displayName": "Мировые судьи Колпинского района, 29/52, бульвар Трудящихся, Вертолёт, Колпино, Санкт-Петербург, Северо-Западный федеральный округ, 196657, Россия",
+          "addresstype": "amenity",
+          "type": "courthouse",
+          "osmType": "node",
+          "osmId": 1035571359,
+          "boundingbox": [
+            "59.7334801",
+            "59.7335801",
+            "30.5811247",
+            "30.5812247"
+          ]
+        },
+        {
+          "latitude": 59.7332252,
+          "longitude": 30.5794025,
+          "displayName": "Бассейн ИЗ, 29/52, бульвар Трудящихся, Вертолёт, Колпино, Санкт-Петербург, Северо-Западный федеральный округ, 196657, Россия",
+          "addresstype": "leisure",
+          "type": "swimming_pool",
+          "osmType": "node",
+          "osmId": 1035566631,
+          "boundingbox": [
+            "59.7331752",
+            "59.7332752",
+            "30.5793525",
+            "30.5794525"
           ]
         }
       ]

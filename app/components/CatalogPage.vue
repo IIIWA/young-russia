@@ -38,10 +38,12 @@ useHead(() => ({
     { name: 'description', content: page.value?.description ?? '' },
   ],
   link: [
+    { rel: 'canonical', href: page.value?.canonical ?? 'https://young-russia.ru/' },
     { rel: 'icon', href: '/assets/favicon.svg', type: 'image/svg+xml' },
     { rel: 'stylesheet', href: `/assets/${page.value?.stylesheet ?? 'style.css'}` },
     ...(page.value?.hero ? [{ rel: 'preload', as: 'image', href: `/assets/${page.value.hero}`, fetchpriority: 'high' }] : []),
   ],
+  script: page.value?.structuredData ? [{ type: 'application/ld+json', innerHTML: page.value.structuredData }] : [],
 }))
 </script>
 

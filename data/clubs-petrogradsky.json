@@ -1,22 +1,2003 @@
 [
-  {"type":"Молодёжный клуб","name":"Алмаз","organization":"pmc","address":"ул. Воскова, д. 16","activities":["Атлетическая гимнастика"]},
-  {"type":"Молодёжный клуб","name":"Альфа","organization":"pmc","address":"ул. Воскова, д. 8/5","activities":["Диджеинг","Виджеинг","Киберспорт"]},
-  {"type":"Молодёжный клуб","name":"Антей","organization":"pmc","address":"ул. Ленина, д. 10","activities":["Мини-футбол"]},
-  {"type":"Молодёжный клуб","name":"Северное сияние","organization":"pmc","address":"ул. Полозова, д. 3","activities":["Рисование","Графика","Живопись"]},
-  {"type":"Молодёжный клуб","name":"Старт","organization":"pmc","address":"ул. Подковырова, д. 20","activities":["Йога","Растяжка","Ушу"]},
-  {"type":"Молодёжное пространство","name":"Среда","organization":"pmc","address":"Большая Пушкарская ул., д. 32А","activities":["Рисование","Творческие студии","Медиашкола","Вокал","Инклюзивный клуб"]},
-  {"type":"Молодёжное пространство","name":"Палата ремёсел","organization":"pmc","address":"Каменноостровский пр., д. 64","activities":["Керамика","Фольклор","Народные ремёсла","Клуб молодой семьи","Проектная деятельность"]},
-  {"type":"Молодёжный клуб","name":"ФанДом","organization":"pmc","address":"ул. Гатчинская, д. 25/25","activities":["Творческая студия","Разговорный китайский"]},
-  {"type":"Молодёжный клуб","name":"Эстетика","organization":"pmc","address":"Кронверкская ул., д. 15","activities":["Фитнес","Оздоровительная гимнастика"]},
-  {"type":"Молодёжное пространство","name":"Дом","organization":"pmc","address":"ул. Мончегорская, д. 10Б","activities":["Театр","Профориентация","Проектная деятельность","Коворкинг"]},
-  {"type":"Молодёжный клуб","name":"Планета-АРТ","organization":"pmc","address":"ул. Съезжинская, д. 34","activities":["Современные танцы","Уличные танцы","Студия звукозаписи"]},
-  {"type":"Молодёжный клуб","name":"Мир","organization":"pmc","address":"ул. Мира, д. 7","activities":["Лазертаг","Начальная военная подготовка"]},
-  {"type":"Молодёжное пространство","name":"Зеркало","organization":"pmc","address":"ул. Введенская, д. 7","activities":["Киностудия","Настольный теннис","Настольные игры","Профориентация"]},
-  {"type":"Добро.Центр","name":"Добро.Центр","organization":"pmc","address":"Кронверкская ул., д. 15","activities":["Добровольчество","Психологический клуб","Волонтёры Победы"]},
-  {"type":"Молодёжное пространство","name":"Общественные мастерские","organization":"pmc","address":"Большая Монетная ул., д. 24А","activities":["Керамика","Столярная мастерская","Швейная мастерская","Профориентация","Коворкинг"]},
-  {"type":"Молодёжный клуб","name":"Вега","organization":"pmc","address":"ул. Воскова, д. 7/18","activities":["Патриотический проект"]},
-  {"type":"Молодёжный клуб","name":"Ю-Питер","organization":"pmc","address":"ул. Блохина, д. 25","activities":["КВН"]},
-  {"type":"Молодёжный клуб","name":"Эра","organization":"pmc","address":"ул. Гатчинская, д. 1/56","activities":["Танцы"]},
-  {"type":"Молодёжный клуб","name":"Чайка","organization":"pmc","address":"Газовая ул., д. 7","activities":["Валяние","Бисероплетение","Вокал","Проектная деятельность"]},
-  {"type":"Молодёжное пространство","name":"Дом Юнармии","organization":"pmc","address":"ул. Полозова, д. 3, пом. 2-Н","activities":["Патриотические проекты","Вокал"]}
+  {
+    "type": "Молодёжный клуб",
+    "name": "Алмаз",
+    "organization": "pmc",
+    "address": "ул. Воскова, д. 16",
+    "activities": [
+      "Атлетическая гимнастика"
+    ],
+    "vkUrl": "https://vk.ru/almaz_gym",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/192665547791-molodezhnii-klub-almaz",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/192665547791-molodezhnii-klub-almaz",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Атлетическая гимнастика",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Алмаз",
+            "index": 0,
+            "activity": "Секция «Атлетическая гимнастика» (подготовленный уровень)",
+            "period": null
+          },
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Алмаз",
+            "index": 1,
+            "activity": "Секция «Атлетическая гимнастика»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "суббота",
+            "time": "11:00-13:00",
+            "group": "Секция «Атлетическая гимнастика» (подготовленный уровень) · подготовленный уровень"
+          },
+          {
+            "day": "суббота",
+            "time": "13:00-17:00",
+            "group": "Секция «Атлетическая гимнастика»"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Атлетическая гимнастика",
+        "title": "Секция «Атлетическая гимнастика» (подготовленный уровень)",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/192665547791-molodezhnii-klub-almaz",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Атлетическая гимнастика",
+        "title": "Секция «Атлетическая гимнастика»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/192665547791-molodezhnii-klub-almaz",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Атлетическая гимнастика",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжный клуб",
+    "name": "Альфа",
+    "organization": "pmc",
+    "address": "ул. Воскова, д. 8/5",
+    "activities": [
+      "Диджеинг",
+      "Виджеинг",
+      "Киберспорт"
+    ],
+    "vkUrl": "https://vk.ru/digitalalpha",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/108422318831-molodezhnii-klub-alfa",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/108422318831-molodezhnii-klub-alfa",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Киберспорт",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Альфа",
+            "index": 0,
+            "activity": "Студия Киберспорта",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Киберспорт",
+        "title": "Студия Киберспорта",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/108422318831-molodezhnii-klub-alfa",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Киберспорт",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжный клуб",
+    "name": "Антей",
+    "organization": "pmc",
+    "address": "ул. Ленина, д. 10",
+    "activities": [
+      "Мини-футбол"
+    ],
+    "vkUrl": "https://vk.ru/molodezhfootball",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/514964482201-molodezhnii-klub-antei",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/514964482201-molodezhnii-klub-antei",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Мини-футбол",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Антей",
+            "index": 0,
+            "activity": "МалоПушкарская подростковая лига",
+            "period": null
+          },
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Антей",
+            "index": 1,
+            "activity": "МалоПушкарская юношеская лига",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "17:00-19:00",
+            "group": "МалоПушкарская подростковая лига"
+          },
+          {
+            "day": "среда",
+            "time": "17:50-21:50",
+            "group": "МалоПушкарская юношеская лига"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Мини-футбол",
+        "title": "МалоПушкарская подростковая лига",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/514964482201-molodezhnii-klub-antei",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Мини-футбол",
+        "title": "МалоПушкарская юношеская лига",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/514964482201-molodezhnii-klub-antei",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Мини-футбол",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжный клуб",
+    "name": "Северное сияние",
+    "organization": "pmc",
+    "address": "ул. Полозова, д. 3",
+    "activities": [
+      "Рисование",
+      "Графика",
+      "Живопись"
+    ],
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/755004631191-molodezhnii-klub-severnoe-siyanie",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/755004631191-molodezhnii-klub-severnoe-siyanie",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Графика",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Северное сияние",
+            "index": 0,
+            "activity": "Студия «Графика»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "суббота",
+            "time": "14:00-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Рисование",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Северное сияние",
+            "index": 1,
+            "activity": "Студия изобразительного искусства",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "суббота",
+            "time": "18:30-21:30"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Графика",
+        "title": "Студия «Графика»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/755004631191-molodezhnii-klub-severnoe-siyanie",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Рисование",
+        "title": "Студия изобразительного искусства",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/755004631191-molodezhnii-klub-severnoe-siyanie",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Графика",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Рисование",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжный клуб",
+    "name": "Старт",
+    "organization": "pmc",
+    "address": "ул. Подковырова, д. 20",
+    "activities": [
+      "Йога",
+      "Растяжка",
+      "Ушу"
+    ],
+    "vkUrl": "https://vk.ru/mklubstart",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/547532947331-molodezhnii-klub-start",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/547532947331-molodezhnii-klub-start",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Йога",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Старт",
+            "index": 0,
+            "activity": "Студия йоги и растяжки",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Йога",
+        "title": "Студия йоги и растяжки",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/547532947331-molodezhnii-klub-start",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Йога",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжное пространство",
+    "name": "Среда",
+    "organization": "pmc",
+    "address": "Большая Пушкарская ул., д. 32А",
+    "activities": [
+      "Рисование",
+      "Творческие студии",
+      "Медиашкола",
+      "Вокал",
+      "Инклюзивный клуб"
+    ],
+    "vkUrl": "https://vk.ru/centersreda",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/391550452451-molodezhnoe-prostranstvo-sreda",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/391550452451-molodezhnoe-prostranstvo-sreda",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Рисование",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Среда",
+            "index": 0,
+            "activity": "Студия дизайна и скетчинга «СкетчДиз»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Вокал",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Среда",
+            "index": 1,
+            "activity": "Студия вокала «MeZZo»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "12:00-16:30"
+          },
+          {
+            "day": "понедельник",
+            "time": "17:30-21:30"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Рисование",
+        "title": "Студия дизайна и скетчинга «СкетчДиз»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/391550452451-molodezhnoe-prostranstvo-sreda",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Вокал",
+        "title": "Студия вокала «MeZZo»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/391550452451-molodezhnoe-prostranstvo-sreda",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Рисование",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Вокал",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжное пространство",
+    "name": "Палата ремёсел",
+    "organization": "pmc",
+    "address": "Каменноостровский пр., д. 64",
+    "activities": [
+      "Керамика",
+      "Фольклор",
+      "Народные ремёсла",
+      "Клуб молодой семьи",
+      "Проектная деятельность",
+      "Гусли",
+      "Народные танцы"
+    ],
+    "vkUrl": "https://vk.ru/palataremeselmc",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/229612058721-molodezhnoe-prostranstvo-palata-remesel",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/229612058721-molodezhnoe-prostranstvo-palata-remesel",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Гусли",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Палата ремёсел",
+            "index": 0,
+            "activity": "Молодежный клуб гусляров",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:50-21:50"
+          }
+        ]
+      },
+      {
+        "activity": "Керамика",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Палата ремёсел",
+            "index": 1,
+            "activity": "Студия «Народная керамика»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "14:50-21:50"
+          }
+        ]
+      },
+      {
+        "activity": "Проектная деятельность",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Палата ремёсел",
+            "index": 2,
+            "activity": "Проект «Поддержка молодежных этнокультурных инициатив»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "14:30-17:30"
+          }
+        ]
+      },
+      {
+        "activity": "Народные танцы",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Палата ремёсел",
+            "index": 3,
+            "activity": "Основы традиционного танца",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "18:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Гусли",
+        "title": "Молодежный клуб гусляров",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/229612058721-molodezhnoe-prostranstvo-palata-remesel",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Керамика",
+        "title": "Студия «Народная керамика»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/229612058721-molodezhnoe-prostranstvo-palata-remesel",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Проектная деятельность",
+        "title": "Проект «Поддержка молодежных этнокультурных инициатив»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/229612058721-molodezhnoe-prostranstvo-palata-remesel",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Народные танцы",
+        "title": "Основы традиционного танца",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/229612058721-molodezhnoe-prostranstvo-palata-remesel",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Гусли",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Керамика",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Проектная деятельность",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Народные танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжный клуб",
+    "name": "ФанДом",
+    "organization": "pmc",
+    "address": "ул. Гатчинская, д. 25/25",
+    "activities": [
+      "Творческая студия",
+      "Разговорный китайский"
+    ],
+    "vkUrl": "https://vk.ru/fandom_mol",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/714653539311-molodezhnii-klub-fandom",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/714653539311-molodezhnii-klub-fandom",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Творческая студия",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "ФанДом",
+            "index": 0,
+            "activity": "Студия «ФанАрт»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:50-21:50"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Творческая студия",
+        "title": "Студия «ФанАрт»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/714653539311-molodezhnii-klub-fandom",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Творческая студия",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжный клуб",
+    "name": "Эстетика",
+    "organization": "pmc",
+    "address": "Кронверкская ул., д. 15",
+    "activities": [
+      "Фитнес",
+      "Оздоровительная гимнастика",
+      "Атлетическая гимнастика"
+    ],
+    "vkUrl": "https://vk.ru/estetikaklub",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/133649965181-molodezhnii-klub-estetika",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/133649965181-molodezhnii-klub-estetika",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Атлетическая гимнастика",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Эстетика",
+            "index": 0,
+            "activity": "Секция «Атлетическая гимнастика» (1 группа)",
+            "period": null
+          },
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Эстетика",
+            "index": 1,
+            "activity": "Секция «Атлетическая гимнастика» (2 группа)",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "09:00-14:00",
+            "group": "Секция «Атлетическая гимнастика» (1 группа) · 1 группа"
+          },
+          {
+            "day": "понедельник",
+            "time": "14:30-18:30",
+            "group": "Секция «Атлетическая гимнастика» (2 группа) · 2 группа"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-21:00",
+            "group": "Секция «Атлетическая гимнастика» (2 группа) · 2 группа"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Атлетическая гимнастика",
+        "title": "Секция «Атлетическая гимнастика» (1 группа)",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/133649965181-molodezhnii-klub-estetika",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Атлетическая гимнастика",
+        "title": "Секция «Атлетическая гимнастика» (2 группа)",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/133649965181-molodezhnii-klub-estetika",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Атлетическая гимнастика",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжное пространство",
+    "name": "Дом",
+    "organization": "pmc",
+    "address": "ул. Мончегорская, д. 10Б",
+    "activities": [
+      "Театр",
+      "Профориентация",
+      "Проектная деятельность",
+      "Коворкинг"
+    ],
+    "vkUrl": "https://vk.ru/dobroemesto_dom",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/195557326321-molodezhnoe-prostranstvo-tsentr-dobrosos",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/195557326321-molodezhnoe-prostranstvo-tsentr-dobrosos",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Театр",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Дом",
+            "index": 0,
+            "activity": "Театральная студия «Дом»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:50-21:50"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Театр",
+        "title": "Театральная студия «Дом»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/195557326321-molodezhnoe-prostranstvo-tsentr-dobrosos",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Театр",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжный клуб",
+    "name": "Планета-АРТ",
+    "organization": "pmc",
+    "address": "ул. Съезжинская, д. 34",
+    "activities": [
+      "Современные танцы",
+      "Уличные танцы",
+      "Студия звукозаписи"
+    ],
+    "vkUrl": "https://vk.ru/planetartist",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/127859602511-molodezhnoe-prostranstvo-planeta-art",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/127859602511-molodezhnoe-prostranstvo-planeta-art",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Современные танцы",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Планета-АРТ",
+            "index": 0,
+            "activity": "Студия танца Светланы Молл (начальный уровень)",
+            "period": null
+          },
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Планета-АРТ",
+            "index": 1,
+            "activity": "Студия танца Светланы Молл (продолжающий уровень)",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "четверг",
+            "time": "16:20-18:50",
+            "group": "Студия танца Светланы Молл (начальный уровень) · начальный уровень"
+          },
+          {
+            "day": "четверг",
+            "time": "19:20-21:50",
+            "group": "Студия танца Светланы Молл (продолжающий уровень) · продолжающий уровень"
+          }
+        ]
+      },
+      {
+        "activity": "Студия звукозаписи",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Планета-АРТ",
+            "index": 2,
+            "activity": "Студия звукозаписи",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "четверг",
+            "time": "18:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Современные танцы",
+        "title": "Студия танца Светланы Молл (начальный уровень)",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/127859602511-molodezhnoe-prostranstvo-planeta-art",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Современные танцы",
+        "title": "Студия танца Светланы Молл (продолжающий уровень)",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/127859602511-molodezhnoe-prostranstvo-planeta-art",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Студия звукозаписи",
+        "title": "Студия звукозаписи",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/127859602511-molodezhnoe-prostranstvo-planeta-art",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Современные танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Студия звукозаписи",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжный клуб",
+    "name": "Мир",
+    "organization": "pmc",
+    "address": "ул. Мира, д. 7",
+    "activities": [
+      "Лазертаг",
+      "Начальная военная подготовка"
+    ],
+    "vkUrl": "https://vk.ru/molodezh_mir",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/198053863141-molodezhnii-klub-mir",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/198053863141-molodezhnii-klub-mir",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Лазертаг",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Мир",
+            "index": 0,
+            "activity": "Секция «Лазерный бой (лазертаг)»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "воскресенье",
+            "time": "15:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Лазертаг",
+        "title": "Секция «Лазерный бой (лазертаг)»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/198053863141-molodezhnii-klub-mir",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Лазертаг",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжное пространство",
+    "name": "Зеркало",
+    "organization": "pmc",
+    "address": "ул. Введенская, д. 7",
+    "activities": [
+      "Киностудия",
+      "Настольный теннис",
+      "Настольные игры",
+      "Профориентация",
+      "Студия развития дарований «Душа»",
+      "Городские проекты",
+      "Фотография"
+    ],
+    "vkUrl": "https://vk.ru/pmpzerkalo",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/166552089961-molodezhnoe-prostranstvo-zerkalo",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/166552089961-molodezhnoe-prostranstvo-zerkalo",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Студия развития дарований «Душа»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Зеркало",
+            "index": 0,
+            "activity": "Студия развития юных дарований «Душа»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "16:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Городские проекты",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Зеркало",
+            "index": 1,
+            "activity": "Проект «Я люблю Питер»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "17:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Фотография",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Зеркало",
+            "index": 2,
+            "activity": "Творческий фотоклуб «Я так вижу»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "18:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Студия развития дарований «Душа»",
+        "title": "Студия развития юных дарований «Душа»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/166552089961-molodezhnoe-prostranstvo-zerkalo",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Городские проекты",
+        "title": "Проект «Я люблю Питер»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/166552089961-molodezhnoe-prostranstvo-zerkalo",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Фотография",
+        "title": "Творческий фотоклуб «Я так вижу»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/166552089961-molodezhnoe-prostranstvo-zerkalo",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Студия развития дарований «Душа»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Городские проекты",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Фотография",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Добро.Центр",
+    "name": "Добро.Центр",
+    "organization": "pmc",
+    "address": "Кронверкская ул., д. 15",
+    "activities": [
+      "Добровольчество",
+      "Психологический клуб",
+      "Волонтёры Победы"
+    ],
+    "vkUrl": "https://vk.ru/petrvolunteer",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/681882087821-dobrotsentr-petrogradskogo-raiona",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/681882087821-dobrotsentr-petrogradskogo-raiona",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Добровольчество",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Добро.Центр",
+            "index": 0,
+            "activity": "Клуб волонтерского актива",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "17:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Добровольчество",
+        "title": "Клуб волонтерского актива",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/681882087821-dobrotsentr-petrogradskogo-raiona",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Добровольчество",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжное пространство",
+    "name": "Общественные мастерские",
+    "organization": "pmc",
+    "address": "Большая Монетная ул., д. 24А",
+    "activities": [
+      "Керамика",
+      "Столярная мастерская",
+      "Швейная мастерская",
+      "Профориентация",
+      "Коворкинг",
+      "Клуб молодой семьи"
+    ],
+    "vkUrl": "https://vk.ru/mc_masterskie",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/313526366941-molodezhnoe-prostranstvo-obschestvennie",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/313526366941-molodezhnoe-prostranstvo-obschestvennie",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Клуб молодой семьи",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Общественные мастерские",
+            "index": 0,
+            "activity": "Студия «Клуб молодой семьи»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "10:00-14:00"
+          }
+        ]
+      },
+      {
+        "activity": "Керамика",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Общественные мастерские",
+            "index": 1,
+            "activity": "Студия «Керамическое искусство»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "12:00-21:45"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Клуб молодой семьи",
+        "title": "Студия «Клуб молодой семьи»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/313526366941-molodezhnoe-prostranstvo-obschestvennie",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      },
+      {
+        "catalogActivity": "Керамика",
+        "title": "Студия «Керамическое искусство»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/313526366941-molodezhnoe-prostranstvo-obschestvennie",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Клуб молодой семьи",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      },
+      {
+        "activity": "Керамика",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжный клуб",
+    "name": "Вега",
+    "organization": "pmc",
+    "address": "ул. Воскова, д. 7/18",
+    "activities": [
+      "Патриотический проект",
+      "Проект «Лента»"
+    ],
+    "activitySchedule": [
+      {
+        "activity": "Проект «Лента»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Вега",
+            "index": 0,
+            "activity": "Проект «Лента»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Проект «Лента»",
+        "title": "Проект «Лента»",
+        "officialUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Проект «Лента»",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжный клуб",
+    "name": "Ю-Питер",
+    "organization": "pmc",
+    "address": "ул. Блохина, д. 25",
+    "activities": [
+      "КВН"
+    ],
+    "activitySchedule": [
+      {
+        "activity": "КВН",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Ю-Питер",
+            "index": 0,
+            "activity": "Школа КВН Петроградского района «КВН - импровизация»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "11:30-15:30"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "КВН",
+        "title": "Школа КВН Петроградского района «КВН - импровизация»",
+        "officialUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "КВН",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжный клуб",
+    "name": "Эра",
+    "organization": "pmc",
+    "address": "ул. Гатчинская, д. 1/56",
+    "activities": [
+      "Танцы"
+    ],
+    "vkUrl": "https://vk.ru/eradans",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/959215727961-molodezhnii-klub-era",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/959215727961-molodezhnii-klub-era",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Танцы",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Эра",
+            "index": 0,
+            "activity": "K-Pop студия «GENESIS»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "пятница",
+            "time": "16:50-21:50"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Танцы",
+        "title": "K-Pop студия «GENESIS»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/959215727961-molodezhnii-klub-era",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Танцы",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжный клуб",
+    "name": "Чайка",
+    "organization": "pmc",
+    "address": "Газовая ул., д. 7",
+    "activities": [
+      "Валяние",
+      "Бисероплетение",
+      "Вокал",
+      "Проектная деятельность",
+      "Творческая мастерская"
+    ],
+    "vkUrl": "https://vk.ru/club_chaika_spb",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/452883067771-molodezhnii-klub-chaika",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/452883067771-molodezhnii-klub-chaika",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Творческая мастерская",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Чайка",
+            "index": 0,
+            "activity": "Творческая мастерская «Лакомник»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "14:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Творческая мастерская",
+        "title": "Творческая мастерская «Лакомник»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/452883067771-molodezhnii-klub-chaika",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Творческая мастерская",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  },
+  {
+    "type": "Молодёжное пространство",
+    "name": "Дом Юнармии",
+    "organization": "pmc",
+    "address": "ул. Полозова, д. 3, пом. 2-Н",
+    "activities": [
+      "Патриотические проекты",
+      "Вокал"
+    ],
+    "vkUrl": "https://vk.ru/yunarmia_petrograd",
+    "vkUrlSource": "user_supplied_vk_copy",
+    "vkUrlSourceCheckedAt": "2026-10-28",
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/576957554301-dom-yunarmii",
+    "contactSource": {
+      "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/576957554301-dom-yunarmii",
+      "officialCheckedAt": "2026-10-26",
+      "importTask": "S-82"
+    },
+    "activitySchedule": [
+      {
+        "activity": "Вокал",
+        "sourceType": "official_web",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-26",
+        "sourcePeriod": "Период действия не указан",
+        "sourceNote": "Показана часть расписания из сохранённого фрагмента официальной страницы. Остальные дни и период действия уточни у клуба. Известные дни и время сохранены без дополнений.",
+        "partial": true,
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://pmc-petrogradsky.ru/",
+          "statement": "Бесплатные (14-35)",
+          "age": "14–35",
+          "sourcePeriod": "не указан",
+          "scope": "Бесплатное предложение 14-35 на официальной главной странице; известный фрагмент разрешён пользователем 28.10.2026."
+        },
+        "importTask": "S-84",
+        "sourceRecords": [
+          {
+            "package": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+            "club": "Дом Юнармии",
+            "index": 0,
+            "activity": "Ансамбль «Курсанты»",
+            "period": null
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "15:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "catalogActivity": "Вокал",
+        "title": "Ансамбль «Курсанты»",
+        "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/576957554301-dom-yunarmii",
+        "sourceCheckedAt": "2026-10-26",
+        "importTask": "S-84"
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Вокал",
+        "sourceType": "official_free_offer",
+        "sourceUrl": "https://pmc-petrogradsky.ru/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
+        "importTask": "S-84"
+      }
+    ]
+  }
 ]

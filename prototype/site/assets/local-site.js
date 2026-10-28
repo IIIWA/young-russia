@@ -53,7 +53,7 @@ if (clubsMap) {
           }
           const placemarks = [...grouped.values()].map(group => {
             const provisional = group.some(club => club.provisional);
-            const body = group.map(club => `<div><a href="${escapeHtml(club.url)}">${escapeHtml(club.name)}</a><br>${escapeHtml(club.address)}${club.provisional ? '<br><small>Точка предварительная</small>' : ''}</div>`).join('<hr>');
+            const body = group.map(club => `<div><a class="map-balloon-link" style="color:#1d4ed8;text-decoration:underline" href="${escapeHtml(club.url)}">${escapeHtml(club.name)}</a><br>${escapeHtml(club.address)}${club.provisional ? '<br><small>Точка предварительная</small>' : ''}</div>`).join('<hr>');
             return new window.ymaps.Placemark(group[0].coordinates, {
               balloonContentHeader: group.length === 1 ? escapeHtml(group[0].name) : `${group.length} клуба по&nbsp;одному адресу`,
               balloonContentBody: body,
@@ -270,7 +270,7 @@ if (directionResults) {
         const link = element.querySelector('h3 a');
         const activity = element.querySelector('[data-matched-activity]').textContent;
         const address = element.querySelector('.direction-club-address').textContent;
-        return `<div><a href="${escapeMapHtml(link.getAttribute('href'))}">${escapeMapHtml(link.textContent)}</a><br>${escapeMapHtml(activity)}<br>${escapeMapHtml(address)}${element.dataset.mapProvisional === 'true' ? '<br><small>Точка предварительная</small>' : ''}</div>`;
+        return `<div><a class="map-balloon-link" style="color:#1d4ed8;text-decoration:underline" href="${escapeMapHtml(link.getAttribute('href'))}">${escapeMapHtml(link.textContent)}</a><br>${escapeMapHtml(activity)}<br>${escapeMapHtml(address)}${element.dataset.mapProvisional === 'true' ? '<br><small>Точка предварительная</small>' : ''}</div>`;
       }).join('<hr>');
       return new window.ymaps.Placemark([Number(group[0].dataset.mapLat),Number(group[0].dataset.mapLon)], {
         balloonContentHeader: group.length === 1 ? escapeMapHtml(group[0].querySelector('h3 a').textContent) : `${group.length} клуба по&nbsp;одному адресу`,

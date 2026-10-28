@@ -7,27 +7,260 @@
     "address": "Псковская ул., д. 14",
     "phone": "495-08-92",
     "vkUrl": "https://vk.com/morskoy_club",
-    "activities": ["Судовождение", "Морская пехота", "Лазертаг", "Комбинированный туризм", "Общая физическая подготовка", "Тайский бокс", "Бокс", "ЮНАРМИЯ", "Настольный теннис"],
+    "activities": [
+      "Морская пехота",
+      "Тайский бокс",
+      "Бокс",
+      "Настольный теннис",
+      "Тренажёрный зал"
+    ],
     "activityPages": [
-      {"id":"admiralteets-thai-boxing","title":"Секция тайского бокса","vkUrl":"https://vk.ru/club230671761","catalogActivity":"Тайский бокс","specialist":"Корбат Евгений Евгениевич","specialistConfirmedAt":"2026-10-18","providedAt":"2026-10-18","source":"сообщение пользователя 18.10.2026","mapping":"связь секции и сообщества предоставлена пользователем"},
-      {"id":"admiralteets-boxing","title":"Секция бокса","vkUrl":"https://vk.ru/club227328252","catalogActivity":"Бокс","specialist":"Гасанов М. Р.","specialistConfirmedAt":"2026-10-18","communityContacts":[{"displayName":"Mike Leon","profileUrl":"https://vk.ru/id432011892","role":"руководитель направления","confirmedAt":"2026-10-18","roleConfirmedAt":"2026-10-19","roleSource":"сообщение пользователя 19.10.2026"}],"providedAt":"2026-10-18","source":"сообщение пользователя 18.10.2026","mapping":"связь секции и сообщества предоставлена пользователем"}
+      {
+        "id": "admiralteets-thai-boxing",
+        "title": "Секция тайского бокса",
+        "vkUrl": "https://vk.ru/club230671761",
+        "catalogActivity": "Тайский бокс",
+        "specialist": "Корбат Евгений Евгениевич",
+        "specialistConfirmedAt": "2026-10-18",
+        "providedAt": "2026-10-18",
+        "source": "сообщение пользователя 18.10.2026",
+        "mapping": "связь секции и сообщества предоставлена пользователем"
+      },
+      {
+        "id": "admiralteets-boxing",
+        "title": "Секция бокса",
+        "vkUrl": "https://vk.ru/club227328252",
+        "catalogActivity": "Бокс",
+        "specialist": "Гасанов М. Р.",
+        "specialistConfirmedAt": "2026-10-18",
+        "communityContacts": [
+          {
+            "displayName": "Mike Leon",
+            "profileUrl": "https://vk.ru/id432011892",
+            "role": "руководитель направления",
+            "confirmedAt": "2026-10-18",
+            "roleConfirmedAt": "2026-10-19",
+            "roleSource": "сообщение пользователя 19.10.2026"
+          }
+        ],
+        "providedAt": "2026-10-18",
+        "source": "сообщение пользователя 18.10.2026",
+        "mapping": "связь секции и сообщества предоставлена пользователем"
+      }
     ],
     "activitySchedule": [
-      {"activity":"Бокс","schedule":[
-        {"group":"Дневные тренировки","day":"понедельник","time":"17:00"},
-        {"group":"Дневные тренировки","day":"вторник","time":"17:00"},
-        {"group":"Дневные тренировки","day":"среда","time":"17:00"},
-        {"group":"Дневные тренировки","day":"четверг","time":"17:00"},
-        {"group":"Дневные тренировки","day":"пятница","time":"17:00"},
-        {"group":"Дневные тренировки","day":"суббота","time":"16:00"},
-        {"group":"Вечерние тренировки","day":"понедельник","time":"18:15"},
-        {"group":"Вечерние тренировки","day":"вторник","time":"18:15"},
-        {"group":"Вечерние тренировки","day":"среда","time":"18:15"},
-        {"group":"Вечерние тренировки","day":"четверг","time":"18:15"},
-        {"group":"Вечерние тренировки","day":"пятница","time":"18:15"}
-      ],"source":"сообщение пользователя 19.10.2026","confirmedAt":"2026-10-19","timeMeaning":"время начала; окончание не указано"}
+      {
+        "activity": "Бокс",
+        "schedule": [
+          {
+            "group": "Дневные тренировки",
+            "day": "понедельник",
+            "time": "17:00"
+          },
+          {
+            "group": "Дневные тренировки",
+            "day": "вторник",
+            "time": "17:00"
+          },
+          {
+            "group": "Дневные тренировки",
+            "day": "среда",
+            "time": "17:00"
+          },
+          {
+            "group": "Дневные тренировки",
+            "day": "четверг",
+            "time": "17:00"
+          },
+          {
+            "group": "Дневные тренировки",
+            "day": "пятница",
+            "time": "17:00"
+          },
+          {
+            "group": "Дневные тренировки",
+            "day": "суббота",
+            "time": "16:00"
+          },
+          {
+            "group": "Вечерние тренировки",
+            "day": "понедельник",
+            "time": "18:15"
+          },
+          {
+            "group": "Вечерние тренировки",
+            "day": "вторник",
+            "time": "18:15"
+          },
+          {
+            "group": "Вечерние тренировки",
+            "day": "среда",
+            "time": "18:15"
+          },
+          {
+            "group": "Вечерние тренировки",
+            "day": "четверг",
+            "time": "18:15"
+          },
+          {
+            "group": "Вечерние тренировки",
+            "day": "пятница",
+            "time": "18:15"
+          }
+        ],
+        "source": "сообщение пользователя 19.10.2026",
+        "confirmedAt": "2026-10-19",
+        "timeMeaning": "время начала; окончание не указано"
+      },
+      {
+        "activity": "Морская пехота",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-21:00",
+            "group": "Морская пехота"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-21:00",
+            "group": "Морская пехота"
+          },
+          {
+            "day": "среда",
+            "time": "15:00-21:00",
+            "group": "Морская пехота"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-21:00",
+            "group": "Морская пехота"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-21:00",
+            "group": "Морская пехота"
+          }
+        ],
+        "sourceType": "user_confirmed",
+        "source": "сообщение пользователя 24.10.2026",
+        "sourceFile": "data/research/admiralteets-user-update-2026-10-24.json",
+        "confirmedAt": "2026-10-24",
+        "sourceNote": "Время подтверждено пользователем 24.10.2026. Распределение по группам и помещениям не указано.",
+        "timeMeaning": "интервалы занятий, сообщённые пользователем"
+      },
+      {
+        "activity": "Настольный теннис",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-21:00",
+            "group": "Настольный теннис"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-21:00",
+            "group": "Настольный теннис"
+          },
+          {
+            "day": "среда",
+            "time": "15:00-21:00",
+            "group": "Настольный теннис"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-21:00",
+            "group": "Настольный теннис"
+          }
+        ],
+        "sourceType": "user_confirmed",
+        "source": "сообщение пользователя 24.10.2026",
+        "sourceFile": "data/research/admiralteets-user-update-2026-10-24.json",
+        "confirmedAt": "2026-10-24",
+        "sourceNote": "Время подтверждено пользователем 24.10.2026. Распределение по группам и помещениям не указано.",
+        "timeMeaning": "интервалы занятий, сообщённые пользователем"
+      },
+      {
+        "activity": "Тренажёрный зал",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-20:30",
+            "group": "Тренажёрный зал"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-20:30",
+            "group": "Тренажёрный зал"
+          },
+          {
+            "day": "среда",
+            "time": "15:00-20:30",
+            "group": "Тренажёрный зал"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-20:30",
+            "group": "Тренажёрный зал"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-20:30",
+            "group": "Тренажёрный зал"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-20:30",
+            "group": "Тренажёрный зал"
+          }
+        ],
+        "sourceType": "user_confirmed",
+        "source": "сообщение пользователя 24.10.2026",
+        "sourceFile": "data/research/admiralteets-user-update-2026-10-24.json",
+        "confirmedAt": "2026-10-24",
+        "sourceNote": "Время подтверждено пользователем 24.10.2026. Распределение по группам и помещениям не указано.",
+        "timeMeaning": "интервалы занятий, сообщённые пользователем"
+      }
     ],
-    "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
+    "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/",
+    "archivedActivities": [
+      {
+        "activity": "Судовождение",
+        "reason": "Направление закрыто по уточнению пользователя",
+        "confirmedAt": "2026-10-24",
+        "source": "сообщение пользователя 24.10.2026",
+        "sourceFile": "data/research/admiralteets-user-update-2026-10-24.json"
+      },
+      {
+        "activity": "Лазертаг",
+        "reason": "Направление закрыто по уточнению пользователя",
+        "confirmedAt": "2026-10-24",
+        "source": "сообщение пользователя 24.10.2026",
+        "sourceFile": "data/research/admiralteets-user-update-2026-10-24.json"
+      },
+      {
+        "activity": "Комбинированный туризм",
+        "reason": "Направление закрыто по уточнению пользователя",
+        "confirmedAt": "2026-10-24",
+        "source": "сообщение пользователя 24.10.2026",
+        "sourceFile": "data/research/admiralteets-user-update-2026-10-24.json"
+      },
+      {
+        "activity": "Общая физическая подготовка",
+        "reason": "Направление закрыто по уточнению пользователя",
+        "confirmedAt": "2026-10-24",
+        "source": "сообщение пользователя 24.10.2026",
+        "sourceFile": "data/research/admiralteets-user-update-2026-10-24.json"
+      },
+      {
+        "activity": "ЮНАРМИЯ",
+        "reason": "Направление закрыто по уточнению пользователя",
+        "confirmedAt": "2026-10-24",
+        "source": "сообщение пользователя 24.10.2026",
+        "sourceFile": "data/research/admiralteets-user-update-2026-10-24.json"
+      }
+    ],
+    "activityCatalogConfirmedAt": "2026-10-24",
+    "activityCatalogSource": "data/research/admiralteets-user-update-2026-10-24.json"
   },
   {
     "type": "ПМК",
@@ -37,7 +270,11 @@
     "address": "Наб. реки Мойки, д. 112",
     "phone": "495-30-86",
     "vkUrl": "https://vk.com/pmkvdohnovenie",
-    "activities": ["Комбинированный туризм", "Морской десант", "Школа выживания"],
+    "activities": [
+      "Комбинированный туризм",
+      "Морской десант",
+      "Школа выживания"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -48,7 +285,13 @@
     "address": "Пер. Макаренко, д. 9",
     "phone": "714-57-90; +7 (921) 912-78-83",
     "vkUrl": "https://vk.com/pmkglobus",
-    "activities": ["Йога", "Растяжка", "Студия креативных идей «Искусство»", "Театральная студия «ЛадифянСтудия»", "Студия «Стиль»"],
+    "activities": [
+      "Йога",
+      "Растяжка",
+      "Студия креативных идей «Искусство»",
+      "Театральная студия «ЛадифянСтудия»",
+      "Студия «Стиль»"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -59,7 +302,9 @@
     "address": "Наб. канала Грибоедова, д. 106",
     "phone": "+7 (812) 315-65-18",
     "vkUrl": "https://vk.com/pmk_gorod",
-    "activities": ["Студия эстрадного вокала «Муза»"],
+    "activities": [
+      "Студия эстрадного вокала «Муза»"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -70,7 +315,11 @@
     "address": "3-я Красноармейская ул., д. 14, лит. А",
     "phone": "490-24-70",
     "vkUrl": "https://vk.com/pmk_domostroi",
-    "activities": ["Игра на гитаре", "Студия вокала «Sole»", "Студия вокала «Мажор»"],
+    "activities": [
+      "Игра на гитаре",
+      "Студия вокала «Sole»",
+      "Студия вокала «Мажор»"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -81,7 +330,15 @@
     "address": "Пер. Макаренко, д. 9",
     "phone": "714-57-45",
     "vkUrl": "https://vk.com/klub_ideal",
-    "activities": ["Студия народной песни «Лада»", "Творческая мастерская «Авторская кукла»", "Студия танца «Impulse»", "Эстрадный вокал «Star Voice»", "Музыкальная группа «Zvu Team»", "Студия гитары «Аккорд»", "Вокальная студия «Овации»"],
+    "activities": [
+      "Студия народной песни «Лада»",
+      "Творческая мастерская «Авторская кукла»",
+      "Студия танца «Impulse»",
+      "Эстрадный вокал «Star Voice»",
+      "Музыкальная группа «Zvu Team»",
+      "Студия гитары «Аккорд»",
+      "Вокальная студия «Овации»"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -92,7 +349,13 @@
     "address": "Измайловский пр., д. 18, лит. Б",
     "phone": "",
     "vkUrl": "https://vk.com/nashemesto_centre",
-    "activities": ["Игровой клуб", "Мастер-классы", "Творческие встречи", "Выставки", "Курс по книжной иллюстрации"],
+    "activities": [
+      "Игровой клуб",
+      "Мастер-классы",
+      "Творческие встречи",
+      "Выставки",
+      "Курс по книжной иллюстрации"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -103,7 +366,12 @@
     "address": "Наб. реки Мойки, д. 110, лит. А",
     "phone": "495-06-60",
     "vkUrl": "https://vk.com/pmkmeridian",
-    "activities": ["Эстрадно-джазовый вокал", "Бокс", "Вокальный ансамбль", "Фитнес и ОФП"],
+    "activities": [
+      "Эстрадно-джазовый вокал",
+      "Бокс",
+      "Вокальный ансамбль",
+      "Фитнес и ОФП"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -114,7 +382,12 @@
     "address": "3-я Красноармейская ул., д. 14",
     "phone": "746-85-17; +7 (921) 743-23-16",
     "vkUrl": "https://vk.com/pmk_mozaika",
-    "activities": ["Групповые психологические занятия", "Тренинги", "Индивидуальные консультации", "Психологические настольные игры"],
+    "activities": [
+      "Групповые психологические занятия",
+      "Тренинги",
+      "Индивидуальные консультации",
+      "Психологические настольные игры"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -125,7 +398,13 @@
     "address": "Гороховая ул., д. 57, лит. А",
     "phone": "",
     "vkUrl": "https://vk.com/club1883797",
-    "activities": ["Современный танец «Force»", "Зумба", "Растяжка", "Табата", "Эстрадно-джазовый вокал"],
+    "activities": [
+      "Современный танец «Force»",
+      "Зумба",
+      "Растяжка",
+      "Табата",
+      "Эстрадно-джазовый вокал"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -136,7 +415,12 @@
     "address": "12-я Красноармейская ул., д. 14-16, лит. А",
     "phone": "575-13-89",
     "vkUrl": "https://vk.com/pmk_orfey_zabava",
-    "activities": ["K-pop танец", "Силовой фитнес", "Растяжка", "Суставная гимнастика"],
+    "activities": [
+      "K-pop танец",
+      "Силовой фитнес",
+      "Растяжка",
+      "Суставная гимнастика"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -147,7 +431,12 @@
     "address": "Пер. Бойцова, д. 8",
     "phone": "570-43-91",
     "vkUrl": "https://vk.com/pmk_palestra",
-    "activities": ["Каратэ-до", "Спортивное каратэ", "Каратэ WKF", "Основы спортивного каратэ"],
+    "activities": [
+      "Каратэ-до",
+      "Спортивное каратэ",
+      "Каратэ WKF",
+      "Основы спортивного каратэ"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -158,7 +447,14 @@
     "address": "Садовая ул., д. 125, лит. Б",
     "phone": "713-82-76",
     "vkUrl": "https://vk.com/pmk_perspectiva",
-    "activities": ["Рукоделие", "Вокальная студия", "Гитара, укулеле и барабаны", "Хоровая студия", "Языковая студия", "Творческая студия «Клей, рисуй»"],
+    "activities": [
+      "Рукоделие",
+      "Вокальная студия",
+      "Гитара, укулеле и барабаны",
+      "Хоровая студия",
+      "Языковая студия",
+      "Творческая студия «Клей, рисуй»"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -169,7 +465,12 @@
     "address": "Наб. реки Фонтанки, д. 150, лит. А",
     "phone": "251-58-01",
     "vkUrl": "https://vk.com/pmk_peterburgskie_lvy",
-    "activities": ["Атлетизм", "Настольный теннис", "Общая физическая подготовка", "Фитнес"],
+    "activities": [
+      "Атлетизм",
+      "Настольный теннис",
+      "Общая физическая подготовка",
+      "Фитнес"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -183,7 +484,13 @@
     "addressConfirmedAt": "2026-10-18",
     "phone": "312-51-97",
     "vkUrl": "https://vk.com/csi_teatralka",
-    "activities": ["Актёрское мастерство", "Сценическая речь", "Открытые спектакли", "Мастер-классы", "Кинолектории и концерты"],
+    "activities": [
+      "Актёрское мастерство",
+      "Сценическая речь",
+      "Открытые спектакли",
+      "Мастер-классы",
+      "Кинолектории и концерты"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -199,7 +506,16 @@
     "phone": "+7 (812) 246-66-91",
     "email": "comein.studio@yandex.ru",
     "vkUrl": "https://vk.com/comein_studio",
-    "activities": ["Вышивка", "Вязание", "Переплётное дело", "Академический рисунок и живопись", "Скетчинг", "Создание сайтов на Tilda", "Фотография и ретушь в Photoshop", "Английский язык"],
+    "activities": [
+      "Вышивка",
+      "Вязание",
+      "Переплётное дело",
+      "Академический рисунок и живопись",
+      "Скетчинг",
+      "Создание сайтов на Tilda",
+      "Фотография и ретушь в Photoshop",
+      "Английский язык"
+    ],
     "scheduleUrl": "https://vk.ru/comein_studio?z=article_edit-30065169_231445",
     "noteConfirmedAt": "2026-10-18",
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
@@ -213,7 +529,9 @@
     "phone": "+7 (812) 246-66-84",
     "vkUrl": "https://vk.ru/mkselena",
     "contactConfirmedAt": "2026-10-18",
-    "activities": ["Хип-хоп студия «Noflex»"],
+    "activities": [
+      "Хип-хоп студия «Noflex»"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -231,7 +549,10 @@
     "openingHours": "Пн–пт 12:30–22:00; сб 11:30–22:00; вс выходной",
     "classSchedule": "Брейкинг: пн–сб 16:00–21:00",
     "noteConfirmedAt": "2026-10-18",
-    "activities": ["Брейкинг «Desperate Crew»", "Брейкинг «Step by step»"],
+    "activities": [
+      "Брейкинг «Desperate Crew»",
+      "Брейкинг «Step by step»"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -242,7 +563,12 @@
     "address": "12-я Красноармейская ул., д. 5",
     "phone": "251-12-44",
     "vkUrl": "https://vk.com/cozvychie",
-    "activities": ["Танец на каблуках", "Боди-балет", "Театральная студия «Ы»", "Живопись"],
+    "activities": [
+      "Танец на каблуках",
+      "Боди-балет",
+      "Театральная студия «Ы»",
+      "Живопись"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -253,7 +579,13 @@
     "address": "Большая Подьяческая ул., д. 13",
     "phone": "314-94-72",
     "vkUrl": "https://vk.com/pmk_forward",
-    "activities": ["Мини-футбол", "Футбол и кикер", "Общая физическая подготовка", "Нормативы ГТО", "Вратарская подготовка"],
+    "activities": [
+      "Мини-футбол",
+      "Футбол и кикер",
+      "Общая физическая подготовка",
+      "Нормативы ГТО",
+      "Вратарская подготовка"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -264,7 +596,11 @@
     "address": "Псковская ул., д. 14",
     "phone": "710-85-21",
     "vkUrl": "https://vk.com/strt_art_graffiti",
-    "activities": ["Граффити", "Современное искусство", "Студия-лекторий «PROКульт»"],
+    "activities": [
+      "Граффити",
+      "Современное искусство",
+      "Студия-лекторий «PROКульт»"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -277,7 +613,10 @@
     "addressConfirmedAt": "2026-10-18",
     "phone": "",
     "vkUrl": "https://vk.com/m_club_poisk",
-    "activities": ["Патриотические мероприятия", "Медиастудия «Визуал»"],
+    "activities": [
+      "Патриотические мероприятия",
+      "Медиастудия «Визуал»"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -287,7 +626,14 @@
     "address": "Серпуховская ул., д. 26-28",
     "phone": "316-69-74",
     "vkUrl": "https://vk.com/pmk_pro",
-    "activities": ["Танцевальный коллектив «ВИВА»", "Классический танец", "Студия ИЗО «Панорама»", "Вокальная студия «Новые голоса»", "Киношкола", "Театральная мастерская «АртисТЫ»"],
+    "activities": [
+      "Танцевальный коллектив «ВИВА»",
+      "Классический танец",
+      "Студия ИЗО «Панорама»",
+      "Вокальная студия «Новые голоса»",
+      "Киношкола",
+      "Театральная мастерская «АртисТЫ»"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -297,7 +643,14 @@
     "address": "Наб. реки Фонтанки, д. 92",
     "phone": "575-76-27",
     "vkUrl": "https://vk.com/pmk_r",
-    "activities": ["Корейский язык", "Японский язык", "Кунг-фу", "Айкидо", "Фитнес-йога", "K-pop кавер-дэнс"],
+    "activities": [
+      "Корейский язык",
+      "Японский язык",
+      "Кунг-фу",
+      "Айкидо",
+      "Фитнес-йога",
+      "K-pop кавер-дэнс"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -307,7 +660,23 @@
     "address": "Наб. реки Фонтанки, д. 133",
     "phone": "988-45-77",
     "vkUrl": "https://vk.com/vcentre_club",
-    "activities": ["Разговорный клуб английского языка", "Художественная студия «ОБРАЗ»", "Мастерская апсайклинга", "Игра на гитаре", "Студия фотографии", "Восточные и парные танцы", "Зумба", "Театр-студия «ФЛИГЕЛЬ»", "Швейная мастерская", "Волонтёрская группа", "Психологические консультации", "Студия звукозаписи F SOUND", "Клуб творческой молодёжи «ПОКОЛЕНИЕ Ф»", "Клуб пап «ПАП-ПАП»", "Семейный клуб"],
+    "activities": [
+      "Разговорный клуб английского языка",
+      "Художественная студия «ОБРАЗ»",
+      "Мастерская апсайклинга",
+      "Игра на гитаре",
+      "Студия фотографии",
+      "Восточные и парные танцы",
+      "Зумба",
+      "Театр-студия «ФЛИГЕЛЬ»",
+      "Швейная мастерская",
+      "Волонтёрская группа",
+      "Психологические консультации",
+      "Студия звукозаписи F SOUND",
+      "Клуб творческой молодёжи «ПОКОЛЕНИЕ Ф»",
+      "Клуб пап «ПАП-ПАП»",
+      "Семейный клуб"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   },
   {
@@ -317,7 +686,9 @@
     "address": "Садовая ул., д. 55-57, лит. А",
     "phone": "246-58-80; 246-58-82",
     "vkUrl": "https://vk.com/club230148007",
-    "activities": ["Место для общения и молодёжных инициатив"],
+    "activities": [
+      "Место для общения и молодёжных инициатив"
+    ],
     "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
   }
 ]

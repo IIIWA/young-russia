@@ -1,0 +1,4512 @@
+{
+  "schemaVersion": 1,
+  "taskId": "S-75-R1",
+  "checkedOn": "2026-10-27",
+  "timezone": "Europe/Moscow",
+  "createdAt": "2026-10-27T17:14:02.403409+00:00",
+  "status": "accepted_by_user",
+  "acceptance": {
+    "taskId": "S-75-R1",
+    "status": "accepted_by_user",
+    "acceptedOn": "2026-10-27",
+    "timezone": "Europe/Moscow",
+    "acceptedBy": "user",
+    "instruction": "Принимаю работу",
+    "source": "direct_user_message_in_executor_chat",
+    "executorChatId": "01a17e49-c37c-7081-97df-71d0fc17ab2c",
+    "scope": "Research report, 16 autumn comparisons, evidence and six groups of missing answers",
+    "nextStep": "The controlling chat records acceptance in the shared register and queue. New timetable evidence and any import require a separate task launch.",
+    "catalogImportStarted": false,
+    "publicationStarted": false
+  },
+  "authorization": "27.10.2026: Запусти S-75-R1 в отдельном чате — продолжим расписания Курортного района, начни с осеннего графика «Молодости»",
+  "writeScope": [
+    "docs/reviews/S-75-R1.md",
+    "docs/reviews/S-75-R1.json",
+    "outputs/S-75-R1/"
+  ],
+  "concurrentInputReview": "outputs/S-75-R1/concurrent-input-diff.json; ten userNote/path relocations observed in shared evidence JSON; source text, timetable and other fields unchanged. Original input remains in baseline.",
+  "summary": {
+    "molodostArchivedSchedules": 16,
+    "molodostArchivedIntervals": 56,
+    "autumnMatchesConfirmed": 0,
+    "autumnScheduleGaps": 16,
+    "newCurrentClassIntervalsReadyForImport": 0,
+    "clarificationGroups": 5,
+    "unresolvedGroups": 5,
+    "staffDutyIntervalsExcluded": 9,
+    "unchangedPrimaryPdfs": 11,
+    "unchangedNormalizedHtmlTables": 3
+  },
+  "limitations": [
+    "VK posts not observed because browser site-safety policy denied access. No workaround attempted after denial.",
+    "Missing means not found within the enumerated public sources, not proved absent everywhere.",
+    "City PDF lists have no confirmed current effective period and no lesson timetable. Counts are not asserted as live counts.",
+    "No contact with people/institutions. No build, catalog/Base/register edits, SSH, Git commit/push or deployment.",
+    "Controlling chat may concurrently change shared files for S-79; global repository changes must not be attributed to this research."
+  ],
+  "sourceIndex": [
+    {
+      "id": "city-index",
+      "requestedUrl": "https://spbdm.ru/baza-uchrezhdeniy/",
+      "url": "https://spbdm.ru/baza-uchrezhdeniy/",
+      "retrievedAt": "2026-10-27T17:02:28.385291+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 94182,
+      "bodySha256": "f82f8248ea5685257ab5e46c6c84e30ab5d88ad0fdcdccde535bcf8af9967a54",
+      "bodyPath": "outputs/S-75-R1/sources/city-index.html",
+      "textPath": "outputs/S-75-R1/sources/city-index.txt",
+      "title": "База молодежных учреждений Санкт-Петербурга",
+      "error": null
+    },
+    {
+      "id": "city-molodost",
+      "requestedUrl": "https://www.spbdm.ru/upload/iblock/06f/vqldvvp2sa73sthp7ru3wwhj9o6je8by/%D0%9F%D0%9C%D0%A6%20%D0%9C%D0%BE%D0%BB%D0%BE%D0%B4%D0%BE%D1%81%D1%82%D1%8C.pdf",
+      "url": "https://www.spbdm.ru/upload/iblock/06f/vqldvvp2sa73sthp7ru3wwhj9o6je8by/%D0%9F%D0%9C%D0%A6%20%D0%9C%D0%BE%D0%BB%D0%BE%D0%B4%D0%BE%D1%81%D1%82%D1%8C.pdf",
+      "retrievedAt": "2026-10-27T17:02:28.386517+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 223169,
+      "bodySha256": "509ff41f4ab362d24def495c6429dbea80979a4b74a5e30fb5e99617849b9c19",
+      "bodyPath": "outputs/S-75-R1/sources/city-molodost.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "city-sniper",
+      "requestedUrl": "https://www.spbdm.ru/upload/iblock/55e/56zw8a519ke1xn9kd7gomyhwyy355u8w/%D0%9F%D0%9C%D0%A6%20%D0%A1%D0%BD%D0%B0%D0%B9%D0%BF%D0%B5%D1%80.pdf",
+      "url": "https://www.spbdm.ru/upload/iblock/55e/56zw8a519ke1xn9kd7gomyhwyy355u8w/%D0%9F%D0%9C%D0%A6%20%D0%A1%D0%BD%D0%B0%D0%B9%D0%BF%D0%B5%D1%80.pdf",
+      "retrievedAt": "2026-10-27T17:02:28.387125+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 216901,
+      "bodySha256": "8c94e44eebbc097630dd00955bca0472943f855b1641b4cd986dfbf2cf461dce",
+      "bodyPath": "outputs/S-75-R1/sources/city-sniper.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "city-voshod",
+      "requestedUrl": "https://www.spbdm.ru/upload/iblock/804/hdmmqnwzjh65tnqygjc16kx34vc6rql1/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%BE%D1%81%D1%85%D0%BE%D0%B4.pdf",
+      "url": "https://www.spbdm.ru/upload/iblock/804/hdmmqnwzjh65tnqygjc16kx34vc6rql1/%D0%9F%D0%9C%D0%A6%20%D0%92%D0%BE%D1%81%D1%85%D0%BE%D0%B4.pdf",
+      "retrievedAt": "2026-10-27T17:02:28.385906+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 224901,
+      "bodySha256": "1c53edf6fa539fe71c2455eaef932eb9500fd4a389eb71018af5cc36efeb031f",
+      "bodyPath": "outputs/S-75-R1/sources/city-voshod.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "gov-kurort",
+      "requestedUrl": "https://www.gov.spb.ru/gov/terr/reg_kurort/molodezhnaya-politika/",
+      "url": "https://www.gov.spb.ru/gov/terr/reg_kurort/molodezhnaya-politika/",
+      "retrievedAt": "2026-10-27T17:00:23.193034+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 85380,
+      "bodySha256": "4cbb8fb6c7c4b8aa60f000cc9ac202f585cc155d69bb371076c3dc4160d473c5",
+      "bodyPath": "outputs/S-75-R1/sources/gov-kurort.html",
+      "textPath": "outputs/S-75-R1/sources/gov-kurort.txt",
+      "title": "Молодежная политика - Официальный сайт Администрации Санкт‑Петербурга",
+      "error": null
+    },
+    {
+      "id": "m-about",
+      "requestedUrl": "https://molodost.kurort.gov.spb.ru/informacija-o-pmc-molodost/",
+      "url": "https://molodost.kurort.gov.spb.ru/informacija-o-pmc-molodost/",
+      "retrievedAt": "2026-10-27T16:57:22.832383+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 22156,
+      "bodySha256": "6b1bb34e209a6c56c935791589c8cbb8ec025220003c3ffdddffa3bc0f0daccd",
+      "bodyPath": "outputs/S-75-R1/sources/m-about.html",
+      "textPath": "outputs/S-75-R1/sources/m-about.txt",
+      "title": "Информация о ПМЦ \"Молодость\"",
+      "error": null
+    },
+    {
+      "id": "m-documents",
+      "requestedUrl": "https://molodost.kurort.gov.spb.ru/documents/",
+      "url": "https://molodost.kurort.gov.spb.ru/documents/",
+      "retrievedAt": "2026-10-27T16:57:22.833387+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 18854,
+      "bodySha256": "36c898b2c49ccd9d78d05766bda523141d603a4c06a9f3a13cf6c113e17b168c",
+      "bodyPath": "outputs/S-75-R1/sources/m-documents.html",
+      "textPath": "outputs/S-75-R1/sources/m-documents.txt",
+      "title": "Документы",
+      "error": null
+    },
+    {
+      "id": "m-events",
+      "requestedUrl": "https://molodost.kurort.gov.spb.ru/meroprijatija-2026/",
+      "url": "https://molodost.kurort.gov.spb.ru/meroprijatija-2026/",
+      "retrievedAt": "2026-10-27T16:57:23.289170+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 26251,
+      "bodySha256": "460c4efce36899123bd7b7d2863356549cde30742099557494656310a84c5a4f",
+      "bodyPath": "outputs/S-75-R1/sources/m-events.html",
+      "textPath": "outputs/S-75-R1/sources/m-events.txt",
+      "title": "Мероприятия 2026",
+      "error": null
+    },
+    {
+      "id": "m-news",
+      "requestedUrl": "https://molodost.kurort.gov.spb.ru/news/",
+      "url": "https://molodost.kurort.gov.spb.ru/news/",
+      "retrievedAt": "2026-10-27T16:57:22.832383+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 27559,
+      "bodySha256": "5da9b85ac6ea68da4990ca7445fc1e0ac2b9dfa4cc55ac935ebabef7efdcda63",
+      "bodyPath": "outputs/S-75-R1/sources/m-news.html",
+      "textPath": "outputs/S-75-R1/sources/m-news.txt",
+      "title": "Новости",
+      "error": null
+    },
+    {
+      "id": "m-reports",
+      "requestedUrl": "https://molodost.kurort.gov.spb.ru/otchety/",
+      "url": "https://molodost.kurort.gov.spb.ru/otchety/",
+      "retrievedAt": "2026-10-27T16:57:23.314238+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 16303,
+      "bodySha256": "8e9ccabc7b92ed571d2740a22fa5c076bd04fc4c6079150ab2b29793014d111f",
+      "bodyPath": "outputs/S-75-R1/sources/m-reports.html",
+      "textPath": "outputs/S-75-R1/sources/m-reports.txt",
+      "title": "Отчеты",
+      "error": null
+    },
+    {
+      "id": "m-robots",
+      "requestedUrl": "https://molodost.kurort.gov.spb.ru/robots.txt",
+      "url": "https://molodost.kurort.gov.spb.ru/robots.txt",
+      "retrievedAt": "2026-10-27T16:57:23.289170+00:00",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "bytes": 146,
+      "bodySha256": "99b36010b3a57cca1903df66f921ab46d834e89dd8b99e5568dd6c765d049245",
+      "bodyPath": "outputs/S-75-R1/sources/m-robots.bin",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "m-root",
+      "requestedUrl": "https://molodost.kurort.gov.spb.ru/",
+      "url": "https://molodost.kurort.gov.spb.ru/",
+      "retrievedAt": "2026-10-27T16:57:22.828750+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 38023,
+      "bodySha256": "8fbf2ef83388536cef404bec91a3e5ed31f50989684d99799f9af1543460f571",
+      "bodyPath": "outputs/S-75-R1/sources/m-root.html",
+      "textPath": "outputs/S-75-R1/sources/m-root.txt",
+      "title": "Сайт СПб ГБУ ПМЦ «Молодость»",
+      "error": null
+    },
+    {
+      "id": "m-sitemap",
+      "requestedUrl": "https://molodost.kurort.gov.spb.ru/sitemap.xml",
+      "url": "https://molodost.kurort.gov.spb.ru/sitemap.xml",
+      "retrievedAt": "2026-10-27T16:57:23.274019+00:00",
+      "status": 200,
+      "contentType": "application/xml",
+      "bytes": 3580,
+      "bodySha256": "5d538ad24594c88cadd4a3c37b53d5631856805e6778b643165fe77c2b5971b3",
+      "bodyPath": "outputs/S-75-R1/sources/m-sitemap.xml",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "m-summer",
+      "requestedUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+      "url": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+      "retrievedAt": "2026-10-27T16:57:22.829797+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 36538,
+      "bodySha256": "0c836700b4eeb5d201e99c0237025956ff74f1f24529b7352babe87595fe010b",
+      "bodyPath": "outputs/S-75-R1/sources/m-summer.html",
+      "textPath": "outputs/S-75-R1/sources/m-summer.txt",
+      "title": "График работы студий и секций с 01.06.2026 г. - по 31.08.2026 г.",
+      "error": null
+    },
+    {
+      "id": "m-vk-mobile",
+      "requestedUrl": "https://m.vk.com/pmcmolodost",
+      "url": "https://m.vk.com/pmcmolodost",
+      "retrievedAt": "2026-10-27T16:57:23.403199+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 108798,
+      "bodySha256": "e045ec5e924f2820beee2a67c7f6bb08a4addf6392a2ca85ff55d52cce9dd72e",
+      "bodyPath": "outputs/S-75-R1/sources/m-vk-mobile.html",
+      "textPath": "outputs/S-75-R1/sources/m-vk-mobile.txt",
+      "title": "ВКонтакте | ВКонтакте",
+      "error": null
+    },
+    {
+      "id": "m-vk",
+      "requestedUrl": "https://vk.com/pmcmolodost",
+      "url": "https://m.vk.com/pmcmolodost",
+      "retrievedAt": "2026-10-27T16:57:23.314756+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 108761,
+      "bodySha256": "7cee3ea62371919cae09cb252f49aeef55358546f107439170d5ac4d97229067",
+      "bodyPath": "outputs/S-75-R1/sources/m-vk.html",
+      "textPath": "outputs/S-75-R1/sources/m-vk.txt",
+      "title": "ВКонтакте | ВКонтакте",
+      "error": null
+    },
+    {
+      "id": "s-activities-2",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/kruzhki-i-sekcii/page/2/",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/kruzhki-i-sekcii/page/2/",
+      "retrievedAt": "2026-10-27T16:57:26.206920+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 49467,
+      "bodySha256": "fd85aca43f8211003f739ca68b46bb0ea9ea51a6b51db4df7444e17b288b1211",
+      "bodyPath": "outputs/S-75-R1/sources/s-activities-2.html",
+      "textPath": "outputs/S-75-R1/sources/s-activities-2.txt",
+      "title": "Кружки и секции » Страница 2 » Подростково-молодёжный центр «Снайпер» — Официальный сайт — Санкт-Петербургское государственное бюджетное учреждение Подростково — молодёжный центр Курортного района \"Снайпер\"",
+      "error": null
+    },
+    {
+      "id": "s-activities",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/kruzhki-i-sekcii/",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/kruzhki-i-sekcii/",
+      "retrievedAt": "2026-10-27T16:57:26.205858+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 63251,
+      "bodySha256": "0439dcfb93ee875514992ed3ca528facab95e90f0ed1b8512f08a9ccd1f516e6",
+      "bodyPath": "outputs/S-75-R1/sources/s-activities.html",
+      "textPath": "outputs/S-75-R1/sources/s-activities.txt",
+      "title": "Кружки и секции » Подростково-молодёжный центр «Снайпер» — Официальный сайт — Санкт-Петербургское государственное бюджетное учреждение Подростково — молодёжный центр Курортного района \"Снайпер\"",
+      "error": null
+    },
+    {
+      "id": "s-card-11-image",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/uploads/posts/2026-01/332.jpg",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/uploads/posts/2026-01/332.jpg",
+      "retrievedAt": "2026-10-27T16:59:36.790082+00:00",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 326369,
+      "bodySha256": "551c927f26d706251265506d2fd05e95cbdebf9869fcc11fe1aaf6b4991ee543",
+      "bodyPath": "outputs/S-75-R1/sources/s-card-11-image.bin",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "s-card-11",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/kruzhki-i-sekcii/11-ofp-silovyh-sposobnostej-trenazhernyj-zal.html",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/kruzhki-i-sekcii/11-ofp-silovyh-sposobnostej-trenazhernyj-zal.html",
+      "retrievedAt": "2026-10-27T16:58:55.860319+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 61976,
+      "bodySha256": "a301338df2f0a3e7c6dbb26d8ad7cc5e1532215af23a676096e32ae783761b51",
+      "bodyPath": "outputs/S-75-R1/sources/s-card-11.html",
+      "textPath": "outputs/S-75-R1/sources/s-card-11.txt",
+      "title": "ОФП силовых способностей (тренажерный зал) » Подростково-молодёжный центр «Снайпер» — Официальный сайт — Санкт-Петербургское государственное бюджетное учреждение Подростково — молодёжный центр Курортного района \"Снайпер\"",
+      "error": null
+    },
+    {
+      "id": "s-card-16-image",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/uploads/posts/2026-01/4332.jpg",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/uploads/posts/2026-01/4332.jpg",
+      "retrievedAt": "2026-10-27T16:59:36.790082+00:00",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 292146,
+      "bodySha256": "3aebeb1d336849f61e8b1b95d30c2d193787ca615c63ded86a35c417822f6e9a",
+      "bodyPath": "outputs/S-75-R1/sources/s-card-16-image.bin",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "s-card-16",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/kruzhki-i-sekcii/16-molodezhnyj-klub-vstrecha-artstudija.html",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/kruzhki-i-sekcii/16-molodezhnyj-klub-vstrecha-artstudija.html",
+      "retrievedAt": "2026-10-27T16:58:55.859319+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 62989,
+      "bodySha256": "6698926a0863f117c10243ada3e387c9187da9f811a2f19f5d6211b4fb41e61c",
+      "bodyPath": "outputs/S-75-R1/sources/s-card-16.html",
+      "textPath": "outputs/S-75-R1/sources/s-card-16.txt",
+      "title": "\"Молодежный клуб \"Встреча\", АРТстудия » Подростково-молодёжный центр «Снайпер» — Официальный сайт — Санкт-Петербургское государственное бюджетное учреждение Подростково — молодёжный центр Курортного района \"Снайпер\"",
+      "error": null
+    },
+    {
+      "id": "s-card-9-image",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/uploads/posts/2026-01/898.jpg",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/uploads/posts/2026-01/898.jpg",
+      "retrievedAt": "2026-10-27T16:59:36.790082+00:00",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 362413,
+      "bodySha256": "a7c3ccb7d2d36068bf4fb03725b67849a2a38349e1a9a675720ba034a6ce1256",
+      "bodyPath": "outputs/S-75-R1/sources/s-card-9-image.bin",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "s-card-9",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/kruzhki-i-sekcii/9-ofp-smeshannyh-vidov-sporta.html",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/kruzhki-i-sekcii/9-ofp-smeshannyh-vidov-sporta.html",
+      "retrievedAt": "2026-10-27T16:58:55.860319+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 62032,
+      "bodySha256": "a2025e967abf85d899da4d7fcd1ea8fba68ff533545a3ec11d8878dac6c2587c",
+      "bodyPath": "outputs/S-75-R1/sources/s-card-9.html",
+      "textPath": "outputs/S-75-R1/sources/s-card-9.txt",
+      "title": "ОФП (смешанных видов спорта) » Подростково-молодёжный центр «Снайпер» — Официальный сайт — Санкт-Петербургское государственное бюджетное учреждение Подростково — молодёжный центр Курортного района \"Снайпер\"",
+      "error": null
+    },
+    {
+      "id": "s-contacts",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/kontakty.html",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/kontakty.html",
+      "retrievedAt": "2026-10-27T16:57:26.302189+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 50267,
+      "bodySha256": "7779301e9decc9e3be246bb77472052d3646fcde56793826520a2caea9328cae",
+      "bodyPath": "outputs/S-75-R1/sources/s-contacts.html",
+      "textPath": "outputs/S-75-R1/sources/s-contacts.txt",
+      "title": "Контакты » Подростково-молодёжный центр «Снайпер» — Официальный сайт — Санкт-Петербургское государственное бюджетное учреждение Подростково — молодёжный центр Курортного района \"Снайпер\"",
+      "error": null
+    },
+    {
+      "id": "s-october-pdf",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/index.php?do=download&id=1",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/grafik-raboty/94-grafik-raboty-kruzhkov-i-sekcij-s-12102026-god.html",
+      "retrievedAt": "2026-10-27T16:58:55.861319+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 61351,
+      "bodySha256": "748aee7c92111afe5a7acf5fefbd66b2fbb15460d973427801927b9450aa03ee",
+      "bodyPath": "outputs/S-75-R1/sources/s-october-pdf.html",
+      "textPath": "outputs/S-75-R1/sources/s-october-pdf.txt",
+      "title": "График работы кружков и секций с 12.10.2026 год » Подростково-молодёжный центр «Снайпер» — Официальный сайт — Санкт-Петербургское государственное бюджетное учреждение Подростково — молодёжный центр Курортного района \"Снайпер\"",
+      "error": null
+    },
+    {
+      "id": "s-october-session",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/index.php?do=download&id=1",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/index.php?do=download&id=1",
+      "retrievedAt": "2026-10-27T17:00:45.654747+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 453944,
+      "bodySha256": "f8ba12891a169a32e53689c67893932c46723fd03aee5d13a60fff95d3d2deda",
+      "bodyPath": "outputs/S-75-R1/sources/s-october-session.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "s-root",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/",
+      "retrievedAt": "2026-10-27T16:57:26.113259+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 78311,
+      "bodySha256": "3e1d0c24fa67c1b0267085c62b94d3eba716143aebcd96de2aa35c6ecbbb1fc6",
+      "bodyPath": "outputs/S-75-R1/sources/s-root.html",
+      "textPath": "outputs/S-75-R1/sources/s-root.txt",
+      "title": "Подростково-молодёжный центр «Снайпер» — Официальный сайт — Санкт-Петербургское государственное бюджетное учреждение Подростково — молодёжный центр Курортного района \"Снайпер\"",
+      "error": null
+    },
+    {
+      "id": "s-schedule-index",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/grafik-raboty/",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/grafik-raboty/",
+      "retrievedAt": "2026-10-27T17:00:19.686817+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 58849,
+      "bodySha256": "1dce72e14ace2e372c56c587ea3a5458c836d4d6dc7f8323448c545313e84344",
+      "bodyPath": "outputs/S-75-R1/sources/s-schedule-index.html",
+      "textPath": "outputs/S-75-R1/sources/s-schedule-index.txt",
+      "title": "График работы » Подростково-молодёжный центр «Снайпер» — Официальный сайт — Санкт-Петербургское государственное бюджетное учреждение Подростково — молодёжный центр Курортного района \"Снайпер\"",
+      "error": null
+    },
+    {
+      "id": "s-schedule",
+      "requestedUrl": "https://xn----8sbppmhlfke7c.xn--p1ai/grafik-raboty/94-grafik-raboty-kruzhkov-i-sekcij-s-12102026-god.html",
+      "url": "https://xn----8sbppmhlfke7c.xn--p1ai/grafik-raboty/94-grafik-raboty-kruzhkov-i-sekcij-s-12102026-god.html",
+      "retrievedAt": "2026-10-27T16:57:26.196724+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 61898,
+      "bodySha256": "f0f9293931eee8027a133d682a60fca4db929b7782f32268f5d7cca9ecb85b51",
+      "bodyPath": "outputs/S-75-R1/sources/s-schedule.html",
+      "textPath": "outputs/S-75-R1/sources/s-schedule.txt",
+      "title": "График работы кружков и секций с 12.10.2026 год » Подростково-молодёжный центр «Снайпер» — Официальный сайт — Санкт-Петербургское государственное бюджетное учреждение Подростково — молодёжный центр Курортного района \"Снайпер\"",
+      "error": null
+    },
+    {
+      "id": "v-about",
+      "requestedUrl": "https://xn--75-dlci3cau6a.xn--p1ai/%d0%be-%d0%bd%d0%b0%d1%81/",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/%d0%be-%d0%bd%d0%b0%d1%81/",
+      "retrievedAt": "2026-10-27T16:57:23.489296+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 95105,
+      "bodySha256": "8754581a2fcb42f74fb69f1ac776befe2982613311f12bd45964b4c117feaf88",
+      "bodyPath": "outputs/S-75-R1/sources/v-about.html",
+      "textPath": "outputs/S-75-R1/sources/v-about.txt",
+      "title": "О нас — СПб ГБУ ПМЦ Курортного района «Восход»",
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-15",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/Токарева-15.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%A2%D0%BE%D0%BA%D0%B0%D1%80%D0%B5%D0%B2%D0%B0-15.pdf",
+      "retrievedAt": "2026-10-27T16:58:55.863140+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 866459,
+      "bodySha256": "3e6424e3ecfb5bcc476e3256b6e11b5da092e7298790d65527d11c3b515a1a9d",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-15.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-16",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/Токарева-15.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%A2%D0%BE%D0%BA%D0%B0%D1%80%D0%B5%D0%B2%D0%B0-15.pdf",
+      "retrievedAt": "2026-10-27T16:58:56.298098+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 866459,
+      "bodySha256": "3e6424e3ecfb5bcc476e3256b6e11b5da092e7298790d65527d11c3b515a1a9d",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-16.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-17",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/зал-вольной-борьбы.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%B7%D0%B0%D0%BB-%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%B1%D0%BE%D1%80%D1%8C%D0%B1%D1%8B.pdf",
+      "retrievedAt": "2026-10-27T16:58:56.303032+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 844058,
+      "bodySha256": "8a8eea351f62e2d38ac8a8b3359b3465e52cff02867cb269260fc50a42ad283d",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-17.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-18",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/зал-вольной-борьбы.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%B7%D0%B0%D0%BB-%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%B1%D0%BE%D1%80%D1%8C%D0%B1%D1%8B.pdf",
+      "retrievedAt": "2026-10-27T16:58:56.331587+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 844058,
+      "bodySha256": "8a8eea351f62e2d38ac8a8b3359b3465e52cff02867cb269260fc50a42ad283d",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-18.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-19",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/зал-дзюдо.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%B7%D0%B0%D0%BB-%D0%B4%D0%B7%D1%8E%D0%B4%D0%BE.pdf",
+      "retrievedAt": "2026-10-27T16:58:56.391299+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 998382,
+      "bodySha256": "51f430316878a1aa303ad6ffb7f3f6bba2a30cf2a80692fd44b98d6cc3c46b30",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-19.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-20",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/зал-дзюдо.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%B7%D0%B0%D0%BB-%D0%B4%D0%B7%D1%8E%D0%B4%D0%BE.pdf",
+      "retrievedAt": "2026-10-27T16:59:26.693723+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 998382,
+      "bodySha256": "51f430316878a1aa303ad6ffb7f3f6bba2a30cf2a80692fd44b98d6cc3c46b30",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-20.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-21",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/парашютизм.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%BF%D0%B0%D1%80%D0%B0%D1%88%D1%8E%D1%82%D0%B8%D0%B7%D0%BC.pdf",
+      "retrievedAt": "2026-10-27T16:59:29.507376+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 756013,
+      "bodySha256": "669e0f58ac40a2c82e9ed55e1a8ba0cc54930368d0bc08f7a004b206f184e9ae",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-21.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-22",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/парашютизм.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%BF%D0%B0%D1%80%D0%B0%D1%88%D1%8E%D1%82%D0%B8%D0%B7%D0%BC.pdf",
+      "retrievedAt": "2026-10-27T16:59:30.538192+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 756013,
+      "bodySha256": "669e0f58ac40a2c82e9ed55e1a8ba0cc54930368d0bc08f7a004b206f184e9ae",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-22.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-23",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/Поисковый-отряд.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BE%D1%82%D1%80%D1%8F%D0%B4.pdf",
+      "retrievedAt": "2026-10-27T16:59:31.372724+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 892660,
+      "bodySha256": "a3f1aef797ab01e3cf7f716a5b680446aa4415534d0ab922fe00d67516f0b9f6",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-23.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-24",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/Поисковый-отряд.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BE%D1%82%D1%80%D1%8F%D0%B4.pdf",
+      "retrievedAt": "2026-10-27T16:59:43.565517+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 892660,
+      "bodySha256": "a3f1aef797ab01e3cf7f716a5b680446aa4415534d0ab922fe00d67516f0b9f6",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-24.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-25",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/мосина-1.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%BC%D0%BE%D1%81%D0%B8%D0%BD%D0%B0-1.pdf",
+      "retrievedAt": "2026-10-27T16:59:53.008965+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 837363,
+      "bodySha256": "41bc185713ef35049725c014b74cee296439ac7dd6ae223b7a02d66dba3cc5aa",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-25.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-26",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/мосина-1.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%BC%D0%BE%D1%81%D0%B8%D0%BD%D0%B0-1.pdf",
+      "retrievedAt": "2026-10-27T16:59:54.909524+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 837363,
+      "bodySha256": "41bc185713ef35049725c014b74cee296439ac7dd6ae223b7a02d66dba3cc5aa",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-26.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-27",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/настольный-теннис.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%BD%D0%B0%D1%81%D1%82%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%82%D0%B5%D0%BD%D0%BD%D0%B8%D1%81.pdf",
+      "retrievedAt": "2026-10-27T16:59:55.324862+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 850364,
+      "bodySha256": "7967c82cc2b69cf2e725ff3c597ce8229cbaab40d2df1ffbb9ba3114c7b771b1",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-27.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities-pdf-28",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2026/02/настольный-теннис.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2026/02/%D0%BD%D0%B0%D1%81%D1%82%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%82%D0%B5%D0%BD%D0%BD%D0%B8%D1%81.pdf",
+      "retrievedAt": "2026-10-27T17:00:04.402877+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 850364,
+      "bodySha256": "7967c82cc2b69cf2e725ff3c597ce8229cbaab40d2df1ffbb9ba3114c7b771b1",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities-pdf-28.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-activities",
+      "requestedUrl": "https://xn--75-dlci3cau6a.xn--p1ai/%d0%ba%d1%80%d1%83%d0%b6%d0%ba%d0%b8-%d0%b8-%d1%81%d0%b5%d0%ba%d1%86%d0%b8%d0%b8/",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/%d0%ba%d1%80%d1%83%d0%b6%d0%ba%d0%b8-%d0%b8-%d1%81%d0%b5%d0%ba%d1%86%d0%b8%d0%b8/",
+      "retrievedAt": "2026-10-27T16:57:23.411524+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 129557,
+      "bodySha256": "2b1dd1156f4e752929fe799d88235ddc8c051de4c6ceae6bcc49d5af7e4cf713",
+      "bodyPath": "outputs/S-75-R1/sources/v-activities.html",
+      "textPath": "outputs/S-75-R1/sources/v-activities.txt",
+      "title": "Кружки и секции — СПб ГБУ ПМЦ Курортного района «Восход»",
+      "error": null
+    },
+    {
+      "id": "v-contacts",
+      "requestedUrl": "https://xn--75-dlci3cau6a.xn--p1ai/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b/",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b/",
+      "retrievedAt": "2026-10-27T16:57:23.674884+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 90274,
+      "bodySha256": "480b71e6d37d56ccd1e123051fa5590f74cb847eead901be11bc37664dc6bda1",
+      "bodyPath": "outputs/S-75-R1/sources/v-contacts.html",
+      "textPath": "outputs/S-75-R1/sources/v-contacts.txt",
+      "title": "Контакты — СПб ГБУ ПМЦ Курортного района «Восход»",
+      "error": null
+    },
+    {
+      "id": "v-fitness-gallery-0",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2018/02/DSC00881-1.jpg",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2018/02/DSC00881-1.jpg",
+      "retrievedAt": "2026-10-27T17:02:28.389824+00:00",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 232837,
+      "bodySha256": "333dbc54d76c6baca180f3ea9de13229631e23efea327b254236cede0986e98c",
+      "bodyPath": "outputs/S-75-R1/sources/v-fitness-gallery-0.bin",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-fitness-gallery-1",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2018/02/IMAG049007.jpg",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2018/02/IMAG049007.jpg",
+      "retrievedAt": "2026-10-27T17:02:29.254332+00:00",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 125426,
+      "bodySha256": "388e6087d63c783fbbb93d6c30697b8bf9bf587623d2ff0d9e36d15d4d8c8908",
+      "bodyPath": "outputs/S-75-R1/sources/v-fitness-gallery-1.bin",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-fitness-gallery-2",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2018/02/IMG_5252.jpg",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2018/02/IMG_5252.jpg",
+      "retrievedAt": "2026-10-27T17:02:29.275815+00:00",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 311348,
+      "bodySha256": "2aaeed2ad0ae36b86069b539e859cdd11fa2ea570c19a4a38ea8923170b7715c",
+      "bodyPath": "outputs/S-75-R1/sources/v-fitness-gallery-2.bin",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-fitness-gallery-3",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2018/02/IMG_5284.jpg",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2018/02/IMG_5284.jpg",
+      "retrievedAt": "2026-10-27T17:02:29.308579+00:00",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 324983,
+      "bodySha256": "58d6be9ed3f8eaf7bcbe06f51eb6a854a7df0a5757f52c56e8287533089ff156",
+      "bodyPath": "outputs/S-75-R1/sources/v-fitness-gallery-3.bin",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-fitness-gallery-4",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2018/02/IMG_5338.jpg",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2018/02/IMG_5338.jpg",
+      "retrievedAt": "2026-10-27T17:02:29.309959+00:00",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 324698,
+      "bodySha256": "58b4372ab49036f2a823792a17ce2fe826c38e8053512cb6ab222183be422c4c",
+      "bodyPath": "outputs/S-75-R1/sources/v-fitness-gallery-4.bin",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-fitness-gallery-5",
+      "requestedUrl": "https://восход75.рф/wp-content/uploads/2018/02/IMG_5276.jpg",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2018/02/IMG_5276.jpg",
+      "retrievedAt": "2026-10-27T17:02:34.026954+00:00",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 325320,
+      "bodySha256": "5083539b26bf88807acb71d1e6c4e73222741c711eb1f78405536de391541375",
+      "bodyPath": "outputs/S-75-R1/sources/v-fitness-gallery-5.bin",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-fitness-image",
+      "requestedUrl": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2020/10/9.jpg",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2020/10/9.jpg",
+      "retrievedAt": "2026-10-27T16:59:37.357362+00:00",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 20511,
+      "bodySha256": "81a0669ea6af89215803f78e4441c5cac7357c1fa823ae39ef9a48b71f5f7c27",
+      "bodyPath": "outputs/S-75-R1/sources/v-fitness-image.bin",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-fitness-page",
+      "requestedUrl": "https://восход75.рф/%d0%b3%d0%b0%d0%bb%d0%b5%d1%80%d0%b5%d1%8f/%d1%84%d0%b8%d1%82%d0%bd%d0%b5%d1%81/",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/%d0%b3%d0%b0%d0%bb%d0%b5%d1%80%d0%b5%d1%8f/%d1%84%d0%b8%d1%82%d0%bd%d0%b5%d1%81/",
+      "retrievedAt": "2026-10-27T17:00:57.129969+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 90949,
+      "bodySha256": "97d802b2e33c9952aea7f8d56e7d58572f9e08e535aaab8e0c879704e74d9d29",
+      "bodyPath": "outputs/S-75-R1/sources/v-fitness-page.html",
+      "textPath": "outputs/S-75-R1/sources/v-fitness-page.txt",
+      "title": "Фитнес — СПб ГБУ ПМЦ Курортного района «Восход»",
+      "error": null
+    },
+    {
+      "id": "v-open-day-2019",
+      "requestedUrl": "https://восход75.рф/2019/09/02/%d0%b4%d0%b5%d0%bd%d1%8c-%d0%be%d1%82%d0%ba%d1%80%d1%8b%d1%82%d1%8b%d1%85-%d0%b4%d0%b2%d0%b5%d1%80%d0%b5%d0%b9-%d0%b2-%d0%bf%d0%bc%d1%86-%d0%b2%d0%be%d1%81%d1%85%d0%be%d0%b4/",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/2019/09/02/%d0%b4%d0%b5%d0%bd%d1%8c-%d0%be%d1%82%d0%ba%d1%80%d1%8b%d1%82%d1%8b%d1%85-%d0%b4%d0%b2%d0%b5%d1%80%d0%b5%d0%b9-%d0%b2-%d0%bf%d0%bc%d1%86-%d0%b2%d0%be%d1%81%d1%85%d0%be%d0%b4/",
+      "retrievedAt": "2026-10-27T17:00:57.130949+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 118396,
+      "bodySha256": "7dbd6f1ff632c50da26836d53689b3832a17e1c3327312f05f7b4d6994f31eb4",
+      "bodyPath": "outputs/S-75-R1/sources/v-open-day-2019.html",
+      "textPath": "outputs/S-75-R1/sources/v-open-day-2019.txt",
+      "title": "День открытых дверей в ПМЦ Восход — СПб ГБУ ПМЦ Курортного района «Восход»",
+      "error": null
+    },
+    {
+      "id": "v-paid-image-0",
+      "requestedUrl": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2025/11/График-занятий-2025-724x1024.jpg",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2025/11/%D0%93%D1%80%D0%B0%D1%84%D0%B8%D0%BA-%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D0%B8%D0%B9-2025-724x1024.jpg",
+      "retrievedAt": "2026-10-27T16:59:36.790082+00:00",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 122846,
+      "bodySha256": "2f89b09665ab5a6c7204bc9326e6d71d712797ce11aeb28572b5559adf192b48",
+      "bodyPath": "outputs/S-75-R1/sources/v-paid-image-0.bin",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-paid-image-1",
+      "requestedUrl": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2025/11/Стоимость-платных-услуг-2025-724x1024.jpg",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2025/11/%D0%A1%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C-%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D1%85-%D1%83%D1%81%D0%BB%D1%83%D0%B3-2025-724x1024.jpg",
+      "retrievedAt": "2026-10-27T16:59:36.791591+00:00",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 68617,
+      "bodySha256": "aa7905a440a114fd48b62604e071c31921665b052d452466a97c40bd834cc1b5",
+      "bodyPath": "outputs/S-75-R1/sources/v-paid-image-1.bin",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-paid-pdf-17",
+      "requestedUrl": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2025/03/Перечень-и-стоимость-платных-услуг.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2025/03/%D0%9F%D0%B5%D1%80%D0%B5%D1%87%D0%B5%D0%BD%D1%8C-%D0%B8-%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C-%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D1%85-%D1%83%D1%81%D0%BB%D1%83%D0%B3.pdf",
+      "retrievedAt": "2026-10-27T17:00:05.935000+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 219770,
+      "bodySha256": "9dcea9d00d6e331b38076a57d8d4ef1fb1921a7f317a658d9708d12b6c82d70b",
+      "bodyPath": "outputs/S-75-R1/sources/v-paid-pdf-17.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-paid-pdf-21",
+      "requestedUrl": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2023/10/Приказ-о-внесении-дополнений-в-перечень-платных-услуг.pdf",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/wp-content/uploads/2023/10/%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7-%D0%BE-%D0%B2%D0%BD%D0%B5%D1%81%D0%B5%D0%BD%D0%B8%D0%B8-%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B9-%D0%B2-%D0%BF%D0%B5%D1%80%D0%B5%D1%87%D0%B5%D0%BD%D1%8C-%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D1%85-%D1%83%D1%81%D0%BB%D1%83%D0%B3.pdf",
+      "retrievedAt": "2026-10-27T17:00:14.433631+00:00",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 464729,
+      "bodySha256": "0cbbfe4a8bfe39a0146be3b0a47f07e189db3d80bb218d23f60389d3d590c271",
+      "bodyPath": "outputs/S-75-R1/sources/v-paid-pdf-21.pdf",
+      "textPath": null,
+      "title": null,
+      "error": null
+    },
+    {
+      "id": "v-paid",
+      "requestedUrl": "https://xn--75-dlci3cau6a.xn--p1ai/%d0%b4%d0%be%d0%ba%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d1%8b/%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d1%8b%d0%b5-%d1%83%d1%81%d0%bb%d1%83%d0%b3%d0%b8/",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/%d0%b4%d0%be%d0%ba%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d1%8b/%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d1%8b%d0%b5-%d1%83%d1%81%d0%bb%d1%83%d0%b3%d0%b8/",
+      "retrievedAt": "2026-10-27T16:57:23.459431+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 105743,
+      "bodySha256": "667337efc6a554164cc3548a8d7892b9ec7d3b1fb4f0fc9f81e5ab09fc076ce3",
+      "bodyPath": "outputs/S-75-R1/sources/v-paid.html",
+      "textPath": "outputs/S-75-R1/sources/v-paid.txt",
+      "title": "Платные услуги — СПб ГБУ ПМЦ Курортного района «Восход»",
+      "error": null
+    },
+    {
+      "id": "v-root",
+      "requestedUrl": "https://xn--75-dlci3cau6a.xn--p1ai/",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/",
+      "retrievedAt": "2026-10-27T16:57:23.646317+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 141148,
+      "bodySha256": "e2edae13a6ea454e619a71cea700a0a1133561e29662723b0f42822d1bab07b0",
+      "bodyPath": "outputs/S-75-R1/sources/v-root.html",
+      "textPath": "outputs/S-75-R1/sources/v-root.txt",
+      "title": "СПб ГБУ ПМЦ Курортного района «Восход»",
+      "error": null
+    },
+    {
+      "id": "v-search-fitness",
+      "requestedUrl": "https://xn--75-dlci3cau6a.xn--p1ai/?s=%D1%84%D0%B8%D1%82%D0%BD%D0%B5%D1%81",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/?s=%D1%84%D0%B8%D1%82%D0%BD%D0%B5%D1%81",
+      "retrievedAt": "2026-10-27T17:00:19.702250+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 115995,
+      "bodySha256": "7f6b77c80a0b2a2e64e85d78e0eef69f394942dafd4651e18309b8e6405cc524",
+      "bodyPath": "outputs/S-75-R1/sources/v-search-fitness.html",
+      "textPath": "outputs/S-75-R1/sources/v-search-fitness.txt",
+      "title": "Результаты поиска «фитнес» — СПб ГБУ ПМЦ Курортного района «Восход»",
+      "error": null
+    },
+    {
+      "id": "v-search-fst",
+      "requestedUrl": "https://xn--75-dlci3cau6a.xn--p1ai/?s=%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/?s=%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE",
+      "retrievedAt": "2026-10-27T17:00:20.959527+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 115238,
+      "bodySha256": "86e50f7baec793adde779036d644de2a2d79cb39a64f5a401a85051f0002032b",
+      "bodyPath": "outputs/S-75-R1/sources/v-search-fst.html",
+      "textPath": "outputs/S-75-R1/sources/v-search-fst.txt",
+      "title": "Результаты поиска «функционально» — СПб ГБУ ПМЦ Курортного района «Восход»",
+      "error": null
+    },
+    {
+      "id": "v-search-pilates",
+      "requestedUrl": "https://xn--75-dlci3cau6a.xn--p1ai/?s=%D0%BF%D0%B8%D0%BB%D0%B0%D1%82%D0%B5%D1%81",
+      "url": "https://xn--75-dlci3cau6a.xn--p1ai/?s=%D0%BF%D0%B8%D0%BB%D0%B0%D1%82%D0%B5%D1%81",
+      "retrievedAt": "2026-10-27T17:00:20.126793+00:00",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 115472,
+      "bodySha256": "e100098483be2a3b655e7eb83ce586a648571da4baf37a2c698972e6df850c9c",
+      "bodyPath": "outputs/S-75-R1/sources/v-search-pilates.html",
+      "textPath": "outputs/S-75-R1/sources/v-search-pilates.txt",
+      "title": "Результаты поиска «пилатес» — СПб ГБУ ПМЦ Курортного района «Восход»",
+      "error": null
+    }
+  ],
+  "baselineManifest": "outputs/S-75-R1/baseline.json",
+  "autumnComparisons": [
+    {
+      "id": "M-01",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Дзюдо"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/0",
+      "activity": "Дзюдо",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Дзюдо",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "среда",
+              "time": "13:00-14:30",
+              "group": "Дзюдо",
+              "room": "спортивный зал, 1 этаж"
+            },
+            {
+              "day": "пятница",
+              "time": "14:30-16:30",
+              "group": "Дзюдо",
+              "room": "спортивный зал, 1 этаж"
+            },
+            {
+              "day": "воскресенье",
+              "time": "13:00-15:00",
+              "group": "Дзюдо",
+              "room": "спортивный зал, 1 этаж"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          2
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 2,
+            "rawCells": [
+              "1.",
+              "Дзюдо",
+              "Дзюдо",
+              "Шариков Владимир Федорович",
+              "спортивный зал, 1 этаж",
+              "",
+              "",
+              "13:00 – 14:30",
+              "",
+              "14:30 – 16:30",
+              "",
+              "13:00 – 15:00"
+            ],
+            "staff": "Шариков Владимир Федорович",
+            "roomAndGroup": "спортивный зал, 1 этаж"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          45
+        ],
+        "docxGroups": [
+          {
+            "recordId": 45,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Дзюдо",
+            "group": "",
+            "staff": "Шариков Владимир Федорович отпуск 3 августа- 30 августа",
+            "venue": "Молодость",
+            "room": "спортивный зал, 1 этаж",
+            "cells": [
+              "",
+              "",
+              "13:00 – 14:30",
+              "",
+              "14:30 – 16:30",
+              "",
+              "13:00 – 15:00"
+            ],
+            "slots": [
+              {
+                "day": "среда",
+                "time": "13:00-14:30",
+                "group": "",
+                "room": "спортивный зал, 1 этаж"
+              },
+              {
+                "day": "пятница",
+                "time": "14:30-16:30",
+                "group": "",
+                "room": "спортивный зал, 1 этаж"
+              },
+              {
+                "day": "воскресенье",
+                "time": "13:00-15:00",
+                "group": "",
+                "room": "спортивный зал, 1 этаж"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Шариков Владимир Федорович"
+        ],
+        "slots": 3
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Дзюдо», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-02",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Самбо"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/1",
+      "activity": "Самбо",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Самбо",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "среда",
+              "time": "15:30-18:00",
+              "group": "Самбо",
+              "room": "спортивный зал, 1 этаж"
+            },
+            {
+              "day": "пятница",
+              "time": "16:30-19:00",
+              "group": "Самбо",
+              "room": "спортивный зал, 1 этаж"
+            },
+            {
+              "day": "воскресенье",
+              "time": "15:00-17:30",
+              "group": "Самбо",
+              "room": "спортивный зал, 1 этаж"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          3
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 3,
+            "rawCells": [
+              "2.",
+              "Самбо",
+              "Самбо",
+              "Шариков Владимир Федорович",
+              "спортивный зал, 1 этаж",
+              "",
+              "",
+              "15:30 – 18:00",
+              "",
+              "16:30 – 19:00",
+              "",
+              "15:00 – 17:30"
+            ],
+            "staff": "Шариков Владимир Федорович",
+            "roomAndGroup": "спортивный зал, 1 этаж"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          46
+        ],
+        "docxGroups": [
+          {
+            "recordId": 46,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Самбо",
+            "group": "",
+            "staff": "Шариков Владимир Федорович отпуск 3 августа- 30 августа",
+            "venue": "Молодость",
+            "room": "спортивный зал, 1 этаж",
+            "cells": [
+              "",
+              "",
+              "15:30 – 18:00",
+              "",
+              "16:30 – 19:00",
+              "",
+              "15:00 – 17:30"
+            ],
+            "slots": [
+              {
+                "day": "среда",
+                "time": "15:30-18:00",
+                "group": "",
+                "room": "спортивный зал, 1 этаж"
+              },
+              {
+                "day": "пятница",
+                "time": "16:30-19:00",
+                "group": "",
+                "room": "спортивный зал, 1 этаж"
+              },
+              {
+                "day": "воскресенье",
+                "time": "15:00-17:30",
+                "group": "",
+                "room": "спортивный зал, 1 этаж"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Шариков Владимир Федорович"
+        ],
+        "slots": 3
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Самбо», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-03",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Атлетизм"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/2",
+      "activity": "Атлетизм",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Атлетизм",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "среда",
+              "time": "18:00-21:00",
+              "group": "Атлетизм",
+              "room": "тренажерный зал, 1 этаж"
+            },
+            {
+              "day": "пятница",
+              "time": "19:00-21:00",
+              "group": "Атлетизм",
+              "room": "тренажерный зал, 1 этаж"
+            },
+            {
+              "day": "воскресенье",
+              "time": "17:30-19:30",
+              "group": "Атлетизм",
+              "room": "тренажерный зал, 1 этаж"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          4
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 4,
+            "rawCells": [
+              "3.",
+              "Атлетизм",
+              "Атлетизм",
+              "Шариков Владимир Федорович",
+              "тренажерный зал, 1 этаж",
+              "",
+              "",
+              "18:00 – 21:00",
+              "",
+              "19:00 – 21:00",
+              "",
+              "17:30 – 19:30"
+            ],
+            "staff": "Шариков Владимир Федорович",
+            "roomAndGroup": "тренажерный зал, 1 этаж"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          47
+        ],
+        "docxGroups": [
+          {
+            "recordId": 47,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Атлетизм",
+            "group": "",
+            "staff": "Шариков Владимир Федорович отпуск 3 августа- 30 августа",
+            "venue": "Молодость",
+            "room": "тренажерный зал, 1 этаж",
+            "cells": [
+              "",
+              "",
+              "18:00 – 21:00",
+              "",
+              "19:00 – 21:00",
+              "",
+              "17:30 – 19:30"
+            ],
+            "slots": [
+              {
+                "day": "среда",
+                "time": "18:00-21:00",
+                "group": "",
+                "room": "тренажерный зал, 1 этаж"
+              },
+              {
+                "day": "пятница",
+                "time": "19:00-21:00",
+                "group": "",
+                "room": "тренажерный зал, 1 этаж"
+              },
+              {
+                "day": "воскресенье",
+                "time": "17:30-19:30",
+                "group": "",
+                "room": "тренажерный зал, 1 этаж"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Шариков Владимир Федорович"
+        ],
+        "slots": 3
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Атлетизм», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-04",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Настольный теннис"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/3",
+      "activity": "Настольный теннис",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Настольный теннис",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "вторник",
+              "time": "15:00-16:00",
+              "group": "Группа 1",
+              "room": "Зал настольного тенниса, 2 эт."
+            },
+            {
+              "day": "четверг",
+              "time": "15:00-16:00",
+              "group": "Группа 1",
+              "room": "Зал настольного тенниса, 2 эт."
+            },
+            {
+              "day": "вторник",
+              "time": "16:00-17:00",
+              "group": "Группа 2",
+              "room": "Зал настольного тенниса; этаж уточни"
+            },
+            {
+              "day": "четверг",
+              "time": "16:00-17:00",
+              "group": "Группа 2",
+              "room": "Зал настольного тенниса; этаж уточни"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          5,
+          6
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 5,
+            "rawCells": [
+              "4.",
+              "Настольный теннис",
+              "Настольный теннис",
+              "Кустов Вячеслав Геннадьевич",
+              "кабинет настольного тенниса, 2 эт., 1 группа",
+              "",
+              "15:00 – 16:00",
+              "",
+              "15:00 – 16:00",
+              "",
+              "",
+              ""
+            ],
+            "staff": "Кустов Вячеслав Геннадьевич",
+            "roomAndGroup": "кабинет настольного тенниса, 2 эт., 1 группа"
+          },
+          {
+            "sourceRowIndex": 6,
+            "rawCells": [
+              "4.",
+              "Настольный теннис",
+              "Настольный теннис",
+              "Кустов Вячеслав Геннадьевич",
+              "кабинет настольного тенниса, 1 эт., 2 группа",
+              "",
+              "16:00 – 17:00",
+              "",
+              "16:00 – 17:00",
+              "",
+              "",
+              ""
+            ],
+            "staff": "Кустов Вячеслав Геннадьевич",
+            "roomAndGroup": "кабинет настольного тенниса, 1 эт., 2 группа"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          48,
+          49
+        ],
+        "docxGroups": [
+          {
+            "recordId": 48,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Настольный теннис",
+            "group": "Группа 1",
+            "staff": "Кустов Вячеслав Геннадьевич отпуск 06 июля- 24 июля",
+            "venue": "Молодость",
+            "room": "Зал настольного тенниса, 2 эт., 1 группа",
+            "cells": [
+              "",
+              "15:00 – 16:00",
+              "",
+              "15:00 – 16:00",
+              "",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "вторник",
+                "time": "15:00-16:00",
+                "group": "Группа 1",
+                "room": "Зал настольного тенниса, 2 эт., 1 группа"
+              },
+              {
+                "day": "четверг",
+                "time": "15:00-16:00",
+                "group": "Группа 1",
+                "room": "Зал настольного тенниса, 2 эт., 1 группа"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          },
+          {
+            "recordId": 49,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Настольный теннис",
+            "group": "Группа 2",
+            "staff": "Кустов Вячеслав Геннадьевич отпуск 06 июля- 24 июля",
+            "venue": "Молодость",
+            "room": "Зал настольного тенниса, 2 эт., 2 группа",
+            "cells": [
+              "",
+              "16:00 – 17:00",
+              "",
+              "16:00 – 17:00",
+              "",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "вторник",
+                "time": "16:00-17:00",
+                "group": "Группа 2",
+                "room": "Зал настольного тенниса, 2 эт., 2 группа"
+              },
+              {
+                "day": "четверг",
+                "time": "16:00-17:00",
+                "group": "Группа 2",
+                "room": "Зал настольного тенниса, 2 эт., 2 группа"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Кустов Вячеслав Геннадьевич"
+        ],
+        "slots": 4
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Настольный теннис», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-05",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Вокал"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/4",
+      "activity": "Вокал",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Вокал",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "понедельник",
+              "time": "14:00-16:00",
+              "group": "Вокал",
+              "room": "кабинет 2 этаж, актовый зал"
+            },
+            {
+              "day": "вторник",
+              "time": "17:00-19:00",
+              "group": "Вокал",
+              "room": "кабинет 2 этаж, актовый зал"
+            },
+            {
+              "day": "четверг",
+              "time": "14:00-16:00",
+              "group": "Вокал",
+              "room": "кабинет 2 этаж, актовый зал"
+            },
+            {
+              "day": "пятница",
+              "time": "17:00-19:00",
+              "group": "Вокал",
+              "room": "кабинет 2 этаж, актовый зал"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          9
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 9,
+            "rawCells": [
+              "7",
+              "Вокальная студия",
+              "Вокальная студия",
+              "Гильченок Наталия Георгиевна",
+              "кабинет 2 этаж",
+              "14:00 - 16:00",
+              "17:00 - 19:00",
+              "",
+              "14:00 - 16:00",
+              "17:00 - 19:00",
+              "",
+              ""
+            ],
+            "staff": "Гильченок Наталия Георгиевна",
+            "roomAndGroup": "кабинет 2 этаж"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          50
+        ],
+        "docxGroups": [
+          {
+            "recordId": 50,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Вокальная студия",
+            "group": "",
+            "staff": "Гильченок Наталия Георгиевна отпуск 1 июня- 15 июня 3 августа- 9 августа",
+            "venue": "Молодость",
+            "room": "кабинет 2 этаж, актовый зал",
+            "cells": [
+              "14:00 – 16:00",
+              "17:00 – 19:00",
+              "",
+              "14:00 – 16:00",
+              "17:00 – 19:00",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "понедельник",
+                "time": "14:00-16:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              },
+              {
+                "day": "вторник",
+                "time": "17:00-19:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              },
+              {
+                "day": "четверг",
+                "time": "14:00-16:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              },
+              {
+                "day": "пятница",
+                "time": "17:00-19:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Гильченок Наталия Георгиевна"
+        ],
+        "slots": 4,
+        "roomComparison": {
+          "status": "different_room_detail_between_summer_versions",
+          "htmlRoomClaims": [
+            "кабинет 2 этаж"
+          ],
+          "docxRoomClaims": [
+            "кабинет 2 этаж, актовый зал"
+          ],
+          "meaning": "One summer version mentions the assembly hall in addition to the second-floor office, the other does not. This does not establish a different autumn venue.",
+          "decision": "Preserve both exact claims; ask for autumn room together with timetable; no automatic room replacement."
+        }
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Вокал», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-06",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Студия «Зримая песня»"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/5",
+      "activity": "Студия «Зримая песня»",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Студия «Зримая песня»",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "понедельник",
+              "time": "16:00-18:00",
+              "group": "Студия «Зримая песня»",
+              "room": "кабинет 2 этаж, актовый зал"
+            },
+            {
+              "day": "вторник",
+              "time": "15:00-17:00",
+              "group": "Студия «Зримая песня»",
+              "room": "кабинет 2 этаж, актовый зал"
+            },
+            {
+              "day": "четверг",
+              "time": "16:00-18:00",
+              "group": "Студия «Зримая песня»",
+              "room": "кабинет 2 этаж, актовый зал"
+            },
+            {
+              "day": "пятница",
+              "time": "15:00-17:00",
+              "group": "Студия «Зримая песня»",
+              "room": "кабинет 2 этаж, актовый зал"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          8
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 8,
+            "rawCells": [
+              "6",
+              "Студия \"Зримая песня\"",
+              "Студия \"Зримая песня\"",
+              "Гильченок Наталия Георгиевна",
+              "кабинет 2 этаж, актовый зал",
+              "16:00 – 18:00",
+              "15:00 - 17:00",
+              "",
+              "16:00 - 18:00",
+              "15:00 - 17:00",
+              "",
+              ""
+            ],
+            "staff": "Гильченок Наталия Георгиевна",
+            "roomAndGroup": "кабинет 2 этаж, актовый зал"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          51
+        ],
+        "docxGroups": [
+          {
+            "recordId": 51,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Студия «Зримая песня»",
+            "group": "",
+            "staff": "Гильченок Наталия Георгиевна отпуск 1 июня- 15 июня 3 августа- 9 августа",
+            "venue": "Молодость",
+            "room": "кабинет 2 этаж, актовый зал",
+            "cells": [
+              "16:00 – 18:00",
+              "15:00 – 17:00",
+              "",
+              "16:00 – 18:00",
+              "15:00 – 17:00",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "понедельник",
+                "time": "16:00-18:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              },
+              {
+                "day": "вторник",
+                "time": "15:00-17:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              },
+              {
+                "day": "четверг",
+                "time": "16:00-18:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              },
+              {
+                "day": "пятница",
+                "time": "15:00-17:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Гильченок Наталия Георгиевна"
+        ],
+        "slots": 4
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Студия «Зримая песня»», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-07",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Краеведение"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/6",
+      "activity": "Краеведение",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Краеведение",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба. В DOCX дополнительно указан выезд на экскурсию в третье воскресенье месяца; время выезда уточни у организатора.",
+          "schedule": [
+            {
+              "day": "понедельник",
+              "time": "18:00-19:00",
+              "group": "Краеведение",
+              "room": "кабинет 2 этаж"
+            },
+            {
+              "day": "вторник",
+              "time": "14:00-15:00",
+              "group": "Краеведение",
+              "room": "кабинет 2 этаж"
+            },
+            {
+              "day": "четверг",
+              "time": "18:00-19:00",
+              "group": "Краеведение",
+              "room": "кабинет 2 этаж"
+            },
+            {
+              "day": "пятница",
+              "time": "14:00-15:00",
+              "group": "Краеведение",
+              "room": "кабинет 2 этаж"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          7
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 7,
+            "rawCells": [
+              "5",
+              "Краеведение",
+              "Краеведение",
+              "Гильченок Наталия Георгиевна",
+              "кабинет 2 этаж, актовый зал",
+              "18:00 - 19:00",
+              "14:00 - 15:00",
+              "",
+              "18:00 - 19:00",
+              "14:00 - 15:00",
+              ""
+            ],
+            "staff": "Гильченок Наталия Георгиевна",
+            "roomAndGroup": "кабинет 2 этаж, актовый зал"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          52
+        ],
+        "docxGroups": [
+          {
+            "recordId": 52,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Краеведение",
+            "group": "",
+            "staff": "Гильченок Наталия Георгиевна отпуск 1 июня- 15 июня 3 августа- 9 августа",
+            "venue": "Молодость",
+            "room": "кабинет 2 этаж",
+            "cells": [
+              "18:00 – 19:00",
+              "14:00 – 15:00",
+              "",
+              "18:00 – 19:00",
+              "14:00 – 15:00",
+              "",
+              "3-е воскресенье-выезд на экскурсию"
+            ],
+            "slots": [
+              {
+                "day": "понедельник",
+                "time": "18:00-19:00",
+                "group": "",
+                "room": "кабинет 2 этаж"
+              },
+              {
+                "day": "вторник",
+                "time": "14:00-15:00",
+                "group": "",
+                "room": "кабинет 2 этаж"
+              },
+              {
+                "day": "четверг",
+                "time": "18:00-19:00",
+                "group": "",
+                "room": "кабинет 2 этаж"
+              },
+              {
+                "day": "пятница",
+                "time": "14:00-15:00",
+                "group": "",
+                "room": "кабинет 2 этаж"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": [
+              "3-е воскресенье-выезд на экскурсию"
+            ]
+          }
+        ],
+        "staffFromHtml": [
+          "Гильченок Наталия Георгиевна"
+        ],
+        "slots": 4,
+        "roomComparison": {
+          "status": "different_room_detail_between_summer_versions",
+          "htmlRoomClaims": [
+            "кабинет 2 этаж, актовый зал"
+          ],
+          "docxRoomClaims": [
+            "кабинет 2 этаж"
+          ],
+          "meaning": "One summer version mentions the assembly hall in addition to the second-floor office, the other does not. This does not establish a different autumn venue.",
+          "decision": "Preserve both exact claims; ask for autumn room together with timetable; no automatic room replacement."
+        }
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Краеведение», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-08",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Вокальная студия «Поем семьей»"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/7",
+      "activity": "Вокальная студия «Поем семьей»",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Вокальная студия «Поем семьей»",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "вторник",
+              "time": "12:00-14:00",
+              "group": "Вокальная студия «Поем семьей»",
+              "room": "кабинет 2 этаж, актовый зал"
+            },
+            {
+              "day": "среда",
+              "time": "12:00-14:00",
+              "group": "Вокальная студия «Поем семьей»",
+              "room": "кабинет 2 этаж, актовый зал"
+            },
+            {
+              "day": "четверг",
+              "time": "12:00-14:00",
+              "group": "Вокальная студия «Поем семьей»",
+              "room": "кабинет 2 этаж, актовый зал"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          10
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 10,
+            "rawCells": [
+              "8",
+              "Вокальная студия «Поем семьей»",
+              "Филиппова Елена Андреевна",
+              "Филиппова Елена Андреевна",
+              "кабинет 2 этаж",
+              "",
+              "12:00-14:00",
+              "12:00-14:00",
+              "12:00-14:00",
+              "",
+              ""
+            ],
+            "staff": "Филиппова Елена Андреевна",
+            "roomAndGroup": "кабинет 2 этаж"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          53
+        ],
+        "docxGroups": [
+          {
+            "recordId": 53,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Вокальная студия «Поем семьей»",
+            "group": "",
+            "staff": "Филиппова Елена Андреевна отпуск 1 июля- 29 июля",
+            "venue": "Молодость",
+            "room": "кабинет 2 этаж, актовый зал",
+            "cells": [
+              "",
+              "12:00 – 14:00",
+              "12:00 – 14:00",
+              "12:00 – 14:00",
+              "",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "вторник",
+                "time": "12:00-14:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              },
+              {
+                "day": "среда",
+                "time": "12:00-14:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              },
+              {
+                "day": "четверг",
+                "time": "12:00-14:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Филиппова Елена Андреевна"
+        ],
+        "slots": 3,
+        "roomComparison": {
+          "status": "different_room_detail_between_summer_versions",
+          "htmlRoomClaims": [
+            "кабинет 2 этаж"
+          ],
+          "docxRoomClaims": [
+            "кабинет 2 этаж, актовый зал"
+          ],
+          "meaning": "One summer version mentions the assembly hall in addition to the second-floor office, the other does not. This does not establish a different autumn venue.",
+          "decision": "Preserve both exact claims; ask for autumn room together with timetable; no automatic room replacement."
+        }
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Вокальная студия «Поем семьей»», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-09",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Ансамбль русской песни «Гостьюшки»"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/8",
+      "activity": "Ансамбль русской песни «Гостьюшки»",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Ансамбль русской песни «Гостьюшки»",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "вторник",
+              "time": "14:00-16:00",
+              "group": "Ансамбль русской песни «Гостьюшки»",
+              "room": "кабинет 2 этаж, актовый зал"
+            },
+            {
+              "day": "среда",
+              "time": "14:00-16:00",
+              "group": "Ансамбль русской песни «Гостьюшки»",
+              "room": "кабинет 2 этаж, актовый зал"
+            },
+            {
+              "day": "четверг",
+              "time": "14:00-16:00",
+              "group": "Ансамбль русской песни «Гостьюшки»",
+              "room": "кабинет 2 этаж, актовый зал"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          11
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 11,
+            "rawCells": [
+              "9",
+              "Ансамбль русской песни \"Гостьюшки\"",
+              "Филиппова Елена Андреевна",
+              "Филиппова Елена Андреевна",
+              "кабинет 2 этаж",
+              "",
+              "14:00-16:00",
+              "14:00-16:00",
+              "14:00-16:00",
+              "",
+              "",
+              ""
+            ],
+            "staff": "Филиппова Елена Андреевна",
+            "roomAndGroup": "кабинет 2 этаж"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          54
+        ],
+        "docxGroups": [
+          {
+            "recordId": 54,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Ансамбль русской песни «Гостьюшки»",
+            "group": "",
+            "staff": "Филиппова Елена Андреевна отпуск 1 июля- 29 июля",
+            "venue": "Молодость",
+            "room": "кабинет 2 этаж, актовый зал",
+            "cells": [
+              "",
+              "14:00 – 16:00",
+              "14:00 – 16:00",
+              "14:00 – 16:00",
+              "",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "вторник",
+                "time": "14:00-16:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              },
+              {
+                "day": "среда",
+                "time": "14:00-16:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              },
+              {
+                "day": "четверг",
+                "time": "14:00-16:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Филиппова Елена Андреевна"
+        ],
+        "slots": 3,
+        "roomComparison": {
+          "status": "different_room_detail_between_summer_versions",
+          "htmlRoomClaims": [
+            "кабинет 2 этаж"
+          ],
+          "docxRoomClaims": [
+            "кабинет 2 этаж, актовый зал"
+          ],
+          "meaning": "One summer version mentions the assembly hall in addition to the second-floor office, the other does not. This does not establish a different autumn venue.",
+          "decision": "Preserve both exact claims; ask for autumn room together with timetable; no automatic room replacement."
+        }
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Ансамбль русской песни «Гостьюшки»», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-10",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Ансамбль русской песни «Малина»"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/9",
+      "activity": "Ансамбль русской песни «Малина»",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Ансамбль русской песни «Малина»",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "вторник",
+              "time": "16:00-18:00",
+              "group": "Ансамбль русской песни «Малина»",
+              "room": "кабинет 2 этаж, актовый зал"
+            },
+            {
+              "day": "среда",
+              "time": "16:00-19:00",
+              "group": "Ансамбль русской песни «Малина»",
+              "room": "кабинет 2 этаж, актовый зал"
+            },
+            {
+              "day": "четверг",
+              "time": "16:00-19:00",
+              "group": "Ансамбль русской песни «Малина»",
+              "room": "кабинет 2 этаж, актовый зал"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          12
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 12,
+            "rawCells": [
+              "10",
+              "Ансамбль русской песни \"Малина\"",
+              "Филиппова Елена Андреевна",
+              "Филиппова Елена Андреевна",
+              "кабинет 2 этаж",
+              "",
+              "16:00-18:00",
+              "16:00-19:00",
+              "16:00-19:00",
+              "",
+              "",
+              ""
+            ],
+            "staff": "Филиппова Елена Андреевна",
+            "roomAndGroup": "кабинет 2 этаж"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          55
+        ],
+        "docxGroups": [
+          {
+            "recordId": 55,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Ансамбль русской песни «Малина»",
+            "group": "",
+            "staff": "Филиппова Елена Андреевна отпуск 1 июля- 29 июля",
+            "venue": "Молодость",
+            "room": "кабинет 2 этаж, актовый зал",
+            "cells": [
+              "",
+              "16:00 – 18:00",
+              "16:00 – 19:00",
+              "16:00 – 19:00",
+              "",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "вторник",
+                "time": "16:00-18:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              },
+              {
+                "day": "среда",
+                "time": "16:00-19:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              },
+              {
+                "day": "четверг",
+                "time": "16:00-19:00",
+                "group": "",
+                "room": "кабинет 2 этаж, актовый зал"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Филиппова Елена Андреевна"
+        ],
+        "slots": 3,
+        "roomComparison": {
+          "status": "different_room_detail_between_summer_versions",
+          "htmlRoomClaims": [
+            "кабинет 2 этаж"
+          ],
+          "docxRoomClaims": [
+            "кабинет 2 этаж, актовый зал"
+          ],
+          "meaning": "One summer version mentions the assembly hall in addition to the second-floor office, the other does not. This does not establish a different autumn venue.",
+          "decision": "Preserve both exact claims; ask for autumn room together with timetable; no automatic room replacement."
+        }
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Ансамбль русской песни «Малина»», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-11",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Правовой клуб"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/10",
+      "activity": "Правовой клуб",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Правовой клуб",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "среда",
+              "time": "17:00-18:00",
+              "group": "Правовой клуб",
+              "room": "комната досуга 2 этаж"
+            },
+            {
+              "day": "пятница",
+              "time": "17:00-18:00",
+              "group": "Правовой клуб",
+              "room": "комната досуга 2 этаж"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          13
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 13,
+            "rawCells": [
+              "11",
+              "Правовой клуб \"Закон и порядок\"",
+              "Правовой клуб \"Закон и порядок\"",
+              "Иванова Ольга Сергеевна",
+              "комната досуга, 2 этаж, 1 группа",
+              "",
+              "",
+              "17:00 - 18:00",
+              "",
+              "17:00 - 18:00",
+              "",
+              ""
+            ],
+            "staff": "Иванова Ольга Сергеевна",
+            "roomAndGroup": "комната досуга, 2 этаж, 1 группа"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          56
+        ],
+        "docxGroups": [
+          {
+            "recordId": 56,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Правовой клуб «Закон и порядок»",
+            "group": "",
+            "staff": "Иванова Ольга Сергеевна отпуск 3 августа- 16 августа",
+            "venue": "Молодость",
+            "room": "комната досуга 2 этаж",
+            "cells": [
+              "",
+              "",
+              "17:00 – 18:00",
+              "",
+              "17:00 – 18:00",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "среда",
+                "time": "17:00-18:00",
+                "group": "",
+                "room": "комната досуга 2 этаж"
+              },
+              {
+                "day": "пятница",
+                "time": "17:00-18:00",
+                "group": "",
+                "room": "комната досуга 2 этаж"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Иванова Ольга Сергеевна"
+        ],
+        "slots": 2
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Правовой клуб», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-12",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Волонтёрство"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/11",
+      "activity": "Волонтёрство",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Волонтёрство",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "вторник",
+              "time": "17:00-18:00",
+              "group": "Волонтёрство",
+              "room": "комната досуга 2 этаж"
+            },
+            {
+              "day": "четверг",
+              "time": "17:00-18:00",
+              "group": "Волонтёрство",
+              "room": "комната досуга 2 этаж"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          14
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 14,
+            "rawCells": [
+              "12",
+              "Волонтерство",
+              "Волонтерство",
+              "Иванова Ольга Сергеевна",
+              "комната досуга, 2 этаж,",
+              "",
+              "17:00 - 18:00",
+              "",
+              "17:00 - 18:00",
+              "",
+              "",
+              ""
+            ],
+            "staff": "Иванова Ольга Сергеевна",
+            "roomAndGroup": "комната досуга, 2 этаж,"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          57
+        ],
+        "docxGroups": [
+          {
+            "recordId": 57,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Волонтерство",
+            "group": "",
+            "staff": "Иванова Ольга Сергеевна отпуск 3 августа- 16 августа",
+            "venue": "Молодость",
+            "room": "комната досуга 2 этаж",
+            "cells": [
+              "",
+              "17:00 – 18:00",
+              "",
+              "17:00 – 18:00",
+              "",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "вторник",
+                "time": "17:00-18:00",
+                "group": "",
+                "room": "комната досуга 2 этаж"
+              },
+              {
+                "day": "четверг",
+                "time": "17:00-18:00",
+                "group": "",
+                "room": "комната досуга 2 этаж"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Иванова Ольга Сергеевна"
+        ],
+        "slots": 2
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Волонтёрство», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-13",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Студия «Город мастеров»"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/12",
+      "activity": "Студия «Город мастеров»",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Студия «Город мастеров»",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "понедельник",
+              "time": "15:00-16:30",
+              "group": "Группа 1",
+              "room": "мастерская 1 этаж"
+            },
+            {
+              "day": "вторник",
+              "time": "15:00-16:30",
+              "group": "Группа 1",
+              "room": "мастерская 1 этаж"
+            },
+            {
+              "day": "четверг",
+              "time": "15:00-16:30",
+              "group": "Группа 1",
+              "room": "мастерская 1 этаж"
+            },
+            {
+              "day": "пятница",
+              "time": "15:00-16:30",
+              "group": "Группа 1",
+              "room": "мастерская 1 этаж"
+            },
+            {
+              "day": "понедельник",
+              "time": "16:30-18:00",
+              "group": "Группа 2",
+              "room": "мастерская 1 этаж"
+            },
+            {
+              "day": "вторник",
+              "time": "16:30-18:00",
+              "group": "Группа 2",
+              "room": "мастерская 1 этаж"
+            },
+            {
+              "day": "четверг",
+              "time": "16:30-18:00",
+              "group": "Группа 2",
+              "room": "мастерская 1 этаж"
+            },
+            {
+              "day": "пятница",
+              "time": "16:30-18:00",
+              "group": "Группа 2",
+              "room": "мастерская 1 этаж"
+            },
+            {
+              "day": "понедельник",
+              "time": "18:00-20:00",
+              "group": "Группа 3",
+              "room": "мастерская 1 этаж"
+            },
+            {
+              "day": "вторник",
+              "time": "18:00-20:00",
+              "group": "Группа 3",
+              "room": "мастерская 1 этаж"
+            },
+            {
+              "day": "четверг",
+              "time": "18:00-20:00",
+              "group": "Группа 3",
+              "room": "мастерская 1 этаж"
+            },
+            {
+              "day": "пятница",
+              "time": "18:00-20:00",
+              "group": "Группа 3",
+              "room": "мастерская 1 этаж"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          15,
+          16,
+          17
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 15,
+            "rawCells": [
+              "13",
+              "Студия",
+              "Студия",
+              "Емельянов Дмитрий Александрович",
+              "мастерская, 1 этаж, 1 группа",
+              "15:00 – 16:30",
+              "15:00 – 16:30",
+              "",
+              "15:00 – 16:30",
+              "15:00 – 16:30",
+              "",
+              ""
+            ],
+            "staff": "Емельянов Дмитрий Александрович",
+            "roomAndGroup": "мастерская, 1 этаж, 1 группа"
+          },
+          {
+            "sourceRowIndex": 16,
+            "rawCells": [
+              "",
+              "\"Город",
+              "\"Город",
+              "Емельянов Дмитрий Александрович",
+              "мастерская, 1 этаж, 2 группа",
+              "16:30 – 18:00",
+              "16:30 – 18:00",
+              "",
+              "16:30 – 18:00",
+              "16:30 – 18:00",
+              "",
+              ""
+            ],
+            "staff": "Емельянов Дмитрий Александрович",
+            "roomAndGroup": "мастерская, 1 этаж, 2 группа"
+          },
+          {
+            "sourceRowIndex": 17,
+            "rawCells": [
+              "",
+              "мастеров\"",
+              "мастеров\"",
+              "Емельянов Дмитрий Александрович",
+              "мастерская, 1 этаж, 3 группа",
+              "18:00 – 20:00",
+              "18:00 – 20:00",
+              "",
+              "18:00 – 20:00",
+              "18:00 – 20:00",
+              "",
+              ""
+            ],
+            "staff": "Емельянов Дмитрий Александрович",
+            "roomAndGroup": "мастерская, 1 этаж, 3 группа"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          58,
+          59,
+          60
+        ],
+        "docxGroups": [
+          {
+            "recordId": 58,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Студия «Город мастеров»",
+            "group": "Группа 1",
+            "staff": "Емельянов Дмитрий Александрович",
+            "venue": "Молодость",
+            "room": "мастерская 1 этаж, 1 группа",
+            "cells": [
+              "15:00 – 16:30",
+              "15:00 – 16:30",
+              "",
+              "15:00 – 16:30",
+              "15:00 – 16:30",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "понедельник",
+                "time": "15:00-16:30",
+                "group": "Группа 1",
+                "room": "мастерская 1 этаж, 1 группа"
+              },
+              {
+                "day": "вторник",
+                "time": "15:00-16:30",
+                "group": "Группа 1",
+                "room": "мастерская 1 этаж, 1 группа"
+              },
+              {
+                "day": "четверг",
+                "time": "15:00-16:30",
+                "group": "Группа 1",
+                "room": "мастерская 1 этаж, 1 группа"
+              },
+              {
+                "day": "пятница",
+                "time": "15:00-16:30",
+                "group": "Группа 1",
+                "room": "мастерская 1 этаж, 1 группа"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          },
+          {
+            "recordId": 59,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Студия «Город мастеров»",
+            "group": "Группа 2",
+            "staff": "Емельянов Дмитрий Александрович",
+            "venue": "Молодость",
+            "room": "мастерская 1 этаж, 2 группа",
+            "cells": [
+              "16:30 – 18:00",
+              "16:30 – 18:00",
+              "",
+              "16:30 – 18:00",
+              "16:30 – 18:00",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "понедельник",
+                "time": "16:30-18:00",
+                "group": "Группа 2",
+                "room": "мастерская 1 этаж, 2 группа"
+              },
+              {
+                "day": "вторник",
+                "time": "16:30-18:00",
+                "group": "Группа 2",
+                "room": "мастерская 1 этаж, 2 группа"
+              },
+              {
+                "day": "четверг",
+                "time": "16:30-18:00",
+                "group": "Группа 2",
+                "room": "мастерская 1 этаж, 2 группа"
+              },
+              {
+                "day": "пятница",
+                "time": "16:30-18:00",
+                "group": "Группа 2",
+                "room": "мастерская 1 этаж, 2 группа"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          },
+          {
+            "recordId": 60,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Студия «Город мастеров»",
+            "group": "Группа 3",
+            "staff": "Емельянов Дмитрий Александрович",
+            "venue": "Молодость",
+            "room": "мастерская 1 этаж, 3 группа",
+            "cells": [
+              "18:00 – 20:00",
+              "18:00 – 20:00",
+              "",
+              "18:00 – 20:00",
+              "18:00 – 20:00",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "понедельник",
+                "time": "18:00-20:00",
+                "group": "Группа 3",
+                "room": "мастерская 1 этаж, 3 группа"
+              },
+              {
+                "day": "вторник",
+                "time": "18:00-20:00",
+                "group": "Группа 3",
+                "room": "мастерская 1 этаж, 3 группа"
+              },
+              {
+                "day": "четверг",
+                "time": "18:00-20:00",
+                "group": "Группа 3",
+                "room": "мастерская 1 этаж, 3 группа"
+              },
+              {
+                "day": "пятница",
+                "time": "18:00-20:00",
+                "group": "Группа 3",
+                "room": "мастерская 1 этаж, 3 группа"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Емельянов Дмитрий Александрович"
+        ],
+        "slots": 12
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Студия «Город мастеров»», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-14",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Студия ИЗО «ИРИС»"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/13",
+      "activity": "Студия ИЗО «ИРИС»",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Студия ИЗО «ИРИС»",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "понедельник",
+              "time": "11:00-14:00",
+              "group": "Студия ИЗО «ИРИС»",
+              "room": "кабинет 2 этаж"
+            },
+            {
+              "day": "среда",
+              "time": "11:00-14:00",
+              "group": "Студия ИЗО «ИРИС»",
+              "room": "кабинет 2 этаж"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          18
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 18,
+            "rawCells": [
+              "14",
+              "Студия ИЗО \"ИРИС\"",
+              "Студия ИЗО \"ИРИС\"",
+              "Абрамова Полина Романовна",
+              "кабинет 2 этаж",
+              "11:00 - 14:00",
+              "",
+              "11:00 - 14:00",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "staff": "Абрамова Полина Романовна",
+            "roomAndGroup": "кабинет 2 этаж"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          61
+        ],
+        "docxGroups": [
+          {
+            "recordId": 61,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Студия ИЗО «ИРИС»",
+            "group": "",
+            "staff": "Абрамова Полина Романовна отпуск 22 июня- 19 июля",
+            "venue": "Молодость",
+            "room": "кабинет 2 этаж",
+            "cells": [
+              "11:00 – 14:00",
+              "",
+              "11:00 – 14:00",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "понедельник",
+                "time": "11:00-14:00",
+                "group": "",
+                "room": "кабинет 2 этаж"
+              },
+              {
+                "day": "среда",
+                "time": "11:00-14:00",
+                "group": "",
+                "room": "кабинет 2 этаж"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Абрамова Полина Романовна"
+        ],
+        "slots": 2
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Студия ИЗО «ИРИС»», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-15",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Студия ИЗО «С.Т.Арт»"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/14",
+      "activity": "Студия ИЗО «С.Т.Арт»",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Студия ИЗО «С.Т.Арт»",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "вторник",
+              "time": "17:30-19:30",
+              "group": "Студия ИЗО «С.Т.Арт»",
+              "room": "кабинет 2 этаж"
+            },
+            {
+              "day": "четверг",
+              "time": "17:30-19:30",
+              "group": "Студия ИЗО «С.Т.Арт»",
+              "room": "кабинет 2 этаж"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          19
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 19,
+            "rawCells": [
+              "15",
+              "Студия ИЗО \"С.Т.Арт\"",
+              "Студия ИЗО \"С.Т.Арт\"",
+              "Абрамова Полина Романовна",
+              "кабинет 2 этаж",
+              "",
+              "17:30 - 19:30",
+              "",
+              "17:30 - 19:30",
+              "",
+              "",
+              ""
+            ],
+            "staff": "Абрамова Полина Романовна",
+            "roomAndGroup": "кабинет 2 этаж"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          62
+        ],
+        "docxGroups": [
+          {
+            "recordId": 62,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Студия ИЗО «С.Т.Арт»",
+            "group": "",
+            "staff": "Абрамова Полина Романовна отпуск 22 июня- 19 июля",
+            "venue": "Молодость",
+            "room": "кабинет 2 этаж",
+            "cells": [
+              "",
+              "17:30 – 19:30",
+              "",
+              "17:30 – 19:30",
+              "",
+              "",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "вторник",
+                "time": "17:30-19:30",
+                "group": "",
+                "room": "кабинет 2 этаж"
+              },
+              {
+                "day": "четверг",
+                "time": "17:30-19:30",
+                "group": "",
+                "room": "кабинет 2 этаж"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Абрамова Полина Романовна"
+        ],
+        "slots": 2
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Студия ИЗО «С.Т.Арт»», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    },
+    {
+      "id": "M-16",
+      "organization": "molodost",
+      "clubName": "Молодость",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "catalogSelector": {
+        "organization": "molodost",
+        "name": "Молодость",
+        "activity": "Студия «Практическое рисование»"
+      },
+      "catalogPointerAtBaseline": "/5/activitySchedule/15",
+      "activity": "Студия «Практическое рисование»",
+      "summer": {
+        "effectiveFrom": "2026-06-01",
+        "effectiveTo": "2026-08-31",
+        "funding": "free",
+        "fundingEvidence": "user DOCX title says бесплатных; original source is preserved, separate paid HTML table excluded",
+        "catalogSchedule": {
+          "activity": "Студия «Практическое рисование»",
+          "sourceType": "official_web",
+          "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+          "sourceCheckedAt": "2026-10-24",
+          "sourcePeriod": "архив: лето 2026",
+          "effectiveFrom": "2026-06-01",
+          "effectiveTo": "2026-08-31",
+          "seasonalStatus": "expired",
+          "sourceNote": "Архивный летний график: с 01.06.2026 по 31.08.2026. Срок его действия завершён; актуальные осенние дни и время уточни у клуба.",
+          "schedule": [
+            {
+              "day": "суббота",
+              "time": "13:30-15:30",
+              "group": "Группа 1",
+              "room": "кабинет 2 этаж"
+            },
+            {
+              "day": "суббота",
+              "time": "15:30-17:30",
+              "group": "Группа 2",
+              "room": "кабинет 2 этаж"
+            }
+          ]
+        },
+        "sourceId": "m-summer",
+        "tableIndex": 0,
+        "rowIndices": [
+          20
+        ],
+        "sourceRows": [
+          {
+            "sourceRowIndex": 20,
+            "rawCells": [
+              "16.",
+              "Студия \"Практическое рисование\"",
+              "Студия \"Практическое рисование\"",
+              "Нестеренко Диана Максимовна",
+              "кабинет 2 этаж, (группа 1) кабинет 2 этаж, (группа 2)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "13:30 – 15:30 15:30 – 17:30",
+              ""
+            ],
+            "staff": "Нестеренко Диана Максимовна",
+            "roomAndGroup": "кабинет 2 этаж, (группа 1) кабинет 2 этаж, (группа 2)"
+          }
+        ],
+        "docxTranscriptionRecordIds": [
+          63,
+          64
+        ],
+        "docxGroups": [
+          {
+            "recordId": 63,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Студия «Практическое рисование»",
+            "group": "Группа 1",
+            "staff": "Нестеренко Диана Максимовна отпуск 03 августа- 30 августа",
+            "venue": "Молодость",
+            "room": "кабинет 2 этаж (группа 1)",
+            "cells": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "13:30 – 15:30",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "суббота",
+                "time": "13:30-15:30",
+                "group": "Группа 1",
+                "room": "кабинет 2 этаж (группа 1)"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          },
+          {
+            "recordId": 64,
+            "center": "molodost",
+            "sourceType": "user_docx",
+            "sourcePath": "C:\\Users\\Иван да Марья\\Downloads\\Grafik_raboty_besplatnykh_kruzhkov_tsentra_s_01_06_2026_g.docx",
+            "sourceSha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+            "sourceUrl": "https://molodost.kurort.gov.spb.ru/grafik-raboty-studij-i-sekcij-s-01062026-g---po-31082026-g/",
+            "activity": "Студия «Практическое рисование»",
+            "group": "Группа 2",
+            "staff": "Нестеренко Диана Максимовна отпуск 03 августа- 30 августа",
+            "venue": "Молодость",
+            "room": "кабинет 2 этаж (группа 2)",
+            "cells": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "15:30 – 17:30",
+              ""
+            ],
+            "slots": [
+              {
+                "day": "суббота",
+                "time": "15:30-17:30",
+                "group": "Группа 2",
+                "room": "кабинет 2 этаж (группа 2)"
+              }
+            ],
+            "kind": "regular",
+            "funding": "free",
+            "effectiveFrom": "2026-06-01",
+            "effectiveTo": "2026-08-31",
+            "sourcePeriod": "архив: лето 2026",
+            "notes": []
+          }
+        ],
+        "staffFromHtml": [
+          "Нестеренко Диана Максимовна"
+        ],
+        "slots": 2
+      },
+      "autumn2026": {
+        "status": "not_found_in_checked_public_sources",
+        "schedule": null,
+        "effectiveFrom": null,
+        "effectiveTo": null,
+        "funding": null,
+        "staff": null,
+        "searchedSourceIds": [
+          "m-root",
+          "m-summer",
+          "m-sitemap",
+          "m-news",
+          "m-documents",
+          "m-about",
+          "m-events",
+          "m-reports",
+          "gov-kurort",
+          "city-index",
+          "city-molodost"
+        ],
+        "scopeLimit": "VK posts not observed: browser site-safety policy denied access; no claim that autumn schedule does not exist elsewhere.",
+        "missingAnswer": "Каковы осенние дни и точные часы направления «Студия «Практическое рисование»», дата начала и срок действия, группы/возраст, преподаватель, помещение и бесплатность каждой группы? Есть ли действующий документ или публикация?"
+      },
+      "decision": "preserve_archived_summer_schedule_without_extension; no current-time import",
+      "verification": {
+        "freshHtmlDaysTimesMatchBaseline": true,
+        "docxDaysTimesMatchBaseline": true
+      }
+    }
+  ],
+  "clarifications": [
+    {
+      "id": "Q-FLOOR",
+      "group": "tennis_floor",
+      "organization": "molodost",
+      "activity": "Настольный теннис",
+      "status": "unresolved_conflict",
+      "address": "пос. Песочный, ул. Карла Маркса, д. 57А, лит. А",
+      "claims": [
+        {
+          "sourceId": "m-summer",
+          "tableIndex": 0,
+          "rowIndex": 5,
+          "quote": "кабинет настольного тенниса, 2 эт., 1 группа",
+          "meaning": "первая группа, 2 этаж"
+        },
+        {
+          "sourceId": "m-summer",
+          "tableIndex": 0,
+          "rowIndex": 6,
+          "quote": "кабинет настольного тенниса, 1 эт., 2 группа",
+          "meaning": "вторая группа, 1 этаж"
+        },
+        {
+          "sourcePath": "outputs/S-75-R1/baseline/molodost-summer-original.docx",
+          "sha256": "875d24b7795d56892807f47a56f9de0d760b369897a42725b0129092a6775366",
+          "tableIndex": 0,
+          "rowIndex": 6,
+          "cellIndex": 3,
+          "quote": "Зал настольного тенниса, 2 эт., 2 группа",
+          "meaning": "вторая группа, 2 этаж"
+        }
+      ],
+      "currentSchedule": null,
+      "decision": "retain «этаж уточни» for group 2; keep both summer sources; never choose a floor by majority or extrapolate to autumn",
+      "question": "На каком этаже осенью 2026 занимается каждая группа настольного тенниса? В летнем HTML для второй группы указан 1 этаж, в присланном летнем DOCX 2 этаж. Просим актуальный документ с помещением."
+    },
+    {
+      "id": "Q-FITNESS",
+      "group": "fitness_hours",
+      "organization": "voshod",
+      "clubName": "Восход: Володарского",
+      "address": "г. Сестрорецк, ул. Володарского, д. 21",
+      "activities": [
+        "Фитнес",
+        "Пилатес",
+        "Функционально-силовая тренировка"
+      ],
+      "status": "current_free_hours_not_found",
+      "claims": [
+        {
+          "sourceId": "v-activities",
+          "quote": "0, зал дзюдо\nhttps://vk.com/sportvoshod\nФитнес\nДубенская Елизавета Евгеньевна\n+7 952 231 04 44\nПавлова Ольга Николаевна\n+7 921 649 61 56\nСестрорецк, ул. Володарского, 21, зал аэробики\nhttps://vk.com/sportvoshod\nВольная борьба\nЦатурян Юрий Андреевич\n+7 921 303 71 31\nМагомедов Анвар Алавдинович\n+7 921 355 38 55\nСевастьянов Александр Георгие",
+          "meaning": "адрес и специалисты есть, часы отсутствуют"
+        },
+        {
+          "sourceId": "city-voshod",
+          "page": 1,
+          "row": "Володарского, д.21",
+          "quote": "Фитнес | 7; платные: Аэробная гимнастика, стретчинг, pro-фитнес | 4",
+          "meaning": "разделение бесплатных и платных направлений; документ без подтверждённого периода действия и без учебных часов"
+        },
+        {
+          "sourcePath": "outputs/S-75-R1/baseline/6-kurortny-official-evidence.json",
+          "kind": "user_note_from_2026-10-24",
+          "quote": "ет * ОФП С БАЗОВЫМИ ЭЛЕМЕНТАМИ ДЗЮДО (платная группа)- от 4 до 7 лет в секциях фитнеса: * ПИЛАТЕС 14 -35 лет * ФУНКЦИОНАЛЬНО-СИЛОВАЯ ТРЕНИРОВКА (ФСТ)- 14 - 35 лет * АЭРОБНАЯ ГИМНАСТИКА (платная группа) 36 лет и старше в секции НАСТОЛЬНОГО ТЕННИСА 14 -35 лет Интересны экстремальные виды спорта?! Ждем тебя в: * ШКОЛЕ КАСКАДЕРСТВА 14 - 35 лет * ПАРАШЮТНОМ МНОГОБОРЬЕ 14- 35 лет Не забудь поддерживать свое тело в тонусе в секции АТЛЕТИЗМА - 14-35 лет Не можешь представить свою жизнь без помощи другим? Или хочешь начать делать добрые дела, ",
+          "meaning": "историческое пользовательское свидетельство о бесплатных пилатесе и ФСТ для 14-35; осенний график/набор не подтверждает"
+        },
+        {
+          "sourceId": "v-open-day-2019",
+          "quote": "арев  Владимир Вячеславович 16.00-21.00\n04.09  зал аэробики(танцевальная аэробика до 14 лет, пилатес,функционально силовые тренировки 14-30лет)ул.Володарского,д.21\nНестерова Елена Александровна,Павлова Ольга Николаевна 17.00-21.30\n05.09   Самбо?‍♀️ (Приморское шоссе,д 280 ,Зал Борьбы)Печкарев Александр Михайлович 15.00-18.00\n04,05,06.09 Дзюдо? (Приморское шоссе, д 280, зал дзюдо) \nПавлов Станислав Николаевич, Дейч Михаил Ильич,Фомин Леонид Сергеевич \n16.00-20.00\n08.",
+          "meaning": "разовое мероприятие 4 сентября 2019; 17.00-21.30 не является текущей регулярной сеткой"
+        },
+        {
+          "sourceId": "v-paid-image-0",
+          "quote": "График занятий ... на платной основе на 2025г; №153 от 17.11.2025",
+          "meaning": "платные часы 2025 нельзя переносить в бесплатные группы 2026"
+        }
+      ],
+      "checkedSourceIds": [
+        "v-root",
+        "v-activities",
+        "v-about",
+        "v-contacts",
+        "v-paid",
+        "v-search-fitness",
+        "v-search-pilates",
+        "v-search-fst",
+        "v-fitness-page",
+        "v-open-day-2019",
+        "city-voshod"
+      ],
+      "currentSchedule": null,
+      "decision": "keep free direction names and missing times; reject paid 2025/event 2019 hours as current free schedule",
+      "question": "Каковы отдельные осенние дни и интервалы 2026 для бесплатных фитнеса, пилатеса и ФСТ на Володарского, 21? Нужны группы, возраст, преподаватель, помещение, период действия и наличие набора. Какие одноимённые группы платные?"
+    },
+    {
+      "id": "Q-ART",
+      "group": "art_studio_hours",
+      "organization": "sniper",
+      "clubName": "Снайпер: Исполкомская",
+      "address": "г. Зеленогорск, ул. Исполкомская, д. 5, лит. А",
+      "activity": "АРТ-студия «Творческая мастерская»",
+      "status": "current_hours_not_found; affiliation_and_staff_need_clarification",
+      "claims": [
+        {
+          "sourceId": "s-card-16",
+          "quote": "ча\", АРТстудия\n12-01-2026, 01:37\n0\n40\n0\nХУДОЖЕСТВЕННОЕ НАПРАВЛЕНИЕ:  Рябченко-Лякс Виктор Александрович\"\nПоделиться\nCtrl\nEnter\nЗаметили ош\nЫ\nбку\nВыделите текст и нажмите\nCtrl+Enter\nglebvas2\n{user-info}\nПрофиль\nПубликации ({news-num})\nКомментарии ({comm-num})\nПохожие статьи\nКружки и секции\n",
+          "publicationDate": "2026-01-12",
+          "meaning": "объединённый заголовок «Встреча», АРТстудия и Виктор Александрович; отдельной сетки АРТ нет"
+        },
+        {
+          "sourceId": "s-october-session",
+          "page": 1,
+          "rowNumber": 3,
+          "quote": "Рябченко –Лякс Виктор Александрович | Молодежный клуб «Встреча» | пятница 16.00-21.00; суббота 12.00-17.00 | ул. Исполкомская, д. 5, 1 этаж",
+          "meaning": "два интервала относятся к «Встрече», не к отдельной АРТ-студии"
+        },
+        {
+          "sourcePath": "outputs/S-75-R1/baseline/6-kurortny-official-evidence.json",
+          "kind": "user_note_from_2026-10-24",
+          "quote": "дреевна \" Турлидер\" [https://vk.ru/turlider7](https://vk.ru/turlider7) 12. Рябченко- Лякс наталья Сергеевна АРТ студия [https://vk.ru/public207128649](https://vk.ru/public207128649) 7 ПРИЧИН ВНЕСЕНИЯ В ЧЕРНЫЙ СПИСОК: Агрессивные комментарии Токсичные сообщения Отсутствие этикета общения Спам или мошенничество Негативные отзывы о честной работе Непристойные предложения\n\n#### Кружки и секции на бюджетной основе\n\n---\n\n#### [+7 (812) 433-51-52](tel:78124335152)\n\n#### pmcsniper\n\n#### [http://xn----8sbppmhlfke7c.xn--p1ai/](https://vk.ru/awa",
+          "meaning": "АРТ отдельно связана с Натальей Сергеевной; текущая должность и часы не доказаны"
+        }
+      ],
+      "currentSchedule": null,
+      "decision": "do not copy Vstrecha hours into ART, do not merge staff roles; keep missing ART schedule",
+      "question": "АРТ-студия «Творческая мастерская» осенью 2026 работает отдельно от клуба «Встреча»? Кто ведёт её, каковы дни, часы, возраст/группы, помещение, бесплатность и период действия? Просим отдельную строку или документ."
+    },
+    {
+      "id": "Q-STAFF",
+      "group": "staff_composition",
+      "organization": "sniper",
+      "activity": "ОФП смешанных видов спорта",
+      "status": "unresolved_staff_conflict; two_gym_staff_are_distinct_rows",
+      "claims": [
+        {
+          "sourceId": "s-card-9",
+          "quote": " видов спорта)\n12-01-2026, 01:04\n0\n83\n0\nСПОРТИВНОЕ НАПРАВЛЕНИЕ:\nГорскова Валентина Витальевна\nПоделиться\nCtrl\nEnter\nЗаметили ош\nЫ\nбку\nВыделите текст и нажмите\nCtrl+Enter\nglebvas2\n{user-info}",
+          "publicationDate": "2026-01-12"
+        },
+        {
+          "sourceId": "s-october-session",
+          "page": 1,
+          "rowNumber": 2,
+          "quote": "Березун Валентина Витальевна | ОФП смешанных видов спорта",
+          "effectiveFrom": "2026-10-12"
+        },
+        {
+          "sourcePath": "outputs/S-75-R1/baseline/6-kurortny-official-evidence.json",
+          "quote": "ub23234353](http://vk.ru/club23234353) 2 Курдупова Ксения Игоревна танцевальный фитнес 3. Горскова Валентина Витальевна ОФП (смешанных видов спорта) [https://vk.ru/public203195042](https://vk.ru/public203195042) 4.Изоитко Алексей Дмитриевич Шахматы для всей семьи [https://vk.ru/club84560668](https://vk.ru/club84560668) 5.Головко Валентина Андрисовна «Добровольцы ПМЦ» [http://vk.ru/club95558098](http://vk.ru/club95558098) 6. Рябченко-Лякс Виктор Александрович\" \"Молодежный клуб \"Встреча\" [https://vk.ru/club208321255](https://vk.ru/club2",
+          "kind": "user_note_from_2026-10-24"
+        }
+      ],
+      "acceptedScheduleOrigin": "s-october-session, current October document; existing timetable preserved",
+      "staffHoursExcluded": [
+        {
+          "rowNumber": 1,
+          "activity": "Специалист по социальной работе с молодежью",
+          "staff": "Головко Валентина Андрисовна",
+          "slots": [
+            {
+              "day": "понедельник",
+              "time": "09:00-16:30"
+            },
+            {
+              "day": "вторник",
+              "time": "09:00-18:30"
+            },
+            {
+              "day": "среда",
+              "time": "09:00-18:30"
+            },
+            {
+              "day": "четверг",
+              "time": "09:00-16:30"
+            },
+            {
+              "day": "пятница",
+              "time": "09:00-18:30"
+            }
+          ]
+        },
+        {
+          "rowNumber": 2,
+          "activity": "Специалист по организации молодежных мероприятий",
+          "staff": "Березун Валентина Витальевна",
+          "slots": [
+            {
+              "day": "понедельник",
+              "time": "12:00-17:00"
+            },
+            {
+              "day": "вторник",
+              "time": "12:00-17:00"
+            },
+            {
+              "day": "среда",
+              "time": "12:00-17:00"
+            },
+            {
+              "day": "четверг",
+              "time": "12:00-17:00"
+            }
+          ]
+        }
+      ],
+      "notAConflict": {
+        "sourceId": "s-october-session",
+        "page": 1,
+        "rows": [
+          8,
+          12
+        ],
+        "staff": [
+          "Жердецкий Григорий Васильевич",
+          "Мартюшина Нина Борисовна"
+        ],
+        "meaning": "два отдельных специалиста тренажёрного зала с разными часами; не заменять одного другим и не смешивать с ОФП смешанных видов спорта"
+      },
+      "decision": "preserve both conflicting source claims; no inferred rename, dismissal or replacement; exclude the 9 staff-duty intervals from class hours",
+      "question": "Кто сейчас ведёт ОФП смешанных видов спорта: Березун Валентина Витальевна или Горскова Валентина Витальевна? Это смена фамилии, замена специалиста или ошибка документа? С какой даты действует информация? Отдельно подтвердите преподавателя АРТ-студии."
+    },
+    {
+      "id": "Q-PRIVOKZALNAYA",
+      "group": "privokzalnaya_free_groups",
+      "organization": "sniper",
+      "clubName": "Снайпер: Привокзальная",
+      "address": "г. Зеленогорск, Привокзальная ул., д. 7",
+      "status": "current_free_groups_and_schedule_not_confirmed",
+      "claims": [
+        {
+          "sourceId": "city-sniper",
+          "page": 1,
+          "rowNumber": 3,
+          "quote": "г. Зеленогорск, Привокзальная ул.,7 | физкультурно - спортивное | 0 | 0",
+          "meaning": "в этом недатированном перечне нет бесплатных групп; это не доказательство закрытия или отсутствия занятий сейчас"
+        },
+        {
+          "sourceId": "s-october-session",
+          "page": 1,
+          "quote": "База: ул. Исполкомская, д. 5; пр. Ленина, д. 25",
+          "meaning": "Привокзальная, 7 не фигурирует в октябрьской сетке"
+        }
+      ],
+      "currentSchedule": null,
+      "decision": "do not invent free classes or operating/closure status; keep existing address record and missing schedule",
+      "question": "Есть ли осенью 2026 действующие бесплатные группы по адресу Привокзальная, 7? Если да, нужны названия, возраст, руководители, дни/часы, помещения и период действия; если нет, что за формат площадки работает сейчас?"
+    }
+  ],
+  "paidContrastsExcluded": [
+    {
+      "id": "M-PAID-MOLNIYA",
+      "sourceId": "m-summer",
+      "tableIndex": 1,
+      "rowIndices": [
+        2
+      ],
+      "activity": "Секция по дзюдо «Молния»",
+      "staff": "Шариков Владимир Федорович",
+      "funding": "paid",
+      "effectiveFrom": "2026-06-01",
+      "effectiveTo": "2026-08-31",
+      "groups": [
+        {
+          "group": "1 группа",
+          "room": "Спортивный зал, 1 этаж",
+          "slots": [
+            {
+              "day": "среда",
+              "time": "14:30-15:30"
+            },
+            {
+              "day": "воскресенье",
+              "time": "12:00-13:00"
+            }
+          ]
+        }
+      ],
+      "decision": "exclude from free Дзюдо; summer only"
+    },
+    {
+      "id": "M-PAID-TVORCHESTVO",
+      "sourceId": "m-summer",
+      "tableIndex": 1,
+      "rowIndices": [
+        3,
+        4
+      ],
+      "activity": "Студия изобразительного искусства «Творчество»",
+      "staff": "Нестеренко Диана Максимовна",
+      "funding": "paid",
+      "effectiveFrom": "2026-06-01",
+      "effectiveTo": "2026-08-31",
+      "groups": [
+        {
+          "group": "1 группа",
+          "room": "Кабинет ИЗО, 2 этаж",
+          "slots": [
+            {
+              "day": "суббота",
+              "time": "11:30-12:30"
+            }
+          ]
+        },
+        {
+          "group": "2 группа",
+          "room": "Кабинет ИЗО, 2 этаж",
+          "slots": [
+            {
+              "day": "суббота",
+              "time": "12:30-13:30"
+            }
+          ]
+        }
+      ],
+      "decision": "exclude from free art studios; summer only"
+    },
+    {
+      "id": "V-PAID-AEROBICS",
+      "sourceId": "v-paid-image-0",
+      "sourcePeriod": "2025; approved order №153 of 17.11.2025",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "activity": "Аэробная гимнастика",
+      "funding": "paid",
+      "address": "Сестрорецк, ул. Володарского, д.21",
+      "staff": "Павлова Ольга Николаевна",
+      "slots": [
+        {
+          "day": "понедельник",
+          "time": "09:00-10:00"
+        },
+        {
+          "day": "четверг",
+          "time": "09:00-10:00"
+        },
+        {
+          "day": "понедельник",
+          "time": "21:00-22:00"
+        },
+        {
+          "day": "четверг",
+          "time": "21:00-22:00"
+        }
+      ],
+      "decision": "historical paid source; do not import as current free fitness"
+    },
+    {
+      "id": "V-PAID-STRETCH",
+      "sourceId": "v-paid-image-0",
+      "sourcePeriod": "2025; approved order №153 of 17.11.2025",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "activity": "Стретчинг",
+      "funding": "paid",
+      "address": "Сестрорецк, ул. Володарского, д.21",
+      "staff": "Дубенская Елизавета Евгеньевна",
+      "slots": [
+        {
+          "day": "вторник",
+          "time": "21:00-22:00"
+        },
+        {
+          "day": "пятница",
+          "time": "21:00-22:00"
+        }
+      ],
+      "decision": "historical paid source; do not import as current free pilates/FST"
+    },
+    {
+      "id": "V-PAID-PRO",
+      "sourceId": "v-paid-image-0",
+      "sourcePeriod": "2025; approved order №153 of 17.11.2025",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "activity": "PRO-ФИТНЕС",
+      "funding": "paid",
+      "address": "Сестрорецк, ул. Володарского, д.21",
+      "staff": "Плотникова Екатерина Алексеевна",
+      "slots": [
+        {
+          "day": "воскресенье",
+          "time": "12:00-13:00"
+        }
+      ],
+      "decision": "historical paid source; do not import as current free fitness"
+    }
+  ],
+  "importPlan": {
+    "publicCatalogPatches": [],
+    "reason": "No new verified current timetable or floor/staff resolution. Preserve all 16 summer archives, their date bounds and separate paid groups.",
+    "researchOnlyActions": [
+      {
+        "action": "append dated evidence references after acceptance",
+        "target": "data/research/kurortny-official-evidence.json",
+        "evidence": "S-75-R1.sourceIndex + autumnComparisons + clarifications",
+        "executeNow": false
+      },
+      {
+        "action": "preserve original transcription and attach verification of fresh/old source identity",
+        "target": "data/research/kurortny-schedule-transcription-2026-10-24.json",
+        "evidence": "outputs/S-75-R1/verification.json",
+        "executeNow": false
+      },
+      {
+        "action": "record acceptance and six outstanding question groups in the controlling register",
+        "target": "YoungRussiaOBS/СТАТУС-САЙТА-И-ЗАДАЧИ.md",
+        "executeNow": false
+      }
+    ],
+    "doNotChange": [
+      "16 expired summer schedule effectiveFrom/effectiveTo/seasonalStatus",
+      "tennis group 2 floor clarification",
+      "fitness and ART missing current hours",
+      "free vs paid direction separation",
+      "existing staff-duty exclusions",
+      "catalog sourceCheckedAt indiscriminately across fields not reviewed"
+    ],
+    "futureImportRequirements": [
+      "New official autumn source linked to each activity/group with exact days/times, funding, venue and effective period.",
+      "Keep summer records as archives; add separately dated autumn version, never overwrite old evidence.",
+      "Do not import 2019 event hours, 2025 paid hours, staff-duty hours or Vstrecha hours into ART."
+    ]
+  },
+  "questionsForOrganizersNotSent": [
+    {
+      "id": "Q-AUTUMN",
+      "organization": "molodost",
+      "question": "Просим действующее осеннее расписание 2026 для всех 16 направлений из приложения M-01–M-16, с периодом, группами, возрастом, днями, точным временем, преподавателями, помещениями и бесплатностью каждой группы. Летний график 01.06–31.08.2026 сохранить как архив."
+    },
+    {
+      "id": "Q-FLOOR",
+      "organization": "molodost",
+      "question": "На каком этаже осенью 2026 занимается каждая группа настольного тенниса? В летнем HTML для второй группы указан 1 этаж, в присланном летнем DOCX 2 этаж. Просим актуальный документ с помещением."
+    },
+    {
+      "id": "Q-FITNESS",
+      "organization": "voshod",
+      "question": "Каковы отдельные осенние дни и интервалы 2026 для бесплатных фитнеса, пилатеса и ФСТ на Володарского, 21? Нужны группы, возраст, преподаватель, помещение, период действия и наличие набора. Какие одноимённые группы платные?"
+    },
+    {
+      "id": "Q-ART",
+      "organization": "sniper",
+      "question": "АРТ-студия «Творческая мастерская» осенью 2026 работает отдельно от клуба «Встреча»? Кто ведёт её, каковы дни, часы, возраст/группы, помещение, бесплатность и период действия? Просим отдельную строку или документ."
+    },
+    {
+      "id": "Q-STAFF",
+      "organization": "sniper",
+      "question": "Кто сейчас ведёт ОФП смешанных видов спорта: Березун Валентина Витальевна или Горскова Валентина Витальевна? Это смена фамилии, замена специалиста или ошибка документа? С какой даты действует информация? Отдельно подтвердите преподавателя АРТ-студии."
+    },
+    {
+      "id": "Q-PRIVOKZALNAYA",
+      "organization": "sniper",
+      "question": "Есть ли осенью 2026 действующие бесплатные группы по адресу Привокзальная, 7? Если да, нужны названия, возраст, руководители, дни/часы, помещения и период действия; если нет, что за формат площадки работает сейчас?"
+    }
+  ],
+  "sourceIdentityChecks": [
+    {
+      "sourceId": "v-activities-pdf-15",
+      "previousPath": "outputs/kurortny-official-2026-10-24/document-0.pdf",
+      "previousSha256": "3e6424e3ecfb5bcc476e3256b6e11b5da092e7298790d65527d11c3b515a1a9d",
+      "freshSha256": "3e6424e3ecfb5bcc476e3256b6e11b5da092e7298790d65527d11c3b515a1a9d",
+      "identical": true
+    },
+    {
+      "sourceId": "v-activities-pdf-17",
+      "previousPath": "outputs/kurortny-official-2026-10-24/document-1.pdf",
+      "previousSha256": "8a8eea351f62e2d38ac8a8b3359b3465e52cff02867cb269260fc50a42ad283d",
+      "freshSha256": "8a8eea351f62e2d38ac8a8b3359b3465e52cff02867cb269260fc50a42ad283d",
+      "identical": true
+    },
+    {
+      "sourceId": "v-activities-pdf-19",
+      "previousPath": "outputs/kurortny-official-2026-10-24/document-2.pdf",
+      "previousSha256": "51f430316878a1aa303ad6ffb7f3f6bba2a30cf2a80692fd44b98d6cc3c46b30",
+      "freshSha256": "51f430316878a1aa303ad6ffb7f3f6bba2a30cf2a80692fd44b98d6cc3c46b30",
+      "identical": true
+    },
+    {
+      "sourceId": "v-activities-pdf-21",
+      "previousPath": "outputs/kurortny-official-2026-10-24/document-3.pdf",
+      "previousSha256": "669e0f58ac40a2c82e9ed55e1a8ba0cc54930368d0bc08f7a004b206f184e9ae",
+      "freshSha256": "669e0f58ac40a2c82e9ed55e1a8ba0cc54930368d0bc08f7a004b206f184e9ae",
+      "identical": true
+    },
+    {
+      "sourceId": "v-activities-pdf-23",
+      "previousPath": "outputs/kurortny-official-2026-10-24/document-4.pdf",
+      "previousSha256": "a3f1aef797ab01e3cf7f716a5b680446aa4415534d0ab922fe00d67516f0b9f6",
+      "freshSha256": "a3f1aef797ab01e3cf7f716a5b680446aa4415534d0ab922fe00d67516f0b9f6",
+      "identical": true
+    },
+    {
+      "sourceId": "v-activities-pdf-25",
+      "previousPath": "outputs/kurortny-official-2026-10-24/document-5.pdf",
+      "previousSha256": "41bc185713ef35049725c014b74cee296439ac7dd6ae223b7a02d66dba3cc5aa",
+      "freshSha256": "41bc185713ef35049725c014b74cee296439ac7dd6ae223b7a02d66dba3cc5aa",
+      "identical": true
+    },
+    {
+      "sourceId": "v-activities-pdf-27",
+      "previousPath": "outputs/kurortny-official-2026-10-24/document-6.pdf",
+      "previousSha256": "7967c82cc2b69cf2e725ff3c597ce8229cbaab40d2df1ffbb9ba3114c7b771b1",
+      "freshSha256": "7967c82cc2b69cf2e725ff3c597ce8229cbaab40d2df1ffbb9ba3114c7b771b1",
+      "identical": true
+    },
+    {
+      "sourceId": "s-october-session",
+      "previousPath": "outputs/kurortny-official-2026-10-24/document-7.pdf",
+      "previousSha256": "f8ba12891a169a32e53689c67893932c46723fd03aee5d13a60fff95d3d2deda",
+      "freshSha256": "f8ba12891a169a32e53689c67893932c46723fd03aee5d13a60fff95d3d2deda",
+      "identical": true
+    },
+    {
+      "sourceId": "city-voshod",
+      "previousPath": "outputs/kurortny-official-2026-10-24/document-10.pdf",
+      "previousSha256": "1c53edf6fa539fe71c2455eaef932eb9500fd4a389eb71018af5cc36efeb031f",
+      "freshSha256": "1c53edf6fa539fe71c2455eaef932eb9500fd4a389eb71018af5cc36efeb031f",
+      "identical": true
+    },
+    {
+      "sourceId": "city-molodost",
+      "previousPath": "outputs/kurortny-official-2026-10-24/document-11.pdf",
+      "previousSha256": "509ff41f4ab362d24def495c6429dbea80979a4b74a5e30fb5e99617849b9c19",
+      "freshSha256": "509ff41f4ab362d24def495c6429dbea80979a4b74a5e30fb5e99617849b9c19",
+      "identical": true
+    },
+    {
+      "sourceId": "city-sniper",
+      "previousPath": "outputs/kurortny-official-2026-10-24/document-12.pdf",
+      "previousSha256": "8c94e44eebbc097630dd00955bca0472943f855b1641b4cd986dfbf2cf461dce",
+      "freshSha256": "8c94e44eebbc097630dd00955bca0472943f855b1641b4cd986dfbf2cf461dce",
+      "identical": true
+    }
+  ],
+  "freshHtmlPerScheduleChecks": [
+    {
+      "name": "Дзюдо",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 3
+    },
+    {
+      "name": "Самбо",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 3
+    },
+    {
+      "name": "Атлетизм",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 3
+    },
+    {
+      "name": "Настольный теннис",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 4
+    },
+    {
+      "name": "Вокал",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 4
+    },
+    {
+      "name": "Студия «Зримая песня»",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 4
+    },
+    {
+      "name": "Краеведение",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 4
+    },
+    {
+      "name": "Вокальная студия «Поем семьей»",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 3
+    },
+    {
+      "name": "Ансамбль русской песни «Гостьюшки»",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 3
+    },
+    {
+      "name": "Ансамбль русской песни «Малина»",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 3
+    },
+    {
+      "name": "Правовой клуб",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 2
+    },
+    {
+      "name": "Волонтёрство",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 2
+    },
+    {
+      "name": "Студия «Город мастеров»",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 12
+    },
+    {
+      "name": "Студия ИЗО «ИРИС»",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 2
+    },
+    {
+      "name": "Студия ИЗО «С.Т.Арт»",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 2
+    },
+    {
+      "name": "Студия «Практическое рисование»",
+      "freshHtmlMatchesCatalogDaysTimes": true,
+      "count": 2
+    }
+  ],
+  "normalizedHtmlTableEqualityWith20261024": [
+    true,
+    true,
+    true
+  ],
+  "visualInspection": {
+    "performedOn": "2026-10-27",
+    "reviewedFiles": [
+      "renders/s-october-readable.png",
+      "renders/v-paid-image-0.png",
+      "renders/cards-contact-sheet.jpg",
+      "renders/v-fitness-gallery-contact-sheet.jpg"
+    ],
+    "findings": [
+      "October PDF rows 1/2 contain separate specialist-duty and class hours; ART has no separate row.",
+      "Gym instructors are in separate rows 8 and 12, not a staff conflict.",
+      "Fitness gallery contains photos of classes, not readable timetables.",
+      "Paid image explicitly labels year 2025 and paid basis."
+    ]
+  }
+}

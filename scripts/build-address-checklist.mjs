@@ -5,8 +5,9 @@ import { writeGeneratedFile } from './write-generated-file.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dataDir = path.join(root, 'data');
-const voSourceNoteHref = `../YoungRussiaOBS/Задачи/${encodeURIComponent('Васька - добавление ссылок направлений  ПМК.md')}`;
+const voSourceNoteHref = `../YoungRussiaOBS/Источники/ВК/${encodeURIComponent('ВК ПМК Василеостровского района.md')}`;
 const coordinates = JSON.parse(await fs.readFile(path.join(dataDir, 'club-coordinates.json'), 'utf8'));
+const centerContacts = JSON.parse(await fs.readFile(path.join(dataDir, 'research', 'pmc-centers-contacts.json'), 'utf8'));
 const addressManifest = JSON.parse(await fs.readFile(path.join(dataDir, 'map-addresses.json'), 'utf8'));
 const contactAudit = JSON.parse(await fs.readFile(path.join(dataDir, 'research', 'pmc-club-contact-audit.json'), 'utf8'));
 const voCandidates = JSON.parse(await fs.readFile(path.join(dataDir, 'research', 'vo-note-evidence.json'), 'utf8'));
@@ -46,10 +47,11 @@ const districtOrganizations = {
     {name:'Дом молодёжи «Рекорд»', official:'http://dmrecord.admiral.gov.spb.ru/', vk:'https://vk.com/dmrecord'},
   ],
   vasileostrovsky: [{name:'ПМЦ Василеостровского района', official:'https://www.pmcvo.ru/', vk:'https://vk.ru/pmc_vo'}],
-  vyborgsky: [
-    {name:'ПМЦ «МИР»', vk:'https://vk.com/pmcmir'},
-    {name:'Дом молодёжи «Форпост»', vk:'https://vk.com/dm_forpost'},
-  ],
+  vyborgsky: ['mir', 'forpost'].map(id => {
+    const center = centerContacts.find(item => item.id === id);
+    if (!center?.links.site) throw new Error(`Missing official organization site: ${id}`);
+    return {name:center.name, official:center.links.site, vk:center.links.vk};
+  }),
   kalininsky: [{name:'ПМЦ «Калининский»', official:'https://pmc-kalininsky.spb.ru/?page_id=219450', vk:'https://vk.com/pmc_kalininsky'}],
   kirovsky: [{name:'ПМЦ «Кировский»', official:'https://pmckir.ru/', vk:'https://vk.com/pmc_kirovskiy'}],
   kolpinsky: [
@@ -79,6 +81,17 @@ const districtOrganizations = {
   frunzensky: [{name:'ПМДЦ «Фрунзенский»', official:'https://centerfrunze.ru/', vk:'https://vk.com/frunzpmdc'}],
   tsentralny: [{name:'ОПМК «Перспектива»', official:'https://perspektiva-klab.ru/', vk:'https://vk.com/opmk_perspektiva'}],
 };
+// Reuse known institution contacts so missing VK links do not remain in a second registry.
+const normalizedLink = value => String(value ?? '').toLowerCase().replace(/^http:/, 'https:').replace(/\/$/, '');
+const normalizedName = value => String(value ?? '').toLowerCase().replaceAll('ё', 'е').replace(/[«»"\s]/g, '');
+for (const organizations of Object.values(districtOrganizations)) for (const organization of organizations) {
+  const canonical = centerContacts.find(item => normalizedName(item.name) === normalizedName(organization.name))
+    ?? centerContacts.find(item => organization.official && normalizedLink(item.links?.site) === normalizedLink(organization.official));
+  if (canonical) {
+    organization.vk ||= canonical.links?.vk;
+    organization.official ||= canonical.links?.site;
+  }
+}
 const statusNames = {
   user_provided: 'Точка предоставлена; адрес клуба не подтверждён',
   partially_user_provided: 'Точка подтверждена не для всех клубов',
@@ -113,11 +126,11 @@ const clubVkCandidate = (club, audit) => {
 const activityPagesByName = (club, audit) => {
   const byName = new Map((club.activities ?? []).map(activity => [activity, []]));
   for (const page of audit?.activityPages ?? []) {
-    const url = vkLink(page.vkUrl);
+    const url = vkLink(page.vkUrl) || officialLink(page.officialUrl);
     if (!url) continue;
     const activity = page.catalogActivity || page.suggestedCatalogActivity;
     if (!byName.has(activity)) throw new Error(`No direction for VK page: ${club.name} / ${page.title}`);
-    byName.get(activity).push({title: page.title || activity, url, needsConfirmation: !page.catalogActivity, sourceLine: page.sourceLine, approvedByUserAt: page.approvedByUserAt});
+    byName.get(activity).push({title: page.title || activity, url, label: page.vkUrl ? 'ВК' : 'Сайт', needsConfirmation: !page.catalogActivity, sourceLine: page.sourceLine, approvedByUserAt: page.approvedByUserAt});
   }
   if (audit?.district === 'vo') for (const page of voActivityCandidatesByName.get(club.name) ?? []) {
     const url = vkLink(page.vkUrl);
@@ -156,14 +169,14 @@ const missingDistrictLabel = missing => [
 const markdownClub = (club, audit) => {
   const {vk, official} = clubLinks(club, audit);
   const candidate = clubVkCandidate(club, audit);
-  return [cell(club.name), ...(vk ? [`[ВК клуба](${vk})${club.vkUrlApprovedAt ? ` (утверждено пользователем ${club.vkUrlApprovedAt})` : ''}`] : []), ...(club.vkUrlAlternates ?? []).map(url => club.vkUrlAliasConfirmedAt ? `[Альтернативный адрес ВК](${url}) (та же страница, подтверждено пользователем ${club.vkUrlAliasConfirmedAt})` : `[Прежняя ссылка ВК](${url}) (назначение уточнить)`), ...(club.vkUrlSharedWith ? [`Общее сообщество с «${cell(club.vkUrlSharedWith)}»`] : []), ...(candidate ? [`[Кандидат ВК клуба](${candidate.vkUrl}) (строка ${candidate.sourceLine}; проверить)`] : []), ...(official ? [`[Официальная страница](${official})`] : [])].join('<br>');
+  return [cell(club.name), ...(vk ? [`[${club.vkUrlSharedWith ? "Общее сообщество" : "ВК клуба"}](${vk})${club.vkUrlApprovedAt ? ` (утверждено пользователем ${club.vkUrlApprovedAt})` : ''}`] : []), ...(club.vkUrlAlternates ?? []).map(url => club.vkUrlAliasConfirmedAt ? `[Альтернативный адрес ВК](${url}) (та же страница, подтверждено пользователем ${club.vkUrlAliasConfirmedAt})` : `[Прежняя ссылка ВК](${url}) (назначение уточнить)`), ...(club.vkUrlSharedWith ? [`Общее сообщество с «${cell(club.vkUrlSharedWith)}»`] : []), ...(candidate ? [`[Кандидат ВК клуба](${candidate.vkUrl}) (строка ${candidate.sourceLine}; проверить)`] : []), ...(official ? [`[Официальная страница](${official})`] : [])].join('<br>');
 };
 const markdownActivities = (club, audit) => {
   if (!club.activities?.length) return 'Направления не указаны';
   const pages = activityPagesByName(club, audit);
   return club.activities.flatMap(activity => [
     cell(activity),
-    ...pages.get(activity).map(page => `↳ [ВК: ${cell(page.title)}](${page.url})${page.approvedByUserAt ? ` (связь утверждена пользователем ${page.approvedByUserAt}; строка ${page.sourceLine})` : page.sourceLine ? ` (кандидат из заметки, строка ${page.sourceLine}; проверить)` : page.needsConfirmation ? ' (связь с направлением уточняется)' : ''}`),
+    ...pages.get(activity).map(page => `↳ [${page.label || 'ВК'}: ${cell(page.title)}](${page.url})${page.approvedByUserAt ? ` (связь утверждена пользователем ${page.approvedByUserAt}; строка ${page.sourceLine})` : page.sourceLine ? ` (кандидат из заметки, строка ${page.sourceLine}; проверить)` : page.needsConfirmation ? ' (связь с направлением уточняется)' : ''}`),
   ]).join('<br>');
 };
 const markdownSchedule = (club, audit) => audit?.district === 'vo'
@@ -264,13 +277,13 @@ const reportSections = groups.map(([label, items], index) => {
     const {vk, official} = clubLinks(club, audit);
     const vkCandidate = clubVkCandidate(club, audit);
     const clubHeadingLinks = [
-      ...(vk ? [`<a href="${htmlCell(vk)}" target="_blank" rel="noopener noreferrer">ВК клуба ↗</a>`] : []),
+      ...(vk ? [`<a href="${htmlCell(vk)}" target="_blank" rel="noopener noreferrer">${club.vkUrlSharedWith ? 'Общее сообщество' : 'ВК клуба'} ↗</a>`] : []),
       ...(vkCandidate ? [`<a href="${htmlCell(vkCandidate.vkUrl)}" target="_blank" rel="noopener noreferrer">Кандидат ВК клуба ↗</a>`] : []),
       ...(official ? [`<a href="${htmlCell(official)}" target="_blank" rel="noopener noreferrer">Официальная страница ↗</a>`] : []),
     ].join('');
     const activityPages = activityPagesByName(club, audit);
     const activities = club.activities?.length
-      ? `<ul class="activity-list">${club.activities.map(activity => `<li><span>${htmlCell(activity)}</span>${activityPages.get(activity).map(page => `<div class="activity-link"><a href="${htmlCell(page.url)}" target="_blank" rel="noopener noreferrer">ВК: ${htmlCell(page.title)} ↗</a>${page.approvedByUserAt ? `<small>Связь с&nbsp;занятием утверждена пользователем ${htmlCell(page.approvedByUserAt)}. Действующий набор уточнить.</small>` : page.sourceLine ? `<small>Кандидат из&nbsp;заметки, строка&nbsp;${page.sourceLine}. Проверить связь и&nbsp;актуальность.</small>` : page.needsConfirmation ? '<small>Связь с&nbsp;направлением уточняется</small>' : ''}</div>`).join('')}</li>`).join('')}</ul>`
+      ? `<ul class="activity-list">${club.activities.map(activity => `<li><span>${htmlCell(activity)}</span>${activityPages.get(activity).map(page => `<div class="activity-link"><a href="${htmlCell(page.url)}" target="_blank" rel="noopener noreferrer">${page.label || 'ВК'}: ${htmlCell(page.title)} ↗</a>${page.approvedByUserAt ? `<small>Связь с&nbsp;занятием утверждена пользователем ${htmlCell(page.approvedByUserAt)}. Действующий набор уточнить.</small>` : page.sourceLine ? `<small>Кандидат из&nbsp;заметки, строка&nbsp;${page.sourceLine}. Проверить связь и&nbsp;актуальность.</small>` : page.needsConfirmation ? '<small>Связь с&nbsp;направлением уточняется</small>' : ''}</div>`).join('')}</li>`).join('')}</ul>`
       : '<p class="empty">Направления не указаны в данных проекта.</p>';
     const schedule = audit?.district === 'vo' ? voScheduleByName.get(club.name) ?? [] : [];
     const sourceRange = audit?.district === 'vo' ? voSourceRangeByName.get(club.name) : '';

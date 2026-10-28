@@ -1,20 +1,455 @@
 [
-  {"id":"admiralteysky","district":"Адмиралтейский","name":"Центр «Адмиралтейский»","address":"Верейская ул., д. 22–24","phones":["+7 (812) 246-39-87"],"emails":["admiral_06@inbox.ru"],"links":{"vk":"https://vk.com/tsentr_admiralteisky","site":"https://admiralteisky.admiral.gov.spb.ru/","telegram":"https://t.me/tsentr_admiralteisky"},"source":"https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/","sourceNote":"Контакты центра на странице администрации; ссылки VK и Telegram сохранены из данных проекта. Скриншот пользователя подтверждает VK, телефон и сайт на видимой части страницы."},
-  {"id":"vasileostrovsky","district":"Василеостровский","name":"ПМЦ Василеостровского района","address":"Средний пр. В.О., д. 65","phones":["+7 (812) 321-30-74","+7 (812) 321-83-54","+7 (812) 321-03-60"],"emails":["pmcvo@mail.ru","k_dinevich@mail.ru"],"links":{"vk":"https://vk.ru/pmc_vo","site":"https://www.pmcvo.ru/"},"source":"https://www.gov.spb.ru/gov/terr/reg_vasileostr/podvedomstvennye-uchrezhdeniya/uchrezhdeniya-v-sfere-molodezhnoj-politiki/","sourceNote":"Адрес, телефоны, почты и сайт опубликованы администрацией; ссылку VK предоставил пользователь, карточка VK через инструмент не открылась."},
-  {"id":"mir","district":"Выборгский","name":"ПМЦ «МИР»","address":"пр. Энгельса, д. 147, корп. 1, лит. Д","phones":["+7 (812) 409-80-36"],"emails":["pmc-mir@yandex.ru"],"links":{"vk":"https://vk.com/pmcmir"},"source":"https://www.gov.spb.ru/gov/terr/reg_viborg/news/230151/","sourceNote":"Контакты сохранены из данных проекта; VK указан администрацией района."},
-  {"id":"kalininsky","district":"Калининский","name":"ПМЦ «Калининский»","address":"ул. Руставели, д. 37","phones":["+7 (812) 298-88-76"],"emails":["5564920@mail.ru"],"links":{"vk":"https://vk.com/pmc_kalininsky","site":"https://pmc-kalininsky.spb.ru/"},"source":"https://www.gov.spb.ru/gov/terr/reg_kalinin/podvedomstvennye-uchrezhdeniya/uchrezhdeniya-molodyozhnoj-politiki/","sourceNote":"Контакты и сайт указаны администрацией; VK сохранён из предыдущего исследования и требует прямой проверки карточки."},
-  {"id":"kirovsky","district":"Кировский","name":"ПМЦ «Кировский»","address":"пр. Народного Ополчения, д. 3","phones":["+7 (812) 377-21-13"],"emails":["pmz.kir@mail.ru"],"links":{"vk":"https://vk.com/pmc_kirovskiy","site":"https://pmckir.ru/"},"source":"https://www.spbdm.ru/baza-uchrezhdeniy/","sourceNote":"Контакты и ссылки сохранены из данных проекта; сверить с текущей карточкой учреждения."},
-  {"id":"rovesnik","district":"Колпинский","name":"МЦ «Ровесник»","address":"г. Колпино, ул. Танкистов, д. 28А","phones":["+7 (812) 469-63-50"],"emails":[],"links":{"vk":"https://vk.com/spbgurovesnik","site":"https://spbgbu-rovesnik.ru/"},"source":"https://www.spbdm.ru/baza-uchrezhdeniy/","sourceNote":"Контакты сохранены из данных проекта; VK найден в официальных районных материалах, текущую карточку проверить."},
-  {"id":"ohta","district":"Красногвардейский","name":"ПМЦ «Охта»","address":"Полюстровский пр., д. 3","phones":["+7 (812) 498-84-27"],"emails":["secretar@mcohta.ru"],"links":{"vk":"https://vk.com/pmc_ohta","site":"https://pmcohta.ru/"},"source":"https://pmcohta.ru/contacts","sourceNote":"Контакты из данных проекта; VK указан в материалах администрации Санкт-Петербурга."},
-  {"id":"ligovo","district":"Красносельский","name":"ПМЦ «Лигово»","address":"ул. Чекистов, д. 28","phones":["+7 (969) 729-32-20"],"emails":["pmcligovo@mail.ru"],"links":{"vk":"https://vk.com/pmcligovo","site":"https://www.gov.spb.ru/gov/terr/reg_krasnoselsk/kultura-molodyozhnaya-politika/spb-gbu-podrostkovo-molodezhnyj-centr-ligovo/"},"source":"https://www.gov.spb.ru/gov/terr/reg_krasnoselsk/kultura-molodyozhnaya-politika/spb-gbu-podrostkovo-molodezhnyj-centr-ligovo/","sourceNote":"Контакты из данных проекта; VK указан на странице района."},
-  {"id":"voshod","district":"Курортный","name":"ПМЦ «Восход»","address":"г. Сестрорецк, Приморское ш., д. 286А","phones":["+7 (812) 437-23-55"],"emails":["sportvoshod@mail.ru"],"links":{"vk":"https://vk.com/pmcvoshod","site":"https://восход75.рф/"},"source":"https://www.gov.spb.ru/gov/terr/reg_kurort/molodezhnaya-politika/","sourceNote":"VK и сайт указаны администрацией; адрес и контакты из данных проекта."},
-  {"id":"molodost","district":"Курортный","name":"ПМЦ «Молодость»","address":"пос. Песочный, ул. Карла Маркса, д. 57А","phones":["+7 (812) 596-82-27"],"emails":["molodostr@yandex.ru"],"links":{"vk":"https://vk.com/pmcmolodost","site":"https://molodost.kurort.gov.spb.ru/"},"source":"https://www.gov.spb.ru/gov/terr/reg_kurort/molodezhnaya-politika/","sourceNote":"VK и сайт указаны администрацией; адрес и контакты из данных проекта."},
-  {"id":"sniper","district":"Курортный","name":"ПМЦ «Снайпер»","address":"г. Зеленогорск, Исполкомская ул., д. 5","phones":["+7 (812) 433-51-52"],"emails":["pmcsniper1111@mail.ru"],"links":{"vk":"https://vk.com/club11492364","site":"https://пмц-снайпер.рф/"},"source":"https://www.gov.spb.ru/gov/terr/reg_kurort/molodezhnaya-politika/","sourceNote":"VK и сайт указаны администрацией; адрес и контакты из данных проекта."},
-  {"id":"moskovsky","district":"Московский","name":"МПЦ «Московский»","address":"Алтайская ул., д. 37","phones":["+7 (812) 417-30-10"],"emails":["mpc-moskovskij@mail.ru"],"links":{"vk":"https://vk.com/mpcmoskovski","site":"https://mpc-moskovskij.tumos.gov.spb.ru/o-centre/"},"source":"https://www.gov.spb.ru/gov/terr/reg_moscow/molodezh/uchrezhdeniya-po-delam-molodezhi/","sourceNote":"Контакты из данных проекта; VK сохранён из предыдущего исследования."},
-  {"id":"nevsky","district":"Невский","name":"ПМЦ «Невский»","address":"ул. Бабушкина, д. 42, корп. 1","phones":["+7 (812) 411-92-30"],"emails":["pc_nevskiy@mail.ru"],"links":{"vk":"https://vk.com/pc_nevskiy","site":"https://centernevskiy.ru/"},"source":"https://www.gov.spb.ru/gov/terr/nevsky/molodezhnaya-politika-i-sport/podrostkovye-kluby-nevskogo-rajona/","sourceNote":"Контакты из данных проекта; VK указан в официальных районных материалах."},
-  {"id":"petrogradsky","district":"Петроградский","name":"ПМЦ «Петроградский»","address":"Большой пр. П.С., д. 18А","phones":["+7 (812) 235-56-36","+7 (812) 762-07-99"],"emails":["pmc-petrograd@mail.ru"],"links":{"vk":"https://vk.com/pmc_petrograd","site":"https://pmc-petrogradsky.ru/"},"source":"https://pmc-petrogradsky.ru/","sourceNote":"VK указан на официальном сайте центра; первый телефон из данных проекта, второй с текущего сайта. Перед публикацией выбрать действующий номер."},
-  {"id":"petrodvortsovy","district":"Петродворцовый","name":"ПМЦ Петродворцового района","address":"г. Петергоф, Ботаническая ул., д. 4, корп. 3","phones":["+7 (812) 246-24-52"],"emails":["centr-dosug.2016@yandex.ru"],"links":{"vk":"https://vk.com/pmc_petergof"},"source":"https://www.gov.spb.ru/press/governor/278817/","sourceNote":"VK указан в плане правительства; контакты из данных проекта."},
-  {"id":"pushkinets","district":"Пушкинский","name":"РПЦ «Пушкинец»","address":"г. Пушкин, Железнодорожная ул., д. 56","phones":["+7 (812) 470-15-28"],"emails":["pushkinez2008@yandex.ru"],"links":{"vk":"https://vk.com/rpz_pushkinez","site":"https://gurptcp.pushkin.gov.spb.ru/"},"source":"https://www.gov.spb.ru/press/governor/314807/","sourceNote":"VK указан в плане правительства; контакты из данных проекта."},
-  {"id":"frunzensky","district":"Фрунзенский","name":"ПМДЦ «Фрунзенский»","address":"Софийская ул., д. 38, корп. 2","phones":["+7 (812) 411-85-75"],"emails":["pmdcfrunz@mail.ru"],"links":{"vk":"https://vk.com/frunzpmdc","site":"https://centerfrunze.ru/"},"source":"https://www.gov.spb.ru/gov/terr/r_frunz/molodezhnaya-politika/podrostkovo-molodezhnyj-dosugovyj-centr-frunzenskij/","sourceNote":"Адрес, контакты, сайт и VK указаны администрацией района."},
-  {"id":"perspektiva","district":"Центральный","name":"ОПМК «Перспектива»","address":"ул. Пушкинская, д. 2/79","phones":["+7 (812) 575-67-36"],"emails":["pers279@yandex.ru"],"links":{"vk":"https://vk.com/opmk_perspektiva","site":"https://perspektiva-klab.ru/"},"source":"https://www.gov.spb.ru/press/governor/299114/","sourceNote":"VK указан в плане правительства; контакты из данных проекта."}
+  {
+    "id": "admiralteysky",
+    "district": "Адмиралтейский",
+    "name": "Центр «Адмиралтейский»",
+    "address": "Верейская ул., д. 22–24",
+    "phones": [
+      "+7 (812) 246-39-87"
+    ],
+    "emails": [
+      "admiral_06@inbox.ru"
+    ],
+    "links": {
+      "vk": "https://vk.com/tsentr_admiralteisky",
+      "site": "https://admiralteisky.admiral.gov.spb.ru/",
+      "telegram": "https://t.me/tsentr_admiralteisky"
+    },
+    "source": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/",
+    "sourceNote": "Контакты центра на странице администрации; ссылки VK и Telegram сохранены из данных проекта. Скриншот пользователя подтверждает VK, телефон и сайт на видимой части страницы."
+  },
+  {
+    "id": "vasileostrovsky",
+    "district": "Василеостровский",
+    "name": "ПМЦ Василеостровского района",
+    "address": "Средний пр. В.О., д. 65",
+    "phones": [
+      "+7 (812) 321-30-74",
+      "+7 (812) 321-83-54",
+      "+7 (812) 321-03-60"
+    ],
+    "emails": [
+      "pmcvo@mail.ru",
+      "k_dinevich@mail.ru"
+    ],
+    "links": {
+      "vk": "https://vk.ru/pmc_vo",
+      "site": "https://www.pmcvo.ru/"
+    },
+    "source": "https://www.gov.spb.ru/gov/terr/reg_vasileostr/podvedomstvennye-uchrezhdeniya/uchrezhdeniya-v-sfere-molodezhnoj-politiki/",
+    "sourceNote": "Адрес, телефоны, почты и сайт опубликованы администрацией; ссылку VK предоставил пользователь, карточка VK через инструмент не открылась."
+  },
+  {
+    "id": "mir",
+    "district": "Выборгский",
+    "name": "ПМЦ «МИР»",
+    "address": "пр. Энгельса, д. 147, корп. 1, лит. Д",
+    "phones": [
+      "+7 (812) 409-80-36"
+    ],
+    "emails": [
+      "pmc-mir@yandex.ru"
+    ],
+    "links": {
+      "vk": "https://vk.com/pmcmir",
+      "site": "https://xn----ptbkbv6a.xn--p1ai/"
+    },
+    "source": "https://www.gov.spb.ru/gov/terr/reg_viborg/news/230151/",
+    "sourceNote": "Контакты сохранены из данных проекта; VK указан администрацией района.",
+    "siteSource": "Пользователь, 23.10.2026; сайт проверен по HTTP",
+    "siteCheckedAt": "2026-10-23"
+  },
+  {
+    "id": "forpost",
+    "district": "Выборгский",
+    "name": "Дом молодёжи «Форпост»",
+    "address": "Большой Сампсониевский пр., д. 37",
+    "phones": [
+      "+7 (812) 542-24-07"
+    ],
+    "emails": [
+      "dm_forpost@mail.ru"
+    ],
+    "links": {
+      "vk": "https://vk.com/dm_forpost",
+      "site": "https://xn----gtbyjafgkjo.xn--p1ai/"
+    },
+    "source": "https://xn----gtbyjafgkjo.xn--p1ai/",
+    "sourceNote": "Официальный сайт указан пользователем 23.10.2026. Присланный HTTP-адрес перенаправляет на HTTPS, конечная страница ответила HTTP 200. Контакты учреждения сохранены из данных проекта.",
+    "siteSource": "Пользователь, 23.10.2026",
+    "siteCheckedAt": "2026-10-23"
+  },
+  {
+    "id": "kalininsky",
+    "district": "Калининский",
+    "name": "ПМЦ «Калининский»",
+    "address": "ул. Руставели, д. 37",
+    "phones": [
+      "+7 (812) 298-88-76"
+    ],
+    "emails": [
+      "5564920@mail.ru"
+    ],
+    "links": {
+      "vk": "https://vk.com/pmc_kalininsky",
+      "site": "https://pmc-kalininsky.spb.ru/"
+    },
+    "source": "https://www.gov.spb.ru/gov/terr/reg_kalinin/podvedomstvennye-uchrezhdeniya/uchrezhdeniya-molodyozhnoj-politiki/",
+    "sourceNote": "Контакты и сайт указаны администрацией; VK сохранён из предыдущего исследования и требует прямой проверки карточки."
+  },
+  {
+    "id": "kirovsky",
+    "district": "Кировский",
+    "name": "ПМЦ «Кировский»",
+    "address": "пр. Народного Ополчения, д. 3",
+    "phones": [
+      "+7 (812) 377-21-13"
+    ],
+    "emails": [
+      "pmz.kir@mail.ru"
+    ],
+    "links": {
+      "vk": "https://vk.com/pmc_kirovskiy",
+      "site": "https://pmckir.ru/"
+    },
+    "source": "https://www.spbdm.ru/baza-uchrezhdeniy/",
+    "sourceNote": "Контакты и ссылки сохранены из данных проекта; сверить с текущей карточкой учреждения."
+  },
+  {
+    "id": "rovesnik",
+    "district": "Колпинский",
+    "name": "МЦ «Ровесник»",
+    "address": "г. Колпино, ул. Танкистов, д. 28А",
+    "phones": [
+      "+7 (812) 469-63-50"
+    ],
+    "emails": [],
+    "links": {
+      "vk": "https://vk.com/spbgurovesnik",
+      "site": "https://spbgbu-rovesnik.ru/"
+    },
+    "source": "https://www.spbdm.ru/baza-uchrezhdeniy/",
+    "sourceNote": "Контакты сохранены из данных проекта; VK найден в официальных районных материалах, текущую карточку проверить."
+  },
+  {
+    "id": "ohta",
+    "district": "Красногвардейский",
+    "name": "МЦ «Охта»",
+    "address": "Полюстровский пр., д. 3",
+    "phones": [
+      "+7 (812) 498-84-27"
+    ],
+    "emails": [
+      "secretar@mcohta.ru"
+    ],
+    "links": {
+      "vk": "https://vk.com/pmc_ohta",
+      "site": "https://pmcohta.ru/"
+    },
+    "source": "https://pmcohta.ru/contacts",
+    "sourceNote": "Контакты из данных проекта; VK указан в материалах администрации Санкт-Петербурга."
+  },
+  {
+    "id": "ligovo",
+    "district": "Красносельский",
+    "name": "МЦ «Лигово»",
+    "address": "Балтийский бульвар, д. 4",
+    "phones": [
+      "+7 (969) 729-32-20"
+    ],
+    "emails": [
+      "pmcligovo@mail.ru"
+    ],
+    "links": {
+      "vk": "https://vk.com/pmcligovo",
+      "site": "https://gu321.site.gov.spb.ru/"
+    },
+    "source": "https://gu321.site.gov.spb.ru/contacts/",
+    "sourceNote": "Сверено 23.10.2026 по официальной странице контактов; кабинетный график не является расписанием клубов."
+  },
+  {
+    "id": "voshod",
+    "district": "Курортный",
+    "name": "ПМЦ «Восход»",
+    "address": "г. Сестрорецк, Приморское ш., д. 286",
+    "phones": [
+      "+7 (812) 437-23-55"
+    ],
+    "emails": [
+      "sportvoshod@mail.ru"
+    ],
+    "links": {
+      "vk": "https://vk.ru/pmcvoshod",
+      "site": "https://xn--75-dlci3cau6a.xn--p1ai/"
+    },
+    "source": "https://xn--75-dlci3cau6a.xn--p1ai/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b/",
+    "sourceNote": "VK и сайт указаны администрацией; адрес и контакты из данных проекта.",
+    "sourceCheckedAt": "2026-10-24"
+  },
+  {
+    "id": "molodost",
+    "district": "Курортный",
+    "name": "ПМЦ «Молодость»",
+    "address": "пос. Песочный, ул. Карла Маркса, д. 57А",
+    "phones": [
+      "+7 (812) 596-80-01"
+    ],
+    "emails": [
+      "molodostr@yandex.ru"
+    ],
+    "links": {
+      "vk": "https://vk.ru/pmcmolodost",
+      "site": "https://molodost.kurort.gov.spb.ru/"
+    },
+    "source": "https://molodost.kurort.gov.spb.ru/contacts/",
+    "sourceNote": "VK и сайт указаны администрацией; адрес и контакты из данных проекта.",
+    "sourceCheckedAt": "2026-10-24"
+  },
+  {
+    "id": "sniper",
+    "district": "Курортный",
+    "name": "ПМЦ «Снайпер»",
+    "address": "г. Зеленогорск, Исполкомская ул., д. 5",
+    "phones": [
+      "+7 (812) 433-51-52"
+    ],
+    "emails": [
+      "pmcsniper1111@mail.ru"
+    ],
+    "links": {
+      "vk": "https://vk.ru/pmcsniper",
+      "site": "https://xn----8sbppmhlfke7c.xn--p1ai/"
+    },
+    "source": "https://xn----8sbppmhlfke7c.xn--p1ai/kontakty.html",
+    "sourceNote": "VK и сайт указаны администрацией; адрес и контакты из данных проекта.",
+    "sourceCheckedAt": "2026-10-24"
+  },
+  {
+    "id": "moskovsky",
+    "district": "Московский",
+    "name": "МПЦ «Московский»",
+    "address": "Алтайская ул., д. 37",
+    "phones": [
+      "+7 (812) 417-30-10"
+    ],
+    "emails": [
+      "mpc-moskovskij@mail.ru"
+    ],
+    "links": {
+      "vk": "https://vk.com/mpcmoskovski",
+      "site": "https://mpc-moskovskij.tumos.gov.spb.ru/o-centre/"
+    },
+    "source": "https://www.gov.spb.ru/gov/terr/reg_moscow/molodezh/uchrezhdeniya-po-delam-molodezhi/",
+    "sourceNote": "Контакты из данных проекта; VK сохранён из предыдущего исследования."
+  },
+  {
+    "id": "nevsky",
+    "district": "Невский",
+    "name": "ПМЦ «Невский»",
+    "address": "ул. Бабушкина, д. 42, корп. 1",
+    "phones": [
+      "+7 (812) 411-92-30"
+    ],
+    "emails": [
+      "pc_nevskiy@mail.ru"
+    ],
+    "links": {
+      "vk": "https://vk.com/pc_nevskiy",
+      "site": "https://centernevskiy.ru/"
+    },
+    "source": "https://www.gov.spb.ru/gov/terr/nevsky/molodezhnaya-politika-i-sport/podrostkovye-kluby-nevskogo-rajona/",
+    "sourceNote": "Контакты из данных проекта; VK указан в официальных районных материалах."
+  },
+  {
+    "id": "petrogradsky",
+    "district": "Петроградский",
+    "name": "ПМЦ «Петроградский»",
+    "address": "Большой пр. П.С., д. 18А",
+    "phones": [
+      "+7 (812) 235-56-36",
+      "+7 (812) 762-07-99"
+    ],
+    "emails": [
+      "pmc-petrograd@mail.ru"
+    ],
+    "links": {
+      "vk": "https://vk.com/pmc_petrograd",
+      "site": "https://pmc-petrogradsky.ru/"
+    },
+    "source": "https://pmc-petrogradsky.ru/",
+    "sourceNote": "VK указан на официальном сайте центра; первый телефон из данных проекта, второй с текущего сайта. Перед публикацией выбрать действующий номер."
+  },
+  {
+    "id": "petrodvortsovy",
+    "district": "Петродворцовый",
+    "name": "ПМЦ Петродворцового района",
+    "address": "г. Петергоф, Ботаническая ул., д. 4, корп. 3",
+    "phones": [
+      "+7 (812) 246-24-52"
+    ],
+    "emails": [
+      "centr-dosug.2016@yandex.ru"
+    ],
+    "links": {
+      "site": "https://guptcyu.peter.gov.spb.ru/"
+    },
+    "rejectedLinks": [
+      {
+        "type": "vk",
+        "url": "https://vk.com/pmc_petergof",
+        "reportedUrl": "https://vk.ru/pmc_petergof",
+        "status": "user_reported_unavailable",
+        "reportedAt": "2026-10-23",
+        "reason": "Пользователь сообщил, что по этому адресу нет страницы клуба. Ссылка исключена из действующих контактов; новый адрес не подтверждён.",
+        "historicalSource": "https://www.gov.spb.ru/press/governor/278817/"
+      }
+    ],
+    "vkReview": {
+      "status": "replacement_needed",
+      "updatedAt": "2026-10-23",
+      "note": "Указание прежнего адреса в старом плане правительства не подтверждает его текущую доступность. Прямая проверка VK в браузере недоступна; исправление основано на сообщении пользователя."
+    },
+    "source": "https://guptcyu.peter.gov.spb.ru/",
+    "sourceNote": "Официальный сайт и клубные контакты сверены 28.10.2026. Прежний общий VK исключён по сообщению пользователя; его рабочая замена не подтверждена."
+  },
+  {
+    "id": "pushkinets",
+    "district": "Пушкинский",
+    "name": "РПЦ «Пушкинец»",
+    "address": "г. Пушкин, Железнодорожная ул., д. 56",
+    "phones": [
+      "+7 (812) 470-15-28"
+    ],
+    "emails": [
+      "pushkinez2008@yandex.ru"
+    ],
+    "links": {
+      "vk": "https://vk.com/rpz_pushkinez",
+      "site": "https://gurptcp.pushkin.gov.spb.ru/"
+    },
+    "source": "https://www.gov.spb.ru/press/governor/314807/",
+    "sourceNote": "VK указан в плане правительства; контакты из данных проекта."
+  },
+  {
+    "id": "frunzensky",
+    "district": "Фрунзенский",
+    "name": "ПМДЦ «Фрунзенский»",
+    "address": "Софийская ул., д. 38, корп. 2",
+    "phones": [
+      "+7 (812) 411-85-75"
+    ],
+    "emails": [
+      "pmdcfrunz@mail.ru"
+    ],
+    "links": {
+      "vk": "https://vk.com/frunzpmdc",
+      "site": "https://centerfrunze.ru/"
+    },
+    "source": "https://www.gov.spb.ru/gov/terr/r_frunz/molodezhnaya-politika/podrostkovo-molodezhnyj-dosugovyj-centr-frunzenskij/",
+    "sourceNote": "Адрес, контакты, сайт и VK указаны администрацией района."
+  },
+  {
+    "id": "perspektiva",
+    "district": "Центральный",
+    "name": "ОПМК «Перспектива»",
+    "address": "ул. Пушкинская, д. 2/79",
+    "phones": [
+      "+7 (812) 575-67-36"
+    ],
+    "emails": [
+      "pers279@yandex.ru"
+    ],
+    "links": {
+      "vk": "https://vk.com/opmk_perspektiva",
+      "site": "https://perspektiva-klab.ru/"
+    },
+    "source": "https://www.gov.spb.ru/press/governor/299114/",
+    "sourceNote": "VK указан в плане правительства; контакты из данных проекта."
+  },
+  {
+    "address": "г. Колпино, Заводской пр., д. 10, лит. А",
+    "phones": [
+      "+7 (812) 246-43-22"
+    ],
+    "emails": [
+      "mail@dmk.spb.ru"
+    ],
+    "id": "kolpinets",
+    "district": "Колпинский",
+    "name": "Дом молодёжи «Колпинец»",
+    "links": {
+      "site": "http://dmk.spb.ru/",
+      "vk": "https://vk.ru/dm_kolpinets",
+      "telegram": "https://t.me/dm_kolpinets",
+      "governmentMirror": "https://gu265.site.gov.spb.ru/"
+    },
+    "source": "http://dmk.spb.ru/kontakti/",
+    "vkSourceCheckedAt": "2026-10-23",
+    "sourceNote": "Общий телефон и почта сверены со страницей контактов ДМК. 482-56-90 указан отдельно как телефон площадки «Колпинец». VK подтверждён ссылкой официального сайта, содержимое группы не проверялось; Telegram прислан пользователем.",
+    "sourceCheckedAt": "2026-10-23"
+  },
+  {
+    "address": "г. Кронштадт, Советская ул., д. 35, лит. А",
+    "phones": [
+      "+7 (812) 311-22-14"
+    ],
+    "emails": [
+      "bastion.35@mail.ru"
+    ],
+    "id": "kronshtadtsky",
+    "district": "Кронштадтский",
+    "name": "Кронштадтский Дворец молодёжи",
+    "links": {
+      "site": "https://xn----htbqkcfn.xn--p1ai/",
+      "vk": "https://vk.com/krondm"
+    },
+    "source": "https://xn----htbqkcfn.xn--p1ai/contacts",
+    "vkSourceCheckedAt": "2026-10-23",
+    "sourceNote": "Ссылка VK учреждения опубликована на официальном сайте; сама группа VK отдельно не проверялась.",
+    "sourceCheckedAt": "2026-10-23"
+  },
+  {
+    "address": "",
+    "phones": [],
+    "emails": [],
+    "id": "pushkindm",
+    "district": "Пушкинский",
+    "name": "Дом молодёжи «Царскосельский»",
+    "links": {
+      "site": "https://pushkindm.ru/",
+      "vk": "https://vk.com/pushkindm"
+    },
+    "source": "https://pushkindm.ru/",
+    "vkSourceCheckedAt": "2026-10-23",
+    "sourceNote": "Ссылка VK учреждения опубликована на официальном сайте; сама группа VK отдельно не проверялась."
+  },
+  {
+    "address": "",
+    "phones": [],
+    "emails": [],
+    "id": "primorsky",
+    "district": "Приморский",
+    "name": "Дом молодёжи Приморского района",
+    "links": {
+      "site": "https://dom-mol.ru/",
+      "vk": "https://vk.com/dommolspb"
+    },
+    "source": "https://dom-mol.ru/",
+    "vkSourceCheckedAt": "2026-10-23",
+    "sourceNote": "Ссылка VK учреждения опубликована на официальном сайте; сама группа VK отдельно не проверялась."
+  },
+  {
+    "address": "",
+    "phones": [],
+    "emails": [],
+    "id": "pulkovets",
+    "district": "Московский",
+    "name": "Дом молодёжи «Пулковец»",
+    "links": {
+      "site": "https://dm.pulkovec.ru/",
+      "vk": "https://vk.com/dmpulkovec"
+    },
+    "source": "Сохранённая ссылка учреждения в scripts/build-address-checklist.mjs",
+    "sourceNote": "Ссылка перенесена из существующего справочника проекта. Сайт учреждения 23.10.2026 не удалось открыть; ссылка VK независимо не проверена."
+  }
 ]

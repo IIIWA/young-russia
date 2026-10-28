@@ -1,0 +1,1867 @@
+{
+  "date": "2026-10-22",
+  "task": "S-62",
+  "status": "published and verified",
+  "deployedAt": "2026-10-22T18:20:48Z",
+  "verifiedAt": "2026-10-22T18:22:05.045Z",
+  "filesVerified": 3892,
+  "htmlPages": 1891,
+  "archiveSha256": "26e643a400a68942a03d982a5cb2dae5e322338f036754ae38048d3facc12924",
+  "backup": "/var/www/u3013321/data/backups/young-russia-before-map-pin-fix-2026-10-22.tar.gz",
+  "backupSha256": "e57f40a7bd11dc75b3d495ec12517c4f9f4961bc0f96194b03b98299b7769406",
+  "previous": "/var/www/u3013321/data/www/.young-russia-prev-20261022-map-pins",
+  "auditBefore": {
+    "mode": "before",
+    "checkedAt": "2026-10-22T18:12:29.908Z",
+    "clubs": 334,
+    "clubsWithMap": 331,
+    "clubMarkers": 332,
+    "pages": 1868,
+    "frames": 1858,
+    "unreliableEmbeds": 1769,
+    "clubPagesWithoutCoordinates": [
+      "clubs/kolpinsky/patriot.html",
+      "clubs/pushkinsky/pulkovets.html",
+      "clubs/pushkinsky/zareche.html"
+    ]
+  },
+  "auditAfter": {
+    "mode": "after",
+    "checkedAt": "2026-10-22T18:15:04.728Z",
+    "clubs": 334,
+    "clubsWithMap": 331,
+    "clubMarkers": 332,
+    "pages": 1868,
+    "frames": 1858,
+    "unreliableEmbeds": 0,
+    "clubPagesWithoutCoordinates": [
+      "clubs/kolpinsky/patriot.html",
+      "clubs/pushkinsky/pulkovets.html",
+      "clubs/pushkinsky/zareche.html"
+    ]
+  },
+  "publicClubPages": 334,
+  "httpPages": 341,
+  "http": [
+    {
+      "file": "activities/vyborgsky-patriot-dekorativno-prikladnoe-tvorchestvo-02.html",
+      "status": 200,
+      "sha256": "03c705e37c2a4acab96fd17b2cb9519f2cc7167e693da29d75b987ee04351041"
+    },
+    {
+      "file": "activities/vyborgsky-patriot-molodyozhnoe-obedinenie-my-vmeste-04.html",
+      "status": 200,
+      "sha256": "9eab2000b78e1f29cdc605f76bdec5afbebb1cbfda9953db68c94270799c93df"
+    },
+    {
+      "file": "clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "status": 200,
+      "sha256": "1216c4fe09d005a6852b76d24822f0b9570e455010ddfe2fb4651b532a5b8518"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnoe-prostranstvo-uchrezhdenie.html",
+      "status": 200,
+      "sha256": "5c62c0a92ee918378d076d3b14c60f2dd8b87bb1cb9a58ab9f5ce5ce13a5de8e"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-futbolnyy-klub-forvard.html",
+      "status": 200,
+      "sha256": "64789a1c0239210c8041ad9964ca263e34fb537a867e83953af16bf7ef09186f"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-domostroy.html",
+      "status": 200,
+      "sha256": "6339916682832b532b1fbc58153a78de8b9bb41e3f5726367f340b3d94806c30"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-ellada.html",
+      "status": 200,
+      "sha256": "d46d0e2ead1c01a87843646c6567ca8b476d095828d538b2c75360b63864ed72"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-globus.html",
+      "status": 200,
+      "sha256": "9dc3d3d7481a8a7639ce9b241d57e0847ada7091d7a26934253ff00a49bb6f13"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-gorod.html",
+      "status": 200,
+      "sha256": "32193ef23f2a0951ae06961caa3f0f73f35cfa115f85df0f5bc2f0940f88d496"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-ideal.html",
+      "status": 200,
+      "sha256": "9725747137c4c93d8b58101eed6e2a6350bf7ed87255a1e8886085417843e9cc"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-kolombina.html",
+      "status": 200,
+      "sha256": "4c79be5b1be4419041237193334b9ee60e54718bde5f166655f3c48d12e398c8"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-meridian.html",
+      "status": 200,
+      "sha256": "fb142f676c39869a105dc8155a1e6cc4fbae118259c9907c2d4859103a0e21b5"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-nadezhda.html",
+      "status": 200,
+      "sha256": "adabd76524b6bea82ffd2ba90c96584bee1c7aab51aadb371ea56b0f4f2e98bd"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-orfey.html",
+      "status": 200,
+      "sha256": "a88cd47dbcfa19f62e2ce227bec285935559c8d244a3205803fa41fd62c10adb"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-palestra.html",
+      "status": 200,
+      "sha256": "0349ca409209ce17e0253e1d7576766885b31a4fbc31a06d73e1a1e96a3ad222"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-perspektiva.html",
+      "status": 200,
+      "sha256": "0ce4f41211b68f2634365da88411c3bf2cd3af2b13ab70fafd1dc507cf0cb85b"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-peterburgskie-lvy.html",
+      "status": 200,
+      "sha256": "1f616dcf2c17de9cae9995d866e67671f3c9c876a17695073f72568ad850f77a"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-poisk.html",
+      "status": 200,
+      "sha256": "9a89335574600bedeec56d99c7224749b02e5e8267fdf0429102be6387c45621"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-ritm.html",
+      "status": 200,
+      "sha256": "56418fee961339c6de91a37ecc302f1ab157a1356fc78332055cdaac91b48e4d"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-rovesnik.html",
+      "status": 200,
+      "sha256": "445c0ea5c1b9e8c81e9d1cc1f77286ad8dd0368ad197d24e4ff8a9372c69b6b7"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-selena.html",
+      "status": 200,
+      "sha256": "524d33f7a1a82dd32d191911ebe4275e40b729acdb38eeec7e7a6dfdfdcf55a7"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-slavyane.html",
+      "status": 200,
+      "sha256": "af5597a5f3df85ee74900884e737a8cab84cd93e79d4fbde743012cee3f7b682"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-sozvuchie.html",
+      "status": 200,
+      "sha256": "6c0c34e9e8109d9f002bf34763538e5d1057f8472f3dfd57ee90cdca253194e8"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-vdohnovenie.html",
+      "status": 200,
+      "sha256": "e693b73cff365285b16f9c8f27a640e191e39e6e0f13df58dfbb067dd5d1b862"
+    },
+    {
+      "file": "clubs/admiralteysky/pmk-dvor.html",
+      "status": 200,
+      "sha256": "4626a8340a62174b90875e7872953cb4dcc6d28db08e62c212c276e864a42700"
+    },
+    {
+      "file": "clubs/admiralteysky/pmk-prometey.html",
+      "status": 200,
+      "sha256": "9a9419d744b345b2f37b4f860f3d6766228ce21e2cf44cdeeb4918db0ed5fae8"
+    },
+    {
+      "file": "clubs/admiralteysky/psihologicheskaya-sluzhba-mozaika.html",
+      "status": 200,
+      "sha256": "944efedf434d66b6f62d50fe1016e1786715e1a43fae00b0bef93eb9a042d880"
+    },
+    {
+      "file": "clubs/admiralteysky/tsentr-molodyozhnogo-tvorchestva-i-semeynogo-dosuga-f133.html",
+      "status": 200,
+      "sha256": "f13a9df0b4f735258f74ed7124f7a16f6c18b2ac512a57c35d6203b70770a1b1"
+    },
+    {
+      "file": "clubs/avrora.html",
+      "status": 200,
+      "sha256": "bb35e7aba3ee95d960e05d980d7c96993bb8768b33d7f3b317cf351755f92247"
+    },
+    {
+      "file": "clubs/belyy-medved.html",
+      "status": 200,
+      "sha256": "dea9cc0b6e0ae7034d2ed114450705ddf88a794123f67f705edbe66670a269d1"
+    },
+    {
+      "file": "clubs/chayka.html",
+      "status": 200,
+      "sha256": "156fb478a5a93125625a84d4a9bc753d23467b4192f956a3637ea0dc88464c25"
+    },
+    {
+      "file": "clubs/druzhba.html",
+      "status": 200,
+      "sha256": "aa77be1566f2f792e9cc4a0997786ec96ae5ccb5a86d1e9aad2a27a2892c1f57"
+    },
+    {
+      "file": "clubs/ellada.html",
+      "status": 200,
+      "sha256": "5d91d8119d1f1ba6c1f674676b74a873b661c8a61104b347cdfd905b0fa51c76"
+    },
+    {
+      "file": "clubs/fakel.html",
+      "status": 200,
+      "sha256": "117ffa3c7a648f6d01b67659a2947f8cd425bcca174320d9d4da58b5e6655c58"
+    },
+    {
+      "file": "clubs/fonarik.html",
+      "status": 200,
+      "sha256": "f672f6a8144777f867c3417d26ac32f2aefe49202bb1d417cd71aecac134a988"
+    },
+    {
+      "file": "clubs/frunzensky/atmosfera.html",
+      "status": 200,
+      "sha256": "d81c86cbf73ad45db3dbcf3c8edf78d900eec5cda8a760cbc111598c36bf52e2"
+    },
+    {
+      "file": "clubs/frunzensky/dom-molodyozhi-kupchino.html",
+      "status": 200,
+      "sha256": "065db3246595bba4eb70bde6e616969387b2c44017a6be1672132623479457d5"
+    },
+    {
+      "file": "clubs/frunzensky/fakel.html",
+      "status": 200,
+      "sha256": "7764ae1b5e4c41c400353fe255611ab07637cfb470bf64e16ef9fcdaf67ef131"
+    },
+    {
+      "file": "clubs/frunzensky/feniks.html",
+      "status": 200,
+      "sha256": "616b29dbfc8b44ac5d39da7d67fe15c6440d4bf7c9e10ed713451d016a4b482c"
+    },
+    {
+      "file": "clubs/frunzensky/garmoniya.html",
+      "status": 200,
+      "sha256": "5fc5081e9689cc0c55b80b6d98fb23dba935071e7a5b234ea02b337fa022e235"
+    },
+    {
+      "file": "clubs/frunzensky/iskra.html",
+      "status": 200,
+      "sha256": "eb23d813bc182ddad50190ec8d9383e5198a0c11a6d27384be67a90fc036686b"
+    },
+    {
+      "file": "clubs/frunzensky/mir.html",
+      "status": 200,
+      "sha256": "25ca4dae1ecab90d03efb4a2dafbcaddc852b1c5aae144dd025835ea06caf880"
+    },
+    {
+      "file": "clubs/frunzensky/moloko.html",
+      "status": 200,
+      "sha256": "a64395a8cb89e6c1c39e151580a819664b59bb6f5cf1290ee6c1bd3c47481a0e"
+    },
+    {
+      "file": "clubs/frunzensky/planeta.html",
+      "status": 200,
+      "sha256": "3ea62a28fed2dcfd1d15a04813b80353afe3781de232da09e6c398895f027bcd"
+    },
+    {
+      "file": "clubs/frunzensky/progress.html",
+      "status": 200,
+      "sha256": "4f27c84fd8f2e20de5a94902d38af182b8e89900ef351e33c41897181547afc2"
+    },
+    {
+      "file": "clubs/frunzensky/raketka.html",
+      "status": 200,
+      "sha256": "2c356280e8de1850b02d763ae13a28b40dca2aa4a83fda9db5392e47981c0aea"
+    },
+    {
+      "file": "clubs/frunzensky/romantika.html",
+      "status": 200,
+      "sha256": "72b88a5fb9e043aa32c9919e378f646a4eefd646b60f1dead98c8901ac996b68"
+    },
+    {
+      "file": "clubs/frunzensky/sovremennik.html",
+      "status": 200,
+      "sha256": "93864e31ec5c1e58a5336dbbb9ba22eb389df4a04cdda2853c1de44fe0051d82"
+    },
+    {
+      "file": "clubs/frunzensky/start.html",
+      "status": 200,
+      "sha256": "c137c0c4f7ab1fd74ce247dcd5f95e005444045c628cb1d64e7d4ba2f561b99f"
+    },
+    {
+      "file": "clubs/frunzensky/vpk-imeni-3-y-frunzenskoy-divizii-narodnogo-opolcheniya.html",
+      "status": 200,
+      "sha256": "45a3c8405f5b5cc54063400e7891c49e80cca926cb82316ee08ce287710cf7f5"
+    },
+    {
+      "file": "clubs/frunzensky/vpk-imeni-a-f-klubova.html",
+      "status": 200,
+      "sha256": "5a024deb0406193ad535583e2adf32a82536c4c33414408008f6aeb3b27fd97e"
+    },
+    {
+      "file": "clubs/frunzensky/yunost.html",
+      "status": 200,
+      "sha256": "12441c09ef6a4be3fed92b76adfb8d9d92837d62c425fe4afc1178d69aaee53f"
+    },
+    {
+      "file": "clubs/kalininsky/alye-parusa.html",
+      "status": 200,
+      "sha256": "70c22d8ee9deb4b65961d330b18da89ff7cc9080d72dcdd647ff8fd4eb703981"
+    },
+    {
+      "file": "clubs/kalininsky/atlant.html",
+      "status": 200,
+      "sha256": "913f8a623d6a6aa221af362d6720ab844622d57e9b280cf9e3e8df56e954a176"
+    },
+    {
+      "file": "clubs/kalininsky/brigantina.html",
+      "status": 200,
+      "sha256": "1683ef784f061b71ee5238924f065b2218ccef81ad22c537315a124b8312cd1f"
+    },
+    {
+      "file": "clubs/kalininsky/druzhba.html",
+      "status": 200,
+      "sha256": "8bc780826f5a9a24c477167379b37868f52f62850a337c19745cc039c9dd4d9f"
+    },
+    {
+      "file": "clubs/kalininsky/evrika.html",
+      "status": 200,
+      "sha256": "9eeb5b93996034fdfa4164ba8f661039fdcae4bba148a02da8043188a8beb1d7"
+    },
+    {
+      "file": "clubs/kalininsky/kuhnya.html",
+      "status": 200,
+      "sha256": "406c9ae3f927b7e3b3ef1f1d849c7020ebe188a9e9b340e49816e5936062d9af"
+    },
+    {
+      "file": "clubs/kalininsky/muzhestvo.html",
+      "status": 200,
+      "sha256": "a6b35df807e29108ed3c9fbb6881ca6f0aa29418c1bb04b42968897e9abc5196"
+    },
+    {
+      "file": "clubs/kalininsky/nepokoryonnyh.html",
+      "status": 200,
+      "sha256": "7e32a302873cf276fce2ec455392345782049ca4b4f284abe8c30286d2f6465d"
+    },
+    {
+      "file": "clubs/kalininsky/ogonyok.html",
+      "status": 200,
+      "sha256": "282a2123e484182e7b5addd227aaedff96e22dacbc32603ab15091ba31beea6a"
+    },
+    {
+      "file": "clubs/kalininsky/okna.html",
+      "status": 200,
+      "sha256": "d841c915f8e2a2baf103b2b8621fa07e3d2189ab114cbc4b57dcfbb6a294173e"
+    },
+    {
+      "file": "clubs/kalininsky/olimp.html",
+      "status": 200,
+      "sha256": "33b2e3becec48c9ab2086b8974e9f555e6e8ba616e85fd8e9d9e724ca81f874a"
+    },
+    {
+      "file": "clubs/kalininsky/parus.html",
+      "status": 200,
+      "sha256": "74b5a8d46cf1114819a7135b93255c35dfd202c8fb2bf0ca0f99ad31e5661ea4"
+    },
+    {
+      "file": "clubs/kalininsky/pioner.html",
+      "status": 200,
+      "sha256": "b1f6c08ea3e021e0329963f2349ece479dc99686f91585638140f074cc228cc7"
+    },
+    {
+      "file": "clubs/kalininsky/ritmiks.html",
+      "status": 200,
+      "sha256": "05b5b43b2976a442d1a69f8d4ae4f7c07c147e1d1c3463847dcc13a08191ca26"
+    },
+    {
+      "file": "clubs/kalininsky/rovesnik.html",
+      "status": 200,
+      "sha256": "ca79bb7c41d8ca0fb9f2a3c59966f98830ddf05748dc8a7794bf2cf874b15bce"
+    },
+    {
+      "file": "clubs/kalininsky/sozdanie.html",
+      "status": 200,
+      "sha256": "e41a28db08c8c8be60285ae820f2d2c2e7bb3f6f8669da95e681935eacedbf57"
+    },
+    {
+      "file": "clubs/kalininsky/spasatel.html",
+      "status": 200,
+      "sha256": "ba3f783616c82502a4111c011fabfe24b587c4ee9044d5a3dad4d71d0830b811"
+    },
+    {
+      "file": "clubs/kalininsky/stsena.html",
+      "status": 200,
+      "sha256": "10fff7592871f3c68867d97db391ea7ef88c9a9e6486deab71aabf808ed639f1"
+    },
+    {
+      "file": "clubs/kalininsky/tvorchestvo.html",
+      "status": 200,
+      "sha256": "f737914925139bb1ff50cc8207ac560c19c2e27a15319ebe1b878fb0f5737a10"
+    },
+    {
+      "file": "clubs/kalininsky/vkadre.html",
+      "status": 200,
+      "sha256": "07d86885eb090a575681b66a5be926352dcd2a85c7c31b5676431324c269c01b"
+    },
+    {
+      "file": "clubs/kalininsky/vodingolos.html",
+      "status": 200,
+      "sha256": "1742fa0fb7b1606a6c11d22b90c6ebf7702dbcbd5a90dc78d86d7b51dfde72cf"
+    },
+    {
+      "file": "clubs/kamchatka.html",
+      "status": 200,
+      "sha256": "d1e6f066693cb88f5af24f2725cf209451ebb094a7b28e8ec4a3f20ff02a7a5c"
+    },
+    {
+      "file": "clubs/kirovsky/altair.html",
+      "status": 200,
+      "sha256": "08beeea52ded9a281cec1680ba20818e655c798fcacfa51112ff52abd0b182e5"
+    },
+    {
+      "file": "clubs/kirovsky/alye-parusa.html",
+      "status": 200,
+      "sha256": "d425c1cafc5452465b82b68f94ba9169ad4ce2ab54dba8160571fcc999ebbc28"
+    },
+    {
+      "file": "clubs/kirovsky/fakel.html",
+      "status": 200,
+      "sha256": "390c366d4e7685159c222c97261bd7501722f5f1473264c67c97717d37335e4f"
+    },
+    {
+      "file": "clubs/kirovsky/imeni-lyoni-golikova.html",
+      "status": 200,
+      "sha256": "88933cd82a12aaa1f767807b97c7776cab67173a17b5d43d7acdb147fd2e4e47"
+    },
+    {
+      "file": "clubs/kirovsky/kanonerets.html",
+      "status": 200,
+      "sha256": "3b9e026bdc3c9e2a83742d0c0df6aa284497ee1df4b8e893770169a7d49b58de"
+    },
+    {
+      "file": "clubs/kirovsky/kortik.html",
+      "status": 200,
+      "sha256": "e0a18d527b74b1cbfaa78fd1518e1f3aa2c9e9d1394752efc90120fd152b83c2"
+    },
+    {
+      "file": "clubs/kirovsky/leninets.html",
+      "status": 200,
+      "sha256": "f1b61ba94391fc69befbd53a72506f76258c473bd49558c8c0e597af8f8c47f0"
+    },
+    {
+      "file": "clubs/kirovsky/molodyozhnyy.html",
+      "status": 200,
+      "sha256": "2b515c5bd336d1b38d503513b031daaf11d8fc4ab0fa1dbeeb40ebe621214913"
+    },
+    {
+      "file": "clubs/kirovsky/narvskaya-zastava.html",
+      "status": 200,
+      "sha256": "89cab829acb1ea3d51d7d7530ea709522cb679df8bb69280d005af1f7254d4f0"
+    },
+    {
+      "file": "clubs/kirovsky/prometey.html",
+      "status": 200,
+      "sha256": "650cea95776d9a864b8fd38694e34683b85f5bbc767cb6ac7c2aae0e83f87941"
+    },
+    {
+      "file": "clubs/kirovsky/raduga.html",
+      "status": 200,
+      "sha256": "22054a0670ef9934066a7201b024413a110b8df5ac43d0111aa8de152a3192d8"
+    },
+    {
+      "file": "clubs/kirovsky/raketa.html",
+      "status": 200,
+      "sha256": "4ccb4df9886d0ae368830c5cbf7ae394c1bcd1f408cbf677b1d45f854c803f8d"
+    },
+    {
+      "file": "clubs/kirovsky/sever.html",
+      "status": 200,
+      "sha256": "9b4413baee6430ce34fb62070b154adb4947a78b159a25f9c982e064b33dcfe3"
+    },
+    {
+      "file": "clubs/kirovsky/smena.html",
+      "status": 200,
+      "sha256": "672a1635165a1f97b1af7664f1f058f2d0990545777ce7cb325ca9a6b9378183"
+    },
+    {
+      "file": "clubs/kirovsky/tsentr.html",
+      "status": 200,
+      "sha256": "a425580acdc3866c09d9d31ef085dc604bfccf809f081b0d6e16780fd6011c75"
+    },
+    {
+      "file": "clubs/kirovsky/v16.html",
+      "status": 200,
+      "sha256": "2a7fd2d11cb881de65cb3baaa21e0789ebd1c7b611634b83d9cb44d746278c1a"
+    },
+    {
+      "file": "clubs/kirovsky/yunyy-korabel.html",
+      "status": 200,
+      "sha256": "b8fcfb3e449f607c342e61e2cb80b2f4f0ed1d380b3bfa292539f661032c0315"
+    },
+    {
+      "file": "clubs/kirovsky/yunyy-leningradets.html",
+      "status": 200,
+      "sha256": "5d5ea217b8008bb750d558862569d0d9d345420474bb198f7f3552a149cb76bd"
+    },
+    {
+      "file": "clubs/kirovsky/zarya.html",
+      "status": 200,
+      "sha256": "674464c8241bc7187a3b1e73bd70d14d07e9e35382e16946560bfdd2a036b674"
+    },
+    {
+      "file": "clubs/kolpinsky/baltika.html",
+      "status": 200,
+      "sha256": "ff6b26979467644ebff7935cc36221053f114856bf803496de133823a6dff88d"
+    },
+    {
+      "file": "clubs/kolpinsky/chayka.html",
+      "status": 200,
+      "sha256": "9844e7f857f02203ad38cb234d3b27f4f3d3f793d7832d374a485ab382cf9ae5"
+    },
+    {
+      "file": "clubs/kolpinsky/delta.html",
+      "status": 200,
+      "sha256": "291d9e1806608f2bfe41d61c7a04025f77f762cbae0a2cc6d89cfb0e55066c41"
+    },
+    {
+      "file": "clubs/kolpinsky/fakel.html",
+      "status": 200,
+      "sha256": "d67f82ae54cc687d8fa63369b80e625000c09a366d2d16192fd7a5b066b99815"
+    },
+    {
+      "file": "clubs/kolpinsky/fantazyory.html",
+      "status": 200,
+      "sha256": "a1568c379be845d07fd7fb2dab8bfd77c59ecbd1831175c80905b44933448640"
+    },
+    {
+      "file": "clubs/kolpinsky/gorizont.html",
+      "status": 200,
+      "sha256": "e6e156d833e9075bb8a25fb77d8b8f2d2dc64f895ff4c0180fd55bd0d3aa8eaa"
+    },
+    {
+      "file": "clubs/kolpinsky/kolpinets.html",
+      "status": 200,
+      "sha256": "e45fccece61027af67d331ec6dd3483458165308b949f8f360afb0322fc1c496"
+    },
+    {
+      "file": "clubs/kolpinsky/kolpinskaya-perchatka.html",
+      "status": 200,
+      "sha256": "598f43db1918c72d13843b8b0b92d14797d0ff93d1f05f9c9b128ea3d9478a49"
+    },
+    {
+      "file": "clubs/kolpinsky/mediazavod.html",
+      "status": 200,
+      "sha256": "51af2f4496591df3f70afd4bd823311ecdefa82282f4fb8c7ee8f358175a6521"
+    },
+    {
+      "file": "clubs/kolpinsky/orlyonok.html",
+      "status": 200,
+      "sha256": "1677ed1f8cc1f266bebba4d867102237c292a02bb7621c6d7f59e97f75da0762"
+    },
+    {
+      "file": "clubs/kolpinsky/patriot.html",
+      "status": 200,
+      "sha256": "142cad59f99cd3b692853c7ee9c9951378eb778cd750baa5e2f915cc87d50ee6"
+    },
+    {
+      "file": "clubs/kolpinsky/ritm.html",
+      "status": 200,
+      "sha256": "741c3be5c012eb55a37724f7ff9db2a512dbbb135d35b7d14e007f31939d2240"
+    },
+    {
+      "file": "clubs/kolpinsky/rodina.html",
+      "status": 200,
+      "sha256": "24ec045bafdc4d4351d67de5d7a7335cc9791261321393b922860cd9d533c5d2"
+    },
+    {
+      "file": "clubs/kolpinsky/yunost.html",
+      "status": 200,
+      "sha256": "982957fea6e0ef061903ddbb08c1e17081f3cda3b371b8786796b1dce8790ae6"
+    },
+    {
+      "file": "clubs/kolpinsky/z.html",
+      "status": 200,
+      "sha256": "63ce5f4c3bd5cf5cd42802492d1a38e283507f95e8915c5ebd221c8351fc05e2"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/4k.html",
+      "status": 200,
+      "sha256": "f92fcb67be0a974fe58f1daebf460e656b09c6e16c2d13bf6bdf04ecfffc8b3b"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/adrenalin.html",
+      "status": 200,
+      "sha256": "55715e8ed66597c0157fcd27d1244f05b7e4e744ed4fbbc152ae41fa3c87052c"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/akvamarin.html",
+      "status": 200,
+      "sha256": "110a34d3b14dbbadd9e307ae646ec00c6ab579f16d4e93031137e055860a3ca3"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/beryozka.html",
+      "status": 200,
+      "sha256": "857766ac28aa83bc3e4ac61890f7587a7e0d4b9208c15769490461a925377734"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/dialog.html",
+      "status": 200,
+      "sha256": "8e2576cddbd242a2138e98965e3926edd846fa0f9d3bd6919e7c3221189d87c1"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/fakel.html",
+      "status": 200,
+      "sha256": "afae905ecc44ec3999d3e82b5af3a71b015bd6a8313f2109d07d559256ba362b"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/faktura.html",
+      "status": 200,
+      "sha256": "483ca0471784b076e20253ac5d097d916f5a03bc7c95bbb1945f1b4ae31240b9"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/izmerenie.html",
+      "status": 200,
+      "sha256": "fd57ee967f577656e1bff1a13809be6bac58414aee00aa1a113a5ca4d632a85e"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/kvadrat.html",
+      "status": 200,
+      "sha256": "6cb9039abf62d04e7395cf4444fbfc33b1874575640a9813502b0e24e932b326"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/kvartira-ru.html",
+      "status": 200,
+      "sha256": "61b7df0da9dc2c005c4bfb4fd061e93632b144fef91dacc7bbb01ae289978c6d"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/meteor.html",
+      "status": 200,
+      "sha256": "56d72707c19534e7bfa42de548c3746075242ddfe5e16fbfd2723f6774f1a749"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/neo.html",
+      "status": 200,
+      "sha256": "564e6a2e81756431f8f8faef95966f914e76826ffe987b6048fd14dc10310368"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/neva.html",
+      "status": 200,
+      "sha256": "a12a81b495d0f1792c244096e91ad4604782eb53c5861486c246a23773a7131f"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/ostrova.html",
+      "status": 200,
+      "sha256": "ea8a74aab2c0a00fd00c4b9725709c2c68c5eb2b6d8d5799adeace15354d6a9b"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/reyd-2-0.html",
+      "status": 200,
+      "sha256": "d37cde3f4e6ac580278a86685f69ab7ad681e0a7c19370370a8e835c24679873"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/rodnik.html",
+      "status": 200,
+      "sha256": "d1cc6116deb030fdf907d8fe76aeee1e9e80b83cfa4cec00e3dca9f8228be1d9"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/sosedi.html",
+      "status": 200,
+      "sha256": "698dec54a60a019d89316c8ed4b52695d69d61d77fffc2481dc86f508f8cfd91"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/sovremennik.html",
+      "status": 200,
+      "sha256": "07e50ddc316d9762e7001c0934e0c091b74ae742ea2f0b5e68b4ee1736516ffb"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/teplo.html",
+      "status": 200,
+      "sha256": "7572fb5a83b252cf72bdf44897abdcf8dca18a2f6858de726d735f0f21ad9cbb"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/tochka.html",
+      "status": 200,
+      "sha256": "ed05210b829f8ad8fbbea00b82ef19eb100c2895c96ce0db88e14dcc81b41b22"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/vega.html",
+      "status": 200,
+      "sha256": "bd20f434eab5b55091ac503c35c3574daf19d7c69e0f677c42b6235c48ff4e82"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/zov.html",
+      "status": 200,
+      "sha256": "0ec65592aaa1db2d6582f0d6464408980ca082163d05379b802886c466b09fb3"
+    },
+    {
+      "file": "clubs/krasnoselsky/alye-parusa.html",
+      "status": 200,
+      "sha256": "7d6fc9ba515555d3c10c0aa8c2634a8c198d22c64ff008a5d2221dcc25fa5aad"
+    },
+    {
+      "file": "clubs/krasnoselsky/bereg.html",
+      "status": 200,
+      "sha256": "071619f2bacc6bec00f2a96cc3364588f46b98b13d27a5672becb7d99dc3050e"
+    },
+    {
+      "file": "clubs/krasnoselsky/burevestnik.html",
+      "status": 200,
+      "sha256": "4e535bd86c031040e30550194054a2bf85844ffdc522727a2d443f7fcc9e0424"
+    },
+    {
+      "file": "clubs/krasnoselsky/fakel.html",
+      "status": 200,
+      "sha256": "944faef5bd5287a724f0f0a7b8970e3e5e285fa581424a789956d6c545d7f6dd"
+    },
+    {
+      "file": "clubs/krasnoselsky/kompas.html",
+      "status": 200,
+      "sha256": "e7920772b6772f6fddcad7ecc8a4706c3a39f1c21c17b4b8b326748490a441dd"
+    },
+    {
+      "file": "clubs/krasnoselsky/mayak.html",
+      "status": 200,
+      "sha256": "447897a8a6e48be0bff0da44c57bb8fbee113702df85af0a08dfc0320dacbe7c"
+    },
+    {
+      "file": "clubs/krasnoselsky/nepokorennyy-rubezh.html",
+      "status": 200,
+      "sha256": "55e6a5f91ca75ab74ba38322e237d6d7381480255c0608521a1fd9ac928eb6b2"
+    },
+    {
+      "file": "clubs/krasnoselsky/olimp.html",
+      "status": 200,
+      "sha256": "2615e03b08a6c463facdb356fb47ddab6a203e5fb50854f91cf0758822f680e1"
+    },
+    {
+      "file": "clubs/krasnoselsky/polet.html",
+      "status": 200,
+      "sha256": "c176a8ebef4128057707001cbe6c80097fd9e8b2c80cf76fea9e251ab4c597c0"
+    },
+    {
+      "file": "clubs/krasnoselsky/prichal.html",
+      "status": 200,
+      "sha256": "5868ac5c16c007019c15d1d5bca30fa741bee22e39dfba06f445acaf69b988e9"
+    },
+    {
+      "file": "clubs/krasnoselsky/raketa.html",
+      "status": 200,
+      "sha256": "fd912e7b6f8192a667073afce9bc9baa484b7292c0d2506fe6f8540a3b9568a7"
+    },
+    {
+      "file": "clubs/krasnoselsky/rekord.html",
+      "status": 200,
+      "sha256": "1dd8195eddca5d546566fd24a8ef812ccc988c7cffb1b0a0bd83832adafc71f0"
+    },
+    {
+      "file": "clubs/krasnoselsky/ritm.html",
+      "status": 200,
+      "sha256": "b4bc86d41f410ac8c4578c335c75930e9f2df31f5a8c1d8ffaf20347145e0d5c"
+    },
+    {
+      "file": "clubs/krasnoselsky/rovesnik.html",
+      "status": 200,
+      "sha256": "55d88fef1ceecfeba0a97a3d83b5a7c07c8cd4933139ffd70a486b1bf6012582"
+    },
+    {
+      "file": "clubs/krasnoselsky/umelets.html",
+      "status": 200,
+      "sha256": "64fc4b8ca2d4db0074a30cfd2928988c59c18180a14c1a51d3e85b93cd5cdaa0"
+    },
+    {
+      "file": "clubs/krasnoselsky/voshod.html",
+      "status": 200,
+      "sha256": "792c9a516d5939526760b439adecac34b88d396c34f725d7b7956fecee5a6e51"
+    },
+    {
+      "file": "clubs/krasnoselsky/yunost.html",
+      "status": 200,
+      "sha256": "cae087664c2a84fec542d1de52f18fea51b773d6262674599ffbe1acd1c01547"
+    },
+    {
+      "file": "clubs/kronshtadtsky/kronshtadtskiy-dvorets-molodyozhi.html",
+      "status": 200,
+      "sha256": "c73ba2344b020eada05fa235ed53800ba5d83ea1dd9b1be4f4139cb3351d43cf"
+    },
+    {
+      "file": "clubs/kronshtadtsky/mayak.html",
+      "status": 200,
+      "sha256": "4aac984ab8c1a978cec0550f9bd708a6678c45695c1dc0badee2fc2b9aab1556"
+    },
+    {
+      "file": "clubs/kronshtadtsky/rovesnik.html",
+      "status": 200,
+      "sha256": "fb2c3e7b900dbaec2e90b4f4733d1a3438ceaebb897817b132313e2bf45a8f88"
+    },
+    {
+      "file": "clubs/kurortny/molodost.html",
+      "status": 200,
+      "sha256": "820fa8af51fc7f8936c1804822134a8bcb7fb531de2edfc1d8b380a97a176f2c"
+    },
+    {
+      "file": "clubs/kurortny/snayper-ispolkomskaya.html",
+      "status": 200,
+      "sha256": "e8e10f3af9238f5ef683287712009aaff59fb61a8a3fa2cbacf3ec31bb067e77"
+    },
+    {
+      "file": "clubs/kurortny/snayper-lenina.html",
+      "status": 200,
+      "sha256": "fd006325d37231825e13d20c9a4cc3acaec0ed1efaa542465bb33fc144800e8b"
+    },
+    {
+      "file": "clubs/kurortny/snayper-privokzalnaya.html",
+      "status": 200,
+      "sha256": "edaf3e9b4f317813dc1c7b7cfcc57d13f37eba2fb330436bb138b58353f7ed21"
+    },
+    {
+      "file": "clubs/kurortny/voshod-mosina.html",
+      "status": 200,
+      "sha256": "96831e423e74b5e0de33ed4680a55b90ccba0c8901f016602d4688a8dc573402"
+    },
+    {
+      "file": "clubs/kurortny/voshod-primorskoe-shosse-270.html",
+      "status": 200,
+      "sha256": "455cb43bd998b821e52fbbdb8a2b2af34699fc0dc6dafbdd6651784657407213"
+    },
+    {
+      "file": "clubs/kurortny/voshod-primorskoe-shosse-280.html",
+      "status": 200,
+      "sha256": "89ba4bd3f7ad1b401c79129694466ea065add0035a13bb660e1e23d095ba0c1f"
+    },
+    {
+      "file": "clubs/kurortny/voshod-tokareva.html",
+      "status": 200,
+      "sha256": "09e5ed42802a8b7cc1947623c6d07a589e30d860bb3637cc9dd00a5e5176797d"
+    },
+    {
+      "file": "clubs/kurortny/voshod-volodarskogo.html",
+      "status": 200,
+      "sha256": "49d09e6f7c9f91f2d687fbfe231841faae07135a7b4a701c8f9bfa251a3de78e"
+    },
+    {
+      "file": "clubs/leningradets.html",
+      "status": 200,
+      "sha256": "c4bf116d21c6fe3f4ab18895020e5df43a5106370c6c4aa86f645b03e0d65085"
+    },
+    {
+      "file": "clubs/mayak-olimpiks.html",
+      "status": 200,
+      "sha256": "181f395b093ccdfdf0fe52e5cd4b9480c84de6b9f03d8a707d875663a1557531"
+    },
+    {
+      "file": "clubs/molniya.html",
+      "status": 200,
+      "sha256": "e4454ae05f7c29abed787ba2cd365562bd2169c498b0f6020ff90daa06919856"
+    },
+    {
+      "file": "clubs/morskoy.html",
+      "status": 200,
+      "sha256": "ec3d60cc723a859bcff06b2b400f7ef9d6d63196ce5d8e9adfcf272ad6af8905"
+    },
+    {
+      "file": "clubs/moskovsky/avrora.html",
+      "status": 200,
+      "sha256": "eb09ba8dac20cf664ead9f506f1724225c795c819d8474fb6defe81243067699"
+    },
+    {
+      "file": "clubs/moskovsky/kometa.html",
+      "status": 200,
+      "sha256": "5e6f71826e506fd578fd609e7c31cffdbe4f39f7dd4e18900d1c47bc4ab27a99"
+    },
+    {
+      "file": "clubs/moskovsky/kosmonavt.html",
+      "status": 200,
+      "sha256": "f391f4bdbf65c9d24af64b4815f68bd345299662d25f1950bc4b0847fd7bcb38"
+    },
+    {
+      "file": "clubs/moskovsky/kosmos.html",
+      "status": 200,
+      "sha256": "525ff6b4f92b5936e291daa7fbfb145d6315d973edb18c4ef08d3e9f8efd4c92"
+    },
+    {
+      "file": "clubs/moskovsky/luch.html",
+      "status": 200,
+      "sha256": "dc7c136e507c6c0d1b26db49d07490bc5eaa9e1addcbeed488e3ab3b4a873ef4"
+    },
+    {
+      "file": "clubs/moskovsky/molodyozhnyy.html",
+      "status": 200,
+      "sha256": "7160a3fa1a72a87a53d2da40f167fd7475bdc561017f4d6aec038a87668055bc"
+    },
+    {
+      "file": "clubs/moskovsky/na-zvyozdnoy.html",
+      "status": 200,
+      "sha256": "28068b8badac8e4614d9d296d85350fa9ddd46a2cb0e54661d42586f2d65000f"
+    },
+    {
+      "file": "clubs/moskovsky/nadezhda.html",
+      "status": 200,
+      "sha256": "a56fbb1cc1d33a3c727491f0ddd6a0b0dcac4535f29adb94a9123059c65bfdbc"
+    },
+    {
+      "file": "clubs/moskovsky/neva.html",
+      "status": 200,
+      "sha256": "80905d04b20b9b952a12aef9ae513bbb6b58fa0d8721a92dae3bcf840f460c08"
+    },
+    {
+      "file": "clubs/moskovsky/oktyabr.html",
+      "status": 200,
+      "sha256": "4ea0e3d8db1bb42697ebb23436101ea2b7fa6e567ea523ff6cd888ea16f493cd"
+    },
+    {
+      "file": "clubs/moskovsky/prosto-moskovskiy.html",
+      "status": 200,
+      "sha256": "8cbd73cac5b7a59df3cb9027948259ca5850c404ca9dbcb3658934597653c502"
+    },
+    {
+      "file": "clubs/moskovsky/pulkovets.html",
+      "status": 200,
+      "sha256": "b59d42fe05d9ebd19254534a6ad6d7a411b341846f16f95cd75b3783a1f6c8e7"
+    },
+    {
+      "file": "clubs/moskovsky/romantiki.html",
+      "status": 200,
+      "sha256": "556ddc2f41ab95bbad989b6b7ff57d855e3a3f287414bef18507b3839371f7ea"
+    },
+    {
+      "file": "clubs/moskovsky/rubin.html",
+      "status": 200,
+      "sha256": "de93867d55c1d614e1c0aeeee943940385f4bcd896c6f2960bd125b009099cfb"
+    },
+    {
+      "file": "clubs/moskovsky/sputnik.html",
+      "status": 200,
+      "sha256": "770d2b9460840dc45506aebab36ea4d03a6bd24afe1c203254b077cfda9ba94a"
+    },
+    {
+      "file": "clubs/moskovsky/start.html",
+      "status": 200,
+      "sha256": "ac545b815de58bafe19b5874e760a2135cbdcbb59bb19466a4528d8b3deca49e"
+    },
+    {
+      "file": "clubs/moskovsky/tsentr-patrioticheskogo-vospitaniya.html",
+      "status": 200,
+      "sha256": "e5a4e6813963528776ed9258b7d190fa635466d868af3392a12086533cada829"
+    },
+    {
+      "file": "clubs/moskovsky/vertikal.html",
+      "status": 200,
+      "sha256": "f934f3c64992f617b323a86002692f10ecb49d7b680d97a4323727de538a490e"
+    },
+    {
+      "file": "clubs/moskovsky/vostok.html",
+      "status": 200,
+      "sha256": "ed0fb4335ea67b4697913234b58a646058a4e7f26dcff1cf7bc8592c741a4f21"
+    },
+    {
+      "file": "clubs/moskovsky/vzlyot.html",
+      "status": 200,
+      "sha256": "7d6224a80991d9b55ae73da7327d9afd89f5a39869ae4a412737d1fd284b6847"
+    },
+    {
+      "file": "clubs/moskovsky/yunost.html",
+      "status": 200,
+      "sha256": "ba6884d9873603b1030268e4dfc14f5c97ad830eaa044dd551d7e1dd5746d254"
+    },
+    {
+      "file": "clubs/nadezhda.html",
+      "status": 200,
+      "sha256": "028e6568fff2f429702c11033e35c5651f36b2aaa93b72a58c37501c3f91a2ad"
+    },
+    {
+      "file": "clubs/nevsky/arktika-holl.html",
+      "status": 200,
+      "sha256": "d03342497c361628c1e48344d7c39d66c2d4f5ec03d6ecf5bed14d3f967d5675"
+    },
+    {
+      "file": "clubs/nevsky/artnevskiy.html",
+      "status": 200,
+      "sha256": "a81d4697ca3d2628565d6a51e9a394b1e120b14c8125290f0a3a27466c1a242f"
+    },
+    {
+      "file": "clubs/nevsky/atlant.html",
+      "status": 200,
+      "sha256": "419f4f8943d5269ba816fea3897e1596bd364843b71147601842b6bad25617d2"
+    },
+    {
+      "file": "clubs/nevsky/chayka.html",
+      "status": 200,
+      "sha256": "888079009b866bd6b61739d67ae6779e03dfc68a66665f073f2bfb94294f4f4e"
+    },
+    {
+      "file": "clubs/nevsky/druzhba.html",
+      "status": 200,
+      "sha256": "9e28cb0daf2b50b4fc2ad0928cd18e507061d78731632475fc425b7a5a3bacb2"
+    },
+    {
+      "file": "clubs/nevsky/fakel.html",
+      "status": 200,
+      "sha256": "7529b9a11f07487299b842d4f7aa0a731befe6cb71d17add668ca46db328d982"
+    },
+    {
+      "file": "clubs/nevsky/gorizont.html",
+      "status": 200,
+      "sha256": "b7d134fd107cb7c98f4943b03ebc3f2ba573035eac8bb9a3e8927d76c2658a10"
+    },
+    {
+      "file": "clubs/nevsky/iskateli.html",
+      "status": 200,
+      "sha256": "44dd3b222167d72513e2911e7c8ac446431eb8e33478adc8164b57ffc99c333b"
+    },
+    {
+      "file": "clubs/nevsky/karavella.html",
+      "status": 200,
+      "sha256": "79f91d7950e4650c1836f2c86889463ff79e5e5177745258cc9d286cb85b7b74"
+    },
+    {
+      "file": "clubs/nevsky/kosmos.html",
+      "status": 200,
+      "sha256": "2aee820dd6cb1e010e11c29eb1870414f89974611dcce58c354feb70c2d64b82"
+    },
+    {
+      "file": "clubs/nevsky/krasnye-zori.html",
+      "status": 200,
+      "sha256": "24bf4c0f03a66a430cb7d7cd82f447139be8385d207396853989e45885883f1d"
+    },
+    {
+      "file": "clubs/nevsky/krugozor.html",
+      "status": 200,
+      "sha256": "57b6802a89f5fbffd4735a26940e611ce34093b5699fbc98ef1dbfe1632ead36"
+    },
+    {
+      "file": "clubs/nevsky/leningradets.html",
+      "status": 200,
+      "sha256": "d830c84a36b79ee940fa09dbfc6cbfd6814a147f3297951d06d544c8a201feca"
+    },
+    {
+      "file": "clubs/nevsky/lider.html",
+      "status": 200,
+      "sha256": "1974ee72e26f7d749466c2d8da413db88e488d54f64c31fed1efb51ec10efd45"
+    },
+    {
+      "file": "clubs/nevsky/luch.html",
+      "status": 200,
+      "sha256": "e576ecf1c40d2701fe81697d514620b9c605d49cdccc155a630f3ad6ce75fe42"
+    },
+    {
+      "file": "clubs/nevsky/mechta.html",
+      "status": 200,
+      "sha256": "06b9bd4d7c9eaa6e55cf52d8946e3f23b555f44491d205b8f3c4bfdfeb73d5b2"
+    },
+    {
+      "file": "clubs/nevsky/molodyozhnyy-tsentr.html",
+      "status": 200,
+      "sha256": "661694b96feec8227fbf751810189b634cd55746d135280481fab3f12b2209cc"
+    },
+    {
+      "file": "clubs/nevsky/nash-etazh.html",
+      "status": 200,
+      "sha256": "2775d9d75d41940df22b86a224189482e636ba046262c9d81211a5c5e4f171b5"
+    },
+    {
+      "file": "clubs/nevsky/neva.html",
+      "status": 200,
+      "sha256": "e88081408cfd6e549ce40d7c5c9a4af6bb1b66e495f53839727291bdcb063705"
+    },
+    {
+      "file": "clubs/nevsky/nevskie-orlyata.html",
+      "status": 200,
+      "sha256": "dbd65b5c9fdfccdafaa5ebcbb425413be1ff9582c3ef3933c2a7c83d1ae2e16e"
+    },
+    {
+      "file": "clubs/nevsky/ogonyok.html",
+      "status": 200,
+      "sha256": "94cba3a3922c9e63318e50d5f2110af77a715fce5a7828cd20f395fb2e88cb52"
+    },
+    {
+      "file": "clubs/nevsky/olimpiets.html",
+      "status": 200,
+      "sha256": "3e777c572292d6e30fbd1e84279ac2a681d152d5877318034fcc6b2a3ddc27d5"
+    },
+    {
+      "file": "clubs/nevsky/optimist.html",
+      "status": 200,
+      "sha256": "7004717d8aa8aa101b186aaa3a548292926230b9ac303f56bdd82b1d98bfd7fd"
+    },
+    {
+      "file": "clubs/nevsky/parallel.html",
+      "status": 200,
+      "sha256": "7ed71db00dd7765ad390c9b7fd48bd54b1f59051c30ba80491acead7929fa46f"
+    },
+    {
+      "file": "clubs/nevsky/patriot.html",
+      "status": 200,
+      "sha256": "7558e2a400b537b7e871e803accaeddc4a574fa165caa275d0064a569990049a"
+    },
+    {
+      "file": "clubs/nevsky/perspektiva.html",
+      "status": 200,
+      "sha256": "f8e9e023332539fe01208bcdcbbd5d0c454a2c2184a514771513c30c2ba02330"
+    },
+    {
+      "file": "clubs/nevsky/polyarnik.html",
+      "status": 200,
+      "sha256": "fedef9d66885be7e409f1a131fdffea6ed67c81b9d2fe0600ba718e3ca8cfd3a"
+    },
+    {
+      "file": "clubs/nevsky/prozhektor.html",
+      "status": 200,
+      "sha256": "6b35ac0b2369d5cd5239b3b598a7079105f4fe82e8fec9ea25bac0cb554123d9"
+    },
+    {
+      "file": "clubs/nevsky/raketa.html",
+      "status": 200,
+      "sha256": "e829dfd4ab7a6936f9a0e52752f1b5baa9c335ab60de50cf6229a2e072ce923d"
+    },
+    {
+      "file": "clubs/nevsky/sputnik.html",
+      "status": 200,
+      "sha256": "23a533fe7250a50f43cd0a8ec4f30451f152ec2c549a751f037072a7df8571da"
+    },
+    {
+      "file": "clubs/nevsky/tovarisch.html",
+      "status": 200,
+      "sha256": "675a859f7d38efc874983fbdd12182944f86e5f2dcca8af2e76e8af5145f3f2d"
+    },
+    {
+      "file": "clubs/nevsky/yubileynyy.html",
+      "status": 200,
+      "sha256": "b0c172bd659b95fe896dcb4b1465c34069cde622cb202649cd061e7de7a4a2e8"
+    },
+    {
+      "file": "clubs/nevsky/yunost.html",
+      "status": 200,
+      "sha256": "4f2ac48254b04149778bc48206e1fdf3388d97c99bcbb897a598668097594a6b"
+    },
+    {
+      "file": "clubs/nevsky/zorkiy.html",
+      "status": 200,
+      "sha256": "78d7ea47293f177b85081479f98658b0259b24fc99e63c7875462c265793ae51"
+    },
+    {
+      "file": "clubs/otvaga.html",
+      "status": 200,
+      "sha256": "ee324c0447e53157550e9bd2af50fcd3724546ea46c01719a10c254c8f2889fa"
+    },
+    {
+      "file": "clubs/petrodvortsovy/brig.html",
+      "status": 200,
+      "sha256": "17efc9060783f530237893aa3768302a6a4e60fcdca8dda204e47659c4cd187c"
+    },
+    {
+      "file": "clubs/petrodvortsovy/ekvator.html",
+      "status": 200,
+      "sha256": "0bb15b19dcc9a6ce34064929e6cd796a9a89b1d4f9f07ccf5560457148923173"
+    },
+    {
+      "file": "clubs/petrodvortsovy/gals.html",
+      "status": 200,
+      "sha256": "14b4ca189681b449d514fbf69840b84b806721093c63c92f4f198a1649de3d19"
+    },
+    {
+      "file": "clubs/petrodvortsovy/m51.html",
+      "status": 200,
+      "sha256": "acb0a7ba06a0a37e4de2847bb4911b11c05cf8d6ae187b0f675613d990955857"
+    },
+    {
+      "file": "clubs/petrodvortsovy/meridian.html",
+      "status": 200,
+      "sha256": "c7c98400b6feb8246b18eb50b5c65794266cc363bd17e21434510cc91615cc49"
+    },
+    {
+      "file": "clubs/petrodvortsovy/navigator.html",
+      "status": 200,
+      "sha256": "24f1a1dbe4000ca84831ab6669c5860cc4945a1b2d0be335141e2f4ff2db66f2"
+    },
+    {
+      "file": "clubs/petrodvortsovy/olimp.html",
+      "status": 200,
+      "sha256": "af40873079918e12004ecd674090de8bbd7ce13a12c76845288f29df58015990"
+    },
+    {
+      "file": "clubs/petrodvortsovy/strela.html",
+      "status": 200,
+      "sha256": "4c9efe3de54a33703038f7f3fcb8f51b8f1e2aaf63564fb7080db3a0e8c87835"
+    },
+    {
+      "file": "clubs/petrodvortsovy/tayfun.html",
+      "status": 200,
+      "sha256": "61b1cdba8f124b09503be0a38b1f7fec74a75ce46b6b5ba3603f51c7233f5114"
+    },
+    {
+      "file": "clubs/petrodvortsovy/yunta.html",
+      "status": 200,
+      "sha256": "d5c1b6ffa2e84853fa1923c229e9f8c121046da8241df721382d2114dcd4cf23"
+    },
+    {
+      "file": "clubs/petrogradsky/alfa.html",
+      "status": 200,
+      "sha256": "99cd62d2d830c7b02521e456b789f6ada8bd460d470c014f7d1af73928d4fe00"
+    },
+    {
+      "file": "clubs/petrogradsky/almaz.html",
+      "status": 200,
+      "sha256": "1fb3950864018bcae7dcffd50523247afe0ba499e564b74c550ad722a7002a81"
+    },
+    {
+      "file": "clubs/petrogradsky/antey.html",
+      "status": 200,
+      "sha256": "098c3835282ef4249cd211760019f17ca71be4385d5f96b5c7029baba8c2c2ff"
+    },
+    {
+      "file": "clubs/petrogradsky/chayka.html",
+      "status": 200,
+      "sha256": "127bb5c4e0d71b0ad110decba26e5b1f9cb68751be0686a7f60aefff378c8d43"
+    },
+    {
+      "file": "clubs/petrogradsky/dobro-tsentr.html",
+      "status": 200,
+      "sha256": "47a82fd855195bc27349dbcaf42b15514ae695a89562c218231d81f51ff75e26"
+    },
+    {
+      "file": "clubs/petrogradsky/dom-yunarmii.html",
+      "status": 200,
+      "sha256": "ef044d09424ccb660408757adedaf49ca36d2fdec6ca1796503f0297acfdbf0f"
+    },
+    {
+      "file": "clubs/petrogradsky/dom.html",
+      "status": 200,
+      "sha256": "52814fdaa47034cd5b0357ad90356a5f9ce92abafe7882b45c5290a752b19c6f"
+    },
+    {
+      "file": "clubs/petrogradsky/era.html",
+      "status": 200,
+      "sha256": "3f1e45a10fd090e51e7cd7f4c63ae88a878386fa37ee133e4139414a6e81a7ed"
+    },
+    {
+      "file": "clubs/petrogradsky/estetika.html",
+      "status": 200,
+      "sha256": "e2ddbcaa3723dce0306a4498abea13085f50251fcfbff49969587a256ed672e1"
+    },
+    {
+      "file": "clubs/petrogradsky/fandom.html",
+      "status": 200,
+      "sha256": "fe3e0fa135d549f21f16773cd30931ef4ccdb5679ce5ee27765d986e86f9d3ef"
+    },
+    {
+      "file": "clubs/petrogradsky/mir.html",
+      "status": 200,
+      "sha256": "624ffba35375e225b48fbb94db1373a25784f2738dbb54957638398b91e9d0ee"
+    },
+    {
+      "file": "clubs/petrogradsky/obschestvennye-masterskie.html",
+      "status": 200,
+      "sha256": "73ab87ca557c48add522f63e0ae313afa38f2bd8df40bf079a74a1c0f39362e1"
+    },
+    {
+      "file": "clubs/petrogradsky/palata-remyosel.html",
+      "status": 200,
+      "sha256": "1fedf013ff4181b5ac46f2f6732a4d0ea2aabd653710ddd0eefdd71907f728d9"
+    },
+    {
+      "file": "clubs/petrogradsky/planeta-art.html",
+      "status": 200,
+      "sha256": "12255966448860b4e554679011d9d9175668a7ee5aa08bb3af9afda17205ea57"
+    },
+    {
+      "file": "clubs/petrogradsky/severnoe-siyanie.html",
+      "status": 200,
+      "sha256": "553f379433ae2e793024aa5fd161e4434aba8a308ebfcab58ccb827884223781"
+    },
+    {
+      "file": "clubs/petrogradsky/sreda.html",
+      "status": 200,
+      "sha256": "11fceff1c8d40f24aa66e5002a48ba9e2300280855dd9afb072f90c04c88b25a"
+    },
+    {
+      "file": "clubs/petrogradsky/start.html",
+      "status": 200,
+      "sha256": "22b14ae24625f957ee4f0c73c0132ecd89e2bc502b55564d864f97c7dc62aea9"
+    },
+    {
+      "file": "clubs/petrogradsky/vega.html",
+      "status": 200,
+      "sha256": "8b7dfddd8871326ac41ff9ce3d26b5dcf3173242766fd040422861a80178e14b"
+    },
+    {
+      "file": "clubs/petrogradsky/yu-piter.html",
+      "status": 200,
+      "sha256": "7a27cb20bfe4d71e2a2054a05eca46870db06b6d83c64a063ea3ee72e023ff6f"
+    },
+    {
+      "file": "clubs/petrogradsky/zerkalo.html",
+      "status": 200,
+      "sha256": "0605e1fd963537ddd6b29ffe12e4792b910906399f5d1cde0543a06c39167f30"
+    },
+    {
+      "file": "clubs/planeta.html",
+      "status": 200,
+      "sha256": "7b028bf7ca6655600f8d2804c1707502a2476f628ef5fa9da97ef75111a31796"
+    },
+    {
+      "file": "clubs/press-klub.html",
+      "status": 200,
+      "sha256": "6b92da563ff62e5caca67e2a2e06705c18623a602c7a09c73adf9984f12265e8"
+    },
+    {
+      "file": "clubs/primorsky/galaktika.html",
+      "status": 200,
+      "sha256": "3958aae7c5b0cb8033b2e1181b0f4aa55f371ce973a1b59bd4bef4d60c3d43d5"
+    },
+    {
+      "file": "clubs/primorsky/kaskad.html",
+      "status": 200,
+      "sha256": "f9504f2f70ed3733cba7eb1cf3cb6bb81f2cc611c6867a5a147fc1258d0ed507"
+    },
+    {
+      "file": "clubs/primorsky/korpus.html",
+      "status": 200,
+      "sha256": "938e98efa9fea27a8261275b3dddee82a9768b8d840c0d0d41885e8a52b98bb5"
+    },
+    {
+      "file": "clubs/primorsky/molodyozhnaya-ideya.html",
+      "status": 200,
+      "sha256": "78f03f826df818e9198b7b684a5e27129851347e22c172480cd387339ceaffd4"
+    },
+    {
+      "file": "clubs/primorsky/na-bogatyrskom.html",
+      "status": 200,
+      "sha256": "67331abe747aabedbb66cbda6dbf1f692f6d065de4ef33185fb9f66bc892bbe6"
+    },
+    {
+      "file": "clubs/primorsky/na-korolyova.html",
+      "status": 200,
+      "sha256": "27145c99706008a4d616f6c23b68ce52d4eb0edaf7ecd96f82638f294e1d19c6"
+    },
+    {
+      "file": "clubs/primorsky/neva.html",
+      "status": 200,
+      "sha256": "bd9b48bdad40313b0c14fe414251de2f6e9ae510f0ae27d04c1163a1dc6e73e6"
+    },
+    {
+      "file": "clubs/primorsky/razvitie.html",
+      "status": 200,
+      "sha256": "bdc4a3fea85f29b7ad0ce47c10950e110064cae92b7608e6b49606fe02ef5619"
+    },
+    {
+      "file": "clubs/primorsky/ritm.html",
+      "status": 200,
+      "sha256": "51d0bfccf8e3d689496df65da44a18f25a8b45de854f395cb69cbb448df9615d"
+    },
+    {
+      "file": "clubs/primorsky/v-stile.html",
+      "status": 200,
+      "sha256": "1db901511366063ade2caea5364574be8cb3e59b63819eebaed16e855b877390"
+    },
+    {
+      "file": "clubs/primorsky/yunost.html",
+      "status": 200,
+      "sha256": "493b70dc71aabca4fe16c364dc7f1067d722f0e9fcb57012baea7cbd6aa87d7c"
+    },
+    {
+      "file": "clubs/primorsky/yupiter.html",
+      "status": 200,
+      "sha256": "6432203d8771c9ea2ec4323d3691d2377a7d33e48a02f614beb4969e1d005113"
+    },
+    {
+      "file": "clubs/primorsky/zaozere.html",
+      "status": 200,
+      "sha256": "717ee53d1ba554611d83b36b1ff6af16f87d592e51a0fa9b3f6a927e510740be"
+    },
+    {
+      "file": "clubs/prityazhenie.html",
+      "status": 200,
+      "sha256": "b408dc9ecb2ad4ea2ab88b91f5660d058e07236259395a9053b5905d516ea6be"
+    },
+    {
+      "file": "clubs/proton.html",
+      "status": 200,
+      "sha256": "c8dcf5353ae9521d1df41aad2b6224c37707955789071ff072a0c8212fae69fb"
+    },
+    {
+      "file": "clubs/pushkinsky/3-y-etazh.html",
+      "status": 200,
+      "sha256": "b0fb7c38bafff3f61f51a4121462ba38f8705853954b2d3785d53255641ab956"
+    },
+    {
+      "file": "clubs/pushkinsky/antey.html",
+      "status": 200,
+      "sha256": "3a0c7f57fd26069b1bb45fcafb8967c1c251f7b01e706ec64a012b1ccba76c15"
+    },
+    {
+      "file": "clubs/pushkinsky/chayka.html",
+      "status": 200,
+      "sha256": "44c438c16a66e1aca5d90d1acedfee82ba72c1d98a39fea2676d635e7e56d8c5"
+    },
+    {
+      "file": "clubs/pushkinsky/informatsionnyy-tsentr-tsarskoselskiy.html",
+      "status": 200,
+      "sha256": "7d3afbe91b78236c237babfaac4edf8875359cbbb3c90074b386793a67c319e7"
+    },
+    {
+      "file": "clubs/pushkinsky/istok.html",
+      "status": 200,
+      "sha256": "a5c7fe10b66cb3812af1100222516cf5ac23049e417b7039cb442b70dbe523b1"
+    },
+    {
+      "file": "clubs/pushkinsky/lensovetovskiy.html",
+      "status": 200,
+      "sha256": "81d6ff9905c8db4f576671b36a4e4020df4d76d6ada10aa1227013923fa56848"
+    },
+    {
+      "file": "clubs/pushkinsky/nika.html",
+      "status": 200,
+      "sha256": "35a66c442424d8abb7f26cecb7e8e92eedd11b7d4e5523f6d0c611e7690c8bc2"
+    },
+    {
+      "file": "clubs/pushkinsky/olimp.html",
+      "status": 200,
+      "sha256": "11b010a8791456b6b21e9ab363ca7b895cda9543846aa84358b89840b6b7b3f7"
+    },
+    {
+      "file": "clubs/pushkinsky/pavlovchanin.html",
+      "status": 200,
+      "sha256": "27ea6b819c3b593d0dbce669f1eb48667e4e2e0a8458906e5db26240db515074"
+    },
+    {
+      "file": "clubs/pushkinsky/pulkovets.html",
+      "status": 200,
+      "sha256": "7fd673655eac645a825e5be9649acc4d7ac7a5de1d097b6d485bff60ee0e6354"
+    },
+    {
+      "file": "clubs/pushkinsky/pushkinets.html",
+      "status": 200,
+      "sha256": "318e57c5d41cb3770e04a547451b3b982bebd4e656f8ff70d7701f0ca16d18f5"
+    },
+    {
+      "file": "clubs/pushkinsky/raduga.html",
+      "status": 200,
+      "sha256": "40898d1f3dcce78d5d8186e04e117cde4c811f9345a969bf8b93dadc2f304d76"
+    },
+    {
+      "file": "clubs/pushkinsky/rostok.html",
+      "status": 200,
+      "sha256": "ee68b11daec387693b675b55b42e8c9d6726b6cf0a9bfb4ca8316ee89ca26bba"
+    },
+    {
+      "file": "clubs/pushkinsky/shushary.html",
+      "status": 200,
+      "sha256": "f40f8686b58870dbe8652fb19f8e1f888c65873ac3f270060403683170377676"
+    },
+    {
+      "file": "clubs/pushkinsky/slavyanka.html",
+      "status": 200,
+      "sha256": "fe5d363f6fb692bfcdc8f1741acf10e9ffc441f57c3f858de3cd5b5d9ee02b7d"
+    },
+    {
+      "file": "clubs/pushkinsky/tovarisch.html",
+      "status": 200,
+      "sha256": "138bd7af0af86751aaee9e37724cbb49449f913f4319a1c05632431418f1da88"
+    },
+    {
+      "file": "clubs/pushkinsky/tsarskoselskiy.html",
+      "status": 200,
+      "sha256": "6f64c2f1747f1e7a30e776c835445b6ed123714979c60b411a5f98110f83621c"
+    },
+    {
+      "file": "clubs/pushkinsky/vitus.html",
+      "status": 200,
+      "sha256": "e321d175568ef3ee433eb8590797bab9adcf5c3b36001df6db58f299787b713e"
+    },
+    {
+      "file": "clubs/pushkinsky/vympel.html",
+      "status": 200,
+      "sha256": "f30f6245183805d89ec230415875eee9b559fef0806dd3e25e58fd24aaccadc6"
+    },
+    {
+      "file": "clubs/pushkinsky/yunost.html",
+      "status": 200,
+      "sha256": "4adde29dba94b5524590a3b820f7fe985501e4e9cea8fe5e057137453688b209"
+    },
+    {
+      "file": "clubs/pushkinsky/zareche.html",
+      "status": 200,
+      "sha256": "d117e4590e6a60167c6b0634ba904bbdc9426939d889fd486e07f49fd2dd7b70"
+    },
+    {
+      "file": "clubs/raduga.html",
+      "status": 200,
+      "sha256": "bb903cd6d9eff0b6c4ad25cc3bcaf155758ddda69e0e43faf8d011c0f51ca9f5"
+    },
+    {
+      "file": "clubs/rovesnik.html",
+      "status": 200,
+      "sha256": "5a9d46050798b7d7737486978a7e367d628551f789a603de1de98a6c7e4845ab"
+    },
+    {
+      "file": "clubs/salyut.html",
+      "status": 200,
+      "sha256": "c67db0ce080578d4daac6aa320b42265f98873489d56bbb9d121457ffdd10a7d"
+    },
+    {
+      "file": "clubs/severa.html",
+      "status": 200,
+      "sha256": "fd33a110ca721fa27949c83c9cfc3250aa4230517df1a9f5c0ae5c0a8dbf658a"
+    },
+    {
+      "file": "clubs/shahmatnyy.html",
+      "status": 200,
+      "sha256": "75d260523d3441ead13c784695e8b20f74247bd2745815597b395774c9f5d88c"
+    },
+    {
+      "file": "clubs/shturm.html",
+      "status": 200,
+      "sha256": "138a0416436eb2c88ae6b37cd45998cf8a89310ce1ce805ef50ac0b908eba915"
+    },
+    {
+      "file": "clubs/skautskiy.html",
+      "status": 200,
+      "sha256": "efa8cc3fac89fa83ec9f7184c65d3119c7bdefd8ecfeb4f71347f0ffe28f415f"
+    },
+    {
+      "file": "clubs/sparta.html",
+      "status": 200,
+      "sha256": "f65e72a0a52637d8dd5ea3ac35fa606304473c8dc5f9c10dc447ee7cc085c641"
+    },
+    {
+      "file": "clubs/tsentr-turistskoy-podgotovki.html",
+      "status": 200,
+      "sha256": "4a6e17ec909e7e9e424d226b329186eec1202f449ee9b9b31d3c32a122d993d0"
+    },
+    {
+      "file": "clubs/tsentr-tvorchestva.html",
+      "status": 200,
+      "sha256": "4faadf3aec2720618dd9a9ded27932fa7884354b3facd1c916fec03e1d025b0c"
+    },
+    {
+      "file": "clubs/tsentralny/atlant.html",
+      "status": 200,
+      "sha256": "1a62a320384686a319173a536b2f73fe931c57721b56ced75054638afa62d810"
+    },
+    {
+      "file": "clubs/tsentralny/atlet.html",
+      "status": 200,
+      "sha256": "2b3b617c0937eb1e95c601adcf3c32eca2d5eab9c92a2d85d3473aacd847cc2a"
+    },
+    {
+      "file": "clubs/tsentralny/bars.html",
+      "status": 200,
+      "sha256": "24aaf9067909c90b767061336cef46de61f1bbf8a683e4414a94786e89070a6e"
+    },
+    {
+      "file": "clubs/tsentralny/chayka.html",
+      "status": 200,
+      "sha256": "ea07a26c452823042d9395392b6cef4eef299d4ba1c6a0154ffff3b474421e8d"
+    },
+    {
+      "file": "clubs/tsentralny/feniks.html",
+      "status": 200,
+      "sha256": "400ad2f53e687face8acadcf6d06adbcba0133f5339a320dc0e3297ce29db2ce"
+    },
+    {
+      "file": "clubs/tsentralny/gorizont.html",
+      "status": 200,
+      "sha256": "59d82a9460d48fd904441d39aaa800c9163469490192f4a8d153cef2058a9bc6"
+    },
+    {
+      "file": "clubs/tsentralny/leningradets.html",
+      "status": 200,
+      "sha256": "a0cca4309b2e3fc4209974b6c4483351e01b23fb254ab471d63518daf2d881fc"
+    },
+    {
+      "file": "clubs/tsentralny/luch.html",
+      "status": 200,
+      "sha256": "679da5289b48908eaa45fdbf65c6376a64e60fa16b91f073cb1e3a3ef2e166b7"
+    },
+    {
+      "file": "clubs/tsentralny/maksimum.html",
+      "status": 200,
+      "sha256": "f49e333a5321dc0b22700b22ca48753497a3cc14b8b5525a2f7c980f65ac393b"
+    },
+    {
+      "file": "clubs/tsentralny/mayak.html",
+      "status": 200,
+      "sha256": "4a24438b47ab1297a8c2a0ac0f34931d5c8773b777fd6ac76d3bc84610572bc1"
+    },
+    {
+      "file": "clubs/tsentralny/muraveynik.html",
+      "status": 200,
+      "sha256": "b42e517fdd7ea16883f86199bdbc1862146d04751e995a53802b512a0d7b7ca7"
+    },
+    {
+      "file": "clubs/tsentralny/na-furshtatskoy.html",
+      "status": 200,
+      "sha256": "0c138cfaf0bc67e610a22a4038ab06d50b7e57842ad171e9bce6c605319b7256"
+    },
+    {
+      "file": "clubs/tsentralny/na-kolomenskoy.html",
+      "status": 200,
+      "sha256": "21483e7a65392eb10708f27eb7e72c6eeefd0d44a67ed2100c3534014e62e2cc"
+    },
+    {
+      "file": "clubs/tsentralny/na-marata.html",
+      "status": 200,
+      "sha256": "5e69eee1c72d886b321524e80cf3c999c19f483fe9dc7d9863cc1dcc69eba952"
+    },
+    {
+      "file": "clubs/tsentralny/na-troitskoy.html",
+      "status": 200,
+      "sha256": "49acefa07207b52c94e7a41b649e3b30431060b876312bf94924347379b66d23"
+    },
+    {
+      "file": "clubs/tsentralny/neva.html",
+      "status": 200,
+      "sha256": "126293430614dd61af3bf47f2fc6e4e0b15f8e68fcf57bde9d354f7655222972"
+    },
+    {
+      "file": "clubs/tsentralny/ogonyok.html",
+      "status": 200,
+      "sha256": "c66d72f8f19051e69089a1cb4956fd6fcfb241f4e7340c08a70fbe5eb64a92db"
+    },
+    {
+      "file": "clubs/tsentralny/ostrova.html",
+      "status": 200,
+      "sha256": "d3e9478f35036853dd6e90637863251b3b461ebd31fd02203cb7c1970ab7584f"
+    },
+    {
+      "file": "clubs/tsentralny/petrovskiy.html",
+      "status": 200,
+      "sha256": "a537d5e2e39ff6f306050174038f296959fb5886a2549406b0fc82e3a85eee1f"
+    },
+    {
+      "file": "clubs/tsentralny/prometey.html",
+      "status": 200,
+      "sha256": "42afe6ac9a3b38d52488bccb259fb4b9ec2660a2cbd1203da9d0ef8cb1de0243"
+    },
+    {
+      "file": "clubs/tsentralny/romantiki.html",
+      "status": 200,
+      "sha256": "39871180f92b78313b7cbfcb1bdc21f415fd91e81e1c5a7c1a354b5bc589a2b5"
+    },
+    {
+      "file": "clubs/tsentralny/rovesnik.html",
+      "status": 200,
+      "sha256": "0a085a4d4b7ac52c1431f0fb42aee6934b6a7bfa274bd075815e0c52749e5ef3"
+    },
+    {
+      "file": "clubs/tsentralny/spartak.html",
+      "status": 200,
+      "sha256": "0a772f7d265c0bb8a595145961c4f7dfb88bd42f6c699309bcde62d973b10357"
+    },
+    {
+      "file": "clubs/tsentralny/yamskaya-sloboda.html",
+      "status": 200,
+      "sha256": "8adf4224f9d1a2dfff2516ca781cc5734991db2e4e5977af2cc949cc921df19e"
+    },
+    {
+      "file": "clubs/tsentralny/yunost.html",
+      "status": 200,
+      "sha256": "d2a8686d8794524552628fff864dbe0b85672dc9d799f119d5ce73c9a56681b7"
+    },
+    {
+      "file": "clubs/vindserfing.html",
+      "status": 200,
+      "sha256": "9399bef20e314f966946a0f2b63f0aa26a289bebb10cb5746b0ea4da1de37762"
+    },
+    {
+      "file": "clubs/vitana.html",
+      "status": 200,
+      "sha256": "8529216df504293596abf88bf511d4e1e0bc90cf55b5c5ae94102c3a4fb815a7"
+    },
+    {
+      "file": "clubs/vyborgsky/feniks.html",
+      "status": 200,
+      "sha256": "f2440f3e16b5972cfd3f6e21992ab98f430b7025a977efb7769b21bbda32ab93"
+    },
+    {
+      "file": "clubs/vyborgsky/festival.html",
+      "status": 200,
+      "sha256": "3ad640dac944acdd39d5eb839cef8944197480fed203341321804860f336a88d"
+    },
+    {
+      "file": "clubs/vyborgsky/forpost.html",
+      "status": 200,
+      "sha256": "1004dc670cb4542b6fc4a3a71ee35b51e20d7d7368ebf500d66434d928f85865"
+    },
+    {
+      "file": "clubs/vyborgsky/lider.html",
+      "status": 200,
+      "sha256": "0a1d89fef7c6b41721e2ee17484413bb0e9f0c97a8049e8f2fee27dc4c1d8086"
+    },
+    {
+      "file": "clubs/vyborgsky/patriot.html",
+      "status": 200,
+      "sha256": "329ebf2cc30348673025bc150e569be4f0351daed7512d200622d6925120a5a8"
+    },
+    {
+      "file": "clubs/vyborgsky/perekryostok.html",
+      "status": 200,
+      "sha256": "c51a677596cc8e66c75e28230c75f53320ddc5e163e5d8556fcf6612e17c9d1e"
+    },
+    {
+      "file": "clubs/vyborgsky/perspektiva.html",
+      "status": 200,
+      "sha256": "7cffb950d6f8c616116c667c031a2eedcc5c40a04ec8f495fea84b610489d71b"
+    },
+    {
+      "file": "clubs/vyborgsky/ritm.html",
+      "status": 200,
+      "sha256": "86cc8cee5da1529af603247f461c23532afa6a8e5e3278db83572b12c8fb2698"
+    },
+    {
+      "file": "clubs/vyborgsky/tsentralnyy.html",
+      "status": 200,
+      "sha256": "eda03fdcfeb12e15b3dd113cc291c0a4753aa40acfceb808579745135bdea592"
+    },
+    {
+      "file": "clubs/yunost.html",
+      "status": 200,
+      "sha256": "9bcdd3fad971ac72b18ccfa4a5c042f5508310dd6fb733eb553ba16da58e6b92"
+    },
+    {
+      "file": "clubs/yupiter.html",
+      "status": 200,
+      "sha256": "ae530a1b7075ea8dc114bff795ad21325ee7d199e161725e4fd6c0d875de5891"
+    },
+    {
+      "file": "directions/index.html",
+      "status": 200,
+      "sha256": "c4a2e409e8d6146f1d24470796354e87a6e5c6b46d6898d2df5948e4ca703ca3"
+    },
+    {
+      "file": "districts/vyborgsky.html",
+      "status": 200,
+      "sha256": "5c69a015d45259e3d8a9d6a666047f45bf93c825ed9c685bb362aa08f6f3f4ab"
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "35cef407a4abd9980abcc5686426d41bd66c47f0a3334b58af022fc5218d3db1"
+    },
+    {
+      "file": "robots.txt",
+      "status": 200,
+      "sha256": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8"
+    },
+    {
+      "file": "sitemap.xml",
+      "status": 200,
+      "sha256": "c1a0cb90885cf4702cf70ec7fbf5aa6ada958433f181e508c99a80e2ac85148f"
+    }
+  ],
+  "browser": {
+    "mode": "live",
+    "checkedAt": "2026-10-22T18:22:05.045Z",
+    "pages": [
+      {
+        "name": "Патриот, занятие",
+        "route": "/activities/vyborgsky-patriot-molodyozhnoe-obedinenie-my-vmeste-04.html",
+        "markers": [
+          {
+            "src": "https://yandex.ru/map-widget/v1/?ll=30.258333%2C60.109951&z=16&pt=30.258333%2C60.109951%2Cpm2rdm&lang=ru_RU",
+            "markerVisible": true,
+            "markerCount": 1
+          }
+        ]
+      },
+      {
+        "name": "Патриот, клуб",
+        "route": "/clubs/vyborgsky/patriot.html",
+        "markers": [
+          {
+            "src": "https://yandex.ru/map-widget/v1/?ll=30.258333%2C60.109951&z=16&pt=30.258333%2C60.109951%2Cpm2rdm&lang=ru_RU",
+            "markerVisible": true,
+            "markerCount": 1
+          }
+        ]
+      },
+      {
+        "name": "Морской",
+        "route": "/clubs/morskoy.html",
+        "markers": [
+          {
+            "src": "https://yandex.ru/map-widget/v1/?ll=30.254756%2C59.952376&z=16&pt=30.254756%2C59.952376%2Cpm2rdm&lang=ru_RU",
+            "markerVisible": true,
+            "markerCount": 1
+          }
+        ]
+      },
+      {
+        "name": "Маяк-Олимпикс",
+        "route": "/clubs/mayak-olimpiks.html",
+        "markers": [
+          {
+            "src": "https://yandex.ru/map-widget/v1/?ll=30.23812%2C59.929931&z=16&pt=30.23812%2C59.929931%2Cpm2rdm&lang=ru_RU",
+            "markerVisible": true,
+            "markerCount": 1
+          }
+        ]
+      },
+      {
+        "name": "Феникс",
+        "route": "/clubs/vyborgsky/feniks.html",
+        "markers": [
+          {
+            "src": "https://yandex.ru/map-widget/v1/?ll=30.34464%2C59.984033&z=16&pt=30.34464%2C59.984033%2Cpm2rdm&lang=ru_RU",
+            "markerVisible": true,
+            "markerCount": 1
+          }
+        ]
+      },
+      {
+        "name": "В16",
+        "route": "/clubs/kirovsky/v16.html",
+        "markers": [
+          {
+            "src": "https://yandex.ru/map-widget/v1/?ll=30.2539933%2C59.8454462&z=16&pt=30.2539933%2C59.8454462%2Cpm2rdm&lang=ru_RU",
+            "markerVisible": true,
+            "markerCount": 1
+          }
+        ]
+      },
+      {
+        "name": "Молодёжный центр",
+        "route": "/clubs/nevsky/molodyozhnyy-tsentr.html",
+        "markers": [
+          {
+            "src": "https://yandex.ru/map-widget/v1/?ll=30.445032%2C59.877392&z=16&pt=30.445032%2C59.877392%2Cpm2rdm&lang=ru_RU",
+            "markerVisible": true,
+            "markerCount": 1
+          }
+        ]
+      },
+      {
+        "name": "Юность",
+        "route": "/clubs/tsentralny/yunost.html",
+        "markers": [
+          {
+            "src": "https://yandex.ru/map-widget/v1/?ll=30.34499%2C59.941215&z=16&pt=30.34499%2C59.941215%2Cpm2rdm&lang=ru_RU",
+            "markerVisible": true,
+            "markerCount": 1
+          },
+          {
+            "src": "https://yandex.ru/map-widget/v1/?ll=30.34334%2C59.941839&z=16&pt=30.34334%2C59.941839%2Cpm2rdm&lang=ru_RU",
+            "markerVisible": true,
+            "markerCount": 1
+          }
+        ]
+      }
+    ],
+    "visibleMarkers": 9,
+    "pending": [
+      "/clubs/kolpinsky/patriot.html",
+      "/clubs/pushkinsky/pulkovets.html",
+      "/clubs/pushkinsky/zareche.html"
+    ]
+  },
+  "protected": [
+    "sitemap.xml",
+    "robots.txt",
+    ".htaccess",
+    "server prototype",
+    "prototype comments",
+    "existing public text files"
+  ],
+  "coordinatesChanged": false,
+  "git": "uncommitted; not pushed"
+}

@@ -1,17 +1,2311 @@
 [
-  {"type":"Дом молодёжи","name":"Колпинец","organization":"kolpinets","address":"г. Колпино, Заводской пр., д. 10","activities":["Культурные события","Спорт","Социальные проекты"],"note":"В городском документе указаны общие направления учреждения. Список действующих групп уточняется."},
-  {"type":"Подростково-молодёжный клуб","name":"Факел","organization":"kolpinets","address":"г. Колпино, ул. Павловская, д. 82","activities":["Творчество","Социальные проекты","Декоративно-прикладное искусство"]},
-  {"type":"Подростково-молодёжный клуб","name":"Ритм","organization":"kolpinets","address":"г. Колпино, ул. Ижорского Батальона, д. 15","activities":["Декоративно-прикладное искусство","Творчество","Социальные проекты"]},
-  {"type":"Подростково-молодёжный клуб","name":"Горизонт","organization":"kolpinets","address":"г. Колпино, пр. Ленина, д. 49","activities":["Культурный досуг"],"note":"В старом списке администрации указан Заводской проспект, дом 10. Здесь приведён фактический адрес из районного реестра."},
-  {"type":"Подростково-молодёжный клуб","name":"Фантазёры","organization":"kolpinets","address":"г. Колпино, ул. Володарского, д. 9","activities":["Культурный досуг"],"note":"В районном реестре 2022 года указан другой адрес: Адмиралтейская улица, дом 9. Перед визитом уточните площадку."},
-  {"type":"Подростково-молодёжный клуб","name":"Родина","organization":"kolpinets","address":"г. Колпино, бульвар Трудящихся, д. 29/5","activities":["Культурный досуг","Социальные проекты"],"note":"В старом списке администрации номер дома записан как 29/54. Перед визитом уточните адрес."},
-  {"type":"Подростково-молодёжный клуб","name":"Балтика","organization":"kolpinets","address":"пос. Понтонный, ул. Южная, д. 13","activities":["Культурный досуг","Спорт","Социальные проекты"]},
-  {"type":"Подростково-молодёжный клуб","name":"Чайка","organization":"kolpinets","address":"пос. Металлострой, ул. Полевая, д. 2/30","activities":["Спорт"]},
-  {"type":"Подростково-молодёжный клуб","name":"Орлёнок","organization":"kolpinets","address":"пос. Металлострой, ул. Школьная, д. 12","activities":["Спорт","Социальные проекты"]},
-  {"type":"Молодёжное пространство","name":"Медиазавод","organization":"kolpinets","address":"г. Колпино, ул. Павловская, д. 82","activities":["Медиа","Культурный досуг"]},
-  {"type":"Подростково-молодёжный клуб","name":"Юность","organization":"rovesnik","address":"г. Колпино, ул. Танкистов, д. 28А","phone":"460-95-40","activities":["Борьба","Рукопашный бой","Скалолазание","Фитнес","Танцы"]},
-  {"type":"Подростково-молодёжный клуб","name":"Колпинская перчатка","organization":"rovesnik","address":"г. Колпино, ул. Веры Слуцкой, д. 89","phone":"469-62-78","activities":["Бокс","Каратэ"]},
-  {"type":"Подростково-молодёжный клуб","name":"Патриот","organization":"rovesnik","address":"Площадки на базе школ Колпинского района","phone":"460-95-35","activities":["Основы военной службы","Спортивный туризм"],"note":"Городской документ не указывает единый адрес клуба. Место занятий нужно узнать у учреждения."},
-  {"type":"Подростково-молодёжный клуб","name":"Z","organization":"rovesnik","address":"г. Колпино, ул. Загородная, д. 62","phone":"461-21-90","activities":["Футбол","Настольный теннис","Танцы","Добровольчество","Краеведение"]},
-  {"type":"Подростково-молодёжный клуб","name":"Дельта","organization":"rovesnik","address":"пос. Понтонный, ул. Южная, д. 3","phone":"462-30-52","activities":["Силовой спорт","Фитнес","Хип-хоп","Добровольчество"]}
+  {
+    "type": "Дом молодёжи",
+    "name": "Колпинец",
+    "organization": "kolpinets",
+    "address": "г. Колпино, Заводской пр., д. 10",
+    "activities": [
+      "Культурные события",
+      "Спорт",
+      "Социальные проекты",
+      "Объединение «Траектория подростка»",
+      "Шахматы",
+      "Волонтёрское объединение «Паутина»",
+      "Пространство «ПРОСТО»",
+      "Добро.Центр ДМК"
+    ],
+    "note": "Адрес и расписания сверены с официальной страницей ДМК 23.10.2026. Набор и изменения уточни перед визитом.",
+    "officialUrl": "http://dmk.spb.ru/klubs/kolpinets/",
+    "sourceUrl": "http://dmk.spb.ru/klubs/kolpinets/",
+    "sourceCheckedAt": "2026-10-23",
+    "phone": "482-56-90",
+    "vkUrl": "https://vk.ru/dm_kolpinets",
+    "contactSource": {
+      "url": "http://dmk.spb.ru/klubs/kolpinets/",
+      "checkedAt": "2026-10-23",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; сама группа VK не открывалась."
+    },
+    "addressNote": "В официальной записи адреса указана литера А.",
+    "openingHours": {
+      "sourceUrl": "http://dmk.spb.ru/klubs/kolpinets/",
+      "sourcePublishedAt": "2026-08-13",
+      "note": "Общий режим площадки; часы отдельных занятий указаны на страницах направлений.",
+      "schedule": [
+        {
+          "days": "пн-пт",
+          "time": "09:00-21:00"
+        }
+      ],
+      "closedDays": []
+    },
+    "activitySchedule": [
+      {
+        "activity": "Объединение «Траектория подростка»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/kolpinets/",
+        "sourcePublishedAt": "2026-08-13",
+        "sourceNote": "В источнике указана дата 13.08.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "09:00-18:00"
+          },
+          {
+            "day": "четверг",
+            "time": "09:00-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Шахматы",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/kolpinets/",
+        "sourcePublishedAt": "2026-08-13",
+        "sourceNote": "В источнике указана дата 13.08.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "воскресенье",
+            "time": "13:00-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Волонтёрское объединение «Паутина»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/dobrocentr/",
+        "sourcePublishedAt": "2026-08-13",
+        "sourceNote": "В источнике указана дата 13.08.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "09:00-18:00"
+          },
+          {
+            "day": "среда",
+            "time": "09:00-18:00"
+          },
+          {
+            "day": "пятница",
+            "time": "09:00-18:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "id": "kolpinets-kolpinets-1",
+        "title": "Объединение «Траектория подростка»",
+        "catalogActivity": "Объединение «Траектория подростка»",
+        "officialUrl": "http://dmk.spb.ru/klubs/kolpinets/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/kolpinets/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-kolpinets-2",
+        "title": "Шахматы",
+        "catalogActivity": "Шахматы",
+        "officialUrl": "http://dmk.spb.ru/klubs/kolpinets/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/kolpinets/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-kolpinets-3",
+        "title": "Волонтёрское объединение «Паутина»",
+        "catalogActivity": "Волонтёрское объединение «Паутина»",
+        "officialUrl": "http://dmk.spb.ru/dobrocentr/",
+        "sourceUrl": "http://dmk.spb.ru/dobrocentr/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-kolpinets-4",
+        "title": "Пространство «ПРОСТО»",
+        "catalogActivity": "Пространство «ПРОСТО»",
+        "officialUrl": "http://dmk.spb.ru/prostranstvo-prosto/",
+        "sourceUrl": "http://dmk.spb.ru/prostranstvo-prosto/",
+        "sourceCheckedAt": "2026-10-23",
+        "vkUrl": "https://vk.ru/prostospb",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно.",
+        "registrationUrl": "https://www.prostospb.team/coworking",
+        "note": "Бесплатное пространство для молодёжи 14-35 лет; нужна регистрация. Ежедневно 09:00-21:00. Это режим пространства, даты событий уточняются."
+      },
+      {
+        "id": "kolpinets-kolpinets-5",
+        "title": "Добро.Центр ДМК",
+        "catalogActivity": "Добро.Центр ДМК",
+        "officialUrl": "http://dmk.spb.ru/dobrocentr/",
+        "sourceUrl": "http://dmk.spb.ru/dobrocentr/",
+        "sourceCheckedAt": "2026-10-23",
+        "vkUrl": "https://vk.com/club227798469",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно.",
+        "note": "Волонтёрские проекты, консультации и помощь в работе с Добро.рф. Режим центра: пн-пт 09:00-18:00; график отдельного проекта уточни."
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Объединение «Траектория подростка»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Шахматы",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Волонтёрское объединение «Паутина»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Пространство «ПРОСТО»",
+        "sourceUrl": "http://dmk.spb.ru/prostranstvo-prosto/",
+        "sourceType": "official_web",
+        "sourceText": "Бесплатное пространство для молодёжи 14-35 лет; нужна регистрация. Ежедневно 09:00-21:00. Это режим пространства, даты событий уточняются."
+      },
+      {
+        "activity": "Добро.Центр ДМК",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "Волонтёрские проекты, консультации и помощь в работе с Добро.рф. Режим центра: пн-пт 09:00-18:00; график отдельного проекта уточни."
+      }
+    ]
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Факел",
+    "organization": "kolpinets",
+    "address": "г. Колпино, ул. Павловская, д. 82",
+    "activities": [
+      "Творчество",
+      "Социальные проекты",
+      "Декоративно-прикладное искусство",
+      "Уличные танцы",
+      "Театральная студия «Крылья»",
+      "Вокальная студия «Бриз»",
+      "Вокальная студия «Cantabile»",
+      "Графический дизайн и анимация",
+      "Цифровой дизайн «От идеи до воплощения»",
+      "Народное пение «При долине»",
+      "Семейный музыкальный клуб «Потешки»",
+      "Дизайн и искусство «Авангард»",
+      "Китайский язык «Хуашань»"
+    ],
+    "officialUrl": "http://dmk.spb.ru/klubs/fakel/",
+    "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+    "sourceCheckedAt": "2026-10-23",
+    "phone": "246-43-28",
+    "vkUrl": "https://vk.ru/pm_klyb_fakel",
+    "contactSource": {
+      "url": "http://dmk.spb.ru/klubs/fakel/",
+      "checkedAt": "2026-10-23",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; сама группа VK не открывалась."
+    },
+    "addressNote": "В официальной записи адреса указана литера А.",
+    "note": "Адрес и расписания сверены с официальной страницей ДМК 23.10.2026. Набор и изменения уточни перед визитом.",
+    "openingHours": {
+      "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+      "sourcePublishedAt": "2026-07-21",
+      "note": "Общий режим площадки; часы отдельных занятий указаны на страницах направлений.",
+      "schedule": [
+        {
+          "days": "пн-пт",
+          "time": "14:00-20:30"
+        },
+        {
+          "days": "сб",
+          "time": "10:00-17:30"
+        },
+        {
+          "days": "вс",
+          "time": "13:00-19:00"
+        }
+      ],
+      "closedDays": []
+    },
+    "activitySchedule": [
+      {
+        "activity": "Уличные танцы",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourcePublishedAt": "2026-07-21",
+        "sourceNote": "В источнике указана дата 21.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "14:00-19:00"
+          },
+          {
+            "day": "вторник",
+            "time": "14:00-19:00"
+          }
+        ]
+      },
+      {
+        "activity": "Театральная студия «Крылья»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourcePublishedAt": "2026-07-21",
+        "sourceNote": "В источнике указана дата 21.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "15:30-20:30"
+          },
+          {
+            "day": "суббота",
+            "time": "12:30-17:30"
+          }
+        ]
+      },
+      {
+        "activity": "Вокальная студия «Бриз»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourcePublishedAt": "2026-07-21",
+        "sourceNote": "В источнике указана дата 21.07.2026. Перед визитом уточни изменения и наличие мест. В источнике рядом перечислены основная программа и вариант с дополнительным названием. Опубликованы общие часы этого блока; отдельный график и условия дополнительного варианта нужно уточнить. В понедельник блок указан до 21:00, общий режим клуба до 20:30; время окончания уточни.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "14:00-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "14:00-20:30"
+          },
+          {
+            "day": "четверг",
+            "time": "14:00-20:30"
+          }
+        ]
+      },
+      {
+        "activity": "Вокальная студия «Cantabile»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourcePublishedAt": "2026-07-21",
+        "sourceNote": "В источнике указана дата 21.07.2026. Перед визитом уточни изменения и наличие мест. В источнике рядом перечислены основная программа и вариант с дополнительным названием. Опубликованы общие часы этого блока; отдельный график и условия дополнительного варианта нужно уточнить.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "14:00-18:00"
+          },
+          {
+            "day": "пятница",
+            "time": "14:00-18:00"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-21:00"
+          },
+          {
+            "day": "воскресенье",
+            "time": "13:00-19:00"
+          }
+        ]
+      },
+      {
+        "activity": "Графический дизайн и анимация",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourcePublishedAt": "2026-07-21",
+        "sourceNote": "В источнике указана дата 21.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "14:00-19:00"
+          },
+          {
+            "day": "четверг",
+            "time": "14:00-19:00"
+          }
+        ]
+      },
+      {
+        "activity": "Цифровой дизайн «От идеи до воплощения»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourcePublishedAt": "2026-07-21",
+        "sourceNote": "В источнике указана дата 21.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "14:00-19:00"
+          },
+          {
+            "day": "среда",
+            "time": "14:00-19:00"
+          }
+        ]
+      },
+      {
+        "activity": "Народное пение «При долине»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourcePublishedAt": "2026-07-21",
+        "sourceNote": "В источнике указана дата 21.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "14:00-19:00"
+          },
+          {
+            "day": "четверг",
+            "time": "14:00-19:00"
+          }
+        ]
+      },
+      {
+        "activity": "Семейный музыкальный клуб «Потешки»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourcePublishedAt": "2026-07-21",
+        "sourceNote": "В источнике указана дата 21.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "суббота",
+            "time": "10:00-15:00"
+          }
+        ]
+      },
+      {
+        "activity": "Дизайн и искусство «Авангард»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourcePublishedAt": "2026-07-21",
+        "sourceNote": "В источнике указана дата 21.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "15:30-20:30"
+          },
+          {
+            "day": "четверг",
+            "time": "15:30-20:30"
+          }
+        ]
+      },
+      {
+        "activity": "Китайский язык «Хуашань»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourcePublishedAt": "2026-07-21",
+        "sourceNote": "В источнике указана дата 21.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-20:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "id": "kolpinets-fakel-1",
+        "title": "Уличные танцы",
+        "catalogActivity": "Уличные танцы",
+        "officialUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-fakel-2",
+        "title": "Театральная студия «Крылья»",
+        "catalogActivity": "Театральная студия «Крылья»",
+        "officialUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-fakel-3",
+        "title": "Вокальная студия «Бриз»",
+        "catalogActivity": "Вокальная студия «Бриз»",
+        "officialUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-fakel-4",
+        "title": "Вокальная студия «Cantabile»",
+        "catalogActivity": "Вокальная студия «Cantabile»",
+        "officialUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-fakel-5",
+        "title": "Графический дизайн и анимация",
+        "catalogActivity": "Графический дизайн и анимация",
+        "officialUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-fakel-6",
+        "title": "Цифровой дизайн «От идеи до воплощения»",
+        "catalogActivity": "Цифровой дизайн «От идеи до воплощения»",
+        "officialUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-fakel-7",
+        "title": "Народное пение «При долине»",
+        "catalogActivity": "Народное пение «При долине»",
+        "officialUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-fakel-8",
+        "title": "Семейный музыкальный клуб «Потешки»",
+        "catalogActivity": "Семейный музыкальный клуб «Потешки»",
+        "officialUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-fakel-9",
+        "title": "Дизайн и искусство «Авангард»",
+        "catalogActivity": "Дизайн и искусство «Авангард»",
+        "officialUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-fakel-10",
+        "title": "Китайский язык «Хуашань»",
+        "catalogActivity": "Китайский язык «Хуашань»",
+        "officialUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fakel/",
+        "sourceCheckedAt": "2026-10-23",
+        "vkUrl": "https://vk.ru/market/product/khuashan-kitayskiy-yazyk-43117555-14545205",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Уличные танцы",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Театральная студия «Крылья»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Вокальная студия «Бриз»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Вокальная студия «Cantabile»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Графический дизайн и анимация",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Цифровой дизайн «От идеи до воплощения»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Народное пение «При долине»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Семейный музыкальный клуб «Потешки»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Дизайн и искусство «Авангард»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Китайский язык «Хуашань»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      }
+    ]
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Ритм",
+    "organization": "kolpinets",
+    "address": "г. Колпино, ул. Ижорского Батальона, д. 15",
+    "activities": [
+      "Декоративно-прикладное искусство",
+      "Творчество",
+      "Социальные проекты",
+      "Арт-студия «Аргентум»",
+      "Цифровая иллюстрация «Перо»",
+      "Гитарная студия «Живой звук»"
+    ],
+    "officialUrl": "http://dmk.spb.ru/klubs/ritm/",
+    "sourceUrl": "http://dmk.spb.ru/klubs/ritm/",
+    "sourceCheckedAt": "2026-10-23",
+    "phone": "246-43-27",
+    "vkUrl": "https://vk.ru/pmk_ritm",
+    "contactSource": {
+      "url": "http://dmk.spb.ru/klubs/ritm/",
+      "checkedAt": "2026-10-23",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; сама группа VK не открывалась."
+    },
+    "addressNote": "В официальной записи адреса указана литера А.",
+    "note": "Адрес и расписания сверены с официальной страницей ДМК 23.10.2026. Набор и изменения уточни перед визитом.",
+    "openingHours": {
+      "sourceUrl": "http://dmk.spb.ru/klubs/ritm/",
+      "sourcePublishedAt": "2026-07-20",
+      "note": "Общий режим площадки; часы отдельных занятий указаны на страницах направлений.",
+      "schedule": [
+        {
+          "days": "пн-пт",
+          "time": "13:00-20:00"
+        },
+        {
+          "days": "сб",
+          "time": "15:00-20:00"
+        }
+      ],
+      "closedDays": []
+    },
+    "activitySchedule": [
+      {
+        "activity": "Арт-студия «Аргентум»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/ritm/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "среда",
+            "time": "15:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Цифровая иллюстрация «Перо»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/ritm/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Гитарная студия «Живой звук»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/ritm/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест. В источнике рядом перечислены основная программа и вариант с дополнительным названием. Опубликованы общие часы этого блока; отдельный график и условия дополнительного варианта нужно уточнить.",
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-20:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "id": "kolpinets-ritm-1",
+        "title": "Арт-студия «Аргентум»",
+        "catalogActivity": "Арт-студия «Аргентум»",
+        "officialUrl": "http://dmk.spb.ru/klubs/ritm/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/ritm/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-ritm-2",
+        "title": "Цифровая иллюстрация «Перо»",
+        "catalogActivity": "Цифровая иллюстрация «Перо»",
+        "officialUrl": "http://dmk.spb.ru/klubs/ritm/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/ritm/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-ritm-3",
+        "title": "Гитарная студия «Живой звук»",
+        "catalogActivity": "Гитарная студия «Живой звук»",
+        "officialUrl": "http://dmk.spb.ru/klubs/ritm/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/ritm/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Арт-студия «Аргентум»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Цифровая иллюстрация «Перо»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Гитарная студия «Живой звук»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      }
+    ]
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Горизонт",
+    "organization": "kolpinets",
+    "address": "г. Колпино, ул. Павловская, д. 82",
+    "activities": [
+      "Культурный досуг",
+      "Игра на барабанной установке «Звуки шума»",
+      "Обучение игре на гитаре «ARTем»",
+      "Игра на акустической гитаре «Классика»"
+    ],
+    "note": "Адрес и расписания сверены с официальной страницей ДМК 23.10.2026. Набор и изменения уточни перед визитом.",
+    "addressHistory": [
+      {
+        "address": "г. Колпино, пр. Ленина, д. 49",
+        "status": "заменён по официальному сайту",
+        "replacedAt": "2026-10-23",
+        "sourceUrl": "http://dmk.spb.ru/klubs/gorizont/"
+      }
+    ],
+    "officialUrl": "http://dmk.spb.ru/klubs/gorizont/",
+    "sourceUrl": "http://dmk.spb.ru/klubs/gorizont/",
+    "sourceCheckedAt": "2026-10-23",
+    "phone": "461-38-57",
+    "vkUrl": "https://vk.ru/gorizontklp",
+    "contactSource": {
+      "url": "http://dmk.spb.ru/klubs/gorizont/",
+      "checkedAt": "2026-10-23",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; сама группа VK не открывалась."
+    },
+    "addressNote": "В официальной записи адреса указана литера А.",
+    "openingHours": {
+      "sourceUrl": "http://dmk.spb.ru/klubs/gorizont/",
+      "sourcePublishedAt": "2026-07-20",
+      "note": "Общий режим площадки; часы отдельных занятий указаны на страницах направлений.",
+      "schedule": [
+        {
+          "days": "пн-пт",
+          "time": "13:00-21:00"
+        },
+        {
+          "days": "сб",
+          "time": "15:00-21:00"
+        }
+      ],
+      "closedDays": []
+    },
+    "activitySchedule": [
+      {
+        "activity": "Игра на барабанной установке «Звуки шума»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/gorizont/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест. В источнике рядом перечислены основная программа и вариант с дополнительным названием. Опубликованы общие часы этого блока; отдельный график и условия дополнительного варианта нужно уточнить.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "16:00-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-21:00"
+          },
+          {
+            "day": "суббота",
+            "time": "16:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Обучение игре на гитаре «ARTем»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/gorizont/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест. В источнике рядом перечислены основная программа и вариант с дополнительным названием. Опубликованы общие часы этого блока; отдельный график и условия дополнительного варианта нужно уточнить.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "16:00-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "16:00-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "16:00-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "18:30-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Игра на акустической гитаре «Классика»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/gorizont/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест. В источнике рядом перечислены основная программа и вариант с дополнительным названием. Опубликованы общие часы этого блока; отдельный график и условия дополнительного варианта нужно уточнить.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-21:00"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-20:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "id": "kolpinets-gorizont-1",
+        "title": "Игра на барабанной установке «Звуки шума»",
+        "catalogActivity": "Игра на барабанной установке «Звуки шума»",
+        "officialUrl": "http://dmk.spb.ru/klubs/gorizont/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/gorizont/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-gorizont-2",
+        "title": "Обучение игре на гитаре «ARTем»",
+        "catalogActivity": "Обучение игре на гитаре «ARTем»",
+        "officialUrl": "http://dmk.spb.ru/klubs/gorizont/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/gorizont/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-gorizont-3",
+        "title": "Игра на акустической гитаре «Классика»",
+        "catalogActivity": "Игра на акустической гитаре «Классика»",
+        "officialUrl": "http://dmk.spb.ru/klubs/gorizont/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/gorizont/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Игра на барабанной установке «Звуки шума»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Обучение игре на гитаре «ARTем»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Игра на акустической гитаре «Классика»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      }
+    ]
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Фантазёры",
+    "organization": "kolpinets",
+    "address": "г. Колпино, ул. Адмиралтейская, д. 9",
+    "activities": [
+      "Культурный досуг",
+      "Студия стиля и моды «Концепт»",
+      "Творческое развитие «Арт-территория»",
+      "Основы обработки фотографий и мобильной съёмки",
+      "Фотостудия «ПроФото»"
+    ],
+    "note": "Адрес и расписания сверены с официальной страницей ДМК 23.10.2026. Набор и изменения уточни перед визитом.",
+    "addressHistory": [
+      {
+        "address": "г. Колпино, ул. Володарского, д. 9",
+        "status": "заменён по официальному сайту",
+        "replacedAt": "2026-10-23",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fantazery/"
+      }
+    ],
+    "officialUrl": "http://dmk.spb.ru/klubs/fantazery/",
+    "sourceUrl": "http://dmk.spb.ru/klubs/fantazery/",
+    "sourceCheckedAt": "2026-10-23",
+    "phone": "246-43-33",
+    "vkUrl": "https://vk.ru/pmk_fantazery",
+    "contactSource": {
+      "url": "http://dmk.spb.ru/klubs/fantazery/",
+      "checkedAt": "2026-10-23",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; сама группа VK не открывалась."
+    },
+    "addressNote": "В официальной записи адреса указана литера А.",
+    "openingHours": {
+      "sourceUrl": "http://dmk.spb.ru/klubs/fantazery/",
+      "sourcePublishedAt": "2026-07-20",
+      "note": "Общий режим площадки; часы отдельных занятий указаны на страницах направлений.",
+      "schedule": [
+        {
+          "days": "пн-сб",
+          "time": "15:00-20:00"
+        }
+      ],
+      "closedDays": []
+    },
+    "activitySchedule": [
+      {
+        "activity": "Студия стиля и моды «Концепт»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fantazery/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "четверг",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Творческое развитие «Арт-территория»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fantazery/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Основы обработки фотографий и мобильной съёмки",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fantazery/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Фотостудия «ПроФото»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fantazery/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-20:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "id": "kolpinets-fantazery-1",
+        "title": "Студия стиля и моды «Концепт»",
+        "catalogActivity": "Студия стиля и моды «Концепт»",
+        "officialUrl": "http://dmk.spb.ru/klubs/fantazery/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fantazery/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-fantazery-2",
+        "title": "Творческое развитие «Арт-территория»",
+        "catalogActivity": "Творческое развитие «Арт-территория»",
+        "officialUrl": "http://dmk.spb.ru/klubs/fantazery/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fantazery/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-fantazery-3",
+        "title": "Основы обработки фотографий и мобильной съёмки",
+        "catalogActivity": "Основы обработки фотографий и мобильной съёмки",
+        "officialUrl": "http://dmk.spb.ru/klubs/fantazery/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fantazery/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-fantazery-4",
+        "title": "Фотостудия «ПроФото»",
+        "catalogActivity": "Фотостудия «ПроФото»",
+        "officialUrl": "http://dmk.spb.ru/klubs/fantazery/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/fantazery/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Студия стиля и моды «Концепт»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Творческое развитие «Арт-территория»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Основы обработки фотографий и мобильной съёмки",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Фотостудия «ПроФото»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      }
+    ]
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Родина",
+    "organization": "kolpinets",
+    "address": "г. Колпино, бульвар Трудящихся, д. 29/52",
+    "activities": [
+      "Культурный досуг",
+      "Социальные проекты"
+    ],
+    "note": "Адрес подтверждён разделом доступной среды ДМК. Действующие направления, набор и место входа уточни у учреждения.",
+    "addressHistory": [
+      {
+        "address": "г. Колпино, бульвар Трудящихся, д. 29/5",
+        "status": "заменён по официальному сайту",
+        "replacedAt": "2026-10-23",
+        "sourceUrl": "http://dmk.spb.ru/dostupnaja-sreda-dlja-invalidov/molodezhnyj_klub_rodina/"
+      }
+    ],
+    "officialUrl": "http://dmk.spb.ru/dostupnaja-sreda-dlja-invalidov/molodezhnyj_klub_rodina/",
+    "sourceUrl": "http://dmk.spb.ru/dostupnaja-sreda-dlja-invalidov/molodezhnyj_klub_rodina/",
+    "sourceCheckedAt": "2026-10-23",
+    "phone": "246-43-22",
+    "vkUrl": "https://vk.ru/public191955409",
+    "contactSource": {
+      "url": "http://dmk.spb.ru/dostupnaja-sreda-dlja-invalidov/molodezhnyj_klub_rodina/",
+      "checkedAt": "2026-10-23",
+      "vkEvidence": "user_message; прямой доступ VK отложен"
+    },
+    "addressNote": "В официальной записи адреса указана литера А.",
+    "activitySchedule": [],
+    "activityPages": [],
+    "activityConditions": []
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Балтика",
+    "organization": "kolpinets",
+    "address": "пос. Понтонный, ул. Южная, д. 13",
+    "activities": [
+      "Культурный досуг",
+      "Спорт",
+      "Социальные проекты",
+      "Медиастудия «Софит»",
+      "Молодёжное объединение «Даёшь молодёжь»",
+      "Настольный теннис",
+      "ОФП «Курс на спорт»",
+      "Пауэрлифтинг и гиревой спорт",
+      "Степ-аэробика"
+    ],
+    "officialUrl": "http://dmk.spb.ru/klubs/baltika/",
+    "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+    "sourceCheckedAt": "2026-10-23",
+    "phone": "246-43-31",
+    "vkUrl": "https://vk.ru/pmk_baltika",
+    "contactSource": {
+      "url": "http://dmk.spb.ru/klubs/baltika/",
+      "checkedAt": "2026-10-23",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; сама группа VK не открывалась."
+    },
+    "addressNote": "В официальной записи адреса указана литера А.",
+    "note": "Адрес и расписания сверены с официальной страницей ДМК 23.10.2026. Набор и изменения уточни перед визитом.",
+    "openingHours": {
+      "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+      "sourcePublishedAt": "2026-07-20",
+      "note": "Общий режим площадки; часы отдельных занятий указаны на страницах направлений.",
+      "schedule": [
+        {
+          "days": "пн-ср, пт",
+          "time": "15:00-22:00"
+        },
+        {
+          "days": "чт",
+          "time": "15:00-21:00"
+        },
+        {
+          "days": "сб",
+          "time": "10:00-22:00"
+        }
+      ],
+      "closedDays": []
+    },
+    "activitySchedule": [
+      {
+        "activity": "Медиастудия «Софит»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "17:00-19:00"
+          },
+          {
+            "day": "среда",
+            "time": "17:00-19:00"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-17:00"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-17:00"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-17:00"
+          }
+        ]
+      },
+      {
+        "activity": "Молодёжное объединение «Даёшь молодёжь»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-17:00"
+          },
+          {
+            "day": "среда",
+            "time": "15:00-17:00"
+          },
+          {
+            "day": "вторник",
+            "time": "17:00-19:00"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-19:00"
+          },
+          {
+            "day": "пятница",
+            "time": "17:00-19:00"
+          }
+        ]
+      },
+      {
+        "activity": "Настольный теннис",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "18:00-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-21:00"
+          },
+          {
+            "day": "суббота",
+            "time": "10:00-14:00"
+          }
+        ]
+      },
+      {
+        "activity": "ОФП «Курс на спорт»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "17:00-20:00"
+          },
+          {
+            "day": "среда",
+            "time": "17:00-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Пауэрлифтинг и гиревой спорт",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "19:00-22:00"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-22:00"
+          },
+          {
+            "day": "суббота",
+            "time": "18:00-22:00"
+          }
+        ]
+      },
+      {
+        "activity": "Степ-аэробика",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "10:00-14:00"
+          },
+          {
+            "day": "четверг",
+            "time": "10:00-14:00"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "id": "kolpinets-baltika-1",
+        "title": "Медиастудия «Софит»",
+        "catalogActivity": "Медиастудия «Софит»",
+        "officialUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-baltika-2",
+        "title": "Молодёжное объединение «Даёшь молодёжь»",
+        "catalogActivity": "Молодёжное объединение «Даёшь молодёжь»",
+        "officialUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-baltika-3",
+        "title": "Настольный теннис",
+        "catalogActivity": "Настольный теннис",
+        "officialUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-baltika-4",
+        "title": "ОФП «Курс на спорт»",
+        "catalogActivity": "ОФП «Курс на спорт»",
+        "officialUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-baltika-5",
+        "title": "Пауэрлифтинг и гиревой спорт",
+        "catalogActivity": "Пауэрлифтинг и гиревой спорт",
+        "officialUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-baltika-6",
+        "title": "Степ-аэробика",
+        "catalogActivity": "Степ-аэробика",
+        "officialUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/baltika/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Медиастудия «Софит»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Молодёжное объединение «Даёшь молодёжь»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Настольный теннис",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "ОФП «Курс на спорт»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Пауэрлифтинг и гиревой спорт",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Степ-аэробика",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      }
+    ]
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Чайка",
+    "organization": "kolpinets",
+    "address": "пос. Металлострой, ул. Полевая, д. 2/30",
+    "activities": [
+      "Спорт",
+      "Бокс",
+      "Атлетическая гимнастика",
+      "Молодёжное объединение «Спорт - жизнь!»"
+    ],
+    "officialUrl": "http://dmk.spb.ru/klubs/chaika/",
+    "sourceUrl": "http://dmk.spb.ru/klubs/chaika/",
+    "sourceCheckedAt": "2026-10-23",
+    "phone": "246-43-29",
+    "vkUrl": "https://vk.ru/chaykaklpbox",
+    "contactSource": {
+      "url": "http://dmk.spb.ru/klubs/chaika/",
+      "checkedAt": "2026-10-23",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; сама группа VK не открывалась."
+    },
+    "addressNote": "В официальной записи адреса указана литера А.",
+    "note": "Адрес и расписания сверены с официальной страницей ДМК 23.10.2026. Набор и изменения уточни перед визитом.",
+    "openingHours": {
+      "sourceUrl": "http://dmk.spb.ru/klubs/chaika/",
+      "sourcePublishedAt": "2026-07-20",
+      "note": "Общий режим площадки; часы отдельных занятий указаны на страницах направлений.",
+      "schedule": [
+        {
+          "days": "пн-пт",
+          "time": "15:30-22:00"
+        },
+        {
+          "days": "вс",
+          "time": "17:00-21:00"
+        }
+      ],
+      "closedDays": []
+    },
+    "activitySchedule": [
+      {
+        "activity": "Бокс",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/chaika/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест. На странице бокс и атлетическая гимнастика объединены одним блоком времени. Часы конкретной группы уточни у клуба.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:30-22:00"
+          },
+          {
+            "day": "среда",
+            "time": "15:30-22:00"
+          },
+          {
+            "day": "пятница",
+            "time": "15:30-22:00"
+          }
+        ]
+      },
+      {
+        "activity": "Атлетическая гимнастика",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/chaika/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест. На странице бокс и атлетическая гимнастика объединены одним блоком времени. Часы конкретной группы уточни у клуба.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:30-22:00"
+          },
+          {
+            "day": "среда",
+            "time": "15:30-22:00"
+          },
+          {
+            "day": "пятница",
+            "time": "15:30-22:00"
+          }
+        ]
+      },
+      {
+        "activity": "Молодёжное объединение «Спорт - жизнь!»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/chaika/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "19:00-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-21:00"
+          },
+          {
+            "day": "воскресенье",
+            "time": "17:00-21:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "id": "kolpinets-chaika-1",
+        "title": "Бокс",
+        "catalogActivity": "Бокс",
+        "officialUrl": "http://dmk.spb.ru/klubs/chaika/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/chaika/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-chaika-2",
+        "title": "Атлетическая гимнастика",
+        "catalogActivity": "Атлетическая гимнастика",
+        "officialUrl": "http://dmk.spb.ru/klubs/chaika/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/chaika/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-chaika-3",
+        "title": "Молодёжное объединение «Спорт - жизнь!»",
+        "catalogActivity": "Молодёжное объединение «Спорт - жизнь!»",
+        "officialUrl": "http://dmk.spb.ru/klubs/chaika/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/chaika/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Бокс",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Атлетическая гимнастика",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Молодёжное объединение «Спорт - жизнь!»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      }
+    ]
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Орлёнок",
+    "organization": "kolpinets",
+    "address": "пос. Металлострой, ул. Школьная, д. 12",
+    "activities": [
+      "Спорт",
+      "Социальные проекты",
+      "Шахматы",
+      "Волонтёрское объединение «Под крылом»",
+      "Настольные игры «Игровая гавань»",
+      "Любительское объединение «Лига возможностей»",
+      "Настольный теннис"
+    ],
+    "officialUrl": "http://dmk.spb.ru/klubs/orlenok/",
+    "sourceUrl": "http://dmk.spb.ru/klubs/orlenok/",
+    "sourceCheckedAt": "2026-10-23",
+    "phone": "464-31-49",
+    "vkUrl": "https://vk.ru/orlenok_dmk",
+    "contactSource": {
+      "url": "http://dmk.spb.ru/klubs/orlenok/",
+      "checkedAt": "2026-10-23",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; сама группа VK не открывалась."
+    },
+    "addressNote": "В официальной записи адреса указана литера А.",
+    "note": "Адрес и расписания сверены с официальной страницей ДМК 23.10.2026. Набор и изменения уточни перед визитом.",
+    "openingHours": {
+      "sourceUrl": "http://dmk.spb.ru/klubs/orlenok/",
+      "sourcePublishedAt": "2026-07-20",
+      "note": "Общий режим площадки; часы отдельных занятий указаны на страницах направлений.",
+      "schedule": [
+        {
+          "days": "пн-пт",
+          "time": "13:00-21:00"
+        },
+        {
+          "days": "сб",
+          "time": "17:30-20:30"
+        }
+      ],
+      "closedDays": []
+    },
+    "activitySchedule": [
+      {
+        "activity": "Шахматы",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:30-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "17:30-21:00"
+          },
+          {
+            "day": "суббота",
+            "time": "17:30-20:30"
+          }
+        ]
+      },
+      {
+        "activity": "Волонтёрское объединение «Под крылом»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-20:00"
+          },
+          {
+            "day": "среда",
+            "time": "16:00-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Настольные игры «Игровая гавань»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-18:00"
+          },
+          {
+            "day": "вторник",
+            "time": "16:00-20:00"
+          },
+          {
+            "day": "четверг",
+            "time": "16:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Любительское объединение «Лига возможностей»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:30-18:30"
+          },
+          {
+            "day": "среда",
+            "time": "15:30-18:30"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Настольный теннис",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "15:00-20:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "id": "kolpinets-orlenok-1",
+        "title": "Шахматы",
+        "catalogActivity": "Шахматы",
+        "officialUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-orlenok-2",
+        "title": "Волонтёрское объединение «Под крылом»",
+        "catalogActivity": "Волонтёрское объединение «Под крылом»",
+        "officialUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-orlenok-3",
+        "title": "Настольные игры «Игровая гавань»",
+        "catalogActivity": "Настольные игры «Игровая гавань»",
+        "officialUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-orlenok-4",
+        "title": "Любительское объединение «Лига возможностей»",
+        "catalogActivity": "Любительское объединение «Лига возможностей»",
+        "officialUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-orlenok-5",
+        "title": "Настольный теннис",
+        "catalogActivity": "Настольный теннис",
+        "officialUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/orlenok/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Шахматы",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Волонтёрское объединение «Под крылом»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Настольные игры «Игровая гавань»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Любительское объединение «Лига возможностей»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Настольный теннис",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      }
+    ]
+  },
+  {
+    "type": "Молодёжное пространство",
+    "name": "Медиазавод",
+    "organization": "kolpinets",
+    "address": "г. Колпино, ул. Павловская, д. 82",
+    "activities": [
+      "Медиа",
+      "Культурный досуг",
+      "Театр миниатюр",
+      "Школа ведущего",
+      "Коротко. Метражно",
+      "Вокальная лаборатория",
+      "Вокальная лаборатория ПРО",
+      "Иносказание",
+      "Психологическая студия «Про тебя»",
+      "Пианино здесь",
+      "Клавишный мир",
+      "Игровой клуб «Нереальность»",
+      "Проектная мастерская",
+      "Вокал «Резонанс»"
+    ],
+    "officialUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+    "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+    "sourceCheckedAt": "2026-10-23",
+    "phone": "461-38-57",
+    "vkUrl": "https://vk.ru/mdzvd",
+    "contactSource": {
+      "url": "http://dmk.spb.ru/klubs/mediazavod/",
+      "checkedAt": "2026-10-23",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; сама группа VK не открывалась."
+    },
+    "addressNote": "В официальной записи адреса указана литера А.",
+    "note": "Адрес и расписания сверены с официальной страницей ДМК 23.10.2026. Набор и изменения уточни перед визитом.",
+    "openingHours": {
+      "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+      "sourcePublishedAt": "2026-07-20",
+      "note": "Общий режим площадки; часы отдельных занятий указаны на страницах направлений.",
+      "schedule": [
+        {
+          "days": "ежедневно",
+          "time": "09:00-21:00"
+        }
+      ],
+      "closedDays": []
+    },
+    "activitySchedule": [
+      {
+        "activity": "Театр миниатюр",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "16:00-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-20:00"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Школа ведущего",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-20:00"
+          },
+          {
+            "day": "четверг",
+            "time": "16:00-20:00"
+          },
+          {
+            "day": "среда",
+            "time": "16:00-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Коротко. Метражно",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "18:00-20:00"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-20:00"
+          },
+          {
+            "day": "среда",
+            "time": "17:00-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Вокальная лаборатория",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "среда",
+            "time": "15:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Вокальная лаборатория ПРО",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "четверг",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Иносказание",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "15:00-18:00"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-18:00"
+          },
+          {
+            "day": "среда",
+            "time": "15:00-17:00"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Психологическая студия «Про тебя»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест. Индивидуальные консультации по предварительной записи. Указаны часы приёма; это не расписание группового занятия.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "14:00-16:00"
+          },
+          {
+            "day": "вторник",
+            "time": "14:00-16:00"
+          },
+          {
+            "day": "среда",
+            "time": "14:00-16:00"
+          },
+          {
+            "day": "четверг",
+            "time": "14:00-16:00"
+          },
+          {
+            "day": "пятница",
+            "time": "14:00-16:00"
+          }
+        ]
+      },
+      {
+        "activity": "Пианино здесь",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Клавишный мир",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "суббота",
+            "time": "12:00-17:00"
+          }
+        ]
+      },
+      {
+        "activity": "Игровой клуб «Нереальность»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "четверг",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Проектная мастерская",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "суббота",
+            "time": "15:00-20:00"
+          }
+        ]
+      },
+      {
+        "activity": "Вокал «Резонанс»",
+        "sourceType": "official_web",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourcePublishedAt": "2026-07-20",
+        "sourceNote": "В источнике указана дата 20.07.2026. Перед визитом уточни изменения и наличие мест.",
+        "schedule": [
+          {
+            "day": "пятница",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "воскресенье",
+            "time": "15:00-20:00"
+          }
+        ]
+      }
+    ],
+    "activityPages": [
+      {
+        "id": "kolpinets-mediazavod-1",
+        "title": "Театр миниатюр",
+        "catalogActivity": "Театр миниатюр",
+        "officialUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-mediazavod-2",
+        "title": "Школа ведущего",
+        "catalogActivity": "Школа ведущего",
+        "officialUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-mediazavod-3",
+        "title": "Коротко. Метражно",
+        "catalogActivity": "Коротко. Метражно",
+        "officialUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-mediazavod-4",
+        "title": "Вокальная лаборатория",
+        "catalogActivity": "Вокальная лаборатория",
+        "officialUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-mediazavod-5",
+        "title": "Вокальная лаборатория ПРО",
+        "catalogActivity": "Вокальная лаборатория ПРО",
+        "officialUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-mediazavod-6",
+        "title": "Иносказание",
+        "catalogActivity": "Иносказание",
+        "officialUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-mediazavod-7",
+        "title": "Психологическая студия «Про тебя»",
+        "catalogActivity": "Психологическая студия «Про тебя»",
+        "officialUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-mediazavod-8",
+        "title": "Пианино здесь",
+        "catalogActivity": "Пианино здесь",
+        "officialUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-mediazavod-9",
+        "title": "Клавишный мир",
+        "catalogActivity": "Клавишный мир",
+        "officialUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-mediazavod-10",
+        "title": "Игровой клуб «Нереальность»",
+        "catalogActivity": "Игровой клуб «Нереальность»",
+        "officialUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-mediazavod-11",
+        "title": "Проектная мастерская",
+        "catalogActivity": "Проектная мастерская",
+        "officialUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      },
+      {
+        "id": "kolpinets-mediazavod-12",
+        "title": "Вокал «Резонанс»",
+        "catalogActivity": "Вокал «Резонанс»",
+        "officialUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceUrl": "http://dmk.spb.ru/klubs/mediazavod/",
+        "sourceCheckedAt": "2026-10-23",
+        "mapping": "Название и площадка подтверждены официальной страницей; пользовательские свидетельства бесплатности хранятся отдельно."
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Театр миниатюр",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Школа ведущего",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Коротко. Метражно",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Вокальная лаборатория",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Вокальная лаборатория ПРО",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Иносказание",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Психологическая студия «Про тебя»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Пианино здесь",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Клавишный мир",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Игровой клуб «Нереальность»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Проектная мастерская",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      },
+      {
+        "activity": "Вокал «Резонанс»",
+        "sourceUrl": "https://vk.ru/uslugi-43117555?screen=group",
+        "sourceType": "user_supplied_vk_text",
+        "sourceText": "В перечне услуг ДМК направление указано как бесплатное. Перед записью уточни условия и наличие мест."
+      }
+    ]
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Юность",
+    "organization": "rovesnik",
+    "address": "г. Колпино, ул. Танкистов, д. 28А",
+    "phone": "460-95-40",
+    "activities": [
+      "Борьба",
+      "Рукопашный бой",
+      "Скалолазание",
+      "Фитнес",
+      "Танцы"
+    ]
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Колпинская перчатка",
+    "organization": "rovesnik",
+    "address": "г. Колпино, ул. Веры Слуцкой, д. 89",
+    "phone": "469-62-78",
+    "activities": [
+      "Бокс",
+      "Каратэ"
+    ]
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Патриот",
+    "organization": "rovesnik",
+    "address": "Площадки на базе школ Колпинского района",
+    "phone": "460-95-35",
+    "activities": [
+      "Основы военной службы",
+      "Спортивный туризм"
+    ],
+    "note": "Городской документ не указывает единый адрес клуба. Место занятий нужно узнать у учреждения."
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Z",
+    "organization": "rovesnik",
+    "address": "г. Колпино, ул. Загородная, д. 62",
+    "phone": "461-21-90",
+    "activities": [
+      "Футбол",
+      "Настольный теннис",
+      "Танцы",
+      "Добровольчество",
+      "Краеведение"
+    ]
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Дельта",
+    "organization": "rovesnik",
+    "address": "пос. Понтонный, ул. Южная, д. 3",
+    "phone": "462-30-52",
+    "activities": [
+      "Силовой спорт",
+      "Фитнес",
+      "Хип-хоп",
+      "Добровольчество"
+    ]
+  }
 ]

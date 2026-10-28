@@ -1,0 +1,11 @@
+# Static Nuxt hosting on Apache/ISPmanager. HTTPS is enforced by the hosting panel.
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.young-russia\.ru(?::[0-9]+)?$ [NC]
+RewriteRule ^ https://young-russia.ru%{REQUEST_URI} [R=301,L,NE]
+
+# Match the browser request, so DirectoryIndex does not trigger a redirect loop.
+RewriteCond %{THE_REQUEST} \s/+index\.html(?:[?\s]) [NC]
+RewriteRule ^index\.html$ https://young-russia.ru/ [R=301,L]
+
+ErrorDocument 404 /404.html

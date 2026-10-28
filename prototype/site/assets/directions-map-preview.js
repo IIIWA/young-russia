@@ -1,3 +1,17 @@
+function mapClubActivities(activities, languageSelection = false, base = '') {
+  const escape = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+  const entries = [...new Map((activities ?? []).map(activity => typeof activity === 'string' ? {label:activity} : activity).filter(activity => activity?.label).map(activity => [activity.label,activity])).values()];
+  const labels = entries.map(activity => activity.label);
+  const languagePatterns = [['английский',/английск/iu],['немецкий',/немецк/iu],['французский',/французск/iu],['испанский',/испанск/iu],['китайский',/китайск/iu],['японский',/японск/iu],['корейский',/корейск/iu],['жестовый язык',/жестов/iu]];
+  const languages = languagePatterns.filter(([,pattern]) => labels.some(label => pattern.test(label))).map(([label]) => label);
+  const languageDetails = languageSelection || languages.length || labels.some(label => /язык|билингв/iu.test(label))
+    ? `<p style="margin:8px 0"><strong>Языки:</strong> ${languages.length ? languages.join(', ') : 'список уточняется у&nbsp;клуба'}</p>` : '';
+  const list = labels.length
+    ? `<ul style="margin:6px 0 0;padding-left:18px;max-height:180px;overflow-y:auto;line-height:1.5">${entries.map(activity => `<li>${/^activities\/[a-z0-9-]+\.html$/.test(activity.url ?? '') ? `<a class="map-balloon-link" style="color:#1d4ed8!important;text-decoration:underline!important" href="${escape(base + activity.url)}">${escape(activity.label)}</a>` : escape(activity.label)}</li>`).join('')}</ul>`
+    : '<p style="margin:6px 0">Список занятий уточняется у&nbsp;клуба.</p>';
+  return `${languageDetails}<div style="margin-top:10px;max-width:320px;font-size:14px"><strong>Направления клуба</strong>${list}</div>`;
+}
+
 (() => {
   const element = document.querySelector('[data-map-preview]');
   const dataElement = document.querySelector('#map-preview-data');
@@ -32,7 +46,7 @@
       map.geoObjects.add(new window.ymaps.Placemark(group[0].coordinates, {
         hintContent: group.map(point => point.name).join(', '),
         balloonContentHeader: group.length === 1 ? escapeHtml(group[0].name) : `${group.length} клуба по&nbsp;одному адресу`,
-        balloonContentBody: group.map(point => `${escapeHtml(point.name)}<br>${escapeHtml(point.address)}<br><a href="${escapeHtml(point.url)}">${escapeHtml(point.linkLabel)}</a>${point.provisional ? '<br><small>Точка предварительная</small>' : ''}`).join('<hr>'),
+        balloonContentBody: group.map(point => `${escapeHtml(point.name)}<br>${escapeHtml(point.address)}${mapClubActivities(point.activities, false, '../')}<br><a class="map-balloon-link" style="color:#1d4ed8!important;text-decoration:underline!important" href="${escapeHtml(point.url)}">${escapeHtml(point.linkLabel)}</a>${point.provisional ? '<br><small>Точка предварительная</small>' : ''}`).join('<hr>'),
       }, {preset:'islands#circleDotIcon', iconColor:provisional ? '#db7819' : '#111'}));
     }
     if (grouped.size > 1) map.setBounds(map.geoObjects.getBounds(), {checkZoomRange:true, zoomMargin:36});

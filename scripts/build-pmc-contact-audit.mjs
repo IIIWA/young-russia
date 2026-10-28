@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { writeGeneratedFile } from './write-generated-file.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dataDir = path.join(root, 'data');
@@ -50,6 +51,7 @@ for (const filename of files) {
         languages: item.languages || [],
         suggestedCatalogActivity: item.suggestedCatalogActivity || '',
         vkUrl: item.vkUrl,
+        officialUrl: item.officialUrl || '',
         mapping: item.mapping,
         sourceLine: item.sourceLine || null,
         approvedByUserAt: item.approvedByUserAt || '',
@@ -65,7 +67,7 @@ for (const filename of files) {
       sourceDate: entry.sourceDate || '',
       projectFile: `data/${filename}`,
       review: {
-        vk: supplement?.vk ? 'Ссылка указана на официальном сайте центра; сама страница VK не открывалась' : entry.vkUrl ? 'Сохранено в проекте; требуется проверить страницу' : 'Ссылка не найдена в данных проекта',
+        vk: supplement?.vk || entry.contactSource?.vkEvidence ? 'Ссылка указана на официальном сайте центра; сама страница VK не открывалась' : entry.vkUrl ? 'Сохранено в проекте; требуется проверить страницу' : 'Ссылка не найдена в данных проекта',
         contacts: supplement?.phone && entry.phone && normalize(supplement.phone) !== normalize(entry.phone) ? 'Телефон из проекта расходится с официальным сайтом центра' : supplement?.phone ? 'Телефон указан на официальном сайте центра' : entry.phone || entry.email ? 'Сохранено в проекте; требуется сверить актуальность' : 'Контакты не найдены в данных проекта',
       },
     });
@@ -85,9 +87,9 @@ const summary = {
   withActivityVk: clubs.reduce((count, club) => count + club.activityPages.filter(page => page.vkUrl).length, 0),
 };
 await fs.mkdir(path.dirname(out), { recursive: true });
-await fs.writeFile(out, JSON.stringify({
+await writeGeneratedFile(out, JSON.stringify({
   created: '2026-10-16',
-  updated: '2026-10-19',
+  updated: '2026-10-23',
   purpose: 'Рабочий реестр для последующей проверки и применения ссылок и контактов на сайте; это не доказательство их текущей актуальности.',
   summary,
   clubs,

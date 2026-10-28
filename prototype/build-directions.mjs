@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {approximateActivityTopics, classifyActivity, classifyClub, topicGroups} from '../scripts/topic-taxonomy.mjs';
+import {mapClubActivityEntries} from '../scripts/activity-page-routes.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const output = path.join(root, 'prototype/site/directions');
@@ -30,7 +31,8 @@ const prototypeClubPages = new Set((await fs.readdir(path.join(root,'prototype/s
 const mapPoints = coordinateData.addresses.flatMap(address => address.clubCoordinates.flatMap(point => {
   const club = clubsByLocation.get(`${address.district}|${point.clubName}|${address.address}`);
   if (!club || !point.coordinates) return [];
-  return [{key:`${club.district}|${club.name}|${club.address}`,name:club.name,address:club.address,coordinates:[point.coordinates.latitude,point.coordinates.longitude],district:club.district,topics:club.topics,subtopics:club.subtopics,provisional:point.source !== 'user_provided' || point.precision === 'approximate',url:`../districts/${club.district}.html#clubs`,linkLabel:'Каталог района'}];
+  const activities = mapClubActivityEntries({...club,districtCode:club.district,slug:knownSlugs[club.name] ?? slugify(club.name)});
+  return [{key:`${club.district}|${club.name}|${club.address}`,name:club.name,address:club.address,activities,coordinates:[point.coordinates.latitude,point.coordinates.longitude],district:club.district,topics:club.topics,subtopics:club.subtopics,provisional:point.source !== 'user_provided' || point.precision === 'approximate',url:`../districts/${club.district}.html#clubs`,linkLabel:'Каталог района'}];
 }));
 
 function section(number,key,label,body,note,extra='') {

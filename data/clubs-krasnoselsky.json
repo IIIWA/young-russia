@@ -1,19 +1,455 @@
 [
-  {"type":"Подростково-молодёжный клуб","name":"Алые паруса","address":"ул. Пионерстроя, д. 4","activities":["Баскетбол","Настольный теннис","Атлетическая гимнастика","Вокал","Клуб молодых семей","Инструментальная музыка","Фортепиано"]},
-  {"type":"Подростково-молодёжный клуб","name":"Непокоренный рубеж","address":"ул. Тамбасова, д. 3, корп. 1","activities":["Поисковая работа","Начальная военная подготовка","3D-моделирование"]},
-  {"type":"Подростково-молодёжный клуб","name":"Берег","address":"ул. Маршала Казакова, д. 68, корп. 1","activities":["Изостудия","Военно-патриотический клуб","Фитнес","Клуб молодых семей","Вокал","Рукопашный бой"]},
-  {"type":"Подростково-молодёжный клуб","name":"Факел","address":"ул. Тамбасова, д. 32","activities":["Творческая мастерская","ОФП","Танцы","Гитара"]},
-  {"type":"Подростково-молодёжный клуб","name":"Умелец","address":"Красносельское ш., д. 46, корп. 4","activities":["Изостудия","Творческая лаборатория","Танцы","Гитара","Клуб молодых семей"]},
-  {"type":"Подростково-молодёжный клуб","name":"Ровесник","address":"ул. Котина, д. 2, корп. 1","activities":["Театральная мастерская","Театр и пластика","Клуб молодых семей","Театрально-литературная студия"]},
-  {"type":"Подростково-молодёжный клуб","name":"Ритм","address":"ул. Добровольцев, д. 44","activities":["Музыкальное развитие"]},
-  {"type":"Подростково-молодёжный клуб","name":"Рекорд","address":"пр. Героев, д. 24, корп. 2","activities":["Атлетическая гимнастика","Дзюдо","Стретчинг","Кикбоксинг"]},
-  {"type":"Подростково-молодёжный клуб","name":"Ракета","address":"ул. Пограничника Гарькавого, д. 36, корп. 1","activities":["Клуб молодых семей","Атлетизм","Силовая гимнастика","Настольный теннис","Добровольчество"]},
-  {"type":"Подростково-молодёжный клуб","name":"Полет","address":"ул. Маршала Захарова, д. 23","activities":["Театр танца","Театральная студия","Ансамблевое пение"]},
-  {"type":"Подростково-молодёжный клуб","name":"Олимп","address":"пр. Ветеранов, д. 166","activities":["Настольный теннис","Атлетическая гимнастика"]},
-  {"type":"Подростково-молодёжный клуб","name":"Маяк","address":"ул. Маршала Захарова, д. 29, корп. 2","activities":["Хореография","Бокс","Театр","Изостудия","Функциональный тренинг","Настольный теннис"]},
-  {"type":"Подростково-молодёжный клуб","name":"Восход","address":"г. Красное Село, ул. Освобождения, д. 31, корп. 1","activities":["Атлетическая гимнастика","Творческая студия"]},
-  {"type":"Подростково-молодёжный клуб","name":"Буревестник","address":"ул. Десантников, д. 34","activities":["Туризм","Вокал","Киберспорт","Брейк-данс"]},
-  {"type":"Подростково-молодёжный клуб","name":"Юность","address":"ул. Чекистов, д. 28","activities":["Клуб молодых семей","Театр","Киберспорт","Звукорежиссура","Английский язык","Йога","Графический дизайн"]},
-  {"type":"Подростково-молодёжный клуб","name":"Причал","address":"Балтийский бульвар, д. 4, стр. 1","activities":["Клуб молодых семей","Творческая студия","Силовая гимнастика","Смешанные единоборства","Музыка","Киберспорт","Настольный теннис","Шахматы","Графический дизайн","Блогинг","Ораторский клуб","Сценическое искусство"]},
-  {"type":"Подростково-молодёжный клуб","name":"Компас","address":"ул. Морской Пехоты, д. 22, корп. 2","activities":["Тренажёрный зал","Компьютерные игры","Пространство общения","Творческая деятельность"],"description":"Пространство для молодёжи от 14 до 35 лет: можно заниматься спортом, играть, общаться, работать и заниматься творчеством.","sourceUrl":"https://www.gov.spb.ru/gov/terr/reg_krasnoselsk/news/314884/","note":"Администрация района сообщила об открытии клуба в 2026 году. Расписание и условия участия нужно уточнить у ПМЦ."}
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Алые паруса",
+    "address": "ул. Пионерстроя, д. 4",
+    "activities": [
+      "Баскетбол",
+      "Настольный теннис",
+      "Атлетическая гимнастика",
+      "Вокал",
+      "Клуб молодых семей",
+      "Инструментальная музыка",
+      "Фортепиано"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/alye-parusa/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/alye-parusa/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/pmk_alye_parusa",
+    "phone": "+7 (812) 744-84-21, +7 (906) 273-39-12",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Непокоренный рубеж",
+    "address": "ул. Тамбасова, д. 3, корп. 1",
+    "activities": [
+      "Поисковая работа",
+      "Начальная военная подготовка",
+      "3D-моделирование"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/nepokorennyj-rubezh/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/nepokorennyj-rubezh/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/nepokor_rubezh",
+    "phone": "+7 (951) 686-83-14",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Берег",
+    "address": "ул. Маршала Казакова, д. 68, корп. 1",
+    "activities": [
+      "Изостудия",
+      "Военно-патриотический клуб",
+      "Фитнес",
+      "Клуб молодых семей",
+      "Вокал",
+      "Рукопашный бой"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/bereg/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/bereg/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/pmk_bereg",
+    "phone": "+7 (812) 246-24-58",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Факел",
+    "address": "ул. Тамбасова, д. 32",
+    "activities": [
+      "Творческая мастерская",
+      "ОФП",
+      "Танцы",
+      "Гитара"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/fakel/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/fakel/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/fakel_spb",
+    "phone": "+7 (812) 730-38-54",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Умелец",
+    "address": "Красносельское ш., д. 46, корп. 4",
+    "activities": [
+      "Изостудия",
+      "Творческая лаборатория",
+      "Танцы",
+      "Гитара",
+      "Клуб молодых семей"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/umelec/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/umelec/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/pmk_umelec",
+    "phone": "746-25-97, +7 (900) 621-14-20",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Ровесник",
+    "address": "ул. Котина, д. 2, корп. 1",
+    "activities": [
+      "Театральная мастерская",
+      "Театр и пластика",
+      "Клуб молодых семей",
+      "Театрально-литературная студия"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/rovesnik/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/rovesnik/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/rovesnik_spb",
+    "phone": "+7(911) 931-23-13",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Ритм",
+    "address": "ул. Добровольцев, д. 44",
+    "activities": [
+      "Музыкальное развитие"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/ritm/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/ritm/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/pmk_rytm",
+    "phone": "+7 (812) 735-79-08, +7 (951) 686-83-14",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Рекорд",
+    "address": "пр. Героев, д. 24, корп. 2",
+    "activities": [
+      "Атлетическая гимнастика",
+      "Дзюдо",
+      "Стретчинг",
+      "Кикбоксинг"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/rekord/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/rekord/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/pmk_record",
+    "phone": "+7 (999) 209-41-01",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Ракета",
+    "address": "ул. Пограничника Гарькавого, д. 36, корп. 1",
+    "activities": [
+      "Клуб молодых семей",
+      "Атлетизм",
+      "Силовая гимнастика",
+      "Настольный теннис",
+      "Добровольчество"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/raketa/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/raketa/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/mkraketa",
+    "phone": "744-61-46",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf",
+    "temporarilyClosed": true,
+    "note": "На официальной странице размещено объявление о закрытии клуба на капитальный ремонт. Дата возобновления работы не указана. Перед посещением уточни открытие у центра.",
+    "closureEvidence": {
+      "checkedAt": "2026-10-24",
+      "club": "Ракета",
+      "sourceType": "official_image",
+      "pageUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/raketa/",
+      "imageUrl": "https://gu321.site.gov.spb.ru/media/321/cache/de/6f/de6f961857f3d00a4c84e6d1e5658f97.png",
+      "imageAlt": "ракета кап",
+      "imageSha256": "48ad3c710a110fa65bc6391e7b6dbed8e3463b327623cbc1bcdeeb2ed2e2b721",
+      "text": "Важная новость! Молодёжный клуб закрыт на капитальный ремонт. Следите за обновлениями. До скорой встречи!",
+      "note": "На официальной странице размещено объявление о закрытии клуба на капитальный ремонт. Дата возобновления работы не указана. Перед посещением уточни открытие у центра.",
+      "dateLimitation": "Дата 12.08.2021 относится к карточке, не установлена дата самого объявления. Изображение повторно подтверждено в браузере 24.10.2026.",
+      "screenshot": "outputs/schedule-attachment-audit-2026-10-24/raketa-official-page.png"
+    }
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Полет",
+    "address": "ул. Маршала Захарова, д. 23",
+    "activities": [
+      "Театр танца",
+      "Театральная студия",
+      "Ансамблевое пение"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/polet/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/polet/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/pmk_polet",
+    "phone": "+7 (911) 249-17-63",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Олимп",
+    "address": "пр. Ветеранов, д. 166",
+    "activities": [
+      "Настольный теннис",
+      "Атлетическая гимнастика"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/olimp/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/olimp/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/pmcolimp",
+    "phone": "744-35-00, +7 (921) 355-90-15",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Маяк",
+    "address": "ул. Маршала Захарова, д. 29, корп. 2",
+    "activities": [
+      "Хореография",
+      "Бокс",
+      "Театр",
+      "Изостудия",
+      "Функциональный тренинг",
+      "Настольный теннис"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/majak/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/majak/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/pmkmayak",
+    "phone": "+7 (812) 745-72-12",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Восход",
+    "address": "г. Красное Село, ул. Освобождения, д. 31, корп. 1",
+    "activities": [
+      "Атлетическая гимнастика",
+      "Творческая студия"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/voshod/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/voshod/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/vosxod_spb",
+    "phone": "+7 (812) 417-30-18",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Буревестник",
+    "address": "ул. Десантников, д. 34",
+    "activities": [
+      "Туризм",
+      "Вокал",
+      "Киберспорт",
+      "Брейк-данс"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/burevestnik/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/burevestnik/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.ru/mk_burevestnik",
+    "phone": "+7 (812) 745-19-19, +7 (932) 001-40-45",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Юность",
+    "address": "ул. Чекистов, д. 28",
+    "activities": [
+      "Клуб молодых семей",
+      "Театр",
+      "Киберспорт",
+      "Звукорежиссура",
+      "Английский язык",
+      "Йога",
+      "Графический дизайн"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/junost/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/junost/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/yunost_pmk",
+    "phone": "417-35-89",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Причал",
+    "address": "Балтийский бульвар, д. 4, стр. 1",
+    "activities": [
+      "Клуб молодых семей",
+      "Творческая студия",
+      "Силовая гимнастика",
+      "Смешанные единоборства",
+      "Музыка",
+      "Киберспорт",
+      "Настольный теннис",
+      "Шахматы",
+      "Графический дизайн",
+      "Блогинг",
+      "Ораторский клуб",
+      "Сценическое искусство"
+    ],
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/prichal/",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/prichal/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.com/prichalivayvprichal",
+    "phone": "+7 (912) 588-39-72",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.spbdm.ru/upload/iblock/524/35qphtbcqyez2ov7ps7y8rp6jdm56ezp/%D0%9F%D0%9C%D0%A6%20%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D0%BE.pdf"
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Компас",
+    "address": "ул. Морской Пехоты, д. 22, корп. 2",
+    "activities": [
+      "Тренажёрный зал",
+      "Компьютерные игры",
+      "Пространство общения",
+      "Творческая деятельность"
+    ],
+    "description": "Пространство для молодёжи от 14 до 35 лет: можно заниматься спортом, играть, общаться, работать и заниматься творчеством.",
+    "sourceUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/kompas/",
+    "note": "Администрация района сообщила об открытии клуба в 2026 году. Расписание и условия участия нужно уточнить у ПМЦ.",
+    "officialUrl": "https://gu321.site.gov.spb.ru/spisok-klubov/kompas/",
+    "sourceCheckedAt": "2026-10-23",
+    "vkUrl": "https://vk.ru/mkkompas",
+    "phone": "-",
+    "email": "pmcligovo@mail.ru",
+    "ageConditions": {
+      "freeFrom": 14,
+      "freeTo": 35,
+      "sourceNote": "YoungRussiaOBS/ПМК Красносельского.md",
+      "sourceDocx": "C:\\Users\\Иван да Марья\\Downloads\\Май_2025_инфо_о_ПМК.docx",
+      "note": "Платные группы могут называться так же; они не включены в бесплатные условия."
+    },
+    "activitiesSource": "https://www.gov.spb.ru/gov/terr/reg_krasnoselsk/news/314884/"
+  }
 ]

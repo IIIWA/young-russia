@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const sourceArgument = process.argv.find(argument => argument.startsWith('--source='))?.slice('--source='.length);
-const source = sourceArgument ? path.resolve(root, sourceArgument) : path.join(root, 'YoungRussiaOBS/Задачи/Координаты клубов — ввод 2026-10-22.md');
+const source = sourceArgument ? path.resolve(root, sourceArgument) : path.join(root, 'YoungRussiaOBS/Архив/Координаты/Координаты клубов — ввод 2026-10-22.md');
 const target = path.join(root, 'data/manual-club-coordinates.json');
 const apply = process.argv.includes('--apply');
 // Multiple locations require an explicit choice after reviewing the source note.
@@ -77,7 +77,7 @@ for (let i = 0; i < lines.length; i += 1) {
     if (lines[j].trim() === '```' || /^#{1,2} /.test(lines[j])) break;
     chunk.push(lines[j]);
   }
-  const value = chunk.map(line => line.replace(/^\s*Координаты:\s*/i, '').trim())
+  const value = chunk.filter(line => !/^\s*(?:Вопрос|Статус|Причина):/i.test(line)).map(line => line.replace(/^\s*Координаты:\s*/i, '').trim())
     .filter(Boolean).join(' ').replace(/\bclipboard\b/gi, '').replace(/\s+/g, ' ').trim();
   rows.push({ district, name, location, value, line: i + 2 });
   i += 2;
@@ -129,6 +129,13 @@ for (const row of rows) {
     const priorLocations = [prior, ...(prior.additionalPoints ?? [])];
     if (priorLocations.length === locations.length && priorLocations.every((point, index) => point.latitude === locations[index].latitude && point.longitude === locations[index].longitude)) summary.alreadyPresent += 1;
     else summary.problems.push({ line: row.line, name: row.name, problem: 'Другая точка уже есть в ручном реестре', prior, proposed: { latitude, longitude, referenceUrl: urls[0] } });
+    continue;
+  }
+  const otherAddresses = Object.entries(manual.overrides).flatMap(([id, value]) => id === address.id ? [] : (value.points ?? []).filter(point =>
+    [point, ...(point.additionalPoints ?? [])].some(existing => locations.some(location => existing.latitude === location.latitude && existing.longitude === location.longitude))
+  ).map(point => ({addressId:id, clubName:point.clubName})));
+  if (otherAddresses.length) {
+    summary.problems.push({line:row.line,name:row.name,problem:'Точка уже используется для другого адреса; принадлежность нужно уточнить перед импортом',otherAddresses});
     continue;
   }
   const candidate = priorCandidates.get(`${address.id}|${club.name}`);

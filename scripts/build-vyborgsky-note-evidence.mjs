@@ -4,10 +4,11 @@ import { fileURLToPath } from 'node:url';
 import { writeGeneratedFile } from './write-generated-file.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const sourceFile = 'YoungRussiaOBS/Задачи/ПМК Выборгского инфа.md';
+const sourceFile = 'YoungRussiaOBS/Источники/ВК/ВК ПМК Выборгского района.md';
 const text = (await fs.readFile(path.join(root, sourceFile), 'utf8')).replace(/\r\n/g, '\n');
 const lines = text.split('\n');
 const catalog = JSON.parse(await fs.readFile(path.join(root, 'data/clubs-vyborgsky.json'), 'utf8'));
+const centerContacts = JSON.parse(await fs.readFile(path.join(root, 'data/research/pmc-centers-contacts.json'), 'utf8'));
 const clubNames = new Set(catalog.map(club => club.name));
 const entry = (club, title, from, to, scheduleFrom = from, scheduleTo = to) => ({ club, title, from, to, scheduleFrom, scheduleTo });
 
@@ -185,6 +186,14 @@ const centers = [
   { id: 'mir', name: 'ПМЦ «МИР»', vk: candidatePage('https://vk.ru/pmcmir', 2028, 2030), site: 'https://мц-мир.рф/', phone: '', sourceLines: [1386, 1498] },
   { id: 'forpost', name: 'Дом молодёжи «Форпост»', vk: candidatePage('https://vk.ru/dm_forpost', 1, 175), site: 'http://дм-форпост.рф/', phone: '+7 (812) 542-24-07', sourceLines: [1, 171] },
 ];
+for (const center of centers) {
+  const canonical = centerContacts.find(item => item.id === center.id);
+  if (canonical?.links.site) {
+    center.site = canonical.links.site;
+    center.siteSource = canonical.siteSource;
+    center.siteCheckedAt = canonical.siteCheckedAt;
+  }
+}
 if (evidenceSections.length < 60) throw new Error('Incomplete Vyborgsky note segmentation');
 const result = {
   sourceFile,

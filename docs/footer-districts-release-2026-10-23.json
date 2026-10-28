@@ -1,0 +1,474 @@
+{
+  "date": "2026-10-23",
+  "release": "footer-20261023-mvkxing1",
+  "tasks": [
+    "S-64",
+    "S-65",
+    "S-66",
+    "S-67"
+  ],
+  "deployedAt": "2026-10-23T12:12:52Z",
+  "verifiedAt": "2026-10-23T12:19:56.673Z",
+  "filesVerified": 4128,
+  "htmlPages": 2006,
+  "footerPages": 2004,
+  "localMatches": 4128,
+  "sitemapUrls": 2004,
+  "rejectedVkHrefs": 0,
+  "archiveSha256": "5a1976aba723aff35304bac29fb3c55067b35cd5ade6838e093bfceaf05fafef",
+  "backup": "/var/www/u3013321/data/backups/young-russia-before-footer-20261023-mvkxing1.tar.gz",
+  "backupSha256": "112e00e0da47f65118d7d87b2b004d2f4aee56cf831b4dff1aa4fb48d32cdbde",
+  "previous": "/var/www/u3013321/data/www/.young-russia-prev-footer-20261023-mvkxing1",
+  "retained": [
+    "2bd9808eebd74e34a33893f93adc7043.txt",
+    "prototype"
+  ],
+  "protected": {
+    "robots.txt": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8",
+    ".htaccess": "1a85612ef6398f1528f6022a474fef2d17d987bc9f7ef654a5283537f9165840",
+    "2bd9808eebd74e34a33893f93adc7043.txt": "ed45e66d652040622ec5aeb83e9cfd882bc3d09bbdebebef7c1f82ff179a4e25"
+  },
+  "baseline": {
+    "event": "baseline_verified",
+    "files": 3892,
+    "snapshot_files": 16870
+  },
+  "http": [
+    {
+      "url": "https://young-russia.ru/",
+      "status": 200,
+      "location": null,
+      "sha256": "85310d26cb622b2430771f99820205ee09ed8a5c72edcdad6af8a4dd5be58ca0",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Бесплатные кружки и секции в Санкт-Петербурге | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/",
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/QJd4iLjN.js"
+      ]
+    },
+    {
+      "url": "http://young-russia.ru/",
+      "status": 301,
+      "location": "https://young-russia.ru:443/",
+      "sha256": "9e17cb15dd75bbbd5dbb984eda674863c3b10ab72613cf8a39a00c3e11a8492a",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://www.young-russia.ru/?utm_source=seo-release",
+      "status": 301,
+      "location": "https://young-russia.ru/?utm_source=seo-release",
+      "sha256": "7e1bce37bb319845625c92597278e6fed7ce7fcd1da91b72c69672dc58cd1033",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://young-russia.ru/index.html?utm_source=seo-release",
+      "status": 301,
+      "location": "https://young-russia.ru/?utm_source=seo-release",
+      "sha256": "7e1bce37bb319845625c92597278e6fed7ce7fcd1da91b72c69672dc58cd1033",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://young-russia.ru/seo-release-missing-20261022.html",
+      "status": 404,
+      "location": null,
+      "sha256": "0618b367f4d50f97b143c8c2a5b49f1e9cdc6f373551bcb1ef0c3db159dae9db",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/QJd4iLjN.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/404.html",
+      "status": 200,
+      "location": null,
+      "sha256": "0618b367f4d50f97b143c8c2a5b49f1e9cdc6f373551bcb1ef0c3db159dae9db",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/QJd4iLjN.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/200.html",
+      "status": 200,
+      "location": null,
+      "sha256": "2e52033238cc601f03467040d70acce3123538d203adb4b6fbe6123a5b0440f3",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/QJd4iLjN.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/districts/vasileostrovsky.html",
+      "status": 200,
+      "location": null,
+      "sha256": "ee309f4a68fa4f2f7bea604683c61f02e35dedd69bcb512b6d588559bf7579ed",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Клубы Василеостровского района, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/districts/vasileostrovsky.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/QJd4iLjN.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "status": 200,
+      "location": null,
+      "sha256": "c3c2fb331b397dc56306efb831f3931d52e969fa2c0b15d0532a8daa05147e3d",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Клуб юных моряков «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/QJd4iLjN.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "status": 200,
+      "location": null,
+      "sha256": "bf856aae1fdbbae53544a087b66c77950d9982b4c8a2f4589f51a3081591142f",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "footer_ok": true,
+      "catalog_button": true,
+      "title": "Бокс, КЮМ «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/QJd4iLjN.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/robots.txt",
+      "status": 200,
+      "location": null,
+      "sha256": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8"
+    },
+    {
+      "url": "https://young-russia.ru/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "sha256": "e38d0dbdb2ad75ae2ae05764150a6ffaacd44ea028b1ed0edc978597f3b10e21"
+    },
+    {
+      "url": "https://young-russia.ru/prototype/",
+      "status": 200,
+      "location": null,
+      "sha256": "a3b1d51e4058e19eb778af33b41c09f060effa815840b863e694eecd763fcb9e",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "footer_ok": false,
+      "catalog_button": false,
+      "title": "Главная | Прототип ПМК Петербурга",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "assets/app.js",
+        "assets/comments.js"
+      ]
+    }
+  ],
+  "publicMatches": [
+    {
+      "url": "https://young-russia.ru/",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/404.html",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/200.html",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/districts/vasileostrovsky.html",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/robots.txt",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/sitemap.xml",
+      "matches": true
+    }
+  ],
+  "districtHttp": [
+    {
+      "route": "districts/kalininsky.html",
+      "status": 200,
+      "matches": true,
+      "footer": true
+    },
+    {
+      "route": "districts/kirovsky.html",
+      "status": 200,
+      "matches": true,
+      "footer": true
+    },
+    {
+      "route": "clubs/kalininsky/druzhba.html",
+      "status": 200,
+      "matches": true,
+      "footer": true
+    },
+    {
+      "route": "clubs/kirovsky/molodyozhnyy.html",
+      "status": 200,
+      "matches": true,
+      "footer": true
+    },
+    {
+      "route": "activities/kalininsky-druzhba-aerobika-i-akrobatika-01.html",
+      "status": 200,
+      "matches": true,
+      "footer": true
+    },
+    {
+      "route": "activities/kirovsky-molodyozhnyy-klub-molodoy-semi-01.html",
+      "status": 200,
+      "matches": true,
+      "footer": true
+    }
+  ],
+  "browser": {
+    "mobile": {
+      "backToTopOverlap": false,
+      "contactLeft": 16,
+      "contactOverflow": false,
+      "contactRight": 288.8000183105469,
+      "contactWidth": 272.8000183105469,
+      "footerText": "Сайт разработан\n\nВКонтакте ↗\nTelegram ↗\n\nПо вопросам и предложениям пишите в личные сообщения.",
+      "links": [
+        {
+          "color": "rgb(255, 255, 255)",
+          "href": "https://vk.ru/iiiwaa",
+          "rel": "noopener noreferrer",
+          "target": "_blank",
+          "text": "ВКонтакте ↗",
+          "underline": "underline"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "href": "https://t.me/IIIWA6",
+          "rel": "noopener noreferrer",
+          "target": "_blank",
+          "text": "Telegram ↗",
+          "underline": "underline"
+        }
+      ],
+      "viewport": 320
+    },
+    "desktop": {
+      "backToTopOverlap": false,
+      "contactLeft": 24,
+      "contactOverflow": false,
+      "contactRight": 1240.800048828125,
+      "contactWidth": 1216.800048828125,
+      "footerText": "Сайт разработан\n\nВКонтакте ↗\nTelegram ↗\n\nПо вопросам и предложениям пишите в личные сообщения.",
+      "links": [
+        {
+          "color": "rgb(255, 255, 255)",
+          "href": "https://vk.ru/iiiwaa",
+          "rel": "noopener noreferrer",
+          "target": "_blank",
+          "text": "ВКонтакте ↗",
+          "underline": "underline"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "href": "https://t.me/IIIWA6",
+          "rel": "noopener noreferrer",
+          "target": "_blank",
+          "text": "Telegram ↗",
+          "underline": "underline"
+        }
+      ],
+      "viewport": 1280
+    },
+    "districts": [
+      {
+        "contacts": [
+          {
+            "href": "https://vk.com/pmk.druzhba",
+            "text": "ВКонтакте клуба ↗"
+          },
+          {
+            "href": "https://pmc-kalininsky.spb.ru/?page_id=1091",
+            "text": "Страница клуба ↗"
+          },
+          {
+            "href": "mailto:5564920@mail.ru",
+            "text": "Написать организатору ↗"
+          },
+          {
+            "href": "https://pmc-kalininsky.spb.ru/?page_id=219450",
+            "text": "открытый источник ↗"
+          },
+          {
+            "href": "https://yandex.ru/maps/?ll=30.430254%2C59.990672&z=16&pt=30.430254%2C59.990672%2Cpm2rdm",
+            "text": "Открыть в Яндекс Картах ↗"
+          }
+        ],
+        "footer": "Сайт разработан\n\nВКонтакте ↗\nTelegram ↗\n\nПо вопросам и предложениям пишите в личные сообщения.",
+        "metrikaCount": 1,
+        "schedule": "ВРЕМЯ ЗАНЯТИЙ\n\nРасписание\n\nОсенний график 2026 года с 15.10.2026. Официальный осенний график. Перед посещением уточни набор и возможные изменения. Открыть источник ↗\n\nАэробика и акробатика\nВремя\tПн\tСр\tПт\tСб\n16:00-19:00\t\t\t\t\nАкробатика; 1, 1\n\nСпортивный зал\n\n17:00-19:00\t\nАэробика; 1, 1\n\nСпортивный зал\n\t\nАэробика; 1, 1\n\nСпортивный зал\n\t\nАэробика; 1, 1\n\nСпортивный зал\n\t\n19:00-22:00\t\nАкробатика; 1, 1\n\nСпортивный зал\n\t\nАэробика; 1, 2\n\nСпортивный зал\n\t\nАэробика; 1, 2\n\nСпортивный зал\n\t",
+        "tables": 3,
+        "title": "Аэробика и акробатика",
+        "url": "https://young-russia.ru/activities/kalininsky-druzhba-aerobika-i-akrobatika-01.html"
+      },
+      {
+        "contacts": [
+          {
+            "href": "https://vk.com/molspase",
+            "text": "ВКонтакте клуба ↗"
+          },
+          {
+            "href": "https://pmckir.ru/?page_id=1861",
+            "text": "Страница клуба ↗"
+          },
+          {
+            "href": "mailto:pmz.kir@mail.ru",
+            "text": "Написать организатору ↗"
+          },
+          {
+            "href": "https://yandex.ru/maps/?ll=30.249159%2C59.862543&z=16&pt=30.249159%2C59.862543%2Cpm2rdm",
+            "text": "Открыть в Яндекс Картах ↗"
+          }
+        ],
+        "footer": "Сайт разработан\n\nВКонтакте ↗\nTelegram ↗\n\nПо вопросам и предложениям пишите в личные сообщения.",
+        "metrikaCount": 1,
+        "schedule": "ВРЕМЯ ЗАНЯТИЙ\n\nРасписание\n\nПо официальной странице. Указано время начала. Продолжительность встречи и ближайшую дату уточни у организатора. Открыть источник ↗\n\nКаждый чётный вторник (формулировка источника; дату встречи уточни).\n\nКлуб молодой семьи\nВремя\tВт\n13:00\t\nКлуб молодой семьи",
+        "tables": 2,
+        "title": "Клуб молодой семьи",
+        "url": "https://young-russia.ru/activities/kirovsky-molodyozhnyy-klub-molodoy-semi-01.html"
+      }
+    ],
+    "clubs": [
+      {
+        "activityLinks": 13,
+        "contacts": [
+          {
+            "href": "https://vk.com/pmk.druzhba",
+            "text": "ВКонтакте клуба ↗"
+          },
+          {
+            "href": "https://pmc-kalininsky.spb.ru/?page_id=1091",
+            "text": "Страница клуба ↗"
+          },
+          {
+            "href": "mailto:5564920@mail.ru",
+            "text": "5564920@mail.ru"
+          }
+        ],
+        "footer": "Сайт разработан\n\nВКонтакте ↗\nTelegram ↗\n\nПо вопросам и предложениям пишите в личные сообщения.",
+        "title": "Дружба",
+        "url": "https://young-russia.ru/clubs/kalininsky/druzhba.html"
+      },
+      {
+        "activityLinks": 6,
+        "contacts": [
+          {
+            "href": "https://vk.com/molspase",
+            "text": "ВКонтакте клуба ↗"
+          },
+          {
+            "href": "https://pmckir.ru/?page_id=1861",
+            "text": "Страница площадки ↗"
+          },
+          {
+            "href": "https://vk.com/pmc_kirovskiy",
+            "text": "ВКонтакте ПМЦ ↗"
+          },
+          {
+            "href": "mailto:pmz.kir@mail.ru",
+            "text": "pmz.kir@mail.ru"
+          }
+        ],
+        "footer": "Сайт разработан\n\nВКонтакте ↗\nTelegram ↗\n\nПо вопросам и предложениям пишите в личные сообщения.",
+        "title": "Молодёжный",
+        "url": "https://young-russia.ru/clubs/kirovsky/molodyozhnyy.html"
+      }
+    ]
+  },
+  "gitCommitCreated": false,
+  "gitPushPerformed": false
+}

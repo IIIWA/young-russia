@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-24",
+  "activeDirections": 5,
+  "closedDirections": 5,
+  "newIntervals": 15,
+  "boxingUnchanged": true,
+  "oldPrototypesPreserved": true,
+  "results": [
+    {
+      "activity": "Морская пехота",
+      "route": "activities/admiralteets-morskaya-pekhota.html",
+      "intervals": 5
+    },
+    {
+      "activity": "Настольный теннис",
+      "route": "activities/admiralteets-nastolnyy-tennis.html",
+      "intervals": 4
+    },
+    {
+      "activity": "Тренажёрный зал",
+      "route": "activities/admiralteets-trenazhernyy-zal.html",
+      "intervals": 6
+    }
+  ],
+  "ligovoProfiles": 18,
+  "raketaClosureNotice": true
+}

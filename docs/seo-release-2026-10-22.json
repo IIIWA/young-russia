@@ -1,0 +1,213 @@
+{
+  "date": "2026-10-22",
+  "release": "seo-20261022-mvjgr0ky",
+  "archive_sha256": "37ce0587bfe96633f8520c9ba7f6e0feaf1c8b5aa23276f2fb6c7e7d4116ff4f",
+  "backup": "/var/www/u3013321/data/backups/young-russia-before-seo-20261022-mvjgr0ky.tar.gz",
+  "backup_sha256": "aa7224abaf20a5e8b3dfe3a92b9c5cc913013b4998d8bca15854eac2a837ce84",
+  "previous": "/var/www/u3013321/data/www/.young-russia-prev-seo-20261022-mvjgr0ky",
+  "files": 3890,
+  "retained": [
+    "prototype"
+  ],
+  "hashMatches": [
+    {
+      "url": "https://young-russia.ru/",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/districts/vasileostrovsky.html",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/robots.txt",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/sitemap.xml",
+      "matches": true
+    }
+  ],
+  "results": [
+    {
+      "url": "https://young-russia.ru/",
+      "status": 200,
+      "location": null,
+      "sha256": "1981f0c994405cbc29cfa9dbcc888c248dfdddc7394eb56a95f1c866d56b2a7e",
+      "title": "Бесплатные кружки и секции в Санкт-Петербурге | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/",
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/BBOHe8XX.js"
+      ]
+    },
+    {
+      "url": "http://young-russia.ru/",
+      "status": 301,
+      "location": "https://young-russia.ru:443/",
+      "sha256": "9e17cb15dd75bbbd5dbb984eda674863c3b10ab72613cf8a39a00c3e11a8492a",
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://www.young-russia.ru/?utm_source=seo-release",
+      "status": 301,
+      "location": "https://young-russia.ru/?utm_source=seo-release",
+      "sha256": "7e1bce37bb319845625c92597278e6fed7ce7fcd1da91b72c69672dc58cd1033",
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://young-russia.ru/index.html?utm_source=seo-release",
+      "status": 301,
+      "location": "https://young-russia.ru/?utm_source=seo-release",
+      "sha256": "7e1bce37bb319845625c92597278e6fed7ce7fcd1da91b72c69672dc58cd1033",
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://young-russia.ru/seo-release-missing-20261022.html",
+      "status": 404,
+      "location": null,
+      "sha256": "0426464c224616a69c3e6755414391367a6f8f878c80a1f9bf311921147429db",
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/BBOHe8XX.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/404.html",
+      "status": 200,
+      "location": null,
+      "sha256": "0426464c224616a69c3e6755414391367a6f8f878c80a1f9bf311921147429db",
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/BBOHe8XX.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/200.html",
+      "status": 200,
+      "location": null,
+      "sha256": "7b4b6a49ab13fbf6ec7a455ec8070651a5e958ecd9aad94c5e70f17ff5464b65",
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/BBOHe8XX.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/districts/vasileostrovsky.html",
+      "status": 200,
+      "location": null,
+      "sha256": "24a681b2ee0bbbb9b86f1a022df84f679e43972b6ee7bff7d9093406e1b11434",
+      "title": "Клубы Василеостровского района, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/districts/vasileostrovsky.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BBOHe8XX.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "status": 200,
+      "location": null,
+      "sha256": "3fc36244ecafc7793edfc598f27fdaf729bfe7274b363bc9b35c0af83206a158",
+      "title": "Клуб юных моряков «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BBOHe8XX.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "status": 200,
+      "location": null,
+      "sha256": "1a12aa54758a66dfde714ebedbe947259fe3166fe8c5416a2943e741f4942476",
+      "title": "Бокс, КЮМ «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/BBOHe8XX.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/robots.txt",
+      "status": 200,
+      "location": null,
+      "sha256": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8"
+    },
+    {
+      "url": "https://young-russia.ru/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "sha256": "13d790a9e641184ece104af4499343a684ed4a68951b63b4b1efebdbf90bb86c"
+    },
+    {
+      "url": "https://young-russia.ru/prototype/",
+      "status": 200,
+      "location": null,
+      "sha256": "a3b1d51e4058e19eb778af33b41c09f060effa815840b863e694eecd763fcb9e",
+      "title": "Главная | Прототип ПМК Петербурга",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "assets/app.js",
+        "assets/comments.js"
+      ]
+    }
+  ],
+  "browser": {
+    "activityHeadAfterHydration": true,
+    "googleTagLoaded": true,
+    "consoleWarningsOrErrors": 0
+  },
+  "searchConsole": {
+    "submitted": "2026-10-22",
+    "lastRead": "2026-10-22",
+    "status": "Успешно",
+    "discoveredUrls": 1888
+  },
+  "pageSpeed": {
+    "status": "unavailable",
+    "http": 429
+  }
+}

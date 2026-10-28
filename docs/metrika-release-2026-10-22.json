@@ -1,0 +1,273 @@
+{
+  "date": "2026-10-22",
+  "verifiedAt": "2026-10-22T17:29:43.122Z",
+  "counter": 113739844,
+  "release": "metrika-20261022-mvjtbrjb",
+  "archiveSha256": "310caaa122ab8cbd04aaba3b80fef34c3746485ce1a8608718bad7a8b170e151",
+  "filesVerified": 3891,
+  "htmlPages": 1890,
+  "backup": "/var/www/u3013321/data/backups/young-russia-before-metrika-20261022-mvjtbrjb.tar.gz",
+  "backupSha256": "124b2e19d4701b660a6f5d2e2aabb31748ab587709a20d0632763daa373a41cc",
+  "previous": "/var/www/u3013321/data/www/.young-russia-prev-metrika-20261022-mvjtbrjb",
+  "retained": [
+    "prototype"
+  ],
+  "protected": {
+    "robots.txt": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8",
+    "sitemap.xml": "13d790a9e641184ece104af4499343a684ed4a68951b63b4b1efebdbf90bb86c",
+    ".htaccess": "1a85612ef6398f1528f6022a474fef2d17d987bc9f7ef654a5283537f9165840"
+  },
+  "hashMatches": [
+    {
+      "url": "https://young-russia.ru/",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/404.html",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/200.html",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/districts/vasileostrovsky.html",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/robots.txt",
+      "matches": true
+    },
+    {
+      "url": "https://young-russia.ru/sitemap.xml",
+      "matches": true
+    }
+  ],
+  "http": [
+    {
+      "url": "https://young-russia.ru/",
+      "status": 200,
+      "location": null,
+      "sha256": "85b719778b243132f2119a6e0ad904741902ec5773a9f8526656fb3331b2490f",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "catalog_button": true,
+      "title": "Бесплатные кружки и секции в Санкт-Петербурге | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/",
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/B450lDmy.js"
+      ]
+    },
+    {
+      "url": "http://young-russia.ru/",
+      "status": 301,
+      "location": "https://young-russia.ru:443/",
+      "sha256": "9e17cb15dd75bbbd5dbb984eda674863c3b10ab72613cf8a39a00c3e11a8492a",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "catalog_button": false,
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://www.young-russia.ru/?utm_source=seo-release",
+      "status": 301,
+      "location": "https://young-russia.ru/?utm_source=seo-release",
+      "sha256": "7e1bce37bb319845625c92597278e6fed7ce7fcd1da91b72c69672dc58cd1033",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "catalog_button": false,
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://young-russia.ru/index.html?utm_source=seo-release",
+      "status": 301,
+      "location": "https://young-russia.ru/?utm_source=seo-release",
+      "sha256": "7e1bce37bb319845625c92597278e6fed7ce7fcd1da91b72c69672dc58cd1033",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "catalog_button": false,
+      "title": "301 Moved Permanently",
+      "canonical": null,
+      "robots": [],
+      "breadcrumb_count": 0,
+      "scripts": []
+    },
+    {
+      "url": "https://young-russia.ru/seo-release-missing-20261022.html",
+      "status": 404,
+      "location": null,
+      "sha256": "72e32c7a7d21295731c5a52c7cda14673ca1d86b2cd491cdcaf9f67c71f76c1d",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/B450lDmy.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/404.html",
+      "status": 200,
+      "location": null,
+      "sha256": "72e32c7a7d21295731c5a52c7cda14673ca1d86b2cd491cdcaf9f67c71f76c1d",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/B450lDmy.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/200.html",
+      "status": 200,
+      "location": null,
+      "sha256": "9aa8c4d01feef9bfae6df0836f8ea7e001eef950d75a6f02a11a2449d26a41cd",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "catalog_button": false,
+      "title": "",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "/_nuxt/B450lDmy.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/districts/vasileostrovsky.html",
+      "status": 200,
+      "location": null,
+      "sha256": "d1f235126cc04a25afa41825638bf1063a668aa1ab9ab1e7558599e16270770e",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "catalog_button": true,
+      "title": "Клубы Василеостровского района, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/districts/vasileostrovsky.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/B450lDmy.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "status": 200,
+      "location": null,
+      "sha256": "64759d0cd1c34ce67e6d1dd67faaa0d5812b98a478bdcce733e5ecfcc44dcc0c",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "catalog_button": true,
+      "title": "Клуб юных моряков «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/B450lDmy.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "status": 200,
+      "location": null,
+      "sha256": "13cd73d4024a709a8cce083b0cfff7c275d598cedc29ca57db77011b799e11b3",
+      "metrika_count": 1,
+      "fallback_count": 1,
+      "catalog_button": true,
+      "title": "Бокс, КЮМ «Адмиралтеец», Адмиралтейский район, Санкт-Петербург | ПМК Петербурга",
+      "canonical": "https://young-russia.ru/activities/admiralteets-boks.html",
+      "robots": [],
+      "breadcrumb_count": 1,
+      "scripts": [
+        "/_nuxt/B450lDmy.js"
+      ]
+    },
+    {
+      "url": "https://young-russia.ru/robots.txt",
+      "status": 200,
+      "location": null,
+      "sha256": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8"
+    },
+    {
+      "url": "https://young-russia.ru/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "sha256": "13d790a9e641184ece104af4499343a684ed4a68951b63b4b1efebdbf90bb86c"
+    },
+    {
+      "url": "https://young-russia.ru/prototype/",
+      "status": 200,
+      "location": null,
+      "sha256": "a3b1d51e4058e19eb778af33b41c09f060effa815840b863e694eecd763fcb9e",
+      "metrika_count": 0,
+      "fallback_count": 0,
+      "catalog_button": false,
+      "title": "Главная | Прототип ПМК Петербурга",
+      "canonical": null,
+      "robots": [
+        "noindex,nofollow"
+      ],
+      "breadcrumb_count": 0,
+      "scripts": [
+        "assets/app.js",
+        "assets/comments.js"
+      ]
+    }
+  ],
+  "browser": [
+    {
+      "url": "https://young-russia.ru/?_ym_debug=2",
+      "pageView": "PageView. Counter 113739844. URL: https://young-russia.ru/?_ym_debug=2. Referrer: ",
+      "timestamp": "2026-10-22T17:27:18.517Z",
+      "bootstrapCount": 1,
+      "noscriptCount": 1
+    },
+    {
+      "url": "https://young-russia.ru/activities/admiralteets-boks.html?_ym_debug=2",
+      "pageView": "PageView. Counter 113739844. URL: https://young-russia.ru/activities/admiralteets-boks.html?_ym_debug=2. Referrer: ",
+      "timestamp": "2026-10-22T17:28:01.817Z",
+      "bootstrapCount": 1,
+      "bootstrapParent": "HEAD",
+      "loaderCount": 1,
+      "noscriptCount": 1
+    }
+  ],
+  "headerClick": {
+    "destination": "https://young-russia.ru/directions/index.html?topic=sport",
+    "heading": "Спорт и движение"
+  },
+  "screenshot": "../outputs/metrika-release-catalog-2026-10-22.png",
+  "accountReportsChecked": false,
+  "gitCommitCreated": false,
+  "gitPushPerformed": false
+}

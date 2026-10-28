@@ -1,12 +1,4403 @@
 [
-  {"type":"Подростково-молодёжный клуб","name":"Бриг","organization":"pmc","address":"г. Петергоф, ул. Разводная, д. 29А","phone":"246-20-88","activities":["Оздоровительная гимнастика","Рисование","Рукопашный бой","Фитнес","Творческая мастерская","Лазертаг"]},
-  {"type":"Молодёжное пространство","name":"М51","organization":"pmc","address":"г. Ломоносов, ул. Михайловская, д. 51","activities":["Интернет-маркетинг","Лазерный тир","Силовые тренировки","Кулинария","Фотография","Монтаж видео","Проектный офис"]},
-  {"type":"Подростково-молодёжный клуб","name":"Галс","organization":"pmc","address":"пос. Стрельна, Санкт-Петербургское ш., д. 69А","phone":"421-53-16","activities":["Морское дело"],"note":"Адрес совпадает с адресом клуба «Стрела» в городском документе. Место занятий уточни у центра."},
-  {"type":"Подростково-молодёжный клуб","name":"Меридиан","organization":"pmc","address":"г. Петергоф, ул. Чичеринская, д. 11, корп. 4","phone":"246-24-53","activities":["Атлетическая гимнастика","Танцы","Фитнес","Рисование","Разговорный английский","Медиастудия"]},
-  {"type":"Подростково-молодёжный клуб","name":"Навигатор","organization":"pmc","address":"г. Петергоф, ул. Парковая, д. 16","phone":"313-95-67","activities":["Атлетическая гимнастика","Настольный теннис","Шахматы","Рисование","Фотография","Актёрское мастерство"]},
-  {"type":"Подростково-молодёжный клуб","name":"Олимп","organization":"pmc","address":"г. Ломоносов, ул. Александровская, д. 38Б","activities":["Единоборства","Кикбоксинг","Дзюдо"]},
-  {"type":"Подростково-молодёжный клуб","name":"Стрела","organization":"pmc","address":"пос. Стрельна, Санкт-Петербургское ш., д. 69А","activities":["Тхэквондо","ОФП","Художественная гимнастика","Спортивные игры","Молодая семья"],"note":"В городском документе также указан ФОК «Газпром». Место конкретного занятия уточни у центра."},
-  {"type":"Подростково-молодёжный клуб","name":"Тайфун","organization":"pmc","address":"г. Петергоф, ул. Халтурина, д. 15, корп. 4","phone":"246-25-51","activities":["Единоборства","Спортивные игры","Самбо","Йога","Растяжка","Атлетическая гимнастика"]},
-  {"type":"Подростково-молодёжный клуб","name":"Экватор","organization":"pmc","address":"г. Петергоф, ул. Шахматова, д. 12, корп. 3","phone":"409-77-13","activities":["Настольные игры","Вязание","Фитнес","Танцы","Рисование","Разговорные иностранные языки"]},
-  {"type":"Подростково-молодёжный клуб","name":"Юнта","organization":"pmc","address":"г. Ломоносов, ул. Победы, д. 20, корп. 2","phone":"422-49-97","activities":["Вокал","Патриотический клуб","Добровольчество","Настольный теннис","Разговорный английский","Гитара"]}
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Бриг",
+    "organization": "pmc",
+    "address": "г. Петергоф, ул. Разводная, д. 29А",
+    "phone": "417-22-28, 246-20-88, +7 921 099-18-00",
+    "activities": [
+      "Оздоровительная гимнастика",
+      "Рисование",
+      "Рукопашный бой",
+      "Фитнес",
+      "Творческая мастерская",
+      "Лазертаг",
+      "Тхэквондо"
+    ],
+    "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+    "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+    "sourceCheckedAt": "2026-10-28",
+    "vkUrl": "https://vk.com/pmkbrig",
+    "contactSource": {
+      "url": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+      "checkedAt": "2026-10-28",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; доступность сообщества напрямую не проверялась."
+    },
+    "note": "Бесплатные направления для молодёжи: условия группы и наличие мест уточни у клуба. В расписаниях сохранены периоды источников и пояснения к спорным часам.",
+    "activitySchedule": [
+      {
+        "activity": "Рисование",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. В источнике семейная арт-студия и изостудия «Петродворцовая палитра» объединены одной строкой. Указано общее время, распределение по группам уточни у клуба.",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 1,
+          "quote": "Семейная арт-студия; изостудия «Петродворцовая палитра»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 7
+          }
+        ],
+        "schedule": [
+          {
+            "day": "четверг",
+            "time": "17:00-21:30"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-21:30"
+          },
+          {
+            "day": "суббота",
+            "time": "11:00-16:30"
+          },
+          {
+            "day": "воскресенье",
+            "time": "11:00-16:30"
+          }
+        ]
+      },
+      {
+        "activity": "Творческая мастерская",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 1,
+          "quote": "Творческая мастерская",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 9
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "18:30-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "18:30-21:30"
+          },
+          {
+            "day": "пятница",
+            "time": "19:30-21:30"
+          },
+          {
+            "day": "суббота",
+            "time": "12:30-14:30"
+          }
+        ]
+      },
+      {
+        "activity": "Рукопашный бой",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 1,
+          "quote": "Секция «Рукопашный бой»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 13
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "20:00-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Тхэквондо",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки не указан. У двух официальных страниц расходится начало занятий в «Бриге»: 17:00 на странице «Стрелы» и 16:30 на странице «Брига». Это варианты источников, а не подтверждённые разные группы. Уточни время до визита. Бесплатная секция тхэквондо указана в городском перечне для «Стрелы».",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция тхэквондо клуба «Стрела»; текущая страница «Стрелы» указывает место занятий «Бриг»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 15
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "16:30-19:30",
+            "group": "По странице «Бриг»"
+          },
+          {
+            "day": "четверг",
+            "time": "16:30-19:30",
+            "group": "По странице «Бриг»"
+          },
+          {
+            "day": "вторник",
+            "time": "17:00-19:30",
+            "room": "ПМК \"Бриг\"",
+            "group": "По странице «Стрела»"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-19:30",
+            "room": "ПМК \"Бриг\"",
+            "group": "По странице «Стрела»"
+          }
+        ],
+        "additionalSourceUrls": [
+          "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/"
+        ]
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Рисование",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Семейная арт-студия; изостудия «Петродворцовая палитра». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Творческая мастерская",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Творческая мастерская. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Рукопашный бой",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция «Рукопашный бой». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Тхэквондо",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция тхэквондо клуба «Стрела»; текущая страница «Стрелы» указывает место занятий «Бриг». Условия и набор конкретной группы уточни у клуба."
+      }
+    ],
+    "activityPages": [
+      {
+        "title": "Оздоровительная гимнастика",
+        "catalogActivity": "Оздоровительная гимнастика",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Рисование",
+        "catalogActivity": "Рисование",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Рукопашный бой",
+        "catalogActivity": "Рукопашный бой",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Фитнес",
+        "catalogActivity": "Фитнес",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Творческая мастерская",
+        "catalogActivity": "Творческая мастерская",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Лазертаг",
+        "catalogActivity": "Лазертаг",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Тхэквондо",
+        "catalogActivity": "Тхэквондо",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/",
+        "sourceCheckedAt": "2026-10-28"
+      }
+    ],
+    "officialAddress": "Санкт-Петербург, г. Петергоф, ул. Разводная, дом 29, лит. А",
+    "addressNote": "В официальной карточке: Санкт-Петербург, г. Петергоф, ул. Разводная, дом 29, лит. А."
+  },
+  {
+    "type": "Молодёжное пространство",
+    "name": "М51",
+    "organization": "pmc",
+    "address": "г. Ломоносов, ул. Михайловская, д. 51",
+    "activities": [
+      "Интернет-маркетинг",
+      "Лазерный тир",
+      "Силовые тренировки",
+      "Кулинария",
+      "Фотография",
+      "Монтаж видео",
+      "Проектный офис",
+      "Семейная академия",
+      "Коворкинг «Твоё рабочее место»",
+      "Силовые тренировки и лазерный тир",
+      "Аэробно-силовые тренировки, гимнастика для беременных и «Мама+ребёнок»",
+      "Аэройога",
+      "Современные танцы",
+      "Тренинговые занятия",
+      "Медиа-школа",
+      "Театральная студия",
+      "Вокальная студия",
+      "Семейный клуб",
+      "Творческая мастерская",
+      "Игротехника",
+      "3D-моделирование"
+    ],
+    "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+    "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+    "sourceCheckedAt": "2026-10-28",
+    "vkUrl": "https://vk.com/molodezm51",
+    "phone": "417-22-28, +7 981 688-37-34",
+    "email": "club.m51@mail.ru",
+    "contactSource": {
+      "url": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+      "checkedAt": "2026-10-28",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; доступность сообщества напрямую не проверялась."
+    },
+    "note": "Бесплатные направления для молодёжи: условия группы и наличие мест уточни у клуба. В расписаниях сохранены периоды источников и пояснения к спорным часам.",
+    "activitySchedule": [
+      {
+        "activity": "Семейная академия",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 5
+          }
+        ],
+        "schedule": [
+          {
+            "day": "четверг",
+            "time": "12:00-15:00"
+          }
+        ]
+      },
+      {
+        "activity": "Коворкинг «Твоё рабочее место»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 6
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-18:00"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-18:00"
+          },
+          {
+            "day": "среда",
+            "time": "15:00-18:00"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-19:00"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-19:00"
+          }
+        ]
+      },
+      {
+        "activity": "Силовые тренировки и лазерный тир",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. В источнике силовые тренировки и лазерный тир объединены одной строкой. Указано общее время; распределение между направлениями уточни в клубе. Во вторник и четверг указан Объединённый кадетский корпус на Петергофской, 17, литера П.",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 7
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "13:00-18:30"
+          },
+          {
+            "day": "вторник",
+            "time": "16:00-20:45",
+            "room": "«Объединенный кадетский корпус», г. Петергоф, ул. Петергофская, д.17, лит. П"
+          },
+          {
+            "day": "среда",
+            "time": "12:00-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-18:45",
+            "room": "«Объединенный кадетский корпус», г. Петергоф, ул. Петергофская, д.17, лит. П"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-18:45"
+          },
+          {
+            "day": "суббота",
+            "time": "12:30-14:15"
+          }
+        ]
+      },
+      {
+        "activity": "Силовые тренировки",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 8
+          },
+          {
+            "table": 3,
+            "row": 9
+          },
+          {
+            "table": 3,
+            "row": 10
+          }
+        ],
+        "schedule": [
+          {
+            "day": "пятница",
+            "time": "19:00-20:45"
+          },
+          {
+            "day": "суббота",
+            "time": "14:00-16:45"
+          },
+          {
+            "day": "воскресенье",
+            "time": "16:00-20:45"
+          },
+          {
+            "day": "понедельник",
+            "time": "19:00-20:45"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-20:45"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-20:45"
+          },
+          {
+            "day": "понедельник",
+            "time": "10:00-14:45"
+          },
+          {
+            "day": "вторник",
+            "time": "11:00-15:15"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-19:45"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "10:00-14:30"
+          }
+        ]
+      },
+      {
+        "activity": "Аэробно-силовые тренировки, гимнастика для беременных и «Мама+ребёнок»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. В одной строке также перечислены силовые тренировки. Это общий интервал нескольких направлений; время и условия конкретной группы для молодых семей уточни у клуба.",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 11
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:30-18:00"
+          },
+          {
+            "day": "вторник",
+            "time": "10:15-11:45"
+          },
+          {
+            "day": "среда",
+            "time": "17:00-19:30"
+          },
+          {
+            "day": "четверг",
+            "time": "10:15-16:30"
+          },
+          {
+            "day": "пятница",
+            "time": "13:00-20:30"
+          }
+        ]
+      },
+      {
+        "activity": "Аэройога",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 12
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "19:00-20:30"
+          },
+          {
+            "day": "вторник",
+            "time": "18:00-21:30"
+          },
+          {
+            "day": "среда",
+            "time": "13:00-16:30"
+          }
+        ]
+      },
+      {
+        "activity": "Современные танцы",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 13
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-18:45"
+          },
+          {
+            "day": "вторник",
+            "time": "15:30-17:15"
+          },
+          {
+            "day": "суббота",
+            "time": "11:00-12:45"
+          }
+        ]
+      },
+      {
+        "activity": "Тренинговые занятия",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 14
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:45-21:15"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-20:45"
+          }
+        ]
+      },
+      {
+        "activity": "Медиа-школа",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 15
+          },
+          {
+            "table": 3,
+            "row": 24
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "14:15-17:30"
+          },
+          {
+            "day": "вторник",
+            "time": "17:15-20:30"
+          },
+          {
+            "day": "среда",
+            "time": "17:15-20:30"
+          },
+          {
+            "day": "четверг",
+            "time": "17:15-20:30"
+          },
+          {
+            "day": "пятница",
+            "time": "15:15-19:00"
+          },
+          {
+            "day": "понедельник",
+            "time": "16:15-19:30"
+          },
+          {
+            "day": "вторник",
+            "time": "13:00-16:30"
+          },
+          {
+            "day": "среда",
+            "time": "12:00-16:45"
+          },
+          {
+            "day": "четверг",
+            "time": "11:00-16:00"
+          },
+          {
+            "day": "пятница",
+            "time": "12:00-13:45"
+          }
+        ]
+      },
+      {
+        "activity": "Театральная студия",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 16
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:15-20:45"
+          },
+          {
+            "day": "среда",
+            "time": "17:15-20:45"
+          },
+          {
+            "day": "воскресенье",
+            "time": "18:00-19:45"
+          }
+        ]
+      },
+      {
+        "activity": "Вокальная студия",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. На сайте опубликованы два варианта одной вокальной студии. Это не подтверждённые отдельные группы: воскресенье 15:15-17:45 и 12:15-17:30 расходится, среда повторяется; пятница есть во втором варианте. До визита уточни действующий вариант.",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 17
+          },
+          {
+            "table": 3,
+            "row": 25
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "15:15-17:00",
+            "group": "Вариант 1 на сайте"
+          },
+          {
+            "day": "воскресенье",
+            "time": "15:15-17:45",
+            "group": "Вариант 1 на сайте"
+          },
+          {
+            "day": "среда",
+            "time": "15:15-17:00",
+            "group": "Вариант 2 на сайте"
+          },
+          {
+            "day": "пятница",
+            "time": "19:15-21:00",
+            "group": "Вариант 2 на сайте"
+          },
+          {
+            "day": "воскресенье",
+            "time": "12:15-17:30",
+            "group": "Вариант 2 на сайте"
+          }
+        ]
+      },
+      {
+        "activity": "Семейный клуб",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 18
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:15-20:00"
+          },
+          {
+            "day": "четверг",
+            "time": "10:15-12:45"
+          }
+        ]
+      },
+      {
+        "activity": "Творческая мастерская",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 19
+          },
+          {
+            "table": 3,
+            "row": 20
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "10:15-17:00"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-18:45"
+          },
+          {
+            "day": "среда",
+            "time": "14:00-20:30"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-15:45"
+          },
+          {
+            "day": "пятница",
+            "time": "20:15-21:00"
+          },
+          {
+            "day": "понедельник",
+            "time": "18:00-19:45"
+          },
+          {
+            "day": "вторник",
+            "time": "18:00-20:45"
+          },
+          {
+            "day": "суббота",
+            "time": "10:00-14:15"
+          }
+        ]
+      },
+      {
+        "activity": "Игротехника",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. Разовое объявление: занятие 28 октября 15:30-16:30 перенесено на 29 октября 18:30-19:30, приказ от 26.10.2026 №237м. В регулярной среде указано 15:30-16:15, поэтому продолжительность также требует уточнения.",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 21
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:30-18:45"
+          },
+          {
+            "day": "вторник",
+            "time": "15:30-16:15"
+          },
+          {
+            "day": "среда",
+            "time": "15:30-16:15"
+          }
+        ]
+      },
+      {
+        "activity": "Интернет-маркетинг",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 22
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "14:00-17:30"
+          },
+          {
+            "day": "четверг",
+            "time": "18:30-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "14:00-17:00"
+          }
+        ]
+      },
+      {
+        "activity": "Кулинария",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 23
+          }
+        ],
+        "schedule": [
+          {
+            "day": "суббота",
+            "time": "10:15-14:30"
+          }
+        ]
+      },
+      {
+        "activity": "3D-моделирование",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на явном предложении клуба для молодёжи 14-35 лет. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+          "quote": "Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.",
+          "scope": "Бесплатные занятия для молодёжи 14–35 лет; условия конкретной семейной группы уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 26
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "19:15-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "15:00-17:45"
+          }
+        ]
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Семейная академия",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Коворкинг «Твоё рабочее место»",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Силовые тренировки и лазерный тир",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Силовые тренировки",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Аэробно-силовые тренировки, гимнастика для беременных и «Мама+ребёнок»",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Аэройога",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Современные танцы",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Тренинговые занятия",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Медиа-школа",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Театральная студия",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Вокальная студия",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Семейный клуб",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Творческая мастерская",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Игротехника",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Интернет-маркетинг",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Кулинария",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "3D-моделирование",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб «М-51» — это бесплатный клуб для молодежи от 14 до 35 лет.. Условия и набор конкретной группы уточни у клуба."
+      }
+    ],
+    "activityPages": [
+      {
+        "title": "Интернет-маркетинг",
+        "catalogActivity": "Интернет-маркетинг",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Лазерный тир",
+        "catalogActivity": "Лазерный тир",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Силовые тренировки",
+        "catalogActivity": "Силовые тренировки",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Кулинария",
+        "catalogActivity": "Кулинария",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Фотография",
+        "catalogActivity": "Фотография",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Монтаж видео",
+        "catalogActivity": "Монтаж видео",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Проектный офис",
+        "catalogActivity": "Проектный офис",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Семейная академия",
+        "catalogActivity": "Семейная академия",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Коворкинг «Твоё рабочее место»",
+        "catalogActivity": "Коворкинг «Твоё рабочее место»",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Силовые тренировки и лазерный тир",
+        "catalogActivity": "Силовые тренировки и лазерный тир",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Аэробно-силовые тренировки, гимнастика для беременных и «Мама+ребёнок»",
+        "catalogActivity": "Аэробно-силовые тренировки, гимнастика для беременных и «Мама+ребёнок»",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Аэройога",
+        "catalogActivity": "Аэройога",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Современные танцы",
+        "catalogActivity": "Современные танцы",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Тренинговые занятия",
+        "catalogActivity": "Тренинговые занятия",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Медиа-школа",
+        "catalogActivity": "Медиа-школа",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Театральная студия",
+        "catalogActivity": "Театральная студия",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Вокальная студия",
+        "catalogActivity": "Вокальная студия",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Семейный клуб",
+        "catalogActivity": "Семейный клуб",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Творческая мастерская",
+        "catalogActivity": "Творческая мастерская",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Игротехника",
+        "catalogActivity": "Игротехника",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "3D-моделирование",
+        "catalogActivity": "3D-моделирование",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-m-51/",
+        "sourceCheckedAt": "2026-10-28"
+      }
+    ],
+    "officialAddress": "Санкт-Петербург, г. Ломоносов, ул. Михайловская д. 51, строение 1",
+    "addressNote": "В официальной карточке: Санкт-Петербург, г. Ломоносов, ул. Михайловская д. 51, строение 1."
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Галс",
+    "organization": "pmc",
+    "address": "пос. Стрельна, Санкт-Петербургское ш., д. 69А",
+    "phone": "417-22-28, +7 921 568-84-09",
+    "activities": [
+      "Морское дело"
+    ],
+    "note": "Бесплатные направления для молодёжи: условия группы и наличие мест уточни у клуба. В расписаниях сохранены периоды источников и пояснения к спорным часам.",
+    "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-gals/",
+    "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-gals/",
+    "sourceCheckedAt": "2026-10-28",
+    "vkUrl": "https://vk.com/pmk_gals",
+    "contactSource": {
+      "url": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-gals/",
+      "checkedAt": "2026-10-28",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; доступность сообщества напрямую не проверялась."
+    },
+    "activitySchedule": [
+      {
+        "activity": "Морское дело",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-gals/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 1,
+          "quote": "Морское дело",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 6
+          },
+          {
+            "table": 3,
+            "row": 7
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "19:10-21:00",
+            "room": "Площадку уточни у клуба: Санкт-Петербургское шоссе, 69; Сидоровский канал; МТА им. Д.Н. Сенявина"
+          },
+          {
+            "day": "среда",
+            "time": "18:30-20:20",
+            "room": "Площадку уточни у клуба: Санкт-Петербургское шоссе, 69; Сидоровский канал; МТА им. Д.Н. Сенявина"
+          },
+          {
+            "day": "пятница",
+            "time": "18:30-21:15",
+            "room": "Площадку уточни у клуба: Санкт-Петербургское шоссе, 69; Сидоровский канал; МТА им. Д.Н. Сенявина"
+          },
+          {
+            "day": "суббота",
+            "time": "16:20-19:15",
+            "room": "Площадку уточни у клуба: Санкт-Петербургское шоссе, 69; Сидоровский канал; МТА им. Д.Н. Сенявина"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-20:30",
+            "room": "г. Ломоносов, Сидоровский канал г. Ломоносов , Галерный переулок, д.12"
+          },
+          {
+            "day": "воскресенье",
+            "time": "12:00-17:25",
+            "room": "г. Ломоносов, Сидоровский канал г. Ломоносов , Галерный переулок, д.12"
+          }
+        ]
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Морское дело",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Морское дело. Условия и набор конкретной группы уточни у клуба."
+      }
+    ],
+    "activityPages": [
+      {
+        "title": "Морское дело",
+        "catalogActivity": "Морское дело",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-gals/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-gals/",
+        "sourceCheckedAt": "2026-10-28"
+      }
+    ],
+    "officialAddress": "Санкт-Петербург, п. Стрельна, Санкт-Петербургское шоссе, дом 69, лит. А",
+    "addressNote": "В официальной карточке: Санкт-Петербург, п. Стрельна, Санкт-Петербургское шоссе, дом 69, лит. А."
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Меридиан",
+    "organization": "pmc",
+    "address": "г. Петергоф, ул. Чичеринская, д. 11, корп. 4",
+    "phone": "246–24–53",
+    "activities": [
+      "Атлетическая гимнастика",
+      "Танцы",
+      "Фитнес",
+      "Рисование",
+      "Разговорный английский",
+      "Медиастудия",
+      "Настольные спортивные игры и теннис",
+      "Студия моды",
+      "Творческая мастерская"
+    ],
+    "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+    "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+    "sourceCheckedAt": "2026-10-28",
+    "vkUrl": "https://vk.com/club12301866",
+    "contactSource": {
+      "url": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+      "checkedAt": "2026-10-28",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; доступность сообщества напрямую не проверялась."
+    },
+    "note": "Бесплатные направления для молодёжи: условия группы и наличие мест уточни у клуба. В расписаниях сохранены периоды источников и пояснения к спорным часам.",
+    "activitySchedule": [
+      {
+        "activity": "Фитнес",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция фитнеса",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 7
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "19:30-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "19:30-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "18:30-19:15"
+          }
+        ]
+      },
+      {
+        "activity": "Танцы",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция спортивных бальных танцев",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 9
+          },
+          {
+            "table": 3,
+            "row": 21
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "14:30-19:00"
+          },
+          {
+            "day": "вторник",
+            "time": "14:00-21:00"
+          },
+          {
+            "day": "среда",
+            "time": "14:30-19:00"
+          },
+          {
+            "day": "четверг",
+            "time": "14:30-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "13:30-18:00"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-21:45",
+            "room": "Школа № 529 ВМПИ"
+          },
+          {
+            "day": "среда",
+            "time": "16:00-20:45",
+            "room": "Школа № 529"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-21:30",
+            "room": "Школа № 529 ВМПИ"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-20:45",
+            "room": "Школа № 529"
+          }
+        ]
+      },
+      {
+        "activity": "Атлетическая гимнастика",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция атлетической гимнастики",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 10
+          },
+          {
+            "table": 3,
+            "row": 11
+          },
+          {
+            "table": 3,
+            "row": 13
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "15:00-21:45"
+          },
+          {
+            "day": "среда",
+            "time": "14:30-19:15"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-21:45"
+          },
+          {
+            "day": "пятница",
+            "time": "14:30-18:00"
+          },
+          {
+            "day": "суббота",
+            "time": "14:00-20:45"
+          },
+          {
+            "day": "понедельник",
+            "time": "16:00-20:45"
+          },
+          {
+            "day": "среда",
+            "time": "16:00-20:45"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-20:45"
+          },
+          {
+            "day": "понедельник",
+            "time": "14:00-15:45"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-19:45"
+          },
+          {
+            "day": "суббота",
+            "time": "10:00-12:45"
+          },
+          {
+            "day": "воскресенье",
+            "time": "10:00-14:45"
+          }
+        ]
+      },
+      {
+        "activity": "Настольные спортивные игры и теннис",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. В свежей сетке среда 14:30-20:15; четверг 14:30-17:00 в МК «Меридиан» и 17:20-20:15 в Кадетском корпусе Следственного Комитета. В более раннем снимке выезд был указан в среду.",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция настольных спортивных игр",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 14
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "14:30-20:15"
+          },
+          {
+            "day": "вторник",
+            "time": "14:30-20:15"
+          },
+          {
+            "day": "среда",
+            "time": "14:30-20:15"
+          },
+          {
+            "day": "четверг",
+            "time": "14:30-17:00",
+            "room": "МК \"Меридиан\""
+          },
+          {
+            "day": "четверг",
+            "time": "17:20-20:15",
+            "room": "Кадетский корпус Следственного Комитета"
+          },
+          {
+            "day": "пятница",
+            "time": "14:30-20:15"
+          }
+        ]
+      },
+      {
+        "activity": "Студия моды",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Студия стиля, моды и красоты",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 17
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "09:30-16:00"
+          },
+          {
+            "day": "среда",
+            "time": "14:00-20:45"
+          },
+          {
+            "day": "четверг",
+            "time": "14:00-20:30"
+          },
+          {
+            "day": "пятница",
+            "time": "10:00-13:30"
+          },
+          {
+            "day": "суббота",
+            "time": "11:30-16:15"
+          }
+        ]
+      },
+      {
+        "activity": "Творческая мастерская",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Творческая мастерская",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 18
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "17:30-20:15"
+          },
+          {
+            "day": "вторник",
+            "time": "16:00-20:45"
+          },
+          {
+            "day": "пятница",
+            "time": "16:30-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Рисование",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Изостудия",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 19
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "16:30-20:15"
+          },
+          {
+            "day": "среда",
+            "time": "16:30-20:15"
+          },
+          {
+            "day": "четверг",
+            "time": "17:30-20:15"
+          },
+          {
+            "day": "пятница",
+            "time": "16:30-20:15"
+          }
+        ]
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Фитнес",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция фитнеса. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Танцы",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция спортивных бальных танцев. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Атлетическая гимнастика",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция атлетической гимнастики. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Настольные спортивные игры и теннис",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция настольных спортивных игр. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Студия моды",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Студия стиля, моды и красоты. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Творческая мастерская",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Творческая мастерская. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Рисование",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Изостудия. Условия и набор конкретной группы уточни у клуба."
+      }
+    ],
+    "activityPages": [
+      {
+        "title": "Атлетическая гимнастика",
+        "catalogActivity": "Атлетическая гимнастика",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Танцы",
+        "catalogActivity": "Танцы",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Фитнес",
+        "catalogActivity": "Фитнес",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Рисование",
+        "catalogActivity": "Рисование",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Разговорный английский",
+        "catalogActivity": "Разговорный английский",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Медиастудия",
+        "catalogActivity": "Медиастудия",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Настольные спортивные игры и теннис",
+        "catalogActivity": "Настольные спортивные игры и теннис",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Студия моды",
+        "catalogActivity": "Студия моды",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Творческая мастерская",
+        "catalogActivity": "Творческая мастерская",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-meridian/",
+        "sourceCheckedAt": "2026-10-28"
+      }
+    ],
+    "officialAddress": "г. Петергоф, ул. Чичеринская, дом 11, корп. 4, лит. А",
+    "addressNote": "В официальной карточке: г. Петергоф, ул. Чичеринская, дом 11, корп. 4, лит. А."
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Навигатор",
+    "organization": "pmc",
+    "address": "г. Петергоф, ул. Парковая, д. 16",
+    "phone": "313-95-67, 8-964-360-24-34",
+    "activities": [
+      "Атлетическая гимнастика",
+      "Настольный теннис",
+      "Шахматы",
+      "Рисование",
+      "Фотография",
+      "Актёрское мастерство",
+      "Студия парикмахерского искусства «Астрейна»",
+      "Творческое объединение «Бал культур»",
+      "ОФП «СПОРТиЯ»",
+      "Мечевой бой",
+      "Театр танца «Гравитация»"
+    ],
+    "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+    "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+    "sourceCheckedAt": "2026-10-28",
+    "vkUrl": "https://vk.com/pmcnavigator",
+    "contactSource": {
+      "url": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+      "checkedAt": "2026-10-28",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; доступность сообщества напрямую не проверялась."
+    },
+    "note": "Бесплатные направления для молодёжи: условия группы и наличие мест уточни у клуба. В расписаниях сохранены периоды источников и пояснения к спорным часам.",
+    "activitySchedule": [
+      {
+        "activity": "Студия парикмахерского искусства «Астрейна»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Студия парикмахерского искусства «Астрейна»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 5
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "20:00-21:45"
+          },
+          {
+            "day": "вторник",
+            "time": "20:00-21:45"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-20:45"
+          }
+        ]
+      },
+      {
+        "activity": "Рисование",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Студия рисования «Рисуй со мной»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 6
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-19:30"
+          },
+          {
+            "day": "вторник",
+            "time": "13:00-16:30"
+          },
+          {
+            "day": "среда",
+            "time": "15:00-18:30"
+          },
+          {
+            "day": "четверг",
+            "time": "13:00-16:45"
+          },
+          {
+            "day": "пятница",
+            "time": "13:00-16:30"
+          }
+        ]
+      },
+      {
+        "activity": "Творческое объединение «Бал культур»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Творческое объединение «Бал культур»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 8
+          },
+          {
+            "table": 3,
+            "row": 14
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "15:00-18:45"
+          },
+          {
+            "day": "среда",
+            "time": "14:30-16:30",
+            "room": "МК \"Навигатор\""
+          },
+          {
+            "day": "среда",
+            "time": "17:20-20:20",
+            "room": "Кадетский корпус Следственного Комитета"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-18:45",
+            "room": "Занятия в школе №411"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-18:00",
+            "room": "Занятия в школе №411"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-17:00",
+            "room": "Занятия в школе №411"
+          }
+        ]
+      },
+      {
+        "activity": "ОФП «СПОРТиЯ»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция ОФП «СПОРТиЯ»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 9
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "10:00-11:45"
+          },
+          {
+            "day": "четверг",
+            "time": "10:00-11:45"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-18:45"
+          }
+        ]
+      },
+      {
+        "activity": "Атлетическая гимнастика",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция «Атлетическая гимнастика»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 10
+          },
+          {
+            "table": 3,
+            "row": 18
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "19:15-21:50"
+          },
+          {
+            "day": "четверг",
+            "time": "19:15-21:50"
+          },
+          {
+            "day": "суббота",
+            "time": "12:00-15:45"
+          },
+          {
+            "day": "понедельник",
+            "time": "14:30-21:30"
+          },
+          {
+            "day": "вторник",
+            "time": "17:15-18:45"
+          },
+          {
+            "day": "среда",
+            "time": "14:30-21:30"
+          },
+          {
+            "day": "четверг",
+            "time": "17:15-18:45"
+          },
+          {
+            "day": "пятница",
+            "time": "14:30-21:45"
+          }
+        ]
+      },
+      {
+        "activity": "Актёрское мастерство",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Студия актерского мастерства и интеллектуальных игр «ТЕАТРиУМ»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 11
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "20:00-21:45"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-21:45"
+          },
+          {
+            "day": "суббота",
+            "time": "18:00-21:45"
+          }
+        ]
+      },
+      {
+        "activity": "Мечевой бой",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Мечевой бой",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 12
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "16:30-22:00"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-21:45"
+          },
+          {
+            "day": "пятница",
+            "time": "16:30-22:00"
+          },
+          {
+            "day": "суббота",
+            "time": "10:30-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Театр танца «Гравитация»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Театр танца «Гравитация»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 13
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "12:00-14:00"
+          },
+          {
+            "day": "понедельник",
+            "time": "17:00-22:00"
+          },
+          {
+            "day": "вторник",
+            "time": "12:00-15:00"
+          },
+          {
+            "day": "среда",
+            "time": "12:00-14:00"
+          },
+          {
+            "day": "среда",
+            "time": "17:00-22:00"
+          },
+          {
+            "day": "четверг",
+            "time": "12:00-16:00"
+          },
+          {
+            "day": "пятница",
+            "time": "12:00-15:00"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-22:00"
+          }
+        ]
+      },
+      {
+        "activity": "Шахматы",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Шахматный клуб «Игры разума»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 15
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-21:30"
+          },
+          {
+            "day": "среда",
+            "time": "18:00-19:45"
+          },
+          {
+            "day": "четверг",
+            "time": "18:00-21:30"
+          }
+        ]
+      },
+      {
+        "activity": "Настольный теннис",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция «Настольный теннис»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 16
+          },
+          {
+            "table": 3,
+            "row": 17
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "18:00-21:30"
+          },
+          {
+            "day": "среда",
+            "time": "20:00-21:45"
+          },
+          {
+            "day": "пятница",
+            "time": "18:00-21:30"
+          },
+          {
+            "day": "вторник",
+            "time": "15:15-16:45"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-21:45"
+          }
+        ]
+      },
+      {
+        "activity": "Фотография",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Фотостудия",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 20
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-19:45"
+          },
+          {
+            "day": "вторник",
+            "time": "16:00-20:45"
+          },
+          {
+            "day": "среда",
+            "time": "10:00-12:45"
+          },
+          {
+            "day": "четверг",
+            "time": "16:00-20:45"
+          },
+          {
+            "day": "пятница",
+            "time": "10:00-12:45"
+          }
+        ]
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Студия парикмахерского искусства «Астрейна»",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Студия парикмахерского искусства «Астрейна». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Рисование",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Студия рисования «Рисуй со мной». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Творческое объединение «Бал культур»",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Творческое объединение «Бал культур». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "ОФП «СПОРТиЯ»",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция ОФП «СПОРТиЯ». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Атлетическая гимнастика",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция «Атлетическая гимнастика». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Актёрское мастерство",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Студия актерского мастерства и интеллектуальных игр «ТЕАТРиУМ». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Мечевой бой",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Мечевой бой. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Театр танца «Гравитация»",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Театр танца «Гравитация». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Шахматы",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Шахматный клуб «Игры разума». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Настольный теннис",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция «Настольный теннис». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Фотография",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Фотостудия. Условия и набор конкретной группы уточни у клуба."
+      }
+    ],
+    "activityPages": [
+      {
+        "title": "Атлетическая гимнастика",
+        "catalogActivity": "Атлетическая гимнастика",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Настольный теннис",
+        "catalogActivity": "Настольный теннис",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Шахматы",
+        "catalogActivity": "Шахматы",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Рисование",
+        "catalogActivity": "Рисование",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Фотография",
+        "catalogActivity": "Фотография",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Актёрское мастерство",
+        "catalogActivity": "Актёрское мастерство",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Студия парикмахерского искусства «Астрейна»",
+        "catalogActivity": "Студия парикмахерского искусства «Астрейна»",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Творческое объединение «Бал культур»",
+        "catalogActivity": "Творческое объединение «Бал культур»",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "ОФП «СПОРТиЯ»",
+        "catalogActivity": "ОФП «СПОРТиЯ»",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Мечевой бой",
+        "catalogActivity": "Мечевой бой",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Театр танца «Гравитация»",
+        "catalogActivity": "Театр танца «Гравитация»",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodjozhnyj-klub-navigator/",
+        "sourceCheckedAt": "2026-10-28"
+      }
+    ],
+    "officialAddress": "г. Петергоф, ул. Парковая, д. 16, лит. А",
+    "addressNote": "В официальной карточке: г. Петергоф, ул. Парковая, д. 16, лит. А."
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Олимп",
+    "organization": "pmc",
+    "address": "г. Ломоносов, ул. Александровская, д. 38Б",
+    "activities": [
+      "Единоборства",
+      "Кикбоксинг",
+      "Дзюдо"
+    ],
+    "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-olimp/",
+    "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-olimp/",
+    "sourceCheckedAt": "2026-10-28",
+    "vkUrl": "https://vk.com/pmc_olymp",
+    "phone": "246-29-54, 8-906-229-32-34",
+    "contactSource": {
+      "url": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-olimp/",
+      "checkedAt": "2026-10-28",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; доступность сообщества напрямую не проверялась."
+    },
+    "note": "Бесплатные направления для молодёжи: условия группы и наличие мест уточни у клуба. В расписаниях сохранены периоды источников и пояснения к спорным часам.",
+    "activitySchedule": [
+      {
+        "activity": "Кикбоксинг",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-olimp/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция «Кикбоксинг»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 10
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-19:00"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-19:00"
+          },
+          {
+            "day": "четверг",
+            "time": "14:30-22:00"
+          },
+          {
+            "day": "суббота",
+            "time": "17:00-22:00"
+          }
+        ]
+      },
+      {
+        "activity": "Дзюдо",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-olimp/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. В пятничной ячейке сайта написано «18:00:22:00». Часы пятницы требуют уточнения и не показаны как достоверный интервал. Понедельник и среда сохранены по таблице.",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция «Дзюдо»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 11
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "19:00-22:00"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-22:00"
+          }
+        ]
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Кикбоксинг",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция «Кикбоксинг». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Дзюдо",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция «Дзюдо». Условия и набор конкретной группы уточни у клуба."
+      }
+    ],
+    "activityPages": [
+      {
+        "title": "Единоборства",
+        "catalogActivity": "Единоборства",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-olimp/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-olimp/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Кикбоксинг",
+        "catalogActivity": "Кикбоксинг",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-olimp/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-olimp/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Дзюдо",
+        "catalogActivity": "Дзюдо",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-olimp/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-olimp/",
+        "sourceCheckedAt": "2026-10-28"
+      }
+    ],
+    "officialAddress": "г. Ломоносов, ул. Александровская, д. 38б, лит. А",
+    "addressNote": "В официальной карточке: г. Ломоносов, ул. Александровская, д. 38б, лит. А."
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Стрела",
+    "organization": "pmc",
+    "address": "пос. Стрельна, Санкт-Петербургское ш., д. 69А",
+    "activities": [
+      "Тхэквондо",
+      "ОФП",
+      "Художественная гимнастика",
+      "Спортивные игры",
+      "Молодая семья"
+    ],
+    "note": "Бесплатные направления для молодёжи: условия группы и наличие мест уточни у клуба. В расписаниях сохранены периоды источников и пояснения к спорным часам.",
+    "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+    "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+    "sourceCheckedAt": "2026-10-28",
+    "vkUrl": "https://vk.com/club140799695",
+    "phone": "246-24-52, 8-964-360-24-68",
+    "contactSource": {
+      "url": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+      "checkedAt": "2026-10-28",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; доступность сообщества напрямую не проверялась."
+    },
+    "activitySchedule": [
+      {
+        "activity": "Тхэквондо",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки не указан. У двух официальных страниц расходится начало занятий в «Бриге»: 17:00 на странице «Стрелы» и 16:30 на странице «Брига». Это варианты источников, а не подтверждённые разные группы. Уточни время до визита. Бесплатная секция тхэквондо указана в городском перечне для «Стрелы».",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция тхэквондо",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 6
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:00-19:30",
+            "room": "ПМК \"Бриг\"",
+            "group": "По странице «Стрела»"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-19:30",
+            "room": "ПМК \"Бриг\"",
+            "group": "По странице «Стрела»"
+          },
+          {
+            "day": "суббота",
+            "time": "10:15-13:30",
+            "room": "ПМК \"Стрела\"",
+            "group": "По странице «Стрела»"
+          },
+          {
+            "day": "вторник",
+            "time": "16:30-19:30",
+            "group": "По странице «Бриг»"
+          },
+          {
+            "day": "четверг",
+            "time": "16:30-19:30",
+            "group": "По странице «Бриг»"
+          }
+        ],
+        "additionalSourceUrls": [
+          "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-brig/"
+        ]
+      },
+      {
+        "activity": "ОФП",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция ОФП с элементами атлетической гимнастики",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 7
+          },
+          {
+            "table": 3,
+            "row": 8
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-20:45"
+          },
+          {
+            "day": "вторник",
+            "time": "17:00-18:45"
+          },
+          {
+            "day": "среда",
+            "time": "16:00-20:45"
+          },
+          {
+            "day": "четверг",
+            "time": "16:00-18:45"
+          },
+          {
+            "day": "пятница",
+            "time": "16:00-20:45"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-20:45"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-21:45"
+          }
+        ]
+      },
+      {
+        "activity": "Художественная гимнастика",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. В одной строке сайта указана также творческая мастерская молодой семьи с элементами художественной гимнастики. Распределение общего времени между группами не подписано; уточни свою группу. Места проведения указаны под временем.",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция художественной гимнастики; молодая семья (творческая мастерская с элементами художественной гимнастики)",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 9
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-19:50",
+            "room": "ГБОУ СОШ 411"
+          },
+          {
+            "day": "вторник",
+            "time": "16:15-22:00",
+            "room": "ГБОУ СОШ 411"
+          },
+          {
+            "day": "четверг",
+            "time": "16:15-18:00",
+            "room": "ГБОУ СОШ 411"
+          },
+          {
+            "day": "пятница",
+            "time": "16:15-21:10",
+            "room": "ГБОУ СОШ 411"
+          },
+          {
+            "day": "суббота",
+            "time": "09:15-10:00",
+            "room": "ФОК \"Газпром\" Стрельна"
+          },
+          {
+            "day": "суббота",
+            "time": "13:00-17:00",
+            "room": "ГБОУ СОШ 411"
+          }
+        ]
+      },
+      {
+        "activity": "Спортивные игры",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция спортивных игр",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 10
+          },
+          {
+            "table": 3,
+            "row": 11
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:00-19:40",
+            "room": "Спорт. площадка, шк. 413"
+          },
+          {
+            "day": "вторник",
+            "time": "16:00-18:45",
+            "room": "Спорт. площадка, шк. 413"
+          },
+          {
+            "day": "среда",
+            "time": "16:00-18:45",
+            "room": "Спорт. площадка, шк. 413"
+          },
+          {
+            "day": "четверг",
+            "time": "16:00-18:45",
+            "room": "Спорт. площадка, шк. 413"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-18:40",
+            "room": "Спорт. площадка, шк. 413"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-18:40",
+            "room": "Спорт. площадка, шк. 413"
+          },
+          {
+            "day": "понедельник",
+            "time": "16:20-19:05",
+            "room": "Спорт. площадка, шк. 413"
+          },
+          {
+            "day": "вторник",
+            "time": "16:10-18:55",
+            "room": "Спорт. площадка, шк. 413"
+          },
+          {
+            "day": "среда",
+            "time": "16:15-19:00",
+            "room": "Спорт. площадка, шк. 413"
+          },
+          {
+            "day": "четверг",
+            "time": "15:50-19:40",
+            "room": "Спорт. площадка, шк. 413"
+          },
+          {
+            "day": "пятница",
+            "time": "15:50-18:35",
+            "room": "Спорт. площадка, шк. 413"
+          }
+        ]
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Тхэквондо",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция тхэквондо. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "ОФП",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция ОФП с элементами атлетической гимнастики. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Художественная гимнастика",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция художественной гимнастики; молодая семья (творческая мастерская с элементами художественной гимнастики). Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Спортивные игры",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция спортивных игр. Условия и набор конкретной группы уточни у клуба."
+      }
+    ],
+    "activityPages": [
+      {
+        "title": "Тхэквондо",
+        "catalogActivity": "Тхэквондо",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "ОФП",
+        "catalogActivity": "ОФП",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Художественная гимнастика",
+        "catalogActivity": "Художественная гимнастика",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Спортивные игры",
+        "catalogActivity": "Спортивные игры",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Молодая семья",
+        "catalogActivity": "Молодая семья",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-strela/",
+        "sourceCheckedAt": "2026-10-28"
+      }
+    ],
+    "officialAddress": "п. Стрельна, Санкт-Петербургское шоссе, дом 69, лит. А",
+    "addressNote": "В официальной карточке: п. Стрельна, Санкт-Петербургское шоссе, дом 69, лит. А."
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Тайфун",
+    "organization": "pmc",
+    "address": "г. Петергоф, ул. Халтурина, д. 15, корп. 4",
+    "phone": "+7(991)022-39-43",
+    "activities": [
+      "Единоборства",
+      "Спортивные игры",
+      "Самбо",
+      "Йога",
+      "Растяжка",
+      "Атлетическая гимнастика"
+    ],
+    "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+    "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+    "sourceCheckedAt": "2026-10-28",
+    "vkUrl": "https://vk.com/public192373190",
+    "contactSource": {
+      "url": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+      "checkedAt": "2026-10-28",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; доступность сообщества напрямую не проверялась."
+    },
+    "note": "Бесплатные направления для молодёжи: условия группы и наличие мест уточни у клуба. В расписаниях сохранены периоды источников и пояснения к спорным часам.",
+    "activitySchedule": [
+      {
+        "activity": "Самбо",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция самбо",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 6
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:10-17:55"
+          },
+          {
+            "day": "четверг",
+            "time": "16:40-18:10"
+          },
+          {
+            "day": "суббота",
+            "time": "11:10-12:40"
+          }
+        ]
+      },
+      {
+        "activity": "Спортивные игры",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция «Спортивные игры»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 7
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-20:25",
+            "room": "ГБОУ СОШ №411"
+          },
+          {
+            "day": "вторник",
+            "time": "18:30-20:00",
+            "room": "ГБОУ СОШ №411"
+          },
+          {
+            "day": "среда",
+            "time": "18:30-20:25",
+            "room": "ГБОУ СОШ №411"
+          },
+          {
+            "day": "четверг",
+            "time": "19:30-20:15",
+            "room": "ГБОУ СОШ №411"
+          },
+          {
+            "day": "пятница",
+            "time": "17:00-17:45",
+            "room": "ГБОУ СОШ №411"
+          }
+        ]
+      },
+      {
+        "activity": "Единоборства",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция спортивных единоборств",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 8
+          },
+          {
+            "table": 3,
+            "row": 9
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "18:40-21:25"
+          },
+          {
+            "day": "четверг",
+            "time": "18:40-21:25"
+          },
+          {
+            "day": "суббота",
+            "time": "17:40-21:20"
+          },
+          {
+            "day": "понедельник",
+            "time": "18:10-20:55"
+          },
+          {
+            "day": "среда",
+            "time": "18:10-20:55"
+          },
+          {
+            "day": "пятница",
+            "time": "18:10-20:55"
+          }
+        ]
+      },
+      {
+        "activity": "Атлетическая гимнастика",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 2,
+          "quote": "Секция атлетической гимнастики",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 10
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "17:10-19:55"
+          },
+          {
+            "day": "четверг",
+            "time": "17:10-19:55"
+          },
+          {
+            "day": "суббота",
+            "time": "17:10-19:55"
+          }
+        ]
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Самбо",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция самбо. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Спортивные игры",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция «Спортивные игры». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Единоборства",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция спортивных единоборств. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Атлетическая гимнастика",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция атлетической гимнастики. Условия и набор конкретной группы уточни у клуба."
+      }
+    ],
+    "activityPages": [
+      {
+        "title": "Единоборства",
+        "catalogActivity": "Единоборства",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Спортивные игры",
+        "catalogActivity": "Спортивные игры",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Самбо",
+        "catalogActivity": "Самбо",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Йога",
+        "catalogActivity": "Йога",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Растяжка",
+        "catalogActivity": "Растяжка",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Атлетическая гимнастика",
+        "catalogActivity": "Атлетическая гимнастика",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-tajfun/",
+        "sourceCheckedAt": "2026-10-28"
+      }
+    ],
+    "officialAddress": "г. Петергоф, ул. Халтурина, дом 15, корп. 4, лит. А",
+    "addressNote": "В официальной карточке: г. Петергоф, ул. Халтурина, дом 15, корп. 4, лит. А."
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Экватор",
+    "organization": "pmc",
+    "address": "г. Петергоф, ул. Шахматова, д. 12, корп. 3",
+    "phone": "409-77-13 , 246-24-52",
+    "activities": [
+      "Настольные игры",
+      "Вязание",
+      "Фитнес",
+      "Танцы",
+      "Рисование",
+      "Разговорные иностранные языки",
+      "Женский клуб",
+      "Молодёжное объединение «Квартал»",
+      "Студия «Счастье в семье»",
+      "Фигурное катание"
+    ],
+    "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+    "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+    "sourceCheckedAt": "2026-10-28",
+    "vkUrl": "https://vk.com/equator_pmk",
+    "contactSource": {
+      "url": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+      "checkedAt": "2026-10-28",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; доступность сообщества напрямую не проверялась."
+    },
+    "note": "Бесплатные направления для молодёжи: условия группы и наличие мест уточни у клуба. В расписаниях сохранены периоды источников и пояснения к спорным часам.",
+    "activitySchedule": [
+      {
+        "activity": "Женский клуб",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Женский клуб «Новое измерение»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 6
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "11:00-14:00"
+          },
+          {
+            "day": "четверг",
+            "time": "10:00-13:00"
+          },
+          {
+            "day": "суббота",
+            "time": "11:30-15:30"
+          }
+        ]
+      },
+      {
+        "activity": "Рисование",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Студия изобразительного искусства «Фантазия»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 8
+          }
+        ],
+        "schedule": [
+          {
+            "day": "четверг",
+            "time": "18:10-19:50"
+          },
+          {
+            "day": "суббота",
+            "time": "13:10-15:55"
+          }
+        ]
+      },
+      {
+        "activity": "Настольные игры",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Клуб настольных игр",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 10
+          }
+        ],
+        "schedule": [
+          {
+            "day": "четверг",
+            "time": "18:15-20:15"
+          }
+        ]
+      },
+      {
+        "activity": "Вязание",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Студия вязания «Ажур»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 12
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "17:00-18:00"
+          },
+          {
+            "day": "среда",
+            "time": "17:00-20:00"
+          },
+          {
+            "day": "четверг",
+            "time": "17:00-20:00"
+          },
+          {
+            "day": "пятница",
+            "time": "17:00-18:00"
+          }
+        ]
+      },
+      {
+        "activity": "Молодёжное объединение «Квартал»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Молодежное объединение «Квартал»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 13
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:00-21:00"
+          },
+          {
+            "day": "четверг",
+            "time": "20:00-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "20:00-21:00"
+          }
+        ]
+      },
+      {
+        "activity": "Студия «Счастье в семье»",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Студия «Счастье в семье»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 14
+          }
+        ],
+        "schedule": [
+          {
+            "day": "среда",
+            "time": "15:10-16:50"
+          },
+          {
+            "day": "четверг",
+            "time": "16:10-18:50"
+          },
+          {
+            "day": "пятница",
+            "time": "17:10-21:45"
+          },
+          {
+            "day": "суббота",
+            "time": "10:10-14:45"
+          }
+        ]
+      },
+      {
+        "activity": "Фигурное катание",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Секция ОФП. Фигурное катание",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 15
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "18:30-21:30",
+            "room": "СОШ 411"
+          },
+          {
+            "day": "среда",
+            "time": "18:30-21:30",
+            "room": "СОШ 411"
+          },
+          {
+            "day": "пятница",
+            "time": "19:00-21:00",
+            "room": "СОШ 411"
+          },
+          {
+            "day": "воскресенье",
+            "time": "19:00-21:00",
+            "room": "ФОК"
+          }
+        ]
+      },
+      {
+        "activity": "Танцы",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. В сетке указана Окулова А.А., в уведомлении об отсутствии фамилия написана Акулова. Перед визитом уточни написание, набор и изменения.",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Танцевальная студия «Море танца»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 20
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:20-18:00"
+          },
+          {
+            "day": "четверг",
+            "time": "18:20-21:00"
+          },
+          {
+            "day": "пятница",
+            "time": "18:15-21:50"
+          }
+        ]
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Женский клуб",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Женский клуб «Новое измерение». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Рисование",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Студия изобразительного искусства «Фантазия». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Настольные игры",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб настольных игр. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Вязание",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Студия вязания «Ажур». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Молодёжное объединение «Квартал»",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Молодежное объединение «Квартал». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Студия «Счастье в семье»",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Студия «Счастье в семье». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Фигурное катание",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция ОФП. Фигурное катание. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Танцы",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Танцевальная студия «Море танца». Условия и набор конкретной группы уточни у клуба."
+      }
+    ],
+    "activityPages": [
+      {
+        "title": "Настольные игры",
+        "catalogActivity": "Настольные игры",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Вязание",
+        "catalogActivity": "Вязание",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Фитнес",
+        "catalogActivity": "Фитнес",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Танцы",
+        "catalogActivity": "Танцы",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Рисование",
+        "catalogActivity": "Рисование",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Разговорные иностранные языки",
+        "catalogActivity": "Разговорные иностранные языки",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Женский клуб",
+        "catalogActivity": "Женский клуб",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Молодёжное объединение «Квартал»",
+        "catalogActivity": "Молодёжное объединение «Квартал»",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Студия «Счастье в семье»",
+        "catalogActivity": "Студия «Счастье в семье»",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Фигурное катание",
+        "catalogActivity": "Фигурное катание",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-jekvator/",
+        "sourceCheckedAt": "2026-10-28"
+      }
+    ],
+    "officialAddress": "г. Петергоф, ул. Шахматова, дом 12, корп. 3, лит. А",
+    "addressNote": "В официальной карточке: г. Петергоф, ул. Шахматова, дом 12, корп. 3, лит. А."
+  },
+  {
+    "type": "Подростково-молодёжный клуб",
+    "name": "Юнта",
+    "organization": "pmc",
+    "address": "г. Ломоносов, ул. Победы, д. 20, корп. 2",
+    "phone": "+7 812 762 00 39 +7 964 360 24 68",
+    "activities": [
+      "Вокал",
+      "Патриотический клуб",
+      "Добровольчество",
+      "Настольный теннис",
+      "Разговорный английский",
+      "Гитара",
+      "Юмедиа",
+      "Вокальная студия для молодёжи с ОВЗ",
+      "Вокальный ансамбль",
+      "Аквалангист-спасатель"
+    ],
+    "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+    "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+    "sourceCheckedAt": "2026-10-28",
+    "vkUrl": "https://vk.com/pmkunta",
+    "contactSource": {
+      "url": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+      "checkedAt": "2026-10-28",
+      "vkEvidence": "Ссылка размещена на официальной странице клуба; доступность сообщества напрямую не проверялась."
+    },
+    "note": "Бесплатные направления для молодёжи: условия группы и наличие мест уточни у клуба. В расписаниях сохранены периоды источников и пояснения к спорным часам.",
+    "activitySchedule": [
+      {
+        "activity": "Настольный теннис",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Секция настольного тенниса",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 4
+          },
+          {
+            "table": 3,
+            "row": 6
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "15:00-20:30"
+          },
+          {
+            "day": "вторник",
+            "time": "15:00-19:00"
+          },
+          {
+            "day": "среда",
+            "time": "15:00-19:00"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-19:00"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-19:00"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-20:00"
+          },
+          {
+            "day": "понедельник",
+            "time": "20:30-21:15"
+          },
+          {
+            "day": "вторник",
+            "time": "19:00-21:30"
+          },
+          {
+            "day": "среда",
+            "time": "19:00-21:30"
+          },
+          {
+            "day": "четверг",
+            "time": "19:00-21:30"
+          }
+        ]
+      },
+      {
+        "activity": "Вокал",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Студия вокала",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 7
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "15:00-19:45"
+          },
+          {
+            "day": "среда",
+            "time": "15:00-19:45"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-19:45"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-19:45"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-19:30"
+          }
+        ]
+      },
+      {
+        "activity": "Разговорный английский",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Разговорный клуб английского языка",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 9
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "14:30-18:45"
+          },
+          {
+            "day": "вторник",
+            "time": "14:30-18:45"
+          },
+          {
+            "day": "среда",
+            "time": "14:30-18:45"
+          },
+          {
+            "day": "четверг",
+            "time": "14:30-18:45"
+          }
+        ]
+      },
+      {
+        "activity": "Юмедиа",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Юмедиа",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 10
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "19:30-21:15"
+          },
+          {
+            "day": "четверг",
+            "time": "19:30-21:15"
+          }
+        ]
+      },
+      {
+        "activity": "Гитара",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Студия гитары",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 11
+          }
+        ],
+        "schedule": [
+          {
+            "day": "четверг",
+            "time": "19:00-21:45"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-21:45"
+          }
+        ]
+      },
+      {
+        "activity": "Патриотический клуб",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. В текущей сетке направление названо «Юнармия». Военно-патриотическое направление входит в бесплатный городской перечень. У четверга две ячейки 15:00-18:45 без обозначения групп; время показано один раз. В пятницу указан МК «М-51».",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Клуб военно-патриотического воспитания молодежи «Будущее за нами»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 12
+          }
+        ],
+        "schedule": [
+          {
+            "day": "вторник",
+            "time": "15:00-18:45"
+          },
+          {
+            "day": "среда",
+            "time": "15:00-18:45"
+          },
+          {
+            "day": "четверг",
+            "time": "15:00-18:45"
+          },
+          {
+            "day": "пятница",
+            "time": "15:00-18:45",
+            "room": "МК М-51"
+          },
+          {
+            "day": "суббота",
+            "time": "15:00-18:45"
+          }
+        ]
+      },
+      {
+        "activity": "Вокальная студия для молодёжи с ОВЗ",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Вокальная студия для молодежи с ОВЗ",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 13
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "12:00-15:45"
+          },
+          {
+            "day": "вторник",
+            "time": "13:00-17:45"
+          },
+          {
+            "day": "среда",
+            "time": "13:00-15:45"
+          },
+          {
+            "day": "четверг",
+            "time": "13:00-17:45"
+          },
+          {
+            "day": "пятница",
+            "time": "13:00-15:45"
+          }
+        ]
+      },
+      {
+        "activity": "Вокальный ансамбль",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Вокальный ансамбль",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 14
+          }
+        ],
+        "schedule": [
+          {
+            "day": "понедельник",
+            "time": "16:40-18:25",
+            "room": "вч 74429"
+          },
+          {
+            "day": "среда",
+            "time": "16:40-18:25",
+            "room": "вч 74429"
+          },
+          {
+            "day": "пятница",
+            "time": "16:40-17:25",
+            "room": "вч 74429"
+          }
+        ]
+      },
+      {
+        "activity": "Аквалангист-спасатель",
+        "sourceType": "official_web",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28",
+        "sourcePeriod": "Период регулярной сетки не указан",
+        "sourceNote": "Период регулярной сетки на сайте не указан. Бесплатность направления основана на бесплатной колонке городского перечня; условия конкретной группы уточни у клуба. ",
+        "fundingEvidence": {
+          "status": "free",
+          "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+          "page": 3,
+          "quote": "Секция «Аквалангист-спасатель»",
+          "column": "Перечень реализуемых бесплатных направлений",
+          "matchScope": "Направление или его указанная категория в том же клубе; возраст и наличие мест уточняются.",
+          "checkedAt": "2026-10-28"
+        },
+        "sourceRows": [
+          {
+            "table": 3,
+            "row": 15
+          }
+        ],
+        "schedule": [
+          {
+            "day": "четверг",
+            "time": "19:15-22:00",
+            "room": "ул. Широкая, 8"
+          },
+          {
+            "day": "пятница",
+            "time": "17:15-21:00"
+          },
+          {
+            "day": "суббота",
+            "time": "19:15-22:00",
+            "room": "ул. Широкая, 8"
+          }
+        ]
+      }
+    ],
+    "activityConditions": [
+      {
+        "activity": "Настольный теннис",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция настольного тенниса. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Вокал",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Студия вокала. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Разговорный английский",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Разговорный клуб английского языка. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Юмедиа",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Юмедиа. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Гитара",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Студия гитары. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Патриотический клуб",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Клуб военно-патриотического воспитания молодежи «Будущее за нами». Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Вокальная студия для молодёжи с ОВЗ",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Вокальная студия для молодежи с ОВЗ. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Вокальный ансамбль",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Вокальный ансамбль. Условия и набор конкретной группы уточни у клуба."
+      },
+      {
+        "activity": "Аквалангист-спасатель",
+        "sourceUrl": "https://www.spbdm.ru/upload/iblock/c90/si2n21f153nkas2s6o6ppj0aab85e4qo/%D0%9F%D0%9C%D0%A6%20%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%BE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80-%D0%BD%D0%B0%20%D0%A1%D0%9F%D0%B1.pdf",
+        "sourceType": "official_free_offer",
+        "sourceCheckedAt": "2026-10-28",
+        "sourceText": "Бесплатные группы для молодёжи 14-35 лет. Основание: Секция «Аквалангист-спасатель». Условия и набор конкретной группы уточни у клуба."
+      }
+    ],
+    "activityPages": [
+      {
+        "title": "Вокал",
+        "catalogActivity": "Вокал",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Патриотический клуб",
+        "catalogActivity": "Патриотический клуб",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Добровольчество",
+        "catalogActivity": "Добровольчество",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Настольный теннис",
+        "catalogActivity": "Настольный теннис",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Разговорный английский",
+        "catalogActivity": "Разговорный английский",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Гитара",
+        "catalogActivity": "Гитара",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Юмедиа",
+        "catalogActivity": "Юмедиа",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Вокальная студия для молодёжи с ОВЗ",
+        "catalogActivity": "Вокальная студия для молодёжи с ОВЗ",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Вокальный ансамбль",
+        "catalogActivity": "Вокальный ансамбль",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28"
+      },
+      {
+        "title": "Аквалангист-спасатель",
+        "catalogActivity": "Аквалангист-спасатель",
+        "officialUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceUrl": "https://guptcyu.peter.gov.spb.ru/molodezhnye-kluby/molodezhnyj-klub-junta/",
+        "sourceCheckedAt": "2026-10-28"
+      }
+    ],
+    "officialAddress": "г. Ломоносов, ул. Победы, д. 20, корп. 2, лит. А",
+    "addressNote": "В официальной карточке: г. Ломоносов, ул. Победы, д. 20, корп. 2, лит. А."
+  }
 ]

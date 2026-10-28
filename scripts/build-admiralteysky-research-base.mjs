@@ -15,7 +15,7 @@ const [clubs, evidence, centers, officialNote] = await Promise.all([
   readJson('data/clubs-admiralteysky.json'),
   readJson('data/research/admiralteysky-note-evidence.json'),
   readJson('data/research/pmc-centers-contacts.json'),
-  fs.readFile(path.join(vault, 'Задачи', 'Адмиралтейский район официальные стр.md'), 'utf8'),
+  fs.readFile(path.join(vault, 'Источники', 'Официальные сайты', 'Адмиралтейский район — исходные сведения.md'), 'utf8'),
 ]);
 const center = centers.find(item => item.id === 'admiralteysky');
 if (!center || !Array.isArray(clubs) || !Array.isArray(evidence.sections)) throw new Error('Missing Admiralteysky research sources');
@@ -182,8 +182,8 @@ for (const [index, club] of clubs.entries()) {
     `source_section_count: ${sections.length}`, `review_issue_count: ${issues.length}`,
     `review_status: ${yaml(reviewStatus)}`,
     `general_card: ${yaml(`[[База данных/Каталог клубов Санкт-Петербурга/${id}]]`)}`,
-    `source_note: ${yaml('[[Задачи/Адмиралтейский район]]')}`,
-    `official_source: ${yaml('[[Задачи/Адмиралтейский район официальные стр]]')}`,
+    `source_note: ${yaml('[[Источники/ВК/ВК ПМК Адмиралтейского района]]')}`,
+    `official_source: ${yaml('[[Источники/Официальные сайты/Адмиралтейский район — исходные сведения]]')}`,
     '---', '',
   ];
   const body = [
@@ -217,7 +217,7 @@ for (const [index, club] of clubs.entries()) {
     '## Разделы исходной заметки', '',
     ...(sections.length ? sections.flatMap(section => [
       `### ${section.title}`, '',
-      `- Источник: [[Адмиралтейский район]], строки ${section.sourceLines.join('–')}.`,
+      `- Источник: [[Источники/ВК/ВК ПМК Адмиралтейского района]], строки ${section.sourceLines.join('–')}.`,
       ...(section.relationToCatalog ? [`- Связь с клубом: ${section.relationToCatalog}`] : []),
       ...(section.primaryPhones.length ? [`- Основные телефоны из заметки: ${section.primaryPhones.map(item => `${item.value} (строка ${item.line})`).join('; ')}.`] : []),
       ...(section.otherPhoneCandidates.length ? [`- Другие найденные номера, требуют сверки: ${section.otherPhoneCandidates.map(item => `${item.value} (строка ${item.line})`).join('; ')}.`] : []),
@@ -240,11 +240,16 @@ for (const [index, club] of clubs.entries()) {
     ...(issues.length ? issues.map(issue => `- ${issue.field}: в каталоге «${issue.catalogValue || 'не указано'}», в заметке «${issue.noteValue || 'не указано'}» (строка ${issue.sourceLine ?? 'не указана'}).`) : ['- Автоматически выявленных расхождений в этих полях нет; это не подтверждает актуальность данных.']),
     ...(sections.length ? [] : ['- Найти и проверить первичный источник сведений для этого клуба.']), '',
     '## Источники', '',
-    '- [[Адмиралтейский район]] — исходная рабочая заметка.',
-    `- [[Адмиралтейский район официальные стр]]${official ? `, ссылка на клуб в строке ${official.line}` : '; отдельная страница клуба в заметке не найдена'}.`,
+    '- [[Источники/ВК/ВК ПМК Адмиралтейского района]] — исходная рабочая заметка.',
+    `- [[Источники/Официальные сайты/Адмиралтейский район — исходные сведения]]${official ? `, ссылка на клуб в строке ${official.line}` : '; отдельная страница клуба в заметке не найдена'}.`,
     '- Исходные данные сайта: `data/clubs-admiralteysky.json`.',
     '- Карточка создаётся командой `npm run data:views`; исправления в ней пропадут при пересборке.', '',
   ];
+  if(club.activityCatalogConfirmedAt){
+    frontmatter.splice(frontmatter.indexOf('---',1),0,`catalog_confirmed_at: ${yaml(club.activityCatalogConfirmedAt)}`);
+    const at=body.indexOf('## Направления по каталогу');
+    body.splice(at,0,'## Уточнение действующих направлений','',`Пользователь подтвердил состав ${club.activityCatalogConfirmedAt}; источник: ${club.activityCatalogSource}. Ниже действующие сведения имеют приоритет над старыми рабочими заметками.`,'',...(club.activitySchedule??[]).flatMap(r=>[`### ${r.activity}`,`Источник: ${r.source??r.sourceType}; подтверждено ${r.confirmedAt??'не указано'}.`,...r.schedule.map(s=>`- ${s.day}: **${s.time}**${s.group?'; '+s.group:''}.`),'']),'### Закрытые направления','',...(club.archivedActivities??[]).map(r=>`- ${r.activity}: ${r.reason}; ${r.confirmedAt}.`),'');
+  }
   await writeGeneratedFile(path.join(outputDir, `${club.name}.md`), `${frontmatter.concat(body).join('\n')}\n`);
 }
 console.log(JSON.stringify({ clubs: clubs.length, withNoteSections: clubs.filter(club => evidence.sections.some(section => section.catalogClub === club.name)).length, officialPages: clubs.filter(club => officialPageFor(club)).length, base: basePath }));

@@ -1,7 +1,7 @@
 {
   "description": "Адреса клубов для проверки и поиска координат. Координаты здесь пока не указаны.",
   "clubCount": 334,
-  "addressCount": 322,
+  "addressCount": 321,
   "addresses": [
     {
       "id": "0c4655a66aa5",
@@ -1220,10 +1220,10 @@
       ]
     },
     {
-      "id": "2e0244dda97a",
+      "id": "910c21d5a550",
       "district": "kolpinsky",
-      "address": "г. Колпино, бульвар Трудящихся, д. 29/5",
-      "query": "29/5, бульвар Трудящихся, Колпино, Россия",
+      "address": "г. Колпино, бульвар Трудящихся, д. 29/52",
+      "query": "29/52, бульвар Трудящихся, Колпино, Россия",
       "review": [
         "Двойной номер дома"
       ],
@@ -1250,16 +1250,16 @@
       ]
     },
     {
-      "id": "fb5ce95a92ce",
+      "id": "3a402e543259",
       "district": "kolpinsky",
-      "address": "г. Колпино, пр. Ленина, д. 49",
-      "query": "49, проспект Ленина, Колпино, Россия",
+      "address": "г. Колпино, ул. Адмиралтейская, д. 9",
+      "query": "9, улица Адмиралтейская, Колпино, Россия",
       "review": [],
       "clubs": [
         {
-          "name": "Горизонт",
+          "name": "Фантазёры",
           "source": "data/clubs-kolpinsky.json",
-          "index": 3
+          "index": 4
         }
       ]
     },
@@ -1274,20 +1274,6 @@
           "name": "Колпинская перчатка",
           "source": "data/clubs-kolpinsky.json",
           "index": 11
-        }
-      ]
-    },
-    {
-      "id": "23446a295818",
-      "district": "kolpinsky",
-      "address": "г. Колпино, ул. Володарского, д. 9",
-      "query": "9, улица Володарского, Колпино, Россия",
-      "review": [],
-      "clubs": [
-        {
-          "name": "Фантазёры",
-          "source": "data/clubs-kolpinsky.json",
-          "index": 4
         }
       ]
     },
@@ -1330,6 +1316,11 @@
           "name": "Факел",
           "source": "data/clubs-kolpinsky.json",
           "index": 1
+        },
+        {
+          "name": "Горизонт",
+          "source": "data/clubs-kolpinsky.json",
+          "index": 3
         },
         {
           "name": "Медиазавод",
@@ -1617,9 +1608,9 @@
       ]
     },
     {
-      "id": "5e7a14938b11",
+      "id": "17b607645fdb",
       "district": "krasnogvardeysky",
-      "address": "ул. Белорусская, д. 6, корп. 2 и 3",
+      "address": "ул. Белорусская, д. 6, корп. 2",
       "query": "6, улица Белорусская, Санкт-Петербург, Россия",
       "review": [
         "Корпус или литера"
@@ -2060,6 +2051,20 @@
       ]
     },
     {
+      "id": "bf14974cbf46",
+      "district": "kurortny",
+      "address": "г. Зеленогорск, пр. Ленина, д. 25",
+      "query": "25, проспект Ленина, Зеленогорск, Россия",
+      "review": [],
+      "clubs": [
+        {
+          "name": "Снайпер: Ленина",
+          "source": "data/clubs-kurortny.json",
+          "index": 7
+        }
+      ]
+    },
+    {
       "id": "c1c135ba673c",
       "district": "kurortny",
       "address": "г. Зеленогорск, Привокзальная ул., д. 7",
@@ -2086,20 +2091,6 @@
           "name": "Снайпер: Исполкомская",
           "source": "data/clubs-kurortny.json",
           "index": 6
-        }
-      ]
-    },
-    {
-      "id": "8688b4734fdb",
-      "district": "kurortny",
-      "address": "г. Зеленогорск, ул. Ленина, д. 25",
-      "query": "25, улица Ленина, Зеленогорск, Россия",
-      "review": [],
-      "clubs": [
-        {
-          "name": "Снайпер: Ленина",
-          "source": "data/clubs-kurortny.json",
-          "index": 7
         }
       ]
     },

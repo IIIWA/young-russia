@@ -1,0 +1,2837 @@
+{
+  "date": "2026-10-23",
+  "task": "S-63",
+  "status": "published and verified",
+  "deployedAt": "2026-10-22T23:13:48Z",
+  "verifiedAt": "2026-10-22T23:14:15.081Z",
+  "filesVerified": 3892,
+  "htmlPages": 1891,
+  "payloadSha256": "fab67356c4c652301d26b02d83f66dc3e1fb4f2f57f44cde3110466ccccdea19",
+  "bundleSha256": "ad4b295ef7df06823defec02be7d7060d20dca97417b35aebfe54102051be92e",
+  "backup": "/var/www/u3013321/data/backups/young-russia-before-vk-first-2026-10-23.tar.gz",
+  "backupSha256": "66d40599460c633e5aacca12ef5dd85519db304c848c3b8967667365417ba73d",
+  "previous": "/var/www/u3013321/data/www/.young-russia-prev-20261023-vk-first",
+  "audit": {
+    "checkedAt": "2026-10-22T23:10:20.429Z",
+    "clubs": 334,
+    "ownVk": 98,
+    "institutionVk": 236,
+    "shared": 3,
+    "allFirstVk": true,
+    "organizationSites": [
+      "https://xn----gtbyjafgkjo.xn--p1ai/",
+      "https://xn----ptbkbv6a.xn--p1ai/"
+    ]
+  },
+  "publicClubs": 334,
+  "publicHttpChecks": 340,
+  "indexNowKey": {
+    "file": "2bd9808eebd74e34a33893f93adc7043.txt",
+    "status": 200,
+    "contentMatches": true
+  },
+  "localBrowser": {
+    "mode": "local",
+    "checkedAt": "2026-10-22T23:11:43.724Z",
+    "clubs": 9,
+    "screenChecks": 18,
+    "activity": "activities/vyborgsky-patriot-molodyozhnoe-obedinenie-my-vmeste-04.html",
+    "checklist": {
+      "file": "docs/address-checklist-2026-10-16.html",
+      "links": [
+        {
+          "text": "Официальная страница ↗",
+          "href": "https://xn----ptbkbv6a.xn--p1ai/"
+        },
+        {
+          "text": "ВК ↗",
+          "href": "https://vk.com/pmcmir"
+        },
+        {
+          "text": "Официальная страница ↗",
+          "href": "https://xn----gtbyjafgkjo.xn--p1ai/"
+        },
+        {
+          "text": "ВК ↗",
+          "href": "https://vk.com/dm_forpost"
+        }
+      ]
+    },
+    "checks": [
+      {
+        "route": "clubs/vyborgsky/patriot.html",
+        "width": 390,
+        "firstVk": "https://vk.ru/mirpatriot",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.ru/mirpatriot"
+          },
+          {
+            "text": "Страница клуба ↗",
+            "href": "https://xn----ptbkbv6a.xn--p1ai/patriot18"
+          },
+          {
+            "text": "Сообщество учреждения ↗",
+            "href": "https://vk.com/pmcmir"
+          },
+          {
+            "text": "Сайт учреждения ↗",
+            "href": "https://xn----ptbkbv6a.xn--p1ai/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/vyborgsky/patriot.html",
+        "width": 1440,
+        "firstVk": "https://vk.ru/mirpatriot",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.ru/mirpatriot"
+          },
+          {
+            "text": "Страница клуба ↗",
+            "href": "https://xn----ptbkbv6a.xn--p1ai/patriot18"
+          },
+          {
+            "text": "Сообщество учреждения ↗",
+            "href": "https://vk.com/pmcmir"
+          },
+          {
+            "text": "Сайт учреждения ↗",
+            "href": "https://xn----ptbkbv6a.xn--p1ai/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/vyborgsky/forpost.html",
+        "width": 390,
+        "firstVk": "https://vk.ru/dm_forpost",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.ru/dm_forpost"
+          },
+          {
+            "text": "Сайт учреждения ↗",
+            "href": "https://xn----gtbyjafgkjo.xn--p1ai/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/vyborgsky/forpost.html",
+        "width": 1440,
+        "firstVk": "https://vk.ru/dm_forpost",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.ru/dm_forpost"
+          },
+          {
+            "text": "Сайт учреждения ↗",
+            "href": "https://xn----gtbyjafgkjo.xn--p1ai/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/vyborgsky/feniks.html",
+        "width": 390,
+        "firstVk": "https://vk.ru/dm_forpost",
+        "label": "Общее сообщество ↗",
+        "links": [
+          {
+            "text": "Общее сообщество ↗",
+            "href": "https://vk.ru/dm_forpost"
+          },
+          {
+            "text": "Сайт учреждения ↗",
+            "href": "https://xn----gtbyjafgkjo.xn--p1ai/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/vyborgsky/feniks.html",
+        "width": 1440,
+        "firstVk": "https://vk.ru/dm_forpost",
+        "label": "Общее сообщество ↗",
+        "links": [
+          {
+            "text": "Общее сообщество ↗",
+            "href": "https://vk.ru/dm_forpost"
+          },
+          {
+            "text": "Сайт учреждения ↗",
+            "href": "https://xn----gtbyjafgkjo.xn--p1ai/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/morskoy.html",
+        "width": 390,
+        "firstVk": "https://vk.ru/pmk_morskoy",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.ru/pmk_morskoy"
+          },
+          {
+            "text": "Страница клуба ↗",
+            "href": "https://www.pmcvo.ru/pmkmorskoi.html"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/morskoy.html",
+        "width": 1440,
+        "firstVk": "https://vk.ru/pmk_morskoy",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.ru/pmk_morskoy"
+          },
+          {
+            "text": "Страница клуба ↗",
+            "href": "https://www.pmcvo.ru/pmkmorskoi.html"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+        "width": 390,
+        "firstVk": "https://vk.com/morskoy_club",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.com/morskoy_club"
+          },
+          {
+            "text": "Страница клуба ↗",
+            "href": "https://admiralteisky.admiral.gov.spb.ru/molodezhnye-kluby-centra/565/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+        "width": 1440,
+        "firstVk": "https://vk.com/morskoy_club",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.com/morskoy_club"
+          },
+          {
+            "text": "Страница клуба ↗",
+            "href": "https://admiralteisky.admiral.gov.spb.ru/molodezhnye-kluby-centra/565/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/nevsky/artnevskiy.html",
+        "width": 390,
+        "firstVk": "https://vk.com/public218811263",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.com/public218811263"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://centernevskiy.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/nevsky/artnevskiy.html",
+        "width": 1440,
+        "firstVk": "https://vk.com/public218811263",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.com/public218811263"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://centernevskiy.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/krasnogvardeysky/4k.html",
+        "width": 390,
+        "firstVk": "https://vk.com/pmc_ohta",
+        "label": "ВКонтакте учреждения ↗",
+        "links": [
+          {
+            "text": "ВКонтакте учреждения ↗",
+            "href": "https://vk.com/pmc_ohta"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://pmcohta.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/krasnogvardeysky/4k.html",
+        "width": 1440,
+        "firstVk": "https://vk.com/pmc_ohta",
+        "label": "ВКонтакте учреждения ↗",
+        "links": [
+          {
+            "text": "ВКонтакте учреждения ↗",
+            "href": "https://vk.com/pmc_ohta"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://pmcohta.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/kronshtadtsky/kronshtadtskiy-dvorets-molodyozhi.html",
+        "width": 390,
+        "firstVk": "https://vk.com/krondm",
+        "label": "ВКонтакте учреждения ↗",
+        "links": [
+          {
+            "text": "ВКонтакте учреждения ↗",
+            "href": "https://vk.com/krondm"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://kron-dm.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/kronshtadtsky/kronshtadtskiy-dvorets-molodyozhi.html",
+        "width": 1440,
+        "firstVk": "https://vk.com/krondm",
+        "label": "ВКонтакте учреждения ↗",
+        "links": [
+          {
+            "text": "ВКонтакте учреждения ↗",
+            "href": "https://vk.com/krondm"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://kron-dm.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/pushkinsky/informatsionnyy-tsentr-tsarskoselskiy.html",
+        "width": 390,
+        "firstVk": "https://vk.com/pushkindm",
+        "label": "ВКонтакте учреждения ↗",
+        "links": [
+          {
+            "text": "ВКонтакте учреждения ↗",
+            "href": "https://vk.com/pushkindm"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://pushkindm.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/pushkinsky/informatsionnyy-tsentr-tsarskoselskiy.html",
+        "width": 1440,
+        "firstVk": "https://vk.com/pushkindm",
+        "label": "ВКонтакте учреждения ↗",
+        "links": [
+          {
+            "text": "ВКонтакте учреждения ↗",
+            "href": "https://vk.com/pushkindm"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://pushkindm.ru/"
+          }
+        ],
+        "overflow": false
+      }
+    ]
+  },
+  "liveBrowser": {
+    "mode": "live",
+    "checkedAt": "2026-10-22T23:14:29.747Z",
+    "clubs": 9,
+    "screenChecks": 18,
+    "activity": "activities/vyborgsky-patriot-molodyozhnoe-obedinenie-my-vmeste-04.html",
+    "checklist": null,
+    "checks": [
+      {
+        "route": "clubs/vyborgsky/patriot.html",
+        "width": 390,
+        "firstVk": "https://vk.ru/mirpatriot",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.ru/mirpatriot"
+          },
+          {
+            "text": "Страница клуба ↗",
+            "href": "https://xn----ptbkbv6a.xn--p1ai/patriot18"
+          },
+          {
+            "text": "Сообщество учреждения ↗",
+            "href": "https://vk.com/pmcmir"
+          },
+          {
+            "text": "Сайт учреждения ↗",
+            "href": "https://xn----ptbkbv6a.xn--p1ai/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/vyborgsky/patriot.html",
+        "width": 1440,
+        "firstVk": "https://vk.ru/mirpatriot",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.ru/mirpatriot"
+          },
+          {
+            "text": "Страница клуба ↗",
+            "href": "https://xn----ptbkbv6a.xn--p1ai/patriot18"
+          },
+          {
+            "text": "Сообщество учреждения ↗",
+            "href": "https://vk.com/pmcmir"
+          },
+          {
+            "text": "Сайт учреждения ↗",
+            "href": "https://xn----ptbkbv6a.xn--p1ai/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/vyborgsky/forpost.html",
+        "width": 390,
+        "firstVk": "https://vk.ru/dm_forpost",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.ru/dm_forpost"
+          },
+          {
+            "text": "Сайт учреждения ↗",
+            "href": "https://xn----gtbyjafgkjo.xn--p1ai/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/vyborgsky/forpost.html",
+        "width": 1440,
+        "firstVk": "https://vk.ru/dm_forpost",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.ru/dm_forpost"
+          },
+          {
+            "text": "Сайт учреждения ↗",
+            "href": "https://xn----gtbyjafgkjo.xn--p1ai/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/vyborgsky/feniks.html",
+        "width": 390,
+        "firstVk": "https://vk.ru/dm_forpost",
+        "label": "Общее сообщество ↗",
+        "links": [
+          {
+            "text": "Общее сообщество ↗",
+            "href": "https://vk.ru/dm_forpost"
+          },
+          {
+            "text": "Сайт учреждения ↗",
+            "href": "https://xn----gtbyjafgkjo.xn--p1ai/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/vyborgsky/feniks.html",
+        "width": 1440,
+        "firstVk": "https://vk.ru/dm_forpost",
+        "label": "Общее сообщество ↗",
+        "links": [
+          {
+            "text": "Общее сообщество ↗",
+            "href": "https://vk.ru/dm_forpost"
+          },
+          {
+            "text": "Сайт учреждения ↗",
+            "href": "https://xn----gtbyjafgkjo.xn--p1ai/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/morskoy.html",
+        "width": 390,
+        "firstVk": "https://vk.ru/pmk_morskoy",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.ru/pmk_morskoy"
+          },
+          {
+            "text": "Страница клуба ↗",
+            "href": "https://www.pmcvo.ru/pmkmorskoi.html"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/morskoy.html",
+        "width": 1440,
+        "firstVk": "https://vk.ru/pmk_morskoy",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.ru/pmk_morskoy"
+          },
+          {
+            "text": "Страница клуба ↗",
+            "href": "https://www.pmcvo.ru/pmkmorskoi.html"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+        "width": 390,
+        "firstVk": "https://vk.com/morskoy_club",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.com/morskoy_club"
+          },
+          {
+            "text": "Страница клуба ↗",
+            "href": "https://admiralteisky.admiral.gov.spb.ru/molodezhnye-kluby-centra/565/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+        "width": 1440,
+        "firstVk": "https://vk.com/morskoy_club",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.com/morskoy_club"
+          },
+          {
+            "text": "Страница клуба ↗",
+            "href": "https://admiralteisky.admiral.gov.spb.ru/molodezhnye-kluby-centra/565/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/nevsky/artnevskiy.html",
+        "width": 390,
+        "firstVk": "https://vk.com/public218811263",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.com/public218811263"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://centernevskiy.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/nevsky/artnevskiy.html",
+        "width": 1440,
+        "firstVk": "https://vk.com/public218811263",
+        "label": "ВКонтакте клуба ↗",
+        "links": [
+          {
+            "text": "ВКонтакте клуба ↗",
+            "href": "https://vk.com/public218811263"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://centernevskiy.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/krasnogvardeysky/4k.html",
+        "width": 390,
+        "firstVk": "https://vk.com/pmc_ohta",
+        "label": "ВКонтакте учреждения ↗",
+        "links": [
+          {
+            "text": "ВКонтакте учреждения ↗",
+            "href": "https://vk.com/pmc_ohta"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://pmcohta.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/krasnogvardeysky/4k.html",
+        "width": 1440,
+        "firstVk": "https://vk.com/pmc_ohta",
+        "label": "ВКонтакте учреждения ↗",
+        "links": [
+          {
+            "text": "ВКонтакте учреждения ↗",
+            "href": "https://vk.com/pmc_ohta"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://pmcohta.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/kronshtadtsky/kronshtadtskiy-dvorets-molodyozhi.html",
+        "width": 390,
+        "firstVk": "https://vk.com/krondm",
+        "label": "ВКонтакте учреждения ↗",
+        "links": [
+          {
+            "text": "ВКонтакте учреждения ↗",
+            "href": "https://vk.com/krondm"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://kron-dm.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/kronshtadtsky/kronshtadtskiy-dvorets-molodyozhi.html",
+        "width": 1440,
+        "firstVk": "https://vk.com/krondm",
+        "label": "ВКонтакте учреждения ↗",
+        "links": [
+          {
+            "text": "ВКонтакте учреждения ↗",
+            "href": "https://vk.com/krondm"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://kron-dm.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/pushkinsky/informatsionnyy-tsentr-tsarskoselskiy.html",
+        "width": 390,
+        "firstVk": "https://vk.com/pushkindm",
+        "label": "ВКонтакте учреждения ↗",
+        "links": [
+          {
+            "text": "ВКонтакте учреждения ↗",
+            "href": "https://vk.com/pushkindm"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://pushkindm.ru/"
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "route": "clubs/pushkinsky/informatsionnyy-tsentr-tsarskoselskiy.html",
+        "width": 1440,
+        "firstVk": "https://vk.com/pushkindm",
+        "label": "ВКонтакте учреждения ↗",
+        "links": [
+          {
+            "text": "ВКонтакте учреждения ↗",
+            "href": "https://vk.com/pushkindm"
+          },
+          {
+            "text": "Сайт организатора ↗",
+            "href": "https://pushkindm.ru/"
+          }
+        ],
+        "overflow": false
+      }
+    ]
+  },
+  "httpChecks": [
+    {
+      "file": "activities/vyborgsky-patriot-molodyozhnoe-obedinenie-my-vmeste-04.html",
+      "status": 200,
+      "sha256": "cea76a6001306d48fd4790f6c19c3467062dc5505dda815a0352d692597696e4"
+    },
+    {
+      "file": "clubs/admiralteysky/klub-yunyh-moryakov-admiralteets.html",
+      "status": 200,
+      "sha256": "7daa67421a84ba7239d4bddc2ee2998a863b21daac2c7de62d7cb59fe6c181b0",
+      "firstVk": "https://vk.com/morskoy_club"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnoe-prostranstvo-uchrezhdenie.html",
+      "status": 200,
+      "sha256": "f72d387d53aee3075bc63785ab1f83ec82fd33b155f4cfc966559815864d1a93",
+      "firstVk": "https://vk.com/club230148007"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-futbolnyy-klub-forvard.html",
+      "status": 200,
+      "sha256": "285f7f88bb5bfd7548032bd23d2ea7bebcc111b50e6691de6dbbfd10f4c39f9d",
+      "firstVk": "https://vk.com/pmk_forward"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-domostroy.html",
+      "status": 200,
+      "sha256": "085d832d30a36faf74de6b55ea4dc39ef44161aa51bf770a09a043e8e5407ceb",
+      "firstVk": "https://vk.com/pmk_domostroi"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-ellada.html",
+      "status": 200,
+      "sha256": "33fd87346d9024160f166af7655b625bd53be190dc2744e46638b7521d63a387",
+      "firstVk": "https://vk.com/strt_art_graffiti"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-globus.html",
+      "status": 200,
+      "sha256": "e381fafcd9e2ea82e4946202709888116dc55df1ba2e26f3d6ab3323829040a6",
+      "firstVk": "https://vk.com/pmkglobus"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-gorod.html",
+      "status": 200,
+      "sha256": "bd2b4f39fb1c24a5b822f8cd917ff3d73b3f0f27a761dd3d547b31c94f879531",
+      "firstVk": "https://vk.com/pmk_gorod"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-ideal.html",
+      "status": 200,
+      "sha256": "92509c9cdb6321292783b584569bc7a3486cae636c7acea9ae439012fbbe8eb8",
+      "firstVk": "https://vk.com/klub_ideal"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-kolombina.html",
+      "status": 200,
+      "sha256": "25603b5d4661aa0f2321c5122c8f7748a8e8f442ae931b58a3be9a8bf841939f",
+      "firstVk": "https://vk.com/nashemesto_centre"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-meridian.html",
+      "status": 200,
+      "sha256": "91a8c3364472497a8f756bcc56bd5f41423284f86dde494957c5e0ad15c862f5",
+      "firstVk": "https://vk.com/pmkmeridian"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-nadezhda.html",
+      "status": 200,
+      "sha256": "1102d790c5ff741f0010b9ecb82b7439e59e5927aa3e0bf6d9b0392bc74bf623",
+      "firstVk": "https://vk.com/club1883797"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-orfey.html",
+      "status": 200,
+      "sha256": "7331f2a4a3bad210666b2ef78bcd06467cae7ccb6a60eeca7b6ced2f8b7d2963",
+      "firstVk": "https://vk.com/pmk_orfey_zabava"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-palestra.html",
+      "status": 200,
+      "sha256": "e410081da06b67ad16c22ee52d942e37aefa59cbc526bb4c35acbc7cbe251602",
+      "firstVk": "https://vk.com/pmk_palestra"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-perspektiva.html",
+      "status": 200,
+      "sha256": "a6c0295bb2a9ba70ac96f65f3e62c3a8a309a90df17f7999b5756b1a881edf48",
+      "firstVk": "https://vk.com/pmk_perspectiva"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-peterburgskie-lvy.html",
+      "status": 200,
+      "sha256": "786bbdb8944897dea090c40f657ce4246dbcf8cbc5bc49d6e5b45e9a087452ce",
+      "firstVk": "https://vk.com/pmk_peterburgskie_lvy"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-poisk.html",
+      "status": 200,
+      "sha256": "38ca388c2fb2ccb81e4311592e81ba4f6a2df102a2b1715a77648df7daff876a",
+      "firstVk": "https://vk.com/m_club_poisk"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-ritm.html",
+      "status": 200,
+      "sha256": "ab91cabfbc17dc51dc455a8630fe4b31dc178d038aff5db91abbf31821cac0d9",
+      "firstVk": "https://vk.com/csi_teatralka"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-rovesnik.html",
+      "status": 200,
+      "sha256": "34eb323cf574d5492219e6208e9414fc65a43348b4063359542d1d370168dd8c",
+      "firstVk": "https://vk.com/comein_studio"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-selena.html",
+      "status": 200,
+      "sha256": "faf1cc66763edc6d3a3d5f5c8570765562d3f9b41ee3c315994a948aed84322a",
+      "firstVk": "https://vk.ru/mkselena"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-slavyane.html",
+      "status": 200,
+      "sha256": "e56f4875ad81ea5893ff0e59e9675911c4cb28448f5e03f11ab3280d9c14f85c",
+      "firstVk": "https://vk.com/mppotok"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-sozvuchie.html",
+      "status": 200,
+      "sha256": "8e1ebadeded93d01e4aa33afc76b457985d21358bfd3882cc859b99ea8c9b3b0",
+      "firstVk": "https://vk.com/cozvychie"
+    },
+    {
+      "file": "clubs/admiralteysky/molodyozhnyy-klub-vdohnovenie.html",
+      "status": 200,
+      "sha256": "3da02d855b8bf7152863e9da863f1813da73e22801961e6743ae71939a0b6a28",
+      "firstVk": "https://vk.com/pmkvdohnovenie"
+    },
+    {
+      "file": "clubs/admiralteysky/pmk-dvor.html",
+      "status": 200,
+      "sha256": "ee8d5a56ad46f9924abb5eb818e90503de8ccbf150c3496f243091e0935a9c75",
+      "firstVk": "https://vk.com/pmk_r"
+    },
+    {
+      "file": "clubs/admiralteysky/pmk-prometey.html",
+      "status": 200,
+      "sha256": "9f12e5d84d96f9f74d9d9ba59e6005de1d878510323d69fcd4ca5c0b8b09fd09",
+      "firstVk": "https://vk.com/pmk_pro"
+    },
+    {
+      "file": "clubs/admiralteysky/psihologicheskaya-sluzhba-mozaika.html",
+      "status": 200,
+      "sha256": "c3bc398b0ded2e44c07684d624e1fea931f5da152dc4ab814c746068332f6123",
+      "firstVk": "https://vk.com/pmk_mozaika"
+    },
+    {
+      "file": "clubs/admiralteysky/tsentr-molodyozhnogo-tvorchestva-i-semeynogo-dosuga-f133.html",
+      "status": 200,
+      "sha256": "68a99a4076dc42036a0e3013ac1451fa81e1d198086913bf2ae2a5194b7f3826",
+      "firstVk": "https://vk.com/vcentre_club"
+    },
+    {
+      "file": "clubs/avrora.html",
+      "status": 200,
+      "sha256": "2699c8ffa7bf6b4bb3d1d7576f39340e1bbd10b18416e018b08eda015562eb0c",
+      "firstVk": "https://vk.ru/pmcavrora"
+    },
+    {
+      "file": "clubs/belyy-medved.html",
+      "status": 200,
+      "sha256": "693cc0d3453edf0860f6077b9ac32768b04cb3d6c90fa58171c254ae338ecf4e",
+      "firstVk": "https://vk.ru/belyi_medved_vo"
+    },
+    {
+      "file": "clubs/chayka.html",
+      "status": 200,
+      "sha256": "f824ddbb1b0a49c5db4453aa4a5cdbf7e97a85303b330ed899b0f799892413cc",
+      "firstVk": "https://vk.ru/clubchayka"
+    },
+    {
+      "file": "clubs/druzhba.html",
+      "status": 200,
+      "sha256": "f493ac4b1c074a21a1f34283c09865ae5902b8185f85050e1083698f167263e6",
+      "firstVk": "https://vk.ru/club182895843"
+    },
+    {
+      "file": "clubs/ellada.html",
+      "status": 200,
+      "sha256": "4ed6913a4abd75fe38b936596fe2ec73bd7981c12ac8ab349e95a495ac141ff8",
+      "firstVk": "https://vk.ru/ellada_vo"
+    },
+    {
+      "file": "clubs/fakel.html",
+      "status": 200,
+      "sha256": "a6d688b2e520dfd219d8d8be77daa5fb4eed59eca353de42c77a7b61499c72b5",
+      "firstVk": "https://vk.ru/fakelvo"
+    },
+    {
+      "file": "clubs/fonarik.html",
+      "status": 200,
+      "sha256": "df1006b0e291ffd833b2e7b3208d9c0097ab9a516437bb8b127fb41e82a758d2",
+      "firstVk": "https://vk.ru/fonarikclub"
+    },
+    {
+      "file": "clubs/frunzensky/atmosfera.html",
+      "status": 200,
+      "sha256": "069bc14e575ed88e6ccc48203d032e6534ea48f027da7d9e0787a5cf6c967b24",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/dom-molodyozhi-kupchino.html",
+      "status": 200,
+      "sha256": "1e65a3b5621ad6689e2abd82d4fedd7cfbc503876ab4fe9f5bcf0b77324d1186",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/fakel.html",
+      "status": 200,
+      "sha256": "208a5f7ac80e92a11289560b6595d89b9b1ae1589d404c5585979e15728916b7",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/feniks.html",
+      "status": 200,
+      "sha256": "8c91514f5dbe7b9dca0f5ec0d872869c6ccdddfc0b7e2009fb459a957dc1a1a3",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/garmoniya.html",
+      "status": 200,
+      "sha256": "7adc9730c423b6c793efc46ec87218f2aac7c23cfb5de806de85d70897fb5d39",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/iskra.html",
+      "status": 200,
+      "sha256": "caa3e154d332676276fab94074ad1289ed47e815214caacdc3395e9f811c60e6",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/mir.html",
+      "status": 200,
+      "sha256": "70539c131eefe444b1d91dee32219638089e8fd6fe488d5584ee0de65b24396c",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/moloko.html",
+      "status": 200,
+      "sha256": "82587bf9e7b55fac2f760fa3fb49ed3174ffe59d4c884b4d8f191129464d673d",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/planeta.html",
+      "status": 200,
+      "sha256": "fa83b7f78d7c32e77a8fc2ec1d7abb8388c9def55d28a0d167a0398a69c7630a",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/progress.html",
+      "status": 200,
+      "sha256": "9d28cc132b0f932783a513e7121afce1aedb9fe7acae530016f2a9ae2e94d16f",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/raketka.html",
+      "status": 200,
+      "sha256": "c0c101baa7d1bcdfb64d1e3096d5bddcd42519c451f57c08a3fa5b730eeaaca2",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/romantika.html",
+      "status": 200,
+      "sha256": "090d9d2c5801750971180a49fae51bb7a16945cac8b2329b7e4ebfe5e1c9029a",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/sovremennik.html",
+      "status": 200,
+      "sha256": "4ed79a3066a09b76b462239e21ac13553abe93cf0d8d28a165d98150608742c4",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/start.html",
+      "status": 200,
+      "sha256": "b575188f99889197448f2de85f832bf7994b25b7722bd0a4208db9072f16b09f",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/vpk-imeni-3-y-frunzenskoy-divizii-narodnogo-opolcheniya.html",
+      "status": 200,
+      "sha256": "20834c6d1760be7d5f7b6e7fc6c0ccbd6b5182ba69ab330694ace1a40e9db461",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/vpk-imeni-a-f-klubova.html",
+      "status": 200,
+      "sha256": "06d3ba9b8dd64557e306993189cc45ebac5d88ced1f1243f38443ba8fd7f164c",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/frunzensky/yunost.html",
+      "status": 200,
+      "sha256": "199a4c9b9f2a55f7384ab49ac0dd7bfd71e43602c3fb9333d4f08a58c1a7e5a1",
+      "firstVk": "https://vk.com/frunzpmdc"
+    },
+    {
+      "file": "clubs/kalininsky/alye-parusa.html",
+      "status": 200,
+      "sha256": "8c9668a8f7d5747f8bc02db691188417e09292356d5299dc1d62a5865e5b3977",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/atlant.html",
+      "status": 200,
+      "sha256": "212a6c0173ca095d702e44bdc92ec7f1bdae31cdf9fcef355e99cf7d091666ec",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/brigantina.html",
+      "status": 200,
+      "sha256": "5f1a15844495754ac3bbb7047f5b97d9f89731680d51ea7fc670efc39c385edd",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/druzhba.html",
+      "status": 200,
+      "sha256": "6a9c421d463f358f9e1e5d5c5a2a097408fec8053115ca4e139906bc541d1e24",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/evrika.html",
+      "status": 200,
+      "sha256": "20faf01c6db5ab94f0475940f60e1bf38a036827d78cd97865d2a83a7b54ee6b",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/kuhnya.html",
+      "status": 200,
+      "sha256": "89fe694fe212141c2b253b69807efa652b7987a6d55399236deddd4feb8214f9",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/muzhestvo.html",
+      "status": 200,
+      "sha256": "d19a17c17ae574185cd477c240fe6646e2567a0dd091202a9c93bedbfc9ab20e",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/nepokoryonnyh.html",
+      "status": 200,
+      "sha256": "395abb1ad4815a1ab60815e7063b9377ac78b004f83c97914c6eb524d5cc4286",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/ogonyok.html",
+      "status": 200,
+      "sha256": "051f2e37629269ba881ee1cc7544245103d0ab0fef98accdc0c83df166498fc6",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/okna.html",
+      "status": 200,
+      "sha256": "e342102f215b07acb1c2eb948f6dc85443870a7192c58b7697105176847d637b",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/olimp.html",
+      "status": 200,
+      "sha256": "0705125626d3c0d22caa1a3df0051ffc26bfaf24f285b8777fbd37f4be02ea93",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/parus.html",
+      "status": 200,
+      "sha256": "87f889c98bc1f17707c091bd4d4dd74267f7f875c467d9bc6c78984af1f3e672",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/pioner.html",
+      "status": 200,
+      "sha256": "5c4ed15ffd1be557be9e1745f0536e73c891699960672bdd8d192a9bdcffb645",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/ritmiks.html",
+      "status": 200,
+      "sha256": "e36c5fc64a528505ae060e21c9f2bc46297b01645f498a36ec8729667c232f70",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/rovesnik.html",
+      "status": 200,
+      "sha256": "039c992c7a4dd9ff111c7b7836a3e5276e8e1c96c92169b775604063ac8f5a99",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/sozdanie.html",
+      "status": 200,
+      "sha256": "c65f70524a53114e6109f60132db2cc9f18605b6ae8f4e943a45b10a2605bbc6",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/spasatel.html",
+      "status": 200,
+      "sha256": "bd5b8f0c498d9b3c1b9d82124a2d5686e79c10817d1303b3b51831123c45d0b9",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/stsena.html",
+      "status": 200,
+      "sha256": "14e57023a1d7807ec28322e3ca826c88209f9f2f5f50ff647b2f8635ad653909",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/tvorchestvo.html",
+      "status": 200,
+      "sha256": "5772ee3422d09ee4c835fe0e15e703bfe039a1ec38cab1d914037d0429f18a60",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/vkadre.html",
+      "status": 200,
+      "sha256": "3965b28a85ee851e3d49eaea91a685b31a79f980e856f02cc5465fe940e79641",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kalininsky/vodingolos.html",
+      "status": 200,
+      "sha256": "ac74320d1ea01632230d57c00d8a8f1b57f5672ddd84834b76c645a47f33cd2d",
+      "firstVk": "https://vk.com/pmc_kalininsky"
+    },
+    {
+      "file": "clubs/kamchatka.html",
+      "status": 200,
+      "sha256": "c638fafff5f68bb5402c9e30d5644afbb45bd32e9be7551ba015a75d88fba393",
+      "firstVk": "https://vk.ru/kam_4at_ka"
+    },
+    {
+      "file": "clubs/kirovsky/altair.html",
+      "status": 200,
+      "sha256": "05e10c4ef6cae2c0fe5bfc4313bdbc53b31ad25f7851034c23b0805163411398",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/alye-parusa.html",
+      "status": 200,
+      "sha256": "70b3ddb792578d4ee051ce5431f1c7d1cc74239572582faa854c941a78477073",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/fakel.html",
+      "status": 200,
+      "sha256": "c7e6356e4d5ee16bbbe9752ddb9d3e66fecebd12ed8529245913507ecf2c93cd",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/imeni-lyoni-golikova.html",
+      "status": 200,
+      "sha256": "c6b2b9bcd7a017440a03b28a91405f3a09abf13882c967bb16585b5844c3c9a3",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/kanonerets.html",
+      "status": 200,
+      "sha256": "fe2a0faa3734ac5be465d4917be0d549704b9217f85b78ca4b2f3eb9fd2f984c",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/kortik.html",
+      "status": 200,
+      "sha256": "5948afa08b890e87f3a25c66d2e6da736a0cbe65823e9394af3539381d686920",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/leninets.html",
+      "status": 200,
+      "sha256": "29a7c1ebc314c76cd4bb422cc8df731508c3797e09197bfeb90eb27039cbb835",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/molodyozhnyy.html",
+      "status": 200,
+      "sha256": "0930a3705b0b56b347e186cd96e4a1608a85e93119ca1ed2d5b290c221d552c2",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/narvskaya-zastava.html",
+      "status": 200,
+      "sha256": "47c07abf331e98ab1c9c260fbccf21a5e397ba75fab6481f435f07483ed1aab8",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/prometey.html",
+      "status": 200,
+      "sha256": "dcf8878722733ee2664ce4ae68e27421b7664ba99363d7fd3ff6216ac7114a88",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/raduga.html",
+      "status": 200,
+      "sha256": "35b6508d789da189fb84ab76a99f2ffe8a31e1d3481e7bd5fd46c0a95073b625",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/raketa.html",
+      "status": 200,
+      "sha256": "d58764742719f874518c81f4ca18bbc287c2e55a9e201fad7ffb1b542b863166",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/sever.html",
+      "status": 200,
+      "sha256": "569c5d539d248a8fb165cc2cc07d47437ceb9f3eafb5d57bab967644abb03aa9",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/smena.html",
+      "status": 200,
+      "sha256": "dd6204141045063ff2b85cf1b38e14895c929c1b45e1d7576f50da20d49f68c1",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/tsentr.html",
+      "status": 200,
+      "sha256": "0eea6a79d8e550b7f754dc2e5d39e9ded284abc826263a6c82b99b824483855c",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/v16.html",
+      "status": 200,
+      "sha256": "6844f8eef173cf033607d33771e15a821897ffbbafd8fa25fce88204859a5e5d",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/yunyy-korabel.html",
+      "status": 200,
+      "sha256": "3d3addaf99eb9f76278fe09b1366a51b5a0fe83a0d65739175b83821eded2d85",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/yunyy-leningradets.html",
+      "status": 200,
+      "sha256": "f724eb94beda371abdee99ab9b4f0492ac2bc9c26110dddc51cded0b1b0f3cba",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kirovsky/zarya.html",
+      "status": 200,
+      "sha256": "92af33d0592ff61f354306a8003d64da8cb7c05586753c66a14aed04ce158f51",
+      "firstVk": "https://vk.com/pmc_kirovskiy"
+    },
+    {
+      "file": "clubs/kolpinsky/baltika.html",
+      "status": 200,
+      "sha256": "2fd476312eb0c34b845b6f256833a482bb174a3ddae0bbe6bcf09277c1a8d24c",
+      "firstVk": "https://vk.com/dm_kolpinets"
+    },
+    {
+      "file": "clubs/kolpinsky/chayka.html",
+      "status": 200,
+      "sha256": "491a5a64d530ee8a053fbf21481390c0596f0dd45c90c20eeed36c23843e2567",
+      "firstVk": "https://vk.com/dm_kolpinets"
+    },
+    {
+      "file": "clubs/kolpinsky/delta.html",
+      "status": 200,
+      "sha256": "b62284f2520318c97b7285da64fda064a6a322c31c6332f666a689ec90beb6db",
+      "firstVk": "https://vk.com/spbgurovesnik"
+    },
+    {
+      "file": "clubs/kolpinsky/fakel.html",
+      "status": 200,
+      "sha256": "8b57513411b58e5439ad616224e055f37e36636cdd14723ae4549193ae7f8e19",
+      "firstVk": "https://vk.com/dm_kolpinets"
+    },
+    {
+      "file": "clubs/kolpinsky/fantazyory.html",
+      "status": 200,
+      "sha256": "f11570e32f587019a883295619519fbeae29a2ed7afc12eef8df0372215ddba9",
+      "firstVk": "https://vk.com/dm_kolpinets"
+    },
+    {
+      "file": "clubs/kolpinsky/gorizont.html",
+      "status": 200,
+      "sha256": "718ee9fb2830c917697a957ffce3244f7bd00cbd53fb7161fe4935d760865039",
+      "firstVk": "https://vk.com/dm_kolpinets"
+    },
+    {
+      "file": "clubs/kolpinsky/kolpinets.html",
+      "status": 200,
+      "sha256": "3338c9a501c65a7de10c75ac40bb5ddcdba393b97b3a1d95ae1714616f549b5a",
+      "firstVk": "https://vk.com/dm_kolpinets"
+    },
+    {
+      "file": "clubs/kolpinsky/kolpinskaya-perchatka.html",
+      "status": 200,
+      "sha256": "a24ce29712c0e0032cc6c900251fbfd40682ea93b5a4b86e872ac25d2dc0086f",
+      "firstVk": "https://vk.com/spbgurovesnik"
+    },
+    {
+      "file": "clubs/kolpinsky/mediazavod.html",
+      "status": 200,
+      "sha256": "1c21c8aaafdcc165507969466c44240a03cf5b784e240f13a1c004270a9e96e5",
+      "firstVk": "https://vk.com/dm_kolpinets"
+    },
+    {
+      "file": "clubs/kolpinsky/orlyonok.html",
+      "status": 200,
+      "sha256": "1197b1d9d6078d635c660b2302574deaacc37a49b9f1918dcc73f2818a083794",
+      "firstVk": "https://vk.com/dm_kolpinets"
+    },
+    {
+      "file": "clubs/kolpinsky/patriot.html",
+      "status": 200,
+      "sha256": "7e7bdeef8bf8f8d80d514fec9ee2be2026f5923afe3dd3bdce768de4a793561b",
+      "firstVk": "https://vk.com/spbgurovesnik"
+    },
+    {
+      "file": "clubs/kolpinsky/ritm.html",
+      "status": 200,
+      "sha256": "63f5d36240a26f1154e5245b2c5a92f6a85181d2df543f3431050f598f30361d",
+      "firstVk": "https://vk.com/dm_kolpinets"
+    },
+    {
+      "file": "clubs/kolpinsky/rodina.html",
+      "status": 200,
+      "sha256": "2d51db711c6b76a5cc91f48057e5588b2ccf0d1914930df25be2a357ff48e354",
+      "firstVk": "https://vk.com/dm_kolpinets"
+    },
+    {
+      "file": "clubs/kolpinsky/yunost.html",
+      "status": 200,
+      "sha256": "b8227944c7fee2bcc709996f97f8947d8c868090355e783f247354c98f19fed3",
+      "firstVk": "https://vk.com/spbgurovesnik"
+    },
+    {
+      "file": "clubs/kolpinsky/z.html",
+      "status": 200,
+      "sha256": "ac0836e4b85db5cf7cbc99c70934ed03c6c854ea3f9f4ecd50bd81c555f38413",
+      "firstVk": "https://vk.com/spbgurovesnik"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/4k.html",
+      "status": 200,
+      "sha256": "1ecab3984127d760ea71e0655c9a5bfb1d1067224a9e4992c07e1a413f12d2ee",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/adrenalin.html",
+      "status": 200,
+      "sha256": "ff5deddef7e2fd5052feffa5b502f557f02b4bc0ebaa740625d62a7cb2662f1e",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/akvamarin.html",
+      "status": 200,
+      "sha256": "9657568cc4f902ce53ce94edaca9c8d9822f86da21ca1ee0587ded2a36016922",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/beryozka.html",
+      "status": 200,
+      "sha256": "cd6ef1b78a4732ba8212537aaa525de8ddfcc5645777a8d72d0e16ca98a7789c",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/dialog.html",
+      "status": 200,
+      "sha256": "f1fa1bcbee57cc2d5a59112960f96c8f2c7c11fbaabd49dab137911d8433d82d",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/fakel.html",
+      "status": 200,
+      "sha256": "98a79d8e0b015bd4c99f0d7aae3c9f043745b638af0eafc15d69614428a4ea8b",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/faktura.html",
+      "status": 200,
+      "sha256": "8e1422da5e69d73254dba43e8d04bd19424813a9171fcb5506e935de6fa9f081",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/izmerenie.html",
+      "status": 200,
+      "sha256": "fb6ddbec73dca710eb266de0811e27f7601effdac64decff08e1ceb529e06909",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/kvadrat.html",
+      "status": 200,
+      "sha256": "2f7e01fbbe49ffb518691c0efeb760826b392144f76a6bfa2b556239db3f827e",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/kvartira-ru.html",
+      "status": 200,
+      "sha256": "5016e405f99363ae9520ec6b21c2d920a5765dd2c05123d5f1c3b2770180e446",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/meteor.html",
+      "status": 200,
+      "sha256": "dca566b35a4f2a918e72bf982178d8800bc788b33237a543bb82dd1f9b0ca05a",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/neo.html",
+      "status": 200,
+      "sha256": "807d5091c7378d333f53a8301d81a0735e6a28264415a22e00ced72004c3615a",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/neva.html",
+      "status": 200,
+      "sha256": "c4c97cb362361d7b28f9463463c9118d1ad2b95a2c20594adb2f07e70b4d844d",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/ostrova.html",
+      "status": 200,
+      "sha256": "8f13e27cf994f240c53d6753b33154e63794be481b2a873d04a0aaa6bd8978a6",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/reyd-2-0.html",
+      "status": 200,
+      "sha256": "4f815f76d53e0e96d323c37e5b59e139984884003bf5a73df130b17db4b32e1e",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/rodnik.html",
+      "status": 200,
+      "sha256": "3f9587e928e5f24be1b522100a2f39a5d449d193c999174d67c19aa3ed6b0e5f",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/sosedi.html",
+      "status": 200,
+      "sha256": "65681710811d82da371bc9202d2794fbf7d25c8837f4b1b5f328f6909b902efd",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/sovremennik.html",
+      "status": 200,
+      "sha256": "f6a566f7e7102aed945100356146777e6f9412f685483d81ea33a81fc0ffa8df",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/teplo.html",
+      "status": 200,
+      "sha256": "32e8f617a66daea3b5fe8640bede98d74d51d2cd87138b28315ed4bc12ad7d90",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/tochka.html",
+      "status": 200,
+      "sha256": "c4ace3455ac18f8605795a0e6ce0446f8bcdb7fd36c93e75bedd61d4d90be144",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/vega.html",
+      "status": 200,
+      "sha256": "1350a9bc84a464ad071262de0ad37f48b1c2285f936de0c07d943a8e59471be6",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnogvardeysky/zov.html",
+      "status": 200,
+      "sha256": "1502b76d1c21a852b5e50cc1f65f6cda1d065bbb890e25f65ee378bfeb669751",
+      "firstVk": "https://vk.com/pmc_ohta"
+    },
+    {
+      "file": "clubs/krasnoselsky/alye-parusa.html",
+      "status": 200,
+      "sha256": "7d125ba5ec48b65cf1c71c55560feb7ac0890cb14c4addee6e7d6713fdaec5ec",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/bereg.html",
+      "status": 200,
+      "sha256": "9bc248ee0a2eee54ad42262f2e0b70e38973b3ded67715d863467803561d5aff",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/burevestnik.html",
+      "status": 200,
+      "sha256": "d7da333fdba061db8e02c924f6df3bbdece416dcb486cf184ecfc865a91b7e13",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/fakel.html",
+      "status": 200,
+      "sha256": "851c21522de44f949ce7afa393e8b8074564906d20ac6fc1d3d08deb289df616",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/kompas.html",
+      "status": 200,
+      "sha256": "2f2ecbe0213b2cddb73ea1eb9ea72c2a81749c18b6ce66304f1bb5a225b8a283",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/mayak.html",
+      "status": 200,
+      "sha256": "5f0a29f8db4eefb0d155d1232df3b02377bee92bea8aed47cf043d438df28d81",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/nepokorennyy-rubezh.html",
+      "status": 200,
+      "sha256": "30c6ad2bc569e7cfd6ebd7a86061674a3b6c338bb198ed72c3f1f000531061df",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/olimp.html",
+      "status": 200,
+      "sha256": "32ff8fa272a0c3d06438870e95de06bd42c7d936113b807e7c823dd694b22fc7",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/polet.html",
+      "status": 200,
+      "sha256": "160d1d10be149b2e75c765a918a95b697bc2ee7c9d1a66a7df7ee4d2ed09f691",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/prichal.html",
+      "status": 200,
+      "sha256": "bacb6ff9730a018f24a0b621aa39bb841fe303b302f0d697ceb73c3ca9a2a88a",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/raketa.html",
+      "status": 200,
+      "sha256": "f91a343f26ecbb6cb0e1a9c1a1049bb54f0f796da8f260e9d02b0415e3014b9e",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/rekord.html",
+      "status": 200,
+      "sha256": "46fb83b979d44f2e79dbf153c0c5486e46c5484d7a0b53dd715e70dc0997aae0",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/ritm.html",
+      "status": 200,
+      "sha256": "fb0493b207d8713c84bf901fc61fe521c58492d940121b1077185839b1d106e8",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/rovesnik.html",
+      "status": 200,
+      "sha256": "3947f020fc1c5d26790a11d2bb4f0057120384e8f6dc88634eb85ce23311a7c7",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/umelets.html",
+      "status": 200,
+      "sha256": "1622fec1ad6afbb1acf47f2c0071f83cb3ba222aad78e382118cba4c036d0977",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/voshod.html",
+      "status": 200,
+      "sha256": "a2a25cd9b76cec7a460a1fbe4001f111709b084554453e9b2e6e741e332a7f06",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/krasnoselsky/yunost.html",
+      "status": 200,
+      "sha256": "e6b5cb9d428ddc722f24f074216e46ae43f1f0b69546bc4410333c42a37d7afb",
+      "firstVk": "https://vk.com/pmcligovo"
+    },
+    {
+      "file": "clubs/kronshtadtsky/kronshtadtskiy-dvorets-molodyozhi.html",
+      "status": 200,
+      "sha256": "926a6f21b8f2369e3ca42721d53d09b0d7c37cf3abbefa61a425ac5d5513e658",
+      "firstVk": "https://vk.com/krondm"
+    },
+    {
+      "file": "clubs/kronshtadtsky/mayak.html",
+      "status": 200,
+      "sha256": "8aa012d78fde8a77f22c7fdfe4158b944396feba5029f75544f60bef37214bbd",
+      "firstVk": "https://vk.com/krondm"
+    },
+    {
+      "file": "clubs/kronshtadtsky/rovesnik.html",
+      "status": 200,
+      "sha256": "5ba7a116e442cc06c03a1597d3bbe3c6aa3710c06d8b8ccccb17138dba3332f5",
+      "firstVk": "https://vk.com/krondm"
+    },
+    {
+      "file": "clubs/kurortny/molodost.html",
+      "status": 200,
+      "sha256": "71c8f6250f216640b9727cbad11a4d34c5affcda212b82fa4f1cb1f148bef7ae",
+      "firstVk": "https://vk.com/pmcmolodost"
+    },
+    {
+      "file": "clubs/kurortny/snayper-ispolkomskaya.html",
+      "status": 200,
+      "sha256": "effc43c236b91b96765d2ce2dca0a83bdc17e6f860d86e3c96e1e34d4af51333",
+      "firstVk": "https://vk.com/club11492364"
+    },
+    {
+      "file": "clubs/kurortny/snayper-lenina.html",
+      "status": 200,
+      "sha256": "17c3495e634e5d4cce27ce9457ffe68b2c558a3c0b6bdd9aebb424c5405cc55c",
+      "firstVk": "https://vk.com/club11492364"
+    },
+    {
+      "file": "clubs/kurortny/snayper-privokzalnaya.html",
+      "status": 200,
+      "sha256": "a4183e8c8e95061b15d65ba261c72389ccee7f249d17febd978d9b0e0be201e1",
+      "firstVk": "https://vk.com/club11492364"
+    },
+    {
+      "file": "clubs/kurortny/voshod-mosina.html",
+      "status": 200,
+      "sha256": "d4b307f979c43084448fc685aa5f88d5b6792fbb5044273603f030f164e1bf07",
+      "firstVk": "https://vk.com/pmcvoshod"
+    },
+    {
+      "file": "clubs/kurortny/voshod-primorskoe-shosse-270.html",
+      "status": 200,
+      "sha256": "bf22a5c9452ff768d51112f848824471190ec62d060962d8cc77ccc09cc6836c",
+      "firstVk": "https://vk.com/pmcvoshod"
+    },
+    {
+      "file": "clubs/kurortny/voshod-primorskoe-shosse-280.html",
+      "status": 200,
+      "sha256": "2e43884c1cd275e0c6f4ebd25fd961013fd29ed2f0915a407759422e67308038",
+      "firstVk": "https://vk.com/pmcvoshod"
+    },
+    {
+      "file": "clubs/kurortny/voshod-tokareva.html",
+      "status": 200,
+      "sha256": "0581300647aeeccb598f4fa0c2679af80fb32bd71192f1bac64e610e680ba4ea",
+      "firstVk": "https://vk.com/pmcvoshod"
+    },
+    {
+      "file": "clubs/kurortny/voshod-volodarskogo.html",
+      "status": 200,
+      "sha256": "f28e2f9f78af3a5fb8f91709e569e215f524a3a4377c4aafc3527ed0dcff0c8d",
+      "firstVk": "https://vk.com/pmcvoshod"
+    },
+    {
+      "file": "clubs/leningradets.html",
+      "status": 200,
+      "sha256": "26ac1d99ecf208740809ee4b855385c6f849d2fa5b9ee27580eaa87d4458d2cd",
+      "firstVk": "https://vk.ru/club30704573"
+    },
+    {
+      "file": "clubs/mayak-olimpiks.html",
+      "status": 200,
+      "sha256": "0f1b42296e20f9d0e2b4ff359a979f81ad4b7ccdce38726cf59c5ac8d6b72abd",
+      "firstVk": "https://vk.ru/mcolympics"
+    },
+    {
+      "file": "clubs/molniya.html",
+      "status": 200,
+      "sha256": "2054ab752576e7b5bb0722ba2300a1574b495397d318d903a75598d8503f8de5",
+      "firstVk": "https://vk.ru/club17271635"
+    },
+    {
+      "file": "clubs/morskoy.html",
+      "status": 200,
+      "sha256": "32c4b8b018effee44758a66b01cc4b9b2e4911df3f71ae07775ed4c970e5f813",
+      "firstVk": "https://vk.ru/pmk_morskoy"
+    },
+    {
+      "file": "clubs/moskovsky/avrora.html",
+      "status": 200,
+      "sha256": "dcd8644d4c83f43e19e602f05b05056da347ccebbbb4255876f22096ab982ae0",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/kometa.html",
+      "status": 200,
+      "sha256": "57d0000d10cd818346cbb2878032e0cfc2776df88ed126c04cb4ec95d951518e",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/kosmonavt.html",
+      "status": 200,
+      "sha256": "852b1a1863366b830f93a4340b76a7e4ce61b652c4e4a873178f2b2dd86049ea",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/kosmos.html",
+      "status": 200,
+      "sha256": "e0149fd6d2b822f248db11cb6e5528f6fc4d0e2119d5f2dd169c2d46bdd0c570",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/luch.html",
+      "status": 200,
+      "sha256": "a5d8f50b5af3fb2b4ca80ab386e6cc8a68a11acff72019b4d314273d42e4b9a3",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/molodyozhnyy.html",
+      "status": 200,
+      "sha256": "c2f4a44d6a98df30900436f2b79f8f6c6179b9ac3758cda7b4e7eb3be0deccad",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/na-zvyozdnoy.html",
+      "status": 200,
+      "sha256": "0c64a83028948c6fbf7648bd6e20e0de0e4cfee9dd9d0c0dd2c9a04806a98096",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/nadezhda.html",
+      "status": 200,
+      "sha256": "835278c8a415e74cd80946d37c510d2149db311b5e30ef98b4258e4b5abcd895",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/neva.html",
+      "status": 200,
+      "sha256": "af9ab6abea25c153efbab825887706ed3fbc4e356ee142e2dc36e4ab967157b5",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/oktyabr.html",
+      "status": 200,
+      "sha256": "467303869be98dd41d180021b9298c79245f4f030d42d2c9007d929c0a269715",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/prosto-moskovskiy.html",
+      "status": 200,
+      "sha256": "9d05697d63fbdbe7e49d6c6fe277724dc9718db308750538d6e137b7c05862fe",
+      "firstVk": "https://vk.com/dmpulkovec"
+    },
+    {
+      "file": "clubs/moskovsky/pulkovets.html",
+      "status": 200,
+      "sha256": "7ee083475349a1e7f22535e3da5f025ba3be566fa16ef8f421ba4429f8b735d4",
+      "firstVk": "https://vk.com/dmpulkovec"
+    },
+    {
+      "file": "clubs/moskovsky/romantiki.html",
+      "status": 200,
+      "sha256": "945839372a34d9d66cf62ab81cca83defbb369aba5e74dc3185384dd929526e4",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/rubin.html",
+      "status": 200,
+      "sha256": "f295288d3af71da3db2eca83cc47103916a616d674aa9da24e31df20ecb17cb1",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/sputnik.html",
+      "status": 200,
+      "sha256": "d20dc2f6f16714939823e871e95c942268b7aa60ee12a954ea917b142bb5f4c5",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/start.html",
+      "status": 200,
+      "sha256": "40c09704cbb5825338638df1dfd9595f91aea8cabd0605361b06396fe4a0c9ee",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/tsentr-patrioticheskogo-vospitaniya.html",
+      "status": 200,
+      "sha256": "83cfd4bf8dc849c9d5f16bb50852c8b7fd5955bd026afe684697ba0b81388b70",
+      "firstVk": "https://vk.com/dmpulkovec"
+    },
+    {
+      "file": "clubs/moskovsky/vertikal.html",
+      "status": 200,
+      "sha256": "51b2d432048ba0e83ff74306742ac76029b8fb0ea8c94a04b362b9d8b2de3c56",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/vostok.html",
+      "status": 200,
+      "sha256": "e4e0e4276f4c677f764572a38179d0a86b05f7ab6310dae85d50358817fe0da3",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/vzlyot.html",
+      "status": 200,
+      "sha256": "930d70586b33aa42b7594348eb2cb83637813c69d6e4a6f7d95f53d7418032d8",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/moskovsky/yunost.html",
+      "status": 200,
+      "sha256": "499e44a6968d9a38232e0bcd66d1d3bec24209f644ad9539f376ebf18c74dd2f",
+      "firstVk": "https://vk.com/mpcmoskovski"
+    },
+    {
+      "file": "clubs/nadezhda.html",
+      "status": 200,
+      "sha256": "ca187b1a25599b5a02e1175ff3e20d3104665b9645ca18431d25ebaad810bb74",
+      "firstVk": "https://vk.ru/clubnadezhdavo"
+    },
+    {
+      "file": "clubs/nevsky/arktika-holl.html",
+      "status": 200,
+      "sha256": "c6bcb428bc70989b348582c2d490e0c825f484293b90a5b09e116b5f8b7a0e83",
+      "firstVk": "https://vk.com/pc_nevskiy"
+    },
+    {
+      "file": "clubs/nevsky/artnevskiy.html",
+      "status": 200,
+      "sha256": "3fc1790d959ca6a963ab1de344218bfb1e250a2bdcf6ec99d7d84ed038c9f6aa",
+      "firstVk": "https://vk.com/public218811263"
+    },
+    {
+      "file": "clubs/nevsky/atlant.html",
+      "status": 200,
+      "sha256": "49a169521460eb446122eb5f79ea3d10acabbf686e99980121b873f3b40c84cd",
+      "firstVk": "https://vk.com/club24552119"
+    },
+    {
+      "file": "clubs/nevsky/chayka.html",
+      "status": 200,
+      "sha256": "4e7fa8dedd6dfc206996b74f09f350fc6d4ffd1012603c6c5c201454a5dfa760",
+      "firstVk": "https://vk.com/club96077723"
+    },
+    {
+      "file": "clubs/nevsky/druzhba.html",
+      "status": 200,
+      "sha256": "a40c8bf5e0685a39ecc0c5f0222b318a92f5a7b259b9569e202e9809ca0518a5",
+      "firstVk": "https://vk.com/pmkdruzhba"
+    },
+    {
+      "file": "clubs/nevsky/fakel.html",
+      "status": 200,
+      "sha256": "81857b45a507716950a28a68bdf8b7826adbaab02c7a904e4b3726d9d20da4c8",
+      "firstVk": "https://vk.com/club50436940"
+    },
+    {
+      "file": "clubs/nevsky/gorizont.html",
+      "status": 200,
+      "sha256": "ff305e2d533562e98a3d545ba6e6a1e66936f70afeb8b24d1ec450025e98770a",
+      "firstVk": "https://vk.com/spbgorizont"
+    },
+    {
+      "file": "clubs/nevsky/iskateli.html",
+      "status": 200,
+      "sha256": "84a554e67f5d0140f4957dccee16f29952ad597c3124a3b5f4c71046445ae47f",
+      "firstVk": "https://vk.com/public140425651"
+    },
+    {
+      "file": "clubs/nevsky/karavella.html",
+      "status": 200,
+      "sha256": "bf75e1c3ceaafb4ae10855341235bb51e28b148997b0032e9b947866d737b5e1",
+      "firstVk": "https://vk.com/pmkaravell"
+    },
+    {
+      "file": "clubs/nevsky/kosmos.html",
+      "status": 200,
+      "sha256": "fd8711179d8b79a892e1806e13a7f0d0f3cd92b1ff57f5a3666f959e6bb4747d",
+      "firstVk": "https://vk.com/pmk_kosmos"
+    },
+    {
+      "file": "clubs/nevsky/krasnye-zori.html",
+      "status": 200,
+      "sha256": "5582624cafed04b1b4c9b5858c5bd2d8e49ffb41a79603593aa876a3cd348f22",
+      "firstVk": "https://vk.com/pc_nevskiy"
+    },
+    {
+      "file": "clubs/nevsky/krugozor.html",
+      "status": 200,
+      "sha256": "15ee20b23421b986bf7b6e9773c01dc9c29c8b00846658e7d6f7e4876fdb100b",
+      "firstVk": "https://vk.com/club42857231"
+    },
+    {
+      "file": "clubs/nevsky/leningradets.html",
+      "status": 200,
+      "sha256": "30922997fce005464b71f808347733e682cb2036a0100d59fd6d467916ae2fe4",
+      "firstVk": "https://vk.com/club85211760"
+    },
+    {
+      "file": "clubs/nevsky/lider.html",
+      "status": 200,
+      "sha256": "745382aef77afd6bd95f37265956afb6157a1c03e09b633d17e5fc0ec1a142b1",
+      "firstVk": "https://vk.com/club34944303"
+    },
+    {
+      "file": "clubs/nevsky/luch.html",
+      "status": 200,
+      "sha256": "c20c9dc96282f305940cbe12f65a308775b67f9a72ea9bf4f5c85ce5656b5d63",
+      "firstVk": "https://vk.com/pmklu4"
+    },
+    {
+      "file": "clubs/nevsky/mechta.html",
+      "status": 200,
+      "sha256": "e60269cd15b42dab468fc2e2f30bbd82c0957572420dc9abf0f5960e6334a264",
+      "firstVk": "https://vk.com/mechta_club_spb"
+    },
+    {
+      "file": "clubs/nevsky/molodyozhnyy-tsentr.html",
+      "status": 200,
+      "sha256": "377e2f5d194aa9a858cc2fbad03f4c248ef8115e9ed07f6ccd4f96cc6a1ccc12",
+      "firstVk": "https://vk.com/molodejniycenter"
+    },
+    {
+      "file": "clubs/nevsky/nash-etazh.html",
+      "status": 200,
+      "sha256": "2a686530b9dea1379789fc7d2352d8425d47e9cbf4bfe073ad2bab59b0ab74e0",
+      "firstVk": "https://vk.com/ourlevel"
+    },
+    {
+      "file": "clubs/nevsky/neva.html",
+      "status": 200,
+      "sha256": "1209d663c6f8406a9793f2d79f2116d9ae02c5aae57665962edcf15c13821939",
+      "firstVk": "https://vk.com/neva16"
+    },
+    {
+      "file": "clubs/nevsky/nevskie-orlyata.html",
+      "status": 200,
+      "sha256": "2daadf99f1ac4238100d86b97c27ff4af88b4adfa0a8ea317bff5890e0447ff0",
+      "firstVk": "https://vk.com/club_nevskie78"
+    },
+    {
+      "file": "clubs/nevsky/ogonyok.html",
+      "status": 200,
+      "sha256": "bc7b54f03da045031772fcb5878d59c23029f0909932159ed0fedd54d4292c01",
+      "firstVk": "https://vk.com/ogonekpmk"
+    },
+    {
+      "file": "clubs/nevsky/olimpiets.html",
+      "status": 200,
+      "sha256": "a940ec583663d2ae1a33574097743d336d20e0cfc24fe60e9fc06f4b77fa7d5c",
+      "firstVk": "https://vk.com/pmk_olimpiec"
+    },
+    {
+      "file": "clubs/nevsky/optimist.html",
+      "status": 200,
+      "sha256": "dbef8fc9478eec469895068afd7cadb5374a166623086d42a73376cb76905771",
+      "firstVk": "https://vk.com/club161376154"
+    },
+    {
+      "file": "clubs/nevsky/parallel.html",
+      "status": 200,
+      "sha256": "bb1cf4399fdabdf005c6918a38b7e621d3085f6068e8a6ba94ddd80bd2e8d16e",
+      "firstVk": "https://vk.com/parallel_club"
+    },
+    {
+      "file": "clubs/nevsky/patriot.html",
+      "status": 200,
+      "sha256": "ab23beb0c887a7dc913a99e22b07c527c15d4be6ba97a6f3f5f73ff329831dae",
+      "firstVk": "https://vk.com/patriotclubspb"
+    },
+    {
+      "file": "clubs/nevsky/perspektiva.html",
+      "status": 200,
+      "sha256": "d095e2cdfd88deb62245d8bd3b55b777c3e0cb94ca86f65480d46a8222194d02",
+      "firstVk": "https://vk.com/public62117342"
+    },
+    {
+      "file": "clubs/nevsky/polyarnik.html",
+      "status": 200,
+      "sha256": "5b62e9725b3e7491019817bcf67664b4ff98786ea4039fad6c85045722226c7a",
+      "firstVk": "https://vk.com/pmkpolyrnik"
+    },
+    {
+      "file": "clubs/nevsky/prozhektor.html",
+      "status": 200,
+      "sha256": "c3458903194995a485ba854e30144091d08550249339794436fff0bc8d66db50",
+      "firstVk": "https://vk.com/clubpmkprojector"
+    },
+    {
+      "file": "clubs/nevsky/raketa.html",
+      "status": 200,
+      "sha256": "23d0ab10be6556467623b23aa8b4537116f0f9f84865e8a2a679b3ef8be15dea",
+      "firstVk": "https://vk.com/club137392949"
+    },
+    {
+      "file": "clubs/nevsky/sputnik.html",
+      "status": 200,
+      "sha256": "64418ef9762a74fc4811db61dc6c3cadb38dbfcaf6f2a4a669258d7898dd1315",
+      "firstVk": "https://vk.com/club133553584"
+    },
+    {
+      "file": "clubs/nevsky/tovarisch.html",
+      "status": 200,
+      "sha256": "8c473ca90cfa61f0896d0257b95b45344015aefe23e975c5add2cd588ae77d80",
+      "firstVk": "https://vk.com/clubspb5891223"
+    },
+    {
+      "file": "clubs/nevsky/yubileynyy.html",
+      "status": 200,
+      "sha256": "613d8415755844595dbd711cf9784cf68dfee24c66e811c670e9df6f39bbc33c",
+      "firstVk": "https://vk.com/clubyoubileyny"
+    },
+    {
+      "file": "clubs/nevsky/yunost.html",
+      "status": 200,
+      "sha256": "ebe77fd429ace459de75cda61591983171d224aa951607fdb5a8d1e1e439ff88",
+      "firstVk": "https://vk.com/pmk_junost"
+    },
+    {
+      "file": "clubs/nevsky/zorkiy.html",
+      "status": 200,
+      "sha256": "d9e9127964c6cf21a296d888876325cb473ba1e90b38f68627a431222c858a9e",
+      "firstVk": "https://vk.com/public94070149"
+    },
+    {
+      "file": "clubs/otvaga.html",
+      "status": 200,
+      "sha256": "901f5a8b9a125a6398f70ef5fc7df77de372c254578ebf30f8b3980e638c6997",
+      "firstVk": "https://vk.ru/otvagaclubvo"
+    },
+    {
+      "file": "clubs/petrodvortsovy/brig.html",
+      "status": 200,
+      "sha256": "028f280f10451f5553c81f9687f820e9e83ac3222648e960b6a4cde8f83668ec",
+      "firstVk": "https://vk.com/pmc_petergof"
+    },
+    {
+      "file": "clubs/petrodvortsovy/ekvator.html",
+      "status": 200,
+      "sha256": "d3c23c450aedb445755e2d90f0a442c305d410c80a78c0f4ed9ff6c27a95eb51",
+      "firstVk": "https://vk.com/pmc_petergof"
+    },
+    {
+      "file": "clubs/petrodvortsovy/gals.html",
+      "status": 200,
+      "sha256": "836923a49303d6cb3a8bea2274d6148df2e420e4d846c4b757e4c47845cbf283",
+      "firstVk": "https://vk.com/pmc_petergof"
+    },
+    {
+      "file": "clubs/petrodvortsovy/m51.html",
+      "status": 200,
+      "sha256": "5ade4422b9255c930891824643339d4ab0a9be4cb0fbae4326af1f1815e2fcc4",
+      "firstVk": "https://vk.com/pmc_petergof"
+    },
+    {
+      "file": "clubs/petrodvortsovy/meridian.html",
+      "status": 200,
+      "sha256": "324e576d2fdc9583104cfcfbf1b03d35c118a3ad0b88413601f5171cc934a5d9",
+      "firstVk": "https://vk.com/pmc_petergof"
+    },
+    {
+      "file": "clubs/petrodvortsovy/navigator.html",
+      "status": 200,
+      "sha256": "7404c38b34829e58299deadfa77bbe3d729491db118dc8e33e3a682130d1cba0",
+      "firstVk": "https://vk.com/pmc_petergof"
+    },
+    {
+      "file": "clubs/petrodvortsovy/olimp.html",
+      "status": 200,
+      "sha256": "1f0a2f6ab5905456a0eebfa7cf39b5eeef56b933714013d995338e7fd005a6b7",
+      "firstVk": "https://vk.com/pmc_petergof"
+    },
+    {
+      "file": "clubs/petrodvortsovy/strela.html",
+      "status": 200,
+      "sha256": "ed58c9176bf7c1d3b56221f69975bca42362f73040aba45aafaf9b0403531e84",
+      "firstVk": "https://vk.com/pmc_petergof"
+    },
+    {
+      "file": "clubs/petrodvortsovy/tayfun.html",
+      "status": 200,
+      "sha256": "06b2edcd9a5f0bc1a4480cfe77e019309ab0d7fdf3c71c8e945a13a9c688ab02",
+      "firstVk": "https://vk.com/pmc_petergof"
+    },
+    {
+      "file": "clubs/petrodvortsovy/yunta.html",
+      "status": 200,
+      "sha256": "4234b90f7109d8fc1683d31d2bafbc67cbfab8b8bc792f1352250fe988d18467",
+      "firstVk": "https://vk.com/pmc_petergof"
+    },
+    {
+      "file": "clubs/petrogradsky/alfa.html",
+      "status": 200,
+      "sha256": "ea0ba2758dd8be9f33265ccbef057de6d8ff1c7bc6d4b1678303ec64f65a24b0",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/almaz.html",
+      "status": 200,
+      "sha256": "11a13369219122e949eb1b46a03322978d8b6bec960ab34d3ced46f58b0f8d02",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/antey.html",
+      "status": 200,
+      "sha256": "b4959b0f068c31299e7c2daa8960a8b8302da6970425521f2f3b83449ae65c7d",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/chayka.html",
+      "status": 200,
+      "sha256": "024dc6a6ac1acede9370e46aae4aaa647ea9043e496f0947dbe396e373fcbaa4",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/dobro-tsentr.html",
+      "status": 200,
+      "sha256": "69ccfde20f2503d92fbdbcb3502e1a0658d3c9967037fd0af6ff6b14c9646c35",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/dom-yunarmii.html",
+      "status": 200,
+      "sha256": "49ae5939d4caa063d1040a45917bd8ee7447171f9f5d5daae4ef56d3e1d7734e",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/dom.html",
+      "status": 200,
+      "sha256": "57d752050ebe184df4b3cfbd69ba2dd85bbb84e5f6a1616513fbb1968be0eadf",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/era.html",
+      "status": 200,
+      "sha256": "e52be9f542926f238057a99cb2093c4513c12ce5f82e2175e1eb919701fe3ceb",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/estetika.html",
+      "status": 200,
+      "sha256": "45100610d02ea1f5005202697552a6473712d7bdb5a19011f25489181ce1d69f",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/fandom.html",
+      "status": 200,
+      "sha256": "ea75f303aaf5901e19d1648249c2ea8ebb7b6ce3f60c53a0130d429a07f753bc",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/mir.html",
+      "status": 200,
+      "sha256": "364424f4a10264641323ec75878c096537d4e4df9c72a74d53362155b555a860",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/obschestvennye-masterskie.html",
+      "status": 200,
+      "sha256": "8774f3fd1044c9ff06e1f6928b38a4d5e2b3d698e4700b4bbd1a803bdeeaa2f5",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/palata-remyosel.html",
+      "status": 200,
+      "sha256": "2773010da6c78d5ccda132f5c71010b44aab380cb07fbfaaebde973c20b9bdae",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/planeta-art.html",
+      "status": 200,
+      "sha256": "fb3eac30b7498087d0f39587b94fba3577c8a2d5df963008aa005318011107f8",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/severnoe-siyanie.html",
+      "status": 200,
+      "sha256": "799345cc32cdff596ef3402ba0748d93318766c70fc14faace8b03d7ef63ddbb",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/sreda.html",
+      "status": 200,
+      "sha256": "d5f37ebdd79fb48b822654816f55b93ca3ec8640f086cd965c3e613cd06fa5cd",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/start.html",
+      "status": 200,
+      "sha256": "662c4d4f3c965b742d6000c2f65a75448b5cb1fcc27c14d7f9b243dac63e04fc",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/vega.html",
+      "status": 200,
+      "sha256": "37526375dafbf2c9c31574a7619f54a58d63cd5520369a014ccd66927f09ca51",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/yu-piter.html",
+      "status": 200,
+      "sha256": "be7f4a86c04a129640b61fbdd7c894b0b70f1f5c1c9d9e87fd2fb87ebc0709dd",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/petrogradsky/zerkalo.html",
+      "status": 200,
+      "sha256": "61a780114d70cdc871128d67050781bc7215b41ebb23c34148e8cf762de179af",
+      "firstVk": "https://vk.com/pmc_petrograd"
+    },
+    {
+      "file": "clubs/planeta.html",
+      "status": 200,
+      "sha256": "c47ba4992bba052c56779e89d32d061ec421bd6741baff0821d6c06883eaeab5",
+      "firstVk": "https://vk.ru/club195516119"
+    },
+    {
+      "file": "clubs/press-klub.html",
+      "status": 200,
+      "sha256": "e83649798d72516cf9bf041c0e09bcabd43bb856e8813c58d564345b00761207",
+      "firstVk": "https://vk.com/publicvvo"
+    },
+    {
+      "file": "clubs/primorsky/galaktika.html",
+      "status": 200,
+      "sha256": "2e5feedc5bee99ed16f1c3e51c6efd7067be79241770c27de27c3e5b3f84a60c",
+      "firstVk": "https://vk.com/dommolspb"
+    },
+    {
+      "file": "clubs/primorsky/kaskad.html",
+      "status": 200,
+      "sha256": "a26cdbc1a5344f628b8f8a7c9498f67edfef7b47e11b706249875c4758190b4f",
+      "firstVk": "https://vk.com/dommolspb"
+    },
+    {
+      "file": "clubs/primorsky/korpus.html",
+      "status": 200,
+      "sha256": "88e065b4e891e3bbf4cb9d5db3033b3a7a32adc1e514c0c3d7da11cdbaadf12a",
+      "firstVk": "https://vk.com/dommolspb"
+    },
+    {
+      "file": "clubs/primorsky/molodyozhnaya-ideya.html",
+      "status": 200,
+      "sha256": "bdf5aad4371a0b9706b73fcdc06eaed0a0a0cdc5f218a65f8f8c59f64a5a6c73",
+      "firstVk": "https://vk.com/dommolspb"
+    },
+    {
+      "file": "clubs/primorsky/na-bogatyrskom.html",
+      "status": 200,
+      "sha256": "ddda0a29a8d3630717bf5c191e83a5edfa1c9758feab00a0fb8f38730762ed39",
+      "firstVk": "https://vk.com/dommolspb"
+    },
+    {
+      "file": "clubs/primorsky/na-korolyova.html",
+      "status": 200,
+      "sha256": "31fe9760260e15a4195312f0f885cd7b96724daf3704124ade1f164ecb51ed6a",
+      "firstVk": "https://vk.com/dommolspb"
+    },
+    {
+      "file": "clubs/primorsky/neva.html",
+      "status": 200,
+      "sha256": "68b3e590e2b9fbe736d7e3cf55cc25fd3ab376de90427dd080876221848673d5",
+      "firstVk": "https://vk.com/dommolspb"
+    },
+    {
+      "file": "clubs/primorsky/razvitie.html",
+      "status": 200,
+      "sha256": "2269a3789a116216956e839c123011e18735f4803529ed6c2ee0db880a66da92",
+      "firstVk": "https://vk.com/dommolspb"
+    },
+    {
+      "file": "clubs/primorsky/ritm.html",
+      "status": 200,
+      "sha256": "dd5c4721ae4cbcfce1ff1377e234645abf137ea0f14ac820e4ffed2cc19068e5",
+      "firstVk": "https://vk.com/dommolspb"
+    },
+    {
+      "file": "clubs/primorsky/v-stile.html",
+      "status": 200,
+      "sha256": "7866bdd48fb9397ab629684ae269bc937da50e8a497aa6fbd9cc2930261a495a",
+      "firstVk": "https://vk.com/dommolspb"
+    },
+    {
+      "file": "clubs/primorsky/yunost.html",
+      "status": 200,
+      "sha256": "a5d9a7f64bf77aa4c336cc0569448a8ff8f9e39ed8c6e5f24a71cdaf0156a382",
+      "firstVk": "https://vk.com/dommolspb"
+    },
+    {
+      "file": "clubs/primorsky/yupiter.html",
+      "status": 200,
+      "sha256": "3e884ea899ae6867011fb8664162b6f410bf2983c7258429184a0e6c6689a6ab",
+      "firstVk": "https://vk.com/dommolspb"
+    },
+    {
+      "file": "clubs/primorsky/zaozere.html",
+      "status": 200,
+      "sha256": "d8ef31264b65a99a78964701226142bf74ea86de9893701f42164d21fec48995",
+      "firstVk": "https://vk.com/dommolspb"
+    },
+    {
+      "file": "clubs/prityazhenie.html",
+      "status": 200,
+      "sha256": "32e0a5884e41a17521f190a18db4881a25281cf5eae6b84282b3ae1edfbdaeb5",
+      "firstVk": "https://vk.ru/gravity_vo"
+    },
+    {
+      "file": "clubs/proton.html",
+      "status": 200,
+      "sha256": "c64c2f7061c1d38cea7504eb993b8ed5ee3305106a0a399bb7fbf1796b8ab533",
+      "firstVk": "https://vk.ru/protonclub"
+    },
+    {
+      "file": "clubs/pushkinsky/3-y-etazh.html",
+      "status": 200,
+      "sha256": "608f2ea46298dfdd848b47e1498aa371fae8c4194c9e7edb7cdc7d534a40e42a",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/antey.html",
+      "status": 200,
+      "sha256": "f959a45dbb87286b6e63224c49f0de223f485a9f09783d4fd3f38f98cdbb4627",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/chayka.html",
+      "status": 200,
+      "sha256": "1e88372b6c5afcca74d61dc612aaa74b65b8c13ef2d6f766dd1d584c78cf39f6",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/informatsionnyy-tsentr-tsarskoselskiy.html",
+      "status": 200,
+      "sha256": "a8c5426828e7328cc14aa88ba7230a5fc06c565f52877b715b9599b2a71ba1c4",
+      "firstVk": "https://vk.com/pushkindm"
+    },
+    {
+      "file": "clubs/pushkinsky/istok.html",
+      "status": 200,
+      "sha256": "fa63ca17ccba54a3c69da5ad6fa4625baab143ff440b38fb9d34a1e9f6fab224",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/lensovetovskiy.html",
+      "status": 200,
+      "sha256": "8e06189c129e26e33437806a26901656ce661fd59e044293cd3d0ef4aaf3510e",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/nika.html",
+      "status": 200,
+      "sha256": "56625f7ba3149983a10b699c919a0e7c3e58fe94526b748fc524f0cdc9acc388",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/olimp.html",
+      "status": 200,
+      "sha256": "98744301ae3251d99a846d45c87981ac3c08ab156c8b221da4668e78bef18d49",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/pavlovchanin.html",
+      "status": 200,
+      "sha256": "69cccaff9054f7a83cd64901ea9ce3afcacd828e7395efc6db58f79ee09be35a",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/pulkovets.html",
+      "status": 200,
+      "sha256": "d5ce06b3a6bf3f269cc0949e4091d4953609fe9c4be770f4aeb4d1cd9381255c",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/pushkinets.html",
+      "status": 200,
+      "sha256": "c7b0815cfc34a5dc0fcd5a8707926376fa5b74f2ff10c346dd0b0486581f5120",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/raduga.html",
+      "status": 200,
+      "sha256": "400772bb11ec0cc87d0fcef26229c74508869b1358a21a567c21f8c2c583d522",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/rostok.html",
+      "status": 200,
+      "sha256": "99c1779ecf8eb05ea05819eacccbea44b0ee44ded493e69988c40b2cafca062f",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/shushary.html",
+      "status": 200,
+      "sha256": "f22db690f0cece5485dea579a33f16a6d5230158fa364af4f429edc514b26835",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/slavyanka.html",
+      "status": 200,
+      "sha256": "bf099958ba534cbccf06b5e016e8688dcbea1e64dc0b3f7579961aa5d4b565df",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/tovarisch.html",
+      "status": 200,
+      "sha256": "9b876db07efce7d977e24c2e315ac62aafd2595be2cb8993f19209319a5436e4",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/tsarskoselskiy.html",
+      "status": 200,
+      "sha256": "ce60e7299d385560547a97e321a6b07878b00385cd7c45bc8dc2b458aaab6862",
+      "firstVk": "https://vk.com/pushkindm"
+    },
+    {
+      "file": "clubs/pushkinsky/vitus.html",
+      "status": 200,
+      "sha256": "e7a4d0a3a48a69b8b9b25f79f33b9443c5ec39288511b2bfff66c5ffcd705e64",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/vympel.html",
+      "status": 200,
+      "sha256": "5e7c5e32d0674c42b77a71b96efcfeea9b9a949b55b57b7bbe59dc13fea5eb32",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/yunost.html",
+      "status": 200,
+      "sha256": "4463a1df33f2f341902b599a32db33eb54ae1fc93fcbfdcf29fb92f62709d9bb",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/pushkinsky/zareche.html",
+      "status": 200,
+      "sha256": "16ca479cf9d85d8bfa67756eda6bc755b12b4adeb892742eb90e59b05993d304",
+      "firstVk": "https://vk.com/rpz_pushkinez"
+    },
+    {
+      "file": "clubs/raduga.html",
+      "status": 200,
+      "sha256": "35ec33d58c1467bc9c16465dd2362bd2a07948f8c094a2e2839662149a22321e",
+      "firstVk": "https://vk.ru/club228348392"
+    },
+    {
+      "file": "clubs/rovesnik.html",
+      "status": 200,
+      "sha256": "f12f267c5017c857e8b0eeaa25238287547935e32b88e6352bdf805b93b8989f",
+      "firstVk": "https://vk.ru/club227051367"
+    },
+    {
+      "file": "clubs/salyut.html",
+      "status": 200,
+      "sha256": "e498fbb521b1795f73eb1b4febca5687f9900fbb7626565b04ce9e1b7f6bdf75",
+      "firstVk": "https://vk.ru/salutvo"
+    },
+    {
+      "file": "clubs/severa.html",
+      "status": 200,
+      "sha256": "bc1e8a8c13288e7f1875afa1538baf68d41a62da41f3df3c031a345c7b072999",
+      "firstVk": "https://vk.ru/club231411996"
+    },
+    {
+      "file": "clubs/shahmatnyy.html",
+      "status": 200,
+      "sha256": "720066835255d47c3e081aafcc017464f61e2b1a50e31d570f6c002c696d6cfb",
+      "firstVk": "https://vk.ru/chessvo"
+    },
+    {
+      "file": "clubs/shturm.html",
+      "status": 200,
+      "sha256": "0324ded7be929d7507674ccd51794c6a52acc7fcd5d44efb6bb345ec58b500ea",
+      "firstVk": "https://vk.ru/clubshturmvo"
+    },
+    {
+      "file": "clubs/skautskiy.html",
+      "status": 200,
+      "sha256": "087277da76f5148076a488eb9b75d8c126844f2fb78d93bc9e5a70d068555f5b",
+      "firstVk": "https://vk.ru/otryad_sova"
+    },
+    {
+      "file": "clubs/sparta.html",
+      "status": 200,
+      "sha256": "c09b01a744eb3506b43209a73ddebd6677e90bd5b2be601f6671f3454ee416ce",
+      "firstVk": "https://vk.ru/club12646245"
+    },
+    {
+      "file": "clubs/tsentr-turistskoy-podgotovki.html",
+      "status": 200,
+      "sha256": "a852220a6b4e6348e363e4ed4f73f8e6ebeb051e639f66df15161be07d63f943",
+      "firstVk": "https://vk.ru/club195516119"
+    },
+    {
+      "file": "clubs/tsentr-tvorchestva.html",
+      "status": 200,
+      "sha256": "a39bb3b2642efbf5016a51f1ffebb3d6dd584b3d4ae7f3769bfd9681fc0862c2",
+      "firstVk": "https://vk.ru/pmc_vo"
+    },
+    {
+      "file": "clubs/tsentralny/atlant.html",
+      "status": 200,
+      "sha256": "40bc40b02d4076432a6378f3efb3baa0a2b50c642c00927c93c7d19aba8ca9cd",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/atlet.html",
+      "status": 200,
+      "sha256": "c1e88666b8af80a0deb26d09f714da53560ec954bf25553074f4c1792c797947",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/bars.html",
+      "status": 200,
+      "sha256": "72396754515492476884d80aca53883a29b18addb57b1c7159bcdd9b7947efa3",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/chayka.html",
+      "status": 200,
+      "sha256": "7466b7d3f34cc4977d68e9bc0d318501d6846be33b7e74d376029b9f96f35467",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/feniks.html",
+      "status": 200,
+      "sha256": "2c00feae958fe5b7d10b9d45a1c70523d73c2ac860663f7f26b1d22214ae7f3c",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/gorizont.html",
+      "status": 200,
+      "sha256": "fe013bd1ef6aadf02620cdaf631ae03a91ae8ca73b2849591213e933002db519",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/leningradets.html",
+      "status": 200,
+      "sha256": "67b734aa15957b8361e76a6e17d84fbef84e842b8788c9baa7083db9f3834146",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/luch.html",
+      "status": 200,
+      "sha256": "74befe76396949945738701d2b4ed6e6f4b1791101512534ca406918ec23a41f",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/maksimum.html",
+      "status": 200,
+      "sha256": "669614097f27c7ad0e2bbba816f3ee49914b0b9e3ec5ce2a9ad42dbd816b7cfa",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/mayak.html",
+      "status": 200,
+      "sha256": "c4d0f8b2a931dec13221600a0b93e2ed29e7570d4c583142e9f9f168691f565f",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/muraveynik.html",
+      "status": 200,
+      "sha256": "60db4853195f60460d1e111c9e713a8ff75fa5c2c2b1170991b2d538e66b1337",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/na-furshtatskoy.html",
+      "status": 200,
+      "sha256": "50b9dcdf6b5a227e5adaf5b18e473bc1371006149c9883c8ba4ebca6c3e4127b",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/na-kolomenskoy.html",
+      "status": 200,
+      "sha256": "58898cf85d98c745a8e9ac3e7aee9d8998b81a7b97bec0231f2030a99957d8cf",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/na-marata.html",
+      "status": 200,
+      "sha256": "2df3e4b305e71fc62db3ab39946a36a94d3796985a6b32b06ef6282c3d28eeef",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/na-troitskoy.html",
+      "status": 200,
+      "sha256": "5e3fc2ec11200fe0531ecd7631475fb959d330efb7d99a98c80fbba5e7560566",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/neva.html",
+      "status": 200,
+      "sha256": "098705f49810fc46552886facba850144afe9c2d63918d408d0eb7d3cbb0af47",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/ogonyok.html",
+      "status": 200,
+      "sha256": "28ac5f1d449f09e9c644e0939ad6cd26e7ea714ea0553d31bd7b9278eaeba6bd",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/ostrova.html",
+      "status": 200,
+      "sha256": "a1fa15a427cf6a01fb2406d05f889758fb87f94dda791a628e3b29b68c5e8523",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/petrovskiy.html",
+      "status": 200,
+      "sha256": "c07f1d6515ebe15bc38493a156115e07e75358e4aaf9dc4e849e5b5bc4e813e0",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/prometey.html",
+      "status": 200,
+      "sha256": "813246dce639e2a1bd29691ab485f3aecbb395cf12d546947dcd17ee0d0f97d6",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/romantiki.html",
+      "status": 200,
+      "sha256": "73dfab85cf17058f201d25db75ad63b0d1d41db22897cd9f594ffeb4dfe95804",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/rovesnik.html",
+      "status": 200,
+      "sha256": "d48b3ed1700421da66a1c60b72a405ee84f60561aac1e9566b7bc3ff39f66724",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/spartak.html",
+      "status": 200,
+      "sha256": "69573d777dd319612f803d19d59b3d9724de3348321ffce2074cda81420520df",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/yamskaya-sloboda.html",
+      "status": 200,
+      "sha256": "c83fa05314a2d560b06a203cd3c0712a9dacef2117edbb89c9dc1ca380c664f1",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/tsentralny/yunost.html",
+      "status": 200,
+      "sha256": "895e5335a8b6159aaf8d0a92e0d7e6cb0d8c083f5ab5220090d1d44a5ea43474",
+      "firstVk": "https://vk.com/opmk_perspektiva"
+    },
+    {
+      "file": "clubs/vindserfing.html",
+      "status": 200,
+      "sha256": "472692a9828adaae9810aec94dae1fed0594fb8cc651d8787ffdcaf9180f3ec1",
+      "firstVk": "https://vk.ru/club215682842"
+    },
+    {
+      "file": "clubs/vitana.html",
+      "status": 200,
+      "sha256": "4e0c1c38c1ece62d7508b339ce033bc30b5d68ecd613314ebf8420ae9065f6de",
+      "firstVk": "https://vk.ru/vitanavospb"
+    },
+    {
+      "file": "clubs/vyborgsky/feniks.html",
+      "status": 200,
+      "sha256": "06c93e69014b633ad3c1e3b26789b86e2c7416aeef308258f6d498e7a28d3b7c",
+      "firstVk": "https://vk.ru/dm_forpost"
+    },
+    {
+      "file": "clubs/vyborgsky/festival.html",
+      "status": 200,
+      "sha256": "134f6d3f972ccd4b883576e77c3019361be434d6fa6f114512042847a23061f1",
+      "firstVk": "https://vk.ru/dm_forpost"
+    },
+    {
+      "file": "clubs/vyborgsky/forpost.html",
+      "status": 200,
+      "sha256": "c69adb88ce349b0dd605d1529cc3728f511be1178d4ad16ae8f5bbe791d9d76a",
+      "firstVk": "https://vk.ru/dm_forpost"
+    },
+    {
+      "file": "clubs/vyborgsky/lider.html",
+      "status": 200,
+      "sha256": "8751970cc3689d619b32da7167ed0b993e17a8186c82113c8711de67fa795904",
+      "firstVk": "https://vk.ru/pmk_leader"
+    },
+    {
+      "file": "clubs/vyborgsky/patriot.html",
+      "status": 200,
+      "sha256": "6a22bf8f6a7c0ea721956d31e90d73208561aca4274641473be385c0b46301ec",
+      "firstVk": "https://vk.ru/mirpatriot"
+    },
+    {
+      "file": "clubs/vyborgsky/perekryostok.html",
+      "status": 200,
+      "sha256": "933377fc47909dd294cfa73a350f108ce28c1f20bae9d3d9fed3ce9c7ddeb4eb",
+      "firstVk": "https://vk.ru/mklub461"
+    },
+    {
+      "file": "clubs/vyborgsky/perspektiva.html",
+      "status": 200,
+      "sha256": "f09a4057b4d1439a55666b4453b39d50d5b35eab3b755cd1cbcd9a6782067cd2",
+      "firstVk": "https://vk.ru/mk_perspektiva"
+    },
+    {
+      "file": "clubs/vyborgsky/ritm.html",
+      "status": 200,
+      "sha256": "5e158c4e702ee86821853da12214d4b50c6f33515c47e56e19f2d539a034c15c",
+      "firstVk": "https://vk.com/ritm_pmc_mir"
+    },
+    {
+      "file": "clubs/vyborgsky/tsentralnyy.html",
+      "status": 200,
+      "sha256": "de10f84972a2e62abb0fbbb502b4c3e3653e26d5d21a892c2c383ab166445f66",
+      "firstVk": "https://vk.ru/pmk_centerclub"
+    },
+    {
+      "file": "clubs/yunost.html",
+      "status": 200,
+      "sha256": "6e5eae93662457cb973a605dd65426d8e385fb5a10444be12f59ebf7fbee7d21",
+      "firstVk": "https://vk.ru/yunostclubvo"
+    },
+    {
+      "file": "clubs/yupiter.html",
+      "status": 200,
+      "sha256": "026c879e8aed43491bb342accf832c9e1f998874a8e93eca168391e7ef3240c1",
+      "firstVk": "https://vk.ru/pmkyoupiter"
+    },
+    {
+      "file": "directions/index.html",
+      "status": 200,
+      "sha256": "2df64517a5e3c5f866916b37d2c2a3510f77ff559283baa88c04416d650709b2"
+    },
+    {
+      "file": "districts/vyborgsky.html",
+      "status": 200,
+      "sha256": "6efcabad20eb5a9a526d1f2d214c7d9a180b31e80a79dca2b3864443f1ef191d"
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "d9136e0c4d36c657e2a37a832c960cb7a5b771033dde3c57a8bcd98cf860298f"
+    },
+    {
+      "file": "robots.txt",
+      "status": 200,
+      "sha256": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8"
+    },
+    {
+      "file": "sitemap.xml",
+      "status": 200,
+      "sha256": "c1a0cb90885cf4702cf70ec7fbf5aa6ada958433f181e508c99a80e2ac85148f"
+    }
+  ],
+  "officialOrganizationSources": [
+    {
+      "url": "https://kolpinets.ru/",
+      "finalUrl": "https://kolpinets.ru/",
+      "status": 200,
+      "title": "Дом молодёжи «Колпинец»",
+      "vk": [
+        "//vk.com/dm_kolpinets"
+      ]
+    },
+    {
+      "url": "https://kron-dm.ru/",
+      "finalUrl": "https://xn----htbqkcfn.xn--p1ai/",
+      "status": 200,
+      "title": "Главная",
+      "vk": [
+        "https://vk.com/krondm"
+      ]
+    },
+    {
+      "url": "https://pushkindm.ru/",
+      "finalUrl": "https://pushkindm.ru/",
+      "status": 200,
+      "title": "Дом Молодежи \"Царскосельский\"",
+      "vk": [
+        "https://vk.com/pushkindm",
+        "https://vk.com/media_squad",
+        "https://vk.com/bermudy_ms",
+        "https://vk.com/mnogogr",
+        "https://vk.com/gitara_dlya_dushi",
+        "https://vk.com/vocal_dm",
+        "https://vk.com/volonterdm",
+        "https://vk.com/club87181534",
+        "https://vk.com/pushkin70pobeda",
+        "https://vk.com/zemlanedm",
+        "https://vk.com/interclubdmc",
+        "https://vk.com/club20360478",
+        "https://vk.com/otryadataka",
+        "https://vk.com/beatsofkids",
+        "https://vk.com/kot_cluster",
+        "https://vk.com/pobedadm",
+        "https://vk.com/wall-18865259_14267",
+        "https://vk.com/club220024972",
+        "https://vk.com/prof_dm",
+        "https://vk.com/tsargolosa",
+        "https://vk.com/club225966844",
+        "https://vk.com/market/product/klub-debatov-quottochka-zreniaquot-23743789-10703458",
+        "https://vk.com/club76639506",
+        "https://vk.com/id7269409",
+        "https://vk.com/pushkindm?w=wall-18865259_10252",
+        "https://vk.com/pushkindm?w=wall-18865259_10255",
+        "https://vk.com/pushkindm?w=wall-18865259_10947",
+        "https://vk.com/pushkindm?w=wall-18865259_10177",
+        "https://vk.com/portalnashspb"
+      ]
+    },
+    {
+      "url": "https://dom-mol.ru/",
+      "finalUrl": "https://dom-mol.ru/",
+      "status": 200,
+      "title": "Дом молодежи Приморского района",
+      "vk": [
+        "https://vk.com/dommolspb",
+        "https://vk.com/mirvrspb",
+        "https://vk.com/dodospb",
+        "https://vk.com/coffee_bon",
+        "https://vk.com/hollyprofessional"
+      ]
+    },
+    {
+      "url": "https://dm.pulkovec.ru/",
+      "error": "fetch failed"
+    }
+  ],
+  "git": {
+    "commitCreated": false,
+    "pushed": false
+  },
+  "limitations": [
+    "VK community pages were not checked directly; existing links retain their source dates.",
+    "236 club cards use the institution VK because no dedicated club VK is recorded.",
+    "3 of the 98 primary catalog VK links point to a shared community.",
+    "Prototype files, root verification keys, robots, sitemap, htaccess and server comments were protected by checksum."
+  ]
+}

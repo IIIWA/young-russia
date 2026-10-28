@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { pageSeo } from './page-seo.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const legacyDir = path.join(root, '.data', 'legacy');
@@ -44,6 +45,7 @@ for await (const filename of htmlFiles(legacyDir)) {
     script: required(markup, /<script src="(?:\.\.\/)*assets\/([^"]+)" defer><\/script>/, filename),
     hero: markup.match(/<link rel="preload" as="image" href="(?:\.\.\/)*assets\/([^"]+)"[^>]*>/)?.[1] ?? null,
   };
+  Object.assign(page, pageSeo(relative, page));
   const target = path.join(pagesDir, `${relative}.json`);
   await fs.mkdir(path.dirname(target), { recursive: true });
   await fs.writeFile(target, JSON.stringify(page));

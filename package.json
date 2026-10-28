@@ -10,9 +10,10 @@
     "dev": "npm run prepare:nuxt-content && nuxt dev",
     "build": "npm run prepare:nuxt-content && nuxt generate && node scripts/publish-nuxt.mjs",
     "build:legacy": "node build-site.mjs",
-    "data:views": "node scripts/build-vyborgsky-note-evidence.mjs && node scripts/build-district-research-views.mjs && node scripts/build-admiralteysky-research-base.mjs && node scripts/build-vyborgsky-research-base.mjs",
+    "data:views": "node scripts/build-vyborgsky-note-evidence.mjs && node scripts/build-district-research-views.mjs && node scripts/build-admiralteysky-research-base.mjs && node scripts/build-vyborgsky-research-base.mjs && node scripts/build-official-district-research-base.mjs && node scripts/build-ligovo-research-base.mjs",
     "data:coords": "node scripts/build-coordinates-list.mjs",
-    "check": "node scripts/check-site.mjs",
+    "prototype:topics": "node scripts/build-topic-page-prototypes.mjs",
+    "check": "node scripts/check-site.mjs && node scripts/check-seo.mjs",
     "preview": "node scripts/serve.mjs"
   },
   "devDependencies": {

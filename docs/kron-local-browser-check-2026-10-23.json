@@ -1,0 +1,99 @@
+{
+  "checkedSchedules": 27,
+  "checkedSlots": 68,
+  "retiredPagesAbsent": 0,
+  "contactPages": 3,
+  "renderMode": "static dist HTML with original local CSS and fonts; no HTTP preview assertion",
+  "browserChecks": [
+    {
+      "route": "activities/kronshtadtsky-mayak-studiya-goncharnyy-krug-16.html",
+      "width": 390,
+      "scroll": 390,
+      "groups": [
+        2
+      ],
+      "slots": 3,
+      "screenshot": "outputs/kron-mayak-390.png"
+    },
+    {
+      "route": "activities/kronshtadtsky-mayak-studiya-goncharnyy-krug-16.html",
+      "width": 683,
+      "scroll": 683,
+      "groups": [
+        2
+      ],
+      "slots": 3,
+      "screenshot": "outputs/kron-mayak-683.png"
+    },
+    {
+      "route": "activities/kronshtadtsky-mayak-studiya-goncharnyy-krug-16.html",
+      "width": 1280,
+      "scroll": 1280,
+      "groups": [
+        2
+      ],
+      "slots": 3,
+      "screenshot": "outputs/kron-mayak-1280.png"
+    },
+    {
+      "route": "activities/kronshtadtsky-rovesnik-molodezhnoe-obedinenie-ritm-16.html",
+      "width": 390,
+      "scroll": 390,
+      "groups": [
+        2
+      ],
+      "slots": 2,
+      "screenshot": "outputs/kron-rovesnik-390.png"
+    },
+    {
+      "route": "activities/kronshtadtsky-rovesnik-molodezhnoe-obedinenie-ritm-16.html",
+      "width": 683,
+      "scroll": 683,
+      "groups": [
+        2
+      ],
+      "slots": 2,
+      "screenshot": "outputs/kron-rovesnik-683.png"
+    },
+    {
+      "route": "activities/kronshtadtsky-rovesnik-molodezhnoe-obedinenie-ritm-16.html",
+      "width": 1280,
+      "scroll": 1280,
+      "groups": [
+        2
+      ],
+      "slots": 2,
+      "screenshot": "outputs/kron-rovesnik-1280.png"
+    },
+    {
+      "route": "activities/kronshtadtsky-kronshtadtskiy-dvorets-molodyozhi-fizkulturno-sportivnaya-sektsiya-e-20.html",
+      "width": 390,
+      "scroll": 390,
+      "groups": [
+        2
+      ],
+      "slots": 5,
+      "screenshot": "outputs/kron-kronshtadtskiy-dvorets-molodyozhi-390.png"
+    },
+    {
+      "route": "activities/kronshtadtsky-kronshtadtskiy-dvorets-molodyozhi-fizkulturno-sportivnaya-sektsiya-e-20.html",
+      "width": 683,
+      "scroll": 683,
+      "groups": [
+        2
+      ],
+      "slots": 5,
+      "screenshot": "outputs/kron-kronshtadtskiy-dvorets-molodyozhi-683.png"
+    },
+    {
+      "route": "activities/kronshtadtsky-kronshtadtskiy-dvorets-molodyozhi-fizkulturno-sportivnaya-sektsiya-e-20.html",
+      "width": 1280,
+      "scroll": 1280,
+      "groups": [
+        2
+      ],
+      "slots": 5,
+      "screenshot": "outputs/kron-kronshtadtskiy-dvorets-molodyozhi-1280.png"
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "date": "2026-10-22",
+  "deployedAt": "2026-10-22T16:55:33Z",
+  "verifiedAt": "2026-10-22T16:58:25.462Z",
+  "clubs": 9,
+  "officialClubPages": 6,
+  "activities": 76,
+  "htmlPages": 86,
+  "archiveSha256": "be686658a9991e343e849dd85d712d08dbe359676e62aabbd0eaea8e9481d557",
+  "backup": {
+    "path": "/var/www/u3013321/data/backups/young-russia-before-vyborg-links-2026-10-22.tar.gz",
+    "sha256": "d134b5cd577de0927a3ee346fc801fa78e11094ecfc5ea397af0637ff1586953"
+  },
+  "previous": "/var/www/u3013321/data/www/.young-russia-prev-20261022-vyborg-links",
+  "protectedFiles": [
+    {
+      "route": "sitemap.xml",
+      "status": 200,
+      "sha256": "13d790a9e641184ece104af4499343a684ed4a68951b63b4b1efebdbf90bb86c"
+    },
+    {
+      "route": "robots.txt",
+      "status": 200,
+      "sha256": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8"
+    }
+  ],
+  "browser": [
+    {
+      "name": "Центральный",
+      "route": "clubs/vyborgsky/tsentralnyy.html",
+      "links": [
+        {
+          "text": "Страница клуба ↗",
+          "href": "https://xn----ptbkbv6a.xn--p1ai/centralny147"
+        },
+        {
+          "text": "ВКонтакте клуба ↗",
+          "href": "https://vk.ru/pmk_centerclub"
+        },
+        {
+          "text": "Сообщество учреждения ↗",
+          "href": "https://vk.com/pmcmir"
+        }
+      ],
+      "vkVisible": true,
+      "overflow": false
+    },
+    {
+      "name": "Ритм",
+      "route": "clubs/vyborgsky/ritm.html",
+      "links": [
+        {
+          "text": "Страница клуба ↗",
+          "href": "https://xn----ptbkbv6a.xn--p1ai/ritm133"
+        },
+        {
+          "text": "ВКонтакте клуба ↗",
+          "href": "https://vk.com/ritm_pmc_mir"
+        },
+        {
+          "text": "Сообщество учреждения ↗",
+          "href": "https://vk.com/pmcmir"
+        }
+      ],
+      "vkVisible": true,
+      "overflow": false
+    },
+    {
+      "name": "Перекрёсток",
+      "route": "clubs/vyborgsky/perekryostok.html",
+      "links": [
+        {
+          "text": "Страница клуба ↗",
+          "href": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46"
+        },
+        {
+          "text": "ВКонтакте клуба ↗",
+          "href": "https://vk.ru/mklub461"
+        },
+        {
+          "text": "Сообщество учреждения ↗",
+          "href": "https://vk.com/pmcmir"
+        }
+      ],
+      "vkVisible": true,
+      "overflow": false
+    },
+    {
+      "name": "Патриот",
+      "route": "clubs/vyborgsky/patriot.html",
+      "links": [
+        {
+          "text": "Страница клуба ↗",
+          "href": "https://xn----ptbkbv6a.xn--p1ai/patriot18"
+        },
+        {
+          "text": "ВКонтакте клуба ↗",
+          "href": "https://vk.ru/mirpatriot"
+        },
+        {
+          "text": "Сообщество учреждения ↗",
+          "href": "https://vk.com/pmcmir"
+        }
+      ],
+      "vkVisible": true,
+      "overflow": false
+    },
+    {
+      "name": "Перспектива",
+      "route": "clubs/vyborgsky/perspektiva.html",
+      "links": [
+        {
+          "text": "Страница клуба ↗",
+          "href": "https://xn----ptbkbv6a.xn--p1ai/perspectiva7"
+        },
+        {
+          "text": "ВКонтакте клуба ↗",
+          "href": "https://vk.ru/mk_perspektiva"
+        },
+        {
+          "text": "Сообщество учреждения ↗",
+          "href": "https://vk.com/pmcmir"
+        }
+      ],
+      "vkVisible": true,
+      "overflow": false
+    },
+    {
+      "name": "Лидер",
+      "route": "clubs/vyborgsky/lider.html",
+      "links": [
+        {
+          "text": "Страница клуба ↗",
+          "href": "https://xn----ptbkbv6a.xn--p1ai/lider108"
+        },
+        {
+          "text": "ВКонтакте клуба ↗",
+          "href": "https://vk.ru/pmk_leader"
+        },
+        {
+          "text": "Сообщество учреждения ↗",
+          "href": "https://vk.com/pmcmir"
+        }
+      ],
+      "vkVisible": true,
+      "overflow": false
+    },
+    {
+      "name": "Форпост",
+      "route": "clubs/vyborgsky/forpost.html",
+      "links": [
+        {
+          "text": "Сообщество учреждения ↗",
+          "href": "https://vk.ru/dm_forpost"
+        }
+      ],
+      "vkVisible": true,
+      "overflow": false
+    },
+    {
+      "name": "Фестиваль",
+      "route": "clubs/vyborgsky/festival.html",
+      "links": [
+        {
+          "text": "Общее сообщество «Форпоста» ↗",
+          "href": "https://vk.ru/dm_forpost"
+        }
+      ],
+      "vkVisible": true,
+      "overflow": false
+    },
+    {
+      "name": "Феникс",
+      "route": "clubs/vyborgsky/feniks.html",
+      "links": [
+        {
+          "text": "Общее сообщество «Форпоста» ↗",
+          "href": "https://vk.ru/dm_forpost"
+        }
+      ],
+      "vkVisible": true,
+      "overflow": false
+    }
+  ],
+  "mobileOverflow": false,
+  "localChecklist": {
+    "file": "file:///C:/Users/%D0%98%D0%B2%D0%B0%D0%BD%20%D0%B4%D0%B0%20%D0%9C%D0%B0%D1%80%D1%8C%D1%8F/Desktop/VibeCoding/young-russia/docs/address-checklist-2026-10-16.html",
+    "clubs": 9,
+    "official": 6
+  },
+  "manifest": [
+    {
+      "file": "districts/vyborgsky.html",
+      "sha256": "1ae25b1290c3a0f6e155604c5c18000355ac3c028a4b64daef12e7c3e8ebfff6"
+    },
+    {
+      "file": "activities/vyborgsky-tsentralnyy-dobrovolcheskiy-klub-07.html",
+      "sha256": "1e52caa31a30c12566e7151e56aa8d5924a529a6de8819176a13c13f5ba728f6"
+    },
+    {
+      "file": "activities/vyborgsky-tsentralnyy-dzyudo-02.html",
+      "sha256": "efae5e2ae4c88f69a0fcf94a4f93d90f85f3ff2199bed23972416d87eeee03d3"
+    },
+    {
+      "file": "activities/vyborgsky-tsentralnyy-estradnyy-vokal-06.html",
+      "sha256": "18bc2f3a1e18bdff761d70a83b5167d98d86b74eab19b61e6e7f482c7761f9ce"
+    },
+    {
+      "file": "activities/vyborgsky-tsentralnyy-folklornaya-studiya-08.html",
+      "sha256": "5b7d9d7de4b3012971330ed8169699e275fdc40ba1b7ac3fb28b5f87da54b53c"
+    },
+    {
+      "file": "activities/vyborgsky-tsentralnyy-izo-09.html",
+      "sha256": "b92ff390db27304929c88d4400251ef5849abd240afdacda8f5f48ae6812de4f"
+    },
+    {
+      "file": "activities/vyborgsky-tsentralnyy-nastolnye-igry-12.html",
+      "sha256": "4b0c33799b77eae6f04e04a1fe1f846f7314ba49edebc9a38eea8bfb6478c1e1"
+    },
+    {
+      "file": "activities/vyborgsky-tsentralnyy-sambo-01.html",
+      "sha256": "7fa703f7214ddf3f819cd6f93d4155fd5715f23637fdd08ebd7899a3a8f914c9"
+    },
+    {
+      "file": "activities/vyborgsky-tsentralnyy-shahmaty-03.html",
+      "sha256": "65aaf90477d9a527dfbbbe24ea93b9eb64b7674423595c5915a12465cd48eb91"
+    },
+    {
+      "file": "activities/vyborgsky-tsentralnyy-shashki-04.html",
+      "sha256": "d4ac5ab0ca69c6c29c9f27836d9914abdf2365ce2112dc089595f34ff9dc1cac"
+    },
+    {
+      "file": "activities/vyborgsky-tsentralnyy-sovremennye-tantsy-10.html",
+      "sha256": "1f71860c0ae6ef50a8f79fe358d2c582f4919f30617d9936abfd673193517a8c"
+    },
+    {
+      "file": "activities/vyborgsky-tsentralnyy-teatralnaya-studiya-11.html",
+      "sha256": "d2b7ba3badb6d922217bc85c24683968823a39a6edda22aa73b62262e98b45c4"
+    },
+    {
+      "file": "activities/vyborgsky-tsentralnyy-vokalno-horovaya-studiya-05.html",
+      "sha256": "07823d77b6586f7582f82060e4a0acfab2e495d1e7d7b0f77bacde9f3da75375"
+    },
+    {
+      "file": "clubs/vyborgsky/tsentralnyy.html",
+      "sha256": "7c9c23e35ee210c6a2bebb5920e5da3579b75ecc2aeca57304cfead7247cad3c"
+    },
+    {
+      "file": "activities/vyborgsky-ritm-estradnye-udarnye-instrumenty-05.html",
+      "sha256": "a1c143ba207720813de8948a2bce294e957dcc2a221967424519f2db61fe6620"
+    },
+    {
+      "file": "activities/vyborgsky-ritm-fitnes-08.html",
+      "sha256": "2bb6e42d6748696c1ee294de8e5d87690852a4e2e40ef6c01e01f60a4b064549"
+    },
+    {
+      "file": "activities/vyborgsky-ritm-gitara-03.html",
+      "sha256": "95d5b651cc41d41aeeccf2400aa2a9740c8fc4e984be1ea30132378821039b7c"
+    },
+    {
+      "file": "activities/vyborgsky-ritm-izo-07.html",
+      "sha256": "c07e8ed12c38665f4bbb6f3b7e5ceee76f3e8baf5cf5e9930b2a6a03890d791b"
+    },
+    {
+      "file": "activities/vyborgsky-ritm-latinoamerikanskiy-tanets-09.html",
+      "sha256": "9d4ff44fcb4a1e0f7ee6f2b016c0bd18bd14a1c2ba090e79833b793dd87b5e1f"
+    },
+    {
+      "file": "activities/vyborgsky-ritm-nastolnye-igry-06.html",
+      "sha256": "48d48f420e49b5e6f20bcb7c4bac638cd2353e6d7ed509510a839b521d97dcbd"
+    },
+    {
+      "file": "activities/vyborgsky-ritm-nastolnye-sportivnye-igry-02.html",
+      "sha256": "7944d2e0388f8284c3fbae99a64800b3f83bdfd8ffc28fdfc2404a1722c3b05b"
+    },
+    {
+      "file": "activities/vyborgsky-ritm-sovremennyy-tanets-01.html",
+      "sha256": "6f66169116c6d4816a231096a8b3d75f5df35955ca29544044c79ccc6de696f6"
+    },
+    {
+      "file": "activities/vyborgsky-ritm-teatr-04.html",
+      "sha256": "673d7a66894e1a43a809c78fecf26e8428474838a95ff0677a9061d08830d813"
+    },
+    {
+      "file": "activities/vyborgsky-ritm-vostochnyy-tanets-10.html",
+      "sha256": "e74292476219d00602154ed530ad4c90941ed306197aafca40f450ebd4ab8550"
+    },
+    {
+      "file": "clubs/vyborgsky/ritm.html",
+      "sha256": "f1c6982489483e5c6d50d3bfd5f5baad157ac6db82147a24e045a78582099532"
+    },
+    {
+      "file": "activities/vyborgsky-perekryostok-dizayn-ukrasheniy-04.html",
+      "sha256": "97cd90c6ae97322656ac1d5c83e6571bf7a97ac74732716dce146eeb7c5422cf"
+    },
+    {
+      "file": "activities/vyborgsky-perekryostok-estradnyy-vokal-08.html",
+      "sha256": "e61bec4fdfbc9e571698314b88eda03e44968c78e6cdae119dbb430361b00201"
+    },
+    {
+      "file": "activities/vyborgsky-perekryostok-igrovoy-klub-09.html",
+      "sha256": "64e1f7d595bb2686456812b0258ce81bbbdca55d1c855c39f90bd1b4d23ccd6b"
+    },
+    {
+      "file": "activities/vyborgsky-perekryostok-izo-07.html",
+      "sha256": "6ea378914a6189c84cba1f1f5c7e54dd016747b0b15908a52dcff7e42aea72cc"
+    },
+    {
+      "file": "activities/vyborgsky-perekryostok-kroyka-i-shityo-06.html",
+      "sha256": "3a040ed7742eeaa1bea4d612cb265a9f2a0aa6cefc1d88533f97efeb9b59d69d"
+    },
+    {
+      "file": "activities/vyborgsky-perekryostok-rok-gruppy-10.html",
+      "sha256": "43a96151ab80c46c97fe828fde764ac6d89fad3e686a53e3b1c03e848e1fa6c7"
+    },
+    {
+      "file": "activities/vyborgsky-perekryostok-rospis-po-derevu-05.html",
+      "sha256": "2cb2ca495eb235736f24cd51433317ad27665d971fffea6b83cfddbc918239ac"
+    },
+    {
+      "file": "activities/vyborgsky-perekryostok-sovremennyy-tanets-02.html",
+      "sha256": "e8a744268a39f6f0dec508e96a737cbc82061d1b006e37cf9326c3f9d51d1721"
+    },
+    {
+      "file": "activities/vyborgsky-perekryostok-studiya-mody-03.html",
+      "sha256": "22b05b2e09371ac57fb0900afc6da3aad8683766fe3b07de214fa354a2d98c80"
+    },
+    {
+      "file": "activities/vyborgsky-perekryostok-teatr-01.html",
+      "sha256": "80568860b2e527adfda6a489655fbe2e582786f9278ec275ebcb41f2d85b362c"
+    },
+    {
+      "file": "clubs/vyborgsky/perekryostok.html",
+      "sha256": "0b8d393fb7f111d18b01e2a4baa6cff0443998e52c4014659b32083a2a9acb69"
+    },
+    {
+      "file": "activities/vyborgsky-lider-atletizm-01.html",
+      "sha256": "4cfc7e1e63c8707563e17605c9f8b95a0c9731d9ab803a6f5ee12037eb30369f"
+    },
+    {
+      "file": "activities/vyborgsky-lider-bodibilding-02.html",
+      "sha256": "3f6f13a2b107189fc32c53e65a26e40af3715bf4d4d9b1c8bbd17a22234cc2c5"
+    },
+    {
+      "file": "activities/vyborgsky-lider-kikboksing-05.html",
+      "sha256": "28b9e5882b6014854e613b1db826ce171faca0f7766db5c9d7f12fda15c6a061"
+    },
+    {
+      "file": "activities/vyborgsky-lider-obschaya-fizicheskaya-podgotovka-04.html",
+      "sha256": "79d499096c0cc1232afab6c84115fd2731fbab6e6737030137f6a6bacf0d366e"
+    },
+    {
+      "file": "activities/vyborgsky-lider-pauerlifting-03.html",
+      "sha256": "ad03f3a14d162fa1098183decde18f27255fcbc1efcab2ed234c41ca02663061"
+    },
+    {
+      "file": "clubs/vyborgsky/lider.html",
+      "sha256": "92069b341b06eca12d7427ff07faf3bb96276a18ce0b221a044cef1a6f7967aa"
+    },
+    {
+      "file": "activities/vyborgsky-patriot-dekorativno-prikladnoe-tvorchestvo-02.html",
+      "sha256": "e279389efbf60f52499d40addac76717498deeb0decf9c884d6296cb55e8b04a"
+    },
+    {
+      "file": "activities/vyborgsky-patriot-istoricheskaya-masterskaya-03.html",
+      "sha256": "f35aa533e3cca59d2a1ce498e3c7cc3ee7062d58d466eedf779821649b201348"
+    },
+    {
+      "file": "activities/vyborgsky-patriot-nastolnye-igry-01.html",
+      "sha256": "ae0a5b5c35e8756dd20ab7d94caf7a0a829dc05fad21b1bf8ade7c3c24dd5cad"
+    },
+    {
+      "file": "clubs/vyborgsky/patriot.html",
+      "sha256": "6a8fea16bcbeab80132e59a46795f0e0961a9624ad20c8644dea9ba1adc72731"
+    },
+    {
+      "file": "activities/vyborgsky-perspektiva-akusticheskaya-gitara-05.html",
+      "sha256": "80f8ad3bef1f96e21271b0eff05dc77f35c71a8b6283054ef0d5b033d7db0fdc"
+    },
+    {
+      "file": "activities/vyborgsky-perspektiva-breyk-dans-02.html",
+      "sha256": "9afdaf7e740e906dad99c400ed113d06a691f07c603e1d62b0263caefe8918c7"
+    },
+    {
+      "file": "activities/vyborgsky-perspektiva-dekorativno-prikladnoe-tvorchestvo-08.html",
+      "sha256": "5bf02e116c9379ab7a23a8298d9e65393b22a75395fa601daac3b84c98ee5e47"
+    },
+    {
+      "file": "activities/vyborgsky-perspektiva-dizayn-09.html",
+      "sha256": "7bd7f3957148e54d131094b77de093dc8515d7195d05afe0ca23f6e56bcfdf3f"
+    },
+    {
+      "file": "activities/vyborgsky-perspektiva-estradnyy-vokal-04.html",
+      "sha256": "e9672282e72212e986d1700ada6fe0af443e033cdada71a5b6b7b921514e94cd"
+    },
+    {
+      "file": "activities/vyborgsky-perspektiva-izo-07.html",
+      "sha256": "243fc7d108fdf6463a8f240e1dab5d6e64ba981ebb22b5d7c24bb29a451002f5"
+    },
+    {
+      "file": "activities/vyborgsky-perspektiva-sintezator-06.html",
+      "sha256": "51e68a03632c617f38ba4973890fc2c8f3c8a77fe7948dc245e3773b40b72c93"
+    },
+    {
+      "file": "activities/vyborgsky-perspektiva-sovremennyy-tanets-01.html",
+      "sha256": "7457709158aaeb4a5a8119025b4e404a28f5f1d6bb7708d7a138e152874dd128"
+    },
+    {
+      "file": "activities/vyborgsky-perspektiva-tantsevalnyy-fitnes-03.html",
+      "sha256": "e15b51487c9343ac4a9876d3ea6c8a6e7e384fce4051cb1d3d9c89be927b04c6"
+    },
+    {
+      "file": "clubs/vyborgsky/perspektiva.html",
+      "sha256": "d4c165a48ff046c0202424b36d143cfdcc135a7414914fcd6e2fcd12c2d0a7ee"
+    },
+    {
+      "file": "activities/vyborgsky-forpost-estradno-marshevyy-kollektiv-feeri-06.html",
+      "sha256": "0aeab846b1e46c8e27629d58536e56361bf79d2c820115684b90e5292502ad2b"
+    },
+    {
+      "file": "activities/vyborgsky-forpost-estradnyy-tanets-just-dance-03.html",
+      "sha256": "1e373fc5caa1b8e080262ce301cf6071a79140c93c46703091f55d6187bf366f"
+    },
+    {
+      "file": "activities/vyborgsky-forpost-estradnyy-vokal-impuls-11.html",
+      "sha256": "d24f4fbe4e537e5e6ba9a731d1dfd00d9a90098ca49f918d47f32fb9bbcb9ce7"
+    },
+    {
+      "file": "activities/vyborgsky-forpost-interernoe-vyazanie-08.html",
+      "sha256": "58bf702321c612bff61971b371094db2c34a3e0eb91618ea4b34bcc3a0cba5d2"
+    },
+    {
+      "file": "activities/vyborgsky-forpost-irlandskiy-tanets-fianna-04.html",
+      "sha256": "ac7d7798fb5e1c016d2d55f963bcd38a3c09cb994e170f44f0ebe2d60babf4e1"
+    },
+    {
+      "file": "activities/vyborgsky-forpost-keramika-art-formula-09.html",
+      "sha256": "109ed9a7d5dafef5e74bd00f35cc157501ab6a9728a4d72721fa9bc6858e859b"
+    },
+    {
+      "file": "activities/vyborgsky-forpost-studiya-originalnogo-zhanra-way-ou-01.html",
+      "sha256": "a1125460d1b9cebc9e3bde0747cec4f08b0fa0b932d878b5482aa80e266d4b97"
+    },
+    {
+      "file": "activities/vyborgsky-forpost-studiya-udarnaya-05.html",
+      "sha256": "fea954530bef49b02ad3c7e5e902845a07ae2da3198f94bc3ce9e9f36409a52a"
+    },
+    {
+      "file": "activities/vyborgsky-forpost-tantsevalnoe-soobschestvo-lova-12.html",
+      "sha256": "23d5bb972e459d2f00e221e097de0c342f1c753daf1951fb16c880e01c23c58f"
+    },
+    {
+      "file": "activities/vyborgsky-forpost-teatralnaya-studiya-vozvraschenie-02.html",
+      "sha256": "5b3bbe1456cfdf3314561a07b2906825d90c7feddf3b5cc8dd4c1f46594a1f8c"
+    },
+    {
+      "file": "activities/vyborgsky-forpost-teatralnyy-kollektiv-tik-13.html",
+      "sha256": "baee5dc269154129184188fdc51c519410b926f8b90ddf39f47b4000ef092ad4"
+    },
+    {
+      "file": "activities/vyborgsky-forpost-vokalnyy-kollektiv-sozvuchie-07.html",
+      "sha256": "839f301ca4185b5f0ef92079648df413ae043d928813db74b9f66106ecc5ad61"
+    },
+    {
+      "file": "activities/vyborgsky-forpost-yoga-10.html",
+      "sha256": "ba7aa8c97d7502db63e2e3ae1bcce891882842fb2080f4207f5af5c88cd314c1"
+    },
+    {
+      "file": "clubs/vyborgsky/forpost.html",
+      "sha256": "0043554ab7384a907aeb7d81c436b744a7ea52ea31f66f98e7135c89a6abf5fe"
+    },
+    {
+      "file": "activities/vyborgsky-feniks-diskussionnyy-istoricheskiy-klub-03.html",
+      "sha256": "fac04162e938231710170894a349c4f0de2df56b6e3508d358db4d748b15adb5"
+    },
+    {
+      "file": "activities/vyborgsky-feniks-klub-nastolnyh-igr-strateg-02.html",
+      "sha256": "e51ba4d3ff6609ac104a71635a2ce9929bb966cd347020c133a52515f1f5993b"
+    },
+    {
+      "file": "activities/vyborgsky-feniks-klub-rekonstruktorov-6-y-egerskiy-01.html",
+      "sha256": "5561646ee57979cb37d8d47c6a64bb14a00986593dfc0577231e3823c17d486d"
+    },
+    {
+      "file": "activities/vyborgsky-feniks-media-klub-forpost-tv-06.html",
+      "sha256": "467d7b18845f099d63b3bc26053a220456054450acd55f4776587f2c4bcc006b"
+    },
+    {
+      "file": "activities/vyborgsky-feniks-rukopashnyy-boy-i-samooborona-05.html",
+      "sha256": "eba85a2c1329472080dec80717f49a41fcd7c3ba35ec04bfc520b021f378f2cc"
+    },
+    {
+      "file": "activities/vyborgsky-feniks-tsirkovaya-studiya-nika-04.html",
+      "sha256": "99e31f0cd04cb83721c74edd479e0883ed71d54d72994ac9423a620086aa2b71"
+    },
+    {
+      "file": "activities/vyborgsky-feniks-videobloging-fokus-07.html",
+      "sha256": "3a783845c4712c09a87d870f7a6d39fce861588db8e2879701a56395098e37de"
+    },
+    {
+      "file": "activities/vyborgsky-feniks-yunarmiya-08.html",
+      "sha256": "10b018c99c1ae3d27a33c70be2a31733384bfcad382649d2666f5c9bb40cc7f4"
+    },
+    {
+      "file": "clubs/vyborgsky/feniks.html",
+      "sha256": "093a207d41b39c0273bafdea2f5a62898db3ac8db7b63f5cce1525229cade50f"
+    },
+    {
+      "file": "activities/vyborgsky-festival-angliyskiy-yazyk-smart-english-01.html",
+      "sha256": "c5c9a1496c8f458f4da8139b655faad44ce4aa6c51a491e40ad6fa608f29774e"
+    },
+    {
+      "file": "activities/vyborgsky-festival-dzhaz-fank-kinetika-04.html",
+      "sha256": "3806a24ba1f1b737b632cefd0bc6a231555ad06e1b66afc9c401de26a221d741"
+    },
+    {
+      "file": "activities/vyborgsky-festival-hip-hop-baza-03.html",
+      "sha256": "685f2bddcc2ba206777c59155f1b75a4d4d4a7bef371ac8f0e26d1002ab69fd4"
+    },
+    {
+      "file": "activities/vyborgsky-festival-mediatsentr-02.html",
+      "sha256": "e1239c346e947f51d687d12a2c81b93b2f6163833a9729d89707913bfebc314c"
+    },
+    {
+      "file": "activities/vyborgsky-festival-shkola-kvn-05.html",
+      "sha256": "c36fc0d3074d8ce35dc4ab5e1c8ea5207dfecbec23f5e983b735f6f26c6a9c83"
+    },
+    {
+      "file": "activities/vyborgsky-festival-studiya-ar-deko-06.html",
+      "sha256": "7d35f4a423aba2ad34cad919c255408ce544d4ca84f89e41a98541a6607be431"
+    },
+    {
+      "file": "clubs/vyborgsky/festival.html",
+      "sha256": "700fe5c6912edafc311f010eff48c2d42f398098b36036a9d574d0e30504474e"
+    }
+  ],
+  "git": "uncommitted; not pushed",
+  "vkAvailability": "not independently tested"
+}
