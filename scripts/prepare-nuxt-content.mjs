@@ -44,6 +44,7 @@ for await (const filename of htmlFiles(legacyDir)) {
     stylesheet: required(markup, /<link rel="stylesheet" href="(?:\.\.\/)*assets\/([^"]+)">/, filename),
     script: required(markup, /<script src="(?:\.\.\/)*assets\/([^"]+)" defer><\/script>/, filename),
     hero: markup.match(/<link rel="preload" as="image" href="(?:\.\.\/)*assets\/([^"]+)"[^>]*>/)?.[1] ?? null,
+    ...(relative.startsWith('guides/') ? {guide:true} : {}),
   };
   Object.assign(page, pageSeo(relative, page));
   const target = path.join(pagesDir, `${relative}.json`);

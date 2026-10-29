@@ -15,6 +15,15 @@ for (const route of routes) {
   const links = [...head.matchAll(/<link\b[^>]*rel="canonical"[^>]*>/g)];
   if (links.length !== 1 || links[0][0].match(/href="([^"]+)"/)?.[1] !== expected) errors.push(`${route}: incorrect canonical`);
   if (/<meta\b[^>]*name="robots"[^>]*content="[^"]*noindex/.test(head)) errors.push(`${route}: indexable route has noindex`);
+  const metadata = (key, attribute = 'property') => head.match(new RegExp(`<meta\\b[^>]*${attribute}="${key}"[^>]*content="([^"]*)"`))?.[1];
+  if (metadata('og:url') !== expected) errors.push(`${route}: incorrect Open Graph URL`);
+  for (const key of ['og:title', 'og:description', 'og:image']) if (!metadata(key)) errors.push(`${route}: missing ${key}`);
+  if (metadata('twitter:card', 'name') !== 'summary_large_image') errors.push(`${route}: missing social preview card`);
+  try {
+    const image = new URL(metadata('og:image'));
+    if (image.origin !== 'https://young-russia.ru' || !image.pathname.startsWith('/assets/')) throw new Error('invalid image URL');
+    await fs.access(path.join(dist, decodeURIComponent(image.pathname)));
+  } catch { errors.push(`${route}: missing or invalid social preview image`); }
   for (const [map, value, label] of [
     [titles, head.match(/<title>([\s\S]*?)<\/title>/)?.[1], 'title'],
     [descriptions, head.match(/<meta\b[^>]*name="description"[^>]*content="([^"]*)"/)?.[1], 'description'],

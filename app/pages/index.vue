@@ -1,3 +1,3 @@
 <template>
-  <CatalogPage />
+  <CatalogPage><ShareSiteBlock /></CatalogPage>
 </template>

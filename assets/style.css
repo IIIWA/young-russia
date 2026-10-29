@@ -30,7 +30,7 @@ h3{font-size:1.5rem;font-weight:750}
 .brand-symbol i{display:block;width:5px;background:#fff;border-radius:5px;transform:rotate(8deg)}
 .brand-symbol i:nth-child(1){height:10px}.brand-symbol i:nth-child(2){height:16px}.brand-symbol i:nth-child(3){height:21px;background:var(--yellow)}
 .desktop-nav{display:flex;align-items:center;gap:36px;margin:auto;font-weight:650;font-size:14px}
-.desktop-nav a{padding:8px 0;transition:color .2s}.desktop-nav a:hover,.desktop-nav a[aria-current]{color:var(--blue)}
+.desktop-nav a{padding:8px 0;text-align:center;transition:color .2s}.desktop-nav a:hover,.desktop-nav a[aria-current]{color:var(--blue)}
 .header-link{font-size:14px;font-weight:700;border:1px solid var(--ink);padding:11px 17px;border-radius:999px;white-space:nowrap;transition:background .2s,color .2s,transform .2s}
 .header-link:hover{background:var(--ink);color:#fff;transform:translateY(-2px)}
 .header-link span{margin-left:7px}
@@ -38,6 +38,12 @@ h3{font-size:1.5rem;font-weight:750}
 .menu-button span{display:block;height:2px;background:var(--ink);margin:5px 0;border-radius:2px}
 .mobile-nav{position:absolute;top:84px;left:0;right:0;background:var(--cream);border-bottom:1px solid var(--line);box-shadow:var(--shadow);padding:16px 24px 24px}
 .mobile-nav a{display:block;padding:12px 8px;font-weight:700}
+.mobile-nav .mobile-catalog-cta{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:50px;margin-bottom:8px;padding:14px 16px;border-radius:12px;background:var(--blue);color:#fff;transition:background .2s,transform .2s}
+.mobile-nav .mobile-catalog-cta:hover{background:var(--blue-dark)}
+.mobile-nav .mobile-catalog-cta:active{transform:scale(.99)}
+.mobile-nav:not([hidden]) .mobile-catalog-cta{animation:catalog-invite .9s ease .15s 2}
+@keyframes catalog-invite{0%,100%{box-shadow:0 0 0 0 rgb(37 69 237 / 0);transform:translateY(0)}45%{box-shadow:0 0 0 5px rgb(37 69 237 / .12);transform:translateY(-1px)}}
+@media(prefers-reduced-motion:reduce){.mobile-nav .mobile-catalog-cta{animation:none!important;transition:none}}
 .button{display:inline-flex;align-items:center;justify-content:center;gap:28px;padding:15px 24px;border-radius:12px;font-weight:750;font-size:15px;line-height:1.2;transition:transform .2s,background .2s,box-shadow .2s;white-space:nowrap}
 .button:hover{transform:translateY(-3px);box-shadow:0 12px 22px rgba(22,43,125,.14)}
 .button-primary{color:#fff;background:var(--blue)}.button-primary:hover{background:var(--blue-dark)}
@@ -72,6 +78,11 @@ h3{font-size:1.5rem;font-weight:750}
 .topic-card h3{margin:45px 0 10px;font-size:25px;position:relative;z-index:1}.topic-card p{font-size:14px;line-height:1.45;max-width:180px;margin:0;position:relative;z-index:1}.topic-icon{height:64px;font-size:44px;line-height:1;font-weight:800;letter-spacing:-.1em;position:relative;z-index:1}.topic-arrow{position:absolute;right:20px;top:20px;font-size:20px}
 .topic-card:after{content:"";position:absolute;width:170px;height:170px;border:28px solid currentColor;border-radius:50%;opacity:.08;right:-55px;bottom:-65px}
 .topic-languages{background:#e9e8ff;color:#34247f}.topic-sport{background:#cfe9df;color:#154c46}.topic-creative{background:#ffdfd5;color:#7b2c26}.topic-stage{background:#ffeaa9;color:#58420a}.topic-community{background:#d9ecff;color:#21477e}
+.topic-chat-icon{display:block;width:44px;height:44px;max-height:100%}
+.featured-grid .club-tags span{background:#fff}
+.featured-grid>.club-card-featured:nth-child(n+4){display:none}
+.featured-grid>.club-card-featured:nth-child(4){background:#fff5df}
+@media(max-width:1050px){.featured-grid>.club-card-featured:nth-child(4){display:flex}}
 .island-section{padding-top:72px;background:#fff}
 .island-banner{background:var(--blue);color:#fff;border-radius:32px;min-height:352px;display:flex;justify-content:space-between;align-items:center;overflow:hidden;padding:51px 60px;position:relative}.island-banner>div:first-child{position:relative;z-index:2;max-width:590px}.island-banner .section-kicker{color:#c4ccff}.island-banner h2{font-size:clamp(2.6rem,4.3vw,4.7rem);margin-bottom:18px}.island-banner p:not(.section-kicker){max-width:470px;color:#e5e8ff;font-size:16px;line-height:1.55;margin-bottom:28px}
 .island-mark{position:absolute;right:0;top:0;width:42%;height:100%;display:flex;align-items:center;justify-content:center;isolation:isolate}.island-mark span{font-size:clamp(10rem,20vw,19rem);line-height:1;color:rgba(255,255,255,.18);font-weight:900;letter-spacing:-.14em;transform:rotate(-15deg)}.island-mark i{position:absolute;border:1px solid rgba(255,255,255,.25);border-radius:50%;width:260px;height:260px;transform:rotate(35deg) scaleX(1.8)}.island-mark i:nth-child(3){transform:rotate(35deg) scaleX(2.5)}.island-mark i:nth-child(4){transform:rotate(35deg) scaleX(3.3)}
@@ -154,6 +165,13 @@ h3{font-size:1.5rem;font-weight:750}
 .directory-card.ready.needs-review .directory-status{color:#694500;font-weight:800}
 .catalog-source p + p{margin-top:12px}
 .island-banner .hero-actions{gap:12px}
+@media(max-width:1050px){
+  .island-banner>div:first-child{width:100%;min-width:0}
+  .island-banner .hero-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .island-banner .hero-actions .button{width:100%;min-width:0;min-height:56px;justify-content:space-between;gap:6px;padding:12px 10px;font-size:12px;line-height:1.4;white-space:normal;overflow-wrap:anywhere;hyphens:auto;text-align:left}
+  .island-banner .hero-actions .button>span{flex:none;font-size:14px}
+}
+@media(min-width:720px) and (max-width:1050px){.island-banner .hero-actions{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:760px){.vyborg-page .district-hero-image{object-position:64% center}}
 .kalinin-page .steps-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
 .kirov-page .steps-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
@@ -302,10 +320,40 @@ h3{font-size:1.5rem;font-weight:750}
 @media(max-width:760px){.hero h1{font-size:min(clamp(3.4rem,11vw,5rem),14.5cqi)}}
 .schedule-source-note a{color:#1d4ed8;text-decoration:underline}.schedule-frequency{line-height:1.5}
 .contact-email{margin:20px 0 0;font-size:15px;line-height:1.6}.contact-email>span:first-child{color:var(--muted)}.contact-email-address{overflow-wrap:anywhere}
+.participation-requirements{margin:0 0 20px;padding:18px 20px;border:1px solid #d8def5;border-radius:14px;background:#f5f7ff;color:#17243e}.participation-requirements h3,.guide-main .participation-requirements h3{margin:0 0 12px;font:800 18px/1.35 Arial,sans-serif}.participation-requirements .participation-requirements-list{margin:0;padding-left:20px;font-size:15px;line-height:1.6}.participation-requirements-list li+li{margin-top:6px}.participation-requirements .participation-requirements-note{margin:12px 0 0;font-size:14px;line-height:1.6;color:#536078}.participation-requirements--compact{margin:14px 0 0;padding:14px}.participation-requirements--compact .participation-requirements-list{font-size:14px}@media(max-width:500px){.participation-requirements{padding:15px}.participation-requirements h3,.guide-main .participation-requirements h3{font-size:17px}}
 
 .club-card>h3:first-child{margin-top:0}
 .club-kind{color:var(--blue);font-size:.75em;font-weight:650;letter-spacing:0;text-decoration:none;white-space:nowrap}
 .club-tags span{font-weight:550}
+
+/* Short numbered steps share a large left-hand number at every width. */
+.step{
+  display:grid;
+  grid-template-columns:max-content minmax(0,1fr);
+  grid-template-rows:auto auto;
+  align-content:start;
+  column-gap:18px;
+  row-gap:8px;
+  min-width:0;
+  min-height:0;
+  padding:24px;
+  container-type:inline-size;
+}
+.step>span{
+  grid-column:1;
+  grid-row:1 / span 2;
+  align-self:start;
+  color:var(--blue);
+  font-size:clamp(52px,22cqi,76px);
+  font-weight:850;
+  font-variant-numeric:tabular-nums;
+  letter-spacing:-.06em;
+  line-height:.95;
+}
+.step>h3{grid-column:2;grid-row:1;min-width:0;margin:0;font-size:clamp(19px,7cqi,24px);line-height:1.25;text-wrap:balance;overflow-wrap:break-word;hyphens:auto}
+.step>p{grid-column:2;grid-row:2;min-width:0;max-width:none;margin:0;line-height:1.55;text-wrap:pretty;overflow-wrap:break-word;hyphens:auto}
+@media(max-width:1050px){.steps-grid,.kalinin-page .steps-grid,.kirov-page .steps-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.steps-grid,.kalinin-page .steps-grid,.kirov-page .steps-grid{grid-template-columns:1fr}.step{column-gap:16px;padding:22px 20px}}
 
 /* Compact mobile cards: keep two readable columns without clipping content. */
 @media(max-width:760px){
@@ -362,3 +410,40 @@ h3{font-size:1.5rem;font-weight:750}
   .direction-card-detail,.direction-card-specialist{margin:0 0 14px;font-size:13px;line-height:1.5}
   .direction-card-link{display:flex;align-items:center;justify-content:space-between;gap:6px;min-height:44px;font-size:12px}
 }
+/* S-95: budget participation explainer. Scoped to the new article. */
+.participation-document-link,.participation-document-link:visited{color:#1d4ed8;text-decoration:underline;text-underline-offset:.18em}
+.participation-document-link:hover{color:#172ca9}
+.participation-article h1,.participation-article h2,.participation-article h3{text-wrap:balance}
+.participation-hero{padding:24px 0 64px;border-bottom:1px solid var(--line)}
+.participation-hero .breadcrumbs{margin-bottom:42px}
+.participation-hero-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(280px,1fr);gap:64px;align-items:center}
+.participation-hero h1{font-size:clamp(2.4rem,4.5vw,3.5rem);max-width:21ch;margin:18px 0 24px}
+.participation-lead{font-size:1.2rem;max-width:48ch;margin-bottom:28px;color:var(--muted)}
+.participation-summary{background:var(--blue);color:white;padding:32px;border-radius:var(--radius)}
+.participation-summary-title{font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;margin:0 0 26px;font-weight:700}
+.participation-summary ol{padding:0;margin:0;list-style:none;counter-reset:participation-flow}
+.participation-summary li{counter-increment:participation-flow;display:grid;grid-template-columns:34px 1fr;gap:2px 12px;padding:18px 0;border-top:1px solid #ffffff40}
+.participation-summary li:before{content:counter(participation-flow);grid-row:span 2;font-size:1.5rem;font-weight:800}
+.participation-summary strong{font-size:1.1rem}.participation-summary span{color:#fff;font-size:.95rem}
+.participation-layout{display:grid;grid-template-columns:240px minmax(0,820px);gap:72px;padding-top:56px;padding-bottom:72px;justify-content:space-between}
+.participation-toc nav{position:sticky;top:24px}.participation-toc p{font-weight:750;margin-bottom:12px}
+.participation-toc a{display:block;font-size:.95rem;padding:9px 0;line-height:1.35;color:var(--muted)}.participation-toc a:hover{color:var(--blue);text-decoration:underline}
+.participation-section{scroll-margin-top:28px;margin-bottom:48px;padding-bottom:36px;border-bottom:1px solid var(--line)}
+.participation-copy h2{font-size:clamp(1.8rem,3vw,2.5rem);margin-bottom:24px}.participation-copy p{font-size:1.08rem;line-height:1.75;margin-bottom:18px}
+.participation-copy a:not(.button),.participation-copy a:not(.button):visited{color:#1d4ed8;text-decoration:underline;text-underline-offset:.2em;overflow-wrap:anywhere}
+.participation-copy .participation-source-note{font-size:.9rem;margin:12px 0 24px}
+.participation-highlight{border-left:4px solid var(--blue);padding:20px 24px;background:#edf0ff;border-radius:0 16px 16px 0;margin-top:26px}.participation-highlight p:last-child{margin-bottom:0}
+.participation-checklist{padding-left:28px}.participation-checklist li{padding-left:8px;margin-bottom:24px}.participation-checklist li::marker{color:var(--blue);font-weight:800}.participation-checklist h3{font-size:1.2rem;margin:0 0 8px}.participation-checklist p{margin:0}
+.participation-faq details{background:#fff0e4;border-radius:12px;margin-bottom:12px}.participation-faq summary{padding:22px 24px;cursor:pointer;font-size:1.1rem;font-weight:700}.participation-faq details p{padding:0 24px 24px;margin:0}
+.participation-sources{list-style:none;padding:0}.participation-sources li{margin-bottom:24px}.participation-sources span{display:block;font-size:.9rem;color:var(--muted);margin-top:6px}.participation-sources a span{display:inline;color:inherit}
+.participation-next{padding:32px;border-radius:var(--radius);background:var(--mint)}.participation-next h2{font-size:2rem}
+@media(max-width:1000px){.participation-hero-grid{gap:32px}.participation-layout{grid-template-columns:190px minmax(0,1fr);gap:32px}}
+@media(max-width:760px){.participation-hero{padding-bottom:32px}.participation-hero .breadcrumbs{margin-bottom:28px}.participation-hero-grid,.participation-layout{grid-template-columns:minmax(0,1fr);gap:28px}.participation-hero h1{max-width:19ch}.participation-summary{padding:24px}.participation-layout{padding-top:28px}.participation-toc nav{position:static;border-bottom:1px solid var(--line);padding-bottom:24px}.participation-toc a{padding:10px 0}.participation-section{margin-bottom:32px;padding-bottom:24px}.participation-copy p{font-size:1rem}.participation-highlight{padding:16px 18px}.participation-next{padding:24px}.participation-faq summary{padding:20px}.participation-faq details p{padding:0 20px 20px}.participation-copy .button{white-space:normal}}
+
+/* Shared flags for language maps in guides and the activity catalog. */
+.topic-language-marker { position: absolute; left: 0; bottom: -10px; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 3px; min-width: 44px; margin: 0; padding: 0; border: 0; border-radius: 6px; background: transparent; cursor: pointer; }
+.topic-map-language-flags { display: flex; align-items: center; gap: 3px; padding: 4px; border: 1px solid #ccd7e8; border-radius: 6px; background: #fff; box-shadow: 0 2px 6px rgb(25 38 66 / .2); }
+.topic-map-language-flags img { display: block; flex: none; width: 22px; height: 15px; object-fit: cover; border-radius: 1px; }
+.topic-map-language-neutral { display: grid; place-items: center; width: 22px; height: 15px; background: #edf2fa; color: #334766; font: 700 10px/1 Arial, sans-serif; }
+.topic-map-language-dot { display: block; box-sizing: border-box; width: 20px; height: 20px; border: 3px solid #fff; border-radius: 50%; background: var(--topic-marker-color); box-shadow: 0 0 0 2px var(--topic-marker-color), 0 2px 5px rgb(25 38 66 / .2); }
+.topic-language-marker:focus-visible { outline: 2px solid #1d4ed8; outline-offset: 4px; }

@@ -4,7 +4,7 @@
 
 - This is the controlling project chat unless the user's launch message explicitly assigns an executor role. The controlling chat plans work, reviews evidence, accepts results, and keeps the site register current.
 - Read `PLANS.md` for the roadmap, `TASKS.md` for the dispatch queue, and the matching brief in `docs/tasks/`. `YoungRussiaOBS/СТАТУС-САЙТА-И-ЗАДАЧИ.md` remains the single register of site results; do not create a competing completion history.
-- Planning does not authorize execution. Create executor chats, send work assignments, or start the next task only after the user's explicit launch instruction for that task. Do not start background automations or subagents as part of planning.
+- For work the user has launched, the controlling chat may create executor chats in the young-russia project and dispatch bounded subtasks without further confirmation (standing authorization, 29.10.2026). Planning alone does not launch unrelated work or background automations.
 - An executor works only within the launched brief. Completing one task does not launch its successor. Read-only monitoring and review may continue within an already launched task; sending a new assignment or correction requires the user's authorization covering that message.
 - Record the actual chat ID, launch instruction, file scope, dependencies, evidence, and acceptance result in the dispatch queue. Suggested role names do not mean that chats have been created.
 - Use one writer per shared file set. Parallel execution requires non-overlapping write scopes; a separate worktree for an executor chat requires the user's explicit request. Until the current uncommitted batch is reviewed, use the existing checkout sequentially.

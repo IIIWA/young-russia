@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-10-29",
+  "generator": "OpenAI built-in ImageGen",
+  "note": "AI-generated thematic illustrations; do not depict verified club premises or real participants.",
+  "images": {
+    "boks": {
+      "basename": "boxing-training-20261029",
+      "width": 1280,
+      "height": 853,
+      "alt": "Иллюстрация тренировки по боксу с тренером",
+      "original": "outputs/guide-hero-images-2026-10-29/originals/boxing.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: hero image for a Russian youth activities directory, page about free boxing classes. Generate one horizontal landscape editorial lifestyle image, 3:2 aspect ratio. Scene: a bright modest community boxing gym, daylight from tall windows, warm cream walls, a little navy blue equipment. Two young adults, a woman and a man aged around 20-25, wearing simple unbranded sports clothing and boxing gloves, practising a safe basic mitt drill with a friendly coach aged around 30. Show good boxing stance and credible protective equipment; no blows to faces, no injury, no aggressive expressions. Candid engaged focused mood, welcoming to beginners. Natural human proportions, realistic hands and gloves, real textures, restrained editorial photographic style, no dramatic spotlights or luxury gym. Composition: medium wide view, people grouped around the central two-thirds, heads and gloves comfortably inside frame, clean edges so it works cropped as a wide website hero and on mobile. Balanced soft natural colors with small blue and warm orange details to fit a cream and navy website. No text, numbers, lettering, flags, logos, watermark or collage."
+    },
+    "razgovornye-kluby": {
+      "basename": "language-club-20261029",
+      "width": 1280,
+      "height": 853,
+      "alt": "Иллюстрация встречи языкового разговорного клуба",
+      "original": "outputs/guide-hero-images-2026-10-29/originals/languages.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: hero image for a Russian youth activities directory, page about free foreign-language conversation clubs. Generate one horizontal landscape editorial lifestyle image, 3:2 aspect ratio. Scene: four young adult friends aged around 20-30, two women and two men, in a bright modest community club room with warm cream walls, daylight from tall windows and a few shelves and plants. They sit around a shared table and have an animated friendly face-to-face conversation, one person speaking and the others listening and smiling naturally. A couple of open plain notebooks and cups on the table, no readable writing. Casual unbranded clothes, a little navy blue and warm orange in the clothing, genuine relaxed concentration, a welcoming small language practice group rather than a formal classroom or a corporate meeting. Candid editorial photographic style, realistic anatomy and hands, soft natural daylight, tactile real materials, understated warm palette fitting a cream and navy website. Composition: medium wide view, all faces clearly visible and grouped inside central two-thirds, comfortable space around heads and hands, works cropped for a wide website hero and on mobile. No text, letters, numbers, flags, logos, watermark or collage.",
+      "savedRevision": {
+        "basename": "language-club-20261029-v2",
+        "original": "outputs/guide-hero-images-2026-10-29/originals/languages-v2.png",
+        "editPrompt": "Edit the attached AI-generated image. Keep the same bright community club room, shared wooden table, four young adults, their positions, friendly conversation, gestures, clothing, soft daylight, notebooks, cups, plants, wide 3:2 composition and realistic editorial photographic style. Change the man seated center-right in the navy blue shirt to a young adult man with European appearance: fair skin, light brown slightly wavy hair, natural European facial features, a relaxed smile, age around 25. The group should consist of four people of European appearance, two women and two men. Preserve the other three people and the entire setting as closely as possible. Natural anatomy and realistic hands. Do not add or remove people or objects. No text, logos, watermark or collage."
+      },
+      "activeVersion": "v1-restored-by-user-2026-10-29"
+    }
+  }
+}

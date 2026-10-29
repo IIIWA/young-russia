@@ -335,9 +335,19 @@ if (directionResults) {
   let subtopic = '';
   let limit = 12;
   let directionMap = null;
+  let directionLanguageTools;
+  const directionLanguageMarks = new Map();
   let mapMatches = [];
   let mapError = false;
   const escapeMapHtml = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[char]));
+
+  mapNode?.addEventListener('keydown', event => {
+    if (!['Enter', ' '].includes(event.key)) return;
+    const marker = event.target.closest('[data-topic-language-marker]');
+    if (!marker) return;
+    event.preventDefault();
+    directionLanguageMarks.get(marker.dataset.topicLanguageMarker)?.balloon.open();
+  });
 
   function renderDirectionMap(matches) {
     if (!mapNode) return;
@@ -349,6 +359,8 @@ if (directionResults) {
       return;
     }
     directionMap.geoObjects.removeAll();
+    directionLanguageMarks.clear();
+    const languageMode = subtopic === 'languages';
     if (!points.length) {
       mapStatus.textContent = matches.length ? 'Координаты этих площадок уточняются. Адреса есть в карточках ниже.' : 'Для выбранных фильтров площадок нет.';
       return;
@@ -362,7 +374,7 @@ if (directionResults) {
         grouped.get(key).elements.push(element);
       }
     }
-    const placemarks = [...grouped.values()].map(({coordinates, elements:group}) => {
+    const placemarks = [...grouped.values()].map(({coordinates, elements:group}, index) => {
       const provisional = group.some(element => element.dataset.mapProvisional === 'true');
       const body = group.map(element => {
         const link = element.querySelector('h3 a');
@@ -371,13 +383,19 @@ if (directionResults) {
         const activities = JSON.parse(element.dataset.directionActivities);
         return `<div><a class="map-balloon-link" style="color:#1d4ed8!important;text-decoration:underline!important" href="${escapeMapHtml(link.getAttribute('href'))}">${escapeMapHtml(link.textContent)}</a><br>${escapeMapHtml(address)}<p style="margin:8px 0"><strong>По&nbsp;выбранному фильтру:</strong> ${escapeMapHtml(activity)}</p>${mapClubActivities(activities, subtopic === 'languages', '../')}${element.dataset.mapProvisional === 'true' ? '<br><small>Точка предварительная</small>' : ''}</div>`;
       }).join('<hr>');
-      return new window.ymaps.Placemark(coordinates, {
+      const name = group.map(element => element.querySelector('h3 a').textContent).join(', ');
+      const key = `direction-language-${index}`;
+      const languageActivities = languageMode ? group.flatMap(element => JSON.parse(element.dataset.directionActivities).filter(activity => activity.subtopics.includes('languages'))) : [];
+      const options = languageMode ? directionLanguageTools.languageMarkerOptions(window.ymaps, {name, provisional, languages:directionLanguageTools.activityLanguages(languageActivities)}, key) : {preset:'islands#circleDotIcon',iconColor:provisional ? '#db7819' : '#2545ed'};
+      const placemark = new window.ymaps.Placemark(coordinates, {
         balloonContentHeader: group.length === 1 ? escapeMapHtml(group[0].querySelector('h3 a').textContent) : `${group.length} клуба по&nbsp;одному адресу`,
         balloonContentBody: body,
-        hintContent: group.map(element => element.querySelector('h3 a').textContent).join(', '),
-      }, {preset:'islands#circleDotIcon',iconColor:provisional ? '#db7819' : '#2545ed'});
+        hintContent: name,
+      }, options);
+      if (languageMode) directionLanguageMarks.set(key, placemark);
+      return placemark;
     });
-    addMapPlacemarks(directionMap, placemarks, true);
+    addMapPlacemarks(directionMap, placemarks, !languageMode);
     if (placemarks.length === 1) directionMap.setCenter(placemarks[0].geometry.getCoordinates(),14);
     else directionMap.setBounds(directionMap.geoObjects.getBounds(),{checkZoomRange:true,zoomMargin:30});
     mapStatus.textContent = `На карте: ${points.length} из ${matches.length} площадок.${points.length < matches.length ? ' Координаты остальных уточняются.' : ''}`;
@@ -393,6 +411,7 @@ if (directionResults) {
     }
     const initialize = async () => {
       try {
+        directionLanguageTools = await import('./guide-languages.js');
         await new Promise((resolve,reject) => window.ymaps.ready(resolve,reject));
         directionMap = new window.ymaps.Map(mapNode,{center:[59.94,30.3],zoom:11,controls:['zoomControl']});
         renderDirectionMap(mapMatches);

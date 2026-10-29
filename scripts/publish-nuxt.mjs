@@ -28,6 +28,10 @@ async function copyFileWithRetry(from, to) {
           await fs.copyFile(from, temporary);
           await fs.rename(temporary, to);
           return;
+        } catch (fallbackError) {
+          // Rename can encounter the same transient Windows sharing lock.
+          // Let it use the retry/backoff path below as well.
+          error = fallbackError;
         } finally {
           await fs.rm(temporary, {force:true});
         }

@@ -54,11 +54,22 @@ details[open] > summary > .guide-nav-chevron { transform: rotate(90deg); }
 .guide-language-count { display: block; margin-top: 4px; font-size: 12px; font-weight: 400; color: #60708a; white-space: nowrap; }
 .guide-section ul { padding-left: 24px; }
 .guide-section li + li { margin-top: 8px; }
+.guide-section .guide-audience-list { display: grid; gap: 10px 36px; }
+.guide-section .guide-audience-list > li { min-width: 0; margin: 0; }
+@media (min-width: 768px) {
+  .guide-section .guide-audience-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 .topic-filter select { border: 1px solid #b9c3ed; color: var(--guide-ink); }
 .topic-filter p { font-size: 14px; }
 .topic-filter label { font-size: 14px; }
 .prototype-map-frame { border: 1px solid #d3daf3; border-radius: 16px; height: 360px; }
 .topic-map-credit { font-size: 12px !important; line-height: 1.5 !important; margin-top: 12px !important; color: #60708a; }
+.topic-language-marker { position: absolute; left: 0; bottom: -10px; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 3px; min-width: 44px; margin: 0; padding: 0; border: 0; border-radius: 6px; background: transparent; cursor: pointer; }
+.topic-map-language-flags { display: flex; align-items: center; gap: 3px; padding: 4px; border: 1px solid #ccd7e8; border-radius: 6px; background: #fff; box-shadow: 0 2px 6px rgb(25 38 66 / .2); }
+.topic-map-language-flags img { display: block; flex: none; width: 22px; height: 15px; object-fit: cover; border-radius: 1px; }
+.topic-map-language-neutral { display: grid; place-items: center; width: 22px; height: 15px; background: #edf2fa; color: #334766; font: 700 10px/1 Arial, sans-serif; }
+.topic-map-language-dot { display: block; box-sizing: border-box; width: 20px; height: 20px; border: 3px solid #fff; border-radius: 50%; background: var(--topic-marker-color); box-shadow: 0 0 0 2px var(--topic-marker-color), 0 2px 5px rgb(25 38 66 / .2); }
+.topic-language-marker:focus-visible { outline: 2px solid #1d4ed8; outline-offset: 4px; }
 .topic-club-grid { grid-template-columns: 1fr; gap: 0; }
 .topic-club-card { padding: 22px 0; border: 0; border-top: 1px solid #d9deea; border-radius: 0; background: transparent; }
 .topic-club-district { font-size: 11px; color: #60708a; margin-bottom: 6px; }
@@ -97,6 +108,8 @@ details[open] > summary > .guide-nav-chevron { transform: rotate(90deg); }
 [data-language-flag="de"] { --language-flag: url("flags/de.svg"); }
 [data-language-flag="fr"] { --language-flag: url("flags/fr.svg"); }
 [data-language-flag="es"] { --language-flag: url("flags/es.svg"); }
+/* Keep all three horizontal bands visible in a shallow table row. */
+[data-language-flag="es"] .guide-language-flag { background-image: linear-gradient(to bottom, #aa151b 0% 25%, #f1bf00 25% 75%, #aa151b 75% 100%); }
 [data-language-flag="cn"] { --language-flag: url("flags/cn.svg"); }
 [data-language-flag="jp"] { --language-flag: url("flags/jp.svg"); }
 [data-language-flag="kr"] { --language-flag: url("flags/kr.svg"); }
@@ -152,3 +165,32 @@ details[open] > summary > .guide-nav-chevron { transform: rotate(90deg); }
 @media (prefers-reduced-motion: reduce) {
   .guide-nav-ready .guide-sidebar { transition: none; }
 }
+.guide-compact .guide-language-table .guide-language-heading th { width: auto; background: #f3f6fb; padding: 12px 16px; }
+.guide-language-heading .guide-language-label { align-items: center; }
+.guide-language-heading .guide-language-count { display: inline; margin: 0 0 0 10px; }
+.guide-compact .guide-language-table .guide-language-wide td { border-top: 0; }
+.guide-language-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+.guide-main .guide-language-button { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; min-width: 0; padding: 9px 12px; border: 1px solid #d4def0; border-radius: 9px; background: #fff; color: #1d4ed8; font-size: 14px; line-height: 1.35; text-decoration: none; }
+.guide-language-button img, .guide-language-symbol { flex: none; width: 28px; height: 20px; border: 1px solid #dce3ef; border-radius: 3px; object-fit: cover; }
+.guide-language-symbol { display: inline-grid; place-items: center; background: #eef3ff; color: #50627f; font-size: 11px; font-weight: 700; }
+.guide-main .guide-language-button:hover { border-color: #7f9de0; background: #f1f5ff; }
+.guide-language-button:focus-visible { outline: 2px solid #1d4ed8; outline-offset: 3px; }
+.guide-main .guide-language-button[aria-current="true"] { border-color: #1d4ed8; background: #e8efff; box-shadow: inset 0 0 0 1px #1d4ed8; }
+.guide-language-table tr[hidden] { display: none; }
+.guide-compact .guide-language-name-column { width: 190px; }
+.guide-language-table tr[id] { scroll-margin-top: 24px; }
+.guide-language-table tr:target > th { box-shadow: inset 3px 0 #1d4ed8; background: #edf3ff; }
+@media (max-width: 560px) {
+  .guide-language-buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+  .guide-main .guide-language-button { padding: 8px; gap: 6px; font-size: 13px; }
+  .guide-language-button img, .guide-language-symbol { width: 22px; height: 17px; }
+  .guide-compact .guide-language-name-column { width: 112px; }
+}
+
+.guide-compact .guide-language-clubs:has([data-guide-speaking]) { gap: 10px 9px; }
+.guide-language-clubs a:has([data-guide-speaking]) { position: relative; }
+.guide-speaking-badge[data-guide-speaking] { position: absolute; z-index: 2; top: -7px; right: -6px; display: inline-grid; place-items: center; box-sizing: border-box; width: 20px; height: 20px; margin: 0; border: 1px solid var(--speaking-border, #fcd34d); border-radius: 50%; background: var(--speaking-bg, #fef3c7); color: var(--speaking-ink, #92400e); font: 800 11px/1 Arial, sans-serif; text-decoration: none; cursor: help; }
+
+.guide-main .guide-speaking-legend { display: none; font-size: 13px; line-height: 1.5; margin: 0 0 16px; }
+.guide-speaking-key { display: inline-grid; place-items: center; flex: 0 0 20px; box-sizing: border-box; width: 20px; height: 20px; border: 1px solid var(--speaking-border, #fcd34d); border-radius: 50%; background: var(--speaking-bg, #fef3c7); color: var(--speaking-ink, #92400e); font: 800 11px/1 Arial, sans-serif; }
+@media (max-width: 1100px), (hover: none) and (pointer: coarse) { .guide-main .guide-speaking-legend { display: flex; align-items: center; gap: 8px; } }

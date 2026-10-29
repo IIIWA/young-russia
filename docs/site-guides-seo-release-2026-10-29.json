@@ -1,0 +1,39 @@
+{
+  "status": "published_verified_git_pending",
+  "release": "seo-ui-20261029-mvsynccc",
+  "deployedAt": "2026-10-29T03:09:54Z",
+  "deployedMoscow": "29.10.2026 06:09:54 МСК",
+  "files": 5552,
+  "htmlPages": 2630,
+  "canonicalPages": 2628,
+  "backup": "/var/www/u3013321/data/backups/young-russia-before-seo-ui-20261029-mvsynccc.tar.gz",
+  "backupSha256": "4bc7000bfb87ad121d3097a5c0c7f5bea0f79179076a94a65312d6bfbe8e3f71",
+  "previous": "/var/www/u3013321/data/www/.young-russia-prev-seo-ui-20261029-mvsynccc",
+  "archiveSha256": "c5485c78f0ae90a542051eeddbbc937a4cf850f30afde567946a575997977176",
+  "serverHttpCases": 51,
+  "serverStatuses": {
+    "200": 42,
+    "301": 3,
+    "404": 6
+  },
+  "externalMatching": 38,
+  "externalSpecial": 11,
+  "prototypes": {
+    "prototype_files": 1659,
+    "unchanged": true
+  },
+  "comments": {
+    "event": "comments_preserved",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "inode": 56766512,
+    "bytes": 3
+  },
+  "protected": {
+    "robots.txt": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8",
+    ".htaccess": "1a85612ef6398f1528f6022a474fef2d17d987bc9f7ef654a5283537f9165840",
+    "2bd9808eebd74e34a33893f93adc7043.txt": "ed45e66d652040622ec5aeb83e9cfd882bc3d09bbdebebef7c1f82ff179a4e25"
+  },
+  "sshClosed": true,
+  "seoPrivateDeferredByUser": true,
+  "siteCommit": null
+}

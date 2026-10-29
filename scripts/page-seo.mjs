@@ -41,5 +41,11 @@ export function pageSeo(relative, page) {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList',
     itemListElement: crumbs.map((crumb, index) => ({ '@type': 'ListItem', position: index + 1, name: crumb.name, item: crumb.href })),
   } : null;
-  return { title, description, canonical, structuredData: breadcrumb ? JSON.stringify(breadcrumb).replace(/</g, '\\u003c') : null };
+  const imageTag = page.body.match(/<img\b[^>]*>/)?.[0] ?? '';
+  const source = imageTag.match(/\bsrc="([^"]+)"/)?.[1];
+  const candidate = source ? new URL(source, canonical) : null;
+  const usePageImage = candidate?.origin === siteOrigin && candidate.pathname.startsWith('/assets/');
+  const socialImage = usePageImage ? candidate.href : `${siteOrigin}/assets/hero-youth.webp`;
+  const socialImageAlt = usePageImage ? plainText(imageTag.match(/\balt="([^"]*)"/)?.[1] ?? '') : 'Иллюстрация: молодые люди общаются за игрой в настольный теннис';
+  return { title, description, canonical, socialImage, socialImageAlt, structuredData: breadcrumb ? JSON.stringify(breadcrumb).replace(/</g, '\\u003c') : null };
 }

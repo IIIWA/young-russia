@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://young-russia.ru/</loc></url>
+  <url><loc>https://young-russia.ru/participation.html</loc></url>
   <url><loc>https://young-russia.ru/directions/index.html</loc></url>
   <url><loc>https://young-russia.ru/districts/index.html</loc></url>
+  <url><loc>https://young-russia.ru/guides/index.html</loc></url>
+  <url><loc>https://young-russia.ru/guides/razgovornye-kluby.html</loc></url>
+  <url><loc>https://young-russia.ru/guides/boks.html</loc></url>
   <url><loc>https://young-russia.ru/districts/admiralteysky.html</loc></url>
   <url><loc>https://young-russia.ru/districts/vasileostrovsky.html</loc></url>
   <url><loc>https://young-russia.ru/districts/vyborgsky.html</loc></url>
