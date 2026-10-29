@@ -1,5 +1,5 @@
 {
-  "status": "published_verified_git_pending",
+  "status": "published_and_source_pushed",
   "release": "seo-ui-20261029-mvsynccc",
   "deployedAt": "2026-10-29T03:09:54Z",
   "deployedMoscow": "29.10.2026 06:09:54 МСК",
@@ -35,5 +35,7 @@
   },
   "sshClosed": true,
   "seoPrivateDeferredByUser": true,
-  "siteCommit": null
+  "siteCommit": "37a9a66ac06b1ca86c0d18df1c4562d829f81db9",
+  "remoteSourceCommit": "37a9a66ac06b1ca86c0d18df1c4562d829f81db9",
+  "publicPathsCommitted": 8036
 }
