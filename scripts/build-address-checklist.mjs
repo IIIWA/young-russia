@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { writeGeneratedFile } from './write-generated-file.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const updatedAt = new Intl.DateTimeFormat('ru-RU', {timeZone:'Europe/Moscow', day:'2-digit', month:'2-digit', year:'numeric'}).format(new Date());
 const dataDir = path.join(root, 'data');
 const voSourceNoteHref = `../YoungRussiaOBS/Источники/ВК/${encodeURIComponent('ВК ПМК Василеостровского района.md')}`;
 const coordinates = JSON.parse(await fs.readFile(path.join(dataDir, 'club-coordinates.json'), 'utf8'));
@@ -125,46 +126,52 @@ const clubVkCandidate = (club, audit) => {
 };
 const activityPagesByName = (club, audit) => {
   const byName = new Map((club.activities ?? []).map(activity => [activity, []]));
-  for (const page of audit?.activityPages ?? []) {
-    const url = vkLink(page.vkUrl) || officialLink(page.officialUrl);
-    if (!url) continue;
+  const linkKey = url => { const parsed = new URL(url); return `${['vk.ru','vk.com'].includes(parsed.hostname) ? 'vk' : parsed.hostname}${parsed.pathname.replace(/\/$/, '')}${parsed.search}`; };
+  const add = (activity, page, url, label, needsConfirmation = false) => {
+    if (!byName.has(activity) || !url) return;
+    const links = byName.get(activity);
+    if (links.some(existing => linkKey(existing.url) === linkKey(url))) return;
+    links.push({title:page.title || activity, url, label, needsConfirmation, sourceLine:page.sourceLine, approvedByUserAt:page.approvedByUserAt});
+  };
+  // The current catalogue is authoritative; older audit entries only fill gaps.
+  for (const page of [...(club.activityPages ?? []), ...(audit?.activityPages ?? [])]) {
     const activity = page.catalogActivity || page.suggestedCatalogActivity;
-    if (!byName.has(activity)) throw new Error(`No direction for VK page: ${club.name} / ${page.title}`);
-    byName.get(activity).push({title: page.title || activity, url, label: page.vkUrl ? 'ВК' : 'Сайт', needsConfirmation: !page.catalogActivity, sourceLine: page.sourceLine, approvedByUserAt: page.approvedByUserAt});
+    const needsConfirmation = !page.catalogActivity || page.needsConfirmation === true;
+    add(activity, page, vkLink(page.vkUrl), 'ВК', needsConfirmation);
+    add(activity, page, officialLink(page.officialUrl), 'Сайт', needsConfirmation);
   }
   if (audit?.district === 'vo') for (const page of voActivityCandidatesByName.get(club.name) ?? []) {
-    const url = vkLink(page.vkUrl);
-    if (!byName.has(page.catalogActivity)) throw new Error(`No direction for candidate VK page: ${club.name} / ${page.title}`);
-    if (!byName.get(page.catalogActivity).some(existing => sameVkLink(existing.url, url))) {
-      byName.get(page.catalogActivity).push({title: page.title, url, needsConfirmation: !page.approvedByUserAt, sourceLine: page.sourceLine, approvedByUserAt: page.approvedByUserAt});
-    }
+    add(page.catalogActivity, page, vkLink(page.vkUrl), 'ВК', !page.approvedByUserAt);
   }
   return byName;
 };
 const missingDirectionLinks = (club, audit) => {
   const pages = activityPagesByName(club, audit);
-  return [...pages.values()].filter(links => !links.some(link => !link.needsConfirmation)).length;
+  return [...pages.values()].filter(links => !links.some(link => link.label === 'ВК' && !link.needsConfirmation)).length;
 };
 const missingLinks = (club, audit) => {
   const links = clubLinks(club, audit);
-  return {clubVk: !links.vk, official: !links.official, directions: missingDirectionLinks(club, audit)};
+  return {clubVk: !links.vk, official: !links.official, directions: missingDirectionLinks(club, audit), activityList:!club.activities?.length};
 };
 const missingClubLabel = missing => [
   ...(missing.clubVk ? ['ВК клуба'] : []),
   ...(missing.official ? ['официальную страницу'] : []),
   ...(missing.directions ? [`направления: ${missing.directions}`] : []),
+  ...(missing.activityList ? ['список направлений'] : []),
 ].join(' · ');
 const missingDistrictLinks = items => items.reduce((sum, item) => {
   const missing = missingLinks(item.club, item.audit);
   sum.clubVk += Number(missing.clubVk);
   sum.official += Number(missing.official);
   sum.directions += missing.directions;
+  sum.activityList += Number(missing.activityList);
   return sum;
-}, {clubVk: 0, official: 0, directions: 0});
+}, {clubVk: 0, official: 0, directions: 0, activityList:0});
 const missingDistrictLabel = missing => [
   ...(missing.clubVk ? [`ВК клубов: ${missing.clubVk}`] : []),
   ...(missing.official ? [`оф. страниц: ${missing.official}`] : []),
   ...(missing.directions ? [`направления: ${missing.directions}`] : []),
+  ...(missing.activityList ? [`списков направлений: ${missing.activityList}`] : []),
 ].join(' · ');
 const markdownClub = (club, audit) => {
   const {vk, official} = clubLinks(club, audit);
@@ -179,9 +186,18 @@ const markdownActivities = (club, audit) => {
     ...pages.get(activity).map(page => `↳ [${page.label || 'ВК'}: ${cell(page.title)}](${page.url})${page.approvedByUserAt ? ` (связь утверждена пользователем ${page.approvedByUserAt}; строка ${page.sourceLine})` : page.sourceLine ? ` (кандидат из заметки, строка ${page.sourceLine}; проверить)` : page.needsConfirmation ? ' (связь с направлением уточняется)' : ''}`),
   ]).join('<br>');
 };
-const markdownSchedule = (club, audit) => audit?.district === 'vo'
-  ? (voScheduleByName.get(club.name) ?? []).map(item => `строка ${item.sourceLine}${item.catalogActivity ? `, ${cell(item.catalogActivity)}` : ''}: ${cell(item.text)}`).join('<br>') || 'Строки расписания не выделены'
-  : '—';
+const catalogSchedules = club => (club.activitySchedule ?? []).filter(record => record.schedule?.length);
+const sessionText = session => [Array.isArray(session.days) ? session.days.join(', ') : session.day || session.days || 'День не указан', session.time || 'Время не указано', session.group ? `группа ${session.group}` : '', session.program || '', session.room ? `кабинет ${session.room}` : ''].filter(Boolean).join(' · ');
+const scheduleSource = (club, record) => officialLink(record.sourceUrl) || officialLink(club.scheduleSource) || officialLink(club.scheduleUrl);
+const markdownSchedule = (club, audit) => [
+  ...catalogSchedules(club).map(record => `${cell(record.activity)}: ${record.schedule.map(session => cell(sessionText(session))).join('; ')}. Период: ${cell(record.sourcePeriod || club.schedulePeriod || 'не указан')}.${record.sourceCheckedAt ? ` Источник проверен ${cell(record.sourceCheckedAt)}.` : ''}${record.sourceNote ? ` ${cell(record.sourceNote)}` : ''}${scheduleSource(club,record) ? ` [Источник](${scheduleSource(club,record)})` : ''}`),
+  ...(audit?.district === 'vo' ? (voScheduleByName.get(club.name) ?? []).map(item => `Из заметки, требует сверки: строка ${item.sourceLine}${item.catalogActivity ? `, ${cell(item.catalogActivity)}` : ''}: ${cell(item.text)}`) : []),
+].join('<br>') || 'В каталоге расписание не указано';
+const catalogScheduleBlock = club => {
+  const records = catalogSchedules(club);
+  if (!records.length) return '<p class="empty">Расписание в&nbsp;каталоге пока не&nbsp;указано.</p>';
+  return `<details class="schedule-evidence catalog-schedules"><summary>Расписания в&nbsp;каталоге: ${records.length}</summary><p>Сохранённые сведения. Наличие мест и&nbsp;изменения уточнить у&nbsp;организатора.</p>${records.map(record => `<section><h4>${htmlCell(record.activity)}</h4><p>Период: ${htmlCell(record.sourcePeriod || club.schedulePeriod || 'не указан')}.${record.sourceCheckedAt ? ` Источник проверен ${htmlCell(record.sourceCheckedAt)}.` : ''}</p><ul>${record.schedule.map(session => `<li>${htmlCell(sessionText(session))}</li>`).join('')}</ul>${record.sourceNote ? `<p>${htmlCell(record.sourceNote)}</p>` : ''}${scheduleSource(club,record) ? `<p><a href="${htmlCell(scheduleSource(club,record))}" target="_blank" rel="noopener noreferrer">Источник расписания ↗</a></p>` : ''}</section>`).join('')}</details>`;
+};
 const venueWord = count => count % 100 >= 11 && count % 100 <= 14 ? 'площадок' : count % 10 === 1 ? 'площадка' : count % 10 >= 2 && count % 10 <= 4 ? 'площадки' : 'площадок';
 const coordinateByClub = new Map();
 for (const record of coordinates.addresses) {
@@ -211,6 +227,17 @@ if (allClubs.length !== coordinates.clubCount) throw new Error(`Expected ${coord
 const marked = allClubs.filter(item => item.userProvidedPoint);
 if (marked.length !== coordinates.userProvidedClubCount) throw new Error(`Expected ${coordinates.userProvidedClubCount} user-provided points; got ${marked.length}`);
 const clubs = allClubs;
+for (const {district, club} of clubs) {
+  const info = club.organizationInfo;
+  if (!info?.name) continue;
+  const organizations = districtOrganizations[district] ??= [];
+  const known = organizations.find(org => normalizedName(org.name) === normalizedName(info.name) || info.site && normalizedLink(org.official) === normalizedLink(info.site));
+  if (known) { known.official ||= officialLink(info.site); known.vk ||= vkLink(info.vk); }
+  else organizations.push({name:info.name, official:officialLink(info.site), vk:vkLink(info.vk)});
+}
+const activityCount = clubs.reduce((sum, {club}) => sum + (club.activities?.length ?? 0), 0);
+const scheduleCount = clubs.reduce((sum, {club}) => sum + catalogSchedules(club).length, 0);
+const scheduleSessionCount = clubs.reduce((sum, {club}) => sum + catalogSchedules(club).reduce((count, record) => count + record.schedule.length, 0), 0);
 const uniqueAddressCount = new Set(clubs.map(item => `${item.district}\0${item.club.address}`)).size;
 
 const high = clubs.filter(item => !item.userProvidedPoint && item.priority === 'Высокий');
@@ -226,14 +253,14 @@ const groups = [
 const lines = [
   '# Адреса клубов Петербурга: список для подтверждения',
   '',
-  'Рабочий документ от 16.10.2026, обновлён 19.10.2026. Все адреса взяты из локальных карточек проекта. Клубы с переданными пользователем координатами помечены зелёным в HTML-версии. Зелёный статус означает только получение координат: работа клуба, адрес и контакты отдельно не подтверждены.',
+  `Рабочий документ обновлён ${updatedAt} из текущих локальных баз всех районов. Дата выгрузки не заменяет дату проверки источника или подтверждение организатором. Клубы с переданными пользователем координатами помечены зелёным в HTML-версии; цвет не подтверждает работу клуба, адрес и контакты.`,
   '',
   `В списке **${clubs.length} клуба** и **${uniqueAddressCount} уникальных адреса**. У **${marked.length} клубов** координаты получены. Среди остальных приоритет «Высокий» у **${high.length} клубов**, «Средний» у **${medium.length}**; остальные требуют плановой сверки у организатора. Василеостровский район: **${vo.length} клуба**, координаты получены для **${vo.filter(item => item.userProvidedPoint).length}**.`,
   '',
   'При проверке спросить точный адрес занятий, корпус/литеру и вход, действует ли площадка, а также дату ответа. После подтверждения записать его в карточку клуба и повторно проверить точку на карте. До ответа не считать автоматическое совпадение подтверждением адреса.',
   '',
   `Направления перенесены из локальных карточек клубов. Пользователь утвердил ВК-страницы клубов (${voCandidates.clubPages.length}) и связи сообществ с занятиями (${voCandidates.activityPages.length}) Василеостровского района. ${voCandidates.scheduleEvidence.length} строк расписания из заметки пока не утверждены и требуют сверки. Утверждение ссылки не подтверждает доступность страницы или действующий набор.`,
-  'Пометка у клуба отдельно проверяет ВК клуба, официальную страницу и ссылки на сообщества каждого направления. ВК клуба не заменяет ссылки направлений. «Ссылки добавлены» означает, что все эти ссылки есть в рабочих данных. У района показаны суммы по клубам или общий статус готовности.',
+  'Пометка у клуба отдельно проверяет ВК клуба, официальную страницу и ссылки на сообщества каждого направления. ВК клуба и официальная страница не заменяют ссылки на сообщества направлений. «Ссылки добавлены» означает, что все эти ссылки есть в рабочих данных. У района показаны суммы по клубам или общий статус готовности.',
   'Под названием района перечислены страницы учреждений, чьи клубы включены в каталог. У района может быть несколько учреждений. Если официальная страница или ВК не указаны, ссылку нужно уточнить.',
   '',
   'Основа списка: `data/clubs-*.json` и `data/club-coordinates.json`. Картографические кандидаты получены через OpenStreetMap Nominatim 15.10.2026 и могут быть неточными. Старую [страницу администрации Василеостровского района](https://www.gov.spb.ru/gov/terr/reg_vasileostr/social/sport/klubi/) нельзя использовать как единственное подтверждение: действующая [страница молодёжной политики](https://www.gov.spb.ru/gov/terr/reg_vasileostr/molodezhnaya-politika/) сообщает о 31 ПМК и пространстве «Притяжение», но не даёт адреса каждой площадки. [База молодёжных учреждений](https://www.spbdm.ru/baza-uchrezhdeniy/) содержит документы центров; адреса из них тоже следует сверять с центром.',
@@ -251,7 +278,7 @@ for (const [label, items] of groups) {
   const sorted = [...items].sort((a,b) => (a.userProvidedPoint ? 3 : {Высокий:0,Средний:1,Плановый:2}[a.priority]) - (b.userProvidedPoint ? 3 : {Высокий:0,Средний:1,Плановый:2}[b.priority]) || a.club.name.localeCompare(b.club.name, 'ru'));
   const districtMissing = missingDistrictLabel(missingDistrictLinks(items));
   const organizations = districtOrganizations[items[0].district] ?? [];
-  lines.push(`## ${label} (${items.length}; ${districtMissing ? `добавить ссылки: ${districtMissing}` : 'ссылки добавлены'})`, '', ...organizations.map(org => `${org.name}: ${org.official ? `[официальная страница](${org.official})` : 'официальная страница не указана'}; ${org.vk ? `[ВК](${org.vk})` : 'ВК не указан'}.`), '', '| Статус | Клуб | Адрес в проекте | Направления и ссылки ВК | Расписание из заметки | Что уточнить | Источник | Подтверждённый адрес / дата |', '| --- | --- | --- | --- | --- | --- | --- | --- |');
+  lines.push(`## ${label} (${items.length}; ${districtMissing ? `добавить ссылки: ${districtMissing}` : 'ссылки добавлены'})`, '', ...organizations.map(org => `${org.name}: ${org.official ? `[официальная страница](${org.official})` : 'официальная страница не указана'}; ${org.vk ? `[ВК](${org.vk})` : 'ВК не указан'}.`), '', '| Статус | Клуб | Адрес в проекте | Направления и ссылки ВК | Расписания каталога и строки для сверки | Что уточнить | Источник | Подтверждённый адрес / дата |', '| --- | --- | --- | --- | --- | --- | --- | --- |');
   for (const {club, coordinate, addressNote, structuralReview, priority, userProvidedPoint, audit} of sorted) {
     const statusReason = ['not_found', 'wrong_region'].includes(coordinate.status) ? statusNames[coordinate.status] : '';
     const reason = [...new Set([addressNote, statusReason, ...structuralReview, ...(coordinate.reasons ?? [])].filter(Boolean))].join('; ') || statusNames[coordinate.status];
@@ -288,12 +315,12 @@ const reportSections = groups.map(([label, items], index) => {
     const schedule = audit?.district === 'vo' ? voScheduleByName.get(club.name) ?? [] : [];
     const sourceRange = audit?.district === 'vo' ? voSourceRangeByName.get(club.name) : '';
     const reviewNote = audit?.district === 'vo' ? voReviewNoteByName.get(club.name) : '';
-    const scheduleBlock = audit?.district === 'vo' ? `<details class="schedule-evidence"><summary>Расписание из&nbsp;заметки: ${schedule.length} строк</summary><p>Строки требуют сверки. Название занятия могло быть определено неточно.</p>${schedule.length ? `<ol>${schedule.map(item => `<li><span>Строка ${item.sourceLine}${item.catalogActivity ? `, ${htmlCell(item.catalogActivity)}` : ''}:</span> ${htmlCell(item.text)}</li>`).join('')}</ol>` : '<p class="empty">Строки расписания не&nbsp;выделены.</p>'}</details>` : '';
+    const rawScheduleBlock = audit?.district === 'vo' ? `<details class="schedule-evidence"><summary>Расписание из&nbsp;заметки: ${schedule.length} строк</summary><p>Строки требуют сверки. Название занятия могло быть определено неточно.</p>${schedule.length ? `<ol>${schedule.map(item => `<li><span>Строка ${item.sourceLine}${item.catalogActivity ? `, ${htmlCell(item.catalogActivity)}` : ''}:</span> ${htmlCell(item.text)}</li>`).join('')}</ol>` : '<p class="empty">Строки расписания не&nbsp;выделены.</p>'}</details>` : '';
     const excerpt = audit?.district === 'vo' ? voExcerptByName.get(club.name) ?? [] : [];
     const excerptBlock = audit?.district === 'vo' ? `<details class="source-excerpt"><summary>Дополнительные сведения из&nbsp;заметки: ${excerpt.length} строк</summary><p>Исходный текст для&nbsp;сверки. ФИО, личные телефоны и&nbsp;изображения здесь скрыты.</p><ol>${excerpt.map(item => `<li><span>${item.sourceLine}:</span> ${htmlCell(item.text)}</li>`).join('')}</ol></details>` : '';
     const approvedVkNote = club.vkUrlApprovedAt ? `Ссылка ВК клуба утверждена пользователем ${htmlCell(club.vkUrlApprovedAt)}. ${club.vkUrlSharedWith ? `Это общее сообщество с&nbsp;«${htmlCell(club.vkUrlSharedWith)}». ` : ''}${(club.vkUrlAlternates ?? []).map(url => club.vkUrlAliasConfirmedAt ? `Альтернативный адрес той&nbsp;же страницы: <a href="${htmlCell(url)}" target="_blank" rel="noopener noreferrer">открыть ВК</a>; подтверждено пользователем ${htmlCell(club.vkUrlAliasConfirmedAt)}. ` : `Прежняя ссылка: <a href="${htmlCell(url)}" target="_blank" rel="noopener noreferrer">открыть ВК</a>; её назначение уточнить. `).join('')}` : '';
     const noteBlock = audit?.district === 'vo' ? `<div class="source-note"><strong>Из&nbsp;заметки для&nbsp;сверки:</strong> ${htmlCell(reviewNote || 'Проверить сведения у организатора.')} ${approvedVkNote}${vkCandidate ? `Кандидат ВК клуба: строка&nbsp;${vkCandidate.sourceLine}. ` : ''}<a href="${htmlCell(voSourceNoteHref)}">Полная исходная заметка</a>, строки ${htmlCell(sourceRange || 'не указаны')}.</div>` : '';
-    return `<details class="club${userProvidedPoint ? ' coordinates-received' : ''}" id="club-${index}-${clubIndex}"><summary><span class="club-heading"><strong class="club-title">${htmlCell(club.name)}</strong>${clubHeadingLinks ? `<span class="club-heading-links">${clubHeadingLinks}</span>` : ''}</span><span class="club-address">${htmlCell(club.address)}</span><span class="club-markers"><span class="status">${htmlCell(status)}</span><span class="link-note${missing ? '' : ' links-complete'}">${missing ? `Добавить ссылки: ${htmlCell(missing)}` : 'Ссылки добавлены'}</span></span></summary><div class="club-body"><div class="club-data"><h4>Направления и&nbsp;сообщества ВК</h4>${activities}</div>${scheduleBlock}${excerptBlock}${noteBlock}<dl class="review-data"><div><dt>Что уточнить</dt><dd>${htmlCell(reason)}</dd></div><div><dt>Источник</dt><dd>${source}</dd></div><div><dt>Подтверждённый адрес и&nbsp;дата</dt><dd class="empty">Не заполнено</dd></div></dl></div></details>`;
+    return `<details class="club${userProvidedPoint ? ' coordinates-received' : ''}" data-district="${htmlCell(club.districtCode || coordinate.district)}" data-club="${htmlCell(club.name)}" id="club-${index}-${clubIndex}"><summary><span class="club-heading"><strong class="club-title">${htmlCell(club.name)}</strong>${clubHeadingLinks ? `<span class="club-heading-links">${clubHeadingLinks}</span>` : ''}</span><span class="club-address">${htmlCell(club.address)}</span><span class="club-markers"><span class="status">${htmlCell(status)}</span><span class="link-note${missing ? '' : ' links-complete'}">${missing ? `Добавить ссылки: ${htmlCell(missing)}` : 'Ссылки добавлены'}</span></span></summary><div class="club-body"><div class="club-data"><h4>Направления и&nbsp;сообщества ВК</h4>${activities}</div>${catalogScheduleBlock(club)}${rawScheduleBlock}${excerptBlock}${noteBlock}<dl class="review-data"><div><dt>Что уточнить</dt><dd>${htmlCell(reason)}</dd></div><div><dt>Источник</dt><dd>${source}</dd></div><div><dt>Подтверждённый адрес и&nbsp;дата</dt><dd class="empty">Не заполнено</dd></div></dl></div></details>`;
   }).join('\n');
   const districtMissing = missingDistrictLabel(missingDistrictLinks(items));
   const organizations = districtOrganizations[items[0].district] ?? [];
@@ -323,10 +350,10 @@ const reportHtml = `<!doctype html>
 <html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Адреса клубов Петербурга: проверка</title>
 <style>
 ${reportStyle}</style></head><body><main><h1>Адреса клубов Петербурга</h1><p class="lead">Рабочий список для&nbsp;уточнения адресов. Зелёным отмечены клубы, для&nbsp;которых вы&nbsp;передали координаты. Цвет не&nbsp;означает подтверждения работы клуба, адреса и&nbsp;контактов.</p>
-<div class="summary"><span><b>${clubs.length}</b><br>клуба в&nbsp;списке</span><span><b>${marked.length}</b><br>с&nbsp;координатами</span><span><b>${voCandidates.clubPages.length}</b><br>ВК-страниц клубов утверждено</span><span><b>${voCandidates.activityPages.length}</b><br>связей ВК с&nbsp;занятиями утверждено</span><span><b>${voCandidates.scheduleEvidence.length}</b><br>строк расписания</span></div>
-<div class="legend"><p><span class="swatch"></span><b>Координаты получены:</b> клуб выделен зелёным.</p><p><b>Высокий приоритет:</b> есть расхождение, нет полного адреса или автоматическая карта не&nbsp;нашла подходящую точку.</p><p><b>Средний и&nbsp;плановый:</b> проверить актуальность адреса у&nbsp;центра перед публикацией.</p><p><b>Данные из&nbsp;заметки:</b> ссылки на&nbsp;страницы клубов и&nbsp;связи сообществ с&nbsp;занятиями Василеостровского района утверждены пользователем. Строки расписания остаются на&nbsp;проверке. ФИО и&nbsp;личные телефоны специалистов сюда не&nbsp;перенесены.</p><p><b>Ссылки района:</b> под названием района показаны страницы учреждений каталога. Если страницы или ВК нет в&nbsp;данных, ссылка помечена как&nbsp;неуказанная.</p><p><b>Добавить ссылки:</b> указывает, где не&nbsp;хватает ВК клуба, официальной страницы или&nbsp;ссылок для&nbsp;направлений в&nbsp;рабочем каталоге. Утверждение ссылки не&nbsp;подтверждает её текущую доступность. <b>Ссылки добавлены:</b> все нужные ссылки есть в&nbsp;рабочих данных.</p></div>
+<p class="lead">Документ обновлён ${updatedAt} из&nbsp;текущих локальных баз. Дата выгрузки не&nbsp;заменяет дату проверки источника.</p><div class="summary"><span><b>${clubs.length}</b><br>клуба в&nbsp;списке</span><span><b>${groups.length}</b><br>районов</span><span><b>${activityCount}</b><br>направлений</span><span><b>${scheduleCount}</b><br>расписаний в&nbsp;каталоге</span><span><b>${marked.length}</b><br>с&nbsp;полученными координатами</span></div>
+<div class="legend"><p><span class="swatch"></span><b>Координаты получены:</b> клуб выделен зелёным.</p><p><b>Высокий приоритет:</b> есть расхождение, нет полного адреса или автоматическая карта не&nbsp;нашла подходящую точку.</p><p><b>Средний и&nbsp;плановый:</b> проверить актуальность адреса у&nbsp;центра перед публикацией.</p><p><b>Данные из&nbsp;заметки:</b> ссылки на&nbsp;страницы клубов и&nbsp;связи сообществ с&nbsp;занятиями Василеостровского района утверждены пользователем. Строки расписания остаются на&nbsp;проверке. ФИО и&nbsp;личные телефоны специалистов сюда не&nbsp;перенесены.</p><p><b>Ссылки района:</b> под названием района показаны страницы учреждений каталога. Если страницы или ВК нет в&nbsp;данных, ссылка помечена как&nbsp;неуказанная.</p><p><b>Добавить ссылки:</b> указывает, где не&nbsp;хватает ВК клуба, официальной страницы или&nbsp;ссылок для&nbsp;направлений в&nbsp;рабочем каталоге. ВК клуба и&nbsp;официальный сайт не&nbsp;заменяют сообщество направления. Утверждение ссылки не&nbsp;подтверждает её текущую доступность. <b>Ссылки добавлены:</b> все нужные ссылки есть в&nbsp;рабочих данных.</p></div>
 <nav class="district-nav" aria-label="Районы">${navigation}</nav>${reportSections}
-<footer>Адресные данные от&nbsp;16.10.2026, документ обновлён 19.10.2026. <a href="address-checklist-2026-10-16.md">Текстовая версия</a>.</footer></main>
+<footer>Снимок локальных баз на&nbsp;${updatedAt}. Даты источников указаны отдельно. <a href="address-checklist-2026-10-16.md">Текстовая версия</a>.</footer></main>
 <button id="back-to-top" type="button" aria-label="Прокрутить наверх" title="Наверх" hidden>↑</button>
 <script>
 const backToTop = document.getElementById('back-to-top');
@@ -352,3 +379,5 @@ revealHash(); updateBackToTop();
 const htmlTarget = path.join(root, 'docs', 'address-checklist-2026-10-16.html');
 await writeGeneratedFile(htmlTarget, reportHtml);
 console.log(`Wrote checklist: ${clubs.length} clubs; ${marked.length} green; ${high.length} high, ${medium.length} medium, ${vo.length} VO.`);
+
+console.log(JSON.stringify({updatedAt, districts:groups.length, clubs:clubs.length, activities:activityCount, catalogSchedules:scheduleCount, scheduleSessions:scheduleSessionCount, missingLinks:missingDistrictLinks(clubs)}));

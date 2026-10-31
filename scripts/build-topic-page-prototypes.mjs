@@ -131,6 +131,11 @@ function guideShell({title, description, currentSlug = null, contents = [], comp
 function render(topic, records, production = false) {
   const draft = guideDrafts[topic.slug];
   if (!draft) throw new Error(`No article draft for ${topic.slug}`);
+  const updatedDate = draft.updatedAt ? new Date(`${draft.updatedAt}T12:00:00Z`) : null;
+  if (updatedDate && (!/^\d{4}-\d{2}-\d{2}$/.test(draft.updatedAt) || Number.isNaN(updatedDate.valueOf()) || updatedDate.toISOString().slice(0,10) !== draft.updatedAt)) throw new Error(`Invalid guide update date: ${topic.slug}`);
+  const updatedMeta = updatedDate
+    ? `Обновлено <time datetime="${html(draft.updatedAt)}">${text(updatedDate.toLocaleDateString('ru-RU', {day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Moscow'}))}</time>`
+    : 'Подборка по&nbsp;каталогу на&nbsp;22&nbsp;октября 2026&nbsp;года';
   const compact = draft.layout === 'compact';
   const districts = [...new Map(records.map(record => [record.district, record.districtName]))];
   const englishClubCount = records.filter(record => record.activities.some(link => /английск/iu.test(link.activity))).length;
@@ -178,7 +183,7 @@ function render(topic, records, production = false) {
     contents,
     compact,
     production,
-    content: `<nav class="breadcrumbs" aria-label="Навигационная цепочка"><a href="../index.html">Главная</a><span aria-hidden="true">/</span><a href="index.html">Гид по&nbsp;занятиям</a>${production ? `<span aria-hidden="true">/</span><span>${text(topic.navTitle)}</span>` : ''}</nav><article id="guide-article" tabindex="-1"><header class="guide-hero${heroImage ? ' guide-hero--visual' : ''}">${heroImage ? '<div class="guide-hero-copy">' : ''}${compact ? '' : '<p class="guide-kicker">Гид по&nbsp;бесплатным занятиям</p>'}<h1>${text(draft.h1)}</h1><p class="guide-lead">${rich(draft.lead)}</p><p class="guide-meta">${draft.updatedAt ? text(`Обновлено ${new Date(`${draft.updatedAt}T12:00:00Z`).toLocaleDateString('ru-RU', {day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Moscow'})}`) : 'Подборка по&nbsp;каталогу на&nbsp;22&nbsp;октября 2026&nbsp;года'}${heroImage ? '</p></div>' : '</p>'}${heroMedia}</header><div class="guide-body">${leadingSections}${clubs}${join}${faq}</div></article><footer class="guide-footer"><p>${compact ? 'Наличие мест и&nbsp;расписание уточняй у&nbsp;клуба.' : 'В&nbsp;подборку включены направления из&nbsp;каталога Young Russia. Условия конкретной группы и&nbsp;текущее расписание уточняй у&nbsp;организатора.'}</p><a href="index.html">Другие статьи о&nbsp;занятиях →</a></footer>`,
+    content: `<nav class="breadcrumbs" aria-label="Навигационная цепочка"><a href="../index.html">Главная</a><span aria-hidden="true">/</span><a href="index.html">Гид по&nbsp;занятиям</a>${production ? `<span aria-hidden="true">/</span><span>${text(topic.navTitle)}</span>` : ''}</nav><article id="guide-article" tabindex="-1"><header class="guide-hero${heroImage ? ' guide-hero--visual' : ''}">${heroImage ? '<div class="guide-hero-copy">' : ''}${compact ? '' : '<p class="guide-kicker">Гид по&nbsp;бесплатным занятиям</p>'}<h1>${text(draft.h1)}</h1><p class="guide-lead">${rich(draft.lead)}</p><p class="guide-meta">${updatedMeta}${heroImage ? '</p></div>' : '</p>'}${heroMedia}</header><div class="guide-body">${leadingSections}${clubs}${join}${faq}</div></article><footer class="guide-footer"><p>${compact ? 'Наличие мест и&nbsp;расписание уточняй у&nbsp;клуба.' : 'В&nbsp;подборку включены направления из&nbsp;каталога Young Russia. Условия конкретной группы и&nbsp;текущее расписание уточняй у&nbsp;организатора.'}</p><a href="index.html">Другие статьи о&nbsp;занятиях →</a></footer>`,
   });
 }
 

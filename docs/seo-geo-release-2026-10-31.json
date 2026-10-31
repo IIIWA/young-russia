@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-31",
+  "status": "published_verified_git_pending",
+  "release": "seo-geo-20261031-mvwjwidq",
+  "deployedAtUtc": "2026-10-31T15:32:47Z",
+  "deployedAtMoscow": "31.10.2026 18:32:47 МСК",
+  "archiveSha256": "ae8f7cddbe9235f54fa8c77dbc37cc94918b2513a350a00cec9fb6f2f272a74c",
+  "archiveBytes": 16311430,
+  "files": 5552,
+  "htmlPages": 2630,
+  "canonical": 2628,
+  "webPage": 2628,
+  "breadcrumbList": 2627,
+  "webSite": 1,
+  "changedTitles": 2621,
+  "contextualGuideLinks": 2,
+  "backup": "/var/www/u3013321/data/backups/young-russia-before-seo-geo-20261031-mvwjwidq.tar.gz",
+  "backupSha256": "b52aea282041c537c4943c58e4a84e9ce3afd1796f1e21a2851fa8345d08da0d",
+  "previousRoot": "/var/www/u3013321/data/www/.young-russia-prev-seo-geo-20261031-mvwjwidq",
+  "serverHttpCases": 51,
+  "serverHttpStatuses": {
+    "200": 42,
+    "301": 3,
+    "404": 6
+  },
+  "externalMatching": 38,
+  "externalSpecial": 11,
+  "prototypeFilesPreserved": 1659,
+  "commentsPreserved": true,
+  "sshClosed": true,
+  "siteCommit": null,
+  "remoteHead": null,
+  "addressChecklist": {
+    "clubs": 334,
+    "districts": 18,
+    "activities": 2269,
+    "catalogSchedules": 777,
+    "scheduleSessions": 4244,
+    "scope": "Local HTML/Markdown and generator, not a new public site route",
+    "browserReview": "file protocol blocked; full structural/data verification passed"
+  },
+  "indexNow": {
+    "installed": true,
+    "scriptSha256": "095342cca7338cf721d724a5e147de1190ff8b8636e580a59ca31c6f7b1a861b",
+    "cronLines": 1,
+    "pages": 2628,
+    "pending": 2625,
+    "lastScan": 1793461202,
+    "lastAttempt": 1793461202,
+    "lastHttp": 202,
+    "failures": 1,
+    "currentReleaseSubmissionObserved": true,
+    "indexingOrAliceCitationsProven": false
+  },
+  "excluded": [
+    "data/research/pmc-club-contact-audit.json",
+    "outputs/S-97/ private GSC reports and credentials"
+  ],
+  "limitations": [
+    "No new PageSpeed or Core Web Vitals score",
+    "No new indexing or AI citation claim",
+    "No Yandex Webmaster/Alice account metrics obtained"
+  ]
+}
