@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "status": "published_verified_git_pending",
+  "status": "published_and_source_pushed",
   "release": "seo-geo-20261031-mvwjwidq",
   "deployedAtUtc": "2026-10-31T15:32:47Z",
   "deployedAtMoscow": "31.10.2026 18:32:47 МСК",
@@ -28,7 +28,7 @@
   "prototypeFilesPreserved": 1659,
   "commentsPreserved": true,
   "sshClosed": true,
-  "siteCommit": null,
+  "siteCommit": "3418eee36ab1335d03150f4381d492ce33a97bd2",
   "remoteHead": null,
   "addressChecklist": {
     "clubs": 334,
@@ -50,7 +50,8 @@
     "lastHttp": 202,
     "failures": 1,
     "currentReleaseSubmissionObserved": true,
-    "indexingOrAliceCitationsProven": false
+    "indexingOrAliceCitationsProven": false,
+    "checkedAt": "2026-10-31T15:41:48.342449Z"
   },
   "excluded": [
     "data/research/pmc-club-contact-audit.json",
@@ -60,5 +61,7 @@
     "No new PageSpeed or Core Web Vitals score",
     "No new indexing or AI citation claim",
     "No Yandex Webmaster/Alice account metrics obtained"
-  ]
+  ],
+  "remoteSourceCommit": "3418eee36ab1335d03150f4381d492ce33a97bd2",
+  "publicPathsCommitted": 7913
 }
