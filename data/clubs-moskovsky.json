@@ -24,7 +24,61 @@
         "quote": "**[Клуб «Аврора»  \n](https://vk.ru/gym_aurora)**_(ул. Варшавская, дом 47, корп. 2, 417-40-92)_\n\nСтудия вокала, [студия гитары](https://vk.ru/studio__guitar), современные танцы, парапланерная секция, секция бокса, айкидо, клубное место свободного общения.\n\nПлатно для детей: гитара, танцы, айкидо"
       },
       "importTask": "S-82"
-    }
+    },
+    "vkUrl": "https://vk.com/avrora47",
+    "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/217/",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+      "locator": "/clubs/14",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/130/vkLinks/3",
+        "relationship": "exact-current-published-href"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31",
+    "activityPages": [
+      {
+        "id": "s98-link-14caa3f8336f",
+        "title": "студия гитары",
+        "catalogActivity": "Гитара",
+        "vkUrl": "https://vk.com/studio__guitar",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/217/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/14/activityCommunityLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/130/vkLinks/1",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-38c4bec635b6",
+        "title": "современные танцы",
+        "catalogActivity": "Современные танцы",
+        "vkUrl": "https://vk.com/mmmydance",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/217/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/14/activityCommunityLinks/1",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/130/vkLinks/2",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -57,7 +111,47 @@
     "vkUrl": "https://vk.ru/vertikal_klub",
     "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/259/",
     "vkUrlSourceCheckedAt": "2026-10-28",
-    "vkUrlImportedAt": "2026-10-28"
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "id": "s98-link-258c25820436",
+        "title": "разговорный английский",
+        "catalogActivity": "Разговорный английский",
+        "vkUrl": "https://vk.com/public222787450",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/259/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/7/activityCommunityLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/128/vkLinks/1",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-95ce809fe933",
+        "title": "хореографические студия «Вертикаль»",
+        "catalogActivity": "Хореография",
+        "vkUrl": "https://vk.com/vozduhvertical",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/259/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/7/activityCommunityLinks/1",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/128/vkLinks/2",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -83,7 +177,21 @@
         "quote": "**[Клуб «Взлёт»  \n](https://vk.ru/club195350143)**_(ул. Орджоникидзе, дом 61, 417-48-39)_\n\nРукопашный бой, [фольклорный ансамбль «Коловорот»](https://vk.ru/ans_kolovorot), [ансамбль «Вязеница»](https://vk.ru/club81152414), ИЗО и ДПИ, роспись по дереву, смешанные единоборства, фитнес для молодёжи, клуб молодой семьи, клубное место свободного общения\n\nПлатные: [дзюдо](https://vk.ru/club58294487) (4-13 лет), вокальная студия (7-13 лет), художественное развитие (4-13 лет), хореографическая студия (4-8 лет)."
       },
       "importTask": "S-82"
-    }
+    },
+    "vkUrl": "https://vk.ru/club195350143",
+    "vkUrlSource": "data/research/vk-notes-2026-10-28/moskovsky.json",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/vk-notes-2026-10-28/moskovsky.json",
+      "locator": "/clubs/2/links/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/131",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31"
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -143,7 +251,21 @@
         "quote": "**[Молодёжное пространство «На Звёздной»  \n](https://vk.ru/mopstar16)**_(ул. Звёздная, дом 16-а, 417-34-35)_\n\nАкадемический рисунок арт-студия «Палитра» (раскрой талант художника, постановка руки, разные техники), студия интерьерной живописи (создай уют своими руками, пишем картины для интерьера), ИЗО-студия (рисуем в разных стилях — от классики до современного искусства), вокальное мастерство (для тех, кто уже поёт и хочет выйти на новый уровень, работа над техникой и сценой), йога для молодых мам (восстановление после родов, мягкая практика, время для себя), хатха-йога (здоровое тело и ясный ум, снимем стресс), Лидерское объединение (добровольчество, волонтёрские выезды в приюты, организация мероприятий, социализация через добрые дела), школа акустической гитары (играй любимые песни с первых занятий, научись аккомпанировать), курс «Adobe Illustrator» (освой профессиональный дизайн, создавай логотипы и иллюстрации), репетиционная точка (пространство для репетиций, записывай треки, готовь выступления), курсы диджеинга и виджеинга (создавай свои сеты, своди треки, управляй визуальным шоу), фото и видео коворкинг (снимай контент, монтируй, воплощай смелые идеи), [школа восточного танца «Ориентальки»](https://vk.ru/orientalki) (грация, пластика, женственность), [арт-фехтование](https://vk.ru/ocmspb) (искусство боя, адреналин, красивая техника), танцевальный фитнес и пластика (поддержи форму, танцуй с удовольствием), коворкинг для работы (тихое место для учёбы и проектов), [театр-студия современного танца «Шаги»](https://vk.ru/tsst_shagi_spb) (современный танец, спектакли, раскрепощение), студия фитнеса «ПроФит» (тренировки для силы и выносливости), место свободного общения (настолки, новые друзья, уютная атмосфера), бесплатный Wi-Fi (оставайся на связи)\n\n> _Платные: школа восточного танца «Ориентальки» (есть группы для детей), театр-студия современного танца «Шаги» (есть группы для детей)_"
       },
       "importTask": "S-82"
-    }
+    },
+    "vkUrl": "https://vk.com/pmkstar",
+    "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/222/",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+      "locator": "/clubs/10",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/133/vkLinks/2",
+        "relationship": "exact-current-published-href"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31"
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -174,7 +296,28 @@
     "vkUrl": "https://vk.ru/pmkkometa",
     "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/223/",
     "vkUrlSourceCheckedAt": "2026-10-28",
-    "vkUrlImportedAt": "2026-10-28"
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "id": "s98-link-602f40d373f4",
+        "title": "Брейк-данс школа «Rockin Star»",
+        "catalogActivity": "Брейк-данс",
+        "vkUrl": "https://vk.com/realsteelru",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/223/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/11/activityCommunityLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/134/vkLinks/1",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -207,7 +350,85 @@
     "vkUrl": "https://vk.ru/klub_kosmonavt",
     "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/224/",
     "vkUrlSourceCheckedAt": "2026-10-28",
-    "vkUrlImportedAt": "2026-10-28"
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "id": "s98-link-e0e8206a475f",
+        "title": "студия современного танца «Хип-хоп»",
+        "catalogActivity": "Хип-хоп",
+        "vkUrl": "https://vk.com/colibridancestudio",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/224/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/8/activityCommunityLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/139/vkLinks/1",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-87aa239f12f1",
+        "title": "лазертаг",
+        "catalogActivity": "Лазертаг",
+        "vkUrl": "https://vk.com/llpulsar",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/224/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/8/activityCommunityLinks/1",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/139/vkLinks/2",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-899840021e98",
+        "title": "«Лидерский клуб»",
+        "catalogActivity": "Лидерский клуб",
+        "vkUrl": "https://vk.com/lidclub",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/224/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/8/activityCommunityLinks/4",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/139/vkLinks/5",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-e1f6e4413238",
+        "title": "арт-фехтование",
+        "catalogActivity": "Арт-фехтование",
+        "vkUrl": "https://vk.com/ocmspb",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/224/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/8/activityCommunityLinks/5",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/139/vkLinks/6",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -239,7 +460,66 @@
     "vkUrl": "https://vk.ru/kosmos_pmk",
     "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/225/",
     "vkUrlSourceCheckedAt": "2026-10-28",
-    "vkUrlImportedAt": "2026-10-28"
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "id": "s98-link-cbc801545997",
+        "title": "Студия гитары",
+        "catalogActivity": "Гитара",
+        "vkUrl": "https://vk.com/club789214",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/225/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/0/activityCommunityLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/135/vkLinks/1",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-924c313284f5",
+        "title": "студия вокала",
+        "catalogActivity": "Вокал",
+        "vkUrl": "https://vk.com/public83504852",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/225/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/0/activityCommunityLinks/2",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/135/vkLinks/3",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-3c2aea86c7c9",
+        "title": "создание музыки на компьютере",
+        "catalogActivity": "Создание музыки на компьютере",
+        "vkUrl": "https://vk.com/muzcomp",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/225/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/0/activityCommunityLinks/3",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/135/vkLinks/4",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -269,7 +549,47 @@
     "vkUrl": "https://vk.ru/pmk_luch",
     "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/226/",
     "vkUrlSourceCheckedAt": "2026-10-28",
-    "vkUrlImportedAt": "2026-10-28"
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "id": "s98-link-ee82b1f8cb06",
+        "title": "Молодёжный театр-студия «Респект»",
+        "catalogActivity": "Театр",
+        "vkUrl": "https://vk.com/respect_theatre_studio",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/226/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/5/activityCommunityLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/137/vkLinks/1",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-5f973f5d6eb0",
+        "title": "студия современных танцев «О.М.С.»",
+        "catalogActivity": "Современные танцы",
+        "vkUrl": "https://vk.com/o.m.s.dance_spb",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/226/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/5/activityCommunityLinks/2",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/137/vkLinks/3",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -292,7 +612,21 @@
         "quote": "**[Центр молодёжных инициатив «Простор»](https://vk.ru/cmiprostor)**\n\n_(Улица Ленсовета, дом 10, 417-30-12)_\n\nЦентр общественного развития [Добро.Центр в Московском](https://vk.ru/dobrovmoskovskom) (добровольческие мероприятия), молодёжное добровольческое объединение [«Лидерский клуб»](https://vk.ru/lidclub), молодёжный проектный офис, курсы по техническому творчеству [«ТехноТочка»](https://vk.ru/techtochka) (робототехника, управление дронами, 3D-моделирование и печать, станки ЧПУ), кибер дисциплины компьютерного спорта, пространство настольных игр [«Время Приключений»](https://vk.ru/vremprikluzenuu) (игротеки, турниры), PlayStation зона, бесшумная репетиционная точка, медиа курсы (дизайн, смм, фото/видеосъёмка, монтаж), киноклуб, книжный клуб, коворкинг, театральная студия [«ProsToTeaтР»](https://vk.ru/prosto_tot_teatr)."
       },
       "importTask": "S-82"
-    }
+    },
+    "vkUrl": "https://vk.com/moloclub",
+    "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/227/",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+      "locator": "/clubs/9",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/141/vkLinks/1",
+        "relationship": "exact-current-published-href"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31"
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -321,7 +655,61 @@
         "quote": "**[Клуб «Надежда»  \n](https://vk.ru/pmk_nadegda)**_(ул. Авиационная, дом 9, 417-50-73,_ 8(921)-869-14-58_)_\n\nСтудия для женщин в декрете «Ты не одна», студия для мам с детьми «Мамстерская», театральная студия для молодых мам «Импровизация», силуэтная латина, [вокальная студия «Интро»](https://vk.ru/intronadezhda), джазовый ансамбль, электрогитара."
       },
       "importTask": "S-82"
-    }
+    },
+    "vkUrl": "https://vk.com/arttochka_nadegda",
+    "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/228/",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+      "locator": "/clubs/16",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/140/vkLinks/3",
+        "relationship": "exact-current-published-href"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31",
+    "activityPages": [
+      {
+        "id": "s98-link-f16f5693aa06",
+        "title": "Студия «Ритм жизни» (хайхилс, стретчинг)",
+        "catalogActivity": "Стретчинг",
+        "vkUrl": "https://vk.com/bodibaletswan",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/228/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/16/activityCommunityLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/140/vkLinks/1",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-c176b4c535f2",
+        "title": "вокальная студия «Intro»",
+        "catalogActivity": "Вокал",
+        "vkUrl": "https://vk.com/intronadezhda",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/228/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/16/activityCommunityLinks/1",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/140/vkLinks/2",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -349,7 +737,21 @@
         "quote": "**[Клуб «Нева»  \n](https://vk.ru/pmknevaa)**_(ул. Смоленская, дом 1)_\n\nЛаборатория песни «Cover version»; Актёрское мастерство; Сценическая речь; Студия рисования; Музыкально-поэтическая студия «Диалоги»; Творческая лаборатория песни для авторов; Киноклуб"
       },
       "importTask": "S-82"
-    }
+    },
+    "vkUrl": "https://vk.com/mkneva",
+    "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/229/",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+      "locator": "/clubs/2",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/143/vkLinks/1",
+        "relationship": "exact-current-published-href"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31"
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -382,7 +784,66 @@
     "vkUrl": "https://vk.ru/pmkoktiabr",
     "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/230/",
     "vkUrlSourceCheckedAt": "2026-10-28",
-    "vkUrlImportedAt": "2026-10-28"
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "id": "s98-link-5e0fb03e74f8",
+        "title": "рт-студия «АРТика»",
+        "catalogActivity": "Арт-студия",
+        "vkUrl": "https://vk.com/kraskidz",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/230/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/1/activityCommunityLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/149/vkLinks/1",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-750f4324e59f",
+        "title": "вокальная студия «ЭльСоль»",
+        "catalogActivity": "Вокал",
+        "vkUrl": "https://vk.com/elsolvoice",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/230/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/1/activityCommunityLinks/3",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/149/vkLinks/4",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-cf403d0ba53a",
+        "title": "секция каратэ",
+        "catalogActivity": "Каратэ",
+        "vkUrl": "https://vk.com/karate_october",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/230/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/1/activityCommunityLinks/7",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/149/vkLinks/8",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -414,7 +875,66 @@
     "vkUrl": "https://vk.ru/pmkromantiki",
     "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/231/",
     "vkUrlSourceCheckedAt": "2026-10-28",
-    "vkUrlImportedAt": "2026-10-28"
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "id": "s98-link-81532a62ed59",
+        "title": "«Лидерский клуб»",
+        "catalogActivity": "Лидерский клуб",
+        "vkUrl": "https://vk.com/lidclub",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/231/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/15/activityCommunityLinks/3",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/144/vkLinks/4",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-66c3daf28620",
+        "title": "английский разговорный клуб «Погружение»",
+        "catalogActivity": "Разговорный английский",
+        "vkUrl": "https://vk.com/english_pogruzis",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/231/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/15/activityCommunityLinks/4",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/144/vkLinks/5",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-2b3d21daf4cf",
+        "title": "студия эстрадного вокала «Проснись и пой!»",
+        "catalogActivity": "Вокал",
+        "vkUrl": "https://vk.com/vokal_gitara",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/231/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/15/activityCommunityLinks/6",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/144/vkLinks/7",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -446,7 +966,104 @@
     "vkUrl": "https://vk.ru/rubin_club",
     "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/232/",
     "vkUrlSourceCheckedAt": "2026-10-28",
-    "vkUrlImportedAt": "2026-10-28"
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "id": "s98-link-74590a4f3a77",
+        "title": "эншин-каратэ",
+        "catalogActivity": "Каратэ",
+        "vkUrl": "https://vk.com/karate_rubin_club",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/232/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/18/activityCommunityLinks/1",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/145/vkLinks/2",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-69e1e958caa9",
+        "title": "фитнес, стретчинг и пилатес,",
+        "catalogActivity": "Фитнес",
+        "vkUrl": "https://vk.com/fitnessrubin",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/232/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/18/activityCommunityLinks/2",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/145/vkLinks/3",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-67145070126e",
+        "title": "фитнес, стретчинг и пилатес,",
+        "catalogActivity": "Стретчинг",
+        "vkUrl": "https://vk.com/fitnessrubin",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/232/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/18/activityCommunityLinks/2",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/145/vkLinks/3",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-5bad7202c341",
+        "title": "фитнес, стретчинг и пилатес,",
+        "catalogActivity": "Пилатес",
+        "vkUrl": "https://vk.com/fitnessrubin",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/232/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/18/activityCommunityLinks/2",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/145/vkLinks/3",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-e584efff2fea",
+        "title": "секция ММА",
+        "catalogActivity": "Смешанные единоборства",
+        "vkUrl": "https://vk.com/grapplingrubin",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/232/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/18/activityCommunityLinks/3",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/145/vkLinks/4",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -542,7 +1159,28 @@
     "vkUrl": "https://vk.ru/clubpmkunost",
     "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/235/",
     "vkUrlSourceCheckedAt": "2026-10-28",
-    "vkUrlImportedAt": "2026-10-28"
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "id": "s98-link-ca9e3cb489af",
+        "title": "Арт-Студия «В облаках»",
+        "catalogActivity": "Арт-студия",
+        "vkUrl": "https://vk.com/club153067063",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/235/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+          "locator": "/clubs/12/activityCommunityLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/146/vkLinks/1",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   },
   {
     "type": "Дом молодёжи",
@@ -561,7 +1199,35 @@
       "Добровольчество",
       "Танцы",
       "Диджеинг"
-    ]
+    ],
+    "officialUrl": "http://dm.pulkovec.ru/",
+    "officialUrlSource": "http://dm.pulkovec.ru/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+      "locator": "/clubs/20/sourceUrl",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/272",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31",
+    "vkUrl": "https://vk.com/dmpulkovec",
+    "vkUrlSource": "http://dm.pulkovec.ru/",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+      "locator": "/clubs/20",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/272/vkLinks/0",
+        "relationship": "exact-current-published-href"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31"
   },
   {
     "type": "Молодёжное пространство",
@@ -575,7 +1241,21 @@
       "Прикладная психология",
       "Навыки общения",
       "Пространство для встреч"
-    ]
+    ],
+    "officialUrl": "http://dm.pulkovec.ru/molodezhnoe-prostranstvo/",
+    "officialUrlSource": "http://dm.pulkovec.ru/molodezhnoe-prostranstvo/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+      "locator": "/clubs/21/sourceUrl",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/271",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "type": "Молодёжный центр",
@@ -589,6 +1269,20 @@
       "Функциональный тренинг",
       "Смешанные единоборства",
       "Военно-исторический клуб"
-    ]
+    ],
+    "officialUrl": "http://dm.pulkovec.ru/centr-patrioticheskogo-vospitanija/",
+    "officialUrlSource": "http://dm.pulkovec.ru/centr-patrioticheskogo-vospitanija/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/moskovsky.json",
+      "locator": "/clubs/22/sourceUrl",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/270",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   }
 ]

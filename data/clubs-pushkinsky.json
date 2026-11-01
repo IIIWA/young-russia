@@ -3734,7 +3734,21 @@
         },
         "importTask": "S-84"
       }
-    ]
+    ],
+    "officialUrl": "https://gurptcp.pushkin.gov.spb.ru/podrostkovo-molodezhnye-kluby/filial-lensovetovskij/",
+    "officialUrlSource": "https://gurptcp.pushkin.gov.spb.ru/podrostkovo-molodezhnye-kluby/filial-lensovetovskij/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/pushkinsky.json",
+      "locator": "/clubs/14/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/320",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Олимп",
@@ -4721,7 +4735,35 @@
       "Краеведение",
       "Дебаты",
       "Социальное проектирование"
-    ]
+    ],
+    "officialUrl": "https://pushkindm.ru/",
+    "officialUrlSource": "https://pushkindm.ru/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/pushkinsky.json",
+      "locator": "/clubs/19/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/324",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31",
+    "vkUrl": "https://vk.com/pushkindm",
+    "vkUrlSource": "https://pushkindm.ru/",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/pushkinsky.json",
+      "locator": "/clubs/19",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/324/vkLinks/0",
+        "relationship": "exact-current-published-href"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31"
   },
   {
     "type": "Информационный центр",

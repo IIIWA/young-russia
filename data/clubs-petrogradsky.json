@@ -377,7 +377,21 @@
         "sourceText": "Бесплатные занятия для молодёжи 14-35 лет. Показан сохранённый фрагмент расписания; полную неделю уточни у клуба",
         "importTask": "S-84"
       }
-    ]
+    ],
+    "vkUrl": "https://vk.com/mksiyanie",
+    "vkUrlSource": "https://pmc-petrogradsky.ru/services/tproduct/755004631191-molodezhnii-klub-severnoe-siyanie",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+      "locator": "/clubs/19",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/163/vkLinks/0",
+        "relationship": "exact-current-published-href"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31"
   },
   {
     "type": "Молодёжный клуб",
@@ -1419,6 +1433,25 @@
         "officialUrl": "https://pmc-petrogradsky.ru/services/tproduct/166552089961-molodezhnoe-prostranstvo-zerkalo",
         "sourceCheckedAt": "2026-10-26",
         "importTask": "S-84"
+      },
+      {
+        "id": "s98-link-f59a5cb04ee8",
+        "title": "Студия кино",
+        "catalogActivity": "Киностудия",
+        "vkUrl": "https://vk.com/snimaem_kino_studiya",
+        "vkUrlSource": "https://pmc-petrogradsky.ru/services/tproduct/166552089961-molodezhnoe-prostranstvo-zerkalo",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/petrogradsky.json",
+          "locator": "/clubs/5/activityCommunityLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/179/vkLinks/0",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
       }
     ],
     "activityConditions": [

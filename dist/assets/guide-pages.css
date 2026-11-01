@@ -1,7 +1,7 @@
 .guide-page { --guide-ink: #192642; --guide-blue: #2c40ef; --guide-paper: #faf8f1; }
 .guide-page { background: var(--guide-paper); color: var(--guide-ink); }
 .guide-main a { color: var(--guide-blue); }
-.guide-page .site-header { background: var(--guide-paper); border-color: #e1e3ee; }
+.guide-page .site-header { border-color: #e1e3ee; }
 .guide-page .wordmark { color: var(--guide-ink); }
 .guide-main { max-width: 1360px; margin: 0 auto; padding: 35px 28px 80px; }
 .guide-main h1 { font-size: clamp(32px, 4.2vw, 58px); max-width: 1120px; line-height: 1.1; letter-spacing: -.045em; }
@@ -22,7 +22,7 @@
 .guide-section.wire-section::before { display: none; }
 .guide-section .section-label-row { margin-bottom: 12px; }
 .guide-section .comment-trigger { margin-left: auto; opacity: .7; font-size: 10px; }
-.guide-sidebar { position: sticky; top: 25px; max-height: calc(100vh - 50px); overflow-y: auto; overscroll-behavior: contain; padding: 8px 12px 12px 0; border-right: 1px solid #d7dbe9; }
+.guide-sidebar { position: sticky; top: calc(var(--site-header-height, 84px) + 16px); max-height: calc(100vh - var(--site-header-height, 84px) - 32px); overflow-y: auto; overscroll-behavior: contain; padding: 8px 12px 12px 0; border-right: 1px solid #d7dbe9; }
 .guide-sidebar-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 18px; }
 .guide-sidebar a { text-decoration: none; overflow-wrap: anywhere; }
 .guide-sidebar a:hover { text-decoration: underline; }

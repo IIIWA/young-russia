@@ -29,8 +29,19 @@ function mapClubActivities(activities, languageSelection = false, base = '') {
   return `${languageDetails}<div style="margin-top:10px;max-width:320px;font-size:14px"><strong>Направления клуба</strong>${list}</div>`;
 }
 
-function addMapPlacemarks(map, placemarks, clusterNearby = false) {
-  if (clusterNearby) {
+const nearbyMapPair = new Set(['clubs/kamchatka.html', 'clubs/otvaga.html']);
+function mapPairMember(urls) {
+  if (urls.length !== 1) return '';
+  const route = String(urls[0]).replace(/^(?:\.\.\/)+/, '').replace(/^\//, '');
+  return nearbyMapPair.has(route) ? route : '';
+}
+
+function addMapPlacemarks(map, placemarks, allowNearbyPair = false) {
+  const pair = allowNearbyPair ? placemarks.filter(mark => nearbyMapPair.has(mark.properties.get('nearbyPairMember'))) : [];
+  const bothMembers = new Set(pair.map(mark => mark.properties.get('nearbyPairMember'))).size === 2;
+  const clustered = new Set(bothMembers ? pair : []);
+  placemarks.filter(mark => !clustered.has(mark)).forEach(mark => map.geoObjects.add(mark));
+  if (bothMembers) {
     const clusterer = new window.ymaps.Clusterer({
       preset:'islands#blueClusterIcons',
       gridSize:64,
@@ -39,10 +50,8 @@ function addMapPlacemarks(map, placemarks, clusterNearby = false) {
       clusterOpenBalloonOnClick:false,
       zoomMargin:32,
     });
-    clusterer.add(placemarks);
+    clusterer.add(pair);
     map.geoObjects.add(clusterer);
-  } else {
-    placemarks.forEach(placemark => map.geoObjects.add(placemark));
   }
 }
 
@@ -70,6 +79,47 @@ if (boxingSchedule) {
   document.fonts?.ready.then(updateDayNames);
 }
 const mobileNav = document.querySelector('#mobile-nav');
+const siteHeader = document.querySelector('.site-header');
+if (siteHeader) {
+  const showHeader = () => siteHeader.classList.remove('header-is-hidden');
+  const sizeHeader = () => document.documentElement.style.setProperty('--site-header-height', `${siteHeader.offsetHeight}px`);
+  sizeHeader();
+  if ('ResizeObserver' in window) new ResizeObserver(sizeHeader).observe(siteHeader);
+  else window.addEventListener('resize', sizeHeader, { passive: true });
+  siteHeader.addEventListener('focusin', showHeader);
+  let previousY = Math.max(0, window.scrollY);
+  let direction = 0;
+  let travel = 0;
+  let pending = false;
+  const updateHeader = () => {
+    pending = false;
+    const y = Math.max(0, window.scrollY);
+    const delta = y - previousY;
+    previousY = y;
+    siteHeader.classList.toggle('header-is-scrolled', y > 16);
+    if (y < siteHeader.offsetHeight + 36 || siteHeader.contains(document.activeElement) || menuButton?.getAttribute('aria-expanded') === 'true') {
+      showHeader(); travel = 0; return;
+    }
+    const nextDirection = Math.sign(delta);
+    if (nextDirection !== direction) { direction = nextDirection; travel = 0; }
+    travel += Math.abs(delta);
+    if (travel >= 10) { siteHeader.classList.toggle('header-is-hidden', direction > 0); travel = 0; }
+  };
+  window.addEventListener('scroll', () => {
+    if (!pending) { pending = true; requestAnimationFrame(updateHeader); }
+  }, { passive: true });
+  window.addEventListener('pageshow', updateHeader);
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && mobileNav && !mobileNav.hidden) {
+      mobileNav.hidden = true;
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Открыть меню');
+      showHeader();
+      menuButton.focus();
+    }
+  });
+  updateHeader();
+}
 if (menuButton && mobileNav) {
   menuButton.addEventListener('click', () => {
     const opened = menuButton.getAttribute('aria-expanded') === 'true';
@@ -98,7 +148,7 @@ if (clubsMap) {
     mapCount.id = 'catalog-map-count';
     mapCount.className = 'catalog-map-credit';
     mapCount.setAttribute('aria-live', 'polite');
-    clubsMap.closest('.catalog-map-panel')?.querySelector('.catalog-map-credit')?.before(mapCount);
+    clubsMap.closest('.catalog-map-panel')?.append(mapCount);
   }
   const allowedHost = ['young-russia.ru', 'www.young-russia.ru', 'localhost', '127.0.0.1'].includes(location.hostname);
   if (!allowedHost) {
@@ -140,6 +190,7 @@ if (clubsMap) {
               const languageSelection = new URLSearchParams(location.search).get('subtopic') === 'languages' || new URLSearchParams(location.search).get('topic') === 'languages';
               const body = group.map(club => `<div><a class="map-balloon-link" style="color:#1d4ed8!important;text-decoration:underline!important" href="${escapeHtml(filtered ? `../${club.url}` : club.url)}">${escapeHtml(club.name)}</a><br>${escapeHtml(club.address)}${mapClubActivities(club.activities, languageSelection, filtered ? '../' : '')}${club.provisional ? '<br><small>Точка предварительная</small>' : ''}</div>`).join('<hr>');
               return new window.ymaps.Placemark(coordinates, {
+                nearbyPairMember: mapPairMember(group.map(club => club.url)),
                 balloonContentHeader: group.length === 1 ? escapeHtml(group[0].name) : `${group.length} клуба по&nbsp;одному адресу`,
                 balloonContentBody: body,
                 hintContent: group.map(club => club.name).join(', '),
@@ -214,6 +265,12 @@ if (districtSearch) {
   updateDistricts();
 }
 
+function catalogSearchMatches(value, query) {
+  const normalize = text => String(text).toLocaleLowerCase('ru').replace(/ё/g, 'е').replace(/[«»„“”"'.,]/g, ' ').replace(/\s+/g, ' ').trim();
+  const haystack = normalize(value);
+  return normalize(query).split(' ').filter(Boolean).every(word => haystack.includes(word));
+}
+
 const clubSearch = document.querySelector('#club-search');
 if (clubSearch) {
   const taxonomy = JSON.parse(document.querySelector('#topic-taxonomy-data').textContent);
@@ -224,11 +281,26 @@ if (clubSearch) {
   const organizationChips = [...document.querySelectorAll('[data-org-filter]')];
   const count = document.querySelector('#result-count');
   const empty = document.querySelector('#club-empty');
-  const params = new URLSearchParams(location.search);
-  const initialTopic = params.get('topic');
-  let activeTopic = aliases[initialTopic]?.topic ?? (topicChips.some(chip => chip.dataset.filter === initialTopic) ? initialTopic : 'all');
-  let activeSubtopic = aliases[initialTopic]?.subtopic ?? (subtopicParent[params.get('subtopic')] === activeTopic ? params.get('subtopic') : '');
-  let activeOrganization = organizationChips.some(chip => chip.dataset.orgFilter === new URLSearchParams(location.search).get('org')) ? new URLSearchParams(location.search).get('org') : 'all';
+  let activeTopic;
+  let activeSubtopic;
+  let activeOrganization;
+  function readClubFilters() {
+    const params = new URLSearchParams(location.search);
+    const requestedTopic = params.get('topic');
+    activeTopic = aliases[requestedTopic]?.topic ?? (topicChips.some(chip => chip.dataset.filter === requestedTopic) ? requestedTopic : 'all');
+    activeSubtopic = aliases[requestedTopic]?.subtopic ?? (subtopicParent[params.get('subtopic')] === activeTopic ? params.get('subtopic') : '');
+    activeOrganization = organizationChips.some(chip => chip.dataset.orgFilter === params.get('org')) ? params.get('org') : 'all';
+    clubSearch.value = params.get('q') ?? '';
+  }
+  function writeClubFilters(replace = false) {
+    const url = new URL(location.href);
+    for (const [key, value] of [['topic', activeTopic === 'all' ? '' : activeTopic], ['subtopic', activeSubtopic], ['org', activeOrganization === 'all' ? '' : activeOrganization], ['q', clubSearch.value.trim()]]) {
+      if (value) url.searchParams.set(key, value);
+      else url.searchParams.delete(key);
+    }
+    if (url.href !== location.href) history[replace ? 'replaceState' : 'pushState'](null, '', url);
+  }
+  readClubFilters();
   const topicRow = topicChips[0]?.parentElement;
   const subtopicRow = document.createElement('div');
   subtopicRow.className = 'subtopic-filters';
@@ -251,10 +323,7 @@ if (clubSearch) {
       button.textContent = label;
       button.addEventListener('click', () => {
         activeSubtopic = key;
-        const url = new URL(location.href);
-        if (key) url.searchParams.set('subtopic', key);
-        else url.searchParams.delete('subtopic');
-        history.replaceState(null, '', url);
+        writeClubFilters();
         renderSubtopics();
         update();
       });
@@ -268,7 +337,7 @@ if (clubSearch) {
       const topicMatch = activeTopic === 'all' || card.dataset.topics.split(' ').includes(activeTopic);
       const subtopicMatch = !activeSubtopic || card.dataset.subtopics.split(' ').includes(activeSubtopic);
       const organizationMatch = activeOrganization === 'all' || card.dataset.org === activeOrganization;
-      card.hidden = !topicMatch || !subtopicMatch || !organizationMatch || !card.dataset.search.includes(query);
+      card.hidden = !topicMatch || !subtopicMatch || !organizationMatch || !catalogSearchMatches(card.dataset.search, query);
       if (!card.hidden) visible++;
     }
     for (const chip of topicChips) {
@@ -285,26 +354,24 @@ if (clubSearch) {
     empty.hidden = visible > 0;
     document.dispatchEvent(new Event('club-catalog-filtered'));
   }
-  clubSearch.addEventListener('input', update);
+  clubSearch.addEventListener('input', () => { writeClubFilters(true); update(); });
   topicChips.forEach(chip => chip.addEventListener('click', () => {
     activeTopic = chip.dataset.filter;
     activeSubtopic = '';
-    const url = new URL(location.href);
-    if (activeTopic === 'all') url.searchParams.delete('topic');
-    else url.searchParams.set('topic', activeTopic);
-    url.searchParams.delete('subtopic');
-    history.replaceState(null, '', url);
+    writeClubFilters();
     renderSubtopics();
     update();
   }));
   organizationChips.forEach(chip => chip.addEventListener('click', () => {
     activeOrganization = chip.dataset.orgFilter;
-    const url = new URL(location.href);
-    if (activeOrganization === 'all') url.searchParams.delete('org');
-    else url.searchParams.set('org', activeOrganization);
-    history.replaceState(null, '', url);
+    writeClubFilters();
     update();
   }));
+  window.addEventListener('popstate', () => {
+    readClubFilters();
+    renderSubtopics();
+    update();
+  });
   renderSubtopics();
   update();
 }
@@ -312,16 +379,17 @@ if (clubSearch) {
 const directionResults = document.querySelector('#direction-results');
 if (directionResults) {
   const taxonomy = JSON.parse(document.querySelector('#topic-taxonomy-data').textContent);
-  const topicButtons = [...document.querySelectorAll('[data-topic-button]')];
-  const subtopicButtons = [...document.querySelectorAll('[data-subtopic-button]')];
-  const subgroups = document.querySelector('#subgroups');
-  const subtopicSelection = document.querySelector('#direction-subtopic-selection');
-  const compactSubgroups = matchMedia('(max-width:1050px)');
+  const topicSelect = document.querySelector('#direction-topic');
+  const subtopicSelect = document.querySelector('#direction-subtopic');
   const cards = [...directionResults.querySelectorAll('.direction-club-card')].map(element => ({
     element,
     activities: JSON.parse(element.dataset.directionActivities),
   }));
   const districtSelect = document.querySelector('#direction-district');
+  let districtPicker;
+  import('./district-picker.js').then(({enhanceDistrictSelect}) => {
+    if (districtSelect.isConnected) districtPicker = enhanceDistrictSelect(districtSelect);
+  }).catch(() => { /* Native select remains available if enhancement fails. */ });
   const title = document.querySelector('#direction-title');
   const summary = document.querySelector('#direction-summary');
   const empty = document.querySelector('#direction-empty');
@@ -330,11 +398,13 @@ if (directionResults) {
   const mapNode = document.querySelector('#direction-map');
   const mapStatus = document.querySelector('#direction-map-status');
   const defaultTopic = 'all';
+  const topicAliases = {languages:{topic:'knowledge',subtopic:'languages'},dance:{topic:'sport',subtopic:'dance'}};
   const allTopics = {label:'Все направления', subtopics:{}};
   let topic = defaultTopic;
   let subtopic = '';
   let limit = 12;
   let directionMap = null;
+  let districtBoundaryLayer;
   let directionLanguageTools;
   const directionLanguageMarks = new Map();
   let mapMatches = [];
@@ -360,6 +430,7 @@ if (directionResults) {
     }
     directionMap.geoObjects.removeAll();
     directionLanguageMarks.clear();
+    districtBoundaryLayer?.render(districtSelect.value);
     const languageMode = subtopic === 'languages';
     if (!points.length) {
       mapStatus.textContent = matches.length ? 'Координаты этих площадок уточняются. Адреса есть в карточках ниже.' : 'Для выбранных фильтров площадок нет.';
@@ -388,6 +459,7 @@ if (directionResults) {
       const languageActivities = languageMode ? group.flatMap(element => JSON.parse(element.dataset.directionActivities).filter(activity => activity.subtopics.includes('languages'))) : [];
       const options = languageMode ? directionLanguageTools.languageMarkerOptions(window.ymaps, {name, provisional, languages:directionLanguageTools.activityLanguages(languageActivities)}, key) : {preset:'islands#circleDotIcon',iconColor:provisional ? '#db7819' : '#2545ed'};
       const placemark = new window.ymaps.Placemark(coordinates, {
+        nearbyPairMember: mapPairMember(group.map(element => element.querySelector('h3 a').getAttribute('href'))),
         balloonContentHeader: group.length === 1 ? escapeMapHtml(group[0].querySelector('h3 a').textContent) : `${group.length} клуба по&nbsp;одному адресу`,
         balloonContentBody: body,
         hintContent: name,
@@ -395,18 +467,28 @@ if (directionResults) {
       if (languageMode) directionLanguageMarks.set(key, placemark);
       return placemark;
     });
-    addMapPlacemarks(directionMap, placemarks, !languageMode);
+    const clubObjects = new window.ymaps.GeoObjectCollection();
+    addMapPlacemarks({geoObjects:clubObjects}, placemarks, !languageMode);
+    directionMap.geoObjects.add(clubObjects);
     if (placemarks.length === 1) directionMap.setCenter(placemarks[0].geometry.getCoordinates(),14);
-    else directionMap.setBounds(directionMap.geoObjects.getBounds(),{checkZoomRange:true,zoomMargin:30});
+    else directionMap.setBounds(clubObjects.getBounds(),{checkZoomRange:true,zoomMargin:30});
     mapStatus.textContent = `На карте: ${points.length} из ${matches.length} площадок.${points.length < matches.length ? ' Координаты остальных уточняются.' : ''}`;
   }
 
   function loadDirectionMap() {
     if (!mapNode) return;
+    const boundaryToggle = document.querySelector('#direction-boundaries');
+    const boundaryStatus = document.querySelector('#direction-boundaries-status');
+    const boundariesUnavailable = () => {
+      boundaryToggle.checked = false;
+      boundaryToggle.disabled = true;
+      boundaryStatus.textContent = 'Границы пока недоступны.';
+    };
     const allowedHost = ['young-russia.ru','www.young-russia.ru','localhost','127.0.0.1'].includes(location.hostname);
     if (!allowedHost) {
       mapError = true;
       mapStatus.textContent = 'Карта доступна на сайте или через локальный сервер просмотра.';
+      boundariesUnavailable();
       return;
     }
     const initialize = async () => {
@@ -415,9 +497,18 @@ if (directionResults) {
         await new Promise((resolve,reject) => window.ymaps.ready(resolve,reject));
         directionMap = new window.ymaps.Map(mapNode,{center:[59.94,30.3],zoom:11,controls:['zoomControl']});
         renderDirectionMap(mapMatches);
+        import('./district-boundaries.js').then(async ({createDistrictBoundaryLayer}) => {
+          districtBoundaryLayer = await createDistrictBoundaryLayer(directionMap,boundaryToggle,boundaryStatus);
+          districtBoundaryLayer.render(districtSelect.value);
+        }).catch(() => {
+          boundaryToggle.checked = false;
+          boundaryToggle.disabled = true;
+          boundaryStatus.textContent = 'Границы пока не загрузились. Метки клубов доступны.';
+        });
       } catch {
         mapError = true;
         mapStatus.textContent = 'Карта пока не загрузилась. Адреса клубов есть в карточках ниже.';
+        boundariesUnavailable();
       }
     };
     if (window.ymaps) { initialize(); return; }
@@ -428,15 +519,33 @@ if (directionResults) {
     script.onerror = () => {
       mapError = true;
       mapStatus.textContent = 'Карта пока не загрузилась. Адреса клубов есть в карточках ниже.';
+      boundariesUnavailable();
     };
     document.head.appendChild(script);
+  }
+
+  function renderDirectionSubtopics() {
+    if (subtopicSelect.dataset.topic !== topic) {
+      subtopicSelect.replaceChildren();
+      const entries = [['', 'Все занятия'], ...Object.entries(topic === 'all' ? {} : taxonomy[topic].subtopics)];
+      for (const [value, label] of entries) {
+        const option = document.createElement('option');
+        option.value = value;
+        option.textContent = label;
+        subtopicSelect.appendChild(option);
+      }
+      subtopicSelect.dataset.topic = topic;
+    }
+    subtopicSelect.disabled = topic === 'all';
+    subtopicSelect.value = subtopic;
   }
 
   function readDirectionUrl() {
     const params = new URLSearchParams(location.search);
     const requestedTopic = params.get('topic');
-    topic = requestedTopic === 'all' || Object.hasOwn(taxonomy,requestedTopic) ? requestedTopic : defaultTopic;
-    const requestedSubtopic = params.get('subtopic');
+    const alias = topicAliases[requestedTopic];
+    topic = alias?.topic ?? (requestedTopic === 'all' || Object.hasOwn(taxonomy,requestedTopic) ? requestedTopic : defaultTopic);
+    const requestedSubtopic = alias?.subtopic ?? params.get('subtopic');
     subtopic = topic !== 'all' && Object.hasOwn(taxonomy[topic].subtopics,requestedSubtopic) ? requestedSubtopic : '';
     const requestedDistrict = params.get('district') || '';
     districtSelect.value = [...districtSelect.options].some(option => option.value === requestedDistrict) ? requestedDistrict : '';
@@ -455,16 +564,13 @@ if (directionResults) {
   }
 
   function renderDirections() {
+    districtPicker?.sync();
     const group = topic === 'all' ? allTopics : taxonomy[topic];
     const groupSubtopics = new Set(Object.keys(group.subtopics));
     title.textContent = group.label;
     document.title = `${group.label} | ПМК Петербурга`;
-    topicButtons.forEach(button => button.setAttribute('aria-pressed',String(button.dataset.topicButton === topic)));
-    subtopicButtons.forEach(input => {
-      input.closest('.direction-subtopic').hidden = Boolean(input.dataset.group && input.dataset.group !== topic);
-      input.checked = input.dataset.subtopicButton === subtopic;
-    });
-    subtopicSelection.textContent = subtopicButtons.find(input => input.checked)?.closest('.direction-subtopic').querySelector('strong').textContent || 'Все занятия';
+    topicSelect.value = topic;
+    renderDirectionSubtopics();
 
     const matches = [];
     for (const {element,activities} of cards) {
@@ -483,31 +589,24 @@ if (directionResults) {
     renderDirectionMap(matches);
   }
 
-  topicButtons.forEach(button => button.addEventListener('click',() => {
-    if (topic === button.dataset.topicButton) return;
-    topic = button.dataset.topicButton;
+  topicSelect.addEventListener('change',() => {
+    topic = topicSelect.value === 'all' || Object.hasOwn(taxonomy,topicSelect.value) ? topicSelect.value : defaultTopic;
     subtopic = '';
     limit = 12;
     writeDirectionUrl();
     renderDirections();
-    document.querySelector('#subgroups')?.scrollIntoView({behavior:'smooth',block:'start'});
-  }));
-  subtopicButtons.forEach(input => input.addEventListener('change',() => {
-    subtopic = input.dataset.subtopicButton;
+  });
+  subtopicSelect.addEventListener('change',() => {
+    subtopic = topic !== 'all' && Object.hasOwn(taxonomy[topic].subtopics,subtopicSelect.value) ? subtopicSelect.value : '';
     limit = 12;
     writeDirectionUrl();
     renderDirections();
-    if (compactSubgroups.matches) subgroups.open = false;
-    document.querySelector('#results')?.scrollIntoView({behavior:'smooth',block:'start'});
-  }));
-  const syncSubgroups = () => { subgroups.open = !compactSubgroups.matches; };
-  compactSubgroups.addEventListener('change',syncSubgroups);
+  });
   districtSelect.addEventListener('change',() => { limit = 12; writeDirectionUrl(); renderDirections(); });
   more.addEventListener('click',() => { limit += 12; renderDirections(); });
   reset.addEventListener('click',() => { topic = defaultTopic; subtopic = ''; districtSelect.value = ''; limit = 12; writeDirectionUrl(); renderDirections(); });
   addEventListener('popstate',() => { readDirectionUrl(); renderDirections(); });
   readDirectionUrl();
   renderDirections();
-  syncSubgroups();
   loadDirectionMap();
 }

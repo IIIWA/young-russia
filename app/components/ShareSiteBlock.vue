@@ -7,7 +7,6 @@ const postText = `${shareText}\n\n${siteUrl}`
 const telegramUrl = `https://t.me/share/url?url=${encodeURIComponent(siteUrl)}&text=${encodeURIComponent(shareText)}`
 const vkUrl = `https://vk.com/share.php?url=${encodeURIComponent(siteUrl)}&title=${encodeURIComponent(siteTitle)}`
 const maxUrl = `https://max.ru/:share?text=${encodeURIComponent(postText)}`
-const backgroundPaused = ref(false)
 const previewPinned = ref(false)
 const previewDismissed = ref(false)
 const glitterParticles = Array.from({ length: 28 }, (_, i) => ({ x: (i * 37 + 9) % 100, y: (i * 29 + 7) % 100, size: 3 + (i % 4) * 2, delay: -(i % 9) * 0.7, duration: 4.8 + (i % 5) * 0.6 }))
@@ -55,14 +54,13 @@ async function share() {
 </script>
 
 <template>
-  <section id="share" class="share-site" data-share-background="glow" :data-motion-paused="backgroundPaused" aria-labelledby="share-title">
+  <section id="share" class="share-site" data-share-background="glow" aria-labelledby="share-title">
     <div class="share-glitter" aria-hidden="true"><span v-for="(particle, i) in glitterParticles" :key="i" :style="{ left: particle.x + '%', top: particle.y + '%', width: particle.size + 'px', height: particle.size + 'px', animationDelay: particle.delay + 's', animationDuration: particle.duration + 's' }" /></div><div class="container share-site__layout">
       <div class="share-site__copy">
         <h2 id="share-title">Помоги другим найти своё занятие</h2>
         <p class="share-site__lead">Твоя ссылка может стать чьим-то первым шагом к&nbsp;новому увлечению, друзьям и&nbsp;возможности реализовать себя.</p>
         <p>Нам очень важно, чтобы как&nbsp;можно больше людей узнали о&nbsp;бесплатных занятиях рядом с&nbsp;домом. Поделись сайтом с&nbsp;друзьями и&nbsp;расскажи о&nbsp;нём в&nbsp;соцсетях.</p>
         <p class="share-site__mention">Снимаешь видео для&nbsp;TikTok или&nbsp;YouTube? Укажи <strong>young-russia.ru</strong> в&nbsp;описании или&nbsp;на&nbsp;экране, чтобы нас было легко найти.</p>
-        <button class="share-motion-toggle" type="button" :aria-pressed="backgroundPaused" @click="backgroundPaused = !backgroundPaused">{{ backgroundPaused ? 'Включить анимацию' : 'Остановить анимацию' }}</button>
       </div>
       <div class="share-site__panel">
         <h3>Начни с&nbsp;одного друга</h3>
@@ -85,7 +83,7 @@ async function share() {
           <p>Для&nbsp;YouTube, TikTok и&nbsp;других площадок</p>
           <button class="share-site__text-button" type="button" aria-describedby="share-post-preview" @click="copy(postText, 'Текст со ссылкой скопирован. Вставь его в описание видео или публикацию.')">Скопировать текст со&nbsp;ссылкой</button>
           <button class="share-site__preview-toggle" type="button" aria-controls="share-post-preview" :aria-expanded="previewPinned" @click="previewPinned = !previewPinned; previewDismissed = !previewPinned">{{ previewPinned ? 'Скрыть текст' : 'Посмотреть текст' }}</button>
-          <div id="share-post-preview" class="share-site__preview" role="note"><strong>Текст публикации</strong><p>{{ postText }}</p></div>
+          <div id="share-post-preview" class="share-site__preview" role="note"><div class="share-site__preview-content"><strong>Текст публикации</strong><p>{{ postText }}</p></div></div>
         </div>
         <p class="share-site__status" role="status" aria-live="polite" aria-atomic="true">{{ status }}</p>
         <div v-if="manualText" class="share-site__manual">

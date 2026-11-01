@@ -1,0 +1,172 @@
+{
+  "status": "published-verified-git-pending",
+  "prepared": {
+    "at": "2026-11-01T00:04:48.238Z",
+    "release": "catalog-map-20261101-mvx2ix1d",
+    "files": 5573,
+    "htmlPages": 2630,
+    "footerPages": 2628,
+    "bytes": 17127303,
+    "sha256": "070084b4faacce210f576b661f76651d94257c44208d1f1c27467d78e5baa56f",
+    "baselineFiles": 5561,
+    "sourceFiles": 154,
+    "reviewedFiles": 29,
+    "criticalPaths": 139,
+    "delta": {
+      "added": 2646,
+      "removed": 2634,
+      "changed": 2633
+    },
+    "budgets": [
+      {
+        "path": "assets/district-picker.js",
+        "bytes": 6085,
+        "gzipBytes": 1923
+      },
+      {
+        "path": "assets/district-boundaries.js",
+        "bytes": 3745,
+        "gzipBytes": 1722
+      },
+      {
+        "path": "assets/district-boundaries.geojson",
+        "bytes": 262630,
+        "gzipBytes": 84861
+      }
+    ],
+    "sshStarted": false
+  },
+  "standards": "GO",
+  "spec": "SOURCE-GO",
+  "sourceBaseCommit": "ca876ac07bbd71dc0a5e123f9fe13713caaa35b3",
+  "publication": {
+    "release": "catalog-map-20261101-mvx2ix1d",
+    "deployedAtUtc": "2026-11-01T00:09:28Z",
+    "deployedAtMoscow": "01.11.2026, 03:09:28",
+    "finalFiles": 5572,
+    "htmlPages": 2630,
+    "canonicalUrls": 2628,
+    "finalArchive": {
+      "bytes": 17126570,
+      "sha256": "ce16405b51e526298cef647af8298271ec696d8e3007a9ceacc47e15e97a5614"
+    },
+    "uploadedArchive": {
+      "files": 5573,
+      "sha256": "070084b4faacce210f576b661f76651d94257c44208d1f1c27467d78e5baa56f"
+    },
+    "backup": {
+      "path": "/var/www/u3013321/data/backups/young-russia-before-catalog-map-20261101-mvx2ix1d.tar.gz",
+      "sha256": "47d7e561f988425f5c341ff4c79c8949e7b24ccf48251a99d92d6b83d727e8a3",
+      "previousRoot": "/var/www/u3013321/data/www/.young-russia-prev-catalog-map-20261101-mvx2ix1d"
+    },
+    "serverHttp": {
+      "cases": 160,
+      "statuses": {
+        "200": 151,
+        "301": 3,
+        "404": 6
+      }
+    },
+    "externalHttp": {
+      "matchingBodies": 146,
+      "specialCases": 11,
+      "status": "pass",
+      "evidence": "outputs/S-100/live-http.json"
+    },
+    "finalServerVerification": {
+      "finalFilesVerified": 5572,
+      "finalManifestDigest": "bcfb821424e960a1bc3cac3e32ff521cd3f12f3e0e9aaf49350d600ef57d7341",
+      "removedArtifactAbsent": true,
+      "commentsPreserved": true
+    },
+    "prototypePreservation": {
+      "previousPrototypeFiles": 1659,
+      "currentPrototypeFiles": 1659,
+      "mismatches": [],
+      "heldArtifact": {
+        "path": "/var/www/u3013321/data/backups/catalog-map-20261101-mvx2ix1d-held-build-artifact.html",
+        "sha256": "c6957ab8ded48ece461c8481b6c9b19d49f55ea306efc9ece69f972969b6a0e6",
+        "bytes": 30735,
+        "publicFileRemoved": true
+      },
+      "indexNow": {
+        "pages": 2628,
+        "pending": 1628,
+        "lastHttp": 200,
+        "lastAttempt": 1793492105,
+        "lastScan": 1793492105,
+        "failures": 0,
+        "readOnly": true
+      },
+      "indexNowCronLines": 1
+    },
+    "commentsPreserved": true,
+    "protectedFiles": {
+      "robots.txt": "eb34965d9759da4b371a359aa61f8702cb76741897402a0a1774078e96a362c8",
+      ".htaccess": "1a85612ef6398f1528f6022a474fef2d17d987bc9f7ef654a5283537f9165840",
+      "2bd9808eebd74e34a33893f93adc7043.txt": "ed45e66d652040622ec5aeb83e9cfd882bc3d09bbdebebef7c1f82ff179a4e25"
+    },
+    "ssh": {
+      "sessions": 1,
+      "freshPresenceConfirmed": true,
+      "closed": true,
+      "exitCode": 0
+    },
+    "browser": {
+      "status": "PASS",
+      "evidence": "outputs/S-100/live-browser.json",
+      "checkedAt": "2026-11-01T00:26:30.996Z",
+      "operator": "controller; subagent IAB unavailable",
+      "catalogStates": 9,
+      "homeStates": 2,
+      "mobileScreenshot": "outputs/S-100/live-catalog-mobile.jpg",
+      "desktopScreenshotSaved": false,
+      "note": "Actual controller production QA preceded the latest orchestration-only instruction. Browser was not rerun during S-100-FINISH."
+    },
+    "cleanup": {
+      "artifact": "dist/activities/vyborgsky-perspektiva-sovremennyy-tanets-01.html.tmp-36064",
+      "heldPath": "outputs/S-100/held/dist/activities/vyborgsky-perspektiva-sovremennyy-tanets-01.html.tmp-36064",
+      "sha256": "c6957ab8ded48ece461c8481b6c9b19d49f55ea306efc9ece69f972969b6a0e6",
+      "localRemoved": true,
+      "publicRemoved": true,
+      "priorS98ContainedSameFile": true,
+      "check": {
+        "status": "PASS",
+        "command": "npm.cmd run check",
+        "node": "v24 runtime from C:/Users/Иван да Марья/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin",
+        "exitCode": 0,
+        "htmlPages": 2630,
+        "canonicalUrls": 2628,
+        "result": "Local links and required prototype routes resolve; unique titles/descriptions, schema, social previews, sitemap and noindex fallbacks pass."
+      }
+    },
+    "performance": {
+      "pageSpeedStatus": 429,
+      "coreWebVitalsMeasured": false
+    },
+    "evidence": "outputs/S-100/deployment-verification.json"
+  },
+  "sourceCommit": null,
+  "githubPush": null,
+  "schedulesChanged": false,
+  "excludedLocalChanges": [
+    "data/research/pmc-club-contact-audit.json"
+  ],
+  "exclusionNote": "Only local changes of the already tracked private contact audit are excluded; no claim is made that the file is absent from repository history.",
+  "delegation": {
+    "standards": "/root/s100_standards",
+    "specAndCleanupAndPreference": "/root/s100_spec",
+    "git": "S-100-FINISH executor",
+    "controllerBrowserReason": "Historical: actual production browser QA completed by controller before latest orchestration-only instruction; subagent IAB unavailable then",
+    "previousGitAgent": "/root/s100_git",
+    "finishChatId": "01a19484-2f29-7f01-af27-d59ba9030bad",
+    "controllerChatId": "01a145eb-4fc1-7a92-a9f8-1b64f87ef1b3",
+    "finishAgents": {
+      "evidence": "/root/evidence_review",
+      "orchestrationAndPlan": "/root/orchestration_plan"
+    },
+    "singleWriter": "S-100-FINISH executor owns shared documents and Git after handoff; previous Git agent stopped",
+    "latestPolicy": "Controller only orchestrates; all execution in other project executor chats, including small tasks and shared documents. Executors use bounded independent parallel subagents when quality permits.",
+    "visiblePlan": "Existing TASKS.md compact table opened as native workspace file tab in controlling chat right Codex panel via open_in_codex. Message table alone rejected by user. update_plan absent; file tab is not a plan widget; automatic refresh/persistence unverified."
+  }
+}

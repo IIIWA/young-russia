@@ -1,0 +1,75 @@
+{
+  "status": "pass",
+  "release": "links-ux-20261101-mvwxs73t",
+  "deployedAtUtc": "2026-10-31T21:54:00Z",
+  "deployedAtMoscow": "2026-11-01 00:54:00 +03:00",
+  "sourceBaseCommit": "ca876ac07bbd71dc0a5e123f9fe13713caaa35b3",
+  "siteCommit": null,
+  "gitCommitCreated": false,
+  "githubPushPerformed": false,
+  "archive": {
+    "files": 5561,
+    "html": 2630,
+    "canonical": 2628,
+    "bytes": 16885047,
+    "sha256": "36961278f6c3c8a934be2308a740bfb6efb80dc52eee48d0cf7f658c4d5bc7b7"
+  },
+  "backup": {
+    "path": "/var/www/u3013321/data/backups/young-russia-before-links-ux-20261101-mvwxs73t.tar.gz",
+    "sha256": "f1904cf702560a6674e801808f72e3942b3e2b59e27915b34516147b65689ec8",
+    "previousRoot": "/var/www/u3013321/data/www/.young-russia-prev-links-ux-20261101-mvwxs73t"
+  },
+  "baselineFilesVerified": 5552,
+  "serverHttp": {
+    "cases": 153,
+    "statuses": {
+      "200": 144,
+      "301": 3,
+      "404": 6
+    }
+  },
+  "externalHttp": {
+    "matchingBodies": 140,
+    "specialCases": 11,
+    "evidence": "outputs/S-98/live-http.json"
+  },
+  "browser": {
+    "headerCases": 2,
+    "catalogCases": 4,
+    "evidence": "outputs/S-98/live-browser.json",
+    "screenshot": "outputs/S-98/live-cards-mobile.jpg"
+  },
+  "commentsPreserved": {
+    "event": "comments_preserved",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "inode": 56766512,
+    "bytes": 3
+  },
+  "prototypes": {
+    "localExistingFilesPreserved": 2449,
+    "server": {
+      "previousPrototypeFiles": 1659,
+      "currentPrototypeFiles": 1659,
+      "mismatches": [],
+      "allPreserved": true
+    }
+  },
+  "ssh": {
+    "sessionsOpened": 1,
+    "closed": true,
+    "closure": "remote host closed after activation and all server checks; no new connection opened",
+    "finalFinishCommandAcknowledged": false
+  },
+  "schedules": {
+    "changed": false,
+    "records": 777,
+    "entries": 4244,
+    "nextUpdateRequiresStaffInformation": true
+  },
+  "selectedHeader": "reveal",
+  "comparisonPreviewsPublished": false,
+  "constraints": [
+    "VK source association verified; direct VK availability unconfirmed",
+    "Technical browser QA does not replace staff verification or testing with real users"
+  ]
+}

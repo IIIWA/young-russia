@@ -11,7 +11,21 @@
     "vkUrl": "https://vk.com/public218811263",
     "vkUrlSource": "https://centernevskiy.ru/artnevskij/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/artnevskij/",
+    "officialUrlSource": "https://centernevskiy.ru/artnevskij/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/32/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/315",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Атлант",
@@ -362,7 +376,21 @@
         ],
         "importTask": "S-82"
       }
-    ]
+    ],
+    "officialUrl": "https://centernevskiy.ru/atlant/",
+    "officialUrlSource": "https://centernevskiy.ru/atlant/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/21/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/295",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Горизонт",
@@ -377,7 +405,21 @@
     "vkUrl": "https://vk.com/spbgorizont",
     "vkUrlSource": "https://centernevskiy.ru/gorizont/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/gorizont/",
+    "officialUrlSource": "https://centernevskiy.ru/gorizont/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/15/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/286",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Дружба",
@@ -390,7 +432,21 @@
     "vkUrl": "https://vk.com/pmkdruzhba",
     "vkUrlSource": "https://centernevskiy.ru/druzhba/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/druzhba/",
+    "officialUrlSource": "https://centernevskiy.ru/druzhba/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/16/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/289",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Зоркий",
@@ -405,7 +461,21 @@
     "vkUrl": "https://vk.com/public94070149",
     "vkUrlSource": "https://centernevskiy.ru/zorkij/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/zorkij/",
+    "officialUrlSource": "https://centernevskiy.ru/zorkij/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/4/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/276",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Параллель",
@@ -420,7 +490,21 @@
     "vkUrl": "https://vk.com/parallel_club",
     "vkUrlSource": "https://centernevskiy.ru/parallel/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/parallel/",
+    "officialUrlSource": "https://centernevskiy.ru/parallel/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/12/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/285",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Оптимист",
@@ -434,7 +518,21 @@
     "vkUrl": "https://vk.com/club161376154",
     "vkUrlSource": "https://centernevskiy.ru/optimist/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/optimist/",
+    "officialUrlSource": "https://centernevskiy.ru/optimist/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/6/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/280",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Олимпиец",
@@ -448,7 +546,21 @@
     "vkUrl": "https://vk.com/pmk_olimpiec",
     "vkUrlSource": "https://centernevskiy.ru/olimpiec/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/olimpiec/",
+    "officialUrlSource": "https://centernevskiy.ru/olimpiec/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/2/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/274",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Огонёк",
@@ -465,7 +577,21 @@
     "vkUrl": "https://vk.com/ogonekpmk",
     "vkUrlSource": "https://centernevskiy.ru/ogonjok/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/ogonjok/",
+    "officialUrlSource": "https://centernevskiy.ru/ogonjok/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/8/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/282",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Невские орлята",
@@ -481,7 +607,21 @@
     "vkUrl": "https://vk.com/club_nevskie78",
     "vkUrlSource": "https://centernevskiy.ru/nevskie-orljata/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/nevskie-orljata/",
+    "officialUrlSource": "https://centernevskiy.ru/nevskie-orljata/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/28/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/304",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Нева",
@@ -494,7 +634,21 @@
     "vkUrl": "https://vk.com/neva16",
     "vkUrlSource": "https://centernevskiy.ru/neva/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/neva/",
+    "officialUrlSource": "https://centernevskiy.ru/neva/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/9/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/283",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "type": "Молодёжный центр",
@@ -512,7 +666,21 @@
     "vkUrl": "https://vk.com/molodejniycenter",
     "vkUrlSource": "https://centernevskiy.ru/molodjozhnyj-centr/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/molodjozhnyj-centr/",
+    "officialUrlSource": "https://centernevskiy.ru/molodjozhnyj-centr/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/25/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/298",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Наш Этаж",
@@ -526,7 +694,21 @@
     "vkUrl": "https://vk.com/ourlevel",
     "vkUrlSource": "https://centernevskiy.ru/nashjetazh/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/nashjetazh/",
+    "officialUrlSource": "https://centernevskiy.ru/nashjetazh/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/17/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/290",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Мечта",
@@ -538,7 +720,21 @@
     "vkUrl": "https://vk.com/mechta_club_spb",
     "vkUrlSource": "https://centernevskiy.ru/mechta/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/mechta/",
+    "officialUrlSource": "https://centernevskiy.ru/mechta/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/0/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/273",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Луч",
@@ -552,7 +748,21 @@
     "vkUrl": "https://vk.com/pmklu4",
     "vkUrlSource": "https://centernevskiy.ru/luch/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/luch/",
+    "officialUrlSource": "https://centernevskiy.ru/luch/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/1/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/277",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Лидер",
@@ -566,7 +776,21 @@
     "vkUrl": "https://vk.com/club34944303",
     "vkUrlSource": "https://centernevskiy.ru/lider/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/lider/",
+    "officialUrlSource": "https://centernevskiy.ru/lider/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/26/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/299",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Ленинградец",
@@ -581,7 +805,21 @@
     "vkUrl": "https://vk.com/club85211760",
     "vkUrlSource": "https://centernevskiy.ru/leningradec/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/leningradec/",
+    "officialUrlSource": "https://centernevskiy.ru/leningradec/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/24/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/297",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Кругозор",
@@ -596,7 +834,21 @@
     "vkUrl": "https://vk.com/club42857231",
     "vkUrlSource": "https://centernevskiy.ru/krugozor/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/krugozor/",
+    "officialUrlSource": "https://centernevskiy.ru/krugozor/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/31/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/302",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Красные Зори",
@@ -616,7 +868,21 @@
     "vkUrl": "https://vk.com/pmk_kosmos",
     "vkUrlSource": "https://centernevskiy.ru/kosmos/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/kosmos/",
+    "officialUrlSource": "https://centernevskiy.ru/kosmos/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/27/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/300",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Каравелла",
@@ -632,7 +898,21 @@
     "vkUrl": "https://vk.com/pmkaravell",
     "vkUrlSource": "https://centernevskiy.ru/karavella/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/karavella/",
+    "officialUrlSource": "https://centernevskiy.ru/karavella/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/20/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/293",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Искатели",
@@ -645,7 +925,21 @@
     "vkUrl": "https://vk.com/public140425651",
     "vkUrlSource": "https://centernevskiy.ru/iskateli/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/iskateli/",
+    "officialUrlSource": "https://centernevskiy.ru/iskateli/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/19/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/292",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Юность",
@@ -660,7 +954,21 @@
     "vkUrl": "https://vk.com/pmk_junost",
     "vkUrlSource": "https://centernevskiy.ru/junost/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/junost/",
+    "officialUrlSource": "https://centernevskiy.ru/junost/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/33/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/316",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Чайка",
@@ -675,7 +983,21 @@
     "vkUrl": "https://vk.com/club96077723",
     "vkUrlSource": "https://centernevskiy.ru/chajka/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/chajka/",
+    "officialUrlSource": "https://centernevskiy.ru/chajka/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/7/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/279",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Юбилейный",
@@ -690,7 +1012,21 @@
     "vkUrl": "https://vk.com/clubyoubileyny",
     "vkUrlSource": "https://centernevskiy.ru/jubilejnyj/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/jubilejnyj/",
+    "officialUrlSource": "https://centernevskiy.ru/jubilejnyj/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/10/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/281",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Факел",
@@ -703,7 +1039,21 @@
     "vkUrl": "https://vk.com/club50436940",
     "vkUrlSource": "https://centernevskiy.ru/fakel/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/fakel/",
+    "officialUrlSource": "https://centernevskiy.ru/fakel/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/22/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/296",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Товарищ",
@@ -717,7 +1067,21 @@
     "vkUrl": "https://vk.com/clubspb5891223",
     "vkUrlSource": "https://centernevskiy.ru/tovarishh/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/tovarishh/",
+    "officialUrlSource": "https://centernevskiy.ru/tovarishh/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/30/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/303",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Спутник",
@@ -730,7 +1094,21 @@
     "vkUrl": "https://vk.com/club133553584",
     "vkUrlSource": "https://centernevskiy.ru/sputnik/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/sputnik/",
+    "officialUrlSource": "https://centernevskiy.ru/sputnik/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/23/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/294",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Ракета",
@@ -745,7 +1123,21 @@
     "vkUrl": "https://vk.com/club137392949",
     "vkUrlSource": "https://centernevskiy.ru/raketa/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/raketa/",
+    "officialUrlSource": "https://centernevskiy.ru/raketa/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/5/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/278",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Прожектор",
@@ -758,7 +1150,21 @@
     "vkUrl": "https://vk.com/clubpmkprojector",
     "vkUrlSource": "https://centernevskiy.ru/prozhektor/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/prozhektor/",
+    "officialUrlSource": "https://centernevskiy.ru/prozhektor/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/11/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/284",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Полярник",
@@ -771,7 +1177,21 @@
     "vkUrl": "https://vk.com/pmkpolyrnik",
     "vkUrlSource": "https://centernevskiy.ru/poljarnik/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/poljarnik/",
+    "officialUrlSource": "https://centernevskiy.ru/poljarnik/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/13/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/287",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Перспектива",
@@ -785,7 +1205,21 @@
     "vkUrl": "https://vk.com/public62117342",
     "vkUrlSource": "https://centernevskiy.ru/perspektiva/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/perspektiva/",
+    "officialUrlSource": "https://centernevskiy.ru/perspektiva/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/18/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/291",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Патриот",
@@ -802,7 +1236,21 @@
     "vkUrl": "https://vk.com/patriotclubspb",
     "vkUrlSource": "https://centernevskiy.ru/patriot/",
     "vkUrlSourceCheckedAt": "2026-10-16",
-    "vkUrlImportedAt": "2026-10-23"
+    "vkUrlImportedAt": "2026-10-23",
+    "officialUrl": "https://centernevskiy.ru/patriot/",
+    "officialUrlSource": "https://centernevskiy.ru/patriot/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/29/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/301",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "type": "Молодёжное пространство",
@@ -818,6 +1266,20 @@
     "vkUrl": "https://vk.ru/arctic_hall",
     "vkUrlSource": "user_supplied_vk_copy",
     "vkUrlSourceCheckedAt": "2026-10-28",
-    "vkUrlImportedAt": "2026-10-28"
+    "vkUrlImportedAt": "2026-10-28",
+    "officialUrl": "https://centernevskiy.ru/arktika-holl/",
+    "officialUrlSource": "https://centernevskiy.ru/arktika-holl/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/nevsky.json",
+      "locator": "/clubs/3/officialPages/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/275",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   }
 ]

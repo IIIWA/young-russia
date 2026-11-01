@@ -1234,7 +1234,21 @@
         "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Петровский\" - [https://vk.com/club233720011](https://vk.com/club233720011)  \n(ул. Марата, д. 78 : +7(812)764-29-11)  "
       },
       "importTask": "S-82"
-    }
+    },
+    "vkUrl": "https://vk.com/petroclubspb",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/petrovskij/",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+      "locator": "/clubs/9",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/209/vkLinks/1",
+        "relationship": "exact-current-published-href"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31"
   },
   {
     "name": "Острова",
@@ -1544,7 +1558,21 @@
         "title": "Студия «Медиалидер»",
         "officialUrl": "https://perspektiva-klab.ru/clubs/ostrova/",
         "sourceCheckedAt": "2026-10-26",
-        "importTask": "S-84"
+        "importTask": "S-84",
+        "vkUrl": "https://vk.com/club156521043",
+        "vkUrlSource": "https://perspektiva-klab.ru/clubs/ostrova/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+          "locator": "/clubs/24/activityCommunities/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31",
+          "freshEvidence": {
+            "file": "outputs/S-98-links/official-http-checks.json",
+            "locator": "/210/vkLinks/2",
+            "relationship": "exact-current-published-href"
+          }
+        },
+        "vkUrlImportedAt": "2026-10-31"
       }
     ],
     "activityConditions": [
@@ -2499,7 +2527,21 @@
         "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Муравейник\" [https://vk.com/pmkmuraveinik](https://vk.com/pmkmuraveinik)  \n(ул. Марата, д.55/5 : +7(812)712-39-95)  \n(ул. Воронежская, д.14 : +7(812)764-06-33)  "
       },
       "importTask": "S-82"
-    }
+    },
+    "vkUrl": "https://vk.com/pmkmuraveinik",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/muravejnik/",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+      "locator": "/clubs/25",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/216/vkLinks/1",
+        "relationship": "exact-current-published-href"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31"
   },
   {
     "name": "Маяк",
@@ -3785,7 +3827,21 @@
         "quote": "![🚀](https://vk.ru/emoji/e/f09f9a80.png)ПМК \"Чайка\" - [https://vk.com/club223786616](https://vk.com/club223786616)  \n(ул. Чехова, д. 4: +7(812)273-51-28)  \n(ул. Чехова, д. 5: +7(812)579-41-62)  "
       },
       "importTask": "S-82"
-    }
+    },
+    "vkUrl": "https://vk.com/pmkchayka",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/chajka/",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+      "locator": "/clubs/21",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/224/vkLinks/2",
+        "relationship": "exact-current-published-href"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31"
   },
   {
     "name": "Юность",
@@ -4274,6 +4330,20 @@
         "sourceText": "Направление указано в бесплатном перечне клуба. Возраст, условия и наличие мест своей группы уточни у организаторов.",
         "importTask": "S-84"
       }
-    ]
+    ],
+    "vkUrl": "https://vk.com/pmkspartak",
+    "vkUrlSource": "https://perspektiva-klab.ru/clubs/https-vk-com-club237490130/",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/tsentralny.json",
+      "locator": "/clubs/4",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/244/vkLinks/1",
+        "relationship": "exact-current-published-href"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31"
   }
 ]

@@ -1257,7 +1257,21 @@
           }
         ]
       }
-    ]
+    ],
+    "vkUrl": "https://vk.ru/korolevadom",
+    "vkUrlSource": "data/research/vk-notes-2026-10-28/primorsky.json",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/vk-notes-2026-10-28/primorsky.json",
+      "locator": "/clubs/0/links/0",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/183",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "vkUrlImportedAt": "2026-10-31"
   },
   {
     "type": "Молодёжная мастерская",
@@ -1521,7 +1535,21 @@
         "sourceCheckedAt": "2026-10-26",
         "importTask": "S-84"
       }
-    ]
+    ],
+    "officialUrl": "https://dom-mol.ru/vstile",
+    "officialUrlSource": "https://dom-mol.ru/vstile",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/primorsky.json",
+      "locator": "/clubs/1/officialPage",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/330",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Ритм",
@@ -3791,7 +3819,21 @@
         "sourceCheckedAt": "2026-10-26",
         "importTask": "S-84"
       }
-    ]
+    ],
+    "officialUrl": "https://dom-mol.ru/idea",
+    "officialUrlSource": "https://dom-mol.ru/idea",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/primorsky.json",
+      "locator": "/clubs/4/officialPage",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/329",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Каскад",
@@ -6074,7 +6116,21 @@
         "sourceCheckedAt": "2026-10-26",
         "importTask": "S-84"
       }
-    ]
+    ],
+    "officialUrl": "https://dom-mol.ru/neva",
+    "officialUrlSource": "https://dom-mol.ru/neva",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/primorsky.json",
+      "locator": "/clubs/6/officialPage",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/331",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Юпитер",
@@ -7260,7 +7316,21 @@
         "sourceCheckedAt": "2026-10-26",
         "importTask": "S-84"
       }
-    ]
+    ],
+    "officialUrl": "https://dom-mol.ru/yupiter",
+    "officialUrlSource": "https://dom-mol.ru/yupiter",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/remaining-districts-2026-10-26/primorsky.json",
+      "locator": "/clubs/7/officialPage",
+      "task": "S-98",
+      "reviewedAt": "2026-10-31",
+      "freshEvidence": {
+        "file": "outputs/S-98-links/official-http-checks.json",
+        "locator": "/328",
+        "relationship": "named-official-page-title-and-http"
+      }
+    },
+    "officialUrlCheckedAt": "2026-10-31"
   },
   {
     "name": "Корпус",

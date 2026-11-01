@@ -246,7 +246,177 @@
     ],
     "sourceUrl": "https://www.spbdm.ru/upload/iblock/3e0/xu0334gk9w5a3qy2t6vlchha49a4j7kt/%D0%94%D0%9C%20%D0%A4%D0%9E%D0%A0%D0%9F%D0%9E%D0%A1%D0%A2.pdf",
     "vkUrl": "https://vk.ru/dm_forpost",
-    "vkUrlSource": "Заметка пользователя; принадлежность «Феникса» и «Фестиваля» общей группе «Форпоста» подтверждена пользователем 21.10.2026"
+    "vkUrlSource": "Заметка пользователя; принадлежность «Феникса» и «Фестиваля» общей группе «Форпоста» подтверждена пользователем 21.10.2026",
+    "activityPages": [
+      {
+        "id": "s98-link-e907fc5b09f7",
+        "title": "Театр-студия «Возвращение»",
+        "catalogActivity": "Театральная студия «Возвращение»",
+        "vkUrl": "https://vk.com/teatr_vozvrashenie",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/0/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-45a1773ba1bf",
+        "title": "Студия оригинального жанра Way OUT",
+        "catalogActivity": "Студия оригинального жанра Way Out",
+        "vkUrl": "https://vk.com/forpost_wayout",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/1/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-a3dd26c86da1",
+        "title": "Студия танца Just Dance",
+        "catalogActivity": "Эстрадный танец Just Dance",
+        "vkUrl": "https://vk.com/club54100739",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/2/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-14f11ab04cd0",
+        "title": "Ирландские танцы Fianna",
+        "catalogActivity": "Ирландский танец Fianna",
+        "vkUrl": "https://vk.com/fianna_eireann",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/3/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-e62878440466",
+        "title": "Студия интерьерного вязания",
+        "catalogActivity": "Интерьерное вязание",
+        "vkUrl": "https://vk.ru/studia_vjazania",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/4/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-666f2bdf047d",
+        "title": "Вокальная студия «Созвучие»",
+        "catalogActivity": "Вокальный коллектив «Созвучие»",
+        "vkUrl": "https://vk.com/club193459982",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/7/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-556f48079fd1",
+        "title": "Коллектив «Феерия», студия «Ударная»",
+        "catalogActivity": "Эстрадно-маршевый коллектив «Феерия»",
+        "vkUrl": "https://vk.com/feeriya",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/8/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-3450395da77e",
+        "title": "Коллектив «Феерия», студия «Ударная»",
+        "catalogActivity": "Студия «Ударная»",
+        "vkUrl": "https://vk.com/feeriya",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/8/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-58e0da63ca70",
+        "title": "Студия керамики «АРТ-формула»",
+        "catalogActivity": "Керамика «АРТ-формула»",
+        "vkUrl": "https://vk.com/club215399480",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/9/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-27e9e8c7dde3",
+        "title": "Танцевальное сообщество LOVA",
+        "catalogActivity": "Танцевальное сообщество LOVA",
+        "vkUrl": "https://vk.ru/lovacommunity",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/16/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-322bec264fa5",
+        "title": "Молодёжный театр ТИК",
+        "catalogActivity": "Театральный коллектив «ТИК»",
+        "vkUrl": "https://vk.ru/theatretik",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/17/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-03f52f40210b",
+        "title": "Клуб йоги",
+        "catalogActivity": "Йога",
+        "vkUrl": "https://vk.ru/yogadmforpost",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/30/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -266,7 +436,51 @@
     "sourceUrl": "https://www.spbdm.ru/upload/iblock/3e0/xu0334gk9w5a3qy2t6vlchha49a4j7kt/%D0%94%D0%9C%20%D0%A4%D0%9E%D0%A0%D0%9F%D0%9E%D0%A1%D0%A2.pdf",
     "vkUrl": "https://vk.ru/dm_forpost",
     "vkUrlSource": "Заметка пользователя; принадлежность «Феникса» и «Фестиваля» общей группе «Форпоста» подтверждена пользователем 21.10.2026",
-    "vkUrlSharedWith": "Форпост"
+    "vkUrlSharedWith": "Форпост",
+    "activityPages": [
+      {
+        "id": "s98-link-667f22fcdda0",
+        "title": "Медиаклуб «ФОРПОСТ-ТВ»",
+        "catalogActivity": "Медиа-клуб «Форпост-ТВ»",
+        "vkUrl": "https://vk.com/club215301351",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/10/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-b637f82f8bb0",
+        "title": "Цирковая студия «Ника»",
+        "catalogActivity": "Цирковая студия «Ника»",
+        "vkUrl": "https://vk.com/club230703940",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/11/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-f53cf488491c",
+        "title": "Военно-исторический клуб «6-й егерский»",
+        "catalogActivity": "Клуб реконструкторов «6-й егерский»",
+        "vkUrl": "https://vk.ru/club30107154",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/12/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   },
   {
     "type": "Молодёжный досуговый центр",
@@ -284,6 +498,50 @@
     "sourceUrl": "https://www.spbdm.ru/upload/iblock/3e0/xu0334gk9w5a3qy2t6vlchha49a4j7kt/%D0%94%D0%9C%20%D0%A4%D0%9E%D0%A0%D0%9F%D0%9E%D0%A1%D0%A2.pdf",
     "vkUrl": "https://vk.ru/dm_forpost",
     "vkUrlSource": "Заметка пользователя; принадлежность «Феникса» и «Фестиваля» общей группе «Форпоста» подтверждена пользователем 21.10.2026",
-    "vkUrlSharedWith": "Форпост"
+    "vkUrlSharedWith": "Форпост",
+    "activityPages": [
+      {
+        "id": "s98-link-62d301a4ad92",
+        "title": "Студия «Ар-деко»",
+        "catalogActivity": "Студия «Ар-деко»",
+        "vkUrl": "https://vk.com/ardeco_farfor",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/24/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-3cc382236195",
+        "title": "Студия HIP-HOP «База»",
+        "catalogActivity": "Хип-хоп «БАЗА»",
+        "vkUrl": "https://vk.ru/club230495616",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/25/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s98-link-27f173196a54",
+        "title": "Танцевальная студия «Кинетика»",
+        "catalogActivity": "Джаз-фанк «Кинетика»",
+        "vkUrl": "https://vk.com/club231883305",
+        "vkUrlSource": "data/research/vyborgsky-note-evidence.json",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/vyborgsky-note-evidence.json",
+          "locator": "/sections/27/groupLinks/0",
+          "task": "S-98",
+          "reviewedAt": "2026-10-31"
+        },
+        "vkUrlImportedAt": "2026-10-31"
+      }
+    ]
   }
 ]

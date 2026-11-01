@@ -63,5 +63,36 @@
     "No Yandex Webmaster/Alice account metrics obtained"
   ],
   "remoteSourceCommit": "3418eee36ab1335d03150f4381d492ce33a97bd2",
-  "publicPathsCommitted": 7913
+  "publicPathsCommitted": 7913,
+  "indexNowFollowup": {
+    "checkedAt": "2026-10-31T18:59:48.758475Z",
+    "checkedAtMoscow": "31.10.2026, 21:59:48",
+    "lastHttp": 200,
+    "pending": 0,
+    "successfulBatches": [
+      {
+        "count": 1000,
+        "atMoscow": "31.10.2026, 18:55:02",
+        "http": 200
+      },
+      {
+        "count": 1000,
+        "atMoscow": "31.10.2026, 19:00:03",
+        "http": 200
+      },
+      {
+        "count": 625,
+        "atMoscow": "31.10.2026, 19:10:03",
+        "http": 200
+      }
+    ],
+    "acceptedUrls": 2625,
+    "lastSuccessfulAttemptMoscow": "31.10.2026, 19:10:03",
+    "failures": 0,
+    "cronLines": 1,
+    "lastScanMoscow": "31.10.2026, 21:55:02",
+    "readOnly": true,
+    "sshClosed": true,
+    "indexingProven": false
+  }
 }
