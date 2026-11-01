@@ -1,5 +1,5 @@
 {
-  "status": "published-verified-git-pending",
+  "status": "complete",
   "prepared": {
     "at": "2026-11-01T00:04:48.238Z",
     "release": "catalog-map-20261101-mvx2ix1d",
@@ -146,8 +146,15 @@
     },
     "evidence": "outputs/S-100/deployment-verification.json"
   },
-  "sourceCommit": null,
-  "githubPush": null,
+  "sourceCommit": "914289c2bd3a86b8ac4321f89721634587722dcd",
+  "githubPush": {
+    "branch": "main",
+    "remote": "https://github.com/IIIWA/young-russia.git",
+    "verified": true,
+    "verifiedAt": "2026-11-01T00:37:21.123Z",
+    "remoteHead": "914289c2bd3a86b8ac4321f89721634587722dcd",
+    "result": "To https://github.com/IIIWA/young-russia.git\n \tHEAD:refs/heads/main\tca876ac0..914289c2\nDone"
+  },
   "schedulesChanged": false,
   "excludedLocalChanges": [
     "data/research/pmc-club-contact-audit.json"
