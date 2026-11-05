@@ -23,7 +23,62 @@
       "url": "https://pmckir.ru/?page_id=1667",
       "checkedAt": "2026-10-23",
       "vkEvidence": "Ссылка VK подтверждается размещением на официальном сайте; сама VK-страница не открывалась."
-    }
+    },
+    "activityPages": [
+      {
+        "id": "s11-link-0727ab77f739",
+        "title": "ДоброЦентр «Кировский»",
+        "catalogActivity": "ДоброЦентр «Кировский»",
+        "vkUrl": "https://vk.com/dobro_kirovskiy",
+        "vkUrlSource": "https://pmckir.ru/?page_id=1667",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/16",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/43",
+            "relationship": "named-activity-and-club-specific-official-page"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-a/eligible-additions.json",
+            "locator": "/16"
+          },
+          "identity": {
+            "catalogName": "Алые паруса",
+            "catalogAddress": "ул. Новостроек, д. 15",
+            "basis": "Существующий officialUrl клуба «Алые паруса», ул. Новостроек, д. 15; именованная ссылка в списке его направлений."
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:24:03.436Z",
+              "title": "ПМК «Алые паруса» - Подростково-молодежный центр \"Кировский\"",
+              "finalUrl": "https://pmckir.ru/?page_id=1667",
+              "sha256": "d8b22a94da8576b59e5067a0242833c24fac15a5ad4214d623600f2df83e09bd"
+            },
+            "target": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:27:15.430Z",
+              "title": "VK.com | VK",
+              "identityVerifiedByTargetContent": false,
+              "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://pmckir.ru/?page_id=1667",
+            "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/43",
+            "checkedAt": "2026-11-01T09:24:03.436Z",
+            "task": "S-11"
+          }
+        ]
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",

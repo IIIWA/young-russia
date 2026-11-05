@@ -634,7 +634,53 @@
       "Киношкола",
       "Театральная мастерская «АртисТЫ»"
     ],
-    "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
+    "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/",
+    "officialUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--prometej/",
+    "officialUrlSource": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--prometej/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/10",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/extra-http-evidence.json",
+        "locator": "/0",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/10"
+      },
+      "identity": {
+        "catalogName": "ПМК «Прометей»",
+        "catalogAddress": "Серпуховская ул., д. 26-28",
+        "basis": "Точное название и адрес клуба совпадают с каталогом; собственная страница опубликована в меню официального ДМ «Рекорд»."
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.667Z",
+          "title": "Подростково-молодежный клуб «Прометей»",
+          "finalUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--prometej/",
+          "sha256": "b0ee417dda892c56b3f21eed768eefe9a7a415f21ec8fe3604e547a03165f6db"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.667Z",
+          "title": "Подростково-молодежный клуб «Прометей»"
+        }
+      }
+    },
+    "officialUrlImportedAt": "2026-11-01",
+    "sourceRefs": [
+      {
+        "sourceUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--prometej/",
+        "sourceFile": "outputs/S-11/links-a/extra-http-evidence.json",
+        "locator": "/0",
+        "checkedAt": "2026-11-01T09:24:52.667Z",
+        "task": "S-11"
+      }
+    ]
   },
   {
     "type": "ПМК",
@@ -651,7 +697,53 @@
       "Фитнес-йога",
       "K-pop кавер-дэнс"
     ],
-    "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
+    "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/",
+    "officialUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klubdvor/",
+    "officialUrlSource": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klubdvor/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/11",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/extra-http-evidence.json",
+        "locator": "/1",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/11"
+      },
+      "identity": {
+        "catalogName": "ПМК «Двор»",
+        "catalogAddress": "Наб. реки Фонтанки, д. 92",
+        "basis": "Точное название и адрес клуба совпадают с каталогом; собственная страница опубликована в меню официального ДМ «Рекорд»."
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.742Z",
+          "title": "Подростково-молодежный клуб «Двор»",
+          "finalUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klubdvor/",
+          "sha256": "89cad8535fd4ac7ecf460f1ad2ee0a4d90ce58efc02999da6c55c50351b25ee8"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.742Z",
+          "title": "Подростково-молодежный клуб «Двор»"
+        }
+      }
+    },
+    "officialUrlImportedAt": "2026-11-01",
+    "sourceRefs": [
+      {
+        "sourceUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klubdvor/",
+        "sourceFile": "outputs/S-11/links-a/extra-http-evidence.json",
+        "locator": "/1",
+        "checkedAt": "2026-11-01T09:24:52.742Z",
+        "task": "S-11"
+      }
+    ]
   },
   {
     "type": "ПМК",
@@ -677,7 +769,53 @@
       "Клуб пап «ПАП-ПАП»",
       "Семейный клуб"
     ],
-    "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
+    "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/",
+    "officialUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--f133/",
+    "officialUrlSource": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--f133/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/12",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/extra-http-evidence.json",
+        "locator": "/2",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/12"
+      },
+      "identity": {
+        "catalogName": "Центр молодёжного творчества и семейного досуга «Ф133»",
+        "catalogAddress": "Наб. реки Фонтанки, д. 133",
+        "basis": "Точное название и адрес клуба совпадают с каталогом; собственная страница опубликована в меню официального ДМ «Рекорд»."
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.743Z",
+          "title": "Подростково-молодежный клуб «Ф133»",
+          "finalUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--f133/",
+          "sha256": "3eb2d1e7745e06138fa31faf4d08db8e8bf1fe46f3b80a80f72e1e085f886ed9"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.743Z",
+          "title": "Подростково-молодежный клуб «Ф133»"
+        }
+      }
+    },
+    "officialUrlImportedAt": "2026-11-01",
+    "sourceRefs": [
+      {
+        "sourceUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--f133/",
+        "sourceFile": "outputs/S-11/links-a/extra-http-evidence.json",
+        "locator": "/2",
+        "checkedAt": "2026-11-01T09:24:52.743Z",
+        "task": "S-11"
+      }
+    ]
   },
   {
     "type": "Молодёжное пространство",
@@ -689,6 +827,52 @@
     "activities": [
       "Место для общения и молодёжных инициатив"
     ],
-    "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/"
+    "sourceUrl": "https://www.gov.spb.ru/gov/terr/reg_admiral/podvedomstvennye-uchrezhdeniya/podrostkovye-kluby/",
+    "officialUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/molodezhnyj-klub-molodezhnoe-prostranstvo-uchrezhdenie/",
+    "officialUrlSource": "https://dmrecord.admiral.gov.spb.ru/pmk/molodezhnyj-klub-molodezhnoe-prostranstvo-uchrezhdenie/",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/13",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/extra-http-evidence.json",
+        "locator": "/3",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/13"
+      },
+      "identity": {
+        "catalogName": "Молодёжное пространство «Учреждение»",
+        "catalogAddress": "Садовая ул., д. 55-57, лит. А",
+        "basis": "Точное название и адрес клуба совпадают с каталогом; собственная страница опубликована в меню официального ДМ «Рекорд»."
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.745Z",
+          "title": "Молодежный клуб «Молодежное пространство «Учреждение»",
+          "finalUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/molodezhnyj-klub-molodezhnoe-prostranstvo-uchrezhdenie/",
+          "sha256": "ca97f4e17a11c2c7516bc69979cb2885ce4c8b29ddd38f56e8ab2c84b6d96eac"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.745Z",
+          "title": "Молодежный клуб «Молодежное пространство «Учреждение»"
+        }
+      }
+    },
+    "officialUrlImportedAt": "2026-11-01",
+    "sourceRefs": [
+      {
+        "sourceUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/molodezhnyj-klub-molodezhnoe-prostranstvo-uchrezhdenie/",
+        "sourceFile": "outputs/S-11/links-a/extra-http-evidence.json",
+        "locator": "/3",
+        "checkedAt": "2026-11-01T09:24:52.745Z",
+        "task": "S-11"
+      }
+    ]
   }
 ]

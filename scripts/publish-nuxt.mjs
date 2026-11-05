@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {activityPageSlug,slugify} from './activity-page-routes.mjs';
+import {applyToSite} from './sitemap-lastmod.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const generated = path.join(root, '.output', 'public');
@@ -126,4 +127,6 @@ for (const route of routes) {
   const normalized = markup.replace(/^[\t ]+$/gm, '');
   if (normalized !== markup) await writeGenerated(target, normalized);
 }
+const lastmod = await applyToSite(dist, path.join(root,'config','sitemap-lastmod-history.json'));
+console.log(`Sitemap lastmod: ${lastmod.dated} proven, ${lastmod.unknown} unknown, ${lastmod.mismatch} unpublished or changed.`);
 console.log(`Published ${routes.length} Nuxt pages to ${dist}.`);

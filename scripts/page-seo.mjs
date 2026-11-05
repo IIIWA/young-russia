@@ -30,12 +30,12 @@ export function pageSeo(relative, page) {
     description = 'Бесплатные занятия для молодёжи в Санкт-Петербурге: спорт, языки, творчество и музыка. Выберите район, найдите клуб и узнайте, как присоединиться.';
   } else if (relative.startsWith('activities/') || relative.startsWith('clubs/')) {
     if (!district) throw new Error(`Missing district for SEO: ${relative}`);
-    title = `${title.replace(/ \| ПМК Петербурга$/, '')}, ${district}, Санкт-Петербург`;
+    title = `${title.replace(/ \| ПМК Петербурга$/, '')}, ${district}, Санкт-Петербург | ПМК Петербурга`;
     // Existing club titles may already contain the district.
     title = title.replace(`${district}, ${district}`, district);
     description = `${description} ${district}, Санкт-Петербург.`;
   } else if (relative.startsWith('districts/') && relative !== 'districts/index.html') {
-    title = `${title.replace(/ \| ПМК Петербурга$/, '')}, Санкт-Петербург`;
+    title = `${title.replace(/ \| ПМК Петербурга$/, '')}, Санкт-Петербург | ПМК Петербурга`;
   }
   const breadcrumb = crumbs.length > 1 ? {
     '@type': 'BreadcrumbList', '@id': `${canonical}#breadcrumb`,

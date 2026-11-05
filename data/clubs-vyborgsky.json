@@ -56,6 +56,61 @@
     "officialUrlCheckedAt": "2026-10-22",
     "vkUrlAlternates": [
       "https://vk.ru/club154413619"
+    ],
+    "activityPages": [
+      {
+        "id": "s11-link-95e22097d46f",
+        "title": "Танцевальный кружок «Динамика»",
+        "catalogActivity": "Современный танец",
+        "vkUrl": "https://vk.com/dinamika_dance",
+        "vkUrlSource": "https://xn----ptbkbv6a.xn--p1ai/ritm133",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/23",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/147",
+            "relationship": "named-activity-and-club-specific-official-page"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-a/eligible-additions.json",
+            "locator": "/23"
+          },
+          "identity": {
+            "catalogName": "Ритм",
+            "catalogAddress": "пр. Энгельса, д. 133, к. 1, лит. Д",
+            "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:24:10.228Z",
+              "title": "ритм 133",
+              "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/ritm133",
+              "sha256": "24ac262d2c85995d65ec9ac13db553eafc0ff81af196d43d3e1683843e034616"
+            },
+            "target": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:27:15.431Z",
+              "title": "VK.com | VK",
+              "identityVerifiedByTargetContent": false,
+              "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/ritm133",
+            "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/147",
+            "checkedAt": "2026-11-01T09:24:10.228Z",
+            "task": "S-11"
+          }
+        ]
+      }
     ]
   },
   {
@@ -83,7 +138,327 @@
     "vkUrlSourceLine": 1460,
     "officialUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
     "officialUrlSource": "https://xn----ptbkbv6a.xn--p1ai/clubs",
-    "officialUrlCheckedAt": "2026-10-22"
+    "officialUrlCheckedAt": "2026-10-22",
+    "activityPages": [
+      {
+        "id": "s11-link-91025e16840a",
+        "title": "Студия росписи по дереву «Орнаменты России»",
+        "catalogActivity": "Роспись по дереву",
+        "vkUrl": "https://vk.com/artmir46",
+        "vkUrlSource": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/17",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/149",
+            "relationship": "named-activity-and-club-specific-official-page"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-a/eligible-additions.json",
+            "locator": "/17"
+          },
+          "identity": {
+            "catalogName": "Перекрёсток",
+            "catalogAddress": "пр. Просвещения, д. 46, к. 1, лит. А",
+            "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:24:10.292Z",
+              "title": "перекрёсток 46",
+              "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+              "sha256": "da33620b9daadb0545d5938040358d4a21e5049eb6e3ed3d8c0d8b741a147f53"
+            },
+            "target": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:27:15.432Z",
+              "title": "VK.com | VK",
+              "identityVerifiedByTargetContent": false,
+              "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+            "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/149",
+            "checkedAt": "2026-11-01T09:24:10.292Z",
+            "task": "S-11"
+          }
+        ]
+      },
+      {
+        "id": "s11-link-56353174b22f",
+        "title": "Студия ИЗО «Арт пространство»",
+        "catalogActivity": "ИЗО",
+        "vkUrl": "https://vk.com/club227998028",
+        "vkUrlSource": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/18",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/149",
+            "relationship": "named-activity-and-club-specific-official-page"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-a/eligible-additions.json",
+            "locator": "/18"
+          },
+          "identity": {
+            "catalogName": "Перекрёсток",
+            "catalogAddress": "пр. Просвещения, д. 46, к. 1, лит. А",
+            "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:24:10.292Z",
+              "title": "перекрёсток 46",
+              "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+              "sha256": "da33620b9daadb0545d5938040358d4a21e5049eb6e3ed3d8c0d8b741a147f53"
+            },
+            "target": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:27:15.433Z",
+              "title": "VK.com | VK",
+              "identityVerifiedByTargetContent": false,
+              "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+            "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/149",
+            "checkedAt": "2026-11-01T09:24:10.292Z",
+            "task": "S-11"
+          }
+        ]
+      },
+      {
+        "id": "s11-link-cad0a0ccf12d",
+        "title": "Студия танцев «Reформа»",
+        "catalogActivity": "Современный танец",
+        "vkUrl": "https://vk.com/reformad",
+        "vkUrlSource": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/19",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/149",
+            "relationship": "named-activity-and-club-specific-official-page"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-a/eligible-additions.json",
+            "locator": "/19"
+          },
+          "identity": {
+            "catalogName": "Перекрёсток",
+            "catalogAddress": "пр. Просвещения, д. 46, к. 1, лит. А",
+            "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:24:10.292Z",
+              "title": "перекрёсток 46",
+              "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+              "sha256": "da33620b9daadb0545d5938040358d4a21e5049eb6e3ed3d8c0d8b741a147f53"
+            },
+            "target": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:27:15.434Z",
+              "title": "VK.com | VK",
+              "identityVerifiedByTargetContent": false,
+              "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+            "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/149",
+            "checkedAt": "2026-11-01T09:24:10.292Z",
+            "task": "S-11"
+          }
+        ]
+      },
+      {
+        "id": "s11-link-3b72a4f9ed72",
+        "title": "Эстрадно-джазовый коллектив «Наши голоса»",
+        "catalogActivity": "Эстрадный вокал",
+        "vkUrl": "https://vk.com/public216971874",
+        "vkUrlSource": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/20",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/149",
+            "relationship": "named-activity-and-club-specific-official-page"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-a/eligible-additions.json",
+            "locator": "/20"
+          },
+          "identity": {
+            "catalogName": "Перекрёсток",
+            "catalogAddress": "пр. Просвещения, д. 46, к. 1, лит. А",
+            "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:24:10.292Z",
+              "title": "перекрёсток 46",
+              "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+              "sha256": "da33620b9daadb0545d5938040358d4a21e5049eb6e3ed3d8c0d8b741a147f53"
+            },
+            "target": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:27:15.435Z",
+              "title": "VK.com | VK",
+              "identityVerifiedByTargetContent": false,
+              "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+            "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/149",
+            "checkedAt": "2026-11-01T09:24:10.292Z",
+            "task": "S-11"
+          }
+        ]
+      },
+      {
+        "id": "s11-link-c4e0ae660ad2",
+        "title": "Клуб настольных игр «Игротека»",
+        "catalogActivity": "Игровой клуб",
+        "vkUrl": "https://vk.com/igrotekaperecrestok",
+        "vkUrlSource": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/21",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/149",
+            "relationship": "named-activity-and-club-specific-official-page"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-a/eligible-additions.json",
+            "locator": "/21"
+          },
+          "identity": {
+            "catalogName": "Перекрёсток",
+            "catalogAddress": "пр. Просвещения, д. 46, к. 1, лит. А",
+            "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:24:10.292Z",
+              "title": "перекрёсток 46",
+              "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+              "sha256": "da33620b9daadb0545d5938040358d4a21e5049eb6e3ed3d8c0d8b741a147f53"
+            },
+            "target": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:27:15.436Z",
+              "title": "VK.com | VK",
+              "identityVerifiedByTargetContent": false,
+              "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+            "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/149",
+            "checkedAt": "2026-11-01T09:24:10.292Z",
+            "task": "S-11"
+          }
+        ]
+      },
+      {
+        "id": "s11-link-b6e440bad267",
+        "title": "Театральная студия «Дель арте»",
+        "catalogActivity": "Театр",
+        "vkUrl": "https://vk.com/club389828",
+        "vkUrlSource": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/22",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/149",
+            "relationship": "named-activity-and-club-specific-official-page"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-a/eligible-additions.json",
+            "locator": "/22"
+          },
+          "identity": {
+            "catalogName": "Перекрёсток",
+            "catalogAddress": "пр. Просвещения, д. 46, к. 1, лит. А",
+            "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:24:10.292Z",
+              "title": "перекрёсток 46",
+              "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+              "sha256": "da33620b9daadb0545d5938040358d4a21e5049eb6e3ed3d8c0d8b741a147f53"
+            },
+            "target": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:27:15.437Z",
+              "title": "VK.com | VK",
+              "identityVerifiedByTargetContent": false,
+              "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+            "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+            "locator": "/149",
+            "checkedAt": "2026-11-01T09:24:10.292Z",
+            "task": "S-11"
+          }
+        ]
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -416,6 +791,52 @@
         },
         "vkUrlImportedAt": "2026-10-31"
       }
+    ],
+    "officialUrl": "https://xn----gtbyjafgkjo.xn--p1ai/forpost_place",
+    "officialUrlSource": "https://xn----gtbyjafgkjo.xn--p1ai/forpost_place",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/14",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/forpost-http-evidence.json",
+        "locator": "/0",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/14"
+      },
+      "identity": {
+        "catalogName": "Форпост",
+        "catalogAddress": "Большой Сампсониевский пр., д. 37",
+        "basis": "Собственная страница площадки из меню официального ДМ «Форпост»; название и точный адрес совпадают с каталогом. Контент подтверждён в forpost-content-evidence.json; цены аренды/иные сведения не импортируются."
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:25:23.3515391Z",
+          "title": "Дом молодёжи «ФОРПОСТ» площадка",
+          "finalUrl": "https://xn----gtbyjafgkjo.xn--p1ai/forpost_place",
+          "sha256": "246c0b2bfe443dfc3a72e57e7c6870f0c3e910397e393c02871e5245621faaea"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:25:23.3515391Z",
+          "title": "Дом молодёжи «ФОРПОСТ» площадка"
+        }
+      }
+    },
+    "officialUrlImportedAt": "2026-11-01",
+    "sourceRefs": [
+      {
+        "sourceUrl": "https://xn----gtbyjafgkjo.xn--p1ai/forpost_place",
+        "sourceFile": "outputs/S-11/links-a/forpost-http-evidence.json",
+        "locator": "/0",
+        "checkedAt": "2026-11-01T09:25:23.3515391Z",
+        "task": "S-11"
+      }
     ]
   },
   {
@@ -541,6 +962,52 @@
           "reviewedAt": "2026-10-31"
         },
         "vkUrlImportedAt": "2026-10-31"
+      }
+    ],
+    "officialUrl": "https://xn----gtbyjafgkjo.xn--p1ai/festival_place",
+    "officialUrlSource": "https://xn----gtbyjafgkjo.xn--p1ai/festival_place",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/15",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/forpost-http-evidence.json",
+        "locator": "/1",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/15"
+      },
+      "identity": {
+        "catalogName": "Фестиваль",
+        "catalogAddress": "пр. Просвещения, д. 47",
+        "basis": "Собственная страница площадки из меню официального ДМ «Форпост»; название и точный адрес совпадают с каталогом. Контент подтверждён в forpost-content-evidence.json; цены аренды/иные сведения не импортируются."
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:25:23.5573353Z",
+          "title": "Молодёжный досуговый центр «ФЕСТИВАЛЬ» площадка",
+          "finalUrl": "https://xn----gtbyjafgkjo.xn--p1ai/festival_place",
+          "sha256": "cf4c14c821697f38ba8c481d02756053cb45bfb3f5eac2feac1e04a5623ad399"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:25:23.5573353Z",
+          "title": "Молодёжный досуговый центр «ФЕСТИВАЛЬ» площадка"
+        }
+      }
+    },
+    "officialUrlImportedAt": "2026-11-01",
+    "sourceRefs": [
+      {
+        "sourceUrl": "https://xn----gtbyjafgkjo.xn--p1ai/festival_place",
+        "sourceFile": "outputs/S-11/links-a/forpost-http-evidence.json",
+        "locator": "/1",
+        "checkedAt": "2026-11-01T09:25:23.5573353Z",
+        "task": "S-11"
       }
     ]
   }

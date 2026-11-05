@@ -1,0 +1,1733 @@
+{
+  "task": "S-11",
+  "checkedAt": "2026-11-01",
+  "baseline": "630e572dbed934b0baedb87713576f2321a70516",
+  "verification": "Identity and published href verified in current official club content; VK challenge is not direct community content verification.",
+  "items": [
+    {
+      "district": "kolpinsky",
+      "club": "Юность",
+      "field": "officialUrl",
+      "url": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+      "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/160",
+      "checkedAt": "2026-11-01T09:24:10.646Z",
+      "identity": {
+        "catalogName": "Юность",
+        "catalogAddress": "г. Колпино, ул. Танкистов, д. 28А",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник». "
+      },
+      "matching": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник». ",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/160",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/160",
+          "checkedAt": "2026-11-01T09:24:10.646Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.646Z",
+          "title": "ПМК \"Юность\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+          "sha256": "24f76682ed7253fa67a7c589d513428c154d04178e1bac65bbe21b0f9b8fba9d"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.646Z",
+          "title": "ПМК \"Юность\""
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/0"
+      }
+    },
+    {
+      "district": "kolpinsky",
+      "club": "Юность",
+      "field": "vkUrl",
+      "url": "https://vk.com/pmk_yunost",
+      "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/160",
+      "checkedAt": "2026-11-01T09:24:10.646Z",
+      "identity": {
+        "catalogName": "Юность",
+        "catalogAddress": "г. Колпино, ул. Танкистов, д. 28А",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник».  Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения."
+      },
+      "matching": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник».  Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения.",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/160",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/160",
+          "checkedAt": "2026-11-01T09:24:10.646Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.646Z",
+          "title": "ПМК \"Юность\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+          "sha256": "24f76682ed7253fa67a7c589d513428c154d04178e1bac65bbe21b0f9b8fba9d"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.749Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/1"
+      }
+    },
+    {
+      "district": "kolpinsky",
+      "club": "Колпинская перчатка",
+      "field": "officialUrl",
+      "url": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+      "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/159",
+      "checkedAt": "2026-11-01T09:24:10.546Z",
+      "identity": {
+        "catalogName": "Колпинская перчатка",
+        "catalogAddress": "г. Колпино, ул. Веры Слуцкой, д. 89",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник». "
+      },
+      "matching": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник». ",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/159",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/159",
+          "checkedAt": "2026-11-01T09:24:10.546Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.546Z",
+          "title": "ПМК \"Колпинская перчатка\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+          "sha256": "5f83b42507a5bb277ba2a3df3e28dee6b8f8e94b9e5deeede0f87b9fe66a2e97"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.546Z",
+          "title": "ПМК \"Колпинская перчатка\""
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/2"
+      }
+    },
+    {
+      "district": "kolpinsky",
+      "club": "Колпинская перчатка",
+      "field": "vkUrl",
+      "url": "https://vk.com/pmk_kolpinoperchatka",
+      "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/159",
+      "checkedAt": "2026-11-01T09:24:10.546Z",
+      "identity": {
+        "catalogName": "Колпинская перчатка",
+        "catalogAddress": "г. Колпино, ул. Веры Слуцкой, д. 89",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник».  Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения."
+      },
+      "matching": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник».  Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения.",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/159",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/159",
+          "checkedAt": "2026-11-01T09:24:10.546Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.546Z",
+          "title": "ПМК \"Колпинская перчатка\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+          "sha256": "5f83b42507a5bb277ba2a3df3e28dee6b8f8e94b9e5deeede0f87b9fe66a2e97"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.748Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/3"
+      }
+    },
+    {
+      "district": "kolpinsky",
+      "club": "Патриот",
+      "field": "officialUrl",
+      "url": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+      "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/157",
+      "checkedAt": "2026-11-01T09:24:10.595Z",
+      "identity": {
+        "catalogName": "Патриот",
+        "catalogAddress": "Площадки на базе школ Колпинского района",
+        "basis": "Клуб «Патриот» прямо назван в разделе «Наши клубы» официального МЦ «Ровесник»; страница описывает занятия на школьных площадках Колпинского района (№420,461,446,455 и др.), что соответствует записи каталога «Площадки на базе школ»."
+      },
+      "matching": "Клуб «Патриот» прямо назван в разделе «Наши клубы» официального МЦ «Ровесник»; страница описывает занятия на школьных площадках Колпинского района (№420,461,446,455 и др.), что соответствует записи каталога «Площадки на базе школ».",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/157",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/157",
+          "checkedAt": "2026-11-01T09:24:10.595Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.595Z",
+          "title": "ПМК \"Патриот\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+          "sha256": "ac8001aacf7d2307cba57902503569b89b957ad67487100b3e6929bcb0b797d1"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.595Z",
+          "title": "ПМК \"Патриот\""
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/4"
+      }
+    },
+    {
+      "district": "kolpinsky",
+      "club": "Патриот",
+      "field": "vkUrl",
+      "url": "https://vk.com/pmkpatriot",
+      "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/157",
+      "checkedAt": "2026-11-01T09:24:10.595Z",
+      "identity": {
+        "catalogName": "Патриот",
+        "catalogAddress": "Площадки на базе школ Колпинского района",
+        "basis": "Клуб «Патриот» прямо назван в разделе «Наши клубы» официального МЦ «Ровесник»; страница описывает занятия на школьных площадках Колпинского района (№420,461,446,455 и др.), что соответствует записи каталога «Площадки на базе школ». Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения."
+      },
+      "matching": "Клуб «Патриот» прямо назван в разделе «Наши клубы» официального МЦ «Ровесник»; страница описывает занятия на школьных площадках Колпинского района (№420,461,446,455 и др.), что соответствует записи каталога «Площадки на базе школ». Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения.",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/157",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/157",
+          "checkedAt": "2026-11-01T09:24:10.595Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.595Z",
+          "title": "ПМК \"Патриот\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+          "sha256": "ac8001aacf7d2307cba57902503569b89b957ad67487100b3e6929bcb0b797d1"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.747Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/5"
+      }
+    },
+    {
+      "district": "kolpinsky",
+      "club": "Z",
+      "field": "officialUrl",
+      "url": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+      "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/158",
+      "checkedAt": "2026-11-01T09:24:10.688Z",
+      "identity": {
+        "catalogName": "Z",
+        "catalogAddress": "г. Колпино, ул. Загородная, д. 62",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник». "
+      },
+      "matching": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник». ",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/158",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/158",
+          "checkedAt": "2026-11-01T09:24:10.688Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.688Z",
+          "title": "ПМК \"Z\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+          "sha256": "08ecf9c2421f382a1de7a902284f5f2765c41ce60dfdd6fdd6d15e4251058dd1"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.688Z",
+          "title": "ПМК \"Z\""
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/6"
+      }
+    },
+    {
+      "district": "kolpinsky",
+      "club": "Z",
+      "field": "vkUrl",
+      "url": "https://vk.com/z_klp",
+      "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/158",
+      "checkedAt": "2026-11-01T09:24:10.688Z",
+      "identity": {
+        "catalogName": "Z",
+        "catalogAddress": "г. Колпино, ул. Загородная, д. 62",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник».  Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения."
+      },
+      "matching": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник».  Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения.",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/158",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/158",
+          "checkedAt": "2026-11-01T09:24:10.688Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.688Z",
+          "title": "ПМК \"Z\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+          "sha256": "08ecf9c2421f382a1de7a902284f5f2765c41ce60dfdd6fdd6d15e4251058dd1"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.748Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/7"
+      }
+    },
+    {
+      "district": "kolpinsky",
+      "club": "Дельта",
+      "field": "officialUrl",
+      "url": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+      "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/155",
+      "checkedAt": "2026-11-01T09:24:10.486Z",
+      "identity": {
+        "catalogName": "Дельта",
+        "catalogAddress": "пос. Понтонный, ул. Южная, д. 3",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник». "
+      },
+      "matching": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник». ",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/155",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/155",
+          "checkedAt": "2026-11-01T09:24:10.486Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.486Z",
+          "title": "ПМК \"Дельта\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+          "sha256": "61a553a7d027771896d2b1aaacd19fff9c522c7b5a64022ef893149fa3e76666"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.486Z",
+          "title": "ПМК \"Дельта\""
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/8"
+      }
+    },
+    {
+      "district": "kolpinsky",
+      "club": "Дельта",
+      "field": "vkUrl",
+      "url": "https://vk.com/pmk_delta",
+      "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/155",
+      "checkedAt": "2026-11-01T09:24:10.486Z",
+      "identity": {
+        "catalogName": "Дельта",
+        "catalogAddress": "пос. Понтонный, ул. Южная, д. 3",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник».  Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения."
+      },
+      "matching": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник».  Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения.",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/155",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/155",
+          "checkedAt": "2026-11-01T09:24:10.486Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.486Z",
+          "title": "ПМК \"Дельта\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+          "sha256": "61a553a7d027771896d2b1aaacd19fff9c522c7b5a64022ef893149fa3e76666"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.746Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/9"
+      }
+    },
+    {
+      "district": "admiralteysky",
+      "club": "ПМК «Прометей»",
+      "field": "officialUrl",
+      "url": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--prometej/",
+      "sourceUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--prometej/",
+      "sourceFile": "outputs/S-11/links-a/extra-http-evidence.json",
+      "locator": "/0",
+      "checkedAt": "2026-11-01T09:24:52.667Z",
+      "identity": {
+        "catalogName": "ПМК «Прометей»",
+        "catalogAddress": "Серпуховская ул., д. 26-28",
+        "basis": "Точное название и адрес клуба совпадают с каталогом; собственная страница опубликована в меню официального ДМ «Рекорд»."
+      },
+      "matching": "Точное название и адрес клуба совпадают с каталогом; собственная страница опубликована в меню официального ДМ «Рекорд».",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/extra-http-evidence.json",
+        "locator": "/0",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--prometej/",
+          "sourceFile": "outputs/S-11/links-a/extra-http-evidence.json",
+          "locator": "/0",
+          "checkedAt": "2026-11-01T09:24:52.667Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.667Z",
+          "title": "Подростково-молодежный клуб «Прометей»",
+          "finalUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--prometej/",
+          "sha256": "b0ee417dda892c56b3f21eed768eefe9a7a415f21ec8fe3604e547a03165f6db"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.667Z",
+          "title": "Подростково-молодежный клуб «Прометей»"
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/10"
+      }
+    },
+    {
+      "district": "admiralteysky",
+      "club": "ПМК «Двор»",
+      "field": "officialUrl",
+      "url": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klubdvor/",
+      "sourceUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klubdvor/",
+      "sourceFile": "outputs/S-11/links-a/extra-http-evidence.json",
+      "locator": "/1",
+      "checkedAt": "2026-11-01T09:24:52.742Z",
+      "identity": {
+        "catalogName": "ПМК «Двор»",
+        "catalogAddress": "Наб. реки Фонтанки, д. 92",
+        "basis": "Точное название и адрес клуба совпадают с каталогом; собственная страница опубликована в меню официального ДМ «Рекорд»."
+      },
+      "matching": "Точное название и адрес клуба совпадают с каталогом; собственная страница опубликована в меню официального ДМ «Рекорд».",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/extra-http-evidence.json",
+        "locator": "/1",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klubdvor/",
+          "sourceFile": "outputs/S-11/links-a/extra-http-evidence.json",
+          "locator": "/1",
+          "checkedAt": "2026-11-01T09:24:52.742Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.742Z",
+          "title": "Подростково-молодежный клуб «Двор»",
+          "finalUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klubdvor/",
+          "sha256": "89cad8535fd4ac7ecf460f1ad2ee0a4d90ce58efc02999da6c55c50351b25ee8"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.742Z",
+          "title": "Подростково-молодежный клуб «Двор»"
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/11"
+      }
+    },
+    {
+      "district": "admiralteysky",
+      "club": "Центр молодёжного творчества и семейного досуга «Ф133»",
+      "field": "officialUrl",
+      "url": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--f133/",
+      "sourceUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--f133/",
+      "sourceFile": "outputs/S-11/links-a/extra-http-evidence.json",
+      "locator": "/2",
+      "checkedAt": "2026-11-01T09:24:52.743Z",
+      "identity": {
+        "catalogName": "Центр молодёжного творчества и семейного досуга «Ф133»",
+        "catalogAddress": "Наб. реки Фонтанки, д. 133",
+        "basis": "Точное название и адрес клуба совпадают с каталогом; собственная страница опубликована в меню официального ДМ «Рекорд»."
+      },
+      "matching": "Точное название и адрес клуба совпадают с каталогом; собственная страница опубликована в меню официального ДМ «Рекорд».",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/extra-http-evidence.json",
+        "locator": "/2",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--f133/",
+          "sourceFile": "outputs/S-11/links-a/extra-http-evidence.json",
+          "locator": "/2",
+          "checkedAt": "2026-11-01T09:24:52.743Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.743Z",
+          "title": "Подростково-молодежный клуб «Ф133»",
+          "finalUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/podrostkovo-molodezhnyj-klub--f133/",
+          "sha256": "3eb2d1e7745e06138fa31faf4d08db8e8bf1fe46f3b80a80f72e1e085f886ed9"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.743Z",
+          "title": "Подростково-молодежный клуб «Ф133»"
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/12"
+      }
+    },
+    {
+      "district": "admiralteysky",
+      "club": "Молодёжное пространство «Учреждение»",
+      "field": "officialUrl",
+      "url": "https://dmrecord.admiral.gov.spb.ru/pmk/molodezhnyj-klub-molodezhnoe-prostranstvo-uchrezhdenie/",
+      "sourceUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/molodezhnyj-klub-molodezhnoe-prostranstvo-uchrezhdenie/",
+      "sourceFile": "outputs/S-11/links-a/extra-http-evidence.json",
+      "locator": "/3",
+      "checkedAt": "2026-11-01T09:24:52.745Z",
+      "identity": {
+        "catalogName": "Молодёжное пространство «Учреждение»",
+        "catalogAddress": "Садовая ул., д. 55-57, лит. А",
+        "basis": "Точное название и адрес клуба совпадают с каталогом; собственная страница опубликована в меню официального ДМ «Рекорд»."
+      },
+      "matching": "Точное название и адрес клуба совпадают с каталогом; собственная страница опубликована в меню официального ДМ «Рекорд».",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/extra-http-evidence.json",
+        "locator": "/3",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/molodezhnyj-klub-molodezhnoe-prostranstvo-uchrezhdenie/",
+          "sourceFile": "outputs/S-11/links-a/extra-http-evidence.json",
+          "locator": "/3",
+          "checkedAt": "2026-11-01T09:24:52.745Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.745Z",
+          "title": "Молодежный клуб «Молодежное пространство «Учреждение»",
+          "finalUrl": "https://dmrecord.admiral.gov.spb.ru/pmk/molodezhnyj-klub-molodezhnoe-prostranstvo-uchrezhdenie/",
+          "sha256": "ca97f4e17a11c2c7516bc69979cb2885ce4c8b29ddd38f56e8ab2c84b6d96eac"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.745Z",
+          "title": "Молодежный клуб «Молодежное пространство «Учреждение»"
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/13"
+      }
+    },
+    {
+      "district": "vyborgsky",
+      "club": "Форпост",
+      "field": "officialUrl",
+      "url": "https://xn----gtbyjafgkjo.xn--p1ai/forpost_place",
+      "sourceUrl": "https://xn----gtbyjafgkjo.xn--p1ai/forpost_place",
+      "sourceFile": "outputs/S-11/links-a/forpost-http-evidence.json",
+      "locator": "/0",
+      "checkedAt": "2026-11-01T09:25:23.3515391Z",
+      "identity": {
+        "catalogName": "Форпост",
+        "catalogAddress": "Большой Сампсониевский пр., д. 37",
+        "basis": "Собственная страница площадки из меню официального ДМ «Форпост»; название и точный адрес совпадают с каталогом. Контент подтверждён в forpost-content-evidence.json; цены аренды/иные сведения не импортируются."
+      },
+      "matching": "Собственная страница площадки из меню официального ДМ «Форпост»; название и точный адрес совпадают с каталогом. Контент подтверждён в forpost-content-evidence.json; цены аренды/иные сведения не импортируются.",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/forpost-http-evidence.json",
+        "locator": "/0",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://xn----gtbyjafgkjo.xn--p1ai/forpost_place",
+          "sourceFile": "outputs/S-11/links-a/forpost-http-evidence.json",
+          "locator": "/0",
+          "checkedAt": "2026-11-01T09:25:23.3515391Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:25:23.3515391Z",
+          "title": "Дом молодёжи «ФОРПОСТ» площадка",
+          "finalUrl": "https://xn----gtbyjafgkjo.xn--p1ai/forpost_place",
+          "sha256": "246c0b2bfe443dfc3a72e57e7c6870f0c3e910397e393c02871e5245621faaea"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:25:23.3515391Z",
+          "title": "Дом молодёжи «ФОРПОСТ» площадка"
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/14"
+      }
+    },
+    {
+      "district": "vyborgsky",
+      "club": "Фестиваль",
+      "field": "officialUrl",
+      "url": "https://xn----gtbyjafgkjo.xn--p1ai/festival_place",
+      "sourceUrl": "https://xn----gtbyjafgkjo.xn--p1ai/festival_place",
+      "sourceFile": "outputs/S-11/links-a/forpost-http-evidence.json",
+      "locator": "/1",
+      "checkedAt": "2026-11-01T09:25:23.5573353Z",
+      "identity": {
+        "catalogName": "Фестиваль",
+        "catalogAddress": "пр. Просвещения, д. 47",
+        "basis": "Собственная страница площадки из меню официального ДМ «Форпост»; название и точный адрес совпадают с каталогом. Контент подтверждён в forpost-content-evidence.json; цены аренды/иные сведения не импортируются."
+      },
+      "matching": "Собственная страница площадки из меню официального ДМ «Форпост»; название и точный адрес совпадают с каталогом. Контент подтверждён в forpost-content-evidence.json; цены аренды/иные сведения не импортируются.",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/forpost-http-evidence.json",
+        "locator": "/1",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://xn----gtbyjafgkjo.xn--p1ai/festival_place",
+          "sourceFile": "outputs/S-11/links-a/forpost-http-evidence.json",
+          "locator": "/1",
+          "checkedAt": "2026-11-01T09:25:23.5573353Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:25:23.5573353Z",
+          "title": "Молодёжный досуговый центр «ФЕСТИВАЛЬ» площадка",
+          "finalUrl": "https://xn----gtbyjafgkjo.xn--p1ai/festival_place",
+          "sha256": "cf4c14c821697f38ba8c481d02756053cb45bfb3f5eac2feac1e04a5623ad399"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:25:23.5573353Z",
+          "title": "Молодёжный досуговый центр «ФЕСТИВАЛЬ» площадка"
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/15"
+      }
+    },
+    {
+      "district": "kirovsky",
+      "club": "Алые паруса",
+      "field": "activityPages.vkUrl",
+      "url": "https://vk.com/dobro_kirovskiy",
+      "activity": "ДоброЦентр «Кировский»",
+      "title": "ДоброЦентр «Кировский»",
+      "sourceUrl": "https://pmckir.ru/?page_id=1667",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/43",
+      "checkedAt": "2026-11-01T09:24:03.436Z",
+      "identity": {
+        "catalogName": "Алые паруса",
+        "catalogAddress": "ул. Новостроек, д. 15",
+        "basis": "Существующий officialUrl клуба «Алые паруса», ул. Новостроек, д. 15; именованная ссылка в списке его направлений."
+      },
+      "matching": "Официальная собственная страница клуба прямо описывает это направление и публикует его VK. ",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/43",
+        "relationship": "named-activity-and-club-specific-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://pmckir.ru/?page_id=1667",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/43",
+          "checkedAt": "2026-11-01T09:24:03.436Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:03.436Z",
+          "title": "ПМК «Алые паруса» - Подростково-молодежный центр \"Кировский\"",
+          "finalUrl": "https://pmckir.ru/?page_id=1667",
+          "sha256": "d8b22a94da8576b59e5067a0242833c24fac15a5ad4214d623600f2df83e09bd"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:27:15.430Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/16"
+      }
+    },
+    {
+      "district": "vyborgsky",
+      "club": "Перекрёсток",
+      "field": "activityPages.vkUrl",
+      "url": "https://vk.com/artmir46",
+      "activity": "Роспись по дереву",
+      "title": "Студия росписи по дереву «Орнаменты России»",
+      "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/149",
+      "checkedAt": "2026-11-01T09:24:10.292Z",
+      "identity": {
+        "catalogName": "Перекрёсток",
+        "catalogAddress": "пр. Просвещения, д. 46, к. 1, лит. А",
+        "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+      },
+      "matching": "Официальная собственная страница клуба прямо описывает это направление и публикует его VK. Студия росписи по дереву «Орнаменты России» Специалист по работе с молодёжью – Семочкина Эльвира Юрьевна: 29 лет в профессии - душа студии. Роспись по дереву старинный вид декоративно-прикладного искусства, очень интересный и доступный. Учимся осваивать традиционную и авторскую роспись изделий из дерева и стекла. Это всегда модно и на высоте, а еще это красивые и полезные подарки к праздникам. Участвуем в выставках и мастер-классах, неоднократные победители и призеры значимых конкурсов и фестивалей в Петербурге и стране <a",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/149",
+        "relationship": "named-activity-and-club-specific-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/149",
+          "checkedAt": "2026-11-01T09:24:10.292Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.292Z",
+          "title": "перекрёсток 46",
+          "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+          "sha256": "da33620b9daadb0545d5938040358d4a21e5049eb6e3ed3d8c0d8b741a147f53"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:27:15.432Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      },
+      "activityEvidence": {
+        "file": "outputs/S-11/links-a/mir-activity-contexts.json",
+        "locator": "/0",
+        "context": "Студия росписи по дереву «Орнаменты России» Специалист по работе с молодёжью – Семочкина Эльвира Юрьевна: 29 лет в профессии - душа студии. Роспись по дереву старинный вид декоративно-прикладного искусства, очень интересный и доступный. Учимся осваивать традиционную и авторскую роспись изделий из дерева и стекла. Это всегда модно и на высоте, а еще это красивые и полезные подарки к праздникам. Участвуем в выставках и мастер-классах, неоднократные победители и призеры значимых конкурсов и фестивалей в Петербурге и стране <a"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/17"
+      }
+    },
+    {
+      "district": "vyborgsky",
+      "club": "Перекрёсток",
+      "field": "activityPages.vkUrl",
+      "url": "https://vk.com/club227998028",
+      "activity": "ИЗО",
+      "title": "Студия ИЗО «Арт пространство»",
+      "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/149",
+      "checkedAt": "2026-11-01T09:24:10.292Z",
+      "identity": {
+        "catalogName": "Перекрёсток",
+        "catalogAddress": "пр. Просвещения, д. 46, к. 1, лит. А",
+        "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+      },
+      "matching": "Официальная собственная страница клуба прямо описывает это направление и публикует его VK. Студия ИЗО «Арт пространство» Специалист по работе с молодёжью – Руднева Милена Максимовна Если ты мечтаешь научиться рисовать, экспериментировать с различными техниками или усовершенствовать свои навыки в творчестве – это именно то, что тебе нужно! Что тебя ждет? Уроки с опытным художником, который будет с тобой на одной волне Занятия по живописи и рисунку Возможность участия в выставках и творческих проектах Дружелюбная атмосфера и возможность познакомиться с единомышленниками <a",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/149",
+        "relationship": "named-activity-and-club-specific-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/149",
+          "checkedAt": "2026-11-01T09:24:10.292Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.292Z",
+          "title": "перекрёсток 46",
+          "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+          "sha256": "da33620b9daadb0545d5938040358d4a21e5049eb6e3ed3d8c0d8b741a147f53"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:27:15.433Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      },
+      "activityEvidence": {
+        "file": "outputs/S-11/links-a/mir-activity-contexts.json",
+        "locator": "/1",
+        "context": "Студия ИЗО «Арт пространство» Специалист по работе с молодёжью – Руднева Милена Максимовна Если ты мечтаешь научиться рисовать, экспериментировать с различными техниками или усовершенствовать свои навыки в творчестве – это именно то, что тебе нужно! Что тебя ждет? Уроки с опытным художником, который будет с тобой на одной волне Занятия по живописи и рисунку Возможность участия в выставках и творческих проектах Дружелюбная атмосфера и возможность познакомиться с единомышленниками <a"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/18"
+      }
+    },
+    {
+      "district": "vyborgsky",
+      "club": "Перекрёсток",
+      "field": "activityPages.vkUrl",
+      "url": "https://vk.com/reformad",
+      "activity": "Современный танец",
+      "title": "Студия танцев «Reформа»",
+      "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/149",
+      "checkedAt": "2026-11-01T09:24:10.292Z",
+      "identity": {
+        "catalogName": "Перекрёсток",
+        "catalogAddress": "пр. Просвещения, д. 46, к. 1, лит. А",
+        "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+      },
+      "matching": "Официальная собственная страница клуба прямо описывает это направление и публикует его VK. Студия танцев «Reформа» Специалист по работе с молодёжью – Дмитрий Матвеев. Он окончил Академию русского балета имени А. Я. Вагановой. Сейчас работает хореографом - постановщиком в театре, а также преподаёт в колледже будущим хореографам. Здесь Вы можете попробовать себя в современных уличных направлениях таких как krump,hip-hop,electro dance,а также найти единомышленников в нашем дружном коллективе. Одна из наших главных ценностей - опытный педагог Мы дадим хорошую танцевальную подготовку и поддержку, поэтому уровень подготовки не так важен. От Вас требуется лишь желание и стремление развиваться. <a",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/149",
+        "relationship": "named-activity-and-club-specific-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/149",
+          "checkedAt": "2026-11-01T09:24:10.292Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.292Z",
+          "title": "перекрёсток 46",
+          "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+          "sha256": "da33620b9daadb0545d5938040358d4a21e5049eb6e3ed3d8c0d8b741a147f53"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:27:15.434Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      },
+      "activityEvidence": {
+        "file": "outputs/S-11/links-a/mir-activity-contexts.json",
+        "locator": "/2",
+        "context": "Студия танцев «Reформа» Специалист по работе с молодёжью – Дмитрий Матвеев. Он окончил Академию русского балета имени А. Я. Вагановой. Сейчас работает хореографом - постановщиком в театре, а также преподаёт в колледже будущим хореографам. Здесь Вы можете попробовать себя в современных уличных направлениях таких как krump,hip-hop,electro dance,а также найти единомышленников в нашем дружном коллективе. Одна из наших главных ценностей - опытный педагог Мы дадим хорошую танцевальную подготовку и поддержку, поэтому уровень подготовки не так важен. От Вас требуется лишь желание и стремление развиваться. <a"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/19"
+      }
+    },
+    {
+      "district": "vyborgsky",
+      "club": "Перекрёсток",
+      "field": "activityPages.vkUrl",
+      "url": "https://vk.com/public216971874",
+      "activity": "Эстрадный вокал",
+      "title": "Эстрадно-джазовый коллектив «Наши голоса»",
+      "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/149",
+      "checkedAt": "2026-11-01T09:24:10.292Z",
+      "identity": {
+        "catalogName": "Перекрёсток",
+        "catalogAddress": "пр. Просвещения, д. 46, к. 1, лит. А",
+        "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+      },
+      "matching": "Официальная собственная страница клуба прямо описывает это направление и публикует его VK. Эстрадно-джазовый коллектив «Наши голоса» Специалист по работе с молодежью – Казенина Елена Михайловна На занятиях ты сможешь обучиться теории музыки, основам вокального дыхания, узнать о гигиене голосового аппарата, исполнить любимую песню на разных языках, Подобрать и исполнить любимый музыкальный репертуар на площадках различного уровня, принять участие в вокальных конкурсах и мероприятиях. накопить свой репертуар и создать свой канал в телеграмм. <a",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/149",
+        "relationship": "named-activity-and-club-specific-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/149",
+          "checkedAt": "2026-11-01T09:24:10.292Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.292Z",
+          "title": "перекрёсток 46",
+          "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+          "sha256": "da33620b9daadb0545d5938040358d4a21e5049eb6e3ed3d8c0d8b741a147f53"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:27:15.435Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      },
+      "activityEvidence": {
+        "file": "outputs/S-11/links-a/mir-activity-contexts.json",
+        "locator": "/3",
+        "context": "Эстрадно-джазовый коллектив «Наши голоса» Специалист по работе с молодежью – Казенина Елена Михайловна На занятиях ты сможешь обучиться теории музыки, основам вокального дыхания, узнать о гигиене голосового аппарата, исполнить любимую песню на разных языках, Подобрать и исполнить любимый музыкальный репертуар на площадках различного уровня, принять участие в вокальных конкурсах и мероприятиях. накопить свой репертуар и создать свой канал в телеграмм. <a"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/20"
+      }
+    },
+    {
+      "district": "vyborgsky",
+      "club": "Перекрёсток",
+      "field": "activityPages.vkUrl",
+      "url": "https://vk.com/igrotekaperecrestok",
+      "activity": "Игровой клуб",
+      "title": "Клуб настольных игр «Игротека»",
+      "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/149",
+      "checkedAt": "2026-11-01T09:24:10.292Z",
+      "identity": {
+        "catalogName": "Перекрёсток",
+        "catalogAddress": "пр. Просвещения, д. 46, к. 1, лит. А",
+        "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+      },
+      "matching": "Официальная собственная страница клуба прямо описывает это направление и публикует его VK. Клуб настольных игр \"Игротека\" Специалист по работе с молодёжью – Пасечник Надежда Александровна, бакалавр, педагог, многократный победитель ежегодного турнира по аэрохоккею в женском разряде Клуб настольных игр \"Игротека\" идеален для тех, кто хочет весело и с пользой проводить вечера. Множество игр, таких как UNO, Мафия, Каркассон, Лига детективов, дают возможность раскрыть свой потенциал, развивая логику, дедукцию, реакцию, а также просто приятно провести время в компании хороших людей. Ребята участвуют в турнирах, у многих уже есть победы в настольном хоккей-бильярде, аэрохоккее, Каркассоне и др. <a",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/149",
+        "relationship": "named-activity-and-club-specific-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/149",
+          "checkedAt": "2026-11-01T09:24:10.292Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.292Z",
+          "title": "перекрёсток 46",
+          "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+          "sha256": "da33620b9daadb0545d5938040358d4a21e5049eb6e3ed3d8c0d8b741a147f53"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:27:15.436Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      },
+      "activityEvidence": {
+        "file": "outputs/S-11/links-a/mir-activity-contexts.json",
+        "locator": "/8",
+        "context": "Клуб настольных игр \"Игротека\" Специалист по работе с молодёжью – Пасечник Надежда Александровна, бакалавр, педагог, многократный победитель ежегодного турнира по аэрохоккею в женском разряде Клуб настольных игр \"Игротека\" идеален для тех, кто хочет весело и с пользой проводить вечера. Множество игр, таких как UNO, Мафия, Каркассон, Лига детективов, дают возможность раскрыть свой потенциал, развивая логику, дедукцию, реакцию, а также просто приятно провести время в компании хороших людей. Ребята участвуют в турнирах, у многих уже есть победы в настольном хоккей-бильярде, аэрохоккее, Каркассоне и др. <a"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/21"
+      }
+    },
+    {
+      "district": "vyborgsky",
+      "club": "Перекрёсток",
+      "field": "activityPages.vkUrl",
+      "url": "https://vk.com/club389828",
+      "activity": "Театр",
+      "title": "Театральная студия «Дель арте»",
+      "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/149",
+      "checkedAt": "2026-11-01T09:24:10.292Z",
+      "identity": {
+        "catalogName": "Перекрёсток",
+        "catalogAddress": "пр. Просвещения, д. 46, к. 1, лит. А",
+        "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+      },
+      "matching": "Официальная собственная страница клуба прямо описывает это направление и публикует его VK. Театральная студия «Дель арте» Специалист по работе с молодежью – Кузякова Ольга Алексеевна, художественны руководитель, режиссер-постановщик Театральная студия \"Дель арте\" - это репертуарный театр Здесь вы освоите: -сценическую речь, -сценическое движение, -актерское мастерство, -участие в постановках, конкурсах, фестивалях. Коллективу более 20 лет. Неоднократный победитель фестивалей, конкурсов различных уровней. <a",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/149",
+        "relationship": "named-activity-and-club-specific-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/149",
+          "checkedAt": "2026-11-01T09:24:10.292Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.292Z",
+          "title": "перекрёсток 46",
+          "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/perekrestok46",
+          "sha256": "da33620b9daadb0545d5938040358d4a21e5049eb6e3ed3d8c0d8b741a147f53"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:27:15.437Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      },
+      "activityEvidence": {
+        "file": "outputs/S-11/links-a/mir-activity-contexts.json",
+        "locator": "/9",
+        "context": "Театральная студия «Дель арте» Специалист по работе с молодежью – Кузякова Ольга Алексеевна, художественны руководитель, режиссер-постановщик Театральная студия \"Дель арте\" - это репертуарный театр Здесь вы освоите: -сценическую речь, -сценическое движение, -актерское мастерство, -участие в постановках, конкурсах, фестивалях. Коллективу более 20 лет. Неоднократный победитель фестивалей, конкурсов различных уровней. <a"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/22"
+      }
+    },
+    {
+      "district": "vyborgsky",
+      "club": "Ритм",
+      "field": "activityPages.vkUrl",
+      "url": "https://vk.com/dinamika_dance",
+      "activity": "Современный танец",
+      "title": "Танцевальный кружок «Динамика»",
+      "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/ritm133",
+      "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+      "locator": "/147",
+      "checkedAt": "2026-11-01T09:24:10.228Z",
+      "identity": {
+        "catalogName": "Ритм",
+        "catalogAddress": "пр. Энгельса, д. 133, к. 1, лит. Д",
+        "basis": "Уже существующий officialUrl конкретного клуба МИР; одноимённая направлению секция и буквальная ссылка её группы."
+      },
+      "matching": "Официальная собственная страница клуба прямо описывает это направление и публикует его VK. танцевальный кружок «Динамика» руководитель: Алексеева Марина Валентиновна это танцевальная творческая мастерская, которая позволяет воспитанникам прикоснуться к миру танцев и сцены. Подружиться с коллективом. Коллектив современного танца «Динамика» является обладателем Гран-при и победителями 1,2 степени международных и всероссийских конкурсов. <a",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/147",
+        "relationship": "named-activity-and-club-specific-official-page"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://xn----ptbkbv6a.xn--p1ai/ritm133",
+          "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+          "locator": "/147",
+          "checkedAt": "2026-11-01T09:24:10.228Z"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.228Z",
+          "title": "ритм 133",
+          "finalUrl": "https://xn----ptbkbv6a.xn--p1ai/ritm133",
+          "sha256": "24ac262d2c85995d65ec9ac13db553eafc0ff81af196d43d3e1683843e034616"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:27:15.431Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      },
+      "activityEvidence": {
+        "file": "outputs/S-11/links-a/mir-activity-contexts.json",
+        "locator": "/10",
+        "context": "танцевальный кружок «Динамика» руководитель: Алексеева Марина Валентиновна это танцевальная творческая мастерская, которая позволяет воспитанникам прикоснуться к миру танцев и сцены. Подружиться с коллективом. Коллектив современного танца «Динамика» является обладателем Гран-при и победителями 1,2 степени международных и всероссийских конкурсов. <a"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/23"
+      }
+    },
+    {
+      "district": "moskovsky",
+      "club": "Старт",
+      "field": "activityPages.vkUrl",
+      "activity": "Шахматы",
+      "url": "https://vk.com/club198381179",
+      "title": "Шахматы",
+      "sourceUrl": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/234/",
+      "sourceFile": "outputs/S-11/links-b/20c3188640e36a22.html",
+      "locator": "exact href=\"https://vk.com/club198381179\"",
+      "matching": "Текущая официальная страница клуба «Старт», Московский153, явно подписывает ссылку «шахматы». Существующее направление «Шахматы» не имеет VK.",
+      "identity": {
+        "catalogName": "Старт",
+        "catalogAddress": "Московский пр., д. 153",
+        "sourceTitle": "Подростково-молодежный клуб «Старт»",
+        "sourceAddress": "Московский пр., д.153",
+        "relationship": "exact named programme published on the same club official page"
+      },
+      "checkedAt": "2026-11-01T09:23:40.544Z",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-b/fresh-http.json",
+        "locator": "/6/links/60",
+        "relationship": "current-official-explicit-activity-href"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/234/",
+          "sourceFile": "outputs/S-11/links-b/20c3188640e36a22.html",
+          "locator": "exact href=\"https://vk.com/club198381179\"",
+          "checkedAt": "2026-11-01T09:23:40.544Z",
+          "quote": "lass=\"font_7\"> Часы работы: с понедельника по пятницу 16:00-22:00, суббота 16:00-21:00 Единоборства, айкидо, студия гитары, шахматы , студия гитары и вокала Звуки Муз , студия вокала, киноклуб, мастерская психологии &laquo;Зона комфорта&r"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:23:40.544Z",
+          "title": "Подростково-молодежный клуб «Старт»",
+          "sha256": "c42fc3ccacde0b45f0643f29926bc5e360af30ede17054c6840e22c3c50a7588"
+        },
+        "target": {
+          "status": 200,
+          "title": "VK.com | VK",
+          "identityConfirmed": false,
+          "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-b/eligible-additions.json",
+        "locator": "/0"
+      }
+    },
+    {
+      "district": "moskovsky",
+      "club": "Старт",
+      "field": "activityPages.vkUrl",
+      "activity": "Гитара",
+      "url": "https://vk.com/club10007301",
+      "title": "Студия гитары и вокала",
+      "sourceUrl": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/234/",
+      "sourceFile": "outputs/S-11/links-b/20c3188640e36a22.html",
+      "locator": "exact href=\"https://vk.com/club10007301\"",
+      "matching": "Текущая официальная страница именно «Старта», Московский153, публикует ссылку с буквальной подписью «студия гитары и вокала». Она однозначно относится к двум существующим направлениям; ни новое занятие, ни новое расписание не создаются.",
+      "identity": {
+        "catalogName": "Старт",
+        "catalogAddress": "Московский пр., д. 153",
+        "sourceTitle": "Подростково-молодежный клуб «Старт»",
+        "sourceAddress": "Московский пр., д.153",
+        "relationship": "exact named programme published on the same club official page"
+      },
+      "checkedAt": "2026-11-01T09:23:40.544Z",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-b/fresh-http.json",
+        "locator": "/6/links/61",
+        "relationship": "current-official-explicit-activity-href"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/234/",
+          "sourceFile": "outputs/S-11/links-b/20c3188640e36a22.html",
+          "locator": "exact href=\"https://vk.com/club10007301\"",
+          "checkedAt": "2026-11-01T09:23:40.544Z",
+          "quote": "ицу 16:00-22:00, суббота 16:00-21:00 Единоборства, айкидо, студия гитары, шахматы , студия гитары и вокала Звуки Муз , студия вокала, киноклуб, мастерская психологии &laquo;Зона комфорта&raquo;, клуб молодой семьи, клубное место свободного общения, студия дизайна,"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:23:40.544Z",
+          "title": "Подростково-молодежный клуб «Старт»",
+          "sha256": "c42fc3ccacde0b45f0643f29926bc5e360af30ede17054c6840e22c3c50a7588"
+        },
+        "target": {
+          "status": 200,
+          "title": "VK.com | VK",
+          "identityConfirmed": false,
+          "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-b/eligible-additions.json",
+        "locator": "/1"
+      }
+    },
+    {
+      "district": "moskovsky",
+      "club": "Старт",
+      "field": "activityPages.vkUrl",
+      "activity": "Вокал",
+      "url": "https://vk.com/club10007301",
+      "title": "Студия гитары и вокала",
+      "sourceUrl": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/234/",
+      "sourceFile": "outputs/S-11/links-b/20c3188640e36a22.html",
+      "locator": "exact href=\"https://vk.com/club10007301\"",
+      "matching": "Текущая официальная страница именно «Старта», Московский153, публикует ссылку с буквальной подписью «студия гитары и вокала». Она однозначно относится к двум существующим направлениям; ни новое занятие, ни новое расписание не создаются.",
+      "identity": {
+        "catalogName": "Старт",
+        "catalogAddress": "Московский пр., д. 153",
+        "sourceTitle": "Подростково-молодежный клуб «Старт»",
+        "sourceAddress": "Московский пр., д.153",
+        "relationship": "exact named programme published on the same club official page"
+      },
+      "checkedAt": "2026-11-01T09:23:40.544Z",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-b/fresh-http.json",
+        "locator": "/6/links/61",
+        "relationship": "current-official-explicit-activity-href"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/234/",
+          "sourceFile": "outputs/S-11/links-b/20c3188640e36a22.html",
+          "locator": "exact href=\"https://vk.com/club10007301\"",
+          "checkedAt": "2026-11-01T09:23:40.544Z",
+          "quote": "ицу 16:00-22:00, суббота 16:00-21:00 Единоборства, айкидо, студия гитары, шахматы , студия гитары и вокала Звуки Муз , студия вокала, киноклуб, мастерская психологии &laquo;Зона комфорта&raquo;, клуб молодой семьи, клубное место свободного общения, студия дизайна,"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:23:40.544Z",
+          "title": "Подростково-молодежный клуб «Старт»",
+          "sha256": "c42fc3ccacde0b45f0643f29926bc5e360af30ede17054c6840e22c3c50a7588"
+        },
+        "target": {
+          "status": 200,
+          "title": "VK.com | VK",
+          "identityConfirmed": false,
+          "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-b/eligible-additions.json",
+        "locator": "/2"
+      }
+    },
+    {
+      "district": "moskovsky",
+      "club": "Романтики",
+      "field": "activityPages.vkUrl",
+      "activity": "Гитара",
+      "url": "https://vk.com/sharyats",
+      "title": "Школа акустического рока",
+      "sourceUrl": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/231/",
+      "sourceFile": "outputs/S-11/links-b/99e49fc49435c791.html",
+      "locator": "exact href=\"https://vk.com/sharyats\"",
+      "matching": "Текущий официальный HTML явно говорит «студия игры на гитаре» непосредственно перед ссылкой «Школа акустического рока». Это однозначно сопоставляет существующее направление «Гитара» с именованной студией этого клуба.",
+      "identity": {
+        "catalogName": "Романтики",
+        "catalogAddress": "Ленинский пр., д. 158, корп. 2",
+        "sourceTitle": "Подростково-молодежный клуб «Романтики»",
+        "sourceAddress": "Московский пр., д.153",
+        "relationship": "exact named programme published on the same club official page"
+      },
+      "checkedAt": "2026-11-01T09:23:40.797Z",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-b/fresh-http.json",
+        "locator": "/12/links/62",
+        "relationship": "current-official-explicit-activity-href"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/231/",
+          "sourceFile": "outputs/S-11/links-b/99e49fc49435c791.html",
+          "locator": "exact href=\"https://vk.com/sharyats\"",
+          "checkedAt": "2026-11-01T09:23:40.797Z",
+          "quote": "академической живописи &laquo;OHRA&raquo;, студия АРТ - дизайна &laquo;OHRA&raquo; , студия игры на гитаре &laquo;Школа акустического рока&raquo;, добровольческое объединение &laquo;Лидерский клуб&raquo; , английский разговорный клуб &laquo;Погружение&r"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:23:40.797Z",
+          "title": "Подростково-молодежный клуб «Романтики»",
+          "sha256": "b653e539fc26c22acc1518bb94e0c390ef5d7f15d6a06806ecc64d02171747cc"
+        },
+        "target": {
+          "status": 200,
+          "title": "VK.com | VK",
+          "identityConfirmed": false,
+          "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-b/eligible-additions.json",
+        "locator": "/3"
+      }
+    },
+    {
+      "district": "pushkinsky",
+      "club": "Царскосельский",
+      "field": "activityPages.vkUrl",
+      "activity": "Гитара",
+      "url": "https://vk.com/gitara_dlya_dushi",
+      "title": "Гитара для души",
+      "sourceUrl": "https://pushkindm.ru/",
+      "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+      "locator": "exact href=\"https://vk.com/gitara_dlya_dushi\"",
+      "matching": "Карточка каталога представляет сам Дом молодёжи «Царскосельский», Магазейная42, а не другое подразделение. Текущая главная официального ДМ публикует эту именованную программу со ссылкой и явным видом занятия/описанием: Гитара для души → Гитара. У existing generic направления нет ни одной VK-привязки. Для вокала/добровольчества сохранены отдельные явно перечисленные программы без подмены друг друга.",
+      "identity": {
+        "catalogName": "Царскосельский",
+        "catalogAddress": "г. Пушкин, ул. Магазейная, д. 42",
+        "sourceTitle": "Дом Молодежи \"Царскосельский\"",
+        "sourceAddress": "Магазейная, д.42-А",
+        "relationship": "exact named programme published on the same club official page"
+      },
+      "checkedAt": "2026-11-01T09:23:41.424Z",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-b/fresh-http.json",
+        "locator": "/28/links/15",
+        "relationship": "current-official-explicit-activity-href"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://pushkindm.ru/",
+          "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+          "locator": "exact href=\"https://vk.com/gitara_dlya_dushi\"",
+          "checkedAt": "2026-11-01T09:23:41.424Z",
+          "quote": "_uptitle t-uptitle t-uptitle_xs\" field=\"li_subtitle__1571908130894\"> Музыка \"Гитара для души\" \"Гитара для души\" – образовательно-творческий проект, созданный для всех, кто хочет научиться играть и петь под"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:23:41.424Z",
+          "title": "Дом Молодежи \"Царскосельский\"",
+          "sha256": "d3bbc67af28dd5ebf4c7f26cbd126262abf8791b3c3ec41ce43b8e659747cbfa"
+        },
+        "target": {
+          "status": 200,
+          "title": "VK.com | VK",
+          "identityConfirmed": false,
+          "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-b/eligible-additions.json",
+        "locator": "/4"
+      }
+    },
+    {
+      "district": "pushkinsky",
+      "club": "Царскосельский",
+      "field": "activityPages.vkUrl",
+      "activity": "Вокал",
+      "url": "https://vk.com/vocal_dm",
+      "title": "Студия эстрадного вокала «Живой звук»",
+      "sourceUrl": "https://pushkindm.ru/",
+      "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+      "locator": "exact href=\"https://vk.com/vocal_dm\"",
+      "matching": "Карточка каталога представляет сам Дом молодёжи «Царскосельский», Магазейная42, а не другое подразделение. Текущая главная официального ДМ публикует эту именованную программу со ссылкой и явным видом занятия/описанием: Студия эстрадного вокала «Живой звук» → Вокал. У existing generic направления нет ни одной VK-привязки. Для вокала/добровольчества сохранены отдельные явно перечисленные программы без подмены друг друга.",
+      "identity": {
+        "catalogName": "Царскосельский",
+        "catalogAddress": "г. Пушкин, ул. Магазейная, д. 42",
+        "sourceTitle": "Дом Молодежи \"Царскосельский\"",
+        "sourceAddress": "Магазейная, д.42-А",
+        "relationship": "exact named programme published on the same club official page"
+      },
+      "checkedAt": "2026-11-01T09:23:41.424Z",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-b/fresh-http.json",
+        "locator": "/28/links/16",
+        "relationship": "current-official-explicit-activity-href"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://pushkindm.ru/",
+          "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+          "locator": "exact href=\"https://vk.com/vocal_dm\"",
+          "checkedAt": "2026-11-01T09:23:41.424Z",
+          "quote": "__uptitle t-uptitle t-uptitle_xs\" field=\"li_subtitle__1571908138123\"> Вокал \"Живой звук\" Студия эстрадного вокала \"Живой звук\" создана для школьников и студентов, которые хотят развить вокальные, сцени"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:23:41.424Z",
+          "title": "Дом Молодежи \"Царскосельский\"",
+          "sha256": "d3bbc67af28dd5ebf4c7f26cbd126262abf8791b3c3ec41ce43b8e659747cbfa"
+        },
+        "target": {
+          "status": 200,
+          "title": "VK.com | VK",
+          "identityConfirmed": false,
+          "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-b/eligible-additions.json",
+        "locator": "/5"
+      }
+    },
+    {
+      "district": "pushkinsky",
+      "club": "Царскосельский",
+      "field": "activityPages.vkUrl",
+      "activity": "Вокал",
+      "url": "https://vk.com/tsargolosa",
+      "title": "Студия вокала «Царскосельские голоса»",
+      "sourceUrl": "https://pushkindm.ru/",
+      "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+      "locator": "exact href=\"https://vk.com/tsargolosa\"",
+      "matching": "Карточка каталога представляет сам Дом молодёжи «Царскосельский», Магазейная42, а не другое подразделение. Текущая главная официального ДМ публикует эту именованную программу со ссылкой и явным видом занятия/описанием: Студия вокала «Царскосельские голоса» → Вокал. У existing generic направления нет ни одной VK-привязки. Для вокала/добровольчества сохранены отдельные явно перечисленные программы без подмены друг друга.",
+      "identity": {
+        "catalogName": "Царскосельский",
+        "catalogAddress": "г. Пушкин, ул. Магазейная, д. 42",
+        "sourceTitle": "Дом Молодежи \"Царскосельский\"",
+        "sourceAddress": "Магазейная, д.42-А",
+        "relationship": "exact named programme published on the same club official page"
+      },
+      "checkedAt": "2026-11-01T09:23:41.424Z",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-b/fresh-http.json",
+        "locator": "/28/links/30",
+        "relationship": "current-official-explicit-activity-href"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://pushkindm.ru/",
+          "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+          "locator": "exact href=\"https://vk.com/tsargolosa\"",
+          "checkedAt": "2026-11-01T09:23:41.424Z",
+          "quote": "__uptitle t-uptitle t-uptitle_xs\" field=\"li_subtitle__1742400717528\"> Вокал Студия вокала \"Царскосельские голоса\" Приглашаем на занятия по вокалу Возраст участников от 14 до 35 лет <div class=\"t-card__"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:23:41.424Z",
+          "title": "Дом Молодежи \"Царскосельский\"",
+          "sha256": "d3bbc67af28dd5ebf4c7f26cbd126262abf8791b3c3ec41ce43b8e659747cbfa"
+        },
+        "target": {
+          "status": 200,
+          "title": "VK.com | VK",
+          "identityConfirmed": false,
+          "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-b/eligible-additions.json",
+        "locator": "/6"
+      }
+    },
+    {
+      "district": "pushkinsky",
+      "club": "Царскосельский",
+      "field": "activityPages.vkUrl",
+      "activity": "Добровольчество",
+      "url": "https://vk.com/volonterdm",
+      "title": "Добровольческое объединение «3D»",
+      "sourceUrl": "https://pushkindm.ru/",
+      "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+      "locator": "exact href=\"https://vk.com/volonterdm\"",
+      "matching": "Карточка каталога представляет сам Дом молодёжи «Царскосельский», Магазейная42, а не другое подразделение. Текущая главная официального ДМ публикует эту именованную программу со ссылкой и явным видом занятия/описанием: Добровольческое объединение «3D» → Добровольчество. У existing generic направления нет ни одной VK-привязки. Для вокала/добровольчества сохранены отдельные явно перечисленные программы без подмены друг друга.",
+      "identity": {
+        "catalogName": "Царскосельский",
+        "catalogAddress": "г. Пушкин, ул. Магазейная, д. 42",
+        "sourceTitle": "Дом Молодежи \"Царскосельский\"",
+        "sourceAddress": "Магазейная, д.42-А",
+        "relationship": "exact named programme published on the same club official page"
+      },
+      "checkedAt": "2026-11-01T09:23:41.424Z",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-b/fresh-http.json",
+        "locator": "/28/links/17",
+        "relationship": "current-official-explicit-activity-href"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://pushkindm.ru/",
+          "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+          "locator": "exact href=\"https://vk.com/volonterdm\"",
+          "checkedAt": "2026-11-01T09:23:41.424Z",
+          "quote": "le t-uptitle t-uptitle_xs\" field=\"li_subtitle__1571909341844\"> Волонтерство \"3D\" - \"Dом Dобрых Dел\" Добровольческое объединение \"Dом Dобрых Dел\" (\"3D\") создано для всех, кто хочет сделать мир лучше, не боится дел"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:23:41.424Z",
+          "title": "Дом Молодежи \"Царскосельский\"",
+          "sha256": "d3bbc67af28dd5ebf4c7f26cbd126262abf8791b3c3ec41ce43b8e659747cbfa"
+        },
+        "target": {
+          "status": 200,
+          "title": "VK.com | VK",
+          "identityConfirmed": false,
+          "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-b/eligible-additions.json",
+        "locator": "/7"
+      }
+    },
+    {
+      "district": "pushkinsky",
+      "club": "Царскосельский",
+      "field": "activityPages.vkUrl",
+      "activity": "Театр",
+      "url": "https://vk.com/club220024972",
+      "title": "Театральный клуб «Кальмиус»",
+      "sourceUrl": "https://pushkindm.ru/",
+      "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+      "locator": "exact href=\"https://vk.com/club220024972\"",
+      "matching": "Карточка каталога представляет сам Дом молодёжи «Царскосельский», Магазейная42, а не другое подразделение. Текущая главная официального ДМ публикует эту именованную программу со ссылкой и явным видом занятия/описанием: Театральный клуб «Кальмиус» → Театр. У existing generic направления нет ни одной VK-привязки. Для вокала/добровольчества сохранены отдельные явно перечисленные программы без подмены друг друга.",
+      "identity": {
+        "catalogName": "Царскосельский",
+        "catalogAddress": "г. Пушкин, ул. Магазейная, д. 42",
+        "sourceTitle": "Дом Молодежи \"Царскосельский\"",
+        "sourceAddress": "Магазейная, д.42-А",
+        "relationship": "exact named programme published on the same club official page"
+      },
+      "checkedAt": "2026-11-01T09:23:41.424Z",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-b/fresh-http.json",
+        "locator": "/28/links/28",
+        "relationship": "current-official-explicit-activity-href"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://pushkindm.ru/",
+          "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+          "locator": "exact href=\"https://vk.com/club220024972\"",
+          "checkedAt": "2026-11-01T09:23:41.424Z",
+          "quote": "-uptitle t-uptitle_xs\" field=\"li_subtitle__1682002767535\"> Театральный клуб Кальмиус Приглашаем молодёжь освоить театральное искусство, участвовать в постановках. В клубе можно проявить себя не тол"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:23:41.424Z",
+          "title": "Дом Молодежи \"Царскосельский\"",
+          "sha256": "d3bbc67af28dd5ebf4c7f26cbd126262abf8791b3c3ec41ce43b8e659747cbfa"
+        },
+        "target": {
+          "status": 200,
+          "title": "VK.com | VK",
+          "identityConfirmed": false,
+          "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-b/eligible-additions.json",
+        "locator": "/8"
+      }
+    },
+    {
+      "district": "pushkinsky",
+      "club": "Царскосельский",
+      "field": "activityPages.vkUrl",
+      "activity": "Краеведение",
+      "url": "https://vk.com/club225966844",
+      "title": "Молодёжный клуб путешественников",
+      "sourceUrl": "https://pushkindm.ru/",
+      "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+      "locator": "exact href=\"https://vk.com/club225966844\"",
+      "matching": "Карточка каталога представляет сам Дом молодёжи «Царскосельский», Магазейная42, а не другое подразделение. Текущая главная официального ДМ публикует эту именованную программу со ссылкой и явным видом занятия/описанием: Молодёжный клуб путешественников → Краеведение. У existing generic направления нет ни одной VK-привязки. Для вокала/добровольчества сохранены отдельные явно перечисленные программы без подмены друг друга.",
+      "identity": {
+        "catalogName": "Царскосельский",
+        "catalogAddress": "г. Пушкин, ул. Магазейная, д. 42",
+        "sourceTitle": "Дом Молодежи \"Царскосельский\"",
+        "sourceAddress": "Магазейная, д.42-А",
+        "relationship": "exact named programme published on the same club official page"
+      },
+      "checkedAt": "2026-11-01T09:23:41.424Z",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-b/fresh-http.json",
+        "locator": "/28/links/31",
+        "relationship": "current-official-explicit-activity-href"
+      },
+      "sourceRefs": [
+        {
+          "sourceUrl": "https://pushkindm.ru/",
+          "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+          "locator": "exact href=\"https://vk.com/club225966844\"",
+          "checkedAt": "2026-11-01T09:23:41.424Z",
+          "quote": "tle t-uptitle t-uptitle_xs\" field=\"li_subtitle__1742474805761\"> Краеведение Молодёжный клуб путешественников В молодёжном клубе путешественников вы сможете изучать родной край не только на бумаге, но и на природе — выехав"
+        }
+      ],
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:23:41.424Z",
+          "title": "Дом Молодежи \"Царскосельский\"",
+          "sha256": "d3bbc67af28dd5ebf4c7f26cbd126262abf8791b3c3ec41ce43b8e659747cbfa"
+        },
+        "target": {
+          "status": 200,
+          "title": "VK.com | VK",
+          "identityConfirmed": false,
+          "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+        }
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-b/eligible-additions.json",
+        "locator": "/9"
+      }
+    }
+  ]
+}

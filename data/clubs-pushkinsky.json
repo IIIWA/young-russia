@@ -4763,7 +4763,333 @@
         "relationship": "exact-current-published-href"
       }
     },
-    "vkUrlImportedAt": "2026-10-31"
+    "vkUrlImportedAt": "2026-10-31",
+    "activityPages": [
+      {
+        "id": "s11-link-49cbbe92cf51",
+        "title": "Гитара для души",
+        "catalogActivity": "Гитара",
+        "vkUrl": "https://vk.com/gitara_dlya_dushi",
+        "vkUrlSource": "https://pushkindm.ru/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/28",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-b/fresh-http.json",
+            "locator": "/28/links/15",
+            "relationship": "current-official-explicit-activity-href"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-b/eligible-additions.json",
+            "locator": "/4"
+          },
+          "identity": {
+            "catalogName": "Царскосельский",
+            "catalogAddress": "г. Пушкин, ул. Магазейная, д. 42",
+            "sourceTitle": "Дом Молодежи \"Царскосельский\"",
+            "sourceAddress": "Магазейная, д.42-А",
+            "relationship": "exact named programme published on the same club official page"
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:23:41.424Z",
+              "title": "Дом Молодежи \"Царскосельский\"",
+              "sha256": "d3bbc67af28dd5ebf4c7f26cbd126262abf8791b3c3ec41ce43b8e659747cbfa"
+            },
+            "target": {
+              "status": 200,
+              "title": "VK.com | VK",
+              "identityConfirmed": false,
+              "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://pushkindm.ru/",
+            "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+            "locator": "exact href=\"https://vk.com/gitara_dlya_dushi\"",
+            "checkedAt": "2026-11-01T09:23:41.424Z",
+            "quote": "_uptitle t-uptitle t-uptitle_xs\" field=\"li_subtitle__1571908130894\"> Музыка \"Гитара для души\" \"Гитара для души\" – образовательно-творческий проект, созданный для всех, кто хочет научиться играть и петь под",
+            "task": "S-11"
+          }
+        ]
+      },
+      {
+        "id": "s11-link-1c5ea96d78b0",
+        "title": "Студия эстрадного вокала «Живой звук»",
+        "catalogActivity": "Вокал",
+        "vkUrl": "https://vk.com/vocal_dm",
+        "vkUrlSource": "https://pushkindm.ru/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/29",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-b/fresh-http.json",
+            "locator": "/28/links/16",
+            "relationship": "current-official-explicit-activity-href"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-b/eligible-additions.json",
+            "locator": "/5"
+          },
+          "identity": {
+            "catalogName": "Царскосельский",
+            "catalogAddress": "г. Пушкин, ул. Магазейная, д. 42",
+            "sourceTitle": "Дом Молодежи \"Царскосельский\"",
+            "sourceAddress": "Магазейная, д.42-А",
+            "relationship": "exact named programme published on the same club official page"
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:23:41.424Z",
+              "title": "Дом Молодежи \"Царскосельский\"",
+              "sha256": "d3bbc67af28dd5ebf4c7f26cbd126262abf8791b3c3ec41ce43b8e659747cbfa"
+            },
+            "target": {
+              "status": 200,
+              "title": "VK.com | VK",
+              "identityConfirmed": false,
+              "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://pushkindm.ru/",
+            "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+            "locator": "exact href=\"https://vk.com/vocal_dm\"",
+            "checkedAt": "2026-11-01T09:23:41.424Z",
+            "quote": "__uptitle t-uptitle t-uptitle_xs\" field=\"li_subtitle__1571908138123\"> Вокал \"Живой звук\" Студия эстрадного вокала \"Живой звук\" создана для школьников и студентов, которые хотят развить вокальные, сцени",
+            "task": "S-11"
+          }
+        ]
+      },
+      {
+        "id": "s11-link-cf2cbc284e07",
+        "title": "Студия вокала «Царскосельские голоса»",
+        "catalogActivity": "Вокал",
+        "vkUrl": "https://vk.com/tsargolosa",
+        "vkUrlSource": "https://pushkindm.ru/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/30",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-b/fresh-http.json",
+            "locator": "/28/links/30",
+            "relationship": "current-official-explicit-activity-href"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-b/eligible-additions.json",
+            "locator": "/6"
+          },
+          "identity": {
+            "catalogName": "Царскосельский",
+            "catalogAddress": "г. Пушкин, ул. Магазейная, д. 42",
+            "sourceTitle": "Дом Молодежи \"Царскосельский\"",
+            "sourceAddress": "Магазейная, д.42-А",
+            "relationship": "exact named programme published on the same club official page"
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:23:41.424Z",
+              "title": "Дом Молодежи \"Царскосельский\"",
+              "sha256": "d3bbc67af28dd5ebf4c7f26cbd126262abf8791b3c3ec41ce43b8e659747cbfa"
+            },
+            "target": {
+              "status": 200,
+              "title": "VK.com | VK",
+              "identityConfirmed": false,
+              "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://pushkindm.ru/",
+            "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+            "locator": "exact href=\"https://vk.com/tsargolosa\"",
+            "checkedAt": "2026-11-01T09:23:41.424Z",
+            "quote": "__uptitle t-uptitle t-uptitle_xs\" field=\"li_subtitle__1742400717528\"> Вокал Студия вокала \"Царскосельские голоса\" Приглашаем на занятия по вокалу Возраст участников от 14 до 35 лет <div class=\"t-card__",
+            "task": "S-11"
+          }
+        ]
+      },
+      {
+        "id": "s11-link-238d2848bbe5",
+        "title": "Добровольческое объединение «3D»",
+        "catalogActivity": "Добровольчество",
+        "vkUrl": "https://vk.com/volonterdm",
+        "vkUrlSource": "https://pushkindm.ru/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/31",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-b/fresh-http.json",
+            "locator": "/28/links/17",
+            "relationship": "current-official-explicit-activity-href"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-b/eligible-additions.json",
+            "locator": "/7"
+          },
+          "identity": {
+            "catalogName": "Царскосельский",
+            "catalogAddress": "г. Пушкин, ул. Магазейная, д. 42",
+            "sourceTitle": "Дом Молодежи \"Царскосельский\"",
+            "sourceAddress": "Магазейная, д.42-А",
+            "relationship": "exact named programme published on the same club official page"
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:23:41.424Z",
+              "title": "Дом Молодежи \"Царскосельский\"",
+              "sha256": "d3bbc67af28dd5ebf4c7f26cbd126262abf8791b3c3ec41ce43b8e659747cbfa"
+            },
+            "target": {
+              "status": 200,
+              "title": "VK.com | VK",
+              "identityConfirmed": false,
+              "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://pushkindm.ru/",
+            "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+            "locator": "exact href=\"https://vk.com/volonterdm\"",
+            "checkedAt": "2026-11-01T09:23:41.424Z",
+            "quote": "le t-uptitle t-uptitle_xs\" field=\"li_subtitle__1571909341844\"> Волонтерство \"3D\" - \"Dом Dобрых Dел\" Добровольческое объединение \"Dом Dобрых Dел\" (\"3D\") создано для всех, кто хочет сделать мир лучше, не боится дел",
+            "task": "S-11"
+          }
+        ]
+      },
+      {
+        "id": "s11-link-df779e5c15aa",
+        "title": "Театральный клуб «Кальмиус»",
+        "catalogActivity": "Театр",
+        "vkUrl": "https://vk.com/club220024972",
+        "vkUrlSource": "https://pushkindm.ru/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/32",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-b/fresh-http.json",
+            "locator": "/28/links/28",
+            "relationship": "current-official-explicit-activity-href"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-b/eligible-additions.json",
+            "locator": "/8"
+          },
+          "identity": {
+            "catalogName": "Царскосельский",
+            "catalogAddress": "г. Пушкин, ул. Магазейная, д. 42",
+            "sourceTitle": "Дом Молодежи \"Царскосельский\"",
+            "sourceAddress": "Магазейная, д.42-А",
+            "relationship": "exact named programme published on the same club official page"
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:23:41.424Z",
+              "title": "Дом Молодежи \"Царскосельский\"",
+              "sha256": "d3bbc67af28dd5ebf4c7f26cbd126262abf8791b3c3ec41ce43b8e659747cbfa"
+            },
+            "target": {
+              "status": 200,
+              "title": "VK.com | VK",
+              "identityConfirmed": false,
+              "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://pushkindm.ru/",
+            "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+            "locator": "exact href=\"https://vk.com/club220024972\"",
+            "checkedAt": "2026-11-01T09:23:41.424Z",
+            "quote": "-uptitle t-uptitle_xs\" field=\"li_subtitle__1682002767535\"> Театральный клуб Кальмиус Приглашаем молодёжь освоить театральное искусство, участвовать в постановках. В клубе можно проявить себя не тол",
+            "task": "S-11"
+          }
+        ]
+      },
+      {
+        "id": "s11-link-1f05784cdc57",
+        "title": "Молодёжный клуб путешественников",
+        "catalogActivity": "Краеведение",
+        "vkUrl": "https://vk.com/club225966844",
+        "vkUrlSource": "https://pushkindm.ru/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/33",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-b/fresh-http.json",
+            "locator": "/28/links/31",
+            "relationship": "current-official-explicit-activity-href"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-b/eligible-additions.json",
+            "locator": "/9"
+          },
+          "identity": {
+            "catalogName": "Царскосельский",
+            "catalogAddress": "г. Пушкин, ул. Магазейная, д. 42",
+            "sourceTitle": "Дом Молодежи \"Царскосельский\"",
+            "sourceAddress": "Магазейная, д.42-А",
+            "relationship": "exact named programme published on the same club official page"
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:23:41.424Z",
+              "title": "Дом Молодежи \"Царскосельский\"",
+              "sha256": "d3bbc67af28dd5ebf4c7f26cbd126262abf8791b3c3ec41ce43b8e659747cbfa"
+            },
+            "target": {
+              "status": 200,
+              "title": "VK.com | VK",
+              "identityConfirmed": false,
+              "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://pushkindm.ru/",
+            "sourceFile": "outputs/S-11/links-b/84e4d38301de790e.html",
+            "locator": "exact href=\"https://vk.com/club225966844\"",
+            "checkedAt": "2026-11-01T09:23:41.424Z",
+            "quote": "tle t-uptitle t-uptitle_xs\" field=\"li_subtitle__1742474805761\"> Краеведение Молодёжный клуб путешественников В молодёжном клубе путешественников вы сможете изучать родной край не только на бумаге, но и на природе — выехав",
+            "task": "S-11"
+          }
+        ]
+      }
+    ]
   },
   {
     "type": "Информационный центр",

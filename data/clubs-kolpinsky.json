@@ -2256,7 +2256,99 @@
       "Скалолазание",
       "Фитнес",
       "Танцы"
-    ]
+    ],
+    "officialUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+    "officialUrlSource": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/0",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/160",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/0"
+      },
+      "identity": {
+        "catalogName": "Юность",
+        "catalogAddress": "г. Колпино, ул. Танкистов, д. 28А",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник». "
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.646Z",
+          "title": "ПМК \"Юность\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+          "sha256": "24f76682ed7253fa67a7c589d513428c154d04178e1bac65bbe21b0f9b8fba9d"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.646Z",
+          "title": "ПМК \"Юность\""
+        }
+      }
+    },
+    "officialUrlImportedAt": "2026-11-01",
+    "sourceRefs": [
+      {
+        "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+        "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/160",
+        "checkedAt": "2026-11-01T09:24:10.646Z",
+        "task": "S-11"
+      },
+      {
+        "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+        "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/160",
+        "checkedAt": "2026-11-01T09:24:10.646Z",
+        "task": "S-11"
+      }
+    ],
+    "vkUrl": "https://vk.com/pmk_yunost",
+    "vkUrlSource": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/1",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/160",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/1"
+      },
+      "identity": {
+        "catalogName": "Юность",
+        "catalogAddress": "г. Колпино, ул. Танкистов, д. 28А",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник».  Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения."
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.646Z",
+          "title": "ПМК \"Юность\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-yunost",
+          "sha256": "24f76682ed7253fa67a7c589d513428c154d04178e1bac65bbe21b0f9b8fba9d"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.749Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      }
+    },
+    "vkUrlImportedAt": "2026-11-01"
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -2267,7 +2359,99 @@
     "activities": [
       "Бокс",
       "Каратэ"
-    ]
+    ],
+    "officialUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+    "officialUrlSource": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/2",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/159",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/2"
+      },
+      "identity": {
+        "catalogName": "Колпинская перчатка",
+        "catalogAddress": "г. Колпино, ул. Веры Слуцкой, д. 89",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник». "
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.546Z",
+          "title": "ПМК \"Колпинская перчатка\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+          "sha256": "5f83b42507a5bb277ba2a3df3e28dee6b8f8e94b9e5deeede0f87b9fe66a2e97"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.546Z",
+          "title": "ПМК \"Колпинская перчатка\""
+        }
+      }
+    },
+    "officialUrlImportedAt": "2026-11-01",
+    "sourceRefs": [
+      {
+        "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+        "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/159",
+        "checkedAt": "2026-11-01T09:24:10.546Z",
+        "task": "S-11"
+      },
+      {
+        "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+        "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/159",
+        "checkedAt": "2026-11-01T09:24:10.546Z",
+        "task": "S-11"
+      }
+    ],
+    "vkUrl": "https://vk.com/pmk_kolpinoperchatka",
+    "vkUrlSource": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/3",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/159",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/3"
+      },
+      "identity": {
+        "catalogName": "Колпинская перчатка",
+        "catalogAddress": "г. Колпино, ул. Веры Слуцкой, д. 89",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник».  Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения."
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.546Z",
+          "title": "ПМК \"Колпинская перчатка\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-kolpinskaya-perchatka",
+          "sha256": "5f83b42507a5bb277ba2a3df3e28dee6b8f8e94b9e5deeede0f87b9fe66a2e97"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.748Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      }
+    },
+    "vkUrlImportedAt": "2026-11-01"
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -2279,7 +2463,99 @@
       "Основы военной службы",
       "Спортивный туризм"
     ],
-    "note": "Городской документ не указывает единый адрес клуба. Место занятий нужно узнать у учреждения."
+    "note": "Городской документ не указывает единый адрес клуба. Место занятий нужно узнать у учреждения.",
+    "officialUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+    "officialUrlSource": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/4",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/157",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/4"
+      },
+      "identity": {
+        "catalogName": "Патриот",
+        "catalogAddress": "Площадки на базе школ Колпинского района",
+        "basis": "Клуб «Патриот» прямо назван в разделе «Наши клубы» официального МЦ «Ровесник»; страница описывает занятия на школьных площадках Колпинского района (№420,461,446,455 и др.), что соответствует записи каталога «Площадки на базе школ»."
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.595Z",
+          "title": "ПМК \"Патриот\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+          "sha256": "ac8001aacf7d2307cba57902503569b89b957ad67487100b3e6929bcb0b797d1"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.595Z",
+          "title": "ПМК \"Патриот\""
+        }
+      }
+    },
+    "officialUrlImportedAt": "2026-11-01",
+    "sourceRefs": [
+      {
+        "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+        "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/157",
+        "checkedAt": "2026-11-01T09:24:10.595Z",
+        "task": "S-11"
+      },
+      {
+        "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+        "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/157",
+        "checkedAt": "2026-11-01T09:24:10.595Z",
+        "task": "S-11"
+      }
+    ],
+    "vkUrl": "https://vk.com/pmkpatriot",
+    "vkUrlSource": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/5",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/157",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/5"
+      },
+      "identity": {
+        "catalogName": "Патриот",
+        "catalogAddress": "Площадки на базе школ Колпинского района",
+        "basis": "Клуб «Патриот» прямо назван в разделе «Наши клубы» официального МЦ «Ровесник»; страница описывает занятия на школьных площадках Колпинского района (№420,461,446,455 и др.), что соответствует записи каталога «Площадки на базе школ». Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения."
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.595Z",
+          "title": "ПМК \"Патриот\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-patriot",
+          "sha256": "ac8001aacf7d2307cba57902503569b89b957ad67487100b3e6929bcb0b797d1"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.747Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      }
+    },
+    "vkUrlImportedAt": "2026-11-01"
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -2293,7 +2569,99 @@
       "Танцы",
       "Добровольчество",
       "Краеведение"
-    ]
+    ],
+    "officialUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+    "officialUrlSource": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/6",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/158",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/6"
+      },
+      "identity": {
+        "catalogName": "Z",
+        "catalogAddress": "г. Колпино, ул. Загородная, д. 62",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник». "
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.688Z",
+          "title": "ПМК \"Z\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+          "sha256": "08ecf9c2421f382a1de7a902284f5f2765c41ce60dfdd6fdd6d15e4251058dd1"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.688Z",
+          "title": "ПМК \"Z\""
+        }
+      }
+    },
+    "officialUrlImportedAt": "2026-11-01",
+    "sourceRefs": [
+      {
+        "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+        "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/158",
+        "checkedAt": "2026-11-01T09:24:10.688Z",
+        "task": "S-11"
+      },
+      {
+        "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+        "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/158",
+        "checkedAt": "2026-11-01T09:24:10.688Z",
+        "task": "S-11"
+      }
+    ],
+    "vkUrl": "https://vk.com/z_klp",
+    "vkUrlSource": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/7",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/158",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/7"
+      },
+      "identity": {
+        "catalogName": "Z",
+        "catalogAddress": "г. Колпино, ул. Загородная, д. 62",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник».  Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения."
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.688Z",
+          "title": "ПМК \"Z\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-z",
+          "sha256": "08ecf9c2421f382a1de7a902284f5f2765c41ce60dfdd6fdd6d15e4251058dd1"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.748Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      }
+    },
+    "vkUrlImportedAt": "2026-11-01"
   },
   {
     "type": "Подростково-молодёжный клуб",
@@ -2306,6 +2674,98 @@
       "Фитнес",
       "Хип-хоп",
       "Добровольчество"
-    ]
+    ],
+    "officialUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+    "officialUrlSource": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+    "officialUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/8",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/155",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/8"
+      },
+      "identity": {
+        "catalogName": "Дельта",
+        "catalogAddress": "пос. Понтонный, ул. Южная, д. 3",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник». "
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.486Z",
+          "title": "ПМК \"Дельта\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+          "sha256": "61a553a7d027771896d2b1aaacd19fff9c522c7b5a64022ef893149fa3e76666"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.486Z",
+          "title": "ПМК \"Дельта\""
+        }
+      }
+    },
+    "officialUrlImportedAt": "2026-11-01",
+    "sourceRefs": [
+      {
+        "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+        "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/155",
+        "checkedAt": "2026-11-01T09:24:10.486Z",
+        "task": "S-11"
+      },
+      {
+        "sourceUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+        "sourceFile": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/155",
+        "checkedAt": "2026-11-01T09:24:10.486Z",
+        "task": "S-11"
+      }
+    ],
+    "vkUrl": "https://vk.com/pmk_delta",
+    "vkUrlSource": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+    "vkUrlSourceEvidence": {
+      "file": "data/research/s11-link-additions-2026-11-01.json",
+      "locator": "/items/9",
+      "task": "S-11",
+      "reviewedAt": "2026-11-01",
+      "freshEvidence": {
+        "file": "outputs/S-11/links-a/http-evidence.json",
+        "locator": "/155",
+        "relationship": "named-club-and-address-official-page"
+      },
+      "researchEvidence": {
+        "file": "outputs/S-11/links-a/eligible-additions.json",
+        "locator": "/9"
+      },
+      "identity": {
+        "catalogName": "Дельта",
+        "catalogAddress": "пос. Понтонный, ул. Южная, д. 3",
+        "basis": "Имя клуба и его точный адрес совпадают с каталогом; собственная клубная страница доступна из официального раздела «Наши клубы» МЦ «Ровесник».  Контактный VK находится у адреса/контактов именно клуба, отдельно от общего VK учреждения."
+      },
+      "availability": {
+        "source": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:10.486Z",
+          "title": "ПМК \"Дельта\"",
+          "finalUrl": "https://spbgbu-rovesnik.ru/nashi-kluby/pmk-delta",
+          "sha256": "61a553a7d027771896d2b1aaacd19fff9c522c7b5a64022ef893149fa3e76666"
+        },
+        "target": {
+          "status": 200,
+          "checkedAt": "2026-11-01T09:24:52.746Z",
+          "title": "VK.com | VK",
+          "identityVerifiedByTargetContent": false,
+          "note": "VK возвращает generic shell; HTTP200 не использован как доказательство. Идентичность и официальная связь установлены содержанием адресной официальной страницы клуба, опубликованным именованным href и контекстом."
+        }
+      }
+    },
+    "vkUrlImportedAt": "2026-11-01"
   }
 ]

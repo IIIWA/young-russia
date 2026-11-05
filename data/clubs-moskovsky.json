@@ -933,6 +933,60 @@
           }
         },
         "vkUrlImportedAt": "2026-10-31"
+      },
+      {
+        "id": "s11-link-270576925e04",
+        "title": "Школа акустического рока",
+        "catalogActivity": "Гитара",
+        "vkUrl": "https://vk.com/sharyats",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/231/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/27",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-b/fresh-http.json",
+            "locator": "/12/links/62",
+            "relationship": "current-official-explicit-activity-href"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-b/eligible-additions.json",
+            "locator": "/3"
+          },
+          "identity": {
+            "catalogName": "Романтики",
+            "catalogAddress": "Ленинский пр., д. 158, корп. 2",
+            "sourceTitle": "Подростково-молодежный клуб «Романтики»",
+            "sourceAddress": "Московский пр., д.153",
+            "relationship": "exact named programme published on the same club official page"
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:23:40.797Z",
+              "title": "Подростково-молодежный клуб «Романтики»",
+              "sha256": "b653e539fc26c22acc1518bb94e0c390ef5d7f15d6a06806ecc64d02171747cc"
+            },
+            "target": {
+              "status": 200,
+              "title": "VK.com | VK",
+              "identityConfirmed": false,
+              "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/231/",
+            "sourceFile": "outputs/S-11/links-b/99e49fc49435c791.html",
+            "locator": "exact href=\"https://vk.com/sharyats\"",
+            "checkedAt": "2026-11-01T09:23:40.797Z",
+            "quote": "академической живописи &laquo;OHRA&raquo;, студия АРТ - дизайна &laquo;OHRA&raquo; , студия игры на гитаре &laquo;Школа акустического рока&raquo;, добровольческое объединение &laquo;Лидерский клуб&raquo; , английский разговорный клуб &laquo;Погружение&r",
+            "task": "S-11"
+          }
+        ]
       }
     ]
   },
@@ -1126,7 +1180,171 @@
     "vkUrl": "https://vk.ru/club139512151",
     "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/234/",
     "vkUrlSourceCheckedAt": "2026-10-28",
-    "vkUrlImportedAt": "2026-10-28"
+    "vkUrlImportedAt": "2026-10-28",
+    "activityPages": [
+      {
+        "id": "s11-link-0887ef72ac4c",
+        "title": "Шахматы",
+        "catalogActivity": "Шахматы",
+        "vkUrl": "https://vk.com/club198381179",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/234/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/24",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-b/fresh-http.json",
+            "locator": "/6/links/60",
+            "relationship": "current-official-explicit-activity-href"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-b/eligible-additions.json",
+            "locator": "/0"
+          },
+          "identity": {
+            "catalogName": "Старт",
+            "catalogAddress": "Московский пр., д. 153",
+            "sourceTitle": "Подростково-молодежный клуб «Старт»",
+            "sourceAddress": "Московский пр., д.153",
+            "relationship": "exact named programme published on the same club official page"
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:23:40.544Z",
+              "title": "Подростково-молодежный клуб «Старт»",
+              "sha256": "c42fc3ccacde0b45f0643f29926bc5e360af30ede17054c6840e22c3c50a7588"
+            },
+            "target": {
+              "status": 200,
+              "title": "VK.com | VK",
+              "identityConfirmed": false,
+              "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/234/",
+            "sourceFile": "outputs/S-11/links-b/20c3188640e36a22.html",
+            "locator": "exact href=\"https://vk.com/club198381179\"",
+            "checkedAt": "2026-11-01T09:23:40.544Z",
+            "quote": "lass=\"font_7\"> Часы работы: с понедельника по пятницу 16:00-22:00, суббота 16:00-21:00 Единоборства, айкидо, студия гитары, шахматы , студия гитары и вокала Звуки Муз , студия вокала, киноклуб, мастерская психологии &laquo;Зона комфорта&r",
+            "task": "S-11"
+          }
+        ]
+      },
+      {
+        "id": "s11-link-68354488c50f",
+        "title": "Студия гитары и вокала",
+        "catalogActivity": "Гитара",
+        "vkUrl": "https://vk.com/club10007301",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/234/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/25",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-b/fresh-http.json",
+            "locator": "/6/links/61",
+            "relationship": "current-official-explicit-activity-href"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-b/eligible-additions.json",
+            "locator": "/1"
+          },
+          "identity": {
+            "catalogName": "Старт",
+            "catalogAddress": "Московский пр., д. 153",
+            "sourceTitle": "Подростково-молодежный клуб «Старт»",
+            "sourceAddress": "Московский пр., д.153",
+            "relationship": "exact named programme published on the same club official page"
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:23:40.544Z",
+              "title": "Подростково-молодежный клуб «Старт»",
+              "sha256": "c42fc3ccacde0b45f0643f29926bc5e360af30ede17054c6840e22c3c50a7588"
+            },
+            "target": {
+              "status": 200,
+              "title": "VK.com | VK",
+              "identityConfirmed": false,
+              "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/234/",
+            "sourceFile": "outputs/S-11/links-b/20c3188640e36a22.html",
+            "locator": "exact href=\"https://vk.com/club10007301\"",
+            "checkedAt": "2026-11-01T09:23:40.544Z",
+            "quote": "ицу 16:00-22:00, суббота 16:00-21:00 Единоборства, айкидо, студия гитары, шахматы , студия гитары и вокала Звуки Муз , студия вокала, киноклуб, мастерская психологии &laquo;Зона комфорта&raquo;, клуб молодой семьи, клубное место свободного общения, студия дизайна,",
+            "task": "S-11"
+          }
+        ]
+      },
+      {
+        "id": "s11-link-7d5c76d04521",
+        "title": "Студия гитары и вокала",
+        "catalogActivity": "Вокал",
+        "vkUrl": "https://vk.com/club10007301",
+        "vkUrlSource": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/234/",
+        "vkUrlSourceEvidence": {
+          "file": "data/research/s11-link-additions-2026-11-01.json",
+          "locator": "/items/26",
+          "task": "S-11",
+          "reviewedAt": "2026-11-01",
+          "freshEvidence": {
+            "file": "outputs/S-11/links-b/fresh-http.json",
+            "locator": "/6/links/61",
+            "relationship": "current-official-explicit-activity-href"
+          },
+          "researchEvidence": {
+            "file": "outputs/S-11/links-b/eligible-additions.json",
+            "locator": "/2"
+          },
+          "identity": {
+            "catalogName": "Старт",
+            "catalogAddress": "Московский пр., д. 153",
+            "sourceTitle": "Подростково-молодежный клуб «Старт»",
+            "sourceAddress": "Московский пр., д.153",
+            "relationship": "exact named programme published on the same club official page"
+          },
+          "availability": {
+            "source": {
+              "status": 200,
+              "checkedAt": "2026-11-01T09:23:40.544Z",
+              "title": "Подростково-молодежный клуб «Старт»",
+              "sha256": "c42fc3ccacde0b45f0643f29926bc5e360af30ede17054c6840e22c3c50a7588"
+            },
+            "target": {
+              "status": 200,
+              "title": "VK.com | VK",
+              "identityConfirmed": false,
+              "reason": "Целевой VK возвращает общую оболочку/challenge. Принадлежность подтверждает текущая явная ссылка официального сайта; прямой просмотр содержимого группы и набор не подтверждены."
+            }
+          }
+        },
+        "vkUrlImportedAt": "2026-11-01",
+        "sourceRefs": [
+          {
+            "sourceUrl": "https://mpc-moskovskij.tumos.gov.spb.ru/clubs/234/",
+            "sourceFile": "outputs/S-11/links-b/20c3188640e36a22.html",
+            "locator": "exact href=\"https://vk.com/club10007301\"",
+            "checkedAt": "2026-11-01T09:23:40.544Z",
+            "quote": "ицу 16:00-22:00, суббота 16:00-21:00 Единоборства, айкидо, студия гитары, шахматы , студия гитары и вокала Звуки Муз , студия вокала, киноклуб, мастерская психологии &laquo;Зона комфорта&raquo;, клуб молодой семьи, клубное место свободного общения, студия дизайна,",
+            "task": "S-11"
+          }
+        ]
+      }
+    ]
   },
   {
     "type": "Подростково-молодёжный клуб",

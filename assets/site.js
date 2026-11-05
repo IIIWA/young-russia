@@ -324,7 +324,6 @@ if (clubSearch) {
       button.addEventListener('click', () => {
         activeSubtopic = key;
         writeClubFilters();
-        renderSubtopics();
         update();
       });
       subtopicRow.appendChild(button);
@@ -347,6 +346,11 @@ if (clubSearch) {
     }
     for (const chip of organizationChips) {
       const selected = chip.dataset.orgFilter === activeOrganization;
+      chip.classList.toggle('active', selected);
+      chip.setAttribute('aria-pressed', String(selected));
+    }
+    for (const chip of subtopicRow.querySelectorAll('[data-subfilter]')) {
+      const selected = chip.dataset.subfilter === activeSubtopic;
       chip.classList.toggle('active', selected);
       chip.setAttribute('aria-pressed', String(selected));
     }
