@@ -1,3 +1,6 @@
+import {readActivityApprovals} from './activity-content-source.mjs';
+const activityApprovals = await readActivityApprovals();
+import {renderApprovedActivityBlock, mergeActivityBlock} from './activity-content-obsidian.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {writeGeneratedFile} from './write-generated-file.mjs';
@@ -56,7 +59,7 @@ export async function writeOfficialDistrictBases({districtCodes}={}){
    if(config.code==='kolpinsky')extras.push('## Свидетельства и ограничения Колпинца','','Бесплатность названа в перечне услуг, присланном пользователем. ВК напрямую не открывался. Исключение: бесплатность ПРОСТО дополнительно прямо указана на официальном сайте.',`VK: ${fact.vkEvidence}.`,'','### Программы для дальнейшей сверки','',...(fact.unpublishedRecords??[]).flatMap(r=>[`- **${r.activity}:** ${r.reason}`,...r.schedule.map(s=>`  - ${s.day}: ${s.time}`)]),'','### Полный фрагмент официальной страницы','',...(fact.sourceLines??[]).map(s=>`- ${s}`),'');
    if(club.phoneHistory?.length)extras.push('## Прежние телефоны для сверки','',...club.phoneHistory.map(x=>`- ${x.value}: ${x.status}; ${x.source}.`),'');
    body.splice(body.indexOf('## Направления каталога'),0,...extras);
-   await writeGeneratedFile(path.join(folder,noteName(club.name)+'.md'),body.join('\n'));
+   await writeGeneratedFile(path.join(folder,noteName(club.name)+'.md'),mergeActivityBlock(body.join('\n'),renderApprovedActivityBlock(club, {approvals:activityApprovals, catalogPath:row.sourceCatalog})));
   }
  }
  if(districtCodes&&!districtCodes.includes('kirovsky')){

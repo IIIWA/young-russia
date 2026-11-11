@@ -1,3 +1,6 @@
+import {readActivityApprovals} from './activity-content-source.mjs';
+const activityApprovals = await readActivityApprovals();
+import {renderApprovedActivityBlock, mergeActivityBlock, findCatalogClub, approvedClubState} from './activity-content-obsidian.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -15,6 +18,16 @@ const imageSchedulesPath = path.join(vault, 'База данных', 'Распи
 const admiralteyskyDetailDir = path.join(vault, 'База данных', 'ПМК Адмиралтейского района');
 const admiralteyskyBasePath = path.join(vault, 'База данных', 'ПМК Адмиралтейского района.base');
 const readJson = async relative => JSON.parse(await fs.readFile(path.join(root, relative), 'utf8'));
+const editorialCatalogs = new Map();
+async function editorialClubForRow(row) {
+  if (!/^data\/clubs-[a-z]+\.json$/.test(row.sourceCatalog)) return '';
+  if (!editorialCatalogs.has(row.sourceCatalog)) editorialCatalogs.set(row.sourceCatalog, readJson(row.sourceCatalog));
+  const catalog = await editorialCatalogs.get(row.sourceCatalog);
+  return findCatalogClub(catalog, row.club, row.address);
+}
+async function editorialBlockForRow(row) {
+  return renderApprovedActivityBlock(await editorialClubForRow(row), {approvals:activityApprovals, catalogPath:row.sourceCatalog});
+}
 const escapeYaml = value => JSON.stringify(String(value ?? ''));
 const escapeCsv = value => `"${String(value ?? '').replaceAll('"', '""')}"`;
 const unique = values => [...new Set(values.filter(Boolean))];
@@ -282,6 +295,8 @@ views:
 await fs.mkdir(outputDir, { recursive: true });
 await writeGeneratedFile(basePath, base);
 for (const row of rows) {
+  const userState = approvedClubState(await editorialClubForRow(row), {approvals:activityApprovals, catalogPath:row.sourceCatalog});
+  if (userState) {row.activities=userState.activities; row.clubVk=userState.vkUrl; row.catalogScheduleCount=userState.scheduleCount;}
   const frontmatter = [
     '---', 'record_type: pmk_catalog_research', `catalog_id: ${escapeYaml(row.id)}`,
     `district: ${escapeYaml(row.district)}`, `club: ${escapeYaml(row.club)}`,
@@ -309,7 +324,7 @@ for (const row of rows) {
     `**ВК клуба:** ${row.clubVk ? `[открыть](${row.clubVk})${row.district === 'Выборгский' ? ' (из заметки; доступность не проверена)' : ''}` : 'не указан'}  `,
     `**Центр:** ${row.center} (${row.centerPhone || 'телефон не указан'})  `,
     ...(row.detailNote ? [`**Подробная карточка:** [[${row.detailNote}]]  `, `**Подробная база:** [[${row.detailBase}]]`] : []), '',
-    row.researchOnly ? '## Предложения из исследования' : '## Занятия по каталогу', '', ...row.activities.map(item => `- ${item}`), '',
+    userState ? '## Действующие направления каталога' : row.researchOnly ? '## Предложения из исследования' : '## Занятия по каталогу', '', ...row.activities.map(item => `- ${item}`), '',
     row.researchOnly ? '## Ссылки направлений из исследования (вид ссылки в подробной карточке)' : row.district === 'Выборгский' ? '## Ссылки направлений из заметки' : '## Сообщества занятий', '',
     ...(row.activityPages.length ? row.activityPages.map(page => `- ${sentence(`${page.catalogActivity || page.title}: [${page.title}](${page.vkUrl || page.officialUrl})${page.specialist ? `; специалист ${page.specialist}` : ''}`)}`) : ['- Ссылки не указаны.']), '',
     ...(row.vkSection??[]),
@@ -338,7 +353,7 @@ for (const row of rows) {
     `- Исходные данные сайта: \`${row.sourceCatalog}\`.`,
     '- Эта карточка генерируется автоматически. Исправляй исходные данные, затем пересобирай представления.', '',
   ];
-  await writeGeneratedFile(path.join(outputDir, `${row.id}.md`), `${frontmatter.concat(body).join('\n')}\n`);
+  await writeGeneratedFile(path.join(outputDir, `${row.id}.md`), mergeActivityBlock(`${frontmatter.concat(body).join('\n')}\n`, await editorialBlockForRow(row)));
 }
 
 const headers = ['ID', 'Район', 'Клуб', 'Подробная карточка', 'Подробная база', 'Адрес', 'Телефон клуба', 'ВК клуба', 'Страница клуба', 'Центр', 'Телефон центра', 'Почта центра', 'Занятий', 'Занятия', 'Ссылки занятий', 'Специалистов в исследовании', 'Специалисты и контакты', 'Строк расписания из заметки', 'Направления с расписанием в заметке', 'Расписание из заметки', 'Занятий с расписанием в каталоге', 'Статус сверки', 'Источник', 'Дата обновления', 'Строк по снимку и уточнениям', 'Расписание по снимку и уточнениям', 'Снимок расписания'];

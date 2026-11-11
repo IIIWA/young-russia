@@ -1,3 +1,6 @@
+import {readActivityApprovals} from './activity-content-source.mjs';
+const activityApprovals = await readActivityApprovals();
+import {renderApprovedActivityBlock, mergeActivityBlock} from './activity-content-obsidian.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -250,6 +253,6 @@ for (const [index, club] of clubs.entries()) {
     const at=body.indexOf('## Направления по каталогу');
     body.splice(at,0,'## Уточнение действующих направлений','',`Пользователь подтвердил состав ${club.activityCatalogConfirmedAt}; источник: ${club.activityCatalogSource}. Ниже действующие сведения имеют приоритет над старыми рабочими заметками.`,'',...(club.activitySchedule??[]).flatMap(r=>[`### ${r.activity}`,`Источник: ${r.source??r.sourceType}; подтверждено ${r.confirmedAt??'не указано'}.`,...r.schedule.map(s=>`- ${s.day}: **${s.time}**${s.group?'; '+s.group:''}.`),'']),'### Закрытые направления','',...(club.archivedActivities??[]).map(r=>`- ${r.activity}: ${r.reason}; ${r.confirmedAt}.`),'');
   }
-  await writeGeneratedFile(path.join(outputDir, `${club.name}.md`), `${frontmatter.concat(body).join('\n')}\n`);
+  await writeGeneratedFile(path.join(outputDir, `${club.name}.md`), mergeActivityBlock(`${frontmatter.concat(body).join('\n')}\n`, renderApprovedActivityBlock(club, {approvals:activityApprovals, catalogPath:'data/clubs-admiralteysky.json'})));
 }
 console.log(JSON.stringify({ clubs: clubs.length, withNoteSections: clubs.filter(club => evidence.sections.some(section => section.catalogClub === club.name)).length, officialPages: clubs.filter(club => officialPageFor(club)).length, base: basePath }));

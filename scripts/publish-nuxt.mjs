@@ -1,3 +1,5 @@
+import {applyActivityRetirements} from './apply-activity-retirements.mjs';
+import {readActivityRetirements} from './activity-content-source.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -8,6 +10,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const generated = path.join(root, '.output', 'public');
 const dist = path.join(root, 'dist');
 const routes = JSON.parse(await fs.readFile(path.join(root, 'app', 'content', 'routes.json'), 'utf8'));
+const activityRetirements = await readActivityRetirements();
 
 const nuxtAssets = path.resolve(dist, '_nuxt');
 if (path.relative(root, nuxtAssets).replaceAll(path.sep, '/') !== 'dist/_nuxt') {
@@ -73,6 +76,8 @@ for(const club of ohtaClubs)for(const entry of club.archivedActivities??[]){
   await fs.rm(target,{force:true});retiredCount++;
 }
 console.log(`Retired ${retiredCount} superseded Ohta activity pages; research and prototype snapshots preserved.`);
+// Omitted files survive preserving overlays. Apply the explicit local tombstones.
+await applyActivityRetirements({dist, routes, retirements:activityRetirements, backupRoot:path.join(root,'outputs/activity-content-retired-page-backups')});
 const admiralClubs=JSON.parse(await fs.readFile(path.join(root,'data','clubs-admiralteysky.json'),'utf8'));
 for(const club of admiralClubs.filter(c=>c.activityCatalogConfirmedAt==='2026-10-24'))for(const entry of club.archivedActivities??[]){
   const slug=activityPageSlug({...club,slug:slugify(club.name),districtCode:'admiralteysky'},entry.activity,0);

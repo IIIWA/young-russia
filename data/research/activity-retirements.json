@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "route": "activities/moskovsky-neva-razgovornyy-angliyskiy-05.html",
+      "catalogFile": "data/clubs-moskovsky.json",
+      "clubIndex": 11,
+      "club": "Нева",
+      "address": "Смоленская ул., д. 1",
+      "activity": "Разговорный английский",
+      "originalActivityIndex": 4,
+      "confirmedInactiveOn": "2026-11-10",
+      "source": "explicit_user_instruction",
+      "parentThread": "01a145eb-4fc1-7a92-a9f8-1b64f87ef1b3"
+    },
+    {
+      "route": "activities/moskovsky-neva-razgovornyy-ispanskiy-06.html",
+      "catalogFile": "data/clubs-moskovsky.json",
+      "clubIndex": 11,
+      "club": "Нева",
+      "address": "Смоленская ул., д. 1",
+      "activity": "Разговорный испанский",
+      "originalActivityIndex": 5,
+      "confirmedInactiveOn": "2026-11-10",
+      "source": "explicit_user_instruction",
+      "parentThread": "01a145eb-4fc1-7a92-a9f8-1b64f87ef1b3"
+    }
+  ]
+}

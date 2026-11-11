@@ -1,6 +1,10 @@
 # Static Nuxt hosting on Apache/ISPmanager. HTTPS is enforced by the hosting panel.
 RewriteEngine On
 
+# Two inactive Neva language directions, confirmed by the user.
+RewriteRule ^activities/moskovsky-neva-razgovornyy-angliyskiy-05\.html$ - [G,L]
+RewriteRule ^activities/moskovsky-neva-razgovornyy-ispanskiy-06\.html$ - [G,L]
+
 RewriteCond %{HTTP_HOST} ^www\.young-russia\.ru(?::[0-9]+)?$ [NC]
 RewriteRule ^ https://young-russia.ru%{REQUEST_URI} [R=301,L,NE]
 

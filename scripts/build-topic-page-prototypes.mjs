@@ -4,8 +4,11 @@ import { fileURLToPath } from 'node:url';
 import { topicGroups, classifyActivity } from './topic-taxonomy.mjs';
 import { activityPageSlug } from './activity-page-routes.mjs';
 import { renderParticipationRequirements } from './participation-requirements.mjs';
+import {readActivityRetirements} from './activity-content-source.mjs';
+import {assertClubActivitiesActive} from './activity-retirements.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const activityRetirements = await readActivityRetirements();
 const output = path.join(root, 'prototype', 'site', 'guides');
 const activityOutput = path.join(root, 'prototype', 'site', 'activities');
 const guideDrafts = JSON.parse(await fs.readFile(path.join(root, 'data', 'editorial-guide-drafts.json'), 'utf8'));
@@ -53,7 +56,10 @@ const catalog = [];
 for (const [districtCode] of districtNames) {
   const file = `clubs-${districtCode === 'vasileostrovsky' ? 'vo' : districtCode}.json`;
   const clubs = JSON.parse(await fs.readFile(path.join(root, 'data', file), 'utf8'));
-  for (const [sourceIndex, club] of clubs.entries()) catalog.push({districtCode, sourceIndex, ...club});
+  for (const [sourceIndex, club] of clubs.entries()) {
+    assertClubActivitiesActive(club, `data/${file}`, activityRetirements);
+    catalog.push({districtCode, sourceIndex, ...club});
+  }
 }
 
 function topicRecords(topic) {

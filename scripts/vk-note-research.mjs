@@ -1,3 +1,6 @@
+import {readActivityApprovals} from './activity-content-source.mjs';
+const activityApprovals = await readActivityApprovals();
+import {renderApprovedActivityBlock, mergeActivityBlock, findCatalogClub, approvedClubState} from './activity-content-obsidian.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
@@ -86,11 +89,15 @@ export async function writeVkOnlyDistrictBases(){
   const base=`filters:\n  and:\n    - file.inFolder("База данных/${baseName}")\n    - record_type == "pmk_vk_research"\nproperties:\n  club:\n    displayName: Клуб\n  address:\n    displayName: Адрес каталога\n  vk_note_coverage:\n    displayName: Охват заметки ВК\n  vk_schedule_count:\n    displayName: Графиков из ВК\n  questions:\n    displayName: Вопросы\nviews:\n  - type: table\n    name: Клубы и сведения ВК\n    order:\n      - club\n      - address\n      - vk_note_coverage\n      - vk_schedule_count\n      - questions\n    sort:\n      - property: club\n        direction: ASC\n`;
   await writeGeneratedFile(`YoungRussiaOBS/База данных/${baseName}.base`,base);
   const data=await vkResearch(config.code);
+  const editorialCatalog=JSON.parse(await fs.readFile(`data/clubs-${config.code}.json`,'utf8'));
   for(const row of rows.filter(r=>r.vkDistrict===config.code)){const c=recordFor(data,row.club),body=['---','record_type: pmk_vk_research',`district: ${yaml(config.label)}`,`club: ${yaml(row.club)}`,`address: ${yaml(row.address)}`,`vk_note_coverage: ${yaml(c.noteCoverage)}`,`vk_schedule_count: ${c.scheduleRecords.length}`,`questions: ${yaml(c.questions.map(value).join(' | '))}`,'updated_at: "2026-10-28"','official_representative_verification: "pending_after_site_completion"','---','',`# ${row.club}`,'',`Адрес из существующего каталога: ${row.address}.`,
    `[[База данных/Каталог клубов Санкт-Петербурга/${row.id}|Запись в общей базе]].`,'',...row.vkSection,
    '## Уже сохранённые официальные сведения','',`[Официальное исследование S-79-C](../../../data/research/remaining-districts-2026-10-26/${config.code}.json). Сопоставление с ним сохранено в блоке ВК выше; первичный пакет не перезаписывается.`,
    ...(row.officialPage?[`[Ранее сохранённая официальная страница](${row.officialPage}).`]:[]),''];
-   await writeGeneratedFile(path.join(dir,noteName(row.club)+'.md'),body.join('\n'));
+   const currentClub=findCatalogClub(editorialCatalog,row.club,row.address);
+   const userState=approvedClubState(currentClub,{approvals:activityApprovals,catalogPath:row.sourceCatalog});
+   if(userState)body.splice(body.indexOf('---',1),0,`club_vk: ${yaml(userState.vkUrl)}`,`activity_count: ${userState.activities.length}`,`activities: ${yaml(userState.activities.join('; '))}`);
+   await writeGeneratedFile(path.join(dir,noteName(row.club)+'.md'),mergeActivityBlock(body.join('\n'),renderApprovedActivityBlock(findCatalogClub(editorialCatalog,row.club,row.address), {approvals:activityApprovals, catalogPath:row.sourceCatalog})));
   }
  }
  console.log(JSON.stringify({vkOnlyDistrictBases:configs.length,clubs:rows.length}));

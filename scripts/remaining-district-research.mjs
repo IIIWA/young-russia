@@ -1,3 +1,6 @@
+import {readActivityApprovals} from './activity-content-source.mjs';
+const activityApprovals = await readActivityApprovals();
+import {renderApprovedActivityBlock, mergeActivityBlock} from './activity-content-obsidian.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
@@ -184,7 +187,7 @@ export async function writeRemainingDistrictBases(){
       const vkSection=await vkNoteSection(config.code,b?.name??c.name);
       if(vkSection.length)body[body.findIndex(line=>line.startsWith('updated_at: '))]='updated_at: "2026-10-28"';
       body.splice(body.indexOf('## Источники и пересборка'),0,...vkSection);
-      await writeGeneratedFile(path.join(folder,noteName(c.name)+'.md'),body.join('\n'));records++;
+      await writeGeneratedFile(path.join(folder,noteName(c.name)+'.md'),mergeActivityBlock(body.join('\n'),renderApprovedActivityBlock(b, {approvals:activityApprovals, catalogPath:`data/clubs-${config.code}.json`})));records++;
     }
     const materials=['---','record_type: district_research_sources',`district: ${yaml(config.label)}`,'---','',
       `# ${config.label} район: материалы ${config.task}`,'',`Исследовано ${data.checkedAt}; внутренняя база обновлена ${data.updatedAt==='2026-10-28'?'28.10.2026':'27.10.2026'}.`,'',

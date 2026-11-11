@@ -1,3 +1,6 @@
+import {readActivityApprovals} from './activity-content-source.mjs';
+const activityApprovals = await readActivityApprovals();
+import {renderApprovedActivityBlock, mergeActivityBlock} from './activity-content-obsidian.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -264,6 +267,6 @@ for (const [index, club] of clubs.entries()) {
     '- Исходный каталог сайта: `data/clubs-vyborgsky.json`.',
     '- Карточка создаётся командой `npm run data:views`; правки в ней пропадут при пересборке.', '',
   ];
-  await writeGeneratedFile(path.join(folder, `${club.name}.md`), `${frontmatter.concat(body).join('\n')}\n`);
+  await writeGeneratedFile(path.join(folder, `${club.name}.md`), mergeActivityBlock(`${frontmatter.concat(body).join('\n')}\n`, renderApprovedActivityBlock(club, {approvals:activityApprovals, catalogPath:'data/clubs-vyborgsky.json'})));
 }
 console.log(JSON.stringify({ clubs: clubs.length, withSections: evidence.summary.withSections, sections: evidence.sections.length, schedules: evidence.summary.scheduleFragments, base: basePath }));
