@@ -294,6 +294,18 @@ function emailAddressesAsText(markup) {
   });
 }
 
+function removeInternalClubButtons(markup) {
+  return markup.replace(/<a\b([^>]*)>[\s\S]*?<\/a>/gi, (anchor, attributes) => {
+    const classes = attributes.match(/\bclass="([^"]*)"/)?.[1].split(/\s+/) ?? [];
+    const href = attributes.match(/\bhref="([^"]*)"/)?.[1];
+    if (!classes.includes('button') || !href) return anchor;
+    try {
+      const url = new URL(href.replace(/&amp;/g, '&'), 'https://young-russia.ru/activities/current.html');
+      return ['young-russia.ru', 'www.young-russia.ru'].includes(url.hostname) && url.pathname.startsWith('/clubs/') ? '' : anchor;
+    } catch { return anchor; }
+  }).replace(/<div class="(?:direction-link-list|contact-actions)">\s*<\/div>/g, '');
+}
+
 function page({title, description, base='', active='', body, className='', footerDistrict='vasileostrovsky', contactClub=null, participationRequirements=true}) {
   const heroPhoto = districtHeroPhotos[className];
   const photoPreload = heroPhoto ? `<link rel="preload" as="image" href="${base}assets/${heroPhoto.file}" fetchpriority="high">` : '';
@@ -301,7 +313,8 @@ function page({title, description, base='', active='', body, className='', foote
     const emails = [...introduction.matchAll(/<p class="contact-phone">[\s\S]*?<\/p>/g)].map(match => match[0]);
     return start + introduction.replace(/<p class="contact-phone">[\s\S]*?<\/p>/g, '') + actions + emails.join('');
   }).replace(/(<section\b[^>]*\bid="contacts"[^>]*>[\s\S]*?<div class="direction-link-list">)([\s\S]*?)(<\/div>)/, (_, start, buttons, end) => `${start}${contactButtonsForClub(contactClub, buttons)}${end}`) : body;
-  const pageBody = heroPhoto ? contactBody.replace('class="subhero vo-subhero"><div class="container"', `class="subhero vo-subhero district-photo-hero"><img class="district-hero-image" src="${base}assets/${heroPhoto.file}" alt="" aria-hidden="true" loading="eager" fetchpriority="high" decoding="async" onload="this.classList.add('is-loaded')"><div class="container"`) : contactBody;
+  const activityBody = className.split(/\s+/).includes('direction-detail-page') ? removeInternalClubButtons(contactBody) : contactBody;
+  const pageBody = heroPhoto ? activityBody.replace('class="subhero vo-subhero"><div class="container"', `class="subhero vo-subhero district-photo-hero"><img class="district-hero-image" src="${base}assets/${heroPhoto.file}" alt="" aria-hidden="true" loading="eager" fetchpriority="high" decoding="async" onload="this.classList.add('is-loaded')"><div class="container"`) : activityBody;
   const reviewedBody = pageBody.replace(/<div class="activity-list">[\s\S]*?<\/div>/g, list => {
     for (const activity of pendingTopicActivities) {
       list = list.replace(`<span>${text(activity)}</span>`, `<span class="activity-topic-pending">${text(activity)}<small>Тематика уточняется</small></span>`);
@@ -428,10 +441,11 @@ const directionResultCards = directionCatalogClubs.map((club, index) => {
   const activities = mapClubActivityEntries(club).map(activity => ({...activity,subtopics:classifyActivity(activity.label),provisional:Object.hasOwn(approximateActivityTopics,activity.label)}));
   const firstMatch = activities[0];
   const initiallyVisible = index < 12;
-  const href = `../clubs/${club.districtCode ? `${districtCode}/` : ''}${club.slug}.html`;
+  const href = `../${firstMatch.url}`;
+  const clubHref = `../clubs/${club.districtCode ? `${districtCode}/` : ''}${club.slug}.html`;
   const mapPoint = directionMapPoints.get(`${districtCode}|${club.name}|${club.address}`);
   const extraMapPoints = mapPoint?.additionalCoordinates.length ? ` data-map-additional="${html(JSON.stringify(mapPoint.additionalCoordinates))}"` : '';
-  return `<article class="direction-club-card" data-district="${districtCode}" data-direction-activities="${html(JSON.stringify(activities))}"${mapPoint ? ` data-map-lat="${mapPoint.coordinates[0]}" data-map-lon="${mapPoint.coordinates[1]}" data-map-provisional="${mapPoint.provisional}"${extraMapPoints}` : ''}${initiallyVisible?'':' hidden'}><div class="direction-club-top"><span>${text(directionDistrictNames[districtCode])} район</span><span aria-hidden="true">↗</span></div><h3><a href="${href}">${text(club.name)}</a></h3><p class="direction-club-activity"><strong data-matched-activity>${firstMatch ? text(firstMatch.label) : ''}</strong><small data-activity-provisional${firstMatch?.provisional?'':' hidden'}>Тематика уточняется</small></p><p class="direction-club-address">${text(club.address)}</p><span class="direction-club-link">Открыть страницу клуба →</span></article>`;
+  return `<article class="direction-club-card" data-district="${districtCode}" data-club-href="${html(clubHref)}" data-direction-activities="${html(JSON.stringify(activities))}"${mapPoint ? ` data-map-lat="${mapPoint.coordinates[0]}" data-map-lon="${mapPoint.coordinates[1]}" data-map-provisional="${mapPoint.provisional}"${extraMapPoints}` : ''}${initiallyVisible?'':' hidden'}><div class="direction-club-top"><span>${text(directionDistrictNames[districtCode])} район</span><span aria-hidden="true">↗</span></div><h3><a href="${href}">${text(club.name)}</a></h3><p class="direction-club-activity"><strong data-matched-activity>${firstMatch ? text(firstMatch.label) : ''}</strong><small data-activity-provisional${firstMatch?.provisional?'':' hidden'}>Тематика уточняется</small></p><p class="direction-club-address">${text(club.address)}</p><span class="direction-club-link">Открыть страницу занятия →</span></article>`;
 }).join('');
 const directionTopicOptions = Object.entries(topicGroups).map(([code,group]) => `<option value="${code}">${text(group.label)}</option>`).join('');
 const directionDistrictOptions = districts.map(([name,code]) => `<option value="${code}">${text(name)}</option>`).join('');
@@ -656,16 +670,19 @@ function morskoyDirectionDetail(config) {
     description:`${config.description} Расписание, адрес, контакты и сообщества направления.`,
     base:'../',className:'direction-detail-page',
     body:`<section class="subhero detail-subhero"><div class="container"><nav class="breadcrumbs" aria-label="Навигационная цепочка"><a href="../index.html">Главная</a><span>/</span><a href="../districts/vasileostrovsky.html">Василеостровский район</a><span>/</span><a href="../clubs/morskoy.html">Морской</a><span>/</span><span>${text(config.title)}</span></nav><p class="section-kicker">${text(config.label)} · ПМК «Морской»</p><h1>${text(config.title)}</h1><p class="subhero-lead">${text(config.description)}</p></div></section>
-    <section class="section direction-content"><div class="container direction-stack">
+    <section class="section direction-content"><div class="container detail-grid direction-layout"><div class="detail-main direction-main">
       ${activityContentForClub({club, clubHref:'../clubs/morskoy.html', descriptions:activityDescriptions(communities), communityLinks,
         communityNote:config.slug === 'morskoy-razgovornyy-klub' ? '' : '<p class="detail-muted">Ссылки предоставлены пользователем. Уточни в&nbsp;сообществе действующий набор и&nbsp;условия участия.</p>',
         hasSchedule:true, scheduleMarkup,
         scheduleRecords:config.scheduleActivities.map(activity => activityScheduleRecord(club, activity).record),
         scheduleVerifiedAt:config.slug === 'morskoy-razgovornyy-klub' ? null : '2026-10-16'})}
+      </div><aside class="detail-aside direction-sidebar">
       <section class="detail-block" id="contacts"><p class="section-kicker">ПМК «Морской»</p><h2>Адрес и&nbsp;контакты</h2><div class="direction-link-list"><a class="button button-primary" href="${html(club.officialUrl)}" target="_blank" rel="noopener noreferrer">Страница клуба <span aria-hidden="true">↗</span></a><a class="button button-outline" href="${html(club.vkUrl)}" target="_blank" rel="noopener noreferrer">ВКонтакте клуба <span aria-hidden="true">↗</span></a></div>${config.slug === 'morskoy-razgovornyy-klub' ? '' : '<p class="contact-note">Отдельный адрес занятия не&nbsp;подтверждён. Перед визитом уточни место у&nbsp;организаторов.</p>'}${clubLocationMarkup(club,'vasileostrovsky')}</section>
+      </aside><div class="direction-join">
       <section class="detail-block" id="join"><p class="section-kicker">Перед первым занятием</p><h2>Как присоединиться</h2><p>Уточни наличие мест, условия участия и&nbsp;нужна&nbsp;ли предварительная запись в&nbsp;сообществе направления.</p><div class="direction-link-list">${communityLinks}</div>${config.slug === 'morskoy-razgovornyy-klub' ? '' : '<p class="detail-muted">Способ записи пока не&nbsp;подтверждён.</p>'}</section>
+      </div><div class="direction-back">
       <a class="back-card" href="../clubs/morskoy.html">← К&nbsp;направлениям ПМК «Морской»</a>
-    </div></section>`
+    </div></div></section>`
   });
 }
 
@@ -718,14 +735,17 @@ function admiralteetsDirectionDetail(config) {
     description:`${config.activity} в КЮМ «Адмиралтеец»: сведения о направлении, расписание, адрес и контакты клуба.`,
     base:'../',className:'direction-detail-page',footerDistrict:'admiralteysky',
     body:`<section class="subhero detail-subhero"><div class="container"><nav class="breadcrumbs" aria-label="Навигационная цепочка"><a href="../index.html">Главная</a><span>/</span><a href="../districts/admiralteysky.html">Адмиралтейский район</a><span>/</span><a href="../clubs/admiralteysky/${club.slug}.html">КЮМ «Адмиралтеец»</a><span>/</span><span>${text(config.activity)}</span></nav><p class="section-kicker">${text(config.label)} · КЮМ «Адмиралтеец»</p><h1>${text(config.activity)}</h1><p class="subhero-lead">${text(config.activity)} в&nbsp;КЮМ «Адмиралтеец».${activityPage?.specialist ? ` Специалист: ${text(activityPage.specialist)}` : ''}</p></div></section>
-    <section class="section direction-content"><div class="container direction-stack">
+    <section class="section direction-content"><div class="container detail-grid direction-layout"><div class="detail-main direction-main">
       ${activityContentForClub({club, clubHref:`../clubs/admiralteysky/${club.slug}.html`, descriptions:activityDescriptions(activityPage ? [activityPage] : []), communityLinks,
         hasSchedule:Boolean(activityScheduleRecord(club, config.activity).record?.schedule?.length), scheduleMarkup,
         scheduleRecords:[activityScheduleRecord(club, config.activity).record]})}
+      </div><aside class="detail-aside direction-sidebar">
       <section class="detail-block" id="contacts"><p class="section-kicker">КЮМ «Адмиралтеец»</p><h2>Адрес и&nbsp;контакты</h2><div class="direction-link-list"><a class="button button-primary" href="${html(club.organizationInfo.site)}" target="_blank" rel="noopener noreferrer">Сайт учреждения <span aria-hidden="true">↗</span></a><a class="button button-outline" href="${html(club.vkUrl)}" target="_blank" rel="noopener noreferrer">ВКонтакте клуба <span aria-hidden="true">↗</span></a></div><p class="contact-note">Это адрес клуба. Место занятия уточни у&nbsp;организаторов.</p>${clubLocationMarkup(club,'admiralteysky')}</section>
+      </aside><div class="direction-join">
       <section class="detail-block" id="join"><p class="section-kicker">Перед первым занятием</p><h2>Как присоединиться</h2><p>Уточни наличие мест и&nbsp;порядок записи у&nbsp;организаторов.</p><div class="direction-link-list"><a class="button button-outline" href="${html(joinUrl)}" target="_blank" rel="noopener noreferrer">${joinLabel} <span aria-hidden="true">↗</span></a>${directionLeader ? `<a class="button button-outline" href="${html(directionLeader.profileUrl)}" target="_blank" rel="noopener noreferrer">Руководитель направления <span aria-hidden="true">↗</span></a>` : ''}</div><p class="detail-muted">Способ записи пока не&nbsp;подтверждён.</p></section>
+      </div><div class="direction-back">
       <a class="back-card" href="../clubs/admiralteysky/${club.slug}.html">← К&nbsp;направлениям клуба</a>
-    </div></section>`
+    </div></div></section>`
   });
 }
 
@@ -845,15 +865,18 @@ function catalogActivityDetail(club, activity, index) {
     description:`${activity} в клубе ${club.name}. Адрес, контакты и расписание при наличии подтверждённых данных.`,
     base:'../',className:'direction-detail-page',footerDistrict:district,
     body:`<section class="subhero detail-subhero"><div class="container"><nav class="breadcrumbs" aria-label="Навигационная цепочка"><a href="../index.html">Главная</a><span>/</span><a href="../districts/${district}.html">${text(districtName)} район</a><span>/</span><a href="${clubHref}">${text(club.name)}</a><span>/</span><span>${text(activity)}</span></nav><p class="section-kicker">${text(club.name)} · направление</p><h1>${text(activity)}</h1><p class="subhero-lead">Занятие в&nbsp;клубе «${text(club.name)}». Уточни действующий набор и&nbsp;условия участия у&nbsp;организатора.</p></div></section>
-    <section class="section direction-content"><div class="container direction-stack">
+    <section class="section direction-content"><div class="container detail-grid direction-layout"><div class="detail-main direction-main">
       ${club.temporarilyClosed ? `<div class="detail-alert"><strong>Клуб закрыт на&nbsp;капитальный ремонт</strong><p>${text(club.note??'Уточни дату открытия у центра.')}</p></div>` : ''}
       ${activityContentForClub({club, clubHref, descriptions:activityDescriptions(activityPages), communityLinks,
         hasSchedule:Boolean(activityScheduleRecord(club, activity).record?.schedule?.length), scheduleMarkup:activityScheduleTable(club, activity, index),
         scheduleRecords:[activityScheduleRecord(club, activity).record]})}
+      </div><aside class="detail-aside direction-sidebar">
       <section class="detail-block" id="contacts"><p class="section-kicker">${text(club.name)}</p><h2>Адрес и&nbsp;контакты</h2>${contactLinks ? `<div class="direction-link-list">${contactLinks}</div>` : '<p>Прямые ссылки на&nbsp;клуб пока не&nbsp;указаны. Адрес площадки приведён ниже.</p>'}${contactEmail(email)}${club.sourceUrl && club.sourceUrl !== siteUrl ? `<p class="detail-muted">Список направлений: <a href="${html(club.sourceUrl)}" target="_blank" rel="noopener noreferrer">открытый источник ↗</a></p>` : ''}${clubLocationMarkup(club, district)}</section>
+      </aside><div class="direction-join">
       <section class="detail-block" id="join"><p class="section-kicker">Перед первым занятием</p><h2>Как присоединиться</h2>${club.ageConditions ? `<p class="detail-muted">Бесплатные группы для участников ${club.ageConditions.freeFrom}-${club.ageConditions.freeTo}&nbsp;лет. Время своей группы уточни при&nbsp;записи.</p>` : ''}${conditions.map(item => `<p class="detail-muted">${item.sourceType === 'user_vk_note' ? 'В&nbsp;сведениях сообщества' : item.sourceType === 'user_supplied_vk_text' ? 'В&nbsp;перечне услуг ДМК' : 'В&nbsp;официальном перечне'}: ${text(item.sourceText.replace(/\s+—\s+/g,', ').replace(/[,.]+$/,''))}.${item.sourceUrl?.trim() ? ` <a href="${html(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">Источник условий ↗</a>` : ''}</p>`).join('')}<p>Уточни наличие мест, действующее расписание и&nbsp;порядок записи у&nbsp;организатора.</p>${joinLinks ? `<div class="direction-link-list">${joinLinks}</div>` : `<a class="button button-outline" href="${clubHref}">Открыть страницу клуба <span aria-hidden="true">→</span></a>`}${communityLinks ? '' : contactEmail(email)}</section>
+      </div><div class="direction-back">
       <a class="back-card" href="${clubHref}">← К&nbsp;направлениям клуба</a>
-    </div></section>`
+    </div></div></section>`
   });
 }
 

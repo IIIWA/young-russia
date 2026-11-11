@@ -497,3 +497,13 @@ body{padding-top:var(--site-header-height)}
 .direction-catalog-workspace{margin-top:25px}
 .direction-catalog-workspace .direction-controls.direction-filter-stack{margin-top:0}
 @media(min-width:1000px){.direction-catalog-workspace{display:grid;grid-template-columns:300px minmax(0,1fr);align-items:start;gap:20px}.direction-hero .direction-catalog-workspace .direction-controls.direction-filter-stack{grid-template-columns:minmax(0,1fr);gap:20px;margin:0;max-width:none;padding:18px}.direction-filter-stack .direction-filter-field{grid-template-columns:minmax(0,1fr);gap:7px;align-items:start}.direction-catalog-workspace .direction-explore{margin:0}.direction-catalog-workspace .direction-map-heading{flex-wrap:wrap;row-gap:4px}}
+
+/* Activity detail columns; mobile follows the existing main/contacts/join/back order. */
+.direction-detail-page .direction-layout{grid-template-areas:"main contacts" "join contacts" "back contacts";row-gap:20px}
+.direction-detail-page .direction-main{grid-area:main;min-width:0}
+.direction-detail-page .direction-sidebar{grid-area:contacts;min-width:0}
+.direction-detail-page .direction-join{grid-area:join;min-width:0}
+.direction-detail-page .direction-back{grid-area:back;min-width:0}
+.direction-detail-page .direction-layout .detail-block{margin-bottom:20px}
+.direction-detail-page .direction-layout .detail-block h2{margin-bottom:18px;text-wrap:balance}
+@media(max-width:900px){.direction-detail-page .direction-layout{grid-template-areas:"main" "contacts" "join" "back"}}

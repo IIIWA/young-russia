@@ -13,7 +13,7 @@ export function activityContentMarkup({descriptions = [], communityLinks = '', c
     }).join('')}</section>`
     : '';
   const fallback = !about || !communityLinks || !hasSchedule
-    ? `<section class="detail-block" id="activity-info"><p class="section-kicker">Контакты клуба</p><h2>Уточнить подробности</h2><p>${text(fallbackText)}</p><div class="direction-link-list">${fallbackLinks}</div></section>`
+    ? `<section class="detail-block" id="activity-info"><h2>Уточнить подробности</h2><p>${text(fallbackText)}</p><div class="direction-link-list">${fallbackLinks}</div></section>`
     : '';
   const community = communityLinks
     ? `<section class="detail-block" id="community"><h2>Страницы направления</h2><div class="direction-link-list">${communityLinks}</div>${communityNote}</section>`

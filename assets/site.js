@@ -456,14 +456,14 @@ if (directionResults) {
         const activity = element.querySelector('[data-matched-activity]').textContent;
         const address = element.querySelector('.direction-club-address').textContent;
         const activities = JSON.parse(element.dataset.directionActivities);
-        return `<div><a class="map-balloon-link" style="color:#1d4ed8!important;text-decoration:underline!important" href="${escapeMapHtml(link.getAttribute('href'))}">${escapeMapHtml(link.textContent)}</a><br>${escapeMapHtml(address)}<p style="margin:8px 0"><strong>По&nbsp;выбранному фильтру:</strong> ${escapeMapHtml(activity)}</p>${mapClubActivities(activities, subtopic === 'languages', '../')}${element.dataset.mapProvisional === 'true' ? '<br><small>Точка предварительная</small>' : ''}</div>`;
+        return `<div><a class="map-balloon-link" style="color:#1d4ed8!important;text-decoration:underline!important" href="${escapeMapHtml(element.dataset.clubHref)}">${escapeMapHtml(link.textContent)}</a><br>${escapeMapHtml(address)}<p style="margin:8px 0"><strong>По&nbsp;выбранному фильтру:</strong> ${escapeMapHtml(activity)}</p>${mapClubActivities(activities, subtopic === 'languages', '../')}${element.dataset.mapProvisional === 'true' ? '<br><small>Точка предварительная</small>' : ''}</div>`;
       }).join('<hr>');
       const name = group.map(element => element.querySelector('h3 a').textContent).join(', ');
       const key = `direction-language-${index}`;
       const languageActivities = languageMode ? group.flatMap(element => JSON.parse(element.dataset.directionActivities).filter(activity => activity.subtopics.includes('languages'))) : [];
       const options = languageMode ? directionLanguageTools.languageMarkerOptions(window.ymaps, {name, provisional, languages:directionLanguageTools.activityLanguages(languageActivities)}, key) : {preset:'islands#circleDotIcon',iconColor:provisional ? '#db7819' : '#2545ed'};
       const placemark = new window.ymaps.Placemark(coordinates, {
-        nearbyPairMember: mapPairMember(group.map(element => element.querySelector('h3 a').getAttribute('href'))),
+        nearbyPairMember: mapPairMember(group.map(element => element.dataset.clubHref)),
         balloonContentHeader: group.length === 1 ? escapeMapHtml(group[0].querySelector('h3 a').textContent) : `${group.length} клуба по&nbsp;одному адресу`,
         balloonContentBody: body,
         hintContent: name,
@@ -581,6 +581,8 @@ if (directionResults) {
       const matchedActivity = topic === 'all' ? activities[0] : activities.find(activity => activity.subtopics.some(code => subtopic ? code === subtopic : groupSubtopics.has(code)));
       if (matchedActivity && (!districtSelect.value || element.dataset.district === districtSelect.value)) {
         element.querySelector('[data-matched-activity]').textContent = matchedActivity.label;
+        element.querySelector('h3 a').setAttribute('href', `../${matchedActivity.url}`);
+        element.querySelector('.direction-club-link').textContent = 'Открыть страницу занятия →';
         element.querySelector('[data-activity-provisional]').hidden = !matchedActivity.provisional;
         matches.push(element);
       }
